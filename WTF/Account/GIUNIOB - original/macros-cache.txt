@@ -1,0 +1,50 @@
+VER 3 0000000000000010 "Aggro" "INV_MISC_QUESTIONMARK"
+/tar Aggrorath
+/cast Misdirection
+/ra Misdirection auf %t! 
+/ra Save the Cheerleader!!! Save the World!!
+END
+VER 3 000000000000001A "distance" "CREATUREPORTRAIT_PORTAL_ISLEOFCONQUESTALLIANCE"
+/console cameradistancemaxfactor 20
+END
+VER 3 000000000000001F "exit" "ACHIEVEMENT_DUNGEON_SIEGEOFNIUZAOTEMPLE"
+/script VehicleExit();
+END
+VER 3 000000000000001E "fetch" "INV_MISC_BONE_01"
+/script VehicleExit();
+/tar Time-Lost
+/cast Fetch3
+END
+VER 3 000000000000000D "klaaxxi" "INV_MISC_QUESTIONMARK"
+/cleartarget [vehicleui]
+/tar [vehicleui] Amber Parasite
+/click OverrideActionBarButton4
+END
+VER 3 0000000000000018 "Laru" "INV_MISC_QUESTIONMARK"
+/tar Himbeerblau
+/cast Misdirection
+/ra Misdirection auf %t! 
+/ra Save the Cheerleader!!! Save the World!!
+END
+VER 3 0000000000000021 "loq" "INV_MISC_QUESTIONMARK"
+/tar loq
+END
+VER 3 0000000000000009 "mount" "ACHIEVEMENT_GUILDPERK_MOUNTUP"
+/castrandom [nomounted, flyable] Ashen Pandaren Phoenix
+/castrandom [nomounted] Spectral Tiger
+/dismount
+/script VehicleExit()
+END
+VER 3 0000000000000014 "mount2" "Ability_Mount_GyrocoptorElite"
+/castrandom [nomounted, noflyable]Spectral Tiger; [nomounted, flyable] Crimson Pandaren Phoenix
+/dismount [mounted]
+END
+VER 3 0000000000000011 "quest" "INV_Mushroom_02"
+/script SelectGossipAvailableQuest(1);CompleteQuest();GetQuestReward()
+END
+VER 3 0000000000000020 "Siker" "INV_MISC_QUESTIONMARK"
+/tar Sikerimseni
+/cast Misdirection
+/ra Misdirection auf %t! 
+/ra Save the Cheerleader!!! Save the World!!
+END

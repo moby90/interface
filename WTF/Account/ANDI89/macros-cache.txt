@@ -1,0 +1,82 @@
+VER 3 0000000000000019 "Bersi" "RACIAL_TROLL_BERSERK"
+#showtooltip berserker
+/use berserker
+END
+VER 3 0000000000000015 "df" "ABILITY_CREATURE_CURSED_05"
+/2 Suchen noch einen rDD für herausforderungs Daily dann GO
+END
+VER 3 0000000000000008 "dfdf" "SPELL_NATURE_SWIFTNESS"
+#showtooltip Gegenzauber
+/stopcasting
+/cast [modifier:shift, target=focus] Gegenzauber; Gegenzauber  
+END
+VER 3 0000000000000011 "dfdf" "ACHIEVEMENT_GUILDPERK_MOUNTUP"
+/tar general nazgrim
+END
+VER 3 000000000000001E "fluch" "INV_MISC_QUESTIONMARK"
+/target 
+END
+VER 3 000000000000000A "Free" "SPELL_HOLY_SEALOFVALOR"
+#showtooltip hand der freiheit
+/stopcasting
+/cast [modifier:shift, target=focus] hand der freiheit; hand der freiheit
+END
+VER 3 0000000000000010 "GARROSH" "ACHIEVEMENT_GUILDPERK_MRPOPULARITY_RANK2"
+/tar garrosh höllschrei
+END
+VER 3 000000000000000F "kennen wir uns?" "INV_CHEST_CLOTH_23"
+/1 suche für Kennen... Kennen wir uns nicht? Thassarian--zahle 1k g
+END
+VER 3 000000000000001C "lal" "SPELL_HOLY_SENSEUNDEAD"
+/click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
+/click DropDownList1Button2
+END
+VER 3 0000000000000014 "LFH" "SPELL_HOLY_MAGICALSENTRY"
+/1 Die Gilde <equitatus> sucht noch für heute Abend 19:30 Uhr einen Healer ab Gara'jal. Bitte nur ab 470+ und mind. 3/6 exp. GC via arsenal /w me
+END
+VER 3 0000000000000016 "LFR" "ACHIEVEMENT_GUILDPERK_MRPOPULARITY_RANK2"
+/2 Mage (481) sucht MSG oder HdA raid. nur neue id bitte /w me
+END
+VER 3 0000000000000012 "LOL" "ACHIEVEMENT_GUILDPERK_MASSRESURRECTION"
+/2 Mage 475 sucht Gruppe für MSG ab 1/6 oder HDA 
+END
+VER 3 000000000000001A "love" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+/target Amethystspinngling
+/target Trübigel
+/target Tanzender Wasserläufer
+/target Goldfalter
+/target Gefleckter Laubfrosch
+/target Schreinfliege
+/target Unverwüstliche Schabe
+/liebe
+END
+VER 3 000000000000001B "lovee" "Ability_Mage_FieryPayback"
+/target Koralinatter
+/target Kaiserkrabbe
+/target Goldene Zibetkatze
+/target Sumpffiedler
+/target Bergstinktier
+/target Sifangotter
+/liebe
+END
+VER 3 0000000000000013 "Member" "INV_MISC_NOTE_05"
+/2 suche spieler die meinte gildensatzung unterschreiben. 50 g trinkgeld pro unterschrift
+END
+VER 3 0000000000000017 "pvp" "ABILITY_CREATURE_CURSED_05"
+/2 mage full pvp gear bietet cap push. bezahlung: gilden join für die zeit
+END
+VER 3 000000000000000B "Sleven" "SPELL_HOLY_SEALOFVALOR"
+/target moozak
+/wirken hand der freiheit
+/targetlasttarget
+END
+VER 3 000000000000001D "tar" "SPELL_MISC_PETHEAL"
+/tar ba
+END
+VER 3 0000000000000018 "Terrasse" "INV_SCROLL_11"
+/2 mage 489 sucht Toes run für heute abend. habe clearxp
+END
+VER 3 000000000000000E "wave" "INV_SCROLL_11"
+/tar Thassarian
+/wave
+END

@@ -1,0 +1,64 @@
+VER 3 0100000000000015 " " "INV_SWORD_2H_ORGRIMMARRAID_D_01"
+/cast Summon Gargoyle
+/use 10
+END
+VER 3 010000000000000F " " "SPELL_SHADOW_DEMONICEMPATHY"
+#showtooltip
+/cast Death's Advance
+END
+VER 3 0100000000000010 " " "SPELL_SHADOW_DEATHCOIL"
+#showtooltip Death Coil
+/cast Death Coil
+/cast Blood Tap
+END
+VER 3 0100000000000004 " Death Pact" "SPELL_SHADOW_DEATHPACT"
+/showtooltip Death Pact
+/cast Vampiric Blood
+/cast Raise Dead
+/cast Death Pact
+/use Healthstone
+END
+VER 3 010000000000000E " t90" "SPELL_SHADOW_REQUIEM"
+/cast Remorseless Winter
+/cast Desecrated Ground
+/cast Gorefiend's Grasp
+END
+VER 3 010000000000000C "Bone Shield" "ABILITY_DEATHKNIGHT_BONESHIELD"
+/cast Bone Shield
+/use 10
+END
+VER 3 0100000000000003 "Death Strike" "SPELL_DEATHKNIGHT_BUTCHER2"
+#showtooltip
+/cast Death Strike
+/cast Rune Tap
+END
+VER 3 010000000000000B "dennis" "INV_SWORD_2H_PANDARAID_D_01"
+/use 10
+/cast Pillar of Frost
+END
+VER 3 0100000000000011 "dmg" "ABILITY_DEATHKNIGHT_SUMMONGARGOYLE"
+/cast Summon Gargoyle
+/cast Unholy Frenzy
+/use 10
+END
+VER 3 010000000000000A "frost" "SPELL_DEATHKNIGHT_EMPOWERRUNEBLADE2"
+/cast Frost Strike
+/cast Blood Tap
+END
+VER 3 010000000000000D "kick" "SPELL_FROST_ARCTICWINDS"
+/cast [@focus]Mind Freeze
+END
+VER 3 0100000000000009 "kick" "SPELL_SHADOW_SOULLEECH"
+/tar Dark Summoner
+/cast Strangulate
+/targetlasttarget
+END
+VER 3 0100000000000006 "me" "ABILITY_DEATHKNIGHT_AOEDEATHGRIP"
+/tar himbeerblau
+/cast Gorefiend's Grasp
+END
+VER 3 0100000000000008 "Rune Strike" "SPELL_DEATHKNIGHT_DARKCONVICTION"
+#castsequence
+/cast Horn of Winter
+/cast Rune Strike
+END

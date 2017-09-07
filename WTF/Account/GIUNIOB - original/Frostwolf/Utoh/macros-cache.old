@@ -1,0 +1,54 @@
+MACRO 16777252 "_" "Ability_Mount_Raptor"
+/run local z=GetZoneText()if IsFlying()then x=x;elseif IsMounted()then Dismount();else if(z=='Dalaran'or z=='Wintergrasp'or IsFlyableArea()~=1)and GetSubZoneText()~="Krasus' Landing"then CallCompanion("MOUNT",5)else CallCompanion("MOUNT",4)end;end;
+END
+MACRO 16777270 "CH" "Spell_Nature_HealingWaveGreater"
+#showtooltip
+/cast [target=mouseover,exists] Chain Heal
+/cast Chain Heal
+END
+MACRO 16777272 "Cleanse Spirit" "Spell_Nature_MassTeleport"
+#showtooltip
+/cast [target=mouseover,exists] Cleanse Spirit
+/cast Cleanse Spirit
+END
+MACRO 16777267 "Earth Shield" "Spell_Nature_SkinofEarth"
+#showtooltip
+/cast [target=mouseover,exists] Earth Shield
+/cast Earth Shield
+END
+MACRO 16777265 "HEAL" "Ability_Druid_Nourish"
+/cast Tidal Force
+/cast Nature's Swiftness
+END
+MACRO 16777268 "Healing Wave" "Spell_Nature_ResistMagic"
+#showtooltip
+/cast [target=mouseover,exists] Healing Wave
+/cast Healing Wave
+END
+MACRO 16777269 "Lesser HW" "SPELL_NATURE_HEALINGWAY"
+#showtooltip
+/cast [target=mouseover,exists] Healing Surge
+/cast Healing Surge
+END
+MACRO 16777263 "NS" "Spell_Nature_RavenForm"
+/cast Nature's Swiftness
+/cast Greater Healing Wave
+END
+MACRO 16777264 "PEW" "Ability_Druid_SkinTeeth"
+/use Vengeance of the Illidari
+/cast Elemental Mastery
+END
+MACRO 16777266 "PEW" "Spell_Nature_CallStorm"
+/cast Elemental Mastery
+END
+MACRO 16777271 "RT" "Spell_Nature_Riptide"
+#showtooltip
+/cast [target=mouseover,exists] Riptide
+/cast Riptide
+END
+MACRO 16777273 "VuhDoDCShieldData" "130"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO 16777274 "VuhDoDCShieldNames" "130"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Uto[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

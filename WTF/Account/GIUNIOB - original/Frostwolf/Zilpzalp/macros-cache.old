@@ -1,0 +1,13 @@
+MACRO 16777217 "activate" "RACIAL_ORC_BERSERKERSTRENGTH"
+/use Demon Soul
+/use Blood Fury
+END
+MACRO 16777219 "dmg" "SPELL_FIRE_FIREBALL02"
+#showtooltip Soul Fire
+/cast Soulburn
+/cast Soul Fire
+END
+MACRO 16777218 "meta" "SPELL_SHADOW_DEMONFORM"
+#showtooltip Metamorphosis
+/castsequence reset=36 Metamorphosis, Immolation Aura, Immolation Aura
+END

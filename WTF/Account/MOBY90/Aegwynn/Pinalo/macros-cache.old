@@ -1,0 +1,35 @@
+VER 3 0100000000000003 "Beacon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Beacon of Light
+/focus [@ mouseover]
+END
+VER 3 0100000000000004 "cleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Cleanse
+END
+VER 3 0100000000000005 "Divine Light" "SPELL_HOLY_SURGEOFLIGHT"
+#showtooltip
+/cast [@focus,mod:shift] Divine Light
+/cast [nomod] Divine Light
+END
+VER 3 0100000000000006 "Flash of Light" "SPELL_HOLY_FLASHHEAL"
+#showtooltip
+/cast [@focus,mod:shift] Flash of Light
+/cast [nomod] Flash of Light
+END
+VER 3 0100000000000007 "freedom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Hand of Freedom
+END
+VER 3 0100000000000008 "Protection" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Hand of Protection
+END
+VER 3 0100000000000009 "Sacrifice" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Hand of Sacrifice
+END
+VER 3 010000000000000A "Salvation" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover] Hand of Salvation
+END

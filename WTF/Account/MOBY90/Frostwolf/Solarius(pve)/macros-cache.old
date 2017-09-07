@@ -1,0 +1,82 @@
+VER 3 0100000000000022 " regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip Regrowth
+/cast [nomod] Regrowth
+/cast [mod:shift] Nature's Swiftness
+/cast [mod:shift] Regrowth
+END
+VER 3 010000000000001C "cyclone" "SPELL_NATURE_EARTHBIND"
+#showtooltip cyclone
+/run SetCVar("autoUnshift",0)
+/cast nature's swiftness
+/cast cyclone
+/run SetCVar("autoUnshift",1)
+END
+VER 3 0100000000000027 "def" "ABILITY_DRUID_TIGERSROAR"
+#showtooltip Survival Instincts
+/cast Might of Ursoc
+/cast Survival Instincts
+END
+VER 3 010000000000001E "frenzy" "INV_MISC_QUESTIONMARK"
+#showtooltip Frenzied Regeneration
+/cast Enrage
+/cast Frenzied Regeneration
+END
+VER 3 0100000000000019 "heal" "SPELL_NATURE_HEALINGTOUCH"
+#showtooltip Healing Touch
+/run SetCVar("autoUnshift",0)
+/cast nature's swiftness
+/cast healing touch
+/run SetCVar("autoUnshift",1)
+END
+VER 3 0100000000000023 "Healing Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip Healing Touch
+/cast [nomod] Healing Touch
+/cast [mod:shift] Nature's Swiftness
+/cast [mod:shift] Healing Touch
+END
+VER 3 010000000000001D "hibernate" "SPELL_NATURE_SLEEP"
+#showtooltip Hibernate
+/run SetCVar("autoUnshift",0)
+/cast nature's swiftness
+/cast hibernate
+/run SetCVar("autoUnshift",1)
+END
+VER 3 0100000000000024 "innervate" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0100000000000028 "innervate" "INV_MISC_QUESTIONMARK"
+/showtooltip
+/cast [@player] Innervate
+END
+VER 3 0100000000000025 "OMG" "ACHIEVEMENT_GUILDPERK_MASSRESURRECTION"
+/i KICKT DIE ALTE JETZT!!!
+/s KICKT DIE ALTE JETZT!!!
+/y  KICKT DIE ALTE JETZT!!!
+END
+VER 3 010000000000001B "rezz" "SPELL_NATURE_REINCARNATION"
+#showtooltip Nature's Swiftness
+/run SetCVar("autoUnshift",0)
+/cast nature's swiftness
+/cast healing touch
+/run SetCVar("autoUnshift",1)
+END
+VER 3 010000000000001A "root" "SPELL_NATURE_STRANGLEVINES"
+#showtooltip Entangling Roots
+/run SetCVar("autoUnshift",0)
+/cast nature's swiftness
+/cast entangling roots
+/run SetCVar("autoUnshift",1)
+END
+VER 3 010000000000001F "savage" "INV_MISC_QUESTIONMARK"
+#showtooltip Savage Defense
+/cast Enrage
+/cast Savage Defense
+END
+VER 3 0100000000000021 "shroom" "INV_MISC_QUESTIONMARK"
+#showtooltip Wild Mushroom
+/cast [nomod] Wild Mushroom
+/cast [mod:shift] Wild Mushroom: Bloom
+END
+VER 3 0100000000000026 "vigil" "ACHIEVEMENT_ZONE_FERALAS"
+/use Flashing Steel Talisman
+/cast Nature's Vigil
+END

@@ -1,0 +1,7 @@
+changeset:   155:bd7452c4792f
+tag:         v1.11.1
+user:        MMOSimca
+date:        Wed Sep 06 03:36:15 2017 -0400
+summary:     Second breed data update for Patch 7.3.0, featuring mainly pets from Mac'Aree. Also fixed a few long-standing breed omissions with pets such as Dragon Kite, Micronax, Tricorne, and Fledgling Kingfeather.
+
+

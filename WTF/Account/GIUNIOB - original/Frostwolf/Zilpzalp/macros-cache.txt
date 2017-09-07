@@ -1,0 +1,51 @@
+VER 3 010000000000000B " " "ABILITY_MOUNT_FIRERAVENGODMOUNTGREEN"
+#showtooltip
+/cast Demonic Leap
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip Metamorphosis
+/stopcasting
+/cancelaura [channeling] Metamorphosis
+/cast [nochanneling] Metamorphosis
+/script UIErrorsFrame:Clear()
+END
+VER 3 0100000000000004 " " "SPELL_FROST_ARCTICWINDS"
+/use Soulburn
+/cast Soul Swap
+END
+VER 3 0100000000000005 "cds" "INV_KNIFE_1H_DEATHWINGRAID_D_02"
+/use Dark Soul: Misery
+/use Blood Fury
+/use 13
+/use 14
+END
+VER 3 0100000000000009 "def" "ACHIEVEMENT_GUILD_DOCTORISIN"
+/cast Dark Bargain
+/cast Dark Regeneration
+/cast Shadow Bulwark
+/use Healthstone
+END
+VER 3 0100000000000008 "dmg" "SPELL_WARLOCK_DEMONSOUL"
+/cast Blood Fury(Racial)
+/cast Dark Soul: Knowledge
+END
+VER 3 0100000000000003 "dmg" "SPELL_FIRE_FIREBALL02"
+#showtooltip Soul Fire
+/cast Soulburn
+/cast Soul Fire
+END
+VER 3 0100000000000006 "dmg" "RACIAL_TROLL_BERSERK"
+/cast Dark Soul: Instability
+/cast Berserking(Racial)
+END
+VER 3 010000000000000C "dmg orc" "RACIAL_ORC_BERSERKERSTRENGTH"
+/cast Dark Soul: Instability
+/cast Blood Fury(Racial)
+END
+VER 3 0100000000000007 "havoc" "ABILITY_WARLOCK_BANEOFHAVOC"
+/cast [target=mouseover] Havoc
+END
+VER 3 0100000000000002 "meta" "SPELL_SHADOW_DEMONFORM"
+#showtooltip Metamorphosis
+/castsequence reset=36 Metamorphosis, Immolation Aura, Immolation Aura
+END

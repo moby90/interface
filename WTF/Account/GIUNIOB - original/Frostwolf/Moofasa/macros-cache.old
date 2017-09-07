@@ -1,0 +1,73 @@
+MACRO 16777229 "coh" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Circle of Healing; [help] Circle of Healing; Circle of Healing
+END
+MACRO 16777230 "DE" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover] Leap of Faith
+END
+MACRO 16777225 "De" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover] Binding Heal
+END
+MACRO 16777219 "Flash Heal" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Flash Heal; [help] Flash Heal; Flash Heal
+END
+MACRO 16777227 "GH" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Greater Heal; [help] Greater Heal; Greater Heal
+END
+MACRO 16777228 "gs" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,exists] [] Guardian Spirit
+END
+MACRO 16777218 "Heal" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Heal; [help] Heal; Heal
+END
+MACRO 16777237 "judge" "INV_MISC_QUESTIONMARK"
+/assist Rungoo
+/cast Judgement
+END
+MACRO 16777231 "Penance" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Penance; [help] Penance; Penance
+END
+MACRO 16777221 "POH" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Prayer of Healing; [help] Prayer of Healing; Prayer of Healing
+END
+MACRO 16777224 "pom" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Prayer of Mending; [help] Prayer of Mending; Prayer of Mending
+END
+MACRO 16777226 "PS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@troyzilla] Pain Suppression
+/w Troyzilla ROFL ROFL COOLDOWN GO HARD IN THE MOTHERFUCKING PAINT
+END
+MACRO 16777223 "PW:B" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Power Word: Barrier
+END
+MACRO 16777217 "PW:S" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Power Word: Shield; [help] Power Word: Shield; Power Word: Shield
+END
+MACRO 16777220 "Renew" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Renew; [help] Renew; Renew
+END
+MACRO 16777232 "sf" "INV_Misc_QuestionMark"
+#showtooltip Shadowfiend
+/cast [nopet] Shadowfiend
+/petattack
+/cast [harm, pet] Shadowcrawl; [target=pettarget, pet] Shadowcrawl
+END
+MACRO 16777235 "VuhDoDCShieldData" "130"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO 16777236 "VuhDoDCShieldNames" "130"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Lar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -1,0 +1,10 @@
+## Interface: 30200
+## Notes: Crystal UI Texture Pack
+## Title: Crystal UI Texture Pack
+## Author: kagaro
+## X-Category: Artwork
+## Version: 1.0
+## Dependencies: kgPanels
+## DefaultState: enabled
+
+pack.lua

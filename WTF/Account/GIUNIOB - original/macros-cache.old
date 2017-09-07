@@ -1,0 +1,58 @@
+MACRO 5 " " "INV_Misc_QuestionMark"
+/tar obn
+END
+MACRO 2 "/love cata" "Ability_Ambush"
+/tar Olm the
+END
+MACRO 1 "/love northend" "INV_Misc_QuestionMark"
+/tar Arctic Hare
+/tar Fjord Penguin
+/tar Glacier Penguin
+/tar Huge Toad
+/tar Mountain Skunk
+/tar Sholazar Tickbird
+/tar Borean Marmot
+/tar Fjord Turkey
+/tar Grizzly Squirrel
+/tar Lava Crab
+/tar Scalawag Frog
+/tar Tundra Penguin
+/stopmacro [noexists]
+/love
+END
+MACRO 6 "abadon" "INV_Misc_QuestionMark"
+/script PetAbandon()
+END
+MACRO 7 "awd" "INV_Misc_QuestionMark"
+/Cast Deterrence
+/Cast Tame Beast
+END
+MACRO 12 "dad" "SPELL_NATURE_SWIFTNESS"
+/tar Burning Tendons
+END
+MACRO 3 "dps" "Ability_Creature_Cursed_01"
+/tinydps
+END
+MACRO 4 "egg" "Ability_Druid_EclipseOrange"
+/use Egg Basket
+/use Brightly Colored Egg
+END
+MACRO 9 "gondra" "INV_Misc_QuestionMark"
+/tar Gondria
+END
+MACRO 8 "mouseover" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,nodead][help][target=player] Remove Corruption
+END
+MACRO 10 "moveanything" "INV_MISC_QUESTIONMARK"
+/move PlayerPowerBarAlt
+END
+MACRO 13 "multishot" "INV_MISC_QUESTIONMARK"
+/startattack
+/cast Multi-shot
+END
+MACRO 11 "sapper" "RACIAL_ORC_BERSERKERSTRENGTH"
+/tar Twilight Sapper
+/tar Corruption
+/tar Elementium Bolt
+END

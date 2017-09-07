@@ -1,0 +1,4 @@
+MACRO 16777217 "heal" "INV_MISC_QUESTIONMARK"
+/cast Lichborne
+/cast [@player] Death Coil
+END

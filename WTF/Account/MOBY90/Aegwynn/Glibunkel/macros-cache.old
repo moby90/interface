@@ -1,0 +1,23 @@
+MACRO 16777223 "focus" "INV_AXE_02"
+/focus
+END
+MACRO 16777222 "fok" "INV_MISC_QUESTIONMARK"
+#showtooltip Fan of Knives
+/startattack
+/equip <name of your throwing weapon>
+/cast Fan of Knives
+END
+MACRO 16777220 "rs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Revealing Strike
+END
+MACRO 16777219 "ss" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Sinister Strike
+END
+MACRO 16777221 "tott" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Tricks of the Trade
+END
