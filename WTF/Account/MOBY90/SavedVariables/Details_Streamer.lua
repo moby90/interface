@@ -8,9 +8,9 @@ Details_StreamerDB = {
 		["Ziltik - Frostwolf"] = "Laru - Frostwolf",
 		["Solarius - Frostwolf"] = "Laru - Frostwolf",
 		["Himbeerblau - Frostwolf"] = "Laru - Frostwolf",
-		["Laruchan - Frostwolf"] = "Laru - Frostwolf",
-		["Taobaibai - Frostwolf"] = "Laru - Frostwolf",
 		["Toxiquak - Frostwolf"] = "Laru - Frostwolf",
+		["Taobaibai - Frostwolf"] = "Laru - Frostwolf",
+		["Laruchan - Frostwolf"] = "Laru - Frostwolf",
 		["Laru - Frostwolf"] = "Laru - Frostwolf",
 	},
 	["profiles"] = {
@@ -41,9 +41,28 @@ Details_StreamerDB = {
 			["row_texture"] = "Details Serenity",
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["enabled"] = false,
 			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["y"] = 4.577636718750e-005,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -55,26 +74,7 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
-			["use_spark"] = true,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["y"] = 4.577636718750e-005,
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["point"] = "CENTER",
 			["row_height"] = 20,
 			["scale"] = 1,

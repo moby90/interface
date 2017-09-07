@@ -2050,6 +2050,770 @@ Blizzard_Console_SavedVars = {
 			"Weather changed to 1, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [512]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [513]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [514]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [515]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [516]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [517]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [518]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [519]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [520]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [521]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [522]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [523]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [524]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [525]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [526]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [527]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [528]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [529]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [530]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [531]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [532]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [533]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [534]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [535]
+		{
+			"Weather changed to 2, intensity 0.150000\n", -- [1]
+			0, -- [2]
+		}, -- [536]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [537]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [538]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [539]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [540]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [541]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [542]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [543]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [544]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [545]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [546]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [547]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [548]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [549]
+		{
+			"Weather changed to 2, intensity 0.150000\n", -- [1]
+			0, -- [2]
+		}, -- [550]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [551]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [552]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [553]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [554]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [555]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [556]
+		{
+			"Weather changed to 2, intensity 0.150000\n", -- [1]
+			0, -- [2]
+		}, -- [557]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [558]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [559]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [560]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [561]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [562]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [563]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [564]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [565]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [566]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [567]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [568]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [569]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [570]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [571]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [572]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [573]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [574]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [575]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [576]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [577]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [578]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [579]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [580]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [581]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [582]
+		{
+			"Weather changed to 3, intensity 1.000000\n", -- [1]
+			0, -- [2]
+		}, -- [583]
+		{
+			"Weather changed to 3, intensity 1.000000\n", -- [1]
+			0, -- [2]
+		}, -- [584]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [585]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [586]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [587]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [588]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [589]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [590]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [591]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [592]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [593]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [594]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [595]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [596]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [597]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [598]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [599]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [600]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [601]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [602]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [603]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [604]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [605]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [606]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [607]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [608]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [609]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [610]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [611]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [612]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [613]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [614]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [615]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [616]
+		{
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			0, -- [2]
+		}, -- [617]
+		{
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			0, -- [2]
+		}, -- [618]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [619]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [620]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [621]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [622]
+		{
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			0, -- [2]
+		}, -- [623]
+		{
+			"Proficiency in item class 2 set to 0x0000000085", -- [1]
+			0, -- [2]
+		}, -- [624]
+		{
+			"Proficiency in item class 2 set to 0x000000008d", -- [1]
+			0, -- [2]
+		}, -- [625]
+		{
+			"Proficiency in item class 2 set to 0x000000009d", -- [1]
+			0, -- [2]
+		}, -- [626]
+		{
+			"Proficiency in item class 2 set to 0x000000019d", -- [1]
+			0, -- [2]
+		}, -- [627]
+		{
+			"Proficiency in item class 2 set to 0x000000059d", -- [1]
+			0, -- [2]
+		}, -- [628]
+		{
+			"Proficiency in item class 2 set to 0x00000005bd", -- [1]
+			0, -- [2]
+		}, -- [629]
+		{
+			"Proficiency in item class 2 set to 0x00000005bf", -- [1]
+			0, -- [2]
+		}, -- [630]
+		{
+			"Proficiency in item class 2 set to 0x00000085bf", -- [1]
+			0, -- [2]
+		}, -- [631]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [632]
+		{
+			"Proficiency in item class 2 set to 0x000000c5bf", -- [1]
+			0, -- [2]
+		}, -- [633]
+		{
+			"Proficiency in item class 2 set to 0x000004c5bf", -- [1]
+			0, -- [2]
+		}, -- [634]
+		{
+			"Proficiency in item class 2 set to 0x000004c5ff", -- [1]
+			0, -- [2]
+		}, -- [635]
+		{
+			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			0, -- [2]
+		}, -- [636]
+		{
+			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			0, -- [2]
+		}, -- [637]
+		{
+			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			0, -- [2]
+		}, -- [638]
+		{
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			0, -- [2]
+		}, -- [639]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [640]
+		{
+			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
+			0, -- [2]
+		}, -- [641]
+		{
+			"Proficiency in item class 2 set to 0x000004e5ff", -- [1]
+			0, -- [2]
+		}, -- [642]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [643]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [644]
+		{
+			"Time set to 9/8/2017 (Fri) 0:14", -- [1]
+			0, -- [2]
+		}, -- [645]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [646]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [647]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [648]
+		{
+			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			0, -- [2]
+		}, -- [649]
+		{
+			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			0, -- [2]
+		}, -- [650]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [651]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [652]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [653]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [654]
+		{
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			0, -- [2]
+		}, -- [655]
+		{
+			"Proficiency in item class 2 set to 0x0000000091", -- [1]
+			0, -- [2]
+		}, -- [656]
+		{
+			"Proficiency in item class 2 set to 0x0000000191", -- [1]
+			0, -- [2]
+		}, -- [657]
+		{
+			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
+			0, -- [2]
+		}, -- [658]
+		{
+			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
+			0, -- [2]
+		}, -- [659]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [660]
+		{
+			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
+			0, -- [2]
+		}, -- [661]
+		{
+			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			0, -- [2]
+		}, -- [662]
+		{
+			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			0, -- [2]
+		}, -- [663]
+		{
+			"Proficiency in item class 2 set to 0x00001041f3", -- [1]
+			0, -- [2]
+		}, -- [664]
+		{
+			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			0, -- [2]
+		}, -- [665]
+		{
+			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			0, -- [2]
+		}, -- [666]
+		{
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			0, -- [2]
+		}, -- [667]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [668]
+		{
+			"Proficiency in item class 2 set to 0x00001041f3", -- [1]
+			0, -- [2]
+		}, -- [669]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [670]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [671]
+		{
+			"Time set to 9/8/2017 (Fri) 0:14", -- [1]
+			0, -- [2]
+		}, -- [672]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [673]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [674]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [675]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [676]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [677]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [678]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [679]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [680]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [681]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [682]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [683]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [684]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [685]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [686]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [687]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [688]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [689]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [690]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [691]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [692]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [693]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [694]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [695]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [696]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [697]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [698]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [699]
+		{
+			"[GlueLogin] Explicitly disconnecting from realm server", -- [1]
+			0, -- [2]
+		}, -- [700]
+		{
+			"NetClient::HandleDisconnect()", -- [1]
+			0, -- [2]
+		}, -- [701]
+		{
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			0, -- [2]
+		}, -- [702]
+		{
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
+			0, -- [2]
+		}, -- [703]
 	},
 	["height"] = 300.000091552734,
 	["fontHeight"] = 14,
