@@ -309,12 +309,12 @@ CliqueDB3 = {
 					},
 				}, -- [1]
 				{
-					["spell"] = "Lay on Hands",
-					["key"] = "J",
+					["spell"] = "Blessing of Sacrifice",
+					["key"] = "SHIFT-W",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135928,
+					["icon"] = 135966,
 					["type"] = "spell",
 				}, -- [2]
 				{
@@ -327,21 +327,21 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [3]
 				{
-					["spell"] = "Blessing of Sacrifice",
-					["key"] = "SHIFT-W",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135966,
-					["type"] = "spell",
-				}, -- [4]
-				{
 					["spell"] = "Beacon of Faith",
 					["key"] = "SHIFT-Q",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 1030095,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Lay on Hands",
+					["key"] = "J",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
 					["type"] = "spell",
 				}, -- [5]
 				{
@@ -363,15 +363,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [7]
 				{
-					["spell"] = "Holy Light",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135981,
-					["type"] = "spell",
-				}, -- [8]
-				{
 					["spell"] = "Beacon of Light",
 					["key"] = "Q",
 					["sets"] = {
@@ -379,7 +370,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 236247,
 					["type"] = "spell",
-				}, -- [9]
+				}, -- [8]
 				{
 					["spell"] = "Holy Shock",
 					["key"] = "BUTTON1",
@@ -387,6 +378,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 135972,
+					["type"] = "spell",
+				}, -- [9]
+				{
+					["spell"] = "Holy Light",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135981,
 					["type"] = "spell",
 				}, -- [10]
 				{

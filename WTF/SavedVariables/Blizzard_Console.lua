@@ -1,7 +1,6 @@
 
 Blizzard_Console_SavedVars = {
 	["version"] = 3,
-	["height"] = 300.000091552734,
 	["messageHistory"] = {
 		{
 			"Sorting particles normally.", -- [1]
@@ -1523,9 +1522,538 @@ Blizzard_Console_SavedVars = {
 			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"false\"", -- [1]
 			0, -- [2]
 		}, -- [380]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [381]
+		{
+			"Sorting particles normally.", -- [1]
+			0, -- [2]
+		}, -- [382]
+		{
+			"Detail doodad instancing enabled.", -- [1]
+			0, -- [2]
+		}, -- [383]
+		{
+			"Water detail changed to 2", -- [1]
+			0, -- [2]
+		}, -- [384]
+		{
+			"Ripple detail changed to 1", -- [1]
+			0, -- [2]
+		}, -- [385]
+		{
+			"Reflection mode changed to 0", -- [1]
+			0, -- [2]
+		}, -- [386]
+		{
+			"Reflection downscale changed to 0", -- [1]
+			0, -- [2]
+		}, -- [387]
+		{
+			"Sunshafts quality changed to 2", -- [1]
+			0, -- [2]
+		}, -- [388]
+		{
+			"Refraction mode changed to 2", -- [1]
+			0, -- [2]
+		}, -- [389]
+		{
+			"Enabling BSP node cache (first time - starting up)", -- [1]
+			0, -- [2]
+		}, -- [390]
+		{
+			"WorldPoolUsage must be stream, dynamic or static.", -- [1]
+			0, -- [2]
+		}, -- [391]
+		{
+			"CVar 'worldPoolUsage' failed validation for its initial value.", -- [1]
+			0, -- [2]
+		}, -- [392]
+		{
+			"Alpha map bit depth set to 8bit on restart.", -- [1]
+			0, -- [2]
+		}, -- [393]
+		{
+			"Hardware PCF enabled.", -- [1]
+			0, -- [2]
+		}, -- [394]
+		{
+			"Projected textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [395]
+		{
+			"Texture cache size set to 512MB.", -- [1]
+			0, -- [2]
+		}, -- [396]
+		{
+			"Shadow mode changed to 3 - 3 band dynamic shadows, 2048", -- [1]
+			0, -- [2]
+		}, -- [397]
+		{
+			"Shadow texture size changed to 2048.", -- [1]
+			0, -- [2]
+		}, -- [398]
+		{
+			"Soft shadows changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [399]
+		{
+			"SSAO mode set to 3", -- [1]
+			0, -- [2]
+		}, -- [400]
+		{
+			"SSAO distance value set to 100.000000", -- [1]
+			0, -- [2]
+		}, -- [401]
+		{
+			"SSAO blur set to 2", -- [1]
+			0, -- [2]
+		}, -- [402]
+		{
+			"Depth Based Opacity Enabled", -- [1]
+			0, -- [2]
+		}, -- [403]
+		{
+			"SkyCloudLOD set to 0", -- [1]
+			0, -- [2]
+		}, -- [404]
+		{
+			"Terrain mip level changed to 0.", -- [1]
+			0, -- [2]
+		}, -- [405]
+		{
+			"Outline mode changed to 2", -- [1]
+			0, -- [2]
+		}, -- [406]
+		{
+			"LightBuffer mode changed to 2", -- [1]
+			0, -- [2]
+		}, -- [407]
+		{
+			"Physics interaction level changed to 1", -- [1]
+			0, -- [2]
+		}, -- [408]
+		{
+			"Render scale changed to 1", -- [1]
+			0, -- [2]
+		}, -- [409]
+		{
+			"Resample quality changed to 0", -- [1]
+			0, -- [2]
+		}, -- [410]
+		{
+			"MSAA disabled", -- [1]
+			0, -- [2]
+		}, -- [411]
+		{
+			"MSAA for alpha-test enabled.", -- [1]
+			0, -- [2]
+		}, -- [412]
+		{
+			"Component texture lod changed to 0", -- [1]
+			0, -- [2]
+		}, -- [413]
+		{
+			"Component texture lod changed to 0", -- [1]
+			0, -- [2]
+		}, -- [414]
+		{
+			"World preload object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [415]
+		{
+			"World load object sort enabled.", -- [1]
+			0, -- [2]
+		}, -- [416]
+		{
+			"World preload non critical enabled.", -- [1]
+			0, -- [2]
+		}, -- [417]
+		{
+			"World preload high res textures enabled.", -- [1]
+			0, -- [2]
+		}, -- [418]
+		{
+			"Full memory crash dump disabled", -- [1]
+			0, -- [2]
+		}, -- [419]
+		{
+			"Error display disabled", -- [1]
+			0, -- [2]
+		}, -- [420]
+		{
+			"Error display shown", -- [1]
+			0, -- [2]
+		}, -- [421]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [422]
+		{
+			"Displaying errors through fatal errors", -- [1]
+			0, -- [2]
+		}, -- [423]
+		{
+			"Now filtering: all messages", -- [1]
+			0, -- [2]
+		}, -- [424]
+		{
+			"FFX: Anti Aliasing Mode disabled", -- [1]
+			0, -- [2]
+		}, -- [425]
+		{
+			"FFX: Color Blind Test Mode Disabled", -- [1]
+			0, -- [2]
+		}, -- [426]
+		{
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			0, -- [2]
+		}, -- [427]
+		{
+			"[GlueLogin] Resetting", -- [1]
+			0, -- [2]
+		}, -- [428]
+		{
+			"[IBN_Login] Initializing", -- [1]
+			0, -- [2]
+		}, -- [429]
+		{
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			0, -- [2]
+		}, -- [430]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [431]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [432]
+		{
+			"[GlueLogin] Waiting for server response.", -- [1]
+			0, -- [2]
+		}, -- [433]
+		{
+			"[GlueLogin] Logon complete.", -- [1]
+			0, -- [2]
+		}, -- [434]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [435]
+		{
+			"[IBN_Login] Requesting realm list ticket", -- [1]
+			0, -- [2]
+		}, -- [436]
+		{
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [437]
+		{
+			"[GlueLogin] Waiting for realm list.", -- [1]
+			0, -- [2]
+		}, -- [438]
+		{
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [439]
+		{
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"2\"", -- [1]
+			0, -- [2]
+		}, -- [440]
+		{
+			"[GlueLogin] Realm list ready.", -- [1]
+			0, -- [2]
+		}, -- [441]
+		{
+			"[IBN_Login] Joining realmsubRegion=\"3-101-89\" realmAddress=\"3-2-39\"", -- [1]
+			0, -- [2]
+		}, -- [442]
+		{
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [443]
+		{
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			0, -- [2]
+		}, -- [444]
+		{
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			0, -- [2]
+		}, -- [445]
+		{
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [446]
+		{
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			0, -- [2]
+		}, -- [447]
+		{
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			0, -- [2]
+		}, -- [448]
+		{
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			0, -- [2]
+		}, -- [449]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [450]
+		{
+			"Texture cache size set to 512MB.", -- [1]
+			0, -- [2]
+		}, -- [451]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [452]
+		{
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
+			0, -- [2]
+		}, -- [453]
+		{
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
+			0, -- [2]
+		}, -- [454]
+		{
+			"Proficiency in item class 2 set to 0x0000000091", -- [1]
+			0, -- [2]
+		}, -- [455]
+		{
+			"Proficiency in item class 2 set to 0x0000000191", -- [1]
+			0, -- [2]
+		}, -- [456]
+		{
+			"Proficiency in item class 2 set to 0x00000001b1", -- [1]
+			0, -- [2]
+		}, -- [457]
+		{
+			"Proficiency in item class 2 set to 0x00000001b3", -- [1]
+			0, -- [2]
+		}, -- [458]
+		{
+			"Proficiency in item class 4 set to 0x0000000021", -- [1]
+			0, -- [2]
+		}, -- [459]
+		{
+			"Proficiency in item class 2 set to 0x00000041b3", -- [1]
+			0, -- [2]
+		}, -- [460]
+		{
+			"Proficiency in item class 2 set to 0x00000041f3", -- [1]
+			0, -- [2]
+		}, -- [461]
+		{
+			"Proficiency in item class 4 set to 0x0000000031", -- [1]
+			0, -- [2]
+		}, -- [462]
+		{
+			"Proficiency in item class 2 set to 0x00001041f3", -- [1]
+			0, -- [2]
+		}, -- [463]
+		{
+			"Proficiency in item class 4 set to 0x0000000039", -- [1]
+			0, -- [2]
+		}, -- [464]
+		{
+			"Proficiency in item class 4 set to 0x000000003d", -- [1]
+			0, -- [2]
+		}, -- [465]
+		{
+			"Proficiency in item class 4 set to 0x000000003f", -- [1]
+			0, -- [2]
+		}, -- [466]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [467]
+		{
+			"Proficiency in item class 2 set to 0x00001041f3", -- [1]
+			0, -- [2]
+		}, -- [468]
+		{
+			"Proficiency in item class 4 set to 0x000000007f", -- [1]
+			0, -- [2]
+		}, -- [469]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [470]
+		{
+			"Time set to 9/7/2017 (Thu) 18:40", -- [1]
+			0, -- [2]
+		}, -- [471]
+		{
+			"Gamespeed set from 0.017 to 0.017", -- [1]
+			0, -- [2]
+		}, -- [472]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [473]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [474]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [475]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [476]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [477]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [478]
+		{
+			"PetBattle Initial Update", -- [1]
+			0, -- [2]
+		}, -- [479]
+		{
+			"   Player 0 Player-3703-04D6FC51  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [480]
+		{
+			"     Slot   0, Species 1178, Health 1400, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [481]
+		{
+			"        abilities : 901, 392, 204,", -- [1]
+			0, -- [2]
+		}, -- [482]
+		{
+			"     Slot   1, Species 1532, Health 1225, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [483]
+		{
+			"        abilities : 1370, 919, 581,", -- [1]
+			0, -- [2]
+		}, -- [484]
+		{
+			"     Slot   2, Species 1211, Health 1237, Level  25, DisplayID 0, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [485]
+		{
+			"        abilities : 921, 364, 919,", -- [1]
+			0, -- [2]
+		}, -- [486]
+		{
+			"   Player 1 0000000000000000  frontPet 0 ", -- [1]
+			0, -- [2]
+		}, -- [487]
+		{
+			"     Slot   0, Species 2111, Health 2192, Level  25, DisplayID 79739, CollarID 0", -- [1]
+			0, -- [2]
+		}, -- [488]
+		{
+			"        abilities : 1968, 1937, 1938,", -- [1]
+			0, -- [2]
+		}, -- [489]
+		{
+			"<waiting for PetBattleReadyToStart command>", -- [1]
+			0, -- [2]
+		}, -- [490]
+		{
+			"---Battle Begin---", -- [1]
+			0, -- [2]
+		}, -- [491]
+		{
+			"  PetSwap P0 PET 0", -- [1]
+			0, -- [2]
+		}, -- [492]
+		{
+			"  PetSwap P1 PET 0", -- [1]
+			0, -- [2]
+		}, -- [493]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [494]
+		{
+			"---Replacements made---", -- [1]
+			0, -- [2]
+		}, -- [495]
+		{
+			"  P0 PET 1 performs PET_SWAP       on P0 PET 2 : () :Ability(-1), Turn(-1), Effect(0), Flags(0)", -- [1]
+			0, -- [2]
+		}, -- [496]
+		{
+			"<waiting for PetBattleInput command>", -- [1]
+			0, -- [2]
+		}, -- [497]
+		{
+			"---BattleFinished: You Won ---", -- [1]
+			0, -- [2]
+		}, -- [498]
+		{
+			"<waiting for PetBattleInput final>", -- [1]
+			0, -- [2]
+		}, -- [499]
+		{
+			"---ClientPetBattleFinished---", -- [1]
+			0, -- [2]
+		}, -- [500]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [501]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [502]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [503]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [504]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [505]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [506]
+		{
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			0, -- [2]
+		}, -- [507]
+		{
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [508]
+		{
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			0, -- [2]
+		}, -- [509]
+		{
+			"World transfer pending...", -- [1]
+			0, -- [2]
+		}, -- [510]
+		{
+			"Got new connection 3", -- [1]
+			0, -- [2]
+		}, -- [511]
+		{
+			"Weather changed to 1, intensity 0.000000\n", -- [1]
+			0, -- [2]
+		}, -- [512]
 	},
-	["isShown"] = false,
+	["height"] = 300.000091552734,
 	["fontHeight"] = 14,
+	["isShown"] = false,
 	["commandHistory"] = {
 	},
 }

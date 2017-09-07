@@ -12,6 +12,8 @@ oRA3DB = {
 		},
 		["ReadyCheck"] = {
 		},
+		["Alerts"] = {
+		},
 		["Difficulty"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -21,8 +23,6 @@ oRA3DB = {
 					["prevRaidDifficulty"] = 15,
 				},
 			},
-		},
-		["Alerts"] = {
 		},
 		["Rings"] = {
 			["profiles"] = {
@@ -71,8 +71,8 @@ oRA3DB = {
 							[62618] = true,
 							[98008] = true,
 							[97462] = true,
-							[871] = true,
 							[2825] = true,
+							[871] = true,
 						},
 					},
 					["displays"] = {

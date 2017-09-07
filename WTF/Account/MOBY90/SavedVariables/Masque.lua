@@ -4,10 +4,7 @@ MasqueDB = {
 		["LibDualSpec-1.0"] = {
 			["char"] = {
 				["Laru - Frostwolf"] = {
-					"Default", -- [1]
-					"Default", -- [2]
-					"Laru_Ret_1.0", -- [3]
-					["enabled"] = true,
+					["enabled"] = false,
 				},
 			},
 		},
@@ -24,7 +21,7 @@ MasqueDB = {
 		["Toxiquak - Frostwolf"] = "Default",
 		["Taobaibai - Frostwolf"] = "Default",
 		["Blaustrumpf - Frostwolf"] = "Default",
-		["Laru - Frostwolf"] = "Default",
+		["Laru - Frostwolf"] = "Laru_Ret_1.0",
 	},
 	["profiles"] = {
 		["Laru_Ret_1.0"] = {
@@ -102,7 +99,6 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_serenity_-_on_cooldown"] = {
-					["Inherit"] = false,
 					["Colors"] = {
 						["Normal"] = {
 							0, -- [1]
@@ -117,6 +113,7 @@ MasqueDB = {
 							1, -- [4]
 						},
 					},
+					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_mirror_image_cd"] = {
@@ -238,6 +235,10 @@ MasqueDB = {
 				["WeakAuras_blood_boil_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_raidcd_aw_rdyy"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Serenity",
 				},
 				["WeakAuras_1_armageddon_rain"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -665,7 +666,6 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_pom_3"] = {
-					["Inherit"] = false,
 					["Colors"] = {
 						["Normal"] = {
 							0, -- [1]
@@ -680,6 +680,7 @@ MasqueDB = {
 							1, -- [4]
 						},
 					},
+					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_shimmer_cd"] = {
@@ -854,8 +855,6 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_devotion_aura_%_2"] = {
-					["Inherit"] = false,
-					["Backdrop"] = true,
 					["Colors"] = {
 						["Gloss"] = {
 							1, -- [1]
@@ -870,6 +869,8 @@ MasqueDB = {
 							1, -- [4]
 						},
 					},
+					["Inherit"] = false,
+					["Backdrop"] = true,
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_holy_avenger_-_on_cooldown_2"] = {
@@ -960,6 +961,10 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_dgd"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_whirlwind_arms_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
@@ -1009,7 +1014,6 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_sanctify_-_not_on_cooldown"] = {
-					["Inherit"] = false,
 					["Colors"] = {
 						["Normal"] = {
 							0, -- [1]
@@ -1024,6 +1028,7 @@ MasqueDB = {
 							1, -- [4]
 						},
 					},
+					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_flourishassist"] = {
@@ -1193,6 +1198,10 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
+				["WeakAuras_raidcd_aw_rdyy_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_neltharion's_fury"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
@@ -1201,7 +1210,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_raidcd_ashbringer"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Serenity",
+				},
 				["WeakAuras_symbold_of_death_"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_cleave_rend"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_procc_heal_iol"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1209,7 +1230,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
+				["WeakAuras_10_illidan_buff"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
 				["WeakAuras_6_-_soul_rot"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_sp_timer"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_procc_divine_pupose_hs"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1217,7 +1250,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_cleave_rend"] = {
+				["WeakAuras_shield_block_2p_"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_runic_brand_purple"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_execute_-_ayala's"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_colossus_smash_wait"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_charge_on_cd_arms"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -1241,31 +1290,31 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_3_-_jagged_abrasion"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_branded_green_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_dark_transformation__back"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_mortal_strike"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_10_illidan_buff"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
 				},
 				["WeakAuras_branded_purple_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_sp_timer"] = {
+				["WeakAuras_procc_light_missing"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_shield_block_2p_"] = {
+				["WeakAuras_frothing_berserker"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_runic_brand_purple"] = {
+				["WeakAuras_horn_of_valor_cast"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1273,15 +1322,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_execute_-_ayala's"] = {
+				["WeakAuras_whirlwind"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_colossus_smash_wait"] = {
+				["WeakAuras_7focused_dreadflame"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_charge_on_cd_arms"] = {
+				["WeakAuras_9_armageddon"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -1289,7 +1338,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_3_-_jagged_abrasion"] = {
+				["WeakAuras_judged"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1301,11 +1350,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_branded_green_2"] = {
-					["Inherit"] = false,
+				["WeakAuras_rend_glow"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
-				["WeakAuras_odyn's_champion"] = {
+				["WeakAuras_heroic_leap__"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1317,7 +1366,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_frothing_berserker"] = {
+				["WeakAuras_devouring_maw"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1329,61 +1378,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Serenity",
 				},
-				["WeakAuras_horn_of_valor_cast"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_whirlwind"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_bte"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_mortal_strike_glow"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_judged"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_heroic_leap_cd_arms"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_rend_glow"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_heroic_leap__"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_devouring_maw"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_rime"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
 				["WeakAuras_tactician_proc"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
-				},
-				["WeakAuras_parasites"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_victory_rush_arms"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_vampiric_blood_cd"] = {
-					["Inherit"] = false,
+				["WeakAuras_mortal_strike_glow"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_warbreaker"] = {
 					["Inherit"] = false,
@@ -1393,7 +1398,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_warbreaker_||a_rms__2"] = {
+				["WeakAuras_heroic_leap_cd_arms"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_horn_of_winter_glow"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1405,6 +1414,46 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
+				["WeakAuras_rime"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_raging_blow_"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_parasites"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_shockwave__"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_rage_of_the_sleeper_ready"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_heal_hs"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_warbreaker_||a_rms__2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_cleave"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_battle_cry_arms"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_moonfire_inactive_feral"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
 				["WeakAuras_shadow_step_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
@@ -1413,7 +1462,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_toxic_blade_uptime"] = {
+				["WeakAuras_odyn's_fury"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1429,7 +1478,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_shockwave__"] = {
+				["WeakAuras_empower_rune_weapon_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1437,15 +1486,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_avatar_timer"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_empower_rune_weapon_back"] = {
+				["WeakAuras_guardian's_breath"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_bladestorm_cd_||_fury_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_howl_of_terror_-_available"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1461,21 +1510,21 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_cleave"] = {
-					["Inherit"] = false,
+				["WeakAuras_overpower"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_blood_boil_2_stacks"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_battle_cry_arms"] = {
+				["WeakAuras_stealth"] = {
+					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
 				},
-				["WeakAuras_moonfire_inactive_feral"] = {
+				["WeakAuras_target_immune"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_divine_steed"] = {
 					["Inherit"] = false,
@@ -1489,7 +1538,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_odyn's_fury"] = {
+				["WeakAuras_6_-_grasping_darkness"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1501,13 +1550,13 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_empower_rune_weapon_cd"] = {
+				["WeakAuras_in_for_the_kill"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_guardian's_breath"] = {
+				["WeakAuras_blood_scent"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_envenom"] = {
 					["Inherit"] = false,
@@ -1517,7 +1566,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_raid_mark_icon"] = {
+				["WeakAuras_death_&_decay_blood_glow"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1525,41 +1574,41 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_death_&_decay_blood_glow"] = {
+				["WeakAuras_7_-_titanic_bulwark"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_frostbitten"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_7_-_titanic_bulwark"] = {
+				["WeakAuras_revenge"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_wild_charge_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_stealth"] = {
+				["WeakAuras_bladestorm_cd_||_arms__2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_target_immune"] = {
+				["WeakAuras_puzzle_rdy"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_6_-_grasping_darkness"] = {
+				["WeakAuras_demonic_circle_-_teleport_cooldown"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bladestorm__"] = {
+				["WeakAuras_branded_yellow_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_blood_scent"] = {
+				["WeakAuras_roll_the_bones_on_"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_shield_slam"] = {
 					["Inherit"] = false,
@@ -1573,7 +1622,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_obliteration_r"] = {
+				["WeakAuras_nightstalker_rupture"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1581,29 +1630,29 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bladestorm_||_arms_2"] = {
+				["WeakAuras_heal_rule"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_colossus_smash_2"] = {
+				["WeakAuras_6_-_crush_mind"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_kingsbane_timer"] = {
+				["WeakAuras_bladestorm__"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_puzzle_rdy"] = {
+				["WeakAuras_lava_lash_no_hh,_p<105"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_survival_instincts_ready"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_demonic_circle_-_teleport_cooldown"] = {
+				["WeakAuras_thrash"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_bt_||_up__2"] = {
 					["Inherit"] = false,
@@ -1613,9 +1662,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_lava_lash_no_hh,_p<105"] = {
+				["WeakAuras_3_-_driven_assault"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["ElvUI_Pet Bar"] = {
 					["Inherit"] = false,
@@ -1625,23 +1674,23 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_branded_yellow_2"] = {
+				["WeakAuras_procc_iol"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 1",
+				},
+				["WeakAuras_cleanse_rdy"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bladestorm_cd_||_arms__2"] = {
-					["Inherit"] = false,
+				["WeakAuras_victory_rush_arms_low"] = {
 					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_roll_the_bones_on_"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_typhoon_ready"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_execute_||_fury_2"] = {
+				["WeakAuras_demon_skin_-_talented_3"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1653,11 +1702,11 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_6_-_crush_mind"] = {
+				["WeakAuras_surge_of_toxins"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_nightstalker_rupture"] = {
+				["WeakAuras_kingsbane_timer"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1665,7 +1714,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_heal_rule"] = {
+				["WeakAuras_garrote_on_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1677,17 +1726,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_savage_roar"] = {
+				["WeakAuras_dancing_rune_weapon_cd_"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_3_-_drenched"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_8_-_shadowy_blades"] = {
+				["WeakAuras_nb_finality"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_beacon"] = {
 					["Inherit"] = false,
@@ -1697,9 +1746,9 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_thrash"] = {
+				["WeakAuras_mfd_ass_"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_sancti"] = {
 					["Inherit"] = false,
@@ -1709,11 +1758,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_procc_iol"] = {
+				["WeakAuras_shadow_step__sin"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 1",
+					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_victory_rush_arms_low"] = {
+				["WeakAuras_8_bursting_dreadflame_2"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -1725,51 +1774,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_mfd_ass_"] = {
+				["WeakAuras_dark_pact_-_active"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_demon_skin_-_talented_3"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_surge_of_toxins"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_garrote_on_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_rune_of_power_2_charges"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_furious_slash_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_nb_finality"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_vial_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_shadow_step__sin"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_boulderfist:_c>0,_no_bf"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_8_bursting_dreadflame_2"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_6_-_sundering_doom"] = {
+				["WeakAuras_execute_||_fury_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1785,11 +1794,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_frothing_berserker_2"] = {
+				["WeakAuras_furious_slash_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_6_-_spear_of_anguish_m"] = {
+				["WeakAuras_procc_faith_missing"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1801,15 +1810,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_focus_glow"] = {
+				["WeakAuras_boulderfist:_c>0,_no_bf"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_orb_on_you"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_volatile_announcer"] = {
+				["WeakAuras_6_-_sundering_doom"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1817,7 +1822,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_expel_light_2"] = {
+				["WeakAuras_sac"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1829,11 +1834,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_frothing_berserker_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_5_black_winds"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_festering_wound"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_orb_of_corrosion"] = {
+				["WeakAuras_focus_glow"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1841,25 +1854,25 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_8_-_black_winds"] = {
+				["WeakAuras_orb_on_you"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_volatile_announcer"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_expel_light_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_rebirth_ready"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_empower_rune_weapon_glow"] = {
+				["WeakAuras_sindragosa's_fury"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_boulderfist:_c>0,_t<=3"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_rake"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_avatar__"] = {
 					["Inherit"] = false,
@@ -1873,19 +1886,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_potion_of_the_old_war_arms_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_9_-_flaming_orb"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_hemo_on_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_rip"] = {
+				["WeakAuras_8_-_black_winds"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
@@ -1901,11 +1902,59 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
+				["WeakAuras_mortal_strike_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_rake"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_9_-_lingering_wail"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_3_-_drenching_waters"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_blood_shield_absorb"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_potion_of_the_old_war_arms_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_ravager"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_battle_cry"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_2_-_unbearable_torment"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_9_-_flaming_orb"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_5_-_tank_alert_burden_of_pain"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_bone_shield"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_bop_rdy"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_9_-_lingering_wail"] = {
+				["WeakAuras_csmash"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1921,9 +1970,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_3_-_drenching_waters"] = {
+				["WeakAuras_rockbiter_no_landslide:_p<=125"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_boulderfist:_c>0,_t>3,_p>115"] = {
 					["Inherit"] = false,
@@ -1941,9 +1990,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_runic_brand_orange"] = {
+				["WeakAuras_7_-_fel_remanence"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_8_-_touch_of_sargeras"] = {
 					["Inherit"] = false,
@@ -1953,11 +2002,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 1",
 				},
-				["WeakAuras_rage_of_the_valarjar"] = {
+				["WeakAuras_2_-_bone_saw"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_blood_shield_absorb"] = {
+				["WeakAuras_summon_gargoyle_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -1973,23 +2022,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_ravager"] = {
+				["WeakAuras_seren"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_2_-_bone_saw"] = {
+				["WeakAuras_counterspell"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_5_-_hydra_shot_soaking"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_csmash"] = {
+				["WeakAuras_mortal_strike_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_storm_bolt_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_remorseless_winter"] = {
+				["WeakAuras_shield_wall"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2001,7 +2050,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bone_shield"] = {
+				["WeakAuras_runic_brand_orange"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2009,9 +2058,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_rockbiter_no_landslide:_p<=125"] = {
+				["WeakAuras_9_-_shadow_reflection:_erupting"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_dark_pact_-_available"] = {
 					["Inherit"] = false,
@@ -2029,7 +2078,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_summon_gargoyle_cd"] = {
+				["WeakAuras_storm_bolt_prot"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2037,15 +2086,14 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_seren"] = {
+				["Bartender4_2"] = {
+					["Inherit"] = false,
+				},
+				["WeakAuras_shield_of_light"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_7_-_unstable_soul"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_mortal_strike_cd"] = {
+				["WeakAuras_storm_bolt_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2057,7 +2105,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_shield_wall"] = {
+				["WeakAuras_outofrange_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2081,15 +2129,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_outofrange_2"] = {
+				["WeakAuras_death_&_decay_blood_na"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_flames_of_sargeras"] = {
+				["WeakAuras_bloodbath_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_heal_bof"] = {
+				["WeakAuras_unholy_strength"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2101,7 +2149,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_stormbolt_cd_2"] = {
+				["WeakAuras_heal_bof"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2109,7 +2157,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_unholy_strength"] = {
+				["Bartender4_MicroMenu"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2117,15 +2165,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_consecration"] = {
+				["WeakAuras_alacrity_sin"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_9_-_shadow_reflection:_erupting"] = {
+				["WeakAuras_3_touch_of_sargeras"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_branded_green"] = {
+				["WeakAuras_divine_protection_rdy"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2133,7 +2181,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_death_&_decay_blood_na"] = {
+				["WeakAuras_fiery_phlegm"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2141,7 +2189,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bloodbath_"] = {
+				["WeakAuras_precise_strikes"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2149,26 +2197,27 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_storm_bolt_prot"] = {
+				["WeakAuras_branded_green"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["Bartender4_2"] = {
+				["WeakAuras_2_-_soul_corruption"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_5_-befouling_ink"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_shield_of_light"] = {
+				["WeakAuras_pillar_of_frost"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bilewater_redox"] = {
+				["WeakAuras_9_-_bursting_dreadflame"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_mana_tap_-_5s_warning"] = {
+				["WeakAuras_stormbolt_cd_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2180,7 +2229,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_rend"] = {
+				["WeakAuras_9_-_illidan_sight"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2196,7 +2245,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_rb_||_up_2"] = {
+				["WeakAuras_consecration"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2224,20 +2273,39 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_9_-_illidan_sight"] = {
+				["WeakAuras_phoenix's_flames_glow"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_bloodthirst_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_alacrity_sin"] = {
+				["WeakAuras_hidden_blade"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_victory_rush_arms_base"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_divine_shield_rdy"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_blood_boil"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_dragon_roar"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_alacrity__"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_sancti_2"] = {
-					["Inherit"] = false,
 					["Colors"] = {
 						["Normal"] = {
 							0, -- [1]
@@ -2252,25 +2320,6 @@ MasqueDB = {
 							1, -- [4]
 						},
 					},
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_divine_shield_rdy"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_7___cleansing_protocol"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_dragon_roar"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_alacrity__"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_3_touch_of_sargeras"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
@@ -2278,17 +2327,31 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_pillar_of_frost"] = {
+				["WeakAuras_serenity_-_on_cooldown_2"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["Pushed"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+					},
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_mind_freeze_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_9_-_bursting_dreadflame"] = {
+				["WeakAuras_8_-_cleansing_protocol"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_one_against_many"] = {
 					["Inherit"] = false,
@@ -2302,9 +2365,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_divine_protection_rdy"] = {
+				["WeakAuras_growl_ready"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_summon_gargoyle"] = {
 					["Inherit"] = false,
@@ -2314,11 +2377,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_9_-_choking_shadow"] = {
+				["WeakAuras_salty_spittle"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_finality:_nightblade"] = {
+				["WeakAuras_9_-_darkness_of_a_thousand_souls"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2326,27 +2389,13 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_2_-_soul_corruption"] = {
+				["WeakAuras_6_-_tormented_cries"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_serenity_-_on_cooldown_2"] = {
+				["WeakAuras_finality:_nightblade"] = {
 					["Inherit"] = false,
-					["Colors"] = {
-						["Normal"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-						["Pushed"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-					},
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_haunt_-_cd"] = {
 					["Inherit"] = false,
@@ -2356,19 +2405,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_5_-_slicing_tornado"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_victory_rush_arms_base"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_blood_boil"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
 				["WeakAuras_branded_orange"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_nightmare_blades"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_rb_||_up_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_shield_block_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2376,9 +2425,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_bonestorm"] = {
+				["WeakAuras_boulderfist:_c>0,_t>3,_p<=115"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_runic_brand_yellow"] = {
 					["Inherit"] = false,
@@ -2392,19 +2441,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_4_-_lunar_beacon"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_battle_cry_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
 				["WeakAuras_rune_of_power_cd"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_8_-_cleansing_protocol"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
@@ -2412,11 +2449,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_growl_ready"] = {
+				["WeakAuras_death_&_decay_cd_blood"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_dark_transformation_"] = {
+				["WeakAuras_7___cleansing_protocol"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_summon_doomguard_-_cd"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_5_-_delicious_bufferfish"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2424,19 +2469,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_salty_spittle"] = {
+				["WeakAuras_blazing_soul"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_mfd__outlaw_"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_holy_avenger_-_not_on_cooldown_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_shockwave_prot"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_2_-_calcified_quills"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_9_-_darkness_of_a_thousand_souls"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_6_-_tormented_cries"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2448,15 +2497,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_blood_mirror"] = {
+				["WeakAuras_bristling_fur_cd"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_2_-_echoing_anguish"] = {
+				["WeakAuras_typhoon_cd"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_nightmare_blades"] = {
+				["WeakAuras_mortal_coil_-_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2464,7 +2513,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_typhoon_cd"] = {
+				["WeakAuras_cinderstorm_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
@@ -2480,9 +2529,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_cinderstorm_cd"] = {
+				["WeakAuras_9_-_shadow_reflection_adds"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_soul_of_the_forest_placeholder"] = {
 					["Inherit"] = false,
@@ -2500,11 +2549,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_5_-_delicious_bufferfish"] = {
+				["WeakAuras_blast_wave"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_howl_of_terror_-_cd"] = {
+				["WeakAuras_dark_transformation_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2512,33 +2561,33 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_iftk_2"] = {
+				["WeakAuras_howl_of_terror_-_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_holy_avenger_-_not_on_cooldown_2"] = {
+				["WeakAuras_toxic_chitin"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_6_-_doomed_sundering_corporeal"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_shockwave_prot"] = {
+				["WeakAuras_blood_mirror"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_survival_instincts_cd"] = {
+				["WeakAuras_07_titanic_bulwark_icon"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_horn_of_winter_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_5_-_jaws_from_the_deep"] = {
+				["WeakAuras_thrash_up"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_shattered_defenses"] = {
 					["Inherit"] = false,
@@ -2548,23 +2597,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_devotion_aura_%"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_mortal_coil_-_cd"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_virulent_plague_none"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_blast_wave"] = {
+				["WeakAuras_kindling"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_runic_brand_blue"] = {
+				["WeakAuras_bladestorm_up_||fury_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_cinderstorm"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_rune_tap"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_warbreaker_cd_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2572,9 +2621,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_curse_of_the_dreadblades"] = {
+				["WeakAuras_fire_blast_glow"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_slam_na"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -2584,23 +2633,37 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_toxic_chitin"] = {
+				["WeakAuras_incarnation:_guardian_of_ursoc_ready"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_pummel_arms_glow"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_rockbiter_landslide:_no_ls"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
 				["WeakAuras_wild_charge_ready"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_bladestorm_up_||fury_2"] = {
+				["WeakAuras_serenity_-_not_on_cooldown_2"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["Pushed"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+					},
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_5_-_jaws_from_the_deep"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2608,15 +2671,29 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_07_titanic_bulwark_icon"] = {
+				["WeakAuras_adrenaline_rush_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_thrash_up"] = {
+				["WeakAuras_serenity_-_not_on_cooldown"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["Pushed"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+					},
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_cinderstorm"] = {
+				["WeakAuras_cinderstorm_use_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
@@ -2636,23 +2713,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_warbreaker_cd_2"] = {
+				["WeakAuras_runic_brand_blue"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_fire_blast_glow"] = {
+				["WeakAuras_virulent_plague_none"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_incarnation:_guardian_of_ursoc_ready"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_heal_bov"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_cinderstorm_use_2"] = {
+				["WeakAuras_curse_of_the_dreadblades"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_rockbiter_landslide:_no_ls"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
@@ -2660,55 +2737,27 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_serenity_-_not_on_cooldown"] = {
+				["WeakAuras_frost_nova_cd"] = {
 					["Inherit"] = false,
-					["Colors"] = {
-						["Normal"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-						["Pushed"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-					},
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_blooddrinker_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_adrenaline_rush_"] = {
+				["WeakAuras_devotion_aura_%"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_serenity_-_not_on_cooldown_2"] = {
+				["WeakAuras_survival_instincts_cd"] = {
 					["Inherit"] = false,
-					["Colors"] = {
-						["Normal"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-						["Pushed"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-					},
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_6_-_soulbind"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rune_tap"] = {
+				["WeakAuras_rampage_master__2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2716,17 +2765,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_frost_nova_cd"] = {
+				["WeakAuras_iftk_2"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_6_-_shattering_scream"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_kindling"] = {
+				["WeakAuras_battle_cry_"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_bladestorm_arms_glow"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -2736,7 +2785,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_rampage_master__2"] = {
+				["WeakAuras_2_-_echoing_anguish"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2748,7 +2797,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_9_-_shadow_reflection_adds"] = {
+				["WeakAuras_avatar_timer_3"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2760,31 +2809,31 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bristling_fur_cd"] = {
+				["WeakAuras_bonestorm"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_8_-_desolate"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_mfd__outlaw_"] = {
+				["WeakAuras_4_-_lunar_beacon"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_blazing_soul"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_avatar_timer_3"] = {
+				["WeakAuras_9_-_choking_shadow"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_summon_doomguard_-_cd"] = {
+				["WeakAuras_mana_tap_-_5s_warning"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_death_&_decay_cd_blood"] = {
+				["WeakAuras_bilewater_redox"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_5_-_slicing_tornado"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2792,11 +2841,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_boulderfist:_c>0,_t>3,_p<=115"] = {
+				["WeakAuras_phantom_singularity_-_dot"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_shield_block_cd"] = {
+				["WeakAuras_flames_of_sargeras"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2820,27 +2869,27 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_phoenix's_flames_glow"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_precise_strikes"] = {
+				["WeakAuras_rend"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_raidcd_am_rdy"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Serenity",
 				},
 				["WeakAuras_pummel_arms_cd"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_phantom_singularity_-_dot"] = {
+				["WeakAuras_skull_bash_cd"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_hidden_blade"] = {
+				["WeakAuras_rockbiter_landslide:_t<=3"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_fiery_phlegm"] = {
+				["WeakAuras_phantom_singularity_-_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2868,19 +2917,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_skull_bash_cd"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["Bartender4_MicroMenu"] = {
+				["WeakAuras_rage_of_the_valarjar"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rockbiter_landslide:_t<=3"] = {
+				["WeakAuras_rebirth_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_phantom_singularity_-_cd"] = {
+				["WeakAuras_7_-_unstable_soul"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_valarjar's_bond"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2904,13 +2953,13 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_valarjar's_bond"] = {
+				["WeakAuras_soul_leech_-_active"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rebirth_cd"] = {
+				["WeakAuras_remorseless_winter"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_summon_doomguard_-_usable"] = {
 					["Inherit"] = false,
@@ -2920,7 +2969,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_5_-_hydra_shot_soaking"] = {
+				["WeakAuras_4_-_lunar_fire"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2928,7 +2977,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_soul_leech_-_active"] = {
+				["WeakAuras_remorseless_winter_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2940,19 +2989,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_7_-_fel_remanence"] = {
+				["WeakAuras_7_-_spontaneous_fragmentation"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_4_-_lunar_fire"] = {
+				["WeakAuras_hemo_on_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_counterspell"] = {
+				["WeakAuras_rip"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_remorseless_winter_cd"] = {
+				["WeakAuras_4_-_twilight_glaive"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2960,23 +3009,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_2_-_unbearable_torment"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_7_-_spontaneous_fragmentation"] = {
+				["WeakAuras_boulderfist:_c>0,_t<=3"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_empower_rune_weapon_glow"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_wraith_walk"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_battle_cry"] = {
+				["WeakAuras_6_-_sundering_doom_shadow"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_4_-_twilight_glaive"] = {
+				["WeakAuras_orb_of_corrosion"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -2988,7 +3037,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_mortal_strike_2"] = {
+				["WeakAuras_6_-_spear_of_anguish_m"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3004,11 +3053,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_5_-_tank_alert_burden_of_pain"] = {
+				["WeakAuras_raid_cd_am_rdy"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Serenity",
 				},
-				["WeakAuras_sindragosa's_fury"] = {
+				["WeakAuras_bc_||_up_||_arms_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3028,23 +3077,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_raid_cd_am_rdy"] = {
+				["WeakAuras_thrash_inactive"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Serenity",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_bc_||_up_||_arms_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_sac"] = {
+				["WeakAuras_4_-_rapid_shot"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_5_black_winds"] = {
+				["WeakAuras_vial_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_6_-_sundering_doom_shadow"] = {
+				["WeakAuras_rune_of_power_2_charges"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["Bartender4"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3053,7 +3102,6 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_sanctify_-_on_cooldown"] = {
-					["Inherit"] = false,
 					["Colors"] = {
 						["Normal"] = {
 							0, -- [1]
@@ -3068,9 +3116,10 @@ MasqueDB = {
 							1, -- [4]
 						},
 					},
+					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_4_-_rapid_shot"] = {
+				["WeakAuras_time_bomb"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3078,39 +3127,25 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_heal_bof_2"] = {
+				["WeakAuras_bop_cd"] = {
 					["Inherit"] = false,
-					["Colors"] = {
-						["Normal"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-						["Pushed"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-					},
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_divine_pupose_hs"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["Bartender4"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_dark_pact_-_active"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_thrash_inactive"] = {
+				["WeakAuras_8_-_shadowy_blades"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_savage_roar"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_vengence"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_3_shadow_reflection_spawn"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -3120,11 +3155,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_bop_cd"] = {
+				["WeakAuras_mangle_proc"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_dancing_rune_weapon_cd_"] = {
+				["WeakAuras_demo_shout_timer"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3140,17 +3175,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_time_bomb"] = {
+				["WeakAuras_colossus_smash_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_cleanse_rdy"] = {
+				["WeakAuras_bladestorm_||_arms_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_mangle_proc"] = {
+				["WeakAuras_obliteration_r"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_rune_of_power_bg"] = {
 					["Inherit"] = false,
@@ -3164,7 +3199,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_3_-_driven_assault"] = {
+				["WeakAuras_bc_||_cd_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3180,9 +3215,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_demo_shout_timer"] = {
+				["WeakAuras_raid_mark_icon"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Serenity",
 				},
 				["WeakAuras_procc_beacon_faith_missing"] = {
 					["Inherit"] = false,
@@ -3192,11 +3227,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bc_||_cd_2"] = {
+				["WeakAuras_executioner's_precision"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_revenge"] = {
+				["WeakAuras_4_-_embrace_of_the_eclipse"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3212,25 +3247,25 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_in_for_the_kill"] = {
+				["WeakAuras_empower_rune_weapon_back"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_vengence"] = {
+				["WeakAuras_avatar_timer"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_executioner's_precision"] = {
+				["WeakAuras_vampiric_blood_cd"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_4_-_embrace_of_the_eclipse"] = {
+				["WeakAuras_toxic_blade_uptime"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_overpower"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_focused_rage"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_4_-moon_burn"] = {
 					["Inherit"] = false,
@@ -3256,11 +3291,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_focused_rage"] = {
-					["Inherit"] = false,
+				["WeakAuras_battle_cry_cd_arms_done"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
-				["WeakAuras_howl_of_terror_-_available"] = {
+				["WeakAuras_vanish_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3272,19 +3307,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rage_of_the_sleeper_ready"] = {
+				["WeakAuras_procc_divine_pupose_ld"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_stampeding_roar_ready"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_raging_blow_"] = {
+				["WeakAuras_bte"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_battle_cry_cd_arms_done"] = {
+				["WeakAuras_4_shadow_reflection"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -3292,11 +3327,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_horn_of_winter_glow"] = {
+				["WeakAuras_dancing_rune_weapon_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_heal_hs"] = {
+				["WeakAuras_odyn's_champion"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3312,15 +3347,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_4_shadow_reflection"] = {
+				["WeakAuras_7_-_maiden_buffs"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_avatar_cd_arms"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_vanish_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_dancing_rune_weapon_"] = {
+				["WeakAuras_virulent_plague"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -3336,21 +3371,35 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_7focused_dreadflame"] = {
+				["WeakAuras_mortal_strike"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_7_-_maiden_buffs"] = {
+				["WeakAuras_13_gravity_squeeze"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_raidcd_td_rdytt"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Serenity",
+				},
+				["WeakAuras_heal_bof_2"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["Pushed"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+					},
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_avatar_cd_arms"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_virulent_plague"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_grimoire_of_service_-_cd"] = {
 					["Inherit"] = false,
@@ -3360,17 +3409,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_9_armageddon"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_raidcd_ha_cd_2"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Serenity",
 				},
 				["WeakAuras_stormbolt_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_13_gravity_squeeze"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_raidcd_td_rdytt_2"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 			},
 		},
@@ -4577,6 +4626,10 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_raidcd_ashbringer"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_raidcd_ha_cd_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Serenity",
@@ -4605,29 +4658,29 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_raidcd_am_rdy"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Serenity",
-				},
-				["WeakAuras_procc_divine_pupose_ld"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Serenity - Square",
-				},
-				["WeakAuras_5_black_winds"] = {
-					["Inherit"] = false,
+				["WeakAuras_blood_shield_missing"] = {
 					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_raidcd_td_rdytt"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Serenity",
+				},
+				["WeakAuras_grimoire_of_service_-_cd"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_virulent_plague"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_soul_conduit_-_talented_3"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_9_armageddon"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_shattered_defenses_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_victory_rush_arms"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_1_-_melted_armor"] = {
 					["Inherit"] = false,
@@ -4645,37 +4698,25 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_9_armageddon"] = {
+				["WeakAuras_procc_divine_pupose_ld"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Serenity - Square",
 				},
-				["WeakAuras_shattered_defenses_2"] = {
+				["WeakAuras_combustion"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_dark_transformation__back"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_10_illidan_buff"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_branded_purple_2"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_blood_shield_missing"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_grimoire_of_service_-_cd"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_sweeping_strikes__2"] = {
+				["WeakAuras_nightstalker_garrote"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_frost_f"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
 				},
 				["WeakAuras_warbreaker_||a_rms__2"] = {
 					["Inherit"] = false,
@@ -4685,7 +4726,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_frost_f"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
 				["WeakAuras_whirlwind"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_raidcd_td_rdytt"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Serenity",
+				},
+				["WeakAuras_sweeping_strikes__2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -4693,9 +4746,9 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_combustion"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_battle_cry_arms"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_cinderstorm_use"] = {
 					["SkinID"] = "Masque: Shadow 4",
@@ -4705,11 +4758,11 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_nightstalker_garrote"] = {
-					["Inherit"] = false,
+				["WeakAuras_acidic_fragments_debuff"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
-				["WeakAuras_battle_cry_arms"] = {
+				["WeakAuras_bc_||_act_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -4721,7 +4774,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_guardian's_breath"] = {
+				["WeakAuras_heroic_leap__"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -4733,15 +4786,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Serenity",
 				},
-				["WeakAuras_bc_||_act_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_heroic_leap__"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_battle_cry_cd_arms_done"] = {
+				["WeakAuras_slice_and_dice_off"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -4749,35 +4794,27 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_acidic_fragments_debuff"] = {
+				["WeakAuras_guardian's_breath"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_heroic_leap_cd_arms"] = {
-					["Inherit"] = false,
+				["WeakAuras_vengence"] = {
 					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_shockwave_cd_2"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_7_-_maiden_buffs"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_slice_and_dice_off"] = {
+				["WeakAuras_heroic_leap_cd_arms"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rime"] = {
+				["WeakAuras_1_-_infernal_burning"] = {
+					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
 				},
-				["WeakAuras_7_-_fel_infusion"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_parasites"] = {
+				["WeakAuras_shield_block_2p_"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -4785,15 +4822,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Serenity",
 				},
+				["WeakAuras_moonfire_inactive_feral"] = {
+					["SkinID"] = "Masque: Shadow 4",
+					["Inherit"] = false,
+				},
 				["WeakAuras_8_-_shadowy_blades"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_parasites"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_odyn's_champion"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_1_-_infernal_burning"] = {
+				["WeakAuras_2_-_fel_squall"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -4809,6 +4854,14 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_4_-moon_burn"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_battle_cry_cd_arms_done"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_shadow_step_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
@@ -4817,9 +4870,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_giveinnervate"] = {
-					["Inherit"] = false,
+				["WeakAuras_frothing_berserker"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_drain_soul_-_talented"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -4833,7 +4886,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_2_-_fel_squall"] = {
+				["WeakAuras_rend_glow"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -4841,15 +4894,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_frothing_berserker"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_rend_glow"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
 				["WeakAuras_raging_blow_"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_giveinnervate"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_pet_cd"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -4865,7 +4918,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_4_-moon_burn"] = {
+				["WeakAuras_roll_the_bones_off_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -4873,13 +4926,13 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_pet_cd"] = {
+				["WeakAuras_revenge"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_roll_the_bones_off_"] = {
+				["WeakAuras_raid_cd_td_rdytt"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Serenity",
 				},
 				["WeakAuras_heal_rule"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -4893,9 +4946,9 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_revenge"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_bladestorm_cd_||_arms__2"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_3_-_frigid_blows"] = {
 					["Inherit"] = false,
@@ -4905,13 +4958,13 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_raid_cd_td_rdytt"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Serenity",
-				},
-				["WeakAuras_bladestorm_cd_||_arms__2"] = {
-					["Inherit"] = false,
+				["WeakAuras_breath_of_sindragosa_cd"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_in_for_the_kill"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_envenom"] = {
 					["Inherit"] = false,
@@ -4921,27 +4974,11 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_odyn's_fury"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_barkskin_ready"] = {
-					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
-				},
-				["WeakAuras_in_for_the_kill"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_frostbitten"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
 				["WeakAuras_procc_beacon_light_missing_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 1",
 				},
-				["WeakAuras_wild_charge_cd"] = {
+				["WeakAuras_barkskin_ready"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
@@ -4949,11 +4986,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_frostbitten"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
 				["WeakAuras_pummel_||_up_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_breath_of_sindragosa_cd"] = {
+				["WeakAuras_wild_charge_cd"] = {
+					["SkinID"] = "Masque: Shadow 4",
+					["Inherit"] = false,
+				},
+				["WeakAuras_odyn's_fury"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -4961,7 +5006,15 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_displacer_beast_cd"] = {
+				["WeakAuras_branded_orange_2"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_glacial_advance"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_rune_of_power_bg"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
@@ -4977,27 +5030,27 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_6_-_sundering_doom_shadow"] = {
-					["Inherit"] = false,
+				["WeakAuras_breath_of_sindragosa_r"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_dfa__outlaw_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_maiden_assignment"] = {
+				["WeakAuras_displacer_beast_cd"] = {
+					["SkinID"] = "Masque: Shadow 4",
+					["Inherit"] = false,
+				},
+				["WeakAuras_6_-_sundering_doom_shadow"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_breath_of_sindragosa_r"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_3_-_drenched"] = {
+				["WeakAuras_toxic_blade"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_branded_orange_2"] = {
+				["WeakAuras_halo_-_on_cooldown"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5005,7 +5058,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_glacial_advance"] = {
+				["WeakAuras_dancing_rune_weapon_cd_"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5029,23 +5082,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rune_of_power_bg"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_roll_the_bones_on_"] = {
 					["Inherit"] = false,
-				},
-				["WeakAuras_stealth"] = {
 					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
 				},
-				["WeakAuras_halo_-_on_cooldown"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_maiden_assignment"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_kingsbane_timer"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_typhoon_ready"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_roll_the_bones_on_"] = {
+				["WeakAuras_vial_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5057,11 +5110,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_toxic_blade"] = {
+				["WeakAuras_procc_iol"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 1",
 				},
-				["WeakAuras_kingsbane_timer"] = {
+				["WeakAuras_nightstalker_rupture"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5069,9 +5122,9 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_07_creator's_grace_icon"] = {
-					["Inherit"] = false,
+				["WeakAuras_obliteration_r"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_grimoire_of_sacrifice_-_active"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -5081,17 +5134,17 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_1_-_burning_armor"] = {
+				["WeakAuras_8_-_black_winds"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_3_-_drenched"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_procc_iol"] = {
+				["WeakAuras_mortal_strike_cd_2"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 1",
-				},
-				["WeakAuras_obliteration_r"] = {
 					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
 				},
 				["WeakAuras_beacon"] = {
 					["Inherit"] = false,
@@ -5101,25 +5154,25 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_execute_||_fury_2"] = {
-					["Inherit"] = false,
+				["WeakAuras_loh"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_sancti"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_phantom_singularity_-_cd"] = {
+				["WeakAuras_corrupted_breath"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_8_-_black_winds"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_vial_"] = {
+				["WeakAuras_victory_rush_arms_low"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_cleanse_rdy"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_energy_surge"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -5129,7 +5182,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_loh"] = {
+				["WeakAuras_8_bursting_dreadflame_2"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5137,25 +5190,9 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_cleanse_rdy"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_cotdb"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
 				["WeakAuras_7_-_unstable_soul"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_furious_slash_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_procc_faith_missing"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Serenity - Square",
 				},
 				["WeakAuras_surge_of_toxins"] = {
 					["Inherit"] = false,
@@ -5165,17 +5202,25 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_boulderfist:_c>0,_no_bf"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_furious_slash_2"] = {
 					["Inherit"] = false,
-				},
-				["WeakAuras_8_bursting_dreadflame_2"] = {
 					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_procc_faith_missing"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Serenity - Square",
+				},
+				["WeakAuras_cotdb"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_execute_||_arms_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_boulderfist:_c>0,_no_bf"] = {
+					["SkinID"] = "Masque: Shadow 4",
+					["Inherit"] = false,
 				},
 				["WeakAuras_blood_shield_absorb"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -5185,9 +5230,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_empower_rune_weapon_glow"] = {
+				["WeakAuras_branded_blue"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
+				},
+				["WeakAuras_5_black_winds"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_colossus_smash_cd_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_frothing_berserker_2"] = {
 					["Inherit"] = false,
@@ -5197,10 +5250,6 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rune_of_power_2_charges"] = {
-					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
-				},
 				["WeakAuras_9_-_lingering_wail"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
@@ -5208,6 +5257,10 @@ MasqueDB = {
 				["WeakAuras_garrote_on_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_empower_rune_weapon_glow"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_orb_on_you"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -5217,17 +5270,13 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_branded_blue"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_infusion"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_savage_roar"] = {
+				["WeakAuras_rune_of_power_2_charges"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
-				},
-				["WeakAuras_colossus_smash_cd_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_divine_pupose_2"] = {
 					["Inherit"] = false,
@@ -5237,39 +5286,39 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_4_-_lunar_fire"] = {
+				["WeakAuras_martyr_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_infusion"] = {
+				["WeakAuras_savage_roar"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_mfd_ass_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_target_immune"] = {
+				["WeakAuras_orb_of_corrosion"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
-				},
-				["WeakAuras_mortal_strike_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_boulderfist:_c>0,_t<=3"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
+				["WeakAuras_4_-_lunar_fire"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_mortal_strike_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_rake"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_martyr_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_focus_glow"] = {
+				["WeakAuras_chronometric_particles"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5277,23 +5326,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_potion_of_the_old_war_arms_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_hemo_on_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
 				["WeakAuras_battle_cry"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
+				},
+				["WeakAuras_potion_of_the_old_war_arms_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_2_-_unbearable_torment"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_regen"] = {
+				["WeakAuras_ravager"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5301,17 +5346,25 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_chronometric_particles"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_9_-_flaming_orb"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bop_rdy"] = {
+				["WeakAuras_focus_glow"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
 				["WeakAuras_2_-_bone_saw"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_bop_rdy"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_dark_pact_-_active"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_dark_hatred"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -5325,7 +5378,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_dark_pact_-_active"] = {
+				["WeakAuras_bone_shield_missing"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5345,7 +5398,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_5_-_concealing_murk"] = {
+				["WeakAuras_martyr"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5357,11 +5410,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 1",
 				},
-				["WeakAuras_rage_of_the_valarjar"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_rebirth_cd"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_martyr"] = {
+				["WeakAuras_4_-_embrace_of_the_eclipse"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5377,23 +5430,23 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_rebirth_cd"] = {
-					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
-				},
-				["WeakAuras_4_-_embrace_of_the_eclipse"] = {
+				["WeakAuras_5_-_concealing_murk"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_bone_shield_missing"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_stormstrike:_no_cd,_no_sb,_p>=40"] = {
-					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
 				},
 				["WeakAuras_nb_finality"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_runic_brand_orange"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_9_-_shadow_reflection:_erupting"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_of_/_cd_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5401,7 +5454,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_runic_brand_orange"] = {
+				["WeakAuras_bos_rdy"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5413,11 +5466,11 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_remorseless_winter_cd"] = {
+				["WeakAuras_flame_lick"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_dark_pact_-_available"] = {
+				["WeakAuras_rage_of_the_valarjar"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5425,7 +5478,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_flame_lick"] = {
+				["WeakAuras_valarjar's_bond"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5433,7 +5486,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rockbiter_no_landslide:_p<=125"] = {
+				["WeakAuras_rip"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
@@ -5441,17 +5494,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_9_-_shadow_reflection:_erupting"] = {
-					["Inherit"] = false,
+				["WeakAuras_dark_pact_-_available"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
-				["WeakAuras_rip"] = {
+				["WeakAuras_rockbiter_no_landslide:_p<=125"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_of_/_cd_2"] = {
-					["Inherit"] = false,
+				["WeakAuras_storm_bolt_"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_lights_hammer"] = {
 					["Inherit"] = false,
@@ -5461,12 +5514,12 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_bos_rdy"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_5_-_hydra_shot_soaking"] = {
 					["Inherit"] = false,
-				},
-				["WeakAuras_storm_bolt_"] = {
 					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_stormstrike:_no_cd,_no_sb,_p>=40"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
 				["WeakAuras_ignore_pain_timer"] = {
@@ -5485,16 +5538,16 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["Bartender4_StanceBar"] = {
+				["Bartender4_MicroMenu"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_consecration"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_rake_inactive"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_rend"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_berserking_ready"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
 				["WeakAuras_5_-_burden_of_pain"] = {
@@ -5505,31 +5558,31 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_flames_of_sargeras"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_alacrity_sin"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_protected"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["Bartender4_MicroMenu"] = {
-					["Inherit"] = false,
+				["WeakAuras_unholy_strength"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_unbound_chaos_3"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_phantom_singularity_-_dot"] = {
+				["WeakAuras_shield_of_light"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
-				},
-				["WeakAuras_5_-_hydra_shot_soaking"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_6_-_collapsing_fissure"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_9_-_illidan_sight"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5537,44 +5590,43 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_rake_inactive"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["Bartender4_2"] = {
 					["Inherit"] = false,
 				},
 				["WeakAuras_killing_spree_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_berserking_ready"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_9_-_darkness_of_a_thousand_souls"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_grip"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_branded_green"] = {
+				["WeakAuras_storm_bolt_prot"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_stormbolt_cd_2"] = {
+				["WeakAuras_raidcd_am_rdy"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Serenity",
 				},
 				["WeakAuras_5_-befouling_ink"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_shield_of_light"] = {
+				["WeakAuras_8_-_rupture_realities"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_pillar_of_frost"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_summon_gargoyle"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_bilewater_redox"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_typhoon_cd"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
 				["WeakAuras_demoralizing_shout"] = {
@@ -5585,11 +5637,12 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_9_-_illidan_sight"] = {
-					["Inherit"] = false,
+				["WeakAuras_rend"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
-				["Bartender4_2"] = {
+				["WeakAuras_flames_of_sargeras"] = {
+					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
 				["WeakAuras_blooddrinker"] = {
@@ -5600,7 +5653,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_divine_protection_rdy"] = {
+				["WeakAuras_consecration"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5612,9 +5665,9 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_9_-_darkness_of_a_thousand_souls"] = {
-					["Inherit"] = false,
+				["WeakAuras_storm_of_justice"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_alacrity"] = {
 					["Inherit"] = false,
@@ -5627,38 +5680,6 @@ MasqueDB = {
 				["WeakAuras_divine_shield"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
-				},
-				["WeakAuras_8_-_rupture_realities"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_bloodthirst_"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_hidden_blade"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_mfd__outlaw_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_divine_shield_rdy"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_avatar_timer_3"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_dragon_roar"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_alacrity__"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_sancti_2"] = {
 					["Colors"] = {
@@ -5678,21 +5699,53 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
+				["WeakAuras_bloodthirst_"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_phantom_singularity_-_dot"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_bilewater_redox"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_divine_shield_rdy"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_victory_rush_arms_base"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_dragon_roar"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_alacrity__"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_3_touch_of_sargeras"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
+				},
 				["WeakAuras_mercy"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_pillar_of_frost"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_phoenix's_flames_glow"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
 				["WeakAuras_mind_freeze_cd"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_typhoon_cd"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_rb_||_up_2"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_one_against_many"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -5705,6 +5758,34 @@ MasqueDB = {
 				["WeakAuras_mercy_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
+				},
+				["WeakAuras_5_-_slicing_tornado"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_summon_gargoyle"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_9_-_lingering_eruption"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_mana_tap_-_5s_warning"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_haunt_-_cd"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_shadow_dance_cd_0_"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_2_-_echoing_anguish"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_serenity_-_on_cooldown_2"] = {
 					["Colors"] = {
@@ -5724,43 +5805,11 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_victory_rush_arms_base"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_9_-_lingering_eruption"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
 				["WeakAuras_9_-_choking_shadow"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_phoenix's_flames_glow"] = {
-					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
-				},
-				["WeakAuras_shadow_dance_cd_0_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_5_-_slicing_tornado"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_mana_tap_-_5s_warning"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_haunt_-_cd"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
 				["WeakAuras_master_of_subtlety"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_2_-_echoing_anguish"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5768,11 +5817,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rb_||_up_2"] = {
+				["WeakAuras_8_-_cleansing_protocol"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_shield_block_cd"] = {
+				["WeakAuras_blood_boil"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_branded_orange"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -5780,8 +5833,8 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_boulderfist:_c>0,_t>3,_p<=115"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_bonestorm"] = {
+					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
 				["WeakAuras_runic_brand_yellow"] = {
@@ -5800,39 +5853,23 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_nightmare_blades"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_blazing_soul"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_death_&_decay_cd_blood"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_rune_of_power_cd"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
 				["WeakAuras_7___cleansing_protocol"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_chitinous_exoskeleton"] = {
+				["WeakAuras_summon_doomguard_-_cd"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_cinderstorm_cd"] = {
-					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
-				},
-				["WeakAuras_8_-_cleansing_protocol"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
-				},
-				["WeakAuras_blazing_soul"] = {
-					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
-				},
-				["WeakAuras_dark_transformation_"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_rampage_master__2"] = {
+				["WeakAuras_2_-_calcified_quills"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5840,7 +5877,23 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_2_-_calcified_quills"] = {
+				["WeakAuras_prolonged_power"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_5_-_delicious_bufferfish"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_rampage_master__2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_battle_cry_"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_6_-_tormented_cries"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5852,25 +5905,25 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_blood_mirror"] = {
+				["WeakAuras_bristling_fur_cd"] = {
+					["SkinID"] = "Masque: Shadow 4",
+					["Inherit"] = false,
+				},
+				["WeakAuras_shockwave_prot"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_fiery_phlegm"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_cinderstorm_cd"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
 				["WeakAuras_8_-_tainted_essence"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_battle_cry_"] = {
+				["WeakAuras_outofrange_2"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
-				},
-				["WeakAuras_9_-_bursting_dreadflame"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_charge"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -5904,45 +5957,45 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_outofrange_2"] = {
+				["WeakAuras_dark_transformation_"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
-				},
-				["WeakAuras_iftk_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_ghostly_strike_on_"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_howl_of_terror_-_cd"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_holy_avenger_-_not_on_cooldown_2"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_ghostly_strike_on_"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_iftk_2"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_horn_of_winter_cd"] = {
+					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
 				["WeakAuras_6_-_doomed_sundering_corporeal"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_shockwave_prot"] = {
+				["WeakAuras_9_-_bursting_dreadflame"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_devotion_aura_%"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_survival_instincts_cd"] = {
+				["WeakAuras_rune_tap"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_frost_nova_cd"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
-				},
-				["WeakAuras_horn_of_winter_cd"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_5_-_jaws_from_the_deep"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_shattered_defenses"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -5952,11 +6005,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_devotion_aura_%"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_frost_nova_cd"] = {
+				["WeakAuras_kindling"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
@@ -5964,19 +6013,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_6_-_spear_of_anguish_nm/hc"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_warbreaker_cd_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_mc_||_act_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_curse_of_the_dreadblades"] = {
+				["WeakAuras_bladestorm_up_||fury_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -5984,15 +6021,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_no_festering_wound_"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_07_titanic_bulwark_icon"] = {
 					["Inherit"] = false,
-				},
-				["WeakAuras_toxic_chitin"] = {
 					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
 				},
-				["WeakAuras_pummel_arms_glow"] = {
+				["WeakAuras_mc_||_act_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -6000,39 +6033,45 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_serenity_-_not_on_cooldown_2"] = {
-					["Colors"] = {
-						["Normal"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-						["Pushed"] = {
-							0, -- [1]
-							0, -- [2]
-							0, -- [3]
-							1, -- [4]
-						},
-					},
+				["WeakAuras_curse_of_the_dreadblades"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_no_festering_wound_"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_6_-_spear_of_anguish_nm/hc"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_pummel_arms_glow"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_incarnation:_guardian_of_ursoc_ready"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_bladestorm_up_||fury_2"] = {
+				["WeakAuras_wild_charge_ready"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_thrash_up"] = {
+					["SkinID"] = "Masque: Shadow 4",
+					["Inherit"] = false,
 				},
 				["WeakAuras_demonic_circle_-_oor"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_07_titanic_bulwark_icon"] = {
+				["WeakAuras_adrenaline_rush_"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_thrash_up"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_warbreaker_cd_2"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_serenity_-_not_on_cooldown"] = {
 					["Colors"] = {
@@ -6072,19 +6111,33 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_rockbiter_landslide:_no_ls"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_5_-_jaws_from_the_deep"] = {
 					["Inherit"] = false,
-				},
-				["WeakAuras_incarnation:_guardian_of_ursoc_ready"] = {
-					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_heal_bov"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_cinderstorm_use_2"] = {
+				["WeakAuras_rockbiter_landslide:_no_ls"] = {
+					["SkinID"] = "Masque: Shadow 4",
+					["Inherit"] = false,
+				},
+				["WeakAuras_serenity_-_not_on_cooldown_2"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+						["Pushed"] = {
+							0, -- [1]
+							0, -- [2]
+							0, -- [3]
+							1, -- [4]
+						},
+					},
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
@@ -6092,7 +6145,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_cinderstorm"] = {
+				["WeakAuras_cinderstorm_use_2"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
@@ -6100,11 +6153,11 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_adrenaline_rush_"] = {
-					["Inherit"] = false,
+				["WeakAuras_toxic_chitin"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
-				["WeakAuras_wild_charge_ready"] = {
+				["WeakAuras_cinderstorm"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
@@ -6112,24 +6165,24 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_rune_tap"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_survival_instincts_cd"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
 				["WeakAuras_scorned_touch"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_mortal_coil_-_cd"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_holy_avenger_-_not_on_cooldown_2"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
 				["WeakAuras_6_-_shattering_scream"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_kindling"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_mortal_coil_-_cd"] = {
+					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
 				["WeakAuras_bladestorm_arms_glow"] = {
@@ -6140,9 +6193,9 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_5_-_delicious_bufferfish"] = {
-					["Inherit"] = false,
+				["WeakAuras_blood_mirror"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_divine_pupose"] = {
 					["Inherit"] = false,
@@ -6152,9 +6205,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_4_-_lunar_beacon"] = {
-					["Inherit"] = false,
+				["WeakAuras_fiery_phlegm"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
 				["WeakAuras_draw_power"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -6164,43 +6217,43 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bristling_fur_cd"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_4_-_lunar_beacon"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_8_-_desolate"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 4",
 				},
-				["WeakAuras_6_-_tormented_cries"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_prolonged_power"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_bonestorm"] = {
+				["WeakAuras_chitinous_exoskeleton"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_summon_doomguard_-_cd"] = {
+				["WeakAuras_death_&_decay_cd_blood"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_rune_of_power_cd"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_nightmare_blades"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_avatar_timer_3"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_shield_block_cd"] = {
+					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
 				["WeakAuras_absolute_corruption_-_talented"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_branded_orange"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_boulderfist:_c>0,_t>3,_p<=115"] = {
+					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_blood_boil"] = {
+				["WeakAuras_divine_protection_rdy"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -6224,9 +6277,9 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_3_touch_of_sargeras"] = {
+				["WeakAuras_mfd__outlaw_"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 4",
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_precise_strikes"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -6236,15 +6289,15 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_alacrity_sin"] = {
+				["WeakAuras_stormbolt_cd_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_storm_bolt_prot"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_hidden_blade"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_storm_of_justice"] = {
+				["WeakAuras_branded_green"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -6272,12 +6325,12 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
+				["Bartender4_StanceBar"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_rockbiter_landslide:_t<=3"] = {
 					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
-				},
-				["WeakAuras_unholy_strength"] = {
-					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
 				["WeakAuras_2_-_soul_corruption"] = {
@@ -6308,13 +6361,13 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_remorseless_winter_cd"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
 				["WeakAuras_divine_pupose_ld"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_valarjar's_bond"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
 				},
 				["WeakAuras_summon_doomguard_-_usable"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -6344,13 +6397,25 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
+				["WeakAuras_regen"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
 				["WeakAuras_expel_light_2"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
+				["WeakAuras_hemo_on_"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
+				},
 				["WeakAuras_4_-_twilight_glaive"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
+				},
+				["WeakAuras_crash_lightning:_p>=20,_yes_cd"] = {
+					["SkinID"] = "Masque: Shadow 4",
+					["Inherit"] = false,
 				},
 				["WeakAuras_seren"] = {
 					["Inherit"] = false,
@@ -6360,27 +6425,15 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_crash_lightning:_p>=20,_yes_cd"] = {
-					["SkinID"] = "Masque: Shadow 4",
-					["Inherit"] = false,
-				},
-				["WeakAuras_orb_of_corrosion"] = {
-					["SkinID"] = "Masque: Shadow 5",
-					["Inherit"] = false,
-				},
-				["WeakAuras_9_-_flaming_orb"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
 				["WeakAuras_wraith_walk"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_death_&_decay_blood_glow"] = {
+				["WeakAuras_target_immune"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_ravager"] = {
+				["WeakAuras_death_&_decay_blood_glow"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -6474,7 +6527,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_victory_rush_arms_low"] = {
+				["WeakAuras_execute_||_fury_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -6482,11 +6535,15 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_mortal_strike_cd_2"] = {
+				["WeakAuras_phantom_singularity_-_cd"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
+				["WeakAuras_divine_pupose_hs"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_divine_pupose_hs"] = {
+				["WeakAuras_1_-_burning_armor"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -6498,10 +6555,6 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_bladestorm_||_arms_2"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
 				["WeakAuras_3_shadow_reflection_spawn"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
@@ -6510,13 +6563,13 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_dancing_rune_weapon_cd_"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_bladestorm_||_arms_2"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_corrupted_breath"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_07_creator's_grace_icon"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_sindragosa's_fury_glow"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -6530,11 +6583,11 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_whirlwind_arms_2"] = {
-					["Inherit"] = false,
+				["WeakAuras_stealth"] = {
 					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
 				},
-				["WeakAuras_nightstalker_rupture"] = {
+				["WeakAuras_whirlwind_arms_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -6650,7 +6703,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_shield_block_2p_"] = {
+				["WeakAuras_rime"] = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
@@ -6662,19 +6715,19 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_vengence"] = {
-					["SkinID"] = "Masque: Shadow 5",
+				["WeakAuras_7_-_fel_infusion"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 4",
 				},
 				["WeakAuras_stampeding_roar_ready"] = {
 					["SkinID"] = "Masque: Shadow 4",
 					["Inherit"] = false,
 				},
-				["WeakAuras_colossus_smash_wait"] = {
+				["WeakAuras_shockwave_cd_2"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_mortal_strike"] = {
+				["WeakAuras_colossus_smash_wait"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -6682,13 +6735,13 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_colossus_smash"] = {
+				["WeakAuras_mortal_strike"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
-				["WeakAuras_moonfire_inactive_feral"] = {
-					["SkinID"] = "Masque: Shadow 4",
+				["WeakAuras_colossus_smash"] = {
 					["Inherit"] = false,
+					["SkinID"] = "Masque: Shadow 5",
 				},
 				["WeakAuras_judged"] = {
 					["SkinID"] = "Masque: Shadow 5",
@@ -6726,19 +6779,19 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_dark_transformation__back"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
 				["WeakAuras_13_gravity_squeeze"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
+				["WeakAuras_soul_conduit_-_talented_3"] = {
+					["SkinID"] = "Masque: Shadow 5",
+					["Inherit"] = false,
+				},
 				["WeakAuras_charge_on_cd_arms"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_avatar_cd_arms"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Masque: Shadow 5",
-				},
-				["WeakAuras_victory_rush_arms"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -6750,7 +6803,7 @@ MasqueDB = {
 					["SkinID"] = "Masque: Shadow 5",
 					["Inherit"] = false,
 				},
-				["WeakAuras_10_illidan_buff"] = {
+				["WeakAuras_avatar_cd_arms"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Masque: Shadow 5",
 				},
@@ -7849,10 +7902,10 @@ MasqueDB = {
 				["WeakAuras_bilewater_redox"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_mana_tap_-_5s_warning"] = {
+				["WeakAuras_finality:_nightblade"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_finality:_nightblade"] = {
+				["WeakAuras_mana_tap_-_5s_warning"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_haunt_-_cd"] = {
@@ -7945,7 +7998,7 @@ MasqueDB = {
 				["WeakAuras_07_creator's_grace_icon"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_cinderstorm_cd"] = {
+				["WeakAuras_9_-_shadow_reflection_adds"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_6_-_spirit_chains"] = {
@@ -7954,7 +8007,7 @@ MasqueDB = {
 				["WeakAuras_divine_protection"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_9_-_shadow_reflection_adds"] = {
+				["WeakAuras_cinderstorm_cd"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_soul_of_the_forest_placeholder"] = {
@@ -7969,16 +8022,16 @@ MasqueDB = {
 				["WeakAuras_bristling_fur_ready"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_salty_spittle"] = {
+				["WeakAuras_howl_of_terror_-_cd"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_dark_transformation_"] = {
+				["WeakAuras_salty_spittle"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_ghostly_strike_on_"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_howl_of_terror_-_cd"] = {
+				["WeakAuras_dark_transformation_"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_surge_of_toxins"] = {
@@ -7996,7 +8049,7 @@ MasqueDB = {
 				["WeakAuras_horn_of_winter_cd"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_devotion_aura_%"] = {
+				["WeakAuras_kindling"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_survival_instincts_cd"] = {
@@ -8005,7 +8058,7 @@ MasqueDB = {
 				["WeakAuras_pyroblast_off"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_kindling"] = {
+				["WeakAuras_devotion_aura_%"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_nightstalker_rupture"] = {
@@ -8038,19 +8091,19 @@ MasqueDB = {
 				["WeakAuras_pummel_arms_glow"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_5_-_jaws_from_the_deep"] = {
+				["WeakAuras_07_titanic_bulwark_icon"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_wild_charge_ready"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_07_titanic_bulwark_icon"] = {
+				["WeakAuras_adrenaline_rush_"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_demonic_circle_-_oor"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_adrenaline_rush_"] = {
+				["WeakAuras_thrash_up"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_6_-_grasping_darkness"] = {
@@ -8149,10 +8202,10 @@ MasqueDB = {
 				["WeakAuras_6_-_sundering_doom_shadow"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_9_-_lingering_wail"] = {
+				["WeakAuras_victory_rush_arms_low"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_vial_"] = {
+				["WeakAuras_9_-_lingering_wail"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_3_-_driven_assault"] = {
@@ -8182,7 +8235,7 @@ MasqueDB = {
 				["WeakAuras_typhoon_cd"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_stormstrike:_yes_cd,_no_sb,_p<40"] = {
+				["WeakAuras_9_-_bursting_dreadflame"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_stormstrike:_no_cd,_yes_sb,_p<20"] = {
@@ -8203,10 +8256,10 @@ MasqueDB = {
 				["WeakAuras_barkskin_cd"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_phoenix's_flames_glow"] = {
+				["WeakAuras_shield_of_light"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_shield_of_light"] = {
+				["WeakAuras_mfd__outlaw_"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_toxic_blade_uptime"] = {
@@ -8215,7 +8268,7 @@ MasqueDB = {
 				["WeakAuras_berserking_ready"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_rake_inactive"] = {
+				["WeakAuras_death_&_decay_blood_na"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_stormforged_spear"] = {
@@ -8290,7 +8343,7 @@ MasqueDB = {
 				["WeakAuras_divine_pupose_ld"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_chronometric_particles"] = {
+				["WeakAuras_crash_lightning:_p>=20,_yes_cd"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_flamepatch"] = {
@@ -8308,7 +8361,7 @@ MasqueDB = {
 				["WeakAuras_remorseless_winter"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_crash_lightning:_p>=20,_yes_cd"] = {
+				["WeakAuras_chronometric_particles"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_mangle_cd"] = {
@@ -8350,16 +8403,16 @@ MasqueDB = {
 				["WeakAuras_phantom_singularity_-_cd"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_death_&_decay_blood_na"] = {
+				["WeakAuras_rake_inactive"] = {
+					["Disabled"] = true,
+				},
+				["WeakAuras_phoenix's_flames_glow"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_branded_blue_2"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_fiery_phlegm"] = {
-					["Disabled"] = true,
-				},
-				["WeakAuras_mfd__outlaw_"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_summon_doomguard_-_active"] = {
@@ -8371,7 +8424,7 @@ MasqueDB = {
 				["WeakAuras_obliteration_cd"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_9_-_bursting_dreadflame"] = {
+				["WeakAuras_stormstrike:_yes_cd,_no_sb,_p<40"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_divine_pupose_hs"] = {
@@ -8386,7 +8439,7 @@ MasqueDB = {
 				["WeakAuras_5_-_hydra_shot_soaking"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_victory_rush_arms_low"] = {
+				["WeakAuras_vial_"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_stormstrike:_yes_cd,_yes_sb,_p<20"] = {
@@ -8446,7 +8499,7 @@ MasqueDB = {
 				["WeakAuras_breath_of_sindragosa_cd"] = {
 					["Disabled"] = true,
 				},
-				["WeakAuras_thrash_up"] = {
+				["WeakAuras_5_-_jaws_from_the_deep"] = {
 					["Disabled"] = true,
 				},
 				["WeakAuras_divine_protection_rdy"] = {
