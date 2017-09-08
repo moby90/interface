@@ -5,8 +5,8 @@ WorldQuestAssistantDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Laru - Frostwolf"] = "Default",
 		["Laruchan - Frostwolf"] = "Default",
+		["Laru - Frostwolf"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

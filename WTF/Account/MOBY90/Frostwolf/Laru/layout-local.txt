@@ -20,13 +20,6 @@ X: -545
 Y: -10
 W: 365
 H: 200
-Frame: DetailsReportWindow
-FrameLevel: 1
-Anchor: CENTER
-X: 10
-Y: -21
-W: 342
-H: 190
 Frame: DetailsPlayerDetailsWindow
 FrameLevel: 1
 Anchor: CENTER
@@ -41,3 +34,10 @@ X: 232
 Y: 124
 W: 898
 H: 504
+Frame: DetailsReportWindow
+FrameLevel: 1
+Anchor: CENTER
+X: 10
+Y: -21
+W: 342
+H: 190
