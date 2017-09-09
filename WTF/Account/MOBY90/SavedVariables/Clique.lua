@@ -31,10 +31,10 @@ CliqueDB3 = {
 		["Chuckxn - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -50,10 +50,10 @@ CliqueDB3 = {
 		["Zurica - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -69,10 +69,10 @@ CliqueDB3 = {
 		["Laruchan - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -88,10 +88,10 @@ CliqueDB3 = {
 		["Bizzl - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -107,10 +107,10 @@ CliqueDB3 = {
 		["Ziltik - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -126,10 +126,10 @@ CliqueDB3 = {
 		["Larulol - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -145,10 +145,10 @@ CliqueDB3 = {
 		["Toxiquak - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -209,10 +209,10 @@ CliqueDB3 = {
 		["Himbeerblau - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -228,10 +228,10 @@ CliqueDB3 = {
 		["Larumuh - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -283,10 +283,10 @@ CliqueDB3 = {
 		["Blaustrumpf - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -318,12 +318,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [2]
 				{
-					["spell"] = "Blessing of Protection",
-					["key"] = "SHIFT-E",
+					["spell"] = "Blessing of Freedom",
+					["key"] = "SHIFT-F",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135964,
+					["icon"] = 135968,
 					["type"] = "spell",
 				}, -- [3]
 				{
@@ -345,21 +345,21 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [5]
 				{
-					["spell"] = "Blessing of Freedom",
-					["key"] = "SHIFT-F",
+					["spell"] = "Blessing of Protection",
+					["key"] = "SHIFT-E",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135968,
+					["icon"] = 135964,
 					["type"] = "spell",
 				}, -- [6]
 				{
-					["spell"] = "Bestow Faith",
-					["key"] = "E",
+					["spell"] = "Cleanse",
+					["key"] = "G",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 236249,
+					["icon"] = 135949,
 					["type"] = "spell",
 				}, -- [7]
 				{
@@ -390,12 +390,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [10]
 				{
-					["spell"] = "Cleanse",
-					["key"] = "G",
+					["spell"] = "Bestow Faith",
+					["key"] = "E",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135949,
+					["icon"] = 236249,
 					["type"] = "spell",
 				}, -- [11]
 				{

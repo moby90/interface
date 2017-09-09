@@ -1260,6 +1260,20 @@ DetailsTimeLineDB = {
 					122470, -- [3]
 				}, -- [2]
 			},
+			["Vangal-Shattrath"] = {
+				{
+					182.248000000001, -- [1]
+					"Vangal-Shattrath", -- [2]
+					1966, -- [3]
+				}, -- [1]
+			},
+			["Mýstíc-Eredar"] = {
+				{
+					180.491, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					115310, -- [3]
+				}, -- [1]
+			},
 			["Hampelmaan-Tirion"] = {
 				{
 					138.617, -- [1]
@@ -1271,20 +1285,6 @@ DetailsTimeLineDB = {
 					"Hampelmaan-Tirion", -- [2]
 					22842, -- [3]
 				}, -- [2]
-			},
-			["Mýstíc-Eredar"] = {
-				{
-					180.491, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					115310, -- [3]
-				}, -- [1]
-			},
-			["Vangal-Shattrath"] = {
-				{
-					182.248000000001, -- [1]
-					"Vangal-Shattrath", -- [2]
-					1966, -- [3]
-				}, -- [1]
 			},
 		}, -- [1]
 		{
@@ -1446,6 +1446,13 @@ DetailsTimeLineDB = {
 					98008, -- [3]
 				}, -- [2]
 			},
+			["Køneko-Thrall"] = {
+				{
+					150.816000000001, -- [1]
+					"Køneko-Thrall", -- [2]
+					47585, -- [3]
+				}, -- [1]
+			},
 			["Baltarak-Shattrath"] = {
 				{
 					72.1530000000003, -- [1]
@@ -1457,13 +1464,6 @@ DetailsTimeLineDB = {
 					"Baltarak-Shattrath", -- [2]
 					122470, -- [3]
 				}, -- [2]
-			},
-			["Køneko-Thrall"] = {
-				{
-					150.816000000001, -- [1]
-					"Køneko-Thrall", -- [2]
-					47585, -- [3]
-				}, -- [1]
 			},
 			["Hampelmaan-Tirion"] = {
 				{

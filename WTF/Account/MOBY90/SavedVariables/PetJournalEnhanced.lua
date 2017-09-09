@@ -19,12 +19,13 @@ PetJournalEnhancedDB = {
 	},
 	["profileKeys"] = {
 		["Chuckxn - Frostwolf"] = "Default",
-		["Solarius - Frostwolf"] = "Default",
-		["Himbeerblau - Frostwolf"] = "Default",
-		["Larumuh - Frostwolf"] = "Default",
 		["Toxiquak - Frostwolf"] = "Default",
-		["Laruchan - Frostwolf"] = "Default",
 		["Bizzl - Frostwolf"] = "Default",
+		["Laruchan - Frostwolf"] = "Default",
+		["Himbeerblau - Frostwolf"] = "Default",
+		["Solarius - Frostwolf"] = "Default",
+		["Larumuh - Frostwolf"] = "Default",
+		["Blaustrumpf - Frostwolf"] = "Default",
 		["Laru - Frostwolf"] = "Default",
 	},
 }
