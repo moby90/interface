@@ -1,2 +1,0 @@
-
-MagicRunesDB = nil

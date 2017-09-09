@@ -1,4 +1,0 @@
-VER 3 0100000000000018 "aszendenz" "SPELL_FIRE_ELEMENTALDEVASTATION"
-/cast Elemental Mastery
-/cast Ascendance
-END
