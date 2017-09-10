@@ -1074,6 +1074,7 @@ local default_player_data = {
 		combat_counter = 0,
 		last_instance_id = 0,
 		last_instance_time = 0,
+		mythic_dungeon_id = 0,
 	--> nicktag cache
 		nick_tag_cache = {},
 		ignore_nicktag = false,
@@ -1204,6 +1205,17 @@ local default_global_data = {
 		createauraframe = {},
 	--> min health done on the death report
 		deathlog_healingdone_min = 1,
+		
+	--> mythic plus config
+		mythic_plus = {
+			always_in_combat = false,
+			merge_boss_trash = true,
+			delete_trash_after_merge = true,
+			merge_boss_with_trash = false,
+			boss_dedicated_segment = true,
+			make_overall_when_done = true,
+			make_overall_boss_only = false,
+		},
 		
 	-- important auras
 	--[=[

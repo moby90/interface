@@ -1446,6 +1446,8 @@
 
 			function f:UpdateDropdowns (DoNotSelectRaid)
 				
+				local currentGuild = guild_dropdown.value
+				
 				--difficulty
 				wipe (diff_list)
 				wipe (boss_list)
@@ -1490,7 +1492,6 @@
 							if (not boss_repeated [encounterId]) then
 								local encounter, instance = _detalhes:GetBossEncounterDetailsFromEncounterId (_, encounterId)
 								if (encounter) then
-									
 									local InstanceID = _detalhes:GetInstanceIdFromEncounterId (encounterId)
 									if (raidSelected == InstanceID) then
 										tinsert (boss_list, {value = encounterId, label = encounter.boss, icon = icon, onclick = on_boss_select})
@@ -1508,7 +1509,7 @@
 							for index, encounter in ipairs (encounterTable) do
 								local guild = encounter.guild
 								if (not guild_repeated [guild]) then
-									tinsert (guild_list, {value = guild, label = guild, icon = icon, onclick = on_raid_select})
+									tinsert (guild_list, {value = guild, label = guild, icon = icon, onclick = on_guild_select})
 									guild_repeated [guild] = true
 								end
 							end
@@ -1527,9 +1528,13 @@
 					raid_dropdown:Refresh()
 					raid_dropdown:Select (1, true)
 				end
-				guild_dropdown:Refresh()
-				guild_dropdown:Select (1, true)
 				
+				guild_dropdown:Refresh()
+				if (currentGuild) then
+					guild_dropdown:Select (currentGuild)
+				else
+					guild_dropdown:Select (1, true)
+				end
 			end
 			
 			function f.UpdateBossDropdown()

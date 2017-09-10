@@ -66,7 +66,7 @@ local _
 		micro_frames = {left = "DETAILS_STATUSBAR_PLUGIN_THREAT"},
 		
 		instance_cprops = {
-			["menu_icons_size"] = 1,
+			["menu_icons_size"] = 0.85,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -75,7 +75,7 @@ local _
 			},
 			["menu_anchor"] = {
 				13, -- [1]
-				2, -- [2]
+				1, -- [2]
 				["side"] = 2,
 			},
 			["bg_r"] = 0.0941,
@@ -142,7 +142,7 @@ local _
 			["bars_grow_direction"] = 1,
 			["row_info"] = {
 				["textR_outline"] = true,
-				["spec_file"] = "Interface\\AddOns\\Details\\images\\spec_icons_normal_alpha",
+				["spec_file"] = "Interface\\AddOns\\Details\\images\\spec_icons_normal",
 				["textL_outline"] = true,
 				["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
 				["textR_show_data"] = {
@@ -217,7 +217,7 @@ local _
 				["textR_separator"] = ",",
 				["textL_class_colors"] = false,
 			},
-			["show_statusbar"] = true,
+			["show_statusbar"] = false,
 			["bg_alpha"] = 0.699999988079071,
 			["wallpaper"] = {
 				["enabled"] = false,

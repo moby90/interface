@@ -2234,7 +2234,7 @@ local icon_frame_on_enter = function (self)
 						local playerTable, onEncounter, rankPosition = _detalhes.storage:GetPlayerGuildRank (diff, combat:GetBossInfo().id, attribute == 1 and "damage" or "healing", name, true)
 						
 						--" .. floor (bestRank[2] or 0) .. " ilvl" .. " | 
-						GameCooltip:AddLine ("Best Score:", _detalhes:ToK2 ((bestRank[1] or 0) / encounterTable.elapsed) .. " [|cFFFFFF00Rank: " .. rankPosition .. "|r]", 1, "white")
+						GameCooltip:AddLine ("Best Score:", _detalhes:ToK2 ((bestRank[1] or 0) / encounterTable.elapsed) .. " [|cFFFFFF00Rank: " .. (rankPosition or "#") .. "|r]", 1, "white")
 						_detalhes:AddTooltipBackgroundStatusbar()
 						
 						GameCooltip:AddLine ("|TInterface\\TUTORIALFRAME\\UI-TUTORIAL-FRAME:14:12:0:1:512:512:8:70:224:306|t Open Rank", "|TInterface\\TUTORIALFRAME\\UI-TUTORIAL-FRAME:14:12:0:1:512:512:8:70:328:409|t Refresh Talents", 1, "white", "white")
@@ -5967,6 +5967,10 @@ function _detalhes:GetSegmentInfo (index)
 	
 end
 
+function _detalhes:UnpackMythicDungeonInfo (t)
+	return t.OverallSegment, t.SegmentID, t.Level, t.EJID, t.MapID, t.ZoneName, t.EncounterID, t.EncounterName, t.StartedAt, t.EndedAt, t.RunID
+end
+
 local segments_used = 0
 local segments_filled = 0
 
@@ -6012,6 +6016,7 @@ local build_segment_list = function (self, elapsed)
 		segments_used = 0
 		segments_filled = fill
 		
+		--> history table (segments container)
 		for i = _detalhes.segments_amount, 1, -1 do
 			
 			if (i <= fill) then
@@ -6022,8 +6027,36 @@ local build_segment_list = function (self, elapsed)
 					segments_used = segments_used + 1
 
 					--print (thisCombat.is_boss.name, thisCombat.instance_type, _detalhes:GetRaidIcon (thisCombat.is_boss.mapid), thisCombat.is_boss.ej_instance_id)
-					
-					if (thisCombat.is_boss and thisCombat.is_boss.name) then
+
+					if (thisCombat.is_mythic_dungeon) then
+						local mythicInfo = thisCombat.is_mythic_dungeon
+						local bossInfo = thisCombat.is_boss
+						
+						local isMythicOverallSegment, segmentID, mythicLevel, EJID, mapID, zoneName, encounterID, encounterName, startedAt, endedAt, runID = _detalhes:UnpackMythicDungeonInfo (mythicInfo)
+						local combat_time = thisCombat:GetCombatTime()
+						
+						--> is mythic overall
+						if (isMythicOverallSegment) then
+							CoolTip:AddLine (zoneName .. " +" .. mythicLevel .. " (overall)", _, 1, party_line_color)
+							CoolTip:AddIcon ([[Interface\AddOns\Details\images\icons]], "main", "left", 14, 10, 479/512, 510/512, 24/512, 51/512)
+							
+						else
+							CoolTip:AddLine (encounterName .. " (#" .. segmentID .. ")", _detalhes.gump:IntegerToTimer (combat_time), 1, party_line_color, "gray")
+							CoolTip:AddIcon ([[Interface\AddOns\Details\images\icons]], "main", "left", 14, 10, 479/512, 510/512, 24/512, 51/512)
+							
+						end
+						
+						local portrait = (thisCombat.is_boss and thisCombat.is_boss.bossimage) or _detalhes:GetBossPortrait (nil, nil, encounterName, EJID)
+						if (portrait) then
+							CoolTip:AddIcon (portrait, 2, "top", 128, 64)
+						end
+						
+						local backgroundImage = _detalhes:GetRaidIcon (mapID, EJID, "party")
+						if (backgroundImage) then
+							CoolTip:SetWallpaper (2, backgroundImage, party_wallpaper_tex, party_wallpaper_color)
+						end
+						
+					elseif (thisCombat.is_boss and thisCombat.is_boss.name) then
 					
 						local try_number = thisCombat.is_boss.try_number
 						local combat_time = thisCombat:GetCombatTime()
@@ -6188,6 +6221,7 @@ local build_segment_list = function (self, elapsed)
 		CoolTip:AddLine (segmentos.current_standard, _, 1, "white")
 		CoolTip:AddMenu (1, instancia.TrocaTabela, 0)
 		CoolTip:AddIcon ([[Interface\QUESTFRAME\UI-Quest-BulletPoint]], "main", "left", 16, 16, nil, nil, nil, nil, "orange")
+			
 			
 			local enemy = _detalhes.tabela_vigente.is_boss and _detalhes.tabela_vigente.is_boss.name or _detalhes.tabela_vigente.enemy or "--x--x--"
 			local file, coords

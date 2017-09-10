@@ -1,4 +1,91 @@
 ------------------------------------------------------------------------
+r19 | Tercioo | 2017-09-09 14:10:07 -0500 (Sat, 09 Sep 2017) | 3 lines
+Changed paths:
+   M /trunk/boot.lua
+   M /trunk/core/control.lua
+   M /trunk/core/parser.lua
+   M /trunk/core/util.lua
+   M /trunk/functions/profiles.lua
+   M /trunk/gumps/janela_options.lua
+   M /trunk/startup.lua
+
+- Added options table for mythic plus dungeon stuff.
+- Combat detection should check if the mythic plus stuff is enabled on the profile settings.
+- Unregistered mythic+ events (testers should enable the events on command line).
+------------------------------------------------------------------------
+r18 | Tercioo | 2017-09-08 14:29:32 -0500 (Fri, 08 Sep 2017) | 1 line
+Changed paths:
+   M /trunk/plugins/Details_3DModelsPaths/Details_3DModelsPaths.toc
+   M /trunk/plugins/Details_DataStorage/Details_DataStorage.toc
+   M /trunk/plugins/Details_DmgRank/Details_DmgRank.toc
+   M /trunk/plugins/Details_DpsTuning/Details_DpsTuning.toc
+   M /trunk/plugins/Details_EncounterDetails/Details_EncounterDetails.toc
+   M /trunk/plugins/Details_RaidCheck/Details_RaidCheck.toc
+   M /trunk/plugins/Details_RaidInfo-EmeraldNightmare/Details_RaidInfo-EmeraldNightmare.toc
+   M /trunk/plugins/Details_RaidInfo-Nighthold/Details_RaidInfo-Nighthold.toc
+   M /trunk/plugins/Details_RaidInfo-TombOfSargeras/Details_RaidInfo-TombOfSargeras.toc
+   M /trunk/plugins/Details_RaidInfo-TrialOfValor/Details_RaidInfo-TrialOfValor.toc
+   M /trunk/plugins/Details_Streamer/Details_Streamer.toc
+   M /trunk/plugins/Details_TimeAttack/Details_TimeAttack.toc
+   M /trunk/plugins/Details_TinyThreat/Details_TinyThreat.toc
+   M /trunk/plugins/Details_Vanguard/Details_Vanguard.toc
+
+- forgot to update the .ToC of the built in plugins.
+------------------------------------------------------------------------
+r17 | Tercioo | 2017-09-08 10:49:29 -0500 (Fri, 08 Sep 2017) | 8 lines
+Changed paths:
+   M /trunk/boot.lua
+   M /trunk/functions/skins.lua
+   M /trunk/startup.lua
+
+- Mythic+ dungeons won't delete trash segments, instead they will be added to the boss fight.
+- At the end of a mythic+ run all segments will be added to a new segment representing the overall of the run.
+- API: added combat:GetMythicDungeonInfo(), combat:IsMythicDungeon(), combat:IsMythicDungeonOverall()
+- API: added Details:UnpackMythicDungeonInfo (mythic_dungeon_info)
+- API: new parameters on Details:GetRaidIcon (mapid, ejID, instanceType)
+- API: new parameters on Details:GetBossPortrait (mapid, bossindex, encounterName, ejID)
+More information on API txts at the root folder.
+
+------------------------------------------------------------------------
+r16 | Tercioo | 2017-09-07 19:05:59 -0500 (Thu, 07 Sep 2017) | 2 lines
+Changed paths:
+   M /trunk/classes/container_combatentes.lua
+   M /trunk/gumps/janela_principal.lua
+   M /trunk/startup.lua
+
+- adding the immersion stuff, inside invasion players should see all players on the damage done window.
+- fixed lua erros on the spec icon tooltip, again.
+------------------------------------------------------------------------
+r15 | Tercioo | 2017-09-06 19:45:44 -0500 (Wed, 06 Sep 2017) | 7 lines
+Changed paths:
+   M /trunk/API.txt
+   M /trunk/boot.lua
+   M /trunk/classes/classe_combate.lua
+   M /trunk/classes/classe_damage.lua
+   M /trunk/classes/classe_energy.lua
+   M /trunk/classes/classe_heal.lua
+   M /trunk/classes/classe_others.lua
+   M /trunk/classes/container_combatentes.lua
+   M /trunk/core/control.lua
+   M /trunk/core/parser.lua
+   M /trunk/core/util.lua
+   M /trunk/core/windows.lua
+   M /trunk/functions/boss.lua
+   M /trunk/functions/playerclass.lua
+   M /trunk/functions/profiles.lua
+   M /trunk/functions/slash.lua
+   M /trunk/gumps/janela_principal.lua
+   M /trunk/images/icons.tga
+   M /trunk/startup.lua
+
+- Mythic+ dungeons won't delete trash segments, instead they will be added to the boss fight.
+- At the end of a mythic+ run all segments will be added to a new segment representing the overall of the run.
+- API: added combat:GetMythicDungeonInfo(), combat:IsMythicDungeon(), combat:IsMythicDungeonOverall()
+- API: added Details:UnpackMythicDungeonInfo (mythic_dungeon_info)
+- API: new parameters on Details:GetRaidIcon (mapid, ejID, instanceType)
+- API: new parameters on Details:GetBossPortrait (mapid, bossindex, encounterName, ejID)
+More information on API txts at the root folder.
+------------------------------------------------------------------------
 r14 | Tercioo | 2017-09-04 14:48:14 -0500 (Mon, 04 Sep 2017) | 4 lines
 Changed paths:
    M /trunk/Libs/AceComm-3.0/AceComm-3.0.lua

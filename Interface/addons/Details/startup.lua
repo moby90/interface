@@ -265,6 +265,305 @@ function _G._detalhes:Start()
 			
 			self.listener:RegisterEvent ("PLAYER_SPECIALIZATION_CHANGED")
 			
+			--test immersion stuff
+			------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------			
+			
+			local immersionFrame = CreateFrame ("frame", "DetailsImmersionFrame", UIParent)
+			immersionFrame:RegisterEvent ("ZONE_CHANGED_NEW_AREA")
+			immersionFrame.DevelopmentDebug = false
+			
+			--> check if can enabled the immersino stuff
+			
+			function immersionFrame.CheckIfCanEnableImmersion()
+				local mapFileName = GetMapInfo()	
+				if (mapFileName and mapFileName:find ("InvasionPoint")) then
+					self.immersion_enabled = true
+					if (immersionFrame.DevelopmentDebug) then
+						print ("Details!", "CheckIfCanEnableImmersion() > immersion enabled.")
+					end
+				else
+					if (self.immersion_enabled) then
+						if (immersionFrame.DevelopmentDebug) then
+							print ("Details!", "CheckIfCanEnableImmersion() > immersion disabled.")
+						end
+						self.immersion_enabled = nil
+					end
+				end
+			end
+
+			--> check events
+			immersionFrame:SetScript ("OnEvent", function (_, event, ...)
+				if (event == "ZONE_CHANGED_NEW_AREA") then
+					C_Timer.After (3, immersionFrame.CheckIfCanEnableImmersion)
+				end
+			end)
+			
+			
+			--test mythic + stuff
+			------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+			
+			--> data for the current mythic + dungeon
+			self.MythicPlus = {
+				RunID = 0,
+			}
+			
+			local newFrame = CreateFrame ("frame", "DetailsMythicPlusFrame", UIParent)
+			newFrame.DevelopmentDebug = true
+			
+			--[[
+				newFrame:RegisterEvent ("CHALLENGE_MODE_START")
+				newFrame:RegisterEvent ("CHALLENGE_MODE_COMPLETED")
+				newFrame:RegisterEvent ("ZONE_CHANGED_NEW_AREA")
+				newFrame:RegisterEvent ("ENCOUNTER_END")
+			--]]
+			
+			local mythicPlusOptions = {
+				segment_method = 1,
+			}
+
+			function newFrame.EndMythicDungeonSegment (this_is_end_end, encounterID, encounterName, difficultyID, raidSize, endStatus) --hold your breath and count to ten
+				if (newFrame.DevelopmentDebug) then
+					print ("Details!", "EndMythicDungeonSegment() > boss defeated | SegmentID:", self.MythicPlus.SegmentID, " | mapID:", self.MythicPlus.Dungeon)
+				end
+				
+				local zoneName, instanceType, difficultyID, difficultyName, maxPlayers, dynamicDifficulty, isDynamic, instanceMapID, instanceGroupSize = GetInstanceInfo()
+				
+				--> addon the mythic dungeon info to the combat
+				_detalhes.tabela_vigente.is_mythic_dungeon = {
+					StartedAt = self.MythicPlus.StartedAt, --the start of the run
+					EndedAt = time(), --when the boss got killed
+					SegmentID = self.MythicPlus.SegmentID, --segment number within the dungeon
+					EncounterID = encounterID,
+					EncounterName = encounterName,
+					RunID = self.mythic_dungeon_id,
+					ZoneName = zoneName,
+					MapID = instanceMapID,
+					OverallSegment = false,
+					Level = self.MythicPlus.Level,
+					EJID = self.MythicPlus.ejID,
+				}
+
+				--> close the combat
+				if (this_is_end_end) then
+					--> player left the dungeon
+					_detalhes:SairDoCombate()
+				else
+					--> came from encounter_end
+					_detalhes:SairDoCombate (true, {encounterID, encounterName, difficultyID, raidSize, endStatus})
+					_detalhes:EntrarEmCombate()
+					self.MythicPlus.SegmentID = self.MythicPlus.SegmentID + 1
+				end
+			end
+			
+			function newFrame.MythicDungeonFinished()
+				if (newFrame.IsDoingMythicDungeon) then
+				
+					if (newFrame.DevelopmentDebug) then
+						print ("Details!", "MythicDungeonFinished() > the dungeon was a Mythic+ and just ended.")
+					end
+					
+					newFrame.IsDoingMythicDungeon = false
+					self.MythicPlus.Started = false
+					self.MythicPlus.EndedAt = time()-1.9
+					
+					--> at this point, details! should not be in combat, but if something triggered a combat start, just close the combat right away
+					if (self.in_combat) then
+						self:SairDoCombate()
+					end
+					
+					if (newFrame.DevelopmentDebug) then
+						print ("Details!", "MythicDungeonFinished() > starting to merge mythic segments.", "InCombatLockdown():", InCombatLockdown())
+					end
+					
+					--> create a new combat to be the overall for the mythic run
+					self:EntrarEmCombate()
+					
+					--> get the current combat just created and the table with all past segments
+					local newCombat = self:GetCurrentCombat()
+					local segmentHistory = self:GetCombatSegments()
+
+					local totalTime = 0
+					local startDate, endDate = "", ""
+					local lastSegment
+
+					--> add all boss segments from this run to this new segment
+					for i = 1, 10 do --> from the newer combat to the oldest
+						local pastCombat = segmentHistory [i]
+						if (pastCombat and pastCombat.is_mythic_dungeon and pastCombat.is_mythic_dungeon.RunID == self.mythic_dungeon_id) then
+							newCombat = newCombat + pastCombat
+							totalTime = totalTime + pastCombat:GetCombatTime()
+							
+							if (newFrame.DevelopmentDebug) then
+								print ("adding time:", pastCombat:GetCombatTime(), pastCombat.is_boss and pastCombat.is_boss.name)
+							end
+							
+							if (endDate == "") then
+								local _, whenEnded = pastCombat:GetDate()
+								endDate =whenEnded
+							end
+							lastSegment = pastCombat
+						end
+					end
+					
+					--> get the date where the first segment started
+					if (lastSegment) then
+						startDate = lastSegment:GetDate()
+					end
+					
+					if (newFrame.DevelopmentDebug) then
+						print ("Details!", "MythicDungeonFinished() > totalTime:", totalTime, "startDate:", startDate)
+					end
+					
+					local zoneName, instanceType, difficultyID, difficultyName, maxPlayers, dynamicDifficulty, isDynamic, instanceMapID, instanceGroupSize = GetInstanceInfo()
+					
+					--> tag the segment as mythic overall segment
+					newCombat.is_mythic_dungeon = {
+						StartedAt = self.MythicPlus.StartedAt, --the start of the run
+						EndedAt = self.MythicPlus.EndedAt, --the end of the run
+						SegmentID = "overall", --segment number within the dungeon
+						RunID = self.mythic_dungeon_id,
+						OverallSegment = true,
+						ZoneName = zoneName,
+						MapID = instanceMapID,
+						Level = self.MythicPlus.Level,
+						EJID = self.MythicPlus.ejID,
+					}
+					
+					--> set the segment time and date
+					newCombat:SetStartTime (GetTime() - totalTime)
+					newCombat:SetEndTime (GetTime())
+					newCombat:SetDate (startDate, endDate)
+
+					--> immediatly finishes the segment just started
+					self:SairDoCombate()
+					
+					--> update all windows
+					self:InstanciaCallFunction (self.gump.Fade, "in", nil, "barras")
+					self:InstanciaCallFunction (self.AtualizaSegmentos)
+					self:InstanciaCallFunction (self.AtualizaSoloMode_AfertReset)
+					self:InstanciaCallFunction (self.ResetaGump)
+					self:AtualizaGumpPrincipal (-1, true)
+					
+					if (newFrame.DevelopmentDebug) then
+						print ("Details!", "MythicDungeonFinished() > finished merging segments.")
+						print ("Details!", "MythicDungeonFinished() > all done, check in the segments list if everything is correct, if something is weird: '/details feedback' thanks in advance!")
+					end
+				end
+			end
+			
+			function newFrame.MythicDungeonStarted()
+				--> flag as a mythic dungeon
+				newFrame.IsDoingMythicDungeon = true
+				
+				if (newFrame.DevelopmentDebug) then
+					print ("=========")
+					print ("Details!", "thanks for using an alpha version of Details!, please don't mind all these debug lines.")
+					print ("=========")
+					print ("Details!", "MythicDungeonStarted() > CHALLENGE_MODE_START triggered, setting up details!")
+				end
+				
+				local mythicLevel = C_ChallengeMode.GetActiveKeystoneInfo()
+				local _, _, _, _, _, _, _, currentZoneID = GetInstanceInfo()
+				local ejID = EJ_GetCurrentInstance()
+				
+				--> setup the mythic run info
+				self.MythicPlus.Started = true
+				self.MythicPlus.Dungeon = currentZoneID
+				self.MythicPlus.StartedAt = time()+9.7 --> there's the countdown timer of 10 seconds
+				self.MythicPlus.SegmentID = 1
+				self.MythicPlus.Level = mythicLevel
+				self.MythicPlus.ejID = ejID
+
+				--> this counter is individual for each character
+				self.mythic_dungeon_id = self.mythic_dungeon_id + 1
+				
+				--> start a new combat segment after 10 seconds
+				C_Timer.After (9.7, function()
+					if (newFrame.DevelopmentDebug) then
+						print ("Details!", "New segment for mythic dungeon created.")
+					end
+					_detalhes:EntrarEmCombate()
+				end)
+				
+				if (newFrame.DevelopmentDebug) then
+					print ("Details!", "MythicDungeonStarted() > State set to Mythic Dungeon, new combat starting in 10 seconds.")
+				end
+			end
+			
+			newFrame:SetScript ("OnEvent", function (_, event, ...)
+				
+				if (event == "CHALLENGE_MODE_START") then
+				
+					if (newFrame.DevelopmentDebug) then
+						print ("Details!", event, ...)
+					end
+					
+					--> is this a mythic dungeon?
+					local _, _, difficulty, _, _, _, _, currentZoneID = GetInstanceInfo()
+					
+					if (newFrame.DevelopmentDebug) then
+						print ("Details!", "Dungeon Dificulty:", difficulty, currentZoneID)
+					end
+					
+					if (difficulty == 8) then
+						--> start the dungeon on Details!
+						newFrame.MythicDungeonStarted()
+					end
+					
+				elseif (event == "CHALLENGE_MODE_COMPLETED") then
+					if (newFrame.DevelopmentDebug) then
+						print ("Details!", event, ...)
+					end
+					
+					--> delay to wait the encounter_end trigger first
+					--> assuming here the party cleaned the mobs kill objective before going to kill the last boss
+					C_Timer.After (2, newFrame.MythicDungeonFinished)
+					
+				elseif (event == "ENCOUNTER_END") then
+					if (newFrame.DevelopmentDebug) then
+						print ("Details!", event, ...)
+					end
+					
+					if (newFrame.IsDoingMythicDungeon) then
+						local encounterID, encounterName, difficultyID, raidSize, endStatus = ...
+						if (endStatus == 1) then
+							newFrame.EndMythicDungeonSegment (false, encounterID, encounterName, difficultyID, raidSize, endStatus)
+						else
+							if (newFrame.DevelopmentDebug) then
+								print ("Details!", "ENCOUNTER_END endStatus isn't 1, party wiped?")
+								print ("Details!", "Milestone not achieved, the combat keep going")
+							end
+						end
+					end
+					
+				elseif (event == "ZONE_CHANGED_NEW_AREA") then
+					if (newFrame.IsDoingMythicDungeon) then
+						if (newFrame.DevelopmentDebug) then
+							print ("Details!", event, ...)
+							print ("Zone changed and is Doing Mythic Dungeon")
+						end
+						local _, _, difficulty, _, _, _, _, currentZoneID = GetInstanceInfo()
+						if (currentZoneID ~= self.MythicPlus.Dungeon) then
+							if (newFrame.DevelopmentDebug) then
+								print ("Zone changed and the zone is different than the dungeon")
+							end
+							--> finish the segment
+							newFrame.EndMythicDungeonSegment (true)
+							
+							--> finish the mythic run
+							newFrame.MythicDungeonFinished()
+						end
+					end
+					
+				end
+				
+			end)
+			
+
+			--fazer a captura de dados para o gr�fico ao iniciar a corrida e parar ao sair da dungeon ou terminar a run.
+			
+			------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+			
 			self.parser_frame:RegisterEvent ("COMBAT_LOG_EVENT_UNFILTERED")
 
 	--> group
