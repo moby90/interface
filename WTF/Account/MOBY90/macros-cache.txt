@@ -3,9 +3,9 @@ VER 3 0000000000000043 "BoF" "1030095"
 /cast Beacon of Faith
 END
 VER 3 0000000000000042 "BoL" "236247"
-/target  Jayde's Hopeless Reflection
+/target  Dewi's Hopeless Reflection
 /cast Beacon of Light
-/w Dewi Innervate
+/w Máriká Innervate
 /target Laru's Hopeless Reflection
 END
 VER 3 0000000000000047 "Dewi" "136081"
@@ -34,8 +34,8 @@ VER 3 000000000000004A "range" "413591"
 /tar Locura's
 /tar Fallen's
 /tar Máriká's
-/tar Dewi's
 /tar Shaydera's 
+/tar Dewi's
 END
 VER 3 0000000000000045 "Sacrifice" "135966"
 /target Ypzo's Hopeless Reflection
