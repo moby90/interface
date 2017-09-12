@@ -2389,11 +2389,21 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Selezionare qui che finestra che si d
 --Translation missing 
 -- L["STRING_SEGMENT_START"] = ""
 --Translation missing 
--- L["STRING_SEGMENT_TIME"] = ""
---Translation missing 
 -- L["STRING_SEGMENT_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SEGMENTS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_COMBATTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SHIELD_HEAL"] = ""
 --Translation missing 

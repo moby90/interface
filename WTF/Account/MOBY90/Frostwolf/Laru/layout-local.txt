@@ -46,5 +46,12 @@ FrameLevel: 1
 Anchor: TOP
 X: -319
 Y: -70
-W: 248
-H: 188
+W: 286
+H: 160
+Frame: WeakAurasDisplayButton49
+FrameLevel: 8
+Anchor: CENTER
+X: -247
+Y: 133
+W: 1085
+H: 32

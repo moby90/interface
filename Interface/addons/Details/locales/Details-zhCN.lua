@@ -1534,9 +1534,20 @@ L["STRING_SEGMENT_ENEMY"] = "敌对"
 L["STRING_SEGMENT_LOWER"] = "片段"
 L["STRING_SEGMENT_OVERALL"] = "总体数据"
 L["STRING_SEGMENT_START"] = "开始"
-L["STRING_SEGMENT_TIME"] = "时间"
 L["STRING_SEGMENT_TRASH"] = "垃圾清理"
 L["STRING_SEGMENTS"] = "段落"
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_COMBATTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 L["STRING_SHIELD_HEAL"] = "盾治疗"
 L["STRING_SHIELD_OVERHEAL"] = "盾过量治疗"
 L["STRING_SHORTCUT_RIGHTCLICK"] = "右键点击关闭"

@@ -4116,6 +4116,11 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		if (_detalhes.latest_ENCOUNTER_END + 10 > _GetTime()) then
 			return
 		end
+
+		--> leave the current combat when the encounter start, if is doing a mythic plus dungeons, check if the options alows to create a dedicated segment for the boss fight
+		if ((_in_combat and not _detalhes.tabela_vigente.is_boss) and (not _detalhes.MythicPlus.Started or _detalhes.mythic_plus.boss_dedicated_segment)) then
+			_detalhes:SairDoCombate()
+		end
 		
 		local encounterID, encounterName, difficultyID, raidSize = _select (1, ...)
 		
@@ -4128,13 +4133,8 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			_detalhes.TellDamageRecord.Boss = encounterID
 			_detalhes.TellDamageRecord.Diff = difficultyID
 		end
-		
+
 		_current_encounter_id = encounterID
-		
-		--> leave the combat when the encounter start, except if this is a mythic+ dungeon
-		if (_in_combat and not _detalhes.tabela_vigente.is_boss and not _detalhes.MythicPlus.Started) then
-			_detalhes:SairDoCombate()
-		end
 		
 		local dbm_mod, dbm_time = _detalhes.encounter_table.DBM_Mod, _detalhes.encounter_table.DBM_ModTime
 		_table_wipe (_detalhes.encounter_table)
@@ -4280,6 +4280,21 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 		if (not _IsInGroup() and not IsInRaid()) then	
 			_detalhes.tabela_vigente.playing_solo = true
 			_detalhes:SairDoCombate()
+		end
+		
+		if (_detalhes.schedule_mythicdungeon_trash_merge) then
+			_detalhes.schedule_mythicdungeon_trash_merge = nil
+			DetailsMythicPlusFrame.MergeTrashCleanup()
+		end
+		
+		if (_detalhes.schedule_mythicdungeon_endtrash_merge) then
+			_detalhes.schedule_mythicdungeon_endtrash_merge = nil
+			DetailsMythicPlusFrame.MergeRemainingTrashAfterAllBossesDone()
+		end
+		
+		if (_detalhes.schedule_mythicdungeon_overallrun_merge) then
+			_detalhes.schedule_mythicdungeon_overallrun_merge = nil
+			DetailsMythicPlusFrame.MergeSegmentsOnEnd()
 		end
 		
 		--> aqui, tentativa de fazer o timer da janela do Solo funcionar corretamente:

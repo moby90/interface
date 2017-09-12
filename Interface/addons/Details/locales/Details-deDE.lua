@@ -1488,9 +1488,20 @@ L["STRING_SEGMENT_ENEMY"] = "Gegner"
 L["STRING_SEGMENT_LOWER"] = "Segment"
 L["STRING_SEGMENT_OVERALL"] = "Gesamtdaten"
 L["STRING_SEGMENT_START"] = "Start"
-L["STRING_SEGMENT_TIME"] = "Dauer"
 L["STRING_SEGMENT_TRASH"] = "Trash abgräumt"
 L["STRING_SEGMENTS"] = "Segmente"
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_COMBATTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 L["STRING_SHIELD_HEAL"] = "verhindert"
 L["STRING_SHIELD_OVERHEAL"] = "Vergeudet"
 L["STRING_SHORTCUT_RIGHTCLICK"] = "Rechtsklick, um zu schließen"

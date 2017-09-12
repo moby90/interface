@@ -1487,9 +1487,19 @@ L["STRING_SEGMENT_ENEMY"] = "적"
 L["STRING_SEGMENT_LOWER"] = "세분화"
 L["STRING_SEGMENT_OVERALL"] = "종합 데이터"
 L["STRING_SEGMENT_START"] = "시작"
-L["STRING_SEGMENT_TIME"] = "시간"
 L["STRING_SEGMENT_TRASH"] = "일반몹 정리"
 L["STRING_SEGMENTS"] = "세분화"
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+L["STRING_SEGMENTS_LIST_COMBATTIME"] = "전투 시간"
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 L["STRING_SHIELD_HEAL"] = "막음"
 L["STRING_SHIELD_OVERHEAL"] = "낭비됨"
 L["STRING_SHORTCUT_RIGHTCLICK"] = "오른쪽 클릭으로 닫기"

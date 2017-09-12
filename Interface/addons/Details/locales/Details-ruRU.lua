@@ -1628,9 +1628,20 @@ L["STRING_SEGMENT_ENEMY"] = "Враг"
 L["STRING_SEGMENT_LOWER"] = "сегмент"
 L["STRING_SEGMENT_OVERALL"] = "Всеобщие данные"
 L["STRING_SEGMENT_START"] = "Начало"
-L["STRING_SEGMENT_TIME"] = "Время"
 L["STRING_SEGMENT_TRASH"] = "Зачистка треша"
 L["STRING_SEGMENTS"] = "Сегменты"
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_COMBATTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SHIELD_HEAL"] = ""
 --Translation missing 

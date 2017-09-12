@@ -1821,11 +1821,22 @@ L["STRING_SEGMENT_ENEMY"] = "Enemigo"
 L["STRING_SEGMENT_LOWER"] = "segmento"
 L["STRING_SEGMENT_OVERALL"] = "Datos globales"
 L["STRING_SEGMENT_START"] = "Iniciar"
-L["STRING_SEGMENT_TIME"] = "Tiempo"
 --Translation missing 
 -- L["STRING_SEGMENT_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SEGMENTS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_COMBATTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SHIELD_HEAL"] = ""
 --Translation missing 

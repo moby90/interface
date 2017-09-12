@@ -103,9 +103,15 @@
 	function combate:GetMythicDungeonInfo()
 		return self.is_mythic_dungeon
 	end
+
+	function combate:GetMythicDungeonTrashInfo()
+		return self.is_mythic_dungeon_trash
+	end
 	
 	function combate:IsMythicDungeon()
-		return self.is_mythic_dungeon and true
+		local is_segment = self.is_mythic_dungeon_segment
+		local run_id = self.is_mythic_dungeon_run_id
+		return is_segment, run_id
 	end
 	
 	function combate:IsMythicDungeonOverall()

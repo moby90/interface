@@ -1208,13 +1208,13 @@ local default_global_data = {
 		
 	--> mythic plus config
 		mythic_plus = {
-			always_in_combat = false,
-			merge_boss_trash = true,
-			delete_trash_after_merge = true,
-			merge_boss_with_trash = false,
-			boss_dedicated_segment = true,
-			make_overall_when_done = true,
-			make_overall_boss_only = false,
+			always_in_combat = false, --
+			merge_boss_trash = true, --
+			delete_trash_after_merge = true, --
+			--merge_boss_with_trash = false, --this won't be used
+			boss_dedicated_segment = true, --
+			make_overall_when_done = true, --
+			make_overall_boss_only = false, --
 		},
 		
 	-- important auras

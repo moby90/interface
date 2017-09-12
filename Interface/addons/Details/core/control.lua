@@ -536,8 +536,14 @@
 						id = encounterID,
 					}
 				end
-			end			
-
+			end		
+			
+			--> tag as a mythic dungeon segment, can be any type of segment, this tag also avoid the segment to be tagged as trash
+			if (_detalhes.MythicPlus.Started) then
+				_detalhes.tabela_vigente.is_mythic_dungeon_segment = true
+				_detalhes.tabela_vigente.is_mythic_dungeon_run_id = _detalhes.mythic_dungeon_id
+				end
+			
 			if (not _detalhes.tabela_vigente.is_boss) then
 
 				if (_detalhes.tabela_vigente.is_pvp or _detalhes.tabela_vigente.is_arena) then
@@ -547,13 +553,21 @@
 				if (_detalhes.tabela_vigente.is_arena) then
 					_detalhes.tabela_vigente.enemy = "[" .. ARENA .. "] " ..  _detalhes.tabela_vigente.is_arena.name
 				end
-			
+
 				local in_instance = IsInInstance() --> garrison returns party as instance type.
 				if ((InstanceType == "party" or InstanceType == "raid") and in_instance) then
 					if (InstanceType == "party") then
-						if (not _detalhes.tabela_vigente.is_mythic_dungeon) then
+						if (not _detalhes.tabela_vigente.is_mythic_dungeon_segment) then
 							--> tag the combat as trash clean up
 							_detalhes.tabela_vigente.is_trash = true
+						else
+							local zoneName, instanceType, difficultyID, difficultyName, maxPlayers, dynamicDifficulty, isDynamic, instanceMapID, instanceGroupSize = GetInstanceInfo()
+							_detalhes.tabela_vigente.is_mythic_dungeon_trash = {
+								ZoneName = zoneName,
+								MapID = instanceMapID,
+								Level = _detalhes.MythicPlus.Level,
+								EJID = _detalhes.MythicPlus.ejID,
+							}
 						end
 					else
 						_detalhes.tabela_vigente.is_trash = true

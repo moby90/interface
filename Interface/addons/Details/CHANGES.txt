@@ -1,4 +1,22 @@
 ------------------------------------------------------------------------
+r20 | Tercioo | 2017-09-10 20:41:35 -0500 (Sun, 10 Sep 2017) | 5 lines
+Changed paths:
+   M /trunk/boot.lua
+   M /trunk/classes/classe_combate.lua
+   M /trunk/core/control.lua
+   M /trunk/core/parser.lua
+   M /trunk/functions/boss.lua
+   M /trunk/functions/profiles.lua
+   M /trunk/functions/skins.lua
+   M /trunk/gumps/janela_principal.lua
+   M /trunk/startup.lua
+
+- During mythic dungeons, the trash segments will be merged into a new segment at the end of the boss encounter (instead of merging on the fly while cleaning up).
+- Skins where alpha icons for specs aren't used, use 'bar start after icon'.
+- API: added combat:GetMythicDungeonTrashInfo() returns a table with information.
+- API changed combat:IsMythicDungeon() now returns if is any type of mythic dungeon segment and the run id.
+- API: changed Details.GetRaidIcon() now return loreImage for party and raid.
+------------------------------------------------------------------------
 r19 | Tercioo | 2017-09-09 14:10:07 -0500 (Sat, 09 Sep 2017) | 3 lines
 Changed paths:
    M /trunk/boot.lua

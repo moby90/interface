@@ -245,7 +245,7 @@ do
 			local name, description, bgImage, buttonImage, loreImage, dungeonAreaMapID, link = EJ_GetInstanceInfo (ejID)
 			if (name) then
 				if (instanceType == "party") then
-					return bgImage
+					return loreImage --bgImage
 				elseif (instanceType == "raid") then
 					return loreImage
 				end
