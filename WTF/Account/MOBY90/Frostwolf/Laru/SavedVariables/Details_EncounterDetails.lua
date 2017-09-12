@@ -1,5 +1,970 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			{
+				0.1, -- [1]
+				"It is a simple matter to show courage against my minions. Can you face the shadows within your own souls as bravely?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				9.93999999999505, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				10.9680000000008, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				17.0190000000002, -- [1]
+				"Face your destiny!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				34.1820000000007, -- [1]
+				"Fall, hero!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				55.1009999999951, -- [1]
+				"Face your destiny!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				55.1009999999951, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				55.1009999999951, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				64.1569999999993, -- [1]
+				"Obliteration beckons!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				65.1610000000001, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [10]
+			{
+				80.0899999999965, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				80.0899999999965, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [12]
+			{
+				103.060999999994, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				104.089999999997, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				106.103999999999, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				106.103999999999, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [16]
+			{
+				126.106999999996, -- [1]
+				"Still you resist! Then let me repay your arrogance!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				134.028999999995, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				135.007999999994, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [19]
+			{
+				137.267999999996, -- [1]
+				"Consume them all!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				140.888999999996, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				140.888999999996, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [22]
+			{
+				157.866999999998, -- [1]
+				"Who will share your fate?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [23]
+			{
+				157.866999999998, -- [1]
+				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Talar|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [24]
+			{
+				159.093000000001, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [25]
+			{
+				159.093000000001, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [26]
+			{
+				169.097999999998, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				169.097999999998, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [28]
+			{
+				174.127, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [29]
+			{
+				174.127, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [30]
+			{
+				192.740999999995, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [31]
+			{
+				193.748999999996, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [32]
+			{
+				196.777999999998, -- [1]
+				"Who will share your fate?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [33]
+			{
+				196.777999999998, -- [1]
+				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Dokz|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [34]
+			{
+				200.437999999995, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [35]
+			{
+				200.437999999995, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [36]
+			{
+				217.445999999996, -- [1]
+				"Consume them all!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [37]
+			{
+				240.691999999995, -- [1]
+				"Obliteration beckons!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				241.714, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [39]
+			{
+				243.755999999994, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [40]
+			{
+				243.755999999994, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [41]
+			{
+				247.746999999996, -- [1]
+				"Give in to your fears! Your desires!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [42]
+			{
+				254.744999999995, -- [1]
+				"Who will share your fate?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [43]
+			{
+				254.744999999995, -- [1]
+				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Dewi|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [44]
+			{
+				259.635999999999, -- [1]
+				"An inevitable fate!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [45]
+			{
+				270.718999999997, -- [1]
+				"Give in to your fears! Your desires!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [46]
+			{
+				272.710999999996, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [47]
+			{
+				273.640999999996, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [48]
+			{
+				274.684999999998, -- [1]
+				"Consume them all!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [49]
+			{
+				279.780999999995, -- [1]
+				"Fall, hero!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [50]
+			{
+				291.829999999995, -- [1]
+				"An inevitable fate!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [51]
+			{
+				293.728999999999, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [52]
+			{
+				293.728999999999, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [53]
+			["boss"] = "Kil'jaeden",
+		}, -- [1]
+		{
+			{
+				0.205000000001746, -- [1]
+				"This battle shall be your last!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				10.224000000002, -- [1]
+				"Obliteration beckons!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				11.2430000000022, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				17.2119999999995, -- [1]
+				"Face your destiny!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				34.2209999999977, -- [1]
+				"Fall, hero!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				55.2319999999963, -- [1]
+				"Give in to your fears! Your desires!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				55.2319999999963, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				55.2319999999963, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				64.2419999999984, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				65.2189999999973, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [10]
+			{
+				80.2119999999995, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				80.2119999999995, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [12]
+			{
+				103.216, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				104.218000000001, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				106.074999999997, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				106.074999999997, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [16]
+			{
+				116.648000000001, -- [1]
+				"Still you resist! Then let me repay your arrogance!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				123.682000000001, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				124.688999999999, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [19]
+			{
+				127.735000000001, -- [1]
+				"|TInterface\\Icons\\ABILITY_WARLOCK_INFERNO.BLP:20|t%s has targeted you with |cFFFF0000|Hspell:238430|h[Bursting Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				2, -- [4]
+			}, -- [20]
+			{
+				127.735000000001, -- [1]
+				"Consume them all!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				131.267, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				131.267, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [23]
+			{
+				148.375, -- [1]
+				"Who will share your fate?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				148.375, -- [1]
+				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Roanar|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [25]
+			{
+				149.624000000003, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				149.624000000003, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [27]
+			{
+				154.618000000002, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				154.618000000002, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [29]
+			{
+				164.582000000002, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				164.582000000002, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				183.222000000002, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				184.222999999998, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [33]
+			{
+				187.309000000001, -- [1]
+				"Who will share your fate?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				187.309000000001, -- [1]
+				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Fooneses|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				190.809999999998, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				190.809999999998, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [37]
+			{
+				195.927000000003, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				195.927000000003, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [39]
+			{
+				207.959000000003, -- [1]
+				"|TInterface\\Icons\\ABILITY_WARLOCK_INFERNO.BLP:20|t%s has targeted you with |cFFFF0000|Hspell:238430|h[Bursting Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				2, -- [4]
+			}, -- [40]
+			{
+				207.959000000003, -- [1]
+				"Consume them all!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [41]
+			{
+				231.673999999999, -- [1]
+				"Obliteration beckons!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [42]
+			{
+				232.690999999999, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [43]
+			{
+				234.671999999999, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [44]
+			{
+				234.671999999999, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [45]
+			{
+				238.671999999999, -- [1]
+				"Face your destiny!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [46]
+			{
+				245.648000000001, -- [1]
+				"Who will share your fate?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [47]
+			{
+				245.648000000001, -- [1]
+				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Uguluugulu|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [48]
+			{
+				250.712, -- [1]
+				"Fall, hero!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [49]
+			{
+				261.697, -- [1]
+				"Face your destiny!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [50]
+			{
+				263.671999999999, -- [1]
+				"Obliteration beckons!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [51]
+			{
+				264.686000000002, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [52]
+			{
+				265.676, -- [1]
+				"Consume them all!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [53]
+			{
+				270.709000000003, -- [1]
+				"Fall, hero!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [54]
+			{
+				284.667000000001, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [55]
+			{
+				284.667000000001, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [56]
+			{
+				289.677000000003, -- [1]
+				"Who will share your fate?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [57]
+			{
+				289.677000000003, -- [1]
+				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Dewi|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [58]
+			{
+				308.690999999999, -- [1]
+				"Obliteration beckons!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [59]
+			{
+				309.703000000001, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [60]
+			{
+				312.911999999997, -- [1]
+				"Fall, hero!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [61]
+			{
+				315.692000000003, -- [1]
+				"Consume them all!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [62]
+			{
+				321.690000000002, -- [1]
+				"I sense the corruption inside you.", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [63]
+			{
+				323.625999999997, -- [1]
+				"An inevitable fate!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [64]
+			{
+				329.659, -- [1]
+				"A meaningless struggle! Azeroth shall fall to the Burning Legion!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [65]
+			["boss"] = "Kil'jaeden",
+		}, -- [2]
+		{
+			{
+				0.176999999996042, -- [1]
+				"It is a simple matter to show courage against my minions. Can you face the shadows within your own souls as bravely?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				10.176999999996, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				11.2019999999975, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [3]
+			{
+				17.0819999999949, -- [1]
+				"Confront your own darkness!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				34.3809999999939, -- [1]
+				"Fall, hero!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				55.2099999999991, -- [1]
+				"I sense the corruption inside you.", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				55.2099999999991, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				55.2099999999991, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				64.1949999999997, -- [1]
+				"Obliteration beckons!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				65.2209999999977, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [10]
+			{
+				80.2219999999943, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				80.2219999999943, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [12]
+			{
+				103.258999999998, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				104.224999999999, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [14]
+			{
+				106.200999999994, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [15]
+			{
+				106.200999999994, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [16]
+			{
+				122.792999999998, -- [1]
+				"Still you resist! Then let me repay your arrogance!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				129.863999999994, -- [1]
+				"Death rains upon you!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				130.886999999995, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [19]
+			{
+				133.936999999998, -- [1]
+				"|TInterface\\Icons\\ABILITY_WARLOCK_INFERNO.BLP:20|t%s has targeted you with |cFFFF0000|Hspell:238430|h[Bursting Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				2, -- [4]
+			}, -- [20]
+			{
+				133.936999999998, -- [1]
+				"Consume them all!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [21]
+			{
+				137.598999999995, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				137.598999999995, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [23]
+			{
+				154.566999999995, -- [1]
+				"Who will share your fate?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [24]
+			{
+				154.566999999995, -- [1]
+				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Fluffypillow|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [25]
+			{
+				155.841, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				155.841, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [27]
+			{
+				160.745999999999, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [28]
+			{
+				160.745999999999, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [29]
+			{
+				170.865999999995, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [30]
+			{
+				170.865999999995, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [31]
+			{
+				189.498, -- [1]
+				"Obliteration beckons!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [32]
+			{
+				190.472999999998, -- [1]
+				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [33]
+			{
+				193.521000000001, -- [1]
+				"Who will share your fate?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [34]
+			{
+				193.521000000001, -- [1]
+				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Fallen|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				197.190999999999, -- [1]
+				"Who will save you now?", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [36]
+			{
+				197.190999999999, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [37]
+			{
+				198.273999999998, -- [1]
+				"An inevitable fate!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [38]
+			{
+				202.060999999994, -- [1]
+				"Fall before your master!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [39]
+			{
+				202.060999999994, -- [1]
+				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
+				"Kil'jaeden", -- [3]
+				1, -- [4]
+			}, -- [40]
+			{
+				214.156999999999, -- [1]
+				"Consume them all!", -- [2]
+				"Kil'jaeden", -- [3]
+				7, -- [4]
+			}, -- [41]
+			["boss"] = "Kil'jaeden",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[196414] = {
 			["school"] = 1,
@@ -87,8 +1052,8 @@ EncounterDetailsDB = {
 		[198590] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Riddley-Rexxar",
 		},
@@ -328,8 +1293,8 @@ EncounterDetailsDB = {
 		[205246] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
 			["source"] = "Megasn-Blackhand",
 		},
@@ -449,8 +1414,8 @@ EncounterDetailsDB = {
 		[98021] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Spirit Link Totem",
 		},
@@ -721,8 +1686,8 @@ EncounterDetailsDB = {
 		[34914] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Deshx-Thrall",
 		},
@@ -1870,8 +2835,8 @@ EncounterDetailsDB = {
 		[61295] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "Helí",
 		},
@@ -2062,12 +3027,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Advisor Vandros",
 		},
-		[204563] = {
-			["school"] = 1,
+		[197509] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Admiral Rel'var",
+			["source"] = "Bloodworm",
 		},
 		[57780] = {
 			["school"] = 8,
@@ -2077,12 +3042,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Steelforged Defender",
 		},
-		[81269] = {
-			["school"] = 8,
+		[183378] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Satrinasbell",
+			["source"] = "Felsworn Myrmidon",
 		},
 		[187131] = {
 			["school"] = 1,
@@ -2092,11 +3059,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Zola",
 		},
-		[227300] = {
-			["school"] = 64,
+		[203109] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Felsworn Myrmidon",
 		},
 		[241606] = {
 			["school"] = 32,
@@ -2114,37 +3085,37 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Soulripper Warfiend",
 		},
-		[194466] = {
-			["school"] = 4,
+		[238996] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Witherless",
+			["source"] = "Lorice",
 		},
-		[183378] = {
+		[251550] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Felsiege Infernal",
+		},
+		[242832] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Felsworn Myrmidon",
+			["source"] = "Wild Imp",
 		},
-		[202420] = {
-			["school"] = 4,
+		[64692] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Eredar War-Mind",
-		},
-		[225624] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Satrinasbell",
+			["source"] = "Mechagnome Battletank",
 		},
 		[235213] = {
 			["school"] = 2,
@@ -2154,14 +3125,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Vigilance",
 		},
-		[774] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[205164] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Satrinasbell",
+			["source"] = "Eistla-Blackmoore",
 		},
 		[227285] = {
 			["school"] = 64,
@@ -2185,91 +3154,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Astrathos-ZirkeldesCenarius",
 		},
-		[164815] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Satrinasbell",
-		},
-		[203109] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Felsworn Myrmidon",
-		},
-		[202861] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Eredar War-Mind",
-		},
-		[235214] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[188035] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Rolypoly",
-		},
-		[251550] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Felsiege Infernal",
-		},
-		[251691] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lightforged Warframe",
-		},
-		[250889] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lightforged Warframe",
-		},
-		[205164] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Eistla-Blackmoore",
-		},
-		[254652] = {
-			["school"] = 6,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lightforged Warframe",
-		},
-		[196213] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Corstilax",
-		},
 		[220893] = {
 			["school"] = 32,
 			["token"] = {
@@ -2284,6 +3168,87 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lightforged Warframe",
 		},
+		[254651] = {
+			["school"] = 6,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lightforged Warframe",
+		},
+		[235214] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[40120] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Thirios",
+		},
+		[8092] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Deshx-Thrall",
+		},
+		[251691] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lightforged Warframe",
+		},
+		[227270] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Volatile Energy",
+		},
+		[225624] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Satrinasbell",
+		},
+		[228267] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gul'dan",
+		},
+		[196213] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Corstilax",
+		},
+		[254652] = {
+			["school"] = 6,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lightforged Warframe",
+		},
+		[221783] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Gul'dan",
+		},
 		[236494] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -2295,12 +3260,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fallen Avatar",
 		},
-		[254651] = {
-			["school"] = 6,
+		[194238] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lightforged Warframe",
+			["source"] = "Môwltasche",
 		},
 		[240842] = {
 			["school"] = 4,
@@ -2324,13 +3289,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Urthagas-Blackhand",
 		},
-		[253103] = {
-			["school"] = 1,
+		[218587] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Varga",
+			["source"] = "Dresaron",
 		},
 		[240331] = {
 			["school"] = 1,
@@ -2363,12 +3327,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "General Xakal",
 		},
-		[242702] = {
-			["school"] = 2,
+		[207472] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Legionfall Defender",
+			["source"] = "Atjum-Aegwynn",
 		},
 		[85256] = {
 			["school"] = 2,
@@ -2377,13 +3342,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lorice",
 		},
-		[253102] = {
-			["school"] = 1,
+		[209518] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Varga",
+			["source"] = "Eye of Gul'dan",
 		},
 		[188031] = {
 			["school"] = 1,
@@ -2400,15 +3364,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Inuwitjo-Thrall",
 		},
-		[251341] = {
+		[32176] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ur'zul Fiend",
+			["source"] = "Ribesal",
 		},
 		[230358] = {
 			["school"] = 8,
@@ -2418,15 +3379,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mistress Sassz'ine",
 		},
-		[251332] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[236564] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Young Duskcloak",
+			["source"] = "The Desolate Host",
 		},
 		[242890] = {
 			["school"] = 1,
@@ -2436,13 +3394,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tomala",
 		},
-		[236694] = {
-			["school"] = 1,
+		[115151] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Captain Yathae Moonstrike",
+			["source"] = "Tyrolia",
 		},
 		[214502] = {
 			["school"] = 8,
@@ -2452,23 +3409,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrolia",
 		},
-		[251892] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[26006] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Chitinous Cragscaler",
-		},
-		[227270] = {
-			["school"] = 64,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Volatile Energy",
+			["source"] = "Emperor Vek'lor",
+		},
+		[211007] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Nightborne Reclaimer",
 		},
 		[29722] = {
 			["school"] = 4,
@@ -2493,12 +3451,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "God-King Skovald",
 		},
-		[228267] = {
+		[249747] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Nether Acolyte",
 		},
 		[231766] = {
 			["school"] = 1,
@@ -2510,12 +3472,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Opera",
 		},
-		[239214] = {
+		[249748] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kil'jaeden",
+			["source"] = "Nether Acolyte",
 		},
 		[198263] = {
 			["school"] = 2,
@@ -2525,20 +3489,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Odyn",
 		},
-		[243016] = {
-			["school"] = 36,
-			["type"] = "DEBUFF",
+		[190784] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Consabob-LaughingSkull",
+			["source"] = "Slowsohn-Aegwynn",
 		},
-		[6343] = {
-			["school"] = 1,
+		[203593] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Consabob-LaughingSkull",
+			["source"] = "Mana Wyrm",
 		},
 		[187394] = {
 			["school"] = 126,
@@ -2562,24 +3525,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jinyuu",
 		},
-		[115767] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[236563] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Consabob-LaughingSkull",
+			["source"] = "The Desolate Host",
 		},
-		[200182] = {
-			["school"] = 8,
+		[251332] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shade of Xavius",
+			["source"] = "Young Duskcloak",
 		},
 		[188034] = {
 			["school"] = 1,
@@ -2605,40 +3566,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Varghul",
 		},
-		[236282] = {
+		[242584] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Consabob-LaughingSkull",
-		},
-		[191284] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Hymdall",
-		},
-		[219788] = {
-			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Varghul",
+			["source"] = "Opera",
 		},
-		[233048] = {
-			["school"] = 4,
+		[55095] = {
+			["school"] = 16,
 			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Eistla-Blackmoore",
+		},
+		[2983] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Slizà",
+		},
+		[235028] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Antoran Defender",
+			["source"] = "Maiden of Vigilance",
 		},
 		[198137] = {
 			["school"] = 2,
@@ -2648,13 +3609,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ariell-DunMorogh",
 		},
-		[207472] = {
+		[188035] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Atjum-Aegwynn",
+			["source"] = "Rolypoly",
 		},
 		[229083] = {
 			["school"] = 4,
@@ -2715,12 +3676,16 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[240209] = {
+		[233048] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+			["source"] = "Antoran Defender",
 		},
 		[240337] = {
 			["school"] = 1,
@@ -2730,27 +3695,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mdcbigdikdmg",
 		},
-		[60195] = {
+		[119085] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Weedchief",
+		},
+		[251028] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nethersworn Assassin",
+			["source"] = "Eredar Acolyte",
 		},
-		[32176] = {
-			["school"] = 1,
+		[77489] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Ribesal",
-		},
-		[115151] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tyrolia",
+			["source"] = "Teylorswift",
 		},
 		[227550] = {
 			["school"] = 4,
@@ -2759,13 +3728,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[242586] = {
+		[235927] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Tyrolia",
+			["source"] = "Reanimated Templar",
 		},
 		[203254] = {
 			["school"] = 64,
@@ -2774,14 +3743,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Advisor Vandros",
 		},
-		[568] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[193796] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Emperor Vek'lor",
+			["source"] = "Ribesal",
 		},
 		[131900] = {
 			["school"] = 1,
@@ -2804,42 +3771,39 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fallen Avatar",
 		},
-		[249747] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[251799] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Nether Acolyte",
+			["source"] = "Panthara Apex",
 		},
-		[249748] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Nether Acolyte",
-		},
-		[251339] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Duskcloak Alpha",
-		},
-		[183270] = {
-			["school"] = 32,
+		[221606] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Felguard Warden",
+			["source"] = "Gul'dan",
+		},
+		[250929] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Felsiege Champion",
+		},
+		[225497] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Rotheart Keeper",
 		},
 		[228958] = {
 			["school"] = 4,
@@ -2868,14 +3832,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kil'jaeden",
 		},
-		[241600] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[207150] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sickly Tadpole",
+			["source"] = "Eistla-Blackmoore",
 		},
 		[238677] = {
 			["school"] = 4,
@@ -2948,12 +3910,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[251893] = {
-			["school"] = 4,
+		[195362] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Chitinous Cragscaler",
 		},
 		[227681] = {
 			["school"] = 4,
@@ -3000,21 +3962,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jinyuu",
 		},
-		[222072] = {
-			["school"] = 32,
+		[208899] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
+			},
+			["source"] = "Helí",
+		},
+		[242390] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dark Zealot",
-		},
-		[235117] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Maiden of Vigilance",
+			["source"] = "Jinyuu",
 		},
 		[166302] = {
 			["school"] = 1,
@@ -3025,12 +3987,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blingtron 5000",
 		},
-		[143924] = {
-			["school"] = 1,
+		[774] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Sneaky Snake",
+			["source"] = "Satrinasbell",
 		},
 		[81297] = {
 			["school"] = 2,
@@ -3039,13 +4003,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jyna-Norgannon",
 		},
-		[214995] = {
+		[222029] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Teddie",
+			["source"] = "Jinyuu",
 		},
 		[236378] = {
 			["school"] = 32,
@@ -3123,12 +4086,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oakheart",
 		},
-		[236507] = {
-			["school"] = 32,
+		[227300] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Engine of Souls",
 		},
 		[238681] = {
 			["school"] = 1,
@@ -3156,22 +4118,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[119085] = {
+		[251341] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ur'zul Fiend",
+		},
+		[228128] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Weedchief",
-		},
-		[251028] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Eredar Acolyte",
+			["source"] = "Neranda",
 		},
 		[783] = {
 			["school"] = 1,
@@ -3192,13 +4155,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Oakheart",
 		},
-		[247329] = {
-			["school"] = 32,
+		[225635] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Eredar Soulshaper",
+			["source"] = "Lunar Archer",
 		},
 		[154796] = {
 			["school"] = 1,
@@ -3208,31 +4172,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Neranda",
 		},
-		[251334] = {
+		[245061] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Duskcloak Panthara",
+			["source"] = "Eredar Conqueror",
 		},
-		[193796] = {
-			["school"] = 4,
+		[107270] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ribesal",
+			["source"] = "Jinyuu",
 		},
-		[251799] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[196068] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Panthara Apex",
 		},
 		[228964] = {
 			["school"] = 1,
@@ -3273,27 +4233,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Isolas",
 		},
-		[251796] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Panthara Stalker",
-		},
-		[250929] = {
-			["school"] = 4,
+		[235989] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Felsiege Champion",
+			["source"] = "Engine of Souls",
 		},
-		[222596] = {
-			["school"] = 32,
+		[236432] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Talestra the Vile",
+			["source"] = "Maiden of Vigilance",
+		},
+		[192090] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Teddie",
 		},
 		[240218] = {
 			["school"] = 2,
@@ -3312,15 +4274,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ivanyr",
 		},
-		[222620] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[26662] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Talestra the Vile",
+			["source"] = "Kil'jaeden",
 		},
 		[233441] = {
 			["school"] = 1,
@@ -3331,226 +4292,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Atrigan",
 		},
-		[30153] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Felguard",
-		},
-		[222631] = {
-			["school"] = 127,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Talestra the Vile",
-		},
-		[239963] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Nora Kittridge",
-		},
-		[195362] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[240219] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Maiden of Vigilance",
-		},
-		[185099] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Jinyuu",
-		},
-		[238429] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Kil'jaeden",
-		},
-		[242390] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Jinyuu",
-		},
-		[222617] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Talestra the Vile",
-		},
-		[222029] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Jinyuu",
-		},
-		[250925] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Felsiege Champion",
-		},
-		[197579] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[213771] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Teddie",
-		},
-		[245061] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Eredar Conqueror",
-		},
-		[238430] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Kil'jaeden",
-		},
-		[107270] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Jinyuu",
-		},
-		[199812] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Nal'tira",
-		},
-		[77758] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Teddie",
-		},
-		[164812] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Teddie",
-		},
-		[115804] = {
+		[229241] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Jinyuu",
-		},
-		[104318] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Wild Imp",
-		},
-		[192090] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Teddie",
-		},
-		[65081] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Ishâra",
-		},
-		[236513] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ghastly Bonewarden",
-		},
-		[26662] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Kil'jaeden",
-		},
-		[206339] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Gul'dan",
-		},
-		[248419] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[191840] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Ræch",
-		},
-		[50401] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Eistla-Blackmoore",
+			["source"] = "Command Ship",
 		},
 		[1604] = {
 			["school"] = 1,
@@ -3560,35 +4308,49 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gilnean Feralheart",
 		},
-		[224001] = {
+		[239963] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Lestin",
+			["source"] = "Nora Kittridge",
 		},
-		[49998] = {
+		[232723] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Piranhado",
+		},
+		[240219] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[88082] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Varghul",
+			["source"] = "Mirror Image",
 		},
-		[204081] = {
-			["school"] = 1,
+		[238429] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kil'jaeden",
+		},
+		[233490] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Bladepk-Nefarian",
-		},
-		[225517] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Slowsohn-Aegwynn",
+			["source"] = "Смачныйлещ-Гордунни",
 		},
 		[212975] = {
 			["school"] = 1,
@@ -3604,6 +4366,205 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Varghul",
+		},
+		[43265] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Varghul",
+		},
+		[201671] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Zikê",
+		},
+		[234896] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[232722] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mistress Sassz'ine",
+		},
+		[238430] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kil'jaeden",
+		},
+		[235573] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[199812] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Nal'tira",
+		},
+		[193786] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ribesal",
+		},
+		[131493] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Trìp-ArgentDawn",
+		},
+		[64766] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mechanostriker 54-A",
+		},
+		[104318] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Wild Imp",
+		},
+		[156071] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Pülly",
+		},
+		[235974] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Pillock's Erupting Reflection",
+		},
+		[236513] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Ghastly Bonewarden",
+		},
+		[5487] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Bigfootbär",
+		},
+		[132467] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Inuwitjo-Thrall",
+		},
+		[204241] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Arkantoss",
+		},
+		[218615] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Riddley-Rexxar",
+		},
+		[50401] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Eistla-Blackmoore",
+		},
+		[241509] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Razorjaw Waverunner",
+		},
+		[202861] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Eredar War-Mind",
+		},
+		[25801] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Vekniss Soldier",
+		},
+		[237782] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Captain Yathae Moonstrike",
+		},
+		[225517] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Slowsohn-Aegwynn",
+		},
+		[238503] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Kil'jaeden",
+		},
+		[221807] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gul'dan",
 		},
 		[236131] = {
 			["school"] = 32,
@@ -3640,14 +4601,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fallen Priestess",
 		},
-		[43265] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[236684] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Varghul",
+			["source"] = "Fallen Avatar",
 		},
 		[229610] = {
 			["school"] = 32,
@@ -3658,14 +4618,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Viz'aduum the Watcher",
 		},
-		[239785] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[58180] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Demonic Obelisk",
+			["source"] = "Raked",
 		},
 		[23922] = {
 			["school"] = 1,
@@ -3674,77 +4633,75 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Consabob-LaughingSkull",
 		},
-		[50842] = {
-			["school"] = 32,
+		[227457] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Varghul",
+			["source"] = "Mana Devourer",
 		},
-		[206930] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Varghul",
-		},
-		[255227] = {
+		[119611] = {
 			["school"] = 8,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Rûppel-Blackhand",
+			["source"] = "Cloudlife",
 		},
-		[108853] = {
+		[196512] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Fenryr",
+		},
+		[64847] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Runeforged Sentry",
+		},
+		[200111] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Witherless",
+			["source"] = "Shade of Xavius",
 		},
-		[131493] = {
+		[768] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Trìp-ArgentDawn",
+			["source"] = "Moonwolf",
 		},
-		[167898] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Dêathlyrosê",
-		},
-		[156071] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Pülly",
-		},
-		[212621] = {
+		[190928] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Zola",
+			["source"] = "Bladepk-Nefarian",
 		},
-		[248473] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[17962] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Hàdes-Onyxia",
+		},
+		[197964] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Syphe",
+			["source"] = "Odyn",
 		},
 		[203525] = {
 			["school"] = 1,
@@ -3753,37 +4710,40 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bladepk-Nefarian",
 		},
-		[5487] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[206939] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Bigfootbär",
+			["source"] = "Gul'dan",
 		},
-		[244834] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Kil'jaeden",
-		},
-		[186401] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Irisaria",
-		},
-		[237633] = {
-			["school"] = 96,
+		[206340] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Gul'dan",
+		},
+		[200238] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shade of Xavius",
+		},
+		[233556] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Containment Pylon",
 		},
 		[220533] = {
 			["school"] = 1,
@@ -3795,13 +4755,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dread Felbat",
 		},
-		[218615] = {
-			["school"] = 32,
+		[206339] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Riddley-Rexxar",
+			["source"] = "Gul'dan",
 		},
 		[82326] = {
 			["school"] = 2,
@@ -3819,13 +4778,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flotemote",
 		},
-		[236329] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[53600] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Jyna-Norgannon",
 		},
 		[236518] = {
 			["school"] = 1,
@@ -3835,12 +4793,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Priestess Lunaspyre",
 		},
-		[221605] = {
-			["school"] = 4,
+		[200185] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Shade of Xavius",
 		},
 		[57723] = {
 			["school"] = 1,
@@ -3880,13 +4840,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Vigilance",
 		},
-		[25801] = {
+		[242586] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Vekniss Soldier",
+			["source"] = "Tyrolia",
 		},
 		[236519] = {
 			["school"] = 64,
@@ -3896,56 +4856,66 @@ EncounterDetailsDB = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 		},
-		[237782] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Captain Yathae Moonstrike",
-		},
-		[197834] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Xâvia",
-		},
-		[221807] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Gul'dan",
-		},
-		[233526] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Harjatan",
-		},
-		[193983] = {
+		[196941] = {
 			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "God-King Skovald",
+			["source"] = "Jyna-Norgannon",
 		},
-		[243982] = {
+		[197963] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Odyn",
+		},
+		[251339] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kil'jaeden",
+			["source"] = "Duskcloak Alpha",
 		},
-		[228265] = {
-			["school"] = 32,
+		[233429] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Harjatan",
+		},
+		[241600] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Sickly Tadpole",
+		},
+		[230002] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Felguard Sentry",
+		},
+		[202737] = {
+			["school"] = 64,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Moonwolf",
 		},
 		[241635] = {
 			["school"] = 1,
@@ -3955,21 +4925,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Vigilance",
 		},
-		[198408] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[207635] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lorice",
+		},
+		[191413] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Archdruid Glaidalis",
-		},
-		[64847] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Runeforged Sentry",
+			["source"] = "Blaze",
 		},
 		[199053] = {
 			["school"] = 4,
@@ -3978,30 +4947,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ribesal",
 		},
-		[211132] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Empowered Eye of Gul'dan",
-		},
-		[206514] = {
-			["school"] = 4,
+		[209785] = {
+			["school"] = 2,
 			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lorice",
+		},
+		[26573] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Rainegg-Aegwynn",
+		},
+		[196562] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gul'dan",
-		},
-		[227556] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Gul'dan",
+			["source"] = "Ivanyr",
 		},
 		[196496] = {
 			["school"] = 1,
@@ -4010,28 +4979,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fenryr",
 		},
-		[241636] = {
+		[115767] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Maiden of Vigilance",
+			["source"] = "Consabob-LaughingSkull",
 		},
-		[206939] = {
+		[236351] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Soul Residue",
+		},
+		[236568] = {
 			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Gul'dan",
-		},
-		[206340] = {
-			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "The Desolate Host",
 		},
 		[199054] = {
 			["school"] = 8,
@@ -4040,17 +5011,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ribesal",
 		},
-		[233062] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[230086] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Goroth",
+			["source"] = "Demonic Rift",
 		},
 		[163505] = {
 			["school"] = 1,
@@ -4069,14 +5037,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Harjatan",
 		},
-		[196497] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[222072] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fenryr",
+			["source"] = "Dark Zealot",
 		},
 		[230384] = {
 			["school"] = 1,
@@ -4088,12 +5054,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mistress Sassz'ine",
 		},
-		[53600] = {
-			["school"] = 2,
+		[244834] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Jyna-Norgannon",
+			["source"] = "Kil'jaeden",
 		},
 		[229617] = {
 			["school"] = 1,
@@ -4111,23 +5079,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrolia",
 		},
-		[200185] = {
-			["school"] = 32,
+		[20473] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Xavius",
+			["source"] = "Rainegg-Aegwynn",
 		},
-		[211756] = {
-			["school"] = 4,
+		[55078] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Wrathguard Felblade",
+			["source"] = "Rune Weapon",
 		},
 		[51714] = {
 			["school"] = 16,
@@ -4137,43 +5104,47 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Victorio-Antonidas",
 		},
-		[228334] = {
-			["school"] = 64,
+		[211744] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Shade of Medivh",
+			["source"] = "Wrathguard Felblade",
 		},
-		[224239] = {
+		[192018] = {
 			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Hyrja",
+		},
+		[236528] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ariell-DunMorogh",
+			["source"] = "Fallen Avatar",
 		},
-		[254210] = {
-			["school"] = 0,
-			["type"] = "BUFF",
+		[238502] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[207938] = {
-			["school"] = 32,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Inquisitor Vethriz",
+			["source"] = "Kil'jaeden",
 		},
-		[206896] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[235120] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "D'zorykx the Trapper",
+			["source"] = "Pillock's Erupting Reflection",
 		},
 		[53] = {
 			["school"] = 1,
@@ -4182,23 +5153,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Marlix-Blackhand",
 		},
-		[230002] = {
+		[235117] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Felguard Sentry",
+			["source"] = "Maiden of Vigilance",
 		},
-		[205448] = {
+		[231489] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Môwltasche",
+			["source"] = "Riddley-Rexxar",
 		},
 		[222074] = {
 			["school"] = 32,
@@ -4219,22 +5188,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Engine of Souls",
 		},
-		[227297] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mana Devourer",
-		},
-		[206384] = {
-			["school"] = 4,
+		[25771] = {
+			["school"] = 2,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Holyel",
+		},
+		[197776] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "General Xakal",
 		},
 		[198034] = {
 			["school"] = 2,
@@ -4245,45 +5213,49 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lorice",
 		},
-		[25504] = {
-			["school"] = 1,
+		[227641] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ribesal",
+			["source"] = "Shade of Medivh",
 		},
-		[196562] = {
-			["school"] = 64,
+		[235907] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Engine of Souls",
+		},
+		[247781] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Harjatan",
+		},
+		[236710] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ivanyr",
+			["source"] = "Kil'jaeden",
 		},
-		[209069] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Heatisupp-Blackhand",
-		},
-		[236568] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "The Desolate Host",
-		},
-		[221891] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[192307] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Hyrja",
 		},
 		[2383] = {
 			["school"] = 1,
@@ -4293,10 +5265,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nandô-Aggra(Português)",
 		},
-		[206555] = {
-			["school"] = 4,
+		[206222] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Gul'dan",
 		},
@@ -4330,29 +5303,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Earthcaller",
 		},
-		[196115] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Corstilax",
-		},
-		[233444] = {
+		[236550] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Atrigan",
+			["source"] = "Huntress Kasparian",
 		},
-		[227427] = {
-			["school"] = 4,
+		[201640] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Irisaria",
+		},
+		[196376] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Archdruid Glaidalis",
 		},
 		[77535] = {
 			["school"] = 32,
@@ -4370,23 +5344,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[238502] = {
-			["school"] = 4,
+		[52042] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Kil'jaeden",
+			["source"] = "Helí",
 		},
-		[235120] = {
+		[248419] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Pillock's Erupting Reflection",
 		},
 		[191259] = {
 			["school"] = 4,
@@ -4395,28 +5365,27 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deshx-Thrall",
 		},
-		[198386] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Archdruid Glaidalis",
-		},
-		[225455] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[192132] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Sangrias Stillblade",
+			["source"] = "Hyrja",
 		},
-		[197776] = {
-			["school"] = 32,
+		[192048] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "General Xakal",
+		},
+		[199547] = {
+			["school"] = 127,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Iá-Blackrock",
 		},
 		[239852] = {
 			["school"] = 4,
@@ -4433,19 +5402,53 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[236567] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "The Desolate Host",
-		},
-		[227291] = {
+		[171253] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Niuzao",
+			["source"] = "Stelol-Aegwynn",
+		},
+		[224001] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lestin",
+		},
+		[197961] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Odyn",
+		},
+		[222631] = {
+			["school"] = 127,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Talestra the Vile",
+		},
+		[186401] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Irisaria",
+		},
+		[196543] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Fenryr",
 		},
 		[232692] = {
 			["school"] = 64,
@@ -4462,39 +5465,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eye of Gul'dan",
 		},
-		[247781] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Harjatan",
-		},
-		[243050] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Flame Rift",
-		},
-		[242922] = {
+		[241822] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Belyar-Dethecus",
 		},
-		[206222] = {
+		[239214] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Kil'jaeden",
 		},
 		[185123] = {
 			["school"] = 1,
@@ -4502,23 +5485,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Iá-Blackrock",
-		},
-		[120694] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Beast",
-		},
-		[196376] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Archdruid Glaidalis",
 		},
 		[224125] = {
 			["school"] = 4,
@@ -4535,20 +5501,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Huntress Kasparian",
 		},
-		[197558] = {
+		[236115] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Fenryr",
+			["source"] = "Captain Yathae Moonstrike",
 		},
-		[30213] = {
+		[109132] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Felguard",
+			["source"] = "Panick",
 		},
 		[185763] = {
 			["school"] = 1,
@@ -4559,6 +5525,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xâvia",
 		},
+		[16103] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Mother Smolderweb",
+		},
+		[165961] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Moonwolf",
+		},
 		[203538] = {
 			["school"] = 2,
 			["type"] = "BUFF",
@@ -4566,23 +5547,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Lorice",
-		},
-		[234015] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Belac",
-		},
-		[132951] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Mysuh's Wailing Reflection",
 		},
 		[43308] = {
 			["school"] = 1,
@@ -4592,43 +5556,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Moría",
 		},
-		[250947] = {
-			["school"] = 8,
+		[192158] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Soulripper Warfiend",
+			["source"] = "Olmyr the Enlightened",
 		},
-		[176458] = {
+		[236548] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Blacksmithing Follower - Horde",
+			["source"] = "The Desolate Host",
 		},
-		[197385] = {
-			["school"] = 8,
+		[235253] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Broukz",
 		},
-		[202800] = {
-			["school"] = 1,
+		[209202] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Bladepk-Nefarian",
+			["source"] = "Jyna-Norgannon",
 		},
-		[241634] = {
-			["school"] = 1,
+		[236449] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Maiden of Vigilance",
+			["source"] = "Soul Queen Dejahna",
 		},
 		[239216] = {
 			["school"] = 32,
@@ -4649,12 +5615,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Liayla-Mal'Ganis",
 		},
-		[241822] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[120694] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Beast",
 		},
 		[240623] = {
 			["school"] = 32,
@@ -4666,59 +5633,64 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Containment Pylon",
 		},
-		[236115] = {
-			["school"] = 1,
+		[211571] = {
+			["school"] = 127,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Captain Yathae Moonstrike",
+			["source"] = "Unknown",
 		},
-		[235569] = {
-			["school"] = 2,
+		[236547] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Maiden of Vigilance",
+			["source"] = "Huntress Kasparian",
 		},
-		[192158] = {
-			["school"] = 2,
+		[230920] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Olmyr the Enlightened",
+			["source"] = "Razorjaw Waverunner",
 		},
-		[212262] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Gul'dan",
-		},
-		[35395] = {
+		[231998] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ariell-DunMorogh",
+			["source"] = "Harjatan",
 		},
-		[235253] = {
+		[202494] = {
 			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[242642] = {
-			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Aylindra",
+			["source"] = "God-King Skovald",
+		},
+		[204563] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Admiral Rel'var",
+		},
+		[221883] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Slowsohn-Aegwynn",
 		},
 		[203796] = {
 			["school"] = 32,
@@ -4735,13 +5707,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[236449] = {
-			["school"] = 32,
+		[233263] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Soul Queen Dejahna",
+			["source"] = "Priestess Lunaspyre",
 		},
 		[241008] = {
 			["school"] = 1,
@@ -4751,31 +5724,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Valor",
 		},
-		[245509] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Kil'jaeden",
-		},
-		[8004] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Heatisupp-Blackhand",
-		},
-		[192288] = {
+		[224266] = {
 			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Olmyr the Enlightened",
+			["source"] = "Astrathos-ZirkeldesCenarius",
+		},
+		[115181] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Inuwitjo-Thrall",
+		},
+		[213771] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Teddie",
 		},
 		[193439] = {
 			["school"] = 32,
@@ -4792,51 +5760,53 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aradvar-Aegwynn",
 		},
-		[203954] = {
-			["school"] = 64,
+		[86392] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Timeless Wraith",
+			["source"] = "Xâvia",
 		},
-		[223971] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Fenryr",
-		},
-		[221883] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Slowsohn-Aegwynn",
-		},
-		[233263] = {
-			["school"] = 64,
+		[225420] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Priestess Lunaspyre",
+			["source"] = "Lord Adder",
 		},
-		[247403] = {
+		[235267] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Maiden of Vigilance",
+		},
+		[236138] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Soul Queen Dejahna",
+		},
+		[212621] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Harjatan",
+			["source"] = "Zola",
 		},
-		[115181] = {
-			["school"] = 4,
+		[233526] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Inuwitjo-Thrall",
+			["source"] = "Harjatan",
 		},
 		[241521] = {
 			["school"] = 32,
@@ -4846,12 +5816,16 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 		},
-		[86392] = {
-			["school"] = 1,
+		[230362] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Xâvia",
+			["source"] = "Electrifying Jellyfish",
 		},
 		[197788] = {
 			["school"] = 32,
@@ -4868,23 +5842,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Syphe",
 		},
-		[210320] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Asmidana-Antonidas",
-		},
-		[236138] = {
+		[222596] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Talestra the Vile",
+		},
+		[235572] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Soul Queen Dejahna",
+			["source"] = "Fallen Avatar",
 		},
 		[197277] = {
 			["school"] = 2,
@@ -4901,12 +5873,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Belyar-Dethecus",
 		},
-		[201754] = {
-			["school"] = 1,
+		[248812] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Beast",
+			["source"] = "Maiden of Vigilance",
 		},
 		[218121] = {
 			["school"] = 1,
@@ -4917,23 +5891,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Admiral Rel'var",
 		},
-		[31661] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[196809] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Witherless",
+			["source"] = "T'uure",
 		},
-		[197810] = {
-			["school"] = 1,
+		[227779] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "General Xakal",
+			["source"] = "Shade of Medivh",
 		},
 		[232827] = {
 			["school"] = 16,
@@ -4944,12 +5915,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Piranhado",
 		},
-		[32175] = {
-			["school"] = 1,
+		[229248] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Ribesal",
+			["source"] = "Command Ship",
 		},
 		[228991] = {
 			["school"] = 64,
@@ -4960,37 +5933,34 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian's Image",
 		},
+		[239207] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Fallen Avatar",
+		},
+		[193315] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Xâvia",
+		},
+		[201754] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Beast",
+		},
 		[209043] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Xâvia",
-		},
-		[213872] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Sockenschuß-Thrall",
-		},
-		[248812] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Maiden of Vigilance",
-		},
-		[225411] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Lord Adder",
 		},
 		[193826] = {
 			["school"] = 4,
@@ -5002,12 +5972,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "God-King Skovald",
 		},
-		[238455] = {
-			["school"] = 4,
+		[196115] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kil'jaeden",
+			["source"] = "Corstilax",
 		},
 		[62395] = {
 			["school"] = 1,
@@ -5032,29 +6003,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mistress Sassz'ine",
 		},
-		[229248] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Command Ship",
-		},
-		[239207] = {
+		[194466] = {
 			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fallen Avatar",
+			["source"] = "Witherless",
 		},
-		[193315] = {
+		[217020] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Xâvia",
+			["source"] = "Târrôck",
+		},
+		[227465] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "The Curator",
 		},
 		[193827] = {
 			["school"] = 4,
@@ -5085,20 +6056,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jinyuu",
 		},
-		[80354] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Rolypoly",
-		},
-		[217020] = {
+		[236282] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Târrôck",
+			["source"] = "Consabob-LaughingSkull",
+		},
+		[232756] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Mistress Sassz'ine",
 		},
 		[237561] = {
 			["school"] = 1,
@@ -5118,13 +6089,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Engine of Souls",
 		},
-		[232756] = {
+		[240332] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Mistress Sassz'ine",
+			["source"] = "Thirios",
 		},
 		[228738] = {
 			["school"] = 64,
@@ -5134,27 +6104,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Volatile Energy",
 		},
-		[206219] = {
+		[232249] = {
 			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Goroth",
+		},
+		[155722] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Raked",
+		},
+		[228352] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Gul'dan",
-		},
-		[240332] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Thirios",
-		},
-		[229905] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Soul Harvester",
+			["source"] = "Tomala",
 		},
 		[206744] = {
 			["school"] = 32,
@@ -5164,13 +6137,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[155722] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[65081] = {
+			["school"] = 2,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Raked",
+			["source"] = "Ishâra",
 		},
 		[225414] = {
 			["school"] = 32,
@@ -5182,13 +6155,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Adder",
 		},
-		[686] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Belyar-Dethecus",
-		},
 		[230273] = {
 			["school"] = 32,
 			["token"] = {
@@ -5196,6 +6162,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Abyss Stalker",
+		},
+		[242583] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Lorice",
 		},
 		[211476] = {
 			["school"] = 64,
@@ -5205,19 +6179,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mana Wyrm",
 		},
-		[10444] = {
-			["school"] = 4,
+		[219788] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Varghul",
+		},
+		[215661] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ribesal",
-		},
-		[196810] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "T'uure",
+			["source"] = "Ariell-DunMorogh",
 		},
 		[1822] = {
 			["school"] = 1,
@@ -5226,19 +6201,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Raked",
 		},
-		[240760] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Maiden of Valor",
-		},
 		[196771] = {
 			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Urthagas-Blackhand",
+		},
+		[240760] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Maiden of Valor",
 		},
 		[188838] = {
 			["school"] = 4,
@@ -5247,12 +6222,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Giek-Onyxia",
 		},
-		[210291] = {
-			["school"] = 2,
+		[234418] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mangør",
+			["source"] = "Fallen Avatar",
 		},
 		[233983] = {
 			["school"] = 32,
@@ -5274,12 +6249,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[196811] = {
-			["school"] = 2,
+		[235058] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "T'uure",
+			["source"] = "Kil'jaeden",
 		},
 		[242551] = {
 			["school"] = 1,
@@ -5289,31 +6264,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aylindra",
 		},
-		[241524] = {
+		[243624] = {
 			["school"] = 32,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Tormented Fragment",
+			["source"] = "Kil'jaeden",
 		},
-		[230139] = {
-			["school"] = 1,
+		[192133] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Mistress Sassz'ine",
+			["source"] = "Hyrja",
 		},
-		[52174] = {
-			["school"] = 1,
+		[239739] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Mundok",
+			["source"] = "Fallen Avatar",
 		},
 		[233856] = {
 			["school"] = 4,
@@ -5341,12 +6315,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Soul Residue",
 		},
-		[195750] = {
-			["school"] = 16,
+		[52174] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Eistla-Blackmoore",
+			["source"] = "Mundok",
 		},
 		[230276] = {
 			["school"] = 32,
@@ -5366,44 +6340,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Desolate Host",
 		},
-		[239739] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Fallen Avatar",
-		},
-		[192133] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Hyrja",
-		},
-		[243624] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Kil'jaeden",
-		},
-		[235058] = {
-			["school"] = 64,
+		[195750] = {
+			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kil'jaeden",
+			["source"] = "Eistla-Blackmoore",
 		},
-		[234418] = {
-			["school"] = 4,
+		[230139] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mistress Sassz'ine",
+		},
+		[241524] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tormented Fragment",
+		},
+		[196811] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fallen Avatar",
+			["source"] = "T'uure",
+		},
+		[210291] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Mangør",
 		},
 		[204574] = {
 			["school"] = 1,
@@ -5421,20 +6396,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Earthen Shield Totem",
 		},
-		[215661] = {
+		[196810] = {
 			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "T'uure",
+		},
+		[10444] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ariell-DunMorogh",
-		},
-		[242583] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Lorice",
+			["source"] = "Ribesal",
 		},
 		[227592] = {
 			["school"] = 16,
@@ -5447,13 +6421,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Medivh",
 		},
-		[228352] = {
-			["school"] = 1,
+		[686] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tomala",
+			["source"] = "Belyar-Dethecus",
 		},
 		[200227] = {
 			["school"] = 64,
@@ -5462,12 +6435,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nal'tira",
 		},
-		[232249] = {
+		[233062] = {
 			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Goroth",
 		},
@@ -5480,12 +6456,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dresaron",
 		},
-		[204959] = {
-			["school"] = 16,
+		[206219] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Urthagas-Blackhand",
+			["source"] = "Gul'dan",
 		},
 		[236544] = {
 			["school"] = 32,
@@ -5495,15 +6472,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "The Desolate Host",
 		},
-		[227465] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[204959] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Curator",
+			["source"] = "Urthagas-Blackhand",
 		},
 		[54149] = {
 			["school"] = 2,
@@ -5513,12 +6487,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rainegg-Aegwynn",
 		},
-		[206757] = {
-			["school"] = 32,
+		[80354] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "D'zorykx the Trapper",
+			["source"] = "Rolypoly",
 		},
 		[192044] = {
 			["school"] = 2,
@@ -5542,20 +6517,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ivanyr",
 		},
-		[227779] = {
-			["school"] = 16,
+		[238455] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Medivh",
+			["source"] = "Kil'jaeden",
 		},
-		[196809] = {
-			["school"] = 2,
+		[225411] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "T'uure",
+			["source"] = "Lord Adder",
 		},
 		[207006] = {
 			["school"] = 32,
@@ -5566,25 +6541,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Inquisitor Vethriz",
 		},
-		[235572] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Fallen Avatar",
-		},
-		[230362] = {
+		[213872] = {
 			["school"] = 8,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Electrifying Jellyfish",
+			["source"] = "Sockenschuß-Thrall",
+		},
+		[253103] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Varga",
 		},
 		[206367] = {
 			["school"] = 4,
@@ -5592,6 +6563,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Gul'dan",
+		},
+		[31661] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Witherless",
 		},
 		[228106] = {
 			["school"] = 1,
@@ -5601,22 +6581,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aradvar-Aegwynn",
 		},
-		[235267] = {
+		[210320] = {
 			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Maiden of Vigilance",
-		},
-		[225420] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Lord Adder",
+			["source"] = "Asmidana-Antonidas",
 		},
 		[238592] = {
 			["school"] = 32,
@@ -5634,12 +6605,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bloodycrow-Deathwing",
 		},
-		[224266] = {
-			["school"] = 2,
+		[247403] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Astrathos-ZirkeldesCenarius",
+			["source"] = "Harjatan",
 		},
 		[227723] = {
 			["school"] = 1,
@@ -5656,59 +6627,52 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Witherless",
 		},
-		[202494] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "God-King Skovald",
-		},
-		[231998] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Harjatan",
-		},
-		[230920] = {
+		[223971] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Razorjaw Waverunner",
+			["source"] = "Fenryr",
 		},
-		[236547] = {
-			["school"] = 1,
+		[203954] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Timeless Wraith",
+		},
+		[192288] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Huntress Kasparian",
+			["source"] = "Olmyr the Enlightened",
 		},
-		[211571] = {
-			["school"] = 127,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Unknown",
-		},
-		[206883] = {
-			["school"] = 32,
+		[251892] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "D'zorykx the Trapper",
+			["source"] = "Chitinous Cragscaler",
+		},
+		[8004] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Heatisupp-Blackhand",
+		},
+		[167898] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Dêathlyrosê",
 		},
 		[245115] = {
 			["school"] = 4,
@@ -5717,12 +6681,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vilefiend",
 		},
-		[209202] = {
-			["school"] = 2,
+		[242642] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Jyna-Norgannon",
+			["source"] = "Aylindra",
 		},
 		[200359] = {
 			["school"] = 1,
@@ -5731,14 +6696,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Xavius",
 		},
-		[236548] = {
+		[35395] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Desolate Host",
+			["source"] = "Ariell-DunMorogh",
+		},
+		[50842] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Varghul",
+		},
+		[251893] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Chitinous Cragscaler",
 		},
 		[225423] = {
 			["school"] = 1,
@@ -5748,27 +6727,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gwendôlyn-Aegwynn",
 		},
-		[165961] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[235569] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Moonwolf",
-		},
-		[16103] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Mother Smolderweb",
-		},
-		[109132] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Panick",
+			["source"] = "Maiden of Vigilance",
 		},
 		[198058] = {
 			["school"] = 2,
@@ -5784,13 +6748,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[196543] = {
+		[241634] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fenryr",
+			["source"] = "Maiden of Vigilance",
 		},
 		[196396] = {
 			["school"] = 64,
@@ -5800,13 +6763,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ivanyr",
 		},
-		[197961] = {
-			["school"] = 2,
+		[197385] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Odyn",
+			["source"] = "Broukz",
 		},
 		[238595] = {
 			["school"] = 1,
@@ -5818,42 +6780,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tormented Krokul",
 		},
-		[171253] = {
+		[250947] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Soulripper Warfiend",
+		},
+		[132951] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Mysuh's Wailing Reflection",
+		},
+		[234015] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Belac",
+		},
+		[30213] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Felguard",
+		},
+		[197558] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Stelol-Aegwynn",
-		},
-		[199547] = {
-			["school"] = 127,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Iá-Blackrock",
-		},
-		[192048] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-		},
-		[192132] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Hyrja",
-		},
-		[52042] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Helí",
+			["source"] = "Fenryr",
 		},
 		[235271] = {
 			["school"] = 2,
@@ -5863,21 +6829,25 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Vigilance",
 		},
-		[201640] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Irisaria",
-		},
-		[236550] = {
-			["school"] = 1,
+		[164812] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Huntress Kasparian",
+			["source"] = "Teddie",
+		},
+		[206883] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "D'zorykx the Trapper",
 		},
 		[236678] = {
 			["school"] = 1,
@@ -5887,25 +6857,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Engine of Souls",
 		},
-		[192307] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Hyrja",
-		},
-		[236710] = {
+		[242922] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Kil'jaeden",
+			["source"] = "Belyar-Dethecus",
+		},
+		[243050] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Flame Rift",
 		},
 		[127802] = {
 			["school"] = 32,
@@ -5914,21 +6882,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Deshx-Thrall",
 		},
-		[235907] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Engine of Souls",
-		},
-		[227641] = {
-			["school"] = 64,
+		[227291] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Medivh",
+			["source"] = "Niuzao",
+		},
+		[236567] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "The Desolate Host",
 		},
 		[208802] = {
 			["school"] = 32,
@@ -5938,20 +6904,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[25771] = {
+		[225455] = {
 			["school"] = 2,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Holyel",
+			["source"] = "Sangrias Stillblade",
 		},
-		[231489] = {
-			["school"] = 32,
+		[198386] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Riddley-Rexxar",
+			["source"] = "Archdruid Glaidalis",
 		},
 		[242945] = {
 			["school"] = 1,
@@ -5971,55 +6937,53 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Advisor Vandros",
 		},
-		[236528] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Fallen Avatar",
-		},
-		[192018] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Hyrja",
-		},
-		[211744] = {
+		[227427] = {
 			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Wrathguard Felblade",
-		},
-		[55078] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Rune Weapon",
-		},
-		[20473] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rainegg-Aegwynn",
-		},
-		[230086] = {
-			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Demonic Rift",
+			["source"] = "Gul'dan",
+		},
+		[233444] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Atrigan",
+		},
+		[191284] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Hymdall",
+		},
+		[206757] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "D'zorykx the Trapper",
+		},
+		[206555] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gul'dan",
+		},
+		[221891] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gul'dan",
 		},
 		[233739] = {
 			["school"] = 1,
@@ -6029,14 +6993,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Valor",
 		},
-		[236351] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[247329] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Soul Residue",
+			["source"] = "Eredar Soulshaper",
 		},
 		[108366] = {
 			["school"] = 32,
@@ -6046,43 +7009,44 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Schrempf",
 		},
-		[26573] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rainegg-Aegwynn",
-		},
-		[209785] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Lorice",
-		},
-		[191413] = {
+		[25504] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ribesal",
+		},
+		[236507] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Engine of Souls",
+		},
+		[164815] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Blaze",
+			["source"] = "Satrinasbell",
 		},
-		[207635] = {
-			["school"] = 2,
+		[227297] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Lorice",
+			["source"] = "Mana Devourer",
 		},
-		[202737] = {
-			["school"] = 64,
-			["type"] = "BUFF",
+		[205448] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Moonwolf",
+			["source"] = "Môwltasche",
 		},
 		[132463] = {
 			["school"] = 8,
@@ -6101,14 +7065,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maiden of Vigilance",
 		},
-		[233429] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[207938] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Harjatan",
+			["source"] = "Inquisitor Vethriz",
 		},
 		[245377] = {
 			["school"] = 4,
@@ -6118,22 +7080,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Felsiege Infernal",
 		},
-		[197963] = {
+		[224239] = {
 			["school"] = 2,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Odyn",
+			["source"] = "Ariell-DunMorogh",
 		},
-		[196941] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[228334] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Jyna-Norgannon",
+			["source"] = "Shade of Medivh",
 		},
 		[196657] = {
 			["school"] = 32,
@@ -6157,25 +7117,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[233556] = {
-			["school"] = 4,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Containment Pylon",
-		},
-		[200238] = {
-			["school"] = 32,
+		[196497] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shade of Xavius",
+			["source"] = "Fenryr",
+		},
+		[229905] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Soul Harvester",
 		},
 		[129914] = {
 			["school"] = 1,
@@ -6193,44 +7149,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nethersworn Assassin",
 		},
-		[197964] = {
-			["school"] = 2,
-			["type"] = "DEBUFF",
+		[241636] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Odyn",
+			["source"] = "Maiden of Vigilance",
 		},
-		[17962] = {
+		[227556] = {
 			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Hàdes-Onyxia",
-		},
-		[190928] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Bladepk-Nefarian",
-		},
-		[768] = {
-			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Moonwolf",
+			["source"] = "Gul'dan",
 		},
-		[200111] = {
+		[6343] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Consabob-LaughingSkull",
+		},
+		[211132] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Shade of Xavius",
+			["source"] = "Empowered Eye of Gul'dan",
+		},
+		[222617] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Talestra the Vile",
 		},
 		[241159] = {
 			["school"] = 1,
@@ -6240,45 +7194,45 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tomala",
 		},
-		[196512] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Fenryr",
-		},
-		[119611] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
-			},
-			["source"] = "Cloudlife",
-		},
-		[227457] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mana Devourer",
-		},
-		[58180] = {
-			["school"] = 8,
+		[198408] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Raked",
+			["source"] = "Archdruid Glaidalis",
 		},
-		[236684] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[228265] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fallen Avatar",
+			["source"] = "Gul'dan",
+		},
+		[253102] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Varga",
+		},
+		[32175] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ribesal",
+		},
+		[197810] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "General Xakal",
 		},
 		[209191] = {
 			["school"] = 4,
@@ -6289,12 +7243,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[238503] = {
-			["school"] = 4,
+		[197834] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kil'jaeden",
+			["source"] = "Xâvia",
 		},
 		[62400] = {
 			["school"] = 1,
@@ -6321,14 +7275,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nethersworn Assassin",
 		},
-		[241509] = {
-			["school"] = 16,
+		[236329] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Razorjaw Waverunner",
 		},
 		[980] = {
 			["school"] = 32,
@@ -6337,19 +7290,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Riddley-Rexxar",
 		},
-		[204241] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Arkantoss",
-		},
-		[132467] = {
-			["school"] = 8,
+		[237633] = {
+			["school"] = 96,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Inuwitjo-Thrall",
+		},
+		[255227] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Rûppel-Blackhand",
 		},
 		[127230] = {
 			["school"] = 1,
@@ -6359,14 +7312,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Waryel",
 		},
-		[235974] = {
-			["school"] = 4,
+		[248473] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Pillock's Erupting Reflection",
+			["source"] = "Syphe",
 		},
 		[234128] = {
 			["school"] = 1,
@@ -6376,12 +7328,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Razorjaw Gladiator",
 		},
-		[64766] = {
-			["school"] = 64,
+		[245509] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Mechanostriker 54-A",
+			["source"] = "Kil'jaeden",
 		},
 		[197556] = {
 			["school"] = 1,
@@ -6391,42 +7346,48 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fenryr",
 		},
-		[193786] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Ribesal",
-		},
-		[235573] = {
+		[108853] = {
 			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Maiden of Vigilance",
+			["source"] = "Witherless",
 		},
-		[232722] = {
-			["school"] = 16,
+		[206930] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Mistress Sassz'ine",
+			["source"] = "Varghul",
 		},
-		[234896] = {
-			["school"] = 2,
+		[212262] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Maiden of Vigilance",
+			["source"] = "Gul'dan",
 		},
-		[201671] = {
-			["school"] = 1,
+		[222620] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Talestra the Vile",
+		},
+		[239785] = {
+			["school"] = 4,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Zikê",
+			["source"] = "Demonic Obelisk",
 		},
 		[234129] = {
 			["school"] = 16,
@@ -6452,26 +7413,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fiendish Imp",
 		},
-		[233490] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Смачныйлещ-Гордунни",
-		},
-		[88082] = {
-			["school"] = 4,
+		[202800] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Mirror Image",
+			["source"] = "Bladepk-Nefarian",
 		},
-		[232723] = {
+		[49998] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Piranhado",
+			["source"] = "Varghul",
+		},
+		[176458] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Blacksmithing Follower - Horde",
 		},
 		[251265] = {
 			["school"] = 1,
@@ -6483,13 +7446,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Vecaya",
 		},
-		[229241] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[191840] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Command Ship",
+			["source"] = "Ræch",
 		},
 		[195256] = {
 			["school"] = 8,
@@ -6505,27 +7469,28 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Fallen Avatar",
 		},
-		[236432] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Maiden of Vigilance",
-		},
-		[235989] = {
-			["school"] = 32,
+		[60195] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Engine of Souls",
+			["source"] = "Nethersworn Assassin",
 		},
-		[196068] = {
-			["school"] = 64,
+		[115804] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Jinyuu",
+		},
+		[77758] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Teddie",
 		},
 		[240908] = {
 			["school"] = 4,
@@ -6544,22 +7509,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Vecaya",
 		},
-		[225635] = {
-			["school"] = 1,
+		[197579] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lunar Archer",
 		},
-		[228128] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[250925] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Neranda",
+			["source"] = "Felsiege Champion",
 		},
 		[236305] = {
 			["school"] = 1,
@@ -6578,14 +7541,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Medivh",
 		},
-		[208899] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[185099] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Helí",
+			["source"] = "Jinyuu",
 		},
 		[33917] = {
 			["school"] = 1,
@@ -6594,20 +7555,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Teddie",
 		},
-		[207150] = {
-			["school"] = 16,
+		[204081] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Bladepk-Nefarian",
+		},
+		[30153] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Eistla-Blackmoore",
-		},
-		[225497] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Rotheart Keeper",
+			["source"] = "Felguard",
 		},
 		[221728] = {
 			["school"] = 4,
@@ -6617,13 +7577,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Empowered Eye of Gul'dan",
 		},
-		[221606] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
+		[251796] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gul'dan",
+			["source"] = "Panthara Stalker",
 		},
 		[236306] = {
 			["school"] = 32,
@@ -6642,22 +7601,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Duskcloak Panthara",
 		},
-		[235927] = {
+		[251334] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Reanimated Templar",
-		},
-		[77489] = {
-			["school"] = 2,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Teylorswift",
+			["source"] = "Duskcloak Panthara",
+		},
+		[209069] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Heatisupp-Blackhand",
 		},
 		[240910] = {
 			["school"] = 4,
@@ -6675,61 +7633,63 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mundok",
 		},
-		[235028] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[206384] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gul'dan",
+		},
+		[202420] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Maiden of Vigilance",
+			["source"] = "Eredar War-Mind",
 		},
-		[2983] = {
+		[214995] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Slizà",
+			["source"] = "Teddie",
 		},
-		[55095] = {
-			["school"] = 16,
+		[143924] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Sneaky Snake",
+		},
+		[206896] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Eistla-Blackmoore",
+			["source"] = "D'zorykx the Trapper",
 		},
-		[242584] = {
-			["school"] = 1,
+		[183270] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Felguard Warden",
+		},
+		[254210] = {
+			["school"] = 0,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Opera",
-		},
-		[236563] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "The Desolate Host",
-		},
-		[203593] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Mana Wyrm",
-		},
-		[190784] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Slowsohn-Aegwynn",
 		},
 		[235924] = {
 			["school"] = 32,
@@ -6749,24 +7709,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Eye of Gul'dan",
 		},
-		[211007] = {
+		[568] = {
 			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Nightborne Reclaimer",
-		},
-		[26006] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Emperor Vek'lor",
+		},
+		[211756] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Wrathguard Felblade",
 		},
 		[49966] = {
 			["school"] = 1,
@@ -6775,12 +7734,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hirsch",
 		},
-		[236564] = {
-			["school"] = 32,
+		[242702] = {
+			["school"] = 2,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "The Desolate Host",
+			["source"] = "Legionfall Defender",
 		},
 		[203956] = {
 			["school"] = 1,
@@ -6793,12 +7752,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Admiral Rel'var",
 		},
-		[209518] = {
-			["school"] = 32,
+		[240209] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Eye of Gul'dan",
 		},
 		[221603] = {
 			["school"] = 4,
@@ -6808,27 +7767,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[218587] = {
+		[200182] = {
 			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Dresaron",
-		},
-		[194238] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Môwltasche",
-		},
-		[221783] = {
-			["school"] = 4,
-			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shade of Xavius",
+		},
+		[206514] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Gul'dan",
+		},
+		[243016] = {
+			["school"] = 36,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Consabob-LaughingSkull",
 		},
 		[248713] = {
 			["school"] = 32,
@@ -6857,20 +7822,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Timeless Wraith",
 		},
-		[8092] = {
+		[243982] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Deshx-Thrall",
+			["source"] = "Kil'jaeden",
 		},
-		[40120] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[193983] = {
+			["school"] = 2,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Thirios",
+			["source"] = "God-King Skovald",
 		},
 		[202295] = {
 			["school"] = 4,
@@ -6911,20 +7877,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flame of Woe",
 		},
-		[64692] = {
+		[250889] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Lightforged Warframe",
+		},
+		[236694] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Mechagnome Battletank",
-		},
-		[242832] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Wild Imp",
+			["source"] = "Captain Yathae Moonstrike",
 		},
 		[227615] = {
 			["school"] = 4,
@@ -6934,13 +7900,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shade of Medivh",
 		},
-		[238996] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[221605] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lorice",
+			["source"] = "Gul'dan",
 		},
 		[194112] = {
 			["school"] = 1,
@@ -6959,977 +7924,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gul'dan",
 		},
-		[197509] = {
-			["school"] = 32,
+		[81269] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Bloodworm",
+			["source"] = "Satrinasbell",
 		},
-	},
-	["emotes"] = {
-		{
-			{
-				0.1, -- [1]
-				"It is a simple matter to show courage against my minions. Can you face the shadows within your own souls as bravely?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				9.93999999999505, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				10.9680000000008, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				17.0190000000002, -- [1]
-				"Face your destiny!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				34.1820000000007, -- [1]
-				"Fall, hero!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				55.1009999999951, -- [1]
-				"Face your destiny!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				55.1009999999951, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				55.1009999999951, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [8]
-			{
-				64.1569999999993, -- [1]
-				"Obliteration beckons!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				65.1610000000001, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [10]
-			{
-				80.0899999999965, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				80.0899999999965, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [12]
-			{
-				103.060999999994, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				104.089999999997, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [14]
-			{
-				106.103999999999, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				106.103999999999, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [16]
-			{
-				126.106999999996, -- [1]
-				"Still you resist! Then let me repay your arrogance!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				134.028999999995, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				135.007999999994, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [19]
-			{
-				137.267999999996, -- [1]
-				"Consume them all!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [20]
-			{
-				140.888999999996, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				140.888999999996, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [22]
-			{
-				157.866999999998, -- [1]
-				"Who will share your fate?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [23]
-			{
-				157.866999999998, -- [1]
-				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Talar|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [24]
-			{
-				159.093000000001, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [25]
-			{
-				159.093000000001, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [26]
-			{
-				169.097999999998, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [27]
-			{
-				169.097999999998, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [28]
-			{
-				174.127, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [29]
-			{
-				174.127, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [30]
-			{
-				192.740999999995, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [31]
-			{
-				193.748999999996, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [32]
-			{
-				196.777999999998, -- [1]
-				"Who will share your fate?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [33]
-			{
-				196.777999999998, -- [1]
-				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Dokz|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [34]
-			{
-				200.437999999995, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [35]
-			{
-				200.437999999995, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [36]
-			{
-				217.445999999996, -- [1]
-				"Consume them all!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [37]
-			{
-				240.691999999995, -- [1]
-				"Obliteration beckons!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [38]
-			{
-				241.714, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [39]
-			{
-				243.755999999994, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [40]
-			{
-				243.755999999994, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [41]
-			{
-				247.746999999996, -- [1]
-				"Give in to your fears! Your desires!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [42]
-			{
-				254.744999999995, -- [1]
-				"Who will share your fate?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [43]
-			{
-				254.744999999995, -- [1]
-				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Dewi|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [44]
-			{
-				259.635999999999, -- [1]
-				"An inevitable fate!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [45]
-			{
-				270.718999999997, -- [1]
-				"Give in to your fears! Your desires!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [46]
-			{
-				272.710999999996, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [47]
-			{
-				273.640999999996, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [48]
-			{
-				274.684999999998, -- [1]
-				"Consume them all!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [49]
-			{
-				279.780999999995, -- [1]
-				"Fall, hero!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [50]
-			{
-				291.829999999995, -- [1]
-				"An inevitable fate!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [51]
-			{
-				293.728999999999, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [52]
-			{
-				293.728999999999, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [53]
-			["boss"] = "Kil'jaeden",
-		}, -- [1]
-		{
-			{
-				0.205000000001746, -- [1]
-				"This battle shall be your last!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				10.224000000002, -- [1]
-				"Obliteration beckons!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				11.2430000000022, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				17.2119999999995, -- [1]
-				"Face your destiny!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				34.2209999999977, -- [1]
-				"Fall, hero!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				55.2319999999963, -- [1]
-				"Give in to your fears! Your desires!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				55.2319999999963, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				55.2319999999963, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [8]
-			{
-				64.2419999999984, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				65.2189999999973, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [10]
-			{
-				80.2119999999995, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				80.2119999999995, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [12]
-			{
-				103.216, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				104.218000000001, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [14]
-			{
-				106.074999999997, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				106.074999999997, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [16]
-			{
-				116.648000000001, -- [1]
-				"Still you resist! Then let me repay your arrogance!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				123.682000000001, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				124.688999999999, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [19]
-			{
-				127.735000000001, -- [1]
-				"|TInterface\\Icons\\ABILITY_WARLOCK_INFERNO.BLP:20|t%s has targeted you with |cFFFF0000|Hspell:238430|h[Bursting Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				2, -- [4]
-			}, -- [20]
-			{
-				127.735000000001, -- [1]
-				"Consume them all!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				131.267, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [22]
-			{
-				131.267, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [23]
-			{
-				148.375, -- [1]
-				"Who will share your fate?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [24]
-			{
-				148.375, -- [1]
-				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Roanar|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [25]
-			{
-				149.624000000003, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				149.624000000003, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [27]
-			{
-				154.618000000002, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [28]
-			{
-				154.618000000002, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [29]
-			{
-				164.582000000002, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [30]
-			{
-				164.582000000002, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [31]
-			{
-				183.222000000002, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [32]
-			{
-				184.222999999998, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [33]
-			{
-				187.309000000001, -- [1]
-				"Who will share your fate?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [34]
-			{
-				187.309000000001, -- [1]
-				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Fooneses|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [35]
-			{
-				190.809999999998, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [36]
-			{
-				190.809999999998, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [37]
-			{
-				195.927000000003, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [38]
-			{
-				195.927000000003, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [39]
-			{
-				207.959000000003, -- [1]
-				"|TInterface\\Icons\\ABILITY_WARLOCK_INFERNO.BLP:20|t%s has targeted you with |cFFFF0000|Hspell:238430|h[Bursting Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				2, -- [4]
-			}, -- [40]
-			{
-				207.959000000003, -- [1]
-				"Consume them all!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [41]
-			{
-				231.673999999999, -- [1]
-				"Obliteration beckons!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [42]
-			{
-				232.690999999999, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [43]
-			{
-				234.671999999999, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [44]
-			{
-				234.671999999999, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [45]
-			{
-				238.671999999999, -- [1]
-				"Face your destiny!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [46]
-			{
-				245.648000000001, -- [1]
-				"Who will share your fate?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [47]
-			{
-				245.648000000001, -- [1]
-				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Uguluugulu|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [48]
-			{
-				250.712, -- [1]
-				"Fall, hero!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [49]
-			{
-				261.697, -- [1]
-				"Face your destiny!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [50]
-			{
-				263.671999999999, -- [1]
-				"Obliteration beckons!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [51]
-			{
-				264.686000000002, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [52]
-			{
-				265.676, -- [1]
-				"Consume them all!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [53]
-			{
-				270.709000000003, -- [1]
-				"Fall, hero!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [54]
-			{
-				284.667000000001, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [55]
-			{
-				284.667000000001, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [56]
-			{
-				289.677000000003, -- [1]
-				"Who will share your fate?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [57]
-			{
-				289.677000000003, -- [1]
-				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Dewi|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [58]
-			{
-				308.690999999999, -- [1]
-				"Obliteration beckons!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [59]
-			{
-				309.703000000001, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [60]
-			{
-				312.911999999997, -- [1]
-				"Fall, hero!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [61]
-			{
-				315.692000000003, -- [1]
-				"Consume them all!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [62]
-			{
-				321.690000000002, -- [1]
-				"I sense the corruption inside you.", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [63]
-			{
-				323.625999999997, -- [1]
-				"An inevitable fate!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [64]
-			{
-				329.659, -- [1]
-				"A meaningless struggle! Azeroth shall fall to the Burning Legion!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [65]
-			["boss"] = "Kil'jaeden",
-		}, -- [2]
-		{
-			{
-				0.176999999996042, -- [1]
-				"It is a simple matter to show courage against my minions. Can you face the shadows within your own souls as bravely?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				10.176999999996, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				11.2019999999975, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				17.0819999999949, -- [1]
-				"Confront your own darkness!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				34.3809999999939, -- [1]
-				"Fall, hero!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				55.2099999999991, -- [1]
-				"I sense the corruption inside you.", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				55.2099999999991, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				55.2099999999991, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [8]
-			{
-				64.1949999999997, -- [1]
-				"Obliteration beckons!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				65.2209999999977, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [10]
-			{
-				80.2219999999943, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				80.2219999999943, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [12]
-			{
-				103.258999999998, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				104.224999999999, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [14]
-			{
-				106.200999999994, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				106.200999999994, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [16]
-			{
-				122.792999999998, -- [1]
-				"Still you resist! Then let me repay your arrogance!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				129.863999999994, -- [1]
-				"Death rains upon you!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				130.886999999995, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [19]
-			{
-				133.936999999998, -- [1]
-				"|TInterface\\Icons\\ABILITY_WARLOCK_INFERNO.BLP:20|t%s has targeted you with |cFFFF0000|Hspell:238430|h[Bursting Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				2, -- [4]
-			}, -- [20]
-			{
-				133.936999999998, -- [1]
-				"Consume them all!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				137.598999999995, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [22]
-			{
-				137.598999999995, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [23]
-			{
-				154.566999999995, -- [1]
-				"Who will share your fate?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [24]
-			{
-				154.566999999995, -- [1]
-				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Fluffypillow|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [25]
-			{
-				155.841, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				155.841, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [27]
-			{
-				160.745999999999, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [28]
-			{
-				160.745999999999, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [29]
-			{
-				170.865999999995, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [30]
-			{
-				170.865999999995, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [31]
-			{
-				189.498, -- [1]
-				"Obliteration beckons!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [32]
-			{
-				190.472999999998, -- [1]
-				"|TInterface\\Icons\\SPELL_FIRE_FELRAINOFFIRE:20|t%s is casting |cFFFF0000|Hspell:240910|h[Armageddon]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [33]
-			{
-				193.521000000001, -- [1]
-				"Who will share your fate?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [34]
-			{
-				193.521000000001, -- [1]
-				"|TInterface\\Icons\\ABILITY_MAGE_FIRESTARTER:20|t%s has targeted |cFFFF0000Fallen|r with |cFFFF0000|Hspell:238502|h[Focused Dreadflame]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [35]
-			{
-				197.190999999999, -- [1]
-				"Who will save you now?", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [36]
-			{
-				197.190999999999, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [37]
-			{
-				198.273999999998, -- [1]
-				"An inevitable fate!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [38]
-			{
-				202.060999999994, -- [1]
-				"Fall before your master!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [39]
-			{
-				202.060999999994, -- [1]
-				"|TInterface\\Icons\\Ability_Socererking_arcanemines:20|t%s creates a |cFFFF0000|Hspell:235059|h[Rupturing Singularity]|h|r!", -- [2]
-				"Kil'jaeden", -- [3]
-				1, -- [4]
-			}, -- [40]
-			{
-				214.156999999999, -- [1]
-				"Consume them all!", -- [2]
-				"Kil'jaeden", -- [3]
-				7, -- [4]
-			}, -- [41]
-			["boss"] = "Kil'jaeden",
-		}, -- [3]
 	},
 }

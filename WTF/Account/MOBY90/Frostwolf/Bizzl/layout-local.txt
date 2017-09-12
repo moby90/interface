@@ -37,8 +37,8 @@ H: 175
 Frame: LootFrame
 FrameLevel: 1
 Anchor: CENTER
-X: -70
-Y: -5
+X: -52
+Y: -1
 W: 170
 H: 240
 Frame: TargetFrame
