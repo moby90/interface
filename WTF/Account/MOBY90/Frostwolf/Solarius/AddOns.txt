@@ -156,5 +156,5 @@ SexyCooldown: disabled
 ShadowedUF_Options: disabled
 ShadowedUnitFrames: disabled
 StarCursor: disabled
-WorldQuestAssistant: enabled
+WorldQuestAssistant: disabled
 GuildGreet: disabled

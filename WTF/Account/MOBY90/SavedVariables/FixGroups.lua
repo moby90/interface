@@ -1,47 +1,21 @@
 
 FixGroupsDB = {
-	["faction"] = {
-		["Horde"] = {
-			["damagerRoleNonGuildCache"] = {
-				["melee"] = {
-					["Göël-Hyjal"] = 1505233170,
-					["Imbakatze-Eredar"] = 1505232192,
+	["profiles"] = {
+		["Default"] = {
+			["options"] = {
+				["coreRaiderRank"] = {
+					["Jade Falcons-Frostwolf"] = 4,
 				},
-				["ranged"] = {
-					["Kalzakat-Stormscale"] = 1505159379,
-					["Azorial-Hyjal"] = 1505159900,
-					["Аруиса-Ревущийфьорд"] = 1505233032,
-					["Fillibuster-Drak'thul"] = 1505232731,
-					["Злобныйсовух-СвежевательДуш"] = 1505232866,
-					["Fateless-Hyjal"] = 1505160085,
-					["Lillianná-Draenor"] = 1505233240,
+				["minimapIcon"] = {
+					["minimapPos"] = 191.604997968475,
 				},
-			},
-			["damagerRoleGuildCache"] = {
-				["melee"] = {
-					["Soldira-Frostwolf"] = 1504294837,
-					["Tentreesha-Frostwolf"] = 1505064168,
-					["Soldira-"] = 1504294255,
-					["Mysuh-Frostwolf"] = 1504292768,
-					["Bêlya-Frostwolf"] = 1505249862,
-					["Lardeck-Frostwolf"] = 1504294921,
-					["Bêlya-"] = 1505238805,
-					["Fluffypillow-Frostwolf"] = 1504809032,
-					["Lardeck-"] = 1504293200,
-					["Tentreesha-"] = 1504810201,
-				},
-				["ranged"] = {
-					["Máriká-"] = 1505239108,
-					["Dewi-"] = 1505062652,
-					["Bolya-Frostwolf"] = 1504294845,
-					["Bolya-"] = 1504293212,
-					["Delora-"] = 1504979101,
-					["Dewi-Frostwolf"] = 1505067328,
-					["Máriká-Frostwolf"] = 1505249886,
-					["Delora-Frostwolf"] = 1504980605,
-				},
+				["showMinimapIconPRN"] = true,
+				["showMinimapIconAlways"] = false,
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Laru - Frostwolf"] = "Default",
 	},
 	["global"] = {
 		["guildRanks"] = {
@@ -57,20 +31,46 @@ FixGroupsDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Laru - Frostwolf"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-			["options"] = {
-				["coreRaiderRank"] = {
-					["Jade Falcons-Frostwolf"] = 4,
+	["faction"] = {
+		["Horde"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
+					["Göël-Hyjal"] = 1505233170,
+					["Dashteengo-Twilight'sHammer"] = 1505338718,
+					["Imbakatze-Eredar"] = 1505232192,
+					["Májorkater-Mal'Ganis"] = 1505322888,
 				},
-				["minimapIcon"] = {
-					["minimapPos"] = 191.604997968475,
+				["ranged"] = {
+					["Fillibuster-Drak'thul"] = 1505232731,
+					["Джанъяти-Ясеневыйлес"] = 1505323620,
+					["Аруиса-Ревущийфьорд"] = 1505233032,
+					["Злобныйсовух-СвежевательДуш"] = 1505232866,
+					["Lillianná-Draenor"] = 1505233240,
 				},
-				["showMinimapIconPRN"] = true,
-				["showMinimapIconAlways"] = false,
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+					["Soldira-"] = 1504294255,
+					["Tentreesha-Frostwolf"] = 1505064168,
+					["Tentreesha-"] = 1504810201,
+					["Mysuh-Frostwolf"] = 1504292768,
+					["Soldira-Frostwolf"] = 1504294837,
+					["Lardeck-Frostwolf"] = 1504294921,
+					["Bêlya-Frostwolf"] = 1505336541,
+					["Bêlya-"] = 1505325277,
+					["Lardeck-"] = 1504293200,
+					["Fluffypillow-Frostwolf"] = 1504809032,
+				},
+				["ranged"] = {
+					["Máriká-"] = 1505325278,
+					["Dewi-Frostwolf"] = 1505336471,
+					["Dewi-"] = 1505325521,
+					["Bolya-Frostwolf"] = 1504294845,
+					["Delora-"] = 1504979101,
+					["Bolya-"] = 1504293212,
+					["Máriká-Frostwolf"] = 1505336470,
+					["Delora-Frostwolf"] = 1504980605,
+				},
 			},
 		},
 	},

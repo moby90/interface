@@ -6,11 +6,11 @@ WorldQuestAssistantDB = {
 	},
 	["profileKeys"] = {
 		["Chuckxn - Frostwolf"] = "Default",
-		["Toxiquak - Frostwolf"] = "Default",
 		["Himbeerblau - Frostwolf"] = "Default",
-		["Bizzl - Frostwolf"] = "Default",
-		["Laruchan - Frostwolf"] = "Default",
+		["Toxiquak - Frostwolf"] = "Default",
 		["Blaustrumpf - Frostwolf"] = "Default",
+		["Laruchan - Frostwolf"] = "Default",
+		["Bizzl - Frostwolf"] = "Default",
 		["Laru - Frostwolf"] = "Default",
 	},
 	["profiles"] = {

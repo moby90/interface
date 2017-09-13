@@ -117,5 +117,5 @@ WeakAuras: enabled
 WeakAurasModelPaths: enabled
 WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
-WorldQuestAssistant: enabled
+WorldQuestAssistant: disabled
 GuildGreet: disabled

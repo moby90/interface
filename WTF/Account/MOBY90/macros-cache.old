@@ -3,10 +3,10 @@ VER 3 0000000000000043 "BoF" "1030095"
 /cast Beacon of Faith
 END
 VER 3 0000000000000042 "BoL" "236247"
-/target  Dewi's Hopeless Reflection
+/target  Laru's Hopeless Reflection
 /cast Beacon of Light
 /w Máriká Innervate
-/target Laru's Hopeless Reflection
+/target Jayde's Hopeless Reflection
 END
 VER 3 0000000000000047 "Dewi" "136081"
 /target Dewi's Hopeless Reflection

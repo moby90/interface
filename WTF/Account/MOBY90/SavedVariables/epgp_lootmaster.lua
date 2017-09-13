@@ -38,8 +38,8 @@ EPGPLootMaster = {
 		["Blaustrumpf - Frostwolf"] = {
 		},
 		["Laru - Frostwolf"] = {
-			["mainUIScale"] = 1.000000055631,
 			["loot_timeout"] = 0,
+			["mainUIScale"] = 1.000000055631,
 		},
 	},
 }

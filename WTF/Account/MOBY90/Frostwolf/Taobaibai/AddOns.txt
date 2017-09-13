@@ -310,5 +310,5 @@ LittleWigs: enabled
 Masque_Serenity: disabled
 SexyCooldown: disabled
 StarCursor: disabled
-WorldQuestAssistant: enabled
+WorldQuestAssistant: disabled
 GuildGreet: disabled
