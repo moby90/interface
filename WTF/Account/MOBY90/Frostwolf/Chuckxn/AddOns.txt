@@ -253,7 +253,7 @@ TradeSkillMaster_PriceReply: disabled
 TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_GuildSorter: disabled
 TradeSkillMaster_CoolDowns: disabled
-WorldQuestsList: enabled
+WorldQuestsList: disabled
 TrufiGCD: disabled
 CrossRealmAssist: enabled
 Kui_Media: disabled

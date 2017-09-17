@@ -266,7 +266,7 @@ TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_GuildSorter: disabled
 TradeSkillMaster_CoolDowns: disabled
 ElvUI_Lightbringer: enabled
-WorldQuestsList: enabled
+WorldQuestsList: disabled
 TrufiGCD: disabled
 CrossRealmAssist: disabled
 DBM-TombofSargeras: disabled

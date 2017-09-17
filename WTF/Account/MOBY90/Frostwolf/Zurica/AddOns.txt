@@ -237,7 +237,7 @@ CrossRealmAssist: enabled
 GottaGoFast: disabled
 Pawn: disabled
 TradeSkillMaster_TDAutoVendoring: disabled
-WorldQuestsList: enabled
+WorldQuestsList: disabled
 ElvUI_Lightbringer: disabled
 DBM-TrialofValor: disabled
 TrufiGCD: disabled

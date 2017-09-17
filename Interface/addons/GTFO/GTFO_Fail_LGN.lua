@@ -2009,6 +2009,11 @@ GTFO.SpellID["249407"] = {
   sound = 3;
 };
 
+GTFO.SpellID["249408"] = {
+  --desc = "Blast Waves (Vel'thrak the Punisher)";
+  sound = 3;
+};
+
 GTFO.SpellID["248652"] = {
   --desc = "Flames of Argus (Fragment of Argus)";
   sound = 3;
@@ -2019,3 +2024,34 @@ GTFO.SpellID["248665"] = {
   sound = 3;
 };
 
+--- ***************************
+--- * Seat of the Triumvirate *
+--- ***************************
+
+GTFO.SpellID["248130"] = {
+  --desc = "Darkened Ramnant (Rift Warden)";
+  sound = 3;
+};
+
+GTFO.SpellID["246026"] = {
+  --desc = "Void Trap (Saprish)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["250188"] = {
+  --desc = "Void Fragment";
+  sound = 3;
+};
+
+GTFO.SpellID["248067"] = {
+  --desc = "Grand Swing (Umbral War-Adept)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["246900"] = {
+  --desc = "Dark Outbreak (Void Discharge)";
+  sound = 3;
+  applicationOnly = true;
+};

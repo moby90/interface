@@ -152,11 +152,11 @@ AngryAssign_Pages = {
 		["Contents"] = "(1){square}: Gruppe 4\n(2){triangle}: Gruppe 2\n(3){circle}: Gruppe 1\n(4){diamond}: Gruppe 3\n\n1. LW + AM(M)\n2. HTT + SLT            \n3. LW + Barrier + AM(L)\n4. Tranq\n5. LW + AM(M)\n6. HTT + SLT            \n7. LW + Barrier + AM(L)\n8. Tranq\n9. LW + SLT            \n10 HTT + Barrier",
 	},
 	[3553190877] = {
-		["Updated"] = 1505326091,
+		["Updated"] = 1505676532,
 		["Name"] = "[M] KJ",
 		["Id"] = 3553190877,
-		["UpdateId"] = 1063677573,
-		["Contents"] = "Armageddon Soaks\n\n{cross} Fallen, Ugu, ypzo, Tidok\n{skull} Fooneses, Kremo, Laru, Eo\n{square} Roanar, Pillock, jd, Talar\n{star} Cluze, dewi ,Till, Marika\n\nBig Soaks\n\np1\n1. Tank + Tentreesha\n2. Cluze  + Laru (bop) \n3. Kremo + Talar\n\nintermission\nnur tanks (Roanar ersatz)\n\np2 \n6. Fallen + Fooneses\n7. Tank + Cluze\n8. Talar + Ugu\n9. Tank + Kremo\n10. Offtank + Till (bop)\n11. Tank + Roanar\n12. Talar + Cluze\n13. Fallen + Fooneses\n\np3 kite\nCluze/Kremo/Eo\nHannes/Roanar/Dokz",
+		["UpdateId"] = 1583494789,
+		["Contents"] = "Armageddon Soaks\n\n{cross} Fallen, Ugu, ypzo, Tidok\n{skull} Fooneses, Kremo, Laru, Eo\n{square} Roanar, Pillock, jd, Talar\n{star} Cluze, dewi ,Till, Marika\n\nBig Soaks\n\np1\n1. Tank + Tentreesha\n2. Cluze  + Laru (bop) \n3. Kremo + Talar\n\nintermission\nnur tanks (Roanar ersatz)\n\np2 \n6. Fallen + Fooneses\n7. Tank + Cluze\n8. Talar + Ugu\n9. Fooneses + Kremo\n10. Offtank + Till (bop)\n11. Tank + Roanar\n12. Talar + Cluze\n\np3 kite\nCluze/Kremo/Eo\nHannes/Roanar/Dokz",
 	},
 	[4188261769] = {
 		["Updated"] = 1490209114,
@@ -433,12 +433,6 @@ AngryAssign_State = {
 		["hidden"] = false,
 		["width"] = 287.999664306641,
 	},
-	["window"] = {
-		["height"] = 502.999877929688,
-		["top"] = 958.465942382813,
-		["left"] = 1029.93603515625,
-		["width"] = 927.000671386719,
-	},
 	["tree"] = {
 		["groups"] = {
 			[1640047391] = true,
@@ -500,6 +494,12 @@ AngryAssign_State = {
 		["selected"] = 1609917136,
 	},
 	["directionUp"] = false,
+	["window"] = {
+		["height"] = 502.999877929688,
+		["top"] = 958.465942382813,
+		["left"] = 1029.93603515625,
+		["width"] = 927.000671386719,
+	},
 }
 AngryAssign_Config = {
 	["highlightColor"] = "f7ff1e",

@@ -158,7 +158,7 @@ Grid2DB = {
 						["raid@other"] = "By Group & Role",
 					},
 					["BackgroundR"] = 0.101960784313725,
-					["PosX"] = -0.711284739445546,
+					["PosX"] = -0.710937517214916,
 					["anchor"] = "TOP",
 					["BackgroundG"] = 0.101960784313725,
 					["minimapIcon"] = {

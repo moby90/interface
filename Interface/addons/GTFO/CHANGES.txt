@@ -1,5 +1,11 @@
 ------------------------------------------------------------------------
-r347 | Zensunim | 2017-09-11 01:22:13 -0500 (Mon, 11 Sep 2017) | 2 lines
+r350 | Zensunim | 2017-09-13 23:00:13 -0500 (Wed, 13 Sep 2017) | 1 line
+Changed paths:
+   M /trunk/GTFO.lua
+
+4.43.3 prep
+------------------------------------------------------------------------
+r349 | Zensunim | 2017-09-13 00:02:59 -0500 (Wed, 13 Sep 2017) | 3 lines
 Changed paths:
    M /trunk/GTFO.lua
    M /trunk/GTFO.toc
@@ -7,7 +13,8 @@ Changed paths:
    M /trunk/GTFO_Spells_LGN.lua
    M /trunk/ReadMe.txt
 
-4.43.2
 * Added Legion spells for Argus
+* Added Legion spells for Seat of the Triumvirate
+* Added Legion spells for Tomb of Sargeras
 ------------------------------------------------------------------------
 

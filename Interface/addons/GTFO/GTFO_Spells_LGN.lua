@@ -1522,7 +1522,7 @@ GTFO.SpellID["236241"] = {
 GTFO.SpellID["236464"] = {
   --desc = "Soulbind (Engine of Souls)";
   sound = 4;
-  test = true;
+  negatingDebuffSpellID = 236459; -- Soulbind
 };
 
 GTFO.SpellID["235989"] = {
@@ -1691,6 +1691,7 @@ GTFO.SpellID["239281"] = {
 GTFO.SpellID["250686"] = {
   --desc = "Crush (Deep Terror)";
   sound = 3;
+  damageMinimum = 1;
 };
 
 GTFO.SpellID["251564"] = {
@@ -1714,5 +1715,25 @@ GTFO.SpellID["242973"] = {
 GTFO.SpellID["251682"] = {
   --desc = "Blizzard";
   tankSound = 2;
+  sound = 1;
+};
+
+--- ***************************
+--- * Seat of the Triumvirate *
+--- ***************************
+
+GTFO.SpellID["244588"] = {
+  --desc = "Void Sludge (Zuraal the Ascended)";
+  sound = 1;
+};
+
+GTFO.SpellID["244906"] = {
+  --desc = "Collapsing Void (Viceroy Nezhar)";
+  sound = 1;
+};
+
+GTFO.SpellID["250820"] = {
+  --desc = "Growing Pressure";
+  applicationOnly = true;
   sound = 1;
 };
