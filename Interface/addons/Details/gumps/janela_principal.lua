@@ -6072,11 +6072,11 @@ local build_segment_list = function (self, elapsed)
 							else
 								if (segmentID == "trashoverall") then
 									--CoolTip:AddLine (encounterName .. " (" .. Loc ["STRING_SEGMENTS_LIST_TRASH"] .. ")", _detalhes.gump:IntegerToTimer (combat_time), 1, dungeon_color, "gray")
-									CoolTip:AddLine (encounterName .. " (" .. Loc ["STRING_SEGMENTS_LIST_TRASH"] .. ")", _detalhes.gump:IntegerToTimer (endedAt - startedAt), 1, dungeon_color, "gray")
-									CoolTip:AddLine (encounterName .. " (" .. Loc ["STRING_SEGMENTS_LIST_TRASH"] .. ")", nil, 2, "white", "white")
+									CoolTip:AddLine ((encounterName or Loc ["STRING_UNKNOW"]) .. " (" .. Loc ["STRING_SEGMENTS_LIST_TRASH"] .. ")", _detalhes.gump:IntegerToTimer (endedAt - startedAt), 1, dungeon_color, "gray")
+									CoolTip:AddLine ((encounterName or Loc ["STRING_UNKNOW"]) .. " (" .. Loc ["STRING_SEGMENTS_LIST_TRASH"] .. ")", nil, 2, "white", "white")
 								else
-									CoolTip:AddLine (encounterName .. " (" .. Loc ["STRING_SEGMENTS_LIST_BOSS"] .. ")", _detalhes.gump:IntegerToTimer (combat_time), 1, dungeon_color, "gray")
-									CoolTip:AddLine (encounterName .. " (" .. Loc ["STRING_SEGMENTS_LIST_BOSS"] .. ")", nil, 2, "white", "white")
+									CoolTip:AddLine ((encounterName or Loc ["STRING_UNKNOW"]) .. " (" .. Loc ["STRING_SEGMENTS_LIST_BOSS"] .. ")", _detalhes.gump:IntegerToTimer (combat_time), 1, dungeon_color, "gray")
+									CoolTip:AddLine ((encounterName or Loc ["STRING_UNKNOW"]) .. " (" .. Loc ["STRING_SEGMENTS_LIST_BOSS"] .. ")", nil, 2, "white", "white")
 								end
 								CoolTip:AddIcon ([[Interface\AddOns\Details\images\icons]], "main", "left", 14, 10, 479/512, 510/512, 24/512, 51/512)
 							end
@@ -6132,9 +6132,11 @@ local build_segment_list = function (self, elapsed)
 							CoolTip:AddLine (Loc ["STRING_SEGMENT_START"] .. ":", thisCombat.data_inicio, 2, "white", "white")
 							CoolTip:AddLine (Loc ["STRING_SEGMENT_END"] .. ":", thisCombat.data_fim or "in progress", 2, "white", "white")
 							
-							local backgroundImage = _detalhes:GetRaidIcon (trashInfo.MapID, trashInfo.EJID, "party")
-							if (backgroundImage) then
-								CoolTip:SetWallpaper (2, backgroundImage, party_wallpaper_tex, {1, 1, 1, 0.5}, true)
+							if (trashInfo) then
+								local backgroundImage = _detalhes:GetRaidIcon (trashInfo.MapID, trashInfo.EJID, "party")
+								if (backgroundImage) then
+									CoolTip:SetWallpaper (2, backgroundImage, party_wallpaper_tex, {1, 1, 1, 0.5}, true)
+								end
 							end
 						end
 						segment_info_added = true
@@ -6308,10 +6310,12 @@ local build_segment_list = function (self, elapsed)
 			local thisCombat = _detalhes.tabela_vigente
 			local segment_info_added
 			
+			--> add the new line
 			CoolTip:AddLine (segmentos.current_standard, _, 1, "white")
 			CoolTip:AddMenu (1, instancia.TrocaTabela, 0)
 			CoolTip:AddIcon ([[Interface\QUESTFRAME\UI-Quest-BulletPoint]], "main", "left", 16, 16, nil, nil, nil, nil, "orange")
-				
+			--
+			
 			--> current segment is a dungeon mythic+?
 			if (thisCombat.is_mythic_dungeon_segment) then
 				local mythicDungeonInfo = thisCombat:GetMythicDungeonInfo()
@@ -6397,9 +6401,9 @@ local build_segment_list = function (self, elapsed)
 					
 					local trashInfo = thisCombat:GetMythicDungeonTrashInfo()
 					
-					CoolTip:AddLine (Loc ["STRING_SEGMENT_TRASH"] .. " (#" .. i .. ")", _detalhes.gump:IntegerToTimer (thisCombat:GetCombatTime()), 1, dungeon_color_trash, "gray")
+					--CoolTip:AddLine (Loc ["STRING_SEGMENT_TRASH"], _detalhes.gump:IntegerToTimer (thisCombat:GetCombatTime()), 1, dungeon_color_trash, "gray")
 					--CoolTip:AddIcon ([[Interface\AddOns\Details\images\icons]], "main", "left", 16, 12, 0.02734375, 0.11328125, 0.19140625, 0.3125, "red")
-					CoolTip:AddIcon ([[Interface\AddOns\Details\images\icons]], "main", "left", 14, 10, 479/512, 510/512, 24/512, 51/512, nil, nil, true)
+					--CoolTip:AddIcon ([[Interface\AddOns\Details\images\icons]], "main", "left", 14, 10, 479/512, 510/512, 24/512, 51/512, nil, nil, true)
 					
 					--submenu
 					CoolTip:AddLine (Loc ["STRING_SEGMENT_TRASH"], nil, 2, "white", "white")
@@ -6413,6 +6417,7 @@ local build_segment_list = function (self, elapsed)
 						CoolTip:SetWallpaper (2, backgroundImage, party_wallpaper_tex, {1, 1, 1, 0.5}, true)
 					end
 				end
+				
 				segment_info_added = true
 
 			elseif (_detalhes.tabela_vigente.is_boss and _detalhes.tabela_vigente.is_boss.name) then
@@ -6456,6 +6461,7 @@ local build_segment_list = function (self, elapsed)
 					--> wallpaper = main window
 					CoolTip:SetWallpaper (2, _detalhes.tooltip.menus_bg_texture, _detalhes.tooltip.menus_bg_coords, _detalhes.tooltip.menus_bg_color, true)
 				end
+				
 			elseif (_detalhes.tabela_vigente.is_pvp) then
 				enemy = _detalhes.tabela_vigente.is_pvp.name
 				file, coords = _detalhes:GetBattlegroundInfo (_detalhes.tabela_vigente.is_pvp.mapid)

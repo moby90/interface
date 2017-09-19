@@ -5,7 +5,7 @@ END
 VER 3 0000000000000042 "BoL" "236247"
 /target  Jayde's Hopeless Reflection
 /cast Beacon of Light
-/w Dewi Innervate
+/w Máriká Innervate
 /target Laru's Hopeless Reflection
 END
 VER 3 0000000000000047 "Dewi" "136081"
@@ -26,6 +26,9 @@ VER 3 000000000000003E "JD" "135940"
 END
 VER 3 000000000000003F "Laru" "135972"
 /target Laru's Hopeless Reflection
+END
+VER 3 000000000000004C "muhdiv" "136052"
+/target Muhdiv's Hopeless Reflection
 END
 VER 3 000000000000004A "range" "413591"
 /tar Fooneses's

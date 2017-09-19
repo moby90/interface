@@ -926,14 +926,16 @@ L["STRING_OPTIONS_OPEN_TEXT_EDITOR"] = "Открыть редактор текс
 L["STRING_OPTIONS_OVERALL_ALL"] = "Все сегменты"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "Все сегменты идут в зачет всеобщих данных"
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Всеобщие данные:"
-L["STRING_OPTIONS_OVERALL_CHALLENGE"] = "Сбрасывать в режиме испытаний (эпох+)"
-L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = "Когда включено, всеобщие данные сбрасываются автоматически, когда начинается новый режим испытаний (эпох+)."
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = "Боссы подземелий"
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = "Сегменты с боссами подземелий идут в зачет всеобщих данных."
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN"] = "Треш подземелий"
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN_DESC"] = "Сегменты с трешем подземелий идут в зачет всеобщих данных."
 L["STRING_OPTIONS_OVERALL_LOGOFF"] = "Сбрасывать при выходе"
 L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = "Когда включено, всеобщие данные сбрасываются автоматически, когда вы выходите из игрового мира."
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""
 L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "Сбрасывать на новом боссе"
 L["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"] = "Когда включено, всеобщие данные сбрасываются автоматически, когда начинается бой с другим рейдовым боссом."
 L["STRING_OPTIONS_OVERALL_RAIDBOSS"] = "Рейдовые боссы"

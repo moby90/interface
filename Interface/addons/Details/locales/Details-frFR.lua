@@ -1211,10 +1211,6 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_ANCHOR"] = ""
 --Translation missing 
--- L["STRING_OPTIONS_OVERALL_CHALLENGE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = ""
---Translation missing 
 -- L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = ""
@@ -1226,6 +1222,10 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Sélectionnez ici quelle fenêtre vou
 -- L["STRING_OPTIONS_OVERALL_LOGOFF"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_NEWBOSS"] = ""
 --Translation missing 

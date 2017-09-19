@@ -1048,10 +1048,6 @@ L["STRING_OPTIONS_OVERALL_ALL"] = "Todos segmentos"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "Todos segmentos se inclyen en los datos globales."
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Datos globales:"
 --Translation missing 
--- L["STRING_OPTIONS_OVERALL_CHALLENGE"] = ""
---Translation missing 
--- L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = ""
---Translation missing 
 -- L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = ""
@@ -1063,6 +1059,10 @@ L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Datos globales:"
 -- L["STRING_OPTIONS_OVERALL_LOGOFF"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""
 --Translation missing 
 -- L["STRING_OPTIONS_OVERALL_NEWBOSS"] = ""
 --Translation missing 

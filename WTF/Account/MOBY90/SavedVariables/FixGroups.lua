@@ -1,21 +1,39 @@
 
 FixGroupsDB = {
-	["profiles"] = {
-		["Default"] = {
-			["options"] = {
-				["coreRaiderRank"] = {
-					["Jade Falcons-Frostwolf"] = 4,
+	["faction"] = {
+		["Horde"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
 				},
-				["minimapIcon"] = {
-					["minimapPos"] = 191.604997968475,
+				["ranged"] = {
 				},
-				["showMinimapIconPRN"] = true,
-				["showMinimapIconAlways"] = false,
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+					["Soldira-"] = 1504294255,
+					["Tentreesha-Frostwolf"] = 1505064168,
+					["Fluffypillow-Frostwolf"] = 1504809032,
+					["Fluffypillow-"] = 1505518407,
+					["Mysuh-Frostwolf"] = 1504292768,
+					["Bêlya-"] = 1505854987,
+					["Lardeck-Frostwolf"] = 1505519747,
+					["Bêlya-Frostwolf"] = 1505854909,
+					["Soldira-Frostwolf"] = 1504294837,
+					["Lardeck-"] = 1505518411,
+					["Tentreesha-"] = 1505411721,
+				},
+				["ranged"] = {
+					["Máriká-"] = 1505850273,
+					["Dewi-Frostwolf"] = 1505682125,
+					["Dewi-"] = 1505682183,
+					["Bolya-Frostwolf"] = 1504294845,
+					["Delora-"] = 1504979101,
+					["Bolya-"] = 1504293212,
+					["Máriká-Frostwolf"] = 1505854952,
+					["Delora-Frostwolf"] = 1504980605,
+				},
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Laru - Frostwolf"] = "Default",
 	},
 	["global"] = {
 		["guildRanks"] = {
@@ -31,45 +49,20 @@ FixGroupsDB = {
 			},
 		},
 	},
-	["faction"] = {
-		["Horde"] = {
-			["damagerRoleNonGuildCache"] = {
-				["melee"] = {
-					["Розенбор-СвежевательДуш"] = 1505593116,
-					["Vigô-Kael'thas"] = 1505654785,
-					["Gnoree-Ragnaros"] = 1505655127,
-					["Kleintjepils-Mazrigos"] = 1505655059,
+	["profileKeys"] = {
+		["Laru - Frostwolf"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["options"] = {
+				["coreRaiderRank"] = {
+					["Jade Falcons-Frostwolf"] = 4,
 				},
-				["ranged"] = {
-					["Феанорчи-Корольлич"] = 1505594298,
-					["Rekkart-Proudmoore"] = 1505593828,
-					["Fietsendief-Stormscale"] = 1505655870,
+				["minimapIcon"] = {
+					["minimapPos"] = 191.604997968475,
 				},
-			},
-			["damagerRoleGuildCache"] = {
-				["melee"] = {
-					["Bêlya-"] = 1505679554,
-					["Soldira-Frostwolf"] = 1504294837,
-					["Tentreesha-Frostwolf"] = 1505064168,
-					["Tentreesha-"] = 1505411721,
-					["Soldira-"] = 1504294255,
-					["Mysuh-Frostwolf"] = 1504292768,
-					["Lardeck-"] = 1505518411,
-					["Lardeck-Frostwolf"] = 1505519747,
-					["Bêlya-Frostwolf"] = 1505682206,
-					["Fluffypillow-"] = 1505518407,
-					["Fluffypillow-Frostwolf"] = 1504809032,
-				},
-				["ranged"] = {
-					["Máriká-"] = 1505679546,
-					["Dewi-"] = 1505682183,
-					["Bolya-Frostwolf"] = 1504294845,
-					["Bolya-"] = 1504293212,
-					["Delora-"] = 1504979101,
-					["Dewi-Frostwolf"] = 1505682125,
-					["Máriká-Frostwolf"] = 1505682146,
-					["Delora-Frostwolf"] = 1504980605,
-				},
+				["showMinimapIconPRN"] = true,
+				["showMinimapIconAlways"] = false,
 			},
 		},
 	},

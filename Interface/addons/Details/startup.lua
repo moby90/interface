@@ -398,7 +398,7 @@ function _G._detalhes:Start()
 					SegmentID = "overall", --segment number within the dungeon
 					RunID = self.mythic_dungeon_id,
 					OverallSegment = true,
-					ZoneName = zoneName,
+					ZoneName = self.MythicPlus.DungeonName,
 					MapID = instanceMapID,
 					Level = self.MythicPlus.Level,
 					EJID = self.MythicPlus.ejID,
@@ -487,12 +487,12 @@ function _G._detalhes:Start()
 						SegmentID = "trashoverall",
 						RunID = self.mythic_dungeon_id,
 						TrashOverallSegment = true,
-						ZoneName = zoneName,
+						ZoneName = self.MythicPlus.DungeonName,
 						MapID = instanceMapID,
 						Level = self.MythicPlus.Level,
 						EJID = self.MythicPlus.ejID,
 						EncounterID = segmentsToMerge.EncounterID,
-						EncounterName = segmentsToMerge.EncounterName,
+						EncounterName = segmentsToMerge.EncounterName or Loc ["STRING_UNKNOW"],
 					}
 					
 					newCombat.is_mythic_dungeon_segment = true
@@ -652,7 +652,7 @@ function _G._detalhes:Start()
 			--this function is called right after defeat a boss inside a mythic dungeon
 			function newFrame.BossDefeated (this_is_end_end, encounterID, encounterName, difficultyID, raidSize, endStatus) --hold your breath and count to ten
 				if (newFrame.DevelopmentDebug) then
-					print ("Details!", "BossDefeated() > boss defeated | SegmentID:", self.MythicPlus.SegmentID, " | mapID:", self.MythicPlus.Dungeon)
+					print ("Details!", "BossDefeated() > boss defeated | SegmentID:", self.MythicPlus.SegmentID, " | mapID:", self.MythicPlus.DungeonID)
 				end
 				
 				local zoneName, instanceType, difficultyID, difficultyName, maxPlayers, dynamicDifficulty, isDynamic, instanceMapID, instanceGroupSize = GetInstanceInfo()
@@ -663,10 +663,10 @@ function _G._detalhes:Start()
 					EndedAt = time(), --when the boss got killed
 					SegmentID = self.MythicPlus.SegmentID, --segment number within the dungeon
 					EncounterID = encounterID,
-					EncounterName = encounterName,
+					EncounterName = encounterName or Loc ["STRING_UNKNOW"],
 					RunID = self.mythic_dungeon_id,
-					ZoneName = zoneName,
-					MapID = instanceMapID,
+					ZoneName = self.MythicPlus.DungeonName,
+					MapID = self.MythicPlus.DungeonID,
 					OverallSegment = false,
 					Level = self.MythicPlus.Level,
 					EJID = self.MythicPlus.ejID,
@@ -731,7 +731,9 @@ function _G._detalhes:Start()
 				--> close the combat
 				if (this_is_end_end) then
 					--> player left the dungeon
-					self:SairDoCombate()
+					if (in_combat and _detalhes.mythic_plus.always_in_combat) then
+						self:SairDoCombate()
+					end
 				else
 					--> re-enter in combat if details! is set to always be in combat during mythic plus
 					if (self.mythic_plus.always_in_combat) then
@@ -870,28 +872,39 @@ function _G._detalhes:Start()
 				end
 				
 				local mythicLevel = C_ChallengeMode.GetActiveKeystoneInfo()
-				local _, _, _, _, _, _, _, currentZoneID = GetInstanceInfo()
+				local zoneName, _, _, _, _, _, _, currentZoneID = GetInstanceInfo()
 				local ejID = EJ_GetCurrentInstance()
 				
 				--> setup the mythic run info
 				self.MythicPlus.Started = true
-				self.MythicPlus.Dungeon = currentZoneID
+				self.MythicPlus.DungeonName = zoneName
+				self.MythicPlus.DungeonID = currentZoneID
 				self.MythicPlus.StartedAt = time()+9.7 --> there's the countdown timer of 10 seconds
 				self.MythicPlus.SegmentID = 1
 				self.MythicPlus.Level = mythicLevel
 				self.MythicPlus.ejID = ejID
 				self.MythicPlus.PreviousBossKilledAt = time()
-
+				
 				--> this counter is individual for each character
-				self.mythic_dungeon_id = self.mythic_dungeon_id + 1
+				self.mythic_dungeon_id = self.mythic_dungeon_id + 1 --14 --15 
 				
 				--> start a new combat segment after 10 seconds
-				C_Timer.After (9.7, function()
-					if (newFrame.DevelopmentDebug) then
-						print ("Details!", "New segment for mythic dungeon created.")
+				if (_detalhes.mythic_plus.always_in_combat) then
+					C_Timer.After (9.7, function()
+						if (newFrame.DevelopmentDebug) then
+							print ("Details!", "New segment for mythic dungeon created.")
+						end
+						_detalhes:EntrarEmCombate()
+					end)
+				end
+				
+				local name, groupType, difficultyID, difficult = GetInstanceInfo()
+				if (groupType == "party" and self.overall_clear_newchallenge) then
+					self.historico:resetar_overall()
+					if (self.debug) then
+						self:Msg ("(debug) timer is for a mythic+ dungeon, overall has been reseted.")
 					end
-					_detalhes:EntrarEmCombate()
-				end)
+				end
 				
 				if (newFrame.DevelopmentDebug) then
 					print ("Details!", "MythicDungeonStarted() > State set to Mythic Dungeon, new combat starting in 10 seconds.")
@@ -901,6 +914,7 @@ function _G._detalhes:Start()
 			newFrame:SetScript ("OnEvent", function (_, event, ...)
 				
 				if (event == "CHALLENGE_MODE_START") then
+					--> CHALLENGE_MODE_START does trigger every time the player enters a mythic dungeon already in progress
 				
 					if (newFrame.DevelopmentDebug) then
 						print ("Details!", event, ...)
@@ -961,7 +975,7 @@ function _G._detalhes:Start()
 							print ("Zone changed and is Doing Mythic Dungeon")
 						end
 						local _, _, difficulty, _, _, _, _, currentZoneID = GetInstanceInfo()
-						if (currentZoneID ~= self.MythicPlus.Dungeon) then
+						if (currentZoneID ~= self.MythicPlus.DungeonID) then
 							if (newFrame.DevelopmentDebug) then
 								print ("Zone changed and the zone is different than the dungeon")
 							end

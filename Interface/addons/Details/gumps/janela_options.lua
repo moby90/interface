@@ -4473,8 +4473,8 @@ function window:CreateFrame2()
 		--
 		window:CreateLineBackground2 (frame2, "OverallNewBossSlider", "OverallNewBossLabel", Loc ["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"])
 
-	--erase on challenge mode
-		g:NewLabel (frame2, _, "$parentOverallNewChallengeLabel", "OverallNewChallengeLabel", Loc ["STRING_OPTIONS_OVERALL_CHALLENGE"], "GameFontHighlightLeft")
+	--erase on new mythic+ dungeon
+		g:NewLabel (frame2, _, "$parentOverallNewChallengeLabel", "OverallNewChallengeLabel", Loc ["STRING_OPTIONS_OVERALL_MYTHICPLUS"], "GameFontHighlightLeft")
 		--
 		g:NewSwitch (frame2, _, "$parentOverallNewChallengeSlider", "OverallNewChallengeSlider", 60, 20, _, _, false, nil, nil, nil, nil, options_switch_template)
 		frame2.OverallNewChallengeSlider:SetPoint ("left", frame2.OverallNewChallengeLabel, "right", 2, 0)
@@ -4485,7 +4485,7 @@ function window:CreateFrame2()
 			_detalhes:SendOptionsModifiedEvent (DetailsOptionsWindow.instance)
 		end
 		--
-		window:CreateLineBackground2 (frame2, "OverallNewChallengeSlider", "OverallNewChallengeLabel", Loc ["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"])
+		window:CreateLineBackground2 (frame2, "OverallNewChallengeSlider", "OverallNewChallengeLabel", Loc ["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"])
 		
 	--erase on logout overall_clear_logout
 		g:NewLabel (frame2, _, "$parentOverallOnLogoutLabel", "OverallOnLogoutLabel", Loc ["STRING_OPTIONS_OVERALL_LOGOFF"], "GameFontHighlightLeft")

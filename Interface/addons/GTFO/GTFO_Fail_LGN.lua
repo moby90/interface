@@ -1963,6 +1963,17 @@ GTFO.SpellID["233021"] = {
   sound = 3;
 };
 
+GTFO.SpellID["238037"] = {
+  --desc = "Light Echoes (Maiden of Vigiliance)";
+  sound = 3;
+};
+
+GTFO.SpellID["238420"] = {
+  --desc = "Fel Echoes (Maiden of Vigiliance)";
+  sound = 3;
+};
+
+
 
 --- *********
 --- * Argus *
@@ -2014,6 +2025,11 @@ GTFO.SpellID["249408"] = {
   sound = 3;
 };
 
+GTFO.SpellID["248651"] = {
+  --desc = "Fragment of Argus (Dread Knight Zak'gal)";
+  sound = 3;
+};
+
 GTFO.SpellID["248652"] = {
   --desc = "Flames of Argus (Fragment of Argus)";
   sound = 3;
@@ -2021,6 +2037,27 @@ GTFO.SpellID["248652"] = {
 
 GTFO.SpellID["248665"] = {
   --desc = "Chaos Wave";
+  sound = 3;
+};
+
+GTFO.SpellID["252093"] = {
+  --desc = "Sacred Vines";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["218969"] = {
+  --desc = "Fel Meteor (Invasive Gazer)";
+  sound = 3;
+};
+
+GTFO.SpellID["240364"] = {
+  --desc = "Molten Fel";
+  sound = 3;
+};
+
+GTFO.SpellID["252575"] = {
+  --desc = "Fiery Release (Bursting Elemental)";
   sound = 3;
 };
 

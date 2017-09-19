@@ -1648,6 +1648,27 @@ GTFO.SpellID["245253"] = {
   damageMinimum = 1;
 };
 
+GTFO.SpellID["238028"] = {
+  --desc = "Light Remanence (Maiden of Vigiliance)";
+  sound = 1;
+};
+
+GTFO.SpellID["238408"] = {
+  --desc = "Fel Remanence (Maiden of Vigiliance)";
+  sound = 1;
+};
+
+GTFO.SpellID["239212"] = {
+  --desc = "Lingering Darkness (Fallen Avatar)";
+  sound = 1;
+};
+
+GTFO.SpellID["242017"] = {
+  --desc = "Black Winds (Fallen Avatar)";
+  applicationOnly = true;
+  sound = 1;
+};
+
 --- *********
 --- * Argus *
 --- *********
@@ -1717,6 +1738,22 @@ GTFO.SpellID["251682"] = {
   tankSound = 2;
   sound = 1;
 };
+
+GTFO.SpellID["249263"] = {
+  --desc = "Wake of Blood";
+  sound = 1;
+};
+
+GTFO.SpellID["251901"] = {
+  --desc = "Molten Lava";
+  sound = 1;
+};
+
+GTFO.SpellID["249067"] = {
+  --desc = "Eye of Darkness (Harbinger Drel'nathar)";
+  sound = 1;
+};
+
 
 --- ***************************
 --- * Seat of the Triumvirate *

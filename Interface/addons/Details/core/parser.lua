@@ -4442,14 +4442,6 @@ local SPELL_POWER_PAIN = SPELL_POWER_PAIN or (PowerEnum and PowerEnum.Pain) or 1
 			_detalhes:Msg ("(debug) found a timer.")
 		end
 	
-		local name, groupType, _, difficult = GetInstanceInfo()
-		if (groupType == "party" and difficult == "Mythic Keystone" and _detalhes.overall_clear_newchallenge) then
-			_detalhes.historico:resetar_overall()
-			if (_detalhes.debug) then
-				_detalhes:Msg ("(debug) timer is for a mythic+ dungeon, overall has been reseted.")
-			end
-		end
-		
 		--if (C_Scenario.IsChallengeMode() and _detalhes.overall_clear_newchallenge) then
 --		if (_detalhes.overall_clear_newchallenge) then --C_Scenario.IsChallengeMode() and  parece que n�o existe mais
 --			_detalhes.historico:resetar_overall()
