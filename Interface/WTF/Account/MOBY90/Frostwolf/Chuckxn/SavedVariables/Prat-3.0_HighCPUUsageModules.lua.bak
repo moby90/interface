@@ -1,0 +1,226 @@
+
+Prat3HighCPUPerCharDB = {
+	["time"] = 1330535484,
+	["scrollback"] = {
+		["ChatFrame11"] = {
+			{
+				"|cff979797[18:10:14]|r|c00000000|r [W To] |cffd8d8d8[|r|Hplayer:Bailisan:1381:WHISPER:BAILISAN|h|cffff7c0aBailisan|r|h|cffd8d8d8]|r: habt ihr schon einen rogue?", -- [1]
+				1.000000059138984, -- [2]
+				0.501960813999176, -- [3]
+				1.000000059138984, -- [4]
+			}, -- [1]
+			{
+				"|cff979797[18:10:19]|r|c00000000|r [W From] |cffd8d8d8[|r|Hplayer:Bailisan:1383:WHISPER:BAILISAN|h|cffff7c0aBailisan|r|h|cffd8d8d8]|r: nn", -- [1]
+				1.000000059138984, -- [2]
+				0.501960813999176, -- [3]
+				1.000000059138984, -- [4]
+			}, -- [2]
+			{
+				"|cff979797[18:11:24]|r|c00000000|r [W From] |cffd8d8d8[|r|Hplayer:Bailisan:1391:WHISPER:BAILISAN|h|cffff7c0aBailisan|r|h|cffd8d8d8]|r: komm gc", -- [1]
+				1.000000059138984, -- [2]
+				0.501960813999176, -- [3]
+				1.000000059138984, -- [4]
+			}, -- [3]
+		},
+		["ChatFrame1"] = {
+			{
+				"|cff979797[18:09:06]|r|c00000000|r |Hchannel:channel:1|h[1] |h Joined Channel: |Hchannel:1|h[1. General - Dalaran]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [1]
+			{
+				"|cff979797[18:09:06]|r|c00000000|r |Hchannel:channel:2|h[2] |h Joined Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [2]
+			{
+				"|cff979797[18:09:06]|r|c00000000|r |Hchannel:channel:3|h[3] |h Joined Channel: |Hchannel:3|h[3. LocalDefense - Dalaran]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [3]
+			{
+				"|cff979797[18:09:06]|r|c00000000|r |Hchannel:channel:4|h[4] |h Joined Channel: |Hchannel:4|h[4. LookingForGroup]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [4]
+			{
+				"|cff979797[18:09:10]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tüpfel:1354:CHANNEL:2|h|cffc69b6dTüpfel|r|h|cffd8d8d8]|r: SF Rekrutiert wieder fähige Member für die 10er Stamm.Gesucht sind zurzeit 2xHeal Pala/DuDu/Priest und 1xRange DD.Die 8/8NHC Exp muss vorhanden sein.Raid Tage sind Mi,Do,Mo 20-23Uhr. www.sf-wowgilde.gildendkp.de/", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [5]
+			{
+				"|cff979797[18:09:11]|r|c00000000|r You are now queued in the Dungeon Finder.", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [6]
+			{
+				"|cff979797[18:09:12]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Chòpper:1357:CHANNEL:2|h|cffff7c0aChòpper|r|h|cffd8d8d8]|r: Dark Path DS 2/8 HC - rekrutiert für 10ner Stammgrp  -  Pala Tank mit dd spec + 1 Feuermage  -  für HC progress - min Ivl 390+  w me for info - Check OG Portale", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [7]
+			{
+				"|cff979797[18:09:18]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bailisan:1361:CHANNEL:2|h|cffff7c0aBailisan|r|h|cffd8d8d8]|r: LFM Dragonsoul Hc run 3Hcs mor joshi ultra  1Pala Heiler 2dds mit healspecc diszi/ shadow 2top dds schurke  Nur mit min 2hc ACM Ohne ACM nn inv GC GARROSH", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [8]
+			{
+				"|cff979797[18:09:19]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bailisan:1362:CHANNEL:2|h|cffff7c0aBailisan|r|h|cffd8d8d8]|r: LFM Dragonsoul Hc run 3Hcs mor joshi ultra  1Pala Heiler 2dds mit healspecc diszi/ shadow 2top dds schurke  Nur mit min 2hc ACM Ohne ACM nn inv GC GARROSH", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [9]
+			{
+				"|cff979797[18:09:20]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ahjzin:1364:CHANNEL:2|h|cfffff468Ahjzin|r|h|cffd8d8d8]|r: {Stern} Schurke sucht DS-Raid neue ID, clear XP /w me {Stern}", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [10]
+			{
+				"|cff979797[18:09:20]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ahjzin:1365:CHANNEL:2|h|cfffff468Ahjzin|r|h|cffd8d8d8]|r: {Stern} Schurke sucht DS-Raid neue ID, clear XP /w me {Stern}", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [11]
+			{
+				"|cff979797[18:09:20]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Barbosà:1366:CHANNEL:2|h|cffc69b6dBarbosà|r|h|cffd8d8d8]|r: Die neugegründete Gilde Les grandes personnes sucht nette und motivierte spieler für gemeinsame erfolge farmen und zu raiden. Auch PVP wird gemacht. Jeder ist willkommen w me", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [12]
+			{
+				"|cff979797[18:09:21]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cryptoniac:1367:CHANNEL:2|h|cff68ccefCryptoniac|r|h|cffd8d8d8]|r: LFM PVP BOSS 25 alles need", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [13]
+			{
+				"|cff979797[18:09:22]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aysin:1368:CHANNEL:2|h|cff68ccefAysin|r|h|cffd8d8d8]|r: Fire Mage sucht ds raid 3/8 hc down gs 397 würde auch nen stamm suchen ", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [14]
+			{
+				"|cff979797[18:09:28]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vextra:1369:CHANNEL:2|h|cffffffffVextra|r|h|cffd8d8d8]|r: Suche HEXER für DS HC Stamm (3/8hc down) /w me", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [15]
+			{
+				"|cff979797[18:09:28]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vextra:1370:CHANNEL:2|h|cffffffffVextra|r|h|cffd8d8d8]|r: Suche HEXER für DS HC Stamm (3/8hc down) /w me", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [16]
+			{
+				"|cff979797[18:09:30]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dântey:1371:CHANNEL:2|h|cfffff468Dântey|r|h|cffd8d8d8]|r: Suche für BF 25 !", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [17]
+			{
+				"|cff979797[18:09:31]|r|c00000000|r Discovered The Azure Front: 2150 experience gained", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [18]
+			{
+				"|cff979797[18:09:31]|r|c00000000|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:1|h[1. General - Crystalsong Forest]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [19]
+			{
+				"|cff979797[18:09:31]|r|c00000000|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [20]
+			{
+				"|cff979797[18:09:31]|r|c00000000|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:3|h[3. LocalDefense - Crystalsong Forest]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [21]
+			{
+				"|cff979797[18:09:31]|r|c00000000|r |Hchannel:channel:4|h[4] |h Left Channel: |Hchannel:4|h[4. LookingForGroup]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [22]
+			{
+				"|cff979797[18:09:47]|r|c00000000|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:1|h[1. General - Dragonblight]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [23]
+			{
+				"|cff979797[18:09:47]|r|c00000000|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:3|h[3. LocalDefense - Dragonblight]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [24]
+			{
+				"|cff979797[18:09:52]|r|c00000000|r Discovered Coldwind Heights: 2100 experience gained", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [25]
+			{
+				"|cff979797[18:10:03]|r|c00000000|r Discovered The Dragon Wastes: 2100 experience gained", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [26]
+			{
+				"|cff979797[18:10:18]|r|c00000000|r Discovered Dragon's Fall: 2050 experience gained", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [27]
+			{
+				"|cff979797[18:10:55]|r|c00000000|r Discovered Agmar's Hammer: 2050 experience gained", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [28]
+			{
+				"|cff979797[18:11:06]|r|c00000000|r Quest accepted: Wanted: Magister Keldonus", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [29]
+			{
+				"|cff979797[18:11:09]|r|c00000000|r Quest accepted: Wanted: Gigantaur", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [30]
+			{
+				"|cff979797[18:11:13]|r|c00000000|r Quest accepted: Wanted: Dreadtalon", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [31]
+			{
+				"|cff979797[18:11:18]|r|c00000000|r Quest accepted: Rifle the Bodies", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [32]
+			{
+				"|cff979797[18:11:21]|r|c00000000|r Quest accepted: Attunement to Dalaran", -- [1]
+				1.000000059138984, -- [2]
+				1.000000059138984, -- [3]
+				0, -- [4]
+			}, -- [33]
+		},
+	},
+}

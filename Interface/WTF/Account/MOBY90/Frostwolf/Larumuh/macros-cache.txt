@@ -1,0 +1,16 @@
+VER 3 0100000000000023 "disspell" "SPELL_NATURE_PURGE"
+/cast [help] purify spirit; [harm] Purge
+END
+VER 3 010000000000001C "grounding" "SPELL_NATURE_GROUNDINGTOTEM"
+#showtooltip
+/stopcasting
+/cast grounding totem
+END
+VER 3 0100000000000021 "lavaburst" "INV_MISC_QUESTIONMARK"
+/Cast [help] Chain Heal; [harm] Lava Burst
+END
+VER 3 010000000000001B "Tremor" "SPELL_NATURE_TREMORTOTEM"
+#showtooltip
+/stopcasting 
+/cast tremor totem
+END

@@ -1,0 +1,10 @@
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+/cast [@mouseover] Detox
+END
+VER 3 0100000000000006 "trinkets" "ACHIEVEMENT_GUILD_DOCTORISIN"
+/use 13
+/use 14
+END
+VER 3 0100000000000008 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Zur[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

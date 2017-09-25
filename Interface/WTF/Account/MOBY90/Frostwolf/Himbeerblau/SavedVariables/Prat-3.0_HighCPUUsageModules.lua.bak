@@ -1,0 +1,68 @@
+
+Prat3HighCPUPerCharDB = {
+	["time"] = 1330548447,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[21:46:17]|r|c00000000|r |Hchannel:channel:1|h[1] |h Joined Channel: |Hchannel:1|h[1. General - Eastern Plaguelands]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [1]
+			{
+				"|cff979797[21:46:17]|r|c00000000|r |Hchannel:channel:3|h[3] |h Joined Channel: |Hchannel:3|h[3. LocalDefense - Eastern Plaguelands]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [2]
+			{
+				"|cff979797[21:46:37]|r|c00000000|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:1|h[1. General - Deepholm]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [3]
+			{
+				"|cff979797[21:46:37]|r|c00000000|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:3|h[3. LocalDefense - Deepholm]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [4]
+			{
+				"|cff979797[21:47:06]|r|c00000000|r |Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:1|h[1. General - Orgrimmar]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [5]
+			{
+				"|cff979797[21:47:06]|r|c00000000|r |Hchannel:channel:2|h[2] |h Joined Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [6]
+			{
+				"|cff979797[21:47:06]|r|c00000000|r |Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:3|h[3. LocalDefense - Orgrimmar]|h", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [7]
+			{
+				"|cff979797[21:47:06]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cáige:9045:CHANNEL:2|h|cffc41e3aCáige|r|h|cffd8d8d8]|r: verkaufe  |cff0070dd|Hitem:35580:0:0:0:0:0:0:1266873024:71:0|h[Gewundene Mantelung]|h|r /w mit gebot", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [8]
+			{
+				"|cff979797[21:47:14]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Erøs:9046:CHANNEL:2|h|cffffffffErøs|r|h|cffd8d8d8]|r: Suche Sponsor für für gekonntes reiten <: 1500g missing ^^", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [9]
+			{
+				"|cff979797[21:47:27]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pumara:9047:CHANNEL:2|h|cffaad372Pumara|r|h|cffd8d8d8]|r: {Stern} {Totenschädel} Der Klan (Gildenst. 25) sucht noch erfahrene aktive Spieler , Move und Charbeherrschung sollte sein, keine Equipgeilheit, auch Ältere sind Willkommen ./w me  {Totenschädel} {Stern}", -- [1]
+				1.000000059138984, -- [2]
+				0.752941220998764, -- [3]
+				0.752941220998764, -- [4]
+			}, -- [10]
+		},
+	},
+}

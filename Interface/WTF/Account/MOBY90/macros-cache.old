@@ -1,0 +1,66 @@
+VER 3 0000000000000043 "BoF" "1030095"
+/target  Tentreesha's Hopeless Reflection
+/cast Beacon of Faith
+END
+VER 3 0000000000000042 "BoL" "236247"
+/target  Jayde's Hopeless Reflection
+/cast Beacon of Light
+/w Máriká Innervate
+/target Laru's Hopeless Reflection
+END
+VER 3 0000000000000047 "Dewi" "136081"
+/target Dewi's Hopeless Reflection
+END
+VER 3 0000000000000044 "Freedom" "135968"
+/target Tentreesha's Hopeless Reflection
+/cast Blessing of Freedom
+/targetlasttarget
+END
+VER 3 0000000000000048 "gate" "136057"
+/focus [target=mouseover]
+END
+VER 3 0000000000000049 "innervate" "INV_MISC_QUESTIONMARK"
+END
+VER 3 000000000000003E "JD" "135940"
+/target Jayde's Hopeless Reflection
+END
+VER 3 000000000000003F "Laru" "135972"
+/target Laru's Hopeless Reflection
+END
+VER 3 000000000000004C "muhdiv" "136052"
+/target Muhdiv's Hopeless Reflection
+END
+VER 3 000000000000004A "range" "413591"
+/tar Fooneses's
+/tar Roanar's
+/tar Pillock's
+/tar Locura's
+/tar Fallen's
+/tar Máriká's
+/tar Shaydera's 
+/tar Dewi's
+END
+VER 3 0000000000000045 "Sacrifice" "135966"
+/target Ypzo's Hopeless Reflection
+/cast Blessing of Sacrifice
+/targetlasttarget
+END
+VER 3 000000000000003D "show combat text" "INV_JEWELRY_TRINKET_04"
+/console floatingCombatTextCombatDamage 1
+/console floatingCombatTextCombatHealing 1
+END
+VER 3 0000000000000041 "Tentris" "136081"
+/target Tentreesha's Hopeless Reflection
+END
+VER 3 000000000000004B "weg" "136047"
+/s Weg.
+END
+VER 3 0000000000000046 "wtf" "589117"
+/cast Holy Avenger
+/cast Avenging Wrath
+/cast Aura Mastery
+/cast Light of Dawn
+END
+VER 3 0000000000000040 "Ypzo" "136052"
+/target Ypzo's Hopeless Reflection
+END

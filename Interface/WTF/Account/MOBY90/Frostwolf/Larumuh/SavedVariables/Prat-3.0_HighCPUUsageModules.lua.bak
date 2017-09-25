@@ -1,0 +1,34 @@
+
+Prat3HighCPUPerCharDB = {
+	["time"] = 1330468657,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[23:37:37]|r|c00000000|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Blount:5286:CHANNEL:3|h|cffc69b6dBlount|r|h|cffd8d8d8]|r: LFM DS neue ID Clearrun 1 TANK 1 HEAL 1 RANGE Garrosh GC /w me ", -- [1]
+				0.9098039865493774, -- [2]
+				0.8941177129745483, -- [3]
+				0.4745098352432251, -- [4]
+			}, -- [1]
+		},
+		["ChatFrame3"] = {
+			{
+				"|cff979797[23:37:32]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blount:5283:CHANNEL:2|h|cffc69b6dBlount|r|h|cffd8d8d8]|r: LFM DS neue ID Clearrun 1 TANK 1 HEAL 1 RANGE Garrosh GC /w me ", -- [1]
+				0.9098039865493774, -- [2]
+				0.6196078658103943, -- [3]
+				0.4745098352432251, -- [4]
+			}, -- [1]
+			{
+				"|cff979797[23:37:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blount:5284:CHANNEL:2|h|cffc69b6dBlount|r|h|cffd8d8d8]|r: LFM DS neue ID Clearrun 1 TANK 1 HEAL 1 RANGE Garrosh GC /w me ", -- [1]
+				0.9098039865493774, -- [2]
+				0.6196078658103943, -- [3]
+				0.4745098352432251, -- [4]
+			}, -- [2]
+			{
+				"|cff979797[23:37:34]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Slypnir:5285:CHANNEL:2|h|cffc69b6dSlypnir|r|h|cffd8d8d8]|r: MS warri sucht 2on2 Heal // 4.4k ressi 1.9k xp / w me ", -- [1]
+				0.9098039865493774, -- [2]
+				0.6196078658103943, -- [3]
+				0.4745098352432251, -- [4]
+			}, -- [3]
+		},
+	},
+}

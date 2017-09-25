@@ -1,0 +1,8 @@
+VER 3 0100000000000024 "no beast now" "SPELL_MISC_PETHEAL"
+/cancelaura Travel Form
+/cancelaura Cat Form
+/cancelaura Bear Form
+END
+VER 3 010000000000002A "owl?" "SPELL_NATURE_NATUREGUARDIAN"
+/script for q,i in pairs({["Event"]=44326,["Feralas Act"]=44327,["Hinter Act"]=44328,["Dusk Act"]=44329,["Feralas Tou"]=44331,["Hinter Tou"]=44332,["Duskwood Tou"]=44330})do print(q,IsQuestFlaggedCompleted(i))end
+END

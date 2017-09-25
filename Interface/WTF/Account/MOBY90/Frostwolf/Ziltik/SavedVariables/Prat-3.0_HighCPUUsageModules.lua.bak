@@ -1,0 +1,242 @@
+
+Prat3HighCPUPerCharDB = {
+	["time"] = 1330468632,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[23:34:54]|r|c00000000|r |Hchannel:channel:1|h[1] |h Joined Channel: |Hchannel:1|h[1. General - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [1]
+			{
+				"|cff979797[23:34:54]|r|c00000000|r |Hchannel:channel:2|h[2] |h Joined Channel: |Hchannel:2|h[2. Trade - City]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [2]
+			{
+				"|cff979797[23:34:54]|r|c00000000|r |Hchannel:channel:3|h[3] |h Joined Channel: |Hchannel:3|h[3. LocalDefense - Orgrimmar]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [3]
+			{
+				"|cff979797[23:34:54]|r|c00000000|r |Hchannel:channel:4|h[4] |h Joined Channel: |Hchannel:4|h[4. LookingForGroup]|h", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [4]
+			{
+				"|cff979797[23:35:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eskalatíon:5238:CHANNEL:2|h|cfff48cbaEskalatíon|r|h|cffd8d8d8]|r: holy pala sucht gilde / stammgrp. /w me", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [5]
+			{
+				"|cff979797[23:35:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blount:5239:CHANNEL:2|h|cffc69b6dBlount|r|h|cffd8d8d8]|r: LFM DS neue ID Clearrun 1 TANK 1 HEAL 1 RANGE Garrosh GC /w me ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [6]
+			{
+				"|cff979797[23:35:09]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blount:5240:CHANNEL:2|h|cffc69b6dBlount|r|h|cffd8d8d8]|r: LFM DS neue ID Clearrun 1 TANK 1 HEAL 1 RANGE Garrosh GC /w me ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [7]
+			{
+				"|cff979797[23:35:33]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crith:5241:CHANNEL:2|h|cfffff468Crith|r|h|cffd8d8d8]|r: LF Mate für fixe 2on2 wins! /w me", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [8]
+			{
+				"|cff979797[23:35:34]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crith:5242:CHANNEL:2|h|cfffff468Crith|r|h|cffd8d8d8]|r: LF Mate für fixe 2on2 wins! /w me", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [9]
+			{
+				"|cff979797[23:35:34]|r|c00000000|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Nêyrû:5243:CHANNEL:1|h|cffffffffNêyrû|r|h|cffd8d8d8]|r: Lfm Za time run", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [10]
+			{
+				"|cff979797[23:35:35]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Salonix:5244:CHANNEL:2|h|cffff7c0aSalonix|r|h|cffd8d8d8]|r: Vk  |cffa335ee|Hitem:65891:0:0:0:0:0:0:541432000:85:0|h[Phiole der Sande]|h|r !", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [11]
+			{
+				"|cff979797[23:35:36]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Salonix:5245:CHANNEL:2|h|cffff7c0aSalonix|r|h|cffd8d8d8]|r: Vk  |cffa335ee|Hitem:65891:0:0:0:0:0:0:541432000:85:0|h[Phiole der Sande]|h|r !", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [12]
+			{
+				"|cff979797[23:35:40]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Failknight:5246:CHANNEL:2|h|cffc41e3aFailknight|r|h|cffd8d8d8]|r: vk  |cffa335ee|Hitem:78885:0:0:0:0:0:0:1449685376:85:0|h[Dragoncarver Belt]|h|r |cffa335ee|Hitem:78889:0:0:0:0:0:0:1041464960:85:0|h[Waistplate of the Desecrated Future]|h|r", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [13]
+			{
+				"|cff979797[23:35:43]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Flæsh:5247:CHANNEL:2|h|cff0070ddFlæsh|r|h|cffd8d8d8]|r: Auf was für stats geht man als Meleeshamy?", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [14]
+			{
+				"|cff979797[23:35:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Failknight:5248:CHANNEL:2|h|cffc41e3aFailknight|r|h|cffd8d8d8]|r: vk  |cffa335ee|Hitem:78885:0:0:0:0:0:0:1449685376:85:0|h[Dragoncarver Belt]|h|r |cffa335ee|Hitem:78889:0:0:0:0:0:0:1041464960:85:0|h[Waistplate of the Desecrated Future]|h|r/W me mit gebot", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [15]
+			{
+				"|cff979797[23:35:51]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Justsurprise:5249:CHANNEL:2|h|cfffff468Justsurprise|r|h|cffd8d8d8]|r: die Gilde \"VII\" [Stufe 15]sucht noch freundliche und aktive member: wir decken eure täglichen Reppkosten und bieten etliche Gildenerfolge (lv 10%, -20%Haltbarkeitsverlust usw.) Freuen uns auf jeden Char unabhängig von Klasse und Level. mfg", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [16]
+			{
+				"|cff979797[23:35:58]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trillemann:5250:CHANNEL:2|h|cffc41e3aTrillemann|r|h|cffd8d8d8]|r: Verkauft Jemand Ne Gilde Pls /w me Mit Infos", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [17]
+			{
+				"|cff979797[23:35:59]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pâînê:5251:CHANNEL:2|h|cffc41e3aPâînê|r|h|cffd8d8d8]|r: Hallo Frostwolf! Wir suchen für unsere Stammgruppe noch aktive,zuverlässige und skilled Spieler für den Aktuellen nhc8/8/hc Content. 1 Range DD und 2 Heiler. Für weitere Info´s meldet euch bei mir", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [18]
+			{
+				"|cff979797[23:35:59]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pâînê:5252:CHANNEL:2|h|cffc41e3aPâînê|r|h|cffd8d8d8]|r: Hallo Frostwolf! Wir suchen für unsere Stammgruppe noch aktive,zuverlässige und skilled Spieler für den Aktuellen nhc8/8/hc Content. 1 Range DD und 2 Heiler. Für weitere Info´s meldet euch bei mir", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [19]
+			{
+				"|cff979797[23:36:00]|r|c00000000|r |Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Keroj:5253:CHANNEL:2|h|cffaad372Keroj|r|h|cffd8d8d8]|r: Ðarkness T13(6/8hc) rekrutiert für DS hc,zuverl.Ausnahmespieler jeder Klasse  mit Mov.,Brain,PvE Gear 395+ & 3/8hc+ Exp. Dringend gesucht:Heal(DuDu,Schami,Pala) & DD´s(Mage, Ele & Eule) /wme o. |cffffffff|Hurl:http://wowgilden.net/FW-EU-Darkness|h[http://wowgilden.net/FW-EU-Darkness]|h|r bewerben", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [20]
+			{
+				"|cff979797[23:36:00]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trillemann:5254:CHANNEL:2|h|cffc41e3aTrillemann|r|h|cffd8d8d8]|r: Verkauft Jemand Ne Gilde Pls /w me Mit Infos", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [21]
+			{
+				"|cff979797[23:36:02]|r|c00000000|r |Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Papidoux:5255:CHANNEL:1|h|cff0070ddPapidoux|r|h|cffd8d8d8]|r: {Stern}{Stern} Schamiheal sucht anschluss an |cffff8000|Hinstancelock:02800000033E1C0E:967:0:62|h[Drachenseele]|h|r pls /w me for infos {Stern}{Stern}", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [22]
+			{
+				"|cff979797[23:36:05]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Scháttenfury:5256:CHANNEL:2|h|cffc69b6dScháttenfury|r|h|cffd8d8d8]|r: vk |cffa335ee|Hitem:71805:0:0:0:0:0:0:0:85:0|h[Königinnengranat]|h|r", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [23]
+			{
+				"|cff979797[23:36:06]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crith:5257:CHANNEL:2|h|cfffff468Crith|r|h|cffd8d8d8]|r: LF Mate für fixe 2on2 wins! /w me", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [24]
+			{
+				"|cff979797[23:36:08]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crith:5258:CHANNEL:2|h|cfffff468Crith|r|h|cffd8d8d8]|r: LF Mate für fixe 2on2 wins! /w me", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [25]
+			{
+				"|cff979797[23:36:09]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Salonix:5259:CHANNEL:2|h|cffff7c0aSalonix|r|h|cffd8d8d8]|r: Vk  |cffa335ee|Hitem:65891:0:0:0:0:0:0:541432000:85:0|h[Phiole der Sande]|h|r !", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [26]
+			{
+				"|cff979797[23:36:17]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rungoo:5260:CHANNEL:2|h|cff0070ddRungoo|r|h|cffd8d8d8]|r: Lfm/g 5er ele full 403 und cunning hc [1x Frost M/Eule, 1x Affli, 1x Diszi, 1x Holy Paladin]", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [27]
+			{
+				"|cff979797[23:36:18]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rungoo:5261:CHANNEL:2|h|cff0070ddRungoo|r|h|cffd8d8d8]|r: Lfm/g 5er ele full 403 und cunning hc [1x Frost M/Eule, 1x Affli, 1x Diszi, 1x Holy Paladin]", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [28]
+			{
+				"|cff979797[23:36:24]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hégtór:5262:CHANNEL:2|h|cffc41e3aHégtór|r|h|cffd8d8d8]|r: Kaufe in massen  |cff1eff00|Hitem:52177:0:0:0:0:0:0:1378558848:85:0|h[Karneol]|h|r |cffffffff|Hitem:53038:0:0:0:0:0:0:888424320:85:0|h[Obsidiumerz]|h|r   |cffffffff|Hitem:52185:0:0:0:0:0:0:2025411840:85:0|h[Elementiumerz]|h|r", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [29]
+			{
+				"|cff979797[23:36:29]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jorah:5263:CHANNEL:2|h|cffc41e3aJorah|r|h|cffd8d8d8]|r: LFM DS neue ID 2hc rest nhc clearen 1tank 1heal 1range gc garrosh", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [30]
+			{
+				"|cff979797[23:36:39]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Failknight:5264:CHANNEL:2|h|cffc41e3aFailknight|r|h|cffd8d8d8]|r: vk  |cffa335ee|Hitem:78885:0:0:0:0:0:0:1449685376:85:0|h[Dragoncarver Belt]|h|r |cffa335ee|Hitem:78889:0:0:0:0:0:0:1041464960:85:0|h[Waistplate of the Desecrated Future]|h|r/W me mit gebot", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [31]
+			{
+				"|cff979797[23:36:42]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Âstrôn:5265:CHANNEL:2|h|cffc41e3aÂstrôn|r|h|cffd8d8d8]|r:  Wir die Raidgilde \"Dark Prophecy\" suchen noch aktive und raidfreudige Member zum aufbau einer Stammgruppe. Geucht sind im moment noch alle Klassen . Raidtage sind Mi, Do und So von 19:00-22 Uhr bei fragen oder intresse /w me", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [32]
+			{
+				"|cff979797[23:36:44]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cythralia:5266:CHANNEL:2|h|cfff48cbaCythralia|r|h|cffd8d8d8]|r: holy pala lf mate für 2 2v2 teams, mein team ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [33]
+			{
+				"|cff979797[23:37:01]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rpgsingle:5267:CHANNEL:2|h|cffc69b6dRpgsingle|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t RPG singles com |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t sucht noch Mitglieder ab 16 -> Infos auf unserer Website.", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [34]
+			{
+				"|cff979797[23:37:02]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blount:5268:CHANNEL:2|h|cffc69b6dBlount|r|h|cffd8d8d8]|r: LFM DS neue ID Clearrun 1 TANK 1 HEAL 1 RANGE Garrosh GC /w me ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [35]
+			{
+				"|cff979797[23:37:03]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Blount:5269:CHANNEL:2|h|cffc69b6dBlount|r|h|cffd8d8d8]|r: LFM DS neue ID Clearrun 1 TANK 1 HEAL 1 RANGE Garrosh GC /w me ", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [36]
+			{
+				"|cff979797[23:37:05]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sengoku:5271:CHANNEL:2|h|cffff7c0aSengoku|r|h|cffd8d8d8]|r: kaufe  |cffffffff|Hitem:4235:0:0:0:0:0:0:0:36:0|h[Schwerer Balg]|h|r", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [37]
+			{
+				"|cff979797[23:37:09]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trillemann:5272:CHANNEL:2|h|cffc41e3aTrillemann|r|h|cffd8d8d8]|r: [[                                           Verkauft Jemand Ne Gilde Pls /w me Mit Infos                                                           ]]", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [38]
+			{
+				"|cff979797[23:37:12]|r|c00000000|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trillemann:5273:CHANNEL:2|h|cffc41e3aTrillemann|r|h|cffd8d8d8]|r: [[                                           Verkauft Jemand Ne Gilde Pls /w me Mit Infos                                                           ]]", -- [1]
+				1, -- [2]
+				0.7529412508010864, -- [3]
+				0.7529412508010864, -- [4]
+			}, -- [39]
+		},
+	},
+}
