@@ -306,7 +306,7 @@ Details_RaidInfo-Nighthold: enabled
 Details_RaidInfo-TombOfSargeras: enabled
 Details_RaidInfo-TrialOfValor: enabled
 Details_ChartViewer: enabled
-GarrisonMissionManager: enabled
+GarrisonMissionManager: disabled
 LittleWigs: enabled
 Masque_Serenity: disabled
 SexyCooldown: disabled

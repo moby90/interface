@@ -1,7 +1,0 @@
-changeset:   157:9b773513ef16
-tag:         v1.11.2
-user:        MMOSimca
-date:        Wed Sep 13 14:54:23 2017 -0400
-summary:     Added stat and breed data for Shadow. Added breed data for Felclaw Marsuul.
-
-

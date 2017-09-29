@@ -5,7 +5,6 @@ END
 VER 3 0000000000000042 "BoL" "236247"
 /target  Jayde's Hopeless Reflection
 /cast Beacon of Light
-/w Máriká Innervate
 /target Laru's Hopeless Reflection
 END
 VER 3 0000000000000047 "Dewi" "136081"

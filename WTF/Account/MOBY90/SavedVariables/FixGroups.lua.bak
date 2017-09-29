@@ -1,0 +1,70 @@
+
+FixGroupsDB = {
+	["faction"] = {
+		["Horde"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
+					["Bämbers-Blackhand"] = 1506531441,
+					["Skuzy-C'Thun"] = 1506531386,
+					["Askh-Dentarg"] = 1506531388,
+					["Chikenbaby-Hyjal"] = 1506531428,
+				},
+				["ranged"] = {
+				},
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+					["Fluffypillow-Frostwolf"] = 1504809032,
+					["Fluffypillow-"] = 1505518407,
+					["Bêlya-"] = 1506621209,
+					["Lardeck-Frostwolf"] = 1506536218,
+					["Bêlya-Frostwolf"] = 1506621391,
+					["Lardeck-"] = 1506535082,
+					["Tentreesha-Frostwolf"] = 1506621580,
+					["Tentreesha-"] = 1506621208,
+				},
+				["ranged"] = {
+					["Máriká-"] = 1506542668,
+					["Muhdiv-"] = 1506450871,
+					["Dewi-"] = 1506621223,
+					["Muhdiv-Frostwolf"] = 1506534453,
+					["Delora-"] = 1504979101,
+					["Dewi-Frostwolf"] = 1506622041,
+					["Máriká-Frostwolf"] = 1506622043,
+					["Delora-Frostwolf"] = 1504980605,
+				},
+			},
+		},
+	},
+	["global"] = {
+		["guildRanks"] = {
+			["Jade Falcons-Frostwolf"] = {
+				"Guild Master", -- [1]
+				"Officer", -- [2]
+				"Officer Alt", -- [3]
+				"Raid Member", -- [4]
+				"Trial", -- [5]
+				"Casual Member", -- [6]
+				"Alt", -- [7]
+				"Inaktiv", -- [8]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Laru - Frostwolf"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["options"] = {
+				["coreRaiderRank"] = {
+					["Jade Falcons-Frostwolf"] = 4,
+				},
+				["minimapIcon"] = {
+					["minimapPos"] = 191.604997968475,
+				},
+				["showMinimapIconPRN"] = true,
+				["showMinimapIconAlways"] = false,
+			},
+		},
+	},
+}

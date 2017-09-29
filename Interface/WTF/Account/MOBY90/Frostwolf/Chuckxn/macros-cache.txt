@@ -1,8 +1,0 @@
-VER 3 0100000000000002 " " "ABILITY_RACIAL_CANNIBALIZE"
-/tar pile
-END
-VER 3 0100000000000001 "dmg" "SPELL_FROST_ARCTICWINDS"
-/cast Icy Veins
-/use Blossom of Pure Snow
-/cast Mirror Image
-END

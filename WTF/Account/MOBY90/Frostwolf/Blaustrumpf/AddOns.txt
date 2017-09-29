@@ -94,7 +94,7 @@ Details_RaidInfo-Nighthold: enabled
 Details_RaidInfo-TombOfSargeras: enabled
 Details_RaidInfo-TrialOfValor: enabled
 Details_ChartViewer: enabled
-GarrisonMissionManager: enabled
+GarrisonMissionManager: disabled
 Grid2: disabled
 Grid2Options: disabled
 Grid2RaidDebuffs: disabled

@@ -338,7 +338,7 @@ function _G._detalhes:Start()
 			-- at the end of a mythic run, if enable on settings, merge all the segments from the mythic run into only one
 			function newFrame.MergeSegmentsOnEnd()
 				if (newFrame.DevelopmentDebug) then
-					print ("Details!", "MythicDungeonFinished() > starting to merge mythic segments.", "InCombatLockdown():", InCombatLockdown())
+					print ("Details!", "MergeSegmentsOnEnd() > starting to merge mythic segments.", "InCombatLockdown():", InCombatLockdown())
 				end
 				
 				--> create a new combat to be the overall for the mythic run
@@ -368,7 +368,7 @@ function _G._detalhes:Start()
 							totalTime = totalTime + pastCombat:GetCombatTime()
 							
 							if (newFrame.DevelopmentDebug) then
-								print ("MythicDungeonFinished() > adding time:", pastCombat:GetCombatTime(), pastCombat.is_boss and pastCombat.is_boss.name)
+								print ("MergeSegmentsOnEnd() > adding time:", pastCombat:GetCombatTime(), pastCombat.is_boss and pastCombat.is_boss.name)
 							end
 							
 							if (endDate == "") then
@@ -386,7 +386,7 @@ function _G._detalhes:Start()
 				end
 				
 				if (newFrame.DevelopmentDebug) then
-					print ("Details!", "MythicDungeonFinished() > totalTime:", totalTime, "startDate:", startDate)
+					print ("Details!", "MergeSegmentsOnEnd() > totalTime:", totalTime, "startDate:", startDate)
 				end
 				
 				local zoneName, instanceType, difficultyID, difficultyName, maxPlayers, dynamicDifficulty, isDynamic, instanceMapID, instanceGroupSize = GetInstanceInfo()
@@ -423,14 +423,22 @@ function _G._detalhes:Start()
 				self:AtualizaGumpPrincipal (-1, true)
 				
 				if (newFrame.DevelopmentDebug) then
-					print ("Details!", "MythicDungeonFinished() > finished merging segments.")
-					print ("Details!", "MythicDungeonFinished() > all done, check in the segments list if everything is correct, if something is weird: '/details feedback' thanks in advance!")
+					print ("Details!", "MergeSegmentsOnEnd() > finished merging segments.")
+					print ("Details!", "MergeSegmentsOnEnd() > all done, check in the segments list if everything is correct, if something is weird: '/details feedback' thanks in advance!")
 				end			
-			
+				
+				local lower_instance = self:GetLowerInstanceNumber()
+				if (lower_instance) then
+					local instance = self:GetInstance (lower_instance)
+					if (instance) then
+						local func = {function() end}
+						instance:InstanceAlert ("Showing Mythic+ Overall Segment", {[[Interface\AddOns\Details\images\icons]], 16, 16, false, 434/512, 466/512, 243/512, 273/512}, 6, func, true)
+					end
+				end
 			end
 			
 			--> after each boss fight, if enalbed on settings, create an extra segment with all trash segments from the boss just killed
-			function newFrame.MergeTrashCleanup()
+			function newFrame.MergeTrashCleanup (isFromSchedule)
 				if (newFrame.DevelopmentDebug) then
 					print ("Details!", "MergeTrashCleanup() > running", newFrame.TrashMergeScheduled and #newFrame.TrashMergeScheduled)
 				end
@@ -506,17 +514,48 @@ function _G._detalhes:Start()
 					
 					--> immediatly finishes the segment just started
 					self:SairDoCombate()
-
-					--o combate agora ï¿½ _tabela_vigente e [1] na tabela de overall
+					
+					--o combate agora é _tabela_vigente e [1] na tabela de overall
 					--seria necessario passar essa tabela para [2] na overall
 					local segmentHistory = self:GetCombatSegments()
-					local bossSegment = segmentHistory [2]
-					if (bossSegment) then
-						--set the boss as the current combat
-						_detalhes.tabela_vigente = bossSegment
-						--swap tables
-						segmentHistory [1] = bossSegment --as the boss combat is done, it is also the first combat in the past combats table
-						segmentHistory [2] = newCombat --se the overall trash as the second segment on the past table (the semgnet 2 was occupy by the boss segment)
+					
+					--> if was scheduled, needs to reorder the segments so it will the in the correct order
+					if (isFromSchedule) then
+						local bossSegment = segmentHistory [3]
+						local currentTrash = segmentHistory [2]
+						local trashOverall = segmentHistory [1]
+						
+						local bossCLID = bossSegment and bossSegment.is_mythic_dungeon and bossSegment.is_mythic_dungeon.EncounterID
+						local trashCLID = trashOverall and trashOverall.is_mythic_dungeon and trashOverall.is_mythic_dungeon.EncounterID
+						
+						--> check if the guessed boss and guessed trash overall segments are from the same boss
+						if (bossCLID == trashCLID and currentTrash.is_mythic_dungeon_trash) then
+							--set the boss as the current combat
+							_detalhes.tabela_vigente = currentTrash
+							--swap tables
+							segmentHistory [1] = currentTrash
+							segmentHistory [2] = bossSegment
+							segmentHistory [3] = trashOverall
+						else
+							--> if it fails to guess which are the boss and trash, just pull the current trash segment to index 1
+							local currentTrash = segmentHistory [2]
+							if (currentTrash) then
+								--set the boss as the current combat
+								_detalhes.tabela_vigente = currentTrash
+								--swap tables
+								segmentHistory [1] = currentTrash --as the boss combat is done, it is also the first combat in the past combats table
+								segmentHistory [2] = newCombat --se the overall trash as the second segment on the past table (the semgnet 2 was occupy by the boss segment)
+							end
+						end
+					else
+						local bossSegment = segmentHistory [2]
+						if (bossSegment) then
+							--set the boss as the current combat
+							_detalhes.tabela_vigente = bossSegment
+							--swap tables
+							segmentHistory [1] = bossSegment --as the boss combat is done, it is also the first combat in the past combats table
+							segmentHistory [2] = newCombat --se the overall trash as the second segment on the past table (the semgnet 2 was occupy by the boss segment)
+						end
 					end
 					
 					--> update all windows
@@ -769,7 +808,7 @@ function _G._detalhes:Start()
 					local segmentsToMerge = {}
 					
 					--> check if there is trash segments after the last boss. need to merge these segments with the trash segment of the last boss
-					if (_detalhes.mythic_plus.merge_boss_trash) then
+					if (_detalhes.mythic_plus.merge_boss_trash) then --and false
 						--> is the current combat not a boss fight? this means a combat was opened after the mythic run completed
 						if (not self.tabela_vigente.is_boss and self.tabela_vigente:GetCombatTime() > 5) then
 							if (newFrame.DevelopmentDebug) then
@@ -807,7 +846,7 @@ function _G._detalhes:Start()
 						end
 					end
 					
-					if (#segmentsToMerge > 0) then
+					if (#segmentsToMerge > 0) then --and false
 						if (newFrame.DevelopmentDebug) then
 							print ("Details!", "MythicDungeonFinished() > found ", #segmentsToMerge, "segments after the last boss")
 						end
@@ -856,6 +895,14 @@ function _G._detalhes:Start()
 							_detalhes.schedule_mythicdungeon_overallrun_merge = true
 						end
 					end
+					
+					--> shutdown parser for a few seconds to avoid opening new segments after the run ends
+					self:CaptureSet (false, "damage", false, 15)
+					self:CaptureSet (false, "energy", false, 15)
+					self:CaptureSet (false, "aura", false, 15)
+					self:CaptureSet (false, "energy", false, 15)
+					self:CaptureSet (false, "spellcast", false, 15)
+					
 				end
 			end
 
@@ -901,6 +948,8 @@ function _G._detalhes:Start()
 				local name, groupType, difficultyID, difficult = GetInstanceInfo()
 				if (groupType == "party" and self.overall_clear_newchallenge) then
 					self.historico:resetar_overall()
+					self:Msg ("overall data are now reset.")
+					
 					if (self.debug) then
 						self:Msg ("(debug) timer is for a mythic+ dungeon, overall has been reseted.")
 					end
@@ -992,7 +1041,7 @@ function _G._detalhes:Start()
 			end)
 			
 
-			--fazer a captura de dados para o grï¿½fico ao iniciar a corrida e parar ao sair da dungeon ou terminar a run.
+			--fazer a captura de dados para o gráfico ao iniciar a corrida e parar ao sair da dungeon ou terminar a run.
 			
 			------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 			

@@ -1,7 +1,0 @@
-VER 3 0100000000000016 "dnd" "INV_MISC_QUESTIONMARK"
-/showtooltipp
-/cast [@cursor] Death and Decay
-END
-VER 3 0100000000000006 "me" "ABILITY_DEATHKNIGHT_AOEDEATHGRIP"
-/cast [@player] Gorefiend's Grasp
-END

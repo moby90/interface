@@ -1058,7 +1058,7 @@ local default_profile = {
 
 _detalhes.default_profile = default_profile
 
--- aqui fica as propriedades do jogador que nï¿½o serï¿½o armazenadas no profile
+-- aqui fica as propriedades do jogador que não serão armazenadas no profile
 local default_player_data = {
 
 	--> force all fonts to have this outline
@@ -1131,6 +1131,11 @@ local default_player_data = {
 		benchmark_db = {
 			frame = {},
 			
+		},
+	--> rank
+		rank_window = {
+			last_difficulty = 15,
+			last_raid = "",
 		},
 }
 

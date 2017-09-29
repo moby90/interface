@@ -13,13 +13,6 @@ X: 0
 Y: -109
 W: 384
 H: 260
-Frame: ItemRefTooltip
-FrameLevel: 1
-Anchor: TOP
-X: -507
-Y: -102
-W: 128
-H: 64
 Frame: ColorPickerFrame
 FrameLevel: 21
 Anchor: RIGHT
@@ -55,3 +48,10 @@ X: 232
 Y: 124
 W: 898
 H: 504
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: LEFT
+X: 549
+Y: 96
+W: 267
+H: 114
