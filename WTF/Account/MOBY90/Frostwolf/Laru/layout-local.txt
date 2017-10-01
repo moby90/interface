@@ -50,8 +50,8 @@ W: 898
 H: 504
 Frame: ItemRefTooltip
 FrameLevel: 1
-Anchor: LEFT
-X: 549
+Anchor: CENTER
+X: -547
 Y: 96
 W: 267
-H: 114
+H: 222

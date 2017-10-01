@@ -12,6 +12,15 @@ oRA3DB = {
 		},
 		["ReadyCheck"] = {
 		},
+		["Alerts"] = {
+			["profiles"] = {
+				["Laru"] = {
+					["output"] = "raid",
+					["enableForParty"] = false,
+					["enableForRaid"] = false,
+				},
+			},
+		},
 		["Difficulty"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -19,15 +28,6 @@ oRA3DB = {
 				},
 				["Laru"] = {
 					["prevRaidDifficulty"] = 15,
-				},
-			},
-		},
-		["Alerts"] = {
-			["profiles"] = {
-				["Laru"] = {
-					["enableForParty"] = false,
-					["enableForRaid"] = false,
-					["output"] = "raid",
 				},
 			},
 		},
@@ -49,15 +49,15 @@ oRA3DB = {
 		["Promote"] = {
 		},
 		["Cooldowns"] = {
+			["global"] = {
+				["spellsOnCooldown"] = {
+				},
+				["lastTime"] = 174843.641,
+				["chargeSpellsOnCooldown"] = {
+				},
+			},
 			["profiles"] = {
 				["Default"] = {
-					["displays"] = {
-						["Default"] = {
-							["showDisplay"] = false,
-							["type"] = "Bars",
-							["barShorthand"] = true,
-						},
-					},
 					["spells"] = {
 						["Default"] = {
 							[740] = true,
@@ -70,6 +70,13 @@ oRA3DB = {
 							[55233] = true,
 						},
 					},
+					["displays"] = {
+						["Default"] = {
+							["showDisplay"] = false,
+							["type"] = "Bars",
+							["barShorthand"] = true,
+						},
+					},
 				},
 				["Laru"] = {
 					["enabled"] = false,
@@ -78,16 +85,16 @@ oRA3DB = {
 							[62618] = true,
 							[98008] = true,
 							[97462] = true,
-							[871] = true,
 							[2825] = true,
+							[871] = true,
 						},
 					},
 					["displays"] = {
 						["Default"] = {
-							["barHeight"] = 21,
 							["showDisplay"] = false,
-							["type"] = "Bars",
+							["barHeight"] = 21,
 							["barShorthand"] = true,
+							["type"] = "Bars",
 						},
 					},
 				},
@@ -98,10 +105,9 @@ oRA3DB = {
 		["Consumables"] = {
 			["profiles"] = {
 				["Laru"] = {
-					["checkReadyCheck"] = 3,
+					["checkReadyCheck"] = 1,
 					["checkRune"] = true,
-					["whisper"] = true,
-					["output"] = 3,
+					["output"] = 2,
 				},
 			},
 		},
@@ -142,7 +148,7 @@ oRA3DB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["lastSelectedPanel"] = "Cooldowns",
+			["lastSelectedList"] = 3,
 			["positions"] = {
 				["oRA3CooldownFrameBarsDefault"] = {
 					["Height"] = 96.0001907348633,
@@ -167,10 +173,10 @@ oRA3DB = {
 					["PosX"] = 633.600319161687,
 				},
 			},
-			["lastSelectedList"] = 3,
+			["lastSelectedPanel"] = "Cooldowns",
 		},
 		["Laru"] = {
-			["lastSelectedList"] = 1,
+			["lastSelectedPanel"] = "Checks",
 			["positions"] = {
 				["oRA3CooldownFrameBarsDefault"] = {
 					["Height"] = 190.000015258789,
@@ -195,7 +201,7 @@ oRA3DB = {
 					["PosX"] = 307.199204487251,
 				},
 			},
-			["lastSelectedPanel"] = "Checks",
+			["lastSelectedList"] = 1,
 		},
 	},
 }

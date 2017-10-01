@@ -6,6 +6,13 @@ X: -116
 Y: 192
 W: 232
 H: 100
+Frame: TargetFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: 110
+Y: 192
+W: 232
+H: 100
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -20,10 +27,3 @@ X: -123
 Y: -109
 W: 260
 H: 150
-Frame: TargetFrame
-FrameLevel: 1
-Anchor: BOTTOM
-X: 110
-Y: 192
-W: 232
-H: 100

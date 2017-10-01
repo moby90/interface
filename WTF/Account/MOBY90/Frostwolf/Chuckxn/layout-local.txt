@@ -1,4 +1,11 @@
 Version: 1
+Frame: TargetFrame
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -208
+Y: 101
+W: 232
+H: 100
 Frame: LootFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -27,10 +34,3 @@ X: -17
 Y: -102
 W: 210
 H: 175
-Frame: TargetFrame
-FrameLevel: 1
-Anchor: BOTTOMRIGHT
-X: -208
-Y: 101
-W: 232
-H: 100

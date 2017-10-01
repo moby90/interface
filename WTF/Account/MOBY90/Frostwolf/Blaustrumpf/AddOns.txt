@@ -119,3 +119,4 @@ WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
 WorldQuestAssistant: disabled
 GuildGreet: disabled
+SavedInstances: enabled

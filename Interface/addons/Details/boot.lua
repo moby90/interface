@@ -3,7 +3,7 @@
 
 		_ = nil
 		_detalhes = LibStub("AceAddon-3.0"):NewAddon("_detalhes", "AceTimer-3.0", "AceComm-3.0", "AceSerializer-3.0", "NickTag-1.0")
-		_detalhes.build_counter = 4723
+		_detalhes.build_counter = 4771
 		_detalhes.userversion = "v7.3.0." .. _detalhes.build_counter
 		_detalhes.realversion = 126 --core version
 		_detalhes.version = _detalhes.userversion .. " (core " .. _detalhes.realversion .. ")"
@@ -44,13 +44,13 @@ do
 		_detalhes.current_raid_tier_mapid = 1676
 		
 	--> containers
-		--> armazenas as funções do parser - All parse functions 
+		--> armazenas as funï¿½ï¿½es do parser - All parse functions 
 			_detalhes.parser = {}
 			_detalhes.parser_functions = {}
 			_detalhes.parser_frame = CreateFrame ("Frame")
 			_detalhes.pvp_parser_frame = CreateFrame ("Frame")
 			_detalhes.parser_frame:Hide()
-		--> quais raides devem ser guardadas no histórico
+		--> quais raides devem ser guardadas no histï¿½rico
 			_detalhes.InstancesToStoreData = {
 				[1676] = true, --Tomb of Sargeras
 				--[1648] = true, --Trial of Valor
@@ -63,22 +63,22 @@ do
 			}
 		--> armazena os escudos - Shields information for absorbs
 			_detalhes.escudos = {}
-		--> armazena as funções dos frames - Frames functions
+		--> armazena as funï¿½ï¿½es dos frames - Frames functions
 			_detalhes.gump = _G ["DetailsFramework"]
 			function _detalhes:GetFramework()
 				return self.gump
 			end
 			GameCooltip = GameCooltip2
-		--> animações dos icones
+		--> animaï¿½ï¿½es dos icones
 			_detalhes.icon_animations = {
 				load = {
 					in_use = {},
 					available = {},
 				},
 			}
-		--> armazena as funções para inicialização dos dados - Metatable functions
+		--> armazena as funï¿½ï¿½es para inicializaï¿½ï¿½o dos dados - Metatable functions
 			_detalhes.refresh = {}
-		--> armazena as funções para limpar e guardas os dados - Metatable functions
+		--> armazena as funï¿½ï¿½es para limpar e guardas os dados - Metatable functions
 			_detalhes.clear = {}
 		--> armazena a config do painel de fast switch
 			_detalhes.switch = {}
@@ -101,16 +101,16 @@ do
 			_detalhes.pets_ignored = {}
 			_detalhes.pets_no_owner = {}
 			_detalhes.pets_players = {}
-		--> armazena as skins disponíveis para as janelas
+		--> armazena as skins disponï¿½veis para as janelas
 			_detalhes.skins = {}
-		--> armazena os hooks das funções do parser
+		--> armazena os hooks das funï¿½ï¿½es do parser
 			_detalhes.hooks = {}
-		--> informações sobre a luta do boss atual
+		--> informaï¿½ï¿½es sobre a luta do boss atual
 			_detalhes.encounter_end_table = {}
 			_detalhes.encounter_table = {}
 			_detalhes.encounter_counter = {}
 			_detalhes.encounter_dungeons = {}
-		--> informações sobre a arena atual
+		--> informaï¿½ï¿½es sobre a arena atual
 			_detalhes.arena_table = {}
 			_detalhes.arena_info = {
 				[562] = {file = "LoadScreenBladesEdgeArena", coords = {0, 1, 0.29296875, 0.9375}}, -- Circle of Blood Arena

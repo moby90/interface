@@ -27,12 +27,7 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["Expander"] = {
-			["profiles"] = {
-				["Default"] = {
-					["enabled"] = false,
-				},
-			},
+		["Zoom"] = {
 		},
 		["ShowHide"] = {
 			["profiles"] = {
@@ -44,8 +39,8 @@ Chinchilla2DB = {
 					["difficulty"] = "mouseover",
 					["dayNight"] = "mouseover",
 					["clock"] = "mouseover",
-					["track"] = "mouseover",
 					["voice"] = false,
+					["track"] = "mouseover",
 				},
 			},
 		},
@@ -83,7 +78,12 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["Zoom"] = {
+		["Expander"] = {
+			["profiles"] = {
+				["Default"] = {
+					["enabled"] = false,
+				},
+			},
 		},
 	},
 	["profileKeys"] = {

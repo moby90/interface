@@ -199,7 +199,7 @@ ReforgeLite: disabled
 Hermes: disabled
 Hermes-UI: disabled
 LoggerHead: disabled
-SavedInstances: disabled
+SavedInstances: enabled
 VEM-SiegeOfOrgrimmar: enabled
 VEM-Sound-Default: enabled
 AnsiCombatFont: disabled

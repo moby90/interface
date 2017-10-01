@@ -203,7 +203,7 @@ AskMrRobot: enabled
 Castbars: disabled
 GTFO: enabled
 Malkorok: disabled
-SavedInstances: disabled
+SavedInstances: enabled
 BL_Cooldown: enabled
 DBM-StatusBarTimers: disabled
 DBM-BlackrockFoundry: enabled

@@ -1,21 +1,50 @@
 
 FixGroupsDB = {
-	["profiles"] = {
-		["Default"] = {
-			["options"] = {
-				["coreRaiderRank"] = {
-					["Jade Falcons-Frostwolf"] = 4,
+	["faction"] = {
+		["Horde"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
+					["Sést-Blackhand"] = 1506807458,
+					["Durojin-Eredar"] = 1506799276,
+					["Kennytee-TarrenMill"] = 1506809652,
+					["Exøtyk-Hyjal"] = 1506875507,
+					["Trapp-Drak'thul"] = 1506853907,
+					["Zulatali-ChamberofAspects"] = 1506880108,
 				},
-				["minimapIcon"] = {
-					["minimapPos"] = 191.604997968475,
+				["ranged"] = {
+					["Darkpsyco-Blackrock"] = 1506860655,
+					["Hyzion-Blackrock"] = 1506860665,
+					["Emita-TwistingNether"] = 1506860624,
+					["Æka-TwistingNether"] = 1506860689,
+					["Iamstarff-Archimonde"] = 1506855456,
+					["Шаманураган-Ревущийфьорд"] = 1506860686,
+					["Scräâtch-Hyjal"] = 1506809653,
+					["Dehydratëd-Kazzak"] = 1506808533,
+					["Neptune-BurningBlade"] = 1506880887,
 				},
-				["showMinimapIconPRN"] = true,
-				["showMinimapIconAlways"] = false,
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+					["Lardeck-"] = 1506535082,
+					["Tentreesha-Frostwolf"] = 1506621580,
+					["Lardeck-Frostwolf"] = 1506536218,
+					["Bêlya-"] = 1506621209,
+					["Bêlya-Frostwolf"] = 1506626291,
+					["Fluffypillow-"] = 1505518407,
+					["Tentreesha-"] = 1506621208,
+				},
+				["ranged"] = {
+					["Máriká-"] = 1506631118,
+					["Muhdiv-"] = 1506767699,
+					["Dewi-"] = 1506621223,
+					["Muhdiv-Frostwolf"] = 1506769766,
+					["Gardine-Frostwolf"] = 1506809646,
+					["Dewi-Frostwolf"] = 1506632374,
+					["Máriká-Frostwolf"] = 1506632396,
+					["Gardine-"] = 1506809103,
+				},
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Laru - Frostwolf"] = "Default",
 	},
 	["global"] = {
 		["guildRanks"] = {
@@ -31,39 +60,20 @@ FixGroupsDB = {
 			},
 		},
 	},
-	["faction"] = {
-		["Horde"] = {
-			["damagerRoleNonGuildCache"] = {
-				["melee"] = {
-					["Skuzy-C'Thun"] = 1506531386,
-					["Chikenbaby-Hyjal"] = 1506531428,
-					["Askh-Dentarg"] = 1506531388,
-					["Bämbers-Blackhand"] = 1506531441,
+	["profileKeys"] = {
+		["Laru - Frostwolf"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["options"] = {
+				["coreRaiderRank"] = {
+					["Jade Falcons-Frostwolf"] = 4,
 				},
-				["ranged"] = {
+				["minimapIcon"] = {
+					["minimapPos"] = 191.604997968475,
 				},
-			},
-			["damagerRoleGuildCache"] = {
-				["melee"] = {
-					["Tentreesha-Frostwolf"] = 1506621580,
-					["Tentreesha-"] = 1506621208,
-					["Lardeck-"] = 1506535082,
-					["Bêlya-"] = 1506621209,
-					["Lardeck-Frostwolf"] = 1506536218,
-					["Bêlya-Frostwolf"] = 1506626291,
-					["Fluffypillow-"] = 1505518407,
-					["Fluffypillow-Frostwolf"] = 1504809032,
-				},
-				["ranged"] = {
-					["Máriká-"] = 1506631118,
-					["Muhdiv-"] = 1506450871,
-					["Muhdiv-Frostwolf"] = 1506534453,
-					["Dewi-"] = 1506621223,
-					["Delora-"] = 1504979101,
-					["Dewi-Frostwolf"] = 1506632374,
-					["Máriká-Frostwolf"] = 1506632396,
-					["Delora-Frostwolf"] = 1504980605,
-				},
+				["showMinimapIconPRN"] = true,
+				["showMinimapIconAlways"] = false,
 			},
 		},
 	},
