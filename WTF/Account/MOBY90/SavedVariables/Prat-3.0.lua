@@ -101,16 +101,16 @@ Prat3DB = {
 			["profiles"] = {
 				["Laru Extended"] = {
 					["edgeSize"] = 16,
-					["editX"] = 356.000427246094,
-					["editW"] = 346.999816894531,
 					["border"] = "ArkInventory Square 1",
+					["editW"] = 346.999816894531,
+					["editX"] = 356.000427246094,
 					["tileSize"] = 1,
 					["editY"] = 24.9963779449463,
 					["background"] = "Solid",
-					["inset"] = 1,
 					["backgroundColor"] = {
 						["a"] = 0,
 					},
+					["inset"] = 1,
 				},
 				["Default"] = {
 					["edgeSize"] = 16,
@@ -264,18 +264,18 @@ Prat3DB = {
 		["Prat_Buttons"] = {
 			["profiles"] = {
 				["Laru Extended"] = {
-					["scrollReminder"] = false,
-					["showBnet"] = false,
 					["showButtons"] = false,
-					["showMenu"] = false,
+					["showBnet"] = false,
+					["scrollReminder"] = false,
 					["showminimize"] = false,
+					["showMenu"] = false,
 				},
 				["Default"] = {
-					["showminimize"] = false,
-					["showBnet"] = false,
-					["showButtons"] = false,
 					["showMenu"] = false,
+					["showBnet"] = false,
 					["scrollReminder"] = false,
+					["showminimize"] = false,
+					["showButtons"] = false,
 				},
 			},
 		},
@@ -335,11 +335,11 @@ Prat3DB = {
 			["modules"] = {
 				["Sounds"] = 2,
 				["ChatTabs"] = 3,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 				["OriginalButtons"] = 2,
 				["PopupMessage"] = 2,
+				["Alias"] = 2,
 				["AltNames"] = 2,
-				["ChatLog"] = 2,
 				["KeyBindings"] = 2,
 			},
 		},

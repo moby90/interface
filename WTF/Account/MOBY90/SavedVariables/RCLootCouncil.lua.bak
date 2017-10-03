@@ -26,1048 +26,1062 @@ RCLootCouncilDB = {
 			["Two-Handed Axes"] = "Two-Handed Axes",
 		},
 		["verTestCandidates"] = {
-			["Shaydera-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Bizzl-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Fallen-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Jayde-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Sharpshooter-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Uguluugulu-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Sneakk-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Lardeck-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Hàklqt-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Lenalya-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Máriká-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
-			["Ypzo-Frostwolf"] = "2.5.5-nil: - Bizzl-Frostwolf",
+			["Laru-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Shouria-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Sharpshooter-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Talar-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Lardeck-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Hàklqt-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Máriká-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Trollax-Frostwolf"] = "2.6.0-Beta.1: - Laru-Frostwolf",
+			["Kremo-Frostwolf"] = "2.6.0-Beta.1: - Laru-Frostwolf",
+			["Sixthumbs-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Profit-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Mindzero-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Cluze-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Fallen-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Uguluugulu-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Jayde-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Greenthumbs-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Daggster-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Gyam-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Adachi-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Pillock-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Snorkidk-Frostwolf"] = "2.4.4-nil: - Laru-Frostwolf",
+			["Roanar-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
+			["Deimuhdi-Frostwolf"] = "2.5.5-nil: - Laru-Frostwolf",
 		},
 		["version"] = "2.5.5",
 		["log"] = {
-			"21:12:31 - MasterLooter =  (Fallen-Frostwolf)", -- [1]
-			"21:12:31 - Resetting council as we have a new ML!", -- [2]
-			"21:12:36 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bêlya) (distri:) (GUILD)", -- [3]
-			"21:12:41 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Fallen) (distri:) (WHISPER)", -- [4]
-			"21:12:41 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^Sobserve^b^StierNumButtons^N2^Sresponses^T^N3^T^Scolor^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^Stext^STransmog^Ssort^N3^t^Stier^T^N1^T^Scolor^T^N1^N0.1^N2^N1^N3^N0.5^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N1^N2^N1^N3^N0.5^N4^N1^t^Stext^SReroll^Ssort^N2^t^N3^T^Scolor^T^N1^N1^N2^N0.5^N3^N1^N4^N1^t^Stext^S1.~`Set^Ssort^N3^t^N4^T^Scolor^T^N1^F4521260802379797^f-53^N2^N1^N3^N1^N4^N1^t^Stext^S2.~`set^Ssort^N4^t^N5^T^Scolor^T^N1^N0.7^N2^N0.7^N3^N0.7^N4^N1^t^Stext^S3.set^Ssort^N5^t^N6^T^Scolor^T^N1^N0.7^N2^N0.7^N3^N0.7^N4^N1^t^Stext^S4.set^Ssort^N6^t^t^t^ShideVotes^b^StierButtonsEnabled^B^SmultiVote^B^StierButtons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SReroll^t^t^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SOffspec^t^N3^T^Stext^STransmog^t^t^SnumButtons^N3^SanonymousVoting^b^t^t^^ (from:) (Fallen) (distri:) (WHISPER)", -- [5]
-			"21:12:41 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N800^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^SJayde-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N392^Sclass^SPRIEST^Senchanter^B^Srank^SOfficer^t^STalar-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SFluffypillow-Frostwolf^T^Srole^STANK^Senchant_lvl^N706^Sclass^SDRUID^Senchanter^B^Srank^SOfficer~`Alt^t^SMáriká-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N786^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SBêlya-Frostwolf^T^Srole^SNONE^Senchant_lvl^N227^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N788^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SYpzo-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^STrial^t^STidok-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N301^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SLocura-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SPRIEST^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^STentreesha-Frostwolf^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SMysuh-Frostwolf^T^Srole^STANK^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SSneakk-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SROGUE^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N810^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SNONE^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [6]
-			"21:12:46 - Timer MLdb_check passed", -- [7]
-			"21:12:46 - Comm received:^1^Scouncil^T^N1^T^N1^SJayde-Frostwolf^N2^SLocura-Frostwolf^N3^SFallen-Frostwolf^N4^SEowyndra-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [8]
-			"21:12:46 - nil = (IsCouncil) (Laru-Frostwolf)", -- [9]
-			"21:12:58 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^Sobserve^b^StierNumButtons^N2^Sresponses^T^N3^T^Scolor^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^Stext^STransmog^Ssort^N3^t^Stier^T^N1^T^Scolor^T^N1^N0.1^N2^N1^N3^N0.5^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N1^N2^N1^N3^N0.5^N4^N1^t^Stext^SReroll^Ssort^N2^t^N3^T^Scolor^T^N1^N1^N2^N0.5^N3^N1^N4^N1^t^Stext^S1.~`Set^Ssort^N3^t^N4^T^Scolor^T^N1^F4521260802379797^f-53^N2^N1^N3^N1^N4^N1^t^Stext^S2.~`set^Ssort^N4^t^N5^T^Scolor^T^N1^N0.7^N2^N0.7^N3^N0.7^N4^N1^t^Stext^S3.set^Ssort^N5^t^N6^T^Scolor^T^N1^N0.7^N2^N0.7^N3^N0.7^N4^N1^t^Stext^S4.set^Ssort^N6^t^t^t^ShideVotes^b^StierButtonsEnabled^B^SmultiVote^B^StierButtons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SReroll^t^t^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SOffspec^t^N3^T^Stext^STransmog^t^t^SnumButtons^N3^SanonymousVoting^b^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [10]
-			"21:12:58 - Comm received:^1^Scouncil^T^N1^T^N1^SJayde-Frostwolf^N2^SLocura-Frostwolf^N3^SFallen-Frostwolf^N4^SEowyndra-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [11]
-			"21:12:58 - nil = (IsCouncil) (Laru-Frostwolf)", -- [12]
-			"21:16:12 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [13]
-			"21:16:12 - GetML()", -- [14]
-			"21:16:12 - LootMethod =  (master)", -- [15]
-			"21:16:12 - MasterLooter =  (Fallen-Frostwolf)", -- [16]
-			"21:16:27 - Timer MLdb_check passed", -- [17]
-			"21:17:45 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N800^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^SJayde-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N392^Sclass^SPRIEST^Senchanter^B^Srank^SOfficer^t^STalar-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SFluffypillow-Frostwolf^T^Srole^STANK^Senchant_lvl^N706^Sclass^SDRUID^Senchanter^B^Srank^SOfficer~`Alt^t^SMáriká-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N786^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SBêlya-Frostwolf^T^Srole^SNONE^Senchant_lvl^N227^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N788^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SYpzo-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^STrial^t^STidok-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N301^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^STentreesha-Frostwolf^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SMysuh-Frostwolf^T^Srole^STANK^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SSneakk-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SROGUE^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N810^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SNONE^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [18]
-			"21:18:01 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Mythic)) (474118) (1) (0)", -- [19]
-			"21:18:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [20]
-			"21:18:01 - GetML()", -- [21]
-			"21:18:01 - LootMethod =  (master)", -- [22]
-			"21:18:01 - MasterLooter =  (Fallen-Frostwolf)", -- [23]
-			"21:18:16 - Timer MLdb_check passed", -- [24]
-			"21:18:34 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [25]
-			"21:18:43 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N800^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^SJayde-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N392^Sclass^SPRIEST^Senchanter^B^Srank^SOfficer^t^STalar-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SFluffypillow-Frostwolf^T^Srole^STANK^Senchant_lvl^N706^Sclass^SDRUID^Senchanter^B^Srank^SOfficer~`Alt^t^SMáriká-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N786^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SBêlya-Frostwolf^T^Srole^SNONE^Senchant_lvl^N227^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N788^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SYpzo-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^STrial^t^STidok-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N301^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^STentreesha-Frostwolf^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SMysuh-Frostwolf^T^Srole^STANK^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SSneakk-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SROGUE^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N810^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SNONE^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [26]
-			"21:19:03 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SJayde-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N392^Sclass^SPRIEST^Senchanter^B^Srank^SOfficer^t^STalar-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SFluffypillow-Frostwolf^T^Srole^STANK^Senchant_lvl^N706^Sclass^SDRUID^Senchanter^B^Srank^SOfficer~`Alt^t^SMáriká-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N786^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SBêlya-Frostwolf^T^Srole^SNONE^Senchant_lvl^N227^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N788^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SYpzo-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^STrial^t^STidok-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N301^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^STentreesha-Frostwolf^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SMysuh-Frostwolf^T^Srole^STANK^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SSneakk-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SROGUE^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N810^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SNONE^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [27]
-			"21:19:33 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [28]
-			"21:19:59 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^Sobserve^b^StierNumButtons^N2^Sresponses^T^N3^T^Scolor^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^Stext^STransmog^Ssort^N3^t^Stier^T^N1^T^Scolor^T^N1^N0.1^N2^N1^N3^N0.5^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N1^N2^N1^N3^N0.5^N4^N1^t^Stext^SReroll^Ssort^N2^t^N3^T^Scolor^T^N1^N1^N2^N0.5^N3^N1^N4^N1^t^Stext^S1.~`Set^Ssort^N3^t^N4^T^Scolor^T^N1^F4521260802379797^f-53^N2^N1^N3^N1^N4^N1^t^Stext^S2.~`set^Ssort^N4^t^N5^T^Scolor^T^N1^N0.7^N2^N0.7^N3^N0.7^N4^N1^t^Stext^S3.set^Ssort^N5^t^N6^T^Scolor^T^N1^N0.7^N2^N0.7^N3^N0.7^N4^N1^t^Stext^S4.set^Ssort^N6^t^t^t^ShideVotes^b^StierButtonsEnabled^B^SmultiVote^B^StierButtons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SReroll^t^t^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SOffspec^t^N3^T^Stext^STransmog^t^t^SnumButtons^N3^SanonymousVoting^b^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [29]
-			"21:20:04 - Comm received:^1^Scouncil^T^N1^T^N1^SJayde-Frostwolf^N2^SFallen-Frostwolf^N3^SEowyndra-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [30]
-			"21:20:04 - nil = (IsCouncil) (Laru-Frostwolf)", -- [31]
-			"21:23:46 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SJayde-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N392^Sclass^SPRIEST^Senchanter^B^Srank^SOfficer^t^STalar-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SFluffypillow-Frostwolf^T^Srole^STANK^Senchant_lvl^N706^Sclass^SDRUID^Senchanter^B^Srank^SOfficer~`Alt^t^SMáriká-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N786^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SBêlya-Frostwolf^T^Srole^SNONE^Senchant_lvl^N227^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N788^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SYpzo-Frostwolf^T^Srole^SHEALER^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^STrial^t^STidok-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N301^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^STentreesha-Frostwolf^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SMysuh-Frostwolf^T^Srole^STANK^Senchant_lvl^N0^Sclass^SDRUID^Srank^SRaid~`Member^t^SSneakk-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SROGUE^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Senchant_lvl^N800^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SNONE^Senchant_lvl^N800^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [32]
-			"21:23:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Vairasza) (distri:) (GUILD)", -- [33]
-			"21:26:12 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [34]
-			"21:29:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cayren) (distri:) (GUILD)", -- [35]
-			"21:29:52 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [36]
-			"21:33:22 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [37]
-			"21:33:27 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [38]
-			"21:37:24 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [39]
-			"21:37:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lardeck) (distri:) (GUILD)", -- [40]
-			"21:40:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lardeck) (distri:) (GUILD)", -- [41]
-			"21:42:59 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Permok) (distri:) (GUILD)", -- [42]
-			"21:46:06 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [43]
-			"21:47:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lardeck) (distri:) (GUILD)", -- [44]
-			"21:55:04 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [45]
-			"22:08:05 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [46]
-			"22:21:24 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [47]
-			"22:21:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Monkdiv) (distri:) (GUILD)", -- [48]
-			"22:23:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [49]
-			"22:25:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [50]
-			"22:34:21 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [51]
-			"22:38:07 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [52]
-			"22:41:42 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Vairasza) (distri:) (GUILD)", -- [53]
-			"22:49:16 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [54]
-			"23:00:31 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (16) (20) (0)", -- [55]
-			"23:01:03 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [56]
-			"23:01:03 - GetML()", -- [57]
-			"23:01:03 - LootMethod =  (personalloot)", -- [58]
-			"23:03:14 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cayren) (distri:) (GUILD)", -- [59]
-			"23:03:34 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [60]
-			"23:03:55 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [61]
-			"23:07:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Tentrisha) (distri:) (GUILD)", -- [62]
-			"09/29/17", -- [63]
-			"19:37:02 - Logged In", -- [64]
-			"19:37:02 - ML initialized!", -- [65]
-			"19:37:15 - Laru-Frostwolf (2.5.5) (nil)", -- [66]
-			"19:37:15 - ActivateSkin (new_blue)", -- [67]
-			"19:37:15 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [68]
-			"19:37:15 - GetML()", -- [69]
-			"19:37:15 - LootMethod =  (personalloot)", -- [70]
-			"19:37:16 - GetPlayersGuildRank()", -- [71]
-			"19:37:16 - Found Guild Rank: Raid Member", -- [72]
-			"19:37:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [73]
-			"19:37:35 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [74]
-			"19:37:35 - GetML()", -- [75]
-			"19:37:35 - LootMethod =  (personalloot)", -- [76]
-			"19:37:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [77]
-			"19:39:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shourija) (distri:) (GUILD)", -- [78]
-			"19:42:24 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [79]
-			"19:42:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [80]
-			"19:43:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [81]
-			"19:44:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Tentrisha) (distri:) (GUILD)", -- [82]
-			"19:44:55 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Discappoint) (distri:) (GUILD)", -- [83]
-			"09/29/17", -- [84]
-			"21:58:32 - Logged In", -- [85]
-			"21:58:32 - ML initialized!", -- [86]
-			"21:58:37 - Laru-Frostwolf (2.5.5) (nil)", -- [87]
-			"21:58:37 - ActivateSkin (new_blue)", -- [88]
-			"21:58:38 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [89]
-			"21:58:38 - GetML()", -- [90]
-			"21:58:38 - LootMethod =  (personalloot)", -- [91]
-			"21:58:38 - GetPlayersGuildRank()", -- [92]
-			"21:58:38 - Found Guild Rank: Raid Member", -- [93]
-			"21:58:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [94]
-			"22:04:18 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gyam) (distri:) (GUILD)", -- [95]
-			"22:04:32 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [96]
-			"22:04:32 - GetML()", -- [97]
-			"22:04:32 - LootMethod =  (personalloot)", -- [98]
-			"22:06:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Eowyndra) (distri:) (GUILD)", -- [99]
-			"22:07:30 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [100]
-			"22:07:30 - GetML()", -- [101]
-			"22:07:30 - LootMethod =  (personalloot)", -- [102]
-			"22:22:27 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [103]
-			"22:28:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [104]
-			"09/30/17", -- [105]
-			"11:42:35 - Logged In", -- [106]
-			"11:42:35 - ML initialized!", -- [107]
-			"11:42:39 - Laru-Frostwolf (2.5.5) (nil)", -- [108]
-			"11:42:39 - ActivateSkin (new_blue)", -- [109]
-			"11:42:40 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [110]
-			"11:42:40 - GetML()", -- [111]
-			"11:42:40 - LootMethod =  (personalloot)", -- [112]
-			"11:42:40 - GetPlayersGuildRank()", -- [113]
-			"11:42:40 - Found Guild Rank: Raid Member", -- [114]
-			"11:42:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [115]
-			"11:50:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [116]
-			"11:50:53 - GetML()", -- [117]
-			"11:50:53 - LootMethod =  (personalloot)", -- [118]
-			"11:55:15 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [119]
-			"11:55:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [120]
-			"11:59:34 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [121]
-			"12:02:05 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [122]
-			"12:02:05 - GetML()", -- [123]
-			"12:02:05 - LootMethod =  (personalloot)", -- [124]
-			"12:04:49 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Trollax) (distri:) (GUILD)", -- [125]
-			"12:11:17 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [126]
-			"12:11:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bloodiv) (distri:) (GUILD)", -- [127]
-			"12:12:25 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [128]
-			"12:12:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Imapaloldin) (distri:) (GUILD)", -- [129]
-			"12:13:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiee) (distri:) (GUILD)", -- [130]
-			"12:14:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [131]
-			"12:15:39 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [132]
-			"12:15:39 - GetML()", -- [133]
-			"12:15:39 - LootMethod =  (personalloot)", -- [134]
-			"12:17:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [135]
-			"12:19:35 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [136]
-			"12:24:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [137]
-			"12:27:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [138]
-			"12:28:41 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [139]
-			"12:28:41 - GetML()", -- [140]
-			"12:28:41 - LootMethod =  (personalloot)", -- [141]
-			"12:33:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [142]
-			"12:33:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [143]
-			"12:33:57 - GetML()", -- [144]
-			"12:33:57 - LootMethod =  (personalloot)", -- [145]
-			"12:34:12 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [146]
-			"12:34:12 - GetML()", -- [147]
-			"12:34:12 - LootMethod =  (personalloot)", -- [148]
-			"12:34:34 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [149]
-			"12:35:04 - Event: (RAID_INSTANCE_WELCOME) (Seat of the Triumvirate (Mythic)) (332695) (0) (0)", -- [150]
-			"12:35:04 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [151]
-			"12:35:04 - GetML()", -- [152]
-			"12:35:04 - LootMethod =  (personalloot)", -- [153]
-			"12:39:06 - Event: (ENCOUNTER_END) (2065) (Zuraal the Ascended) (8) (5) (1)", -- [154]
-			"12:45:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Neruat) (distri:) (GUILD)", -- [155]
-			"12:45:53 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [156]
-			"12:46:24 - Event: (ENCOUNTER_END) (2066) (Saprish) (8) (5) (0)", -- [157]
-			"12:49:34 - Event: (ENCOUNTER_END) (2066) (Saprish) (8) (5) (0)", -- [158]
-			"12:51:21 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [159]
-			"12:53:25 - Event: (ENCOUNTER_END) (2066) (Saprish) (8) (5) (1)", -- [160]
-			"12:57:55 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [161]
-			"13:01:32 - Event: (ENCOUNTER_END) (2067) (Viceroy Nezhar) (8) (5) (1)", -- [162]
-			"13:04:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [163]
-			"13:05:19 - Event: (ENCOUNTER_END) (2068) (L'ura) (8) (5) (0)", -- [164]
-			"13:08:32 - Event: (ENCOUNTER_END) (2068) (L'ura) (8) (5) (1)", -- [165]
-			"13:09:39 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [166]
-			"13:09:39 - GetML()", -- [167]
-			"13:09:39 - LootMethod =  (personalloot)", -- [168]
-			"13:11:27 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lardeck) (distri:) (GUILD)", -- [169]
-			"13:15:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [170]
-			"13:21:14 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [171]
-			"13:23:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [172]
-			"13:33:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [173]
-			"13:36:28 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [174]
-			"13:37:04 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [175]
-			"13:37:14 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [176]
-			"13:38:39 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (Snorkidk) (distri:) (GUILD)", -- [177]
-			"13:39:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [178]
-			"13:41:18 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [179]
-			"13:44:30 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [180]
-			"13:44:30 - GetML()", -- [181]
-			"13:44:30 - LootMethod =  (personalloot)", -- [182]
-			"13:46:14 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [183]
-			"13:46:59 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [184]
-			"13:47:23 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [185]
-			"13:47:23 - GetML()", -- [186]
-			"13:47:23 - LootMethod =  (personalloot)", -- [187]
-			"13:47:26 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [188]
-			"13:47:57 - Event: (RAID_INSTANCE_WELCOME) (The Arcway (Mythic)) (328322) (0) (0)", -- [189]
-			"13:47:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [190]
-			"13:47:57 - GetML()", -- [191]
-			"13:47:57 - LootMethod =  (personalloot)", -- [192]
-			"13:51:51 - Event: (ENCOUNTER_END) (1828) (General Xakal) (23) (5) (1)", -- [193]
-			"13:53:27 - Event: (ENCOUNTER_END) (1826) (Nal'tira) (23) (5) (1)", -- [194]
-			"13:54:44 - Event: (ENCOUNTER_END) (1825) (Corstilax) (23) (5) (1)", -- [195]
-			"13:56:16 - Event: (ENCOUNTER_END) (1827) (Ivanyr) (23) (5) (1)", -- [196]
-			"13:58:35 - Event: (ENCOUNTER_END) (1829) (Advisor Vandros) (23) (5) (1)", -- [197]
-			"13:59:24 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [198]
-			"13:59:24 - GetML()", -- [199]
-			"13:59:24 - LootMethod =  (personalloot)", -- [200]
-			"14:00:57 - Event: (RAID_INSTANCE_WELCOME) (Court of Stars (Mythic)) (327542) (0) (0)", -- [201]
-			"14:00:58 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [202]
-			"14:00:58 - GetML()", -- [203]
-			"14:00:58 - LootMethod =  (personalloot)", -- [204]
-			"14:03:55 - Event: (ENCOUNTER_END) (1868) (Patrol Captain Gerdo) (23) (5) (1)", -- [205]
-			"14:07:35 - Event: (ENCOUNTER_END) (1869) (Talixae Flamewreath) (23) (5) (1)", -- [206]
-			"14:10:13 - Event: (ENCOUNTER_END) (1870) (Advisor Melandrus) (23) (5) (1)", -- [207]
-			"14:10:33 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [208]
-			"14:10:33 - GetML()", -- [209]
-			"14:10:33 - LootMethod =  (personalloot)", -- [210]
-			"14:10:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [211]
-			"14:10:51 - GetML()", -- [212]
-			"14:10:51 - LootMethod =  (personalloot)", -- [213]
-			"14:14:15 - Event: (RAID_INSTANCE_WELCOME) (Cathedral of Eternal Night (Mythic)) (326744) (0) (0)", -- [214]
-			"14:14:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [215]
-			"14:14:15 - GetML()", -- [216]
-			"14:14:15 - LootMethod =  (personalloot)", -- [217]
-			"14:14:43 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [218]
-			"14:14:43 - GetML()", -- [219]
-			"14:14:43 - LootMethod =  (personalloot)", -- [220]
-			"14:15:01 - Event: (RAID_INSTANCE_WELCOME) (Cathedral of Eternal Night (Mythic)) (326698) (0) (0)", -- [221]
-			"14:15:02 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [222]
-			"14:15:02 - GetML()", -- [223]
-			"14:15:02 - LootMethod =  (personalloot)", -- [224]
-			"14:18:19 - Event: (ENCOUNTER_END) (2055) (Agronox) (23) (5) (1)", -- [225]
-			"14:19:52 - Event: (ENCOUNTER_END) (2057) (Thrashbite the Scornful) (23) (5) (1)", -- [226]
-			"14:21:56 - Event: (ENCOUNTER_END) (2053) (Domatrax) (23) (5) (1)", -- [227]
-			"14:22:54 - Event: (ENCOUNTER_END) (2039) (Mephistroth) (23) (5) (1)", -- [228]
-			"14:23:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [229]
-			"14:23:20 - GetML()", -- [230]
-			"14:23:20 - LootMethod =  (personalloot)", -- [231]
-			"14:23:47 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [232]
-			"14:23:47 - GetML()", -- [233]
-			"14:23:47 - LootMethod =  (personalloot)", -- [234]
-			"14:25:24 - Event: (RAID_INSTANCE_WELCOME) (Return to Karazhan (Mythic)) (326075) (0) (0)", -- [235]
-			"14:25:25 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [236]
-			"14:25:25 - GetML()", -- [237]
-			"14:25:25 - LootMethod =  (personalloot)", -- [238]
-			"14:26:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [239]
-			"14:27:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [240]
-			"14:28:44 - Event: (ENCOUNTER_END) (1957) (Opera Hall) (23) (5) (1)", -- [241]
-			"14:29:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [242]
-			"14:31:37 - Event: (ENCOUNTER_END) (1954) (Maiden of Virtue) (23) (5) (1)", -- [243]
-			"14:33:26 - Event: (ENCOUNTER_END) (1961) (Moroes) (23) (5) (1)", -- [244]
-			"14:34:49 - Event: (ENCOUNTER_END) (1960) (Attumen the Huntsman) (23) (5) (1)", -- [245]
-			"14:39:06 - Event: (ENCOUNTER_END) (1964) (The Curator) (23) (5) (1)", -- [246]
-			"14:43:22 - Event: (ENCOUNTER_END) (2031) (Nightbane) (23) (5) (1)", -- [247]
-			"14:44:10 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [248]
-			"14:44:10 - GetML()", -- [249]
-			"14:44:10 - LootMethod =  (personalloot)", -- [250]
-			"14:44:15 - Event: (RAID_INSTANCE_WELCOME) (Return to Karazhan (Mythic)) (324944) (1) (0)", -- [251]
-			"14:44:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [252]
-			"14:44:15 - GetML()", -- [253]
-			"14:44:15 - LootMethod =  (personalloot)", -- [254]
-			"14:45:47 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (23) (5) (1)", -- [255]
-			"14:47:45 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (23) (5) (1)", -- [256]
-			"14:51:46 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (23) (5) (1)", -- [257]
-			"14:52:39 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [258]
-			"14:52:39 - GetML()", -- [259]
-			"14:52:39 - LootMethod =  (personalloot)", -- [260]
-			"14:53:30 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [261]
-			"14:53:30 - GetML()", -- [262]
-			"14:53:30 - LootMethod =  (personalloot)", -- [263]
-			"14:54:34 - Event: (RAID_INSTANCE_WELCOME) (Seat of the Triumvirate (Mythic)) (324325) (0) (0)", -- [264]
-			"14:54:34 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [265]
-			"14:54:34 - GetML()", -- [266]
-			"14:54:34 - LootMethod =  (personalloot)", -- [267]
-			"14:56:04 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [268]
-			"14:56:29 - Event: (ENCOUNTER_END) (2065) (Zuraal the Ascended) (23) (5) (1)", -- [269]
-			"15:04:00 - Event: (ENCOUNTER_END) (2066) (Saprish) (23) (5) (1)", -- [270]
-			"15:06:27 - Event: (ENCOUNTER_END) (2067) (Viceroy Nezhar) (23) (5) (1)", -- [271]
-			"15:08:39 - Event: (ENCOUNTER_END) (2068) (L'ura) (23) (5) (1)", -- [272]
-			"15:08:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [273]
-			"15:09:05 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [274]
-			"15:09:05 - GetML()", -- [275]
-			"15:09:05 - LootMethod =  (personalloot)", -- [276]
-			"15:10:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [277]
-			"15:10:28 - GetML()", -- [278]
-			"15:10:28 - LootMethod =  (personalloot)", -- [279]
-			"15:11:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [280]
-			"15:11:26 - GetML()", -- [281]
-			"15:11:26 - LootMethod =  (personalloot)", -- [282]
-			"15:16:21 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [283]
-			"15:19:57 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [284]
-			"15:19:57 - GetML()", -- [285]
-			"15:19:57 - LootMethod =  (personalloot)", -- [286]
-			"15:23:35 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [287]
-			"15:27:34 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Neruat) (distri:) (GUILD)", -- [288]
-			"15:27:35 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [289]
-			"15:27:35 - GetML()", -- [290]
-			"15:27:35 - LootMethod =  (personalloot)", -- [291]
-			"15:35:29 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [292]
-			"15:35:29 - GetML()", -- [293]
-			"15:35:29 - LootMethod =  (personalloot)", -- [294]
-			"15:35:32 - Event: (RAID_INSTANCE_WELCOME) (Seat of the Triumvirate (Heroic)) (62667) (0) (0)", -- [295]
-			"15:35:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [296]
-			"15:35:32 - GetML()", -- [297]
-			"15:35:32 - LootMethod =  (personalloot)", -- [298]
-			"15:37:34 - Event: (ENCOUNTER_END) (2065) (Zuraal the Ascended) (2) (5) (1)", -- [299]
-			"15:45:20 - Event: (ENCOUNTER_END) (2066) (Saprish) (2) (5) (1)", -- [300]
-			"15:47:48 - Event: (ENCOUNTER_END) (2067) (Viceroy Nezhar) (2) (5) (1)", -- [301]
-			"15:50:05 - Event: (ENCOUNTER_END) (2068) (L'ura) (2) (5) (1)", -- [302]
-			"15:50:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [303]
-			"15:50:21 - GetML()", -- [304]
-			"15:50:21 - LootMethod =  (personalloot)", -- [305]
-			"09/30/17", -- [306]
-			"15:54:42 - Logged In", -- [307]
-			"15:54:42 - ML initialized!", -- [308]
-			"15:54:47 - Laru-Frostwolf (2.5.5) (nil)", -- [309]
-			"15:54:47 - ActivateSkin (new_blue)", -- [310]
-			"15:54:47 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [311]
-			"15:54:47 - GetML()", -- [312]
-			"15:54:47 - LootMethod =  (personalloot)", -- [313]
-			"15:54:48 - GetPlayersGuildRank()", -- [314]
-			"15:54:48 - Found Guild Rank: Raid Member", -- [315]
-			"15:54:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [316]
-			"15:56:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [317]
-			"15:56:01 - GetML()", -- [318]
-			"15:56:01 - LootMethod =  (personalloot)", -- [319]
-			"15:56:17 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [320]
-			"15:56:17 - GetML()", -- [321]
-			"15:56:17 - LootMethod =  (personalloot)", -- [322]
-			"15:58:24 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [323]
-			"15:58:24 - GetML()", -- [324]
-			"15:58:24 - LootMethod =  (personalloot)", -- [325]
-			"16:00:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [326]
-			"16:00:01 - GetML()", -- [327]
-			"16:00:01 - LootMethod =  (personalloot)", -- [328]
-			"16:03:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bêlya) (distri:) (GUILD)", -- [329]
-			"09/30/17", -- [330]
-			"17:06:06 - Logged In", -- [331]
-			"17:06:06 - ML initialized!", -- [332]
-			"17:06:14 - Chuckxn-Frostwolf (2.5.5) (nil)", -- [333]
-			"17:06:14 - ActivateSkin (new_blue)", -- [334]
-			"17:06:15 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [335]
-			"17:06:15 - GetML()", -- [336]
-			"17:06:15 - LootMethod =  (personalloot)", -- [337]
-			"17:06:15 - GetPlayersGuildRank()", -- [338]
-			"17:06:15 - Found Guild Rank: Alt", -- [339]
-			"17:06:15 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Chuckxn) (distri:) (GUILD)", -- [340]
-			"17:08:42 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [341]
-			"09/30/17", -- [342]
-			"18:05:50 - Logged In", -- [343]
-			"18:05:50 - ML initialized!", -- [344]
-			"18:06:02 - Blaustrumpf-Frostwolf (2.5.5) (nil)", -- [345]
-			"18:06:02 - ActivateSkin (new_blue)", -- [346]
-			"18:06:02 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [347]
-			"18:06:02 - GetML()", -- [348]
-			"18:06:02 - LootMethod =  (personalloot)", -- [349]
-			"18:06:02 - GetPlayersGuildRank()", -- [350]
-			"18:06:02 - Found Guild Rank: Alt", -- [351]
-			"18:06:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Blaustrumpf) (distri:) (GUILD)", -- [352]
-			"18:06:15 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [353]
-			"18:06:15 - GetML()", -- [354]
-			"18:06:15 - LootMethod =  (personalloot)", -- [355]
-			"18:14:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [356]
-			"18:16:33 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gárdor) (distri:) (GUILD)", -- [357]
-			"18:21:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Kargathas) (distri:) (GUILD)", -- [358]
-			"18:24:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Mcsquare) (distri:) (GUILD)", -- [359]
-			"18:25:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sixthumbs) (distri:) (GUILD)", -- [360]
-			"18:31:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [361]
-			"18:58:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [362]
-			"19:15:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lenalya) (distri:) (GUILD)", -- [363]
-			"19:20:18 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [364]
-			"19:26:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [365]
-			"19:32:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [366]
-			"19:33:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [367]
-			"09/30/17", -- [368]
-			"19:36:23 - Logged In", -- [369]
-			"19:36:23 - ML initialized!", -- [370]
-			"19:36:32 - Chuckxn-Frostwolf (2.5.5) (nil)", -- [371]
-			"19:36:32 - ActivateSkin (new_blue)", -- [372]
-			"19:36:33 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [373]
-			"19:36:33 - GetML()", -- [374]
-			"19:36:33 - LootMethod =  (personalloot)", -- [375]
-			"19:36:33 - GetPlayersGuildRank()", -- [376]
-			"19:36:33 - Found Guild Rank: Alt", -- [377]
-			"19:36:33 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Chuckxn) (distri:) (GUILD)", -- [378]
-			"19:37:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [379]
-			"19:37:20 - GetML()", -- [380]
-			"19:37:20 - LootMethod =  (personalloot)", -- [381]
-			"19:42:07 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [382]
-			"19:44:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [383]
-			"09/30/17", -- [384]
-			"19:47:09 - Logged In", -- [385]
-			"19:47:09 - ML initialized!", -- [386]
-			"19:47:14 - Laru-Frostwolf (2.5.5) (nil)", -- [387]
-			"19:47:14 - ActivateSkin (new_blue)", -- [388]
-			"19:47:15 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [389]
-			"19:47:15 - GetML()", -- [390]
-			"19:47:15 - LootMethod =  (personalloot)", -- [391]
-			"19:47:15 - GetPlayersGuildRank()", -- [392]
-			"19:47:15 - Found Guild Rank: Raid Member", -- [393]
-			"19:47:15 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [394]
-			"19:48:43 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [395]
-			"19:49:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [396]
-			"19:50:33 - Comm received:^1^SverTest^T^N1^S2.5.2^t^^ (from:) (Milliau) (distri:) (GUILD)", -- [397]
-			"19:53:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardinia) (distri:) (GUILD)", -- [398]
-			"19:55:53 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [399]
-			"19:57:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Faramas) (distri:) (GUILD)", -- [400]
-			"09/30/17", -- [401]
-			"19:58:57 - Logged In", -- [402]
-			"19:58:57 - ML initialized!", -- [403]
-			"19:59:06 - Blaustrumpf-Frostwolf (2.5.5) (nil)", -- [404]
-			"19:59:06 - ActivateSkin (new_blue)", -- [405]
-			"19:59:07 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [406]
-			"19:59:07 - GetML()", -- [407]
-			"19:59:07 - LootMethod =  (personalloot)", -- [408]
-			"19:59:07 - GetPlayersGuildRank()", -- [409]
-			"19:59:07 - Found Guild Rank: Alt", -- [410]
-			"19:59:07 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Blaustrumpf) (distri:) (GUILD)", -- [411]
-			"19:59:07 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [412]
-			"19:59:07 - GetML()", -- [413]
-			"19:59:07 - LootMethod =  (personalloot)", -- [414]
-			"20:01:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [415]
-			"20:02:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardinia) (distri:) (GUILD)", -- [416]
-			"20:07:56 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [417]
-			"20:10:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [418]
-			"20:19:53 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [419]
-			"20:22:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [420]
-			"20:24:13 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [421]
-			"20:25:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [422]
-			"20:25:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [423]
-			"20:28:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [424]
-			"20:32:03 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [425]
-			"20:32:21 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Kargathas) (distri:) (GUILD)", -- [426]
-			"20:40:25 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [427]
-			"09/30/17", -- [428]
-			"21:11:24 - Logged In", -- [429]
-			"21:11:24 - ML initialized!", -- [430]
-			"21:11:28 - Laru-Frostwolf (2.5.5) (nil)", -- [431]
-			"21:11:28 - ActivateSkin (new_blue)", -- [432]
-			"21:11:29 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [433]
-			"21:11:29 - GetML()", -- [434]
-			"21:11:29 - LootMethod =  (personalloot)", -- [435]
-			"21:11:29 - GetPlayersGuildRank()", -- [436]
-			"21:11:29 - Found Guild Rank: Raid Member", -- [437]
-			"21:11:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [438]
-			"21:12:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [439]
-			"21:12:53 - GetML()", -- [440]
-			"21:12:53 - LootMethod =  (personalloot)", -- [441]
-			"21:13:24 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [442]
-			"21:13:24 - GetML()", -- [443]
-			"21:13:24 - LootMethod =  (personalloot)", -- [444]
-			"21:13:48 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [445]
-			"21:13:48 - GetML()", -- [446]
-			"21:13:48 - LootMethod =  (personalloot)", -- [447]
-			"21:13:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [448]
-			"21:13:52 - GetML()", -- [449]
-			"21:13:52 - LootMethod =  (personalloot)", -- [450]
-			"21:16:42 - Event: (ENCOUNTER_END) (1828) (General Xakal) (2) (5) (1)", -- [451]
-			"21:18:26 - Event: (ENCOUNTER_END) (1826) (Nal'tira) (2) (5) (1)", -- [452]
-			"21:18:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Chapman) (distri:) (GUILD)", -- [453]
-			"21:20:10 - Event: (ENCOUNTER_END) (1825) (Corstilax) (2) (5) (1)", -- [454]
-			"21:22:12 - Event: (ENCOUNTER_END) (1827) (Ivanyr) (2) (5) (1)", -- [455]
-			"21:24:36 - Event: (ENCOUNTER_END) (1829) (Advisor Vandros) (2) (5) (1)", -- [456]
-			"21:24:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shourija) (distri:) (GUILD)", -- [457]
-			"21:24:54 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [458]
-			"21:24:54 - GetML()", -- [459]
-			"21:24:54 - LootMethod =  (personalloot)", -- [460]
-			"21:26:59 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [461]
-			"21:28:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shourija) (distri:) (GUILD)", -- [462]
-			"21:32:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [463]
-			"21:34:07 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [464]
-			"21:35:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [465]
-			"21:38:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [466]
-			"21:40:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Voodini) (distri:) (GUILD)", -- [467]
-			"21:41:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [468]
-			"21:45:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [469]
-			"21:46:10 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [470]
-			"21:53:09 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [471]
-			"21:53:09 - GetML()", -- [472]
-			"21:53:09 - LootMethod =  (personalloot)", -- [473]
-			"21:54:45 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [474]
-			"21:54:45 - GetML()", -- [475]
-			"21:54:45 - LootMethod =  (personalloot)", -- [476]
-			"21:55:06 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Heroic)) (299094) (0) (0)", -- [477]
-			"21:55:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [478]
-			"21:55:06 - GetML()", -- [479]
-			"21:55:06 - LootMethod =  (personalloot)", -- [480]
-			"22:02:06 - Event: (ENCOUNTER_END) (2032) (Goroth) (15) (14) (1)", -- [481]
-			"22:04:53 - Event: (ENCOUNTER_END) (2048) (Demonic Inquisition) (15) (14) (0)", -- [482]
-			"22:08:37 - Event: (ENCOUNTER_END) (2048) (Demonic Inquisition) (15) (14) (1)", -- [483]
-			"22:08:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [484]
-			"22:10:50 - Event: (ENCOUNTER_END) (2036) (Harjatan) (15) (14) (0)", -- [485]
-			"22:14:23 - Event: (ENCOUNTER_END) (2036) (Harjatan) (15) (14) (1)", -- [486]
-			"22:16:47 - Event: (ENCOUNTER_END) (2037) (Mistress Sassz'ine) (15) (14) (0)", -- [487]
-			"22:17:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [488]
-			"22:21:10 - Event: (ENCOUNTER_END) (2037) (Mistress Sassz'ine) (15) (14) (1)", -- [489]
-			"22:24:21 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (15) (13) (0)", -- [490]
-			"22:25:12 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (15) (13) (0)", -- [491]
-			"22:25:43 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (15) (13) (0)", -- [492]
-			"22:32:07 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (15) (13) (1)", -- [493]
-			"22:40:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [494]
-			"22:46:02 - Event: (ENCOUNTER_END) (2054) (The Desolate Host) (15) (13) (1)", -- [495]
-			"22:56:31 - Event: (ENCOUNTER_END) (2052) (Maiden of Vigilance) (15) (13) (1)", -- [496]
-			"23:05:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [497]
-			"23:05:40 - Event: (ENCOUNTER_END) (2038) (Fallen Avatar) (15) (13) (1)", -- [498]
-			"23:21:15 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (13) (0)", -- [499]
-			"23:28:53 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [500]
-			"23:31:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shourija) (distri:) (GUILD)", -- [501]
-			"23:32:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [502]
-			"23:38:28 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (15) (0)", -- [503]
-			"23:40:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [504]
-			"23:40:37 - GetML()", -- [505]
-			"23:40:37 - LootMethod =  (personalloot)", -- [506]
-			"23:41:02 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [507]
-			"23:41:02 - GetML()", -- [508]
-			"23:41:02 - LootMethod =  (personalloot)", -- [509]
-			"23:41:59 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [510]
-			"23:41:59 - GetML()", -- [511]
-			"23:41:59 - LootMethod =  (personalloot)", -- [512]
-			"23:43:17 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Heroic)) (292602) (1) (0)", -- [513]
-			"23:43:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [514]
-			"23:43:18 - GetML()", -- [515]
-			"23:43:18 - LootMethod =  (personalloot)", -- [516]
-			"23:45:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Huntyö) (distri:) (GUILD)", -- [517]
-			"23:45:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [518]
-			"23:50:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [519]
-			"23:54:18 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [520]
-			"23:55:50 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (15) (0)", -- [521]
-			"23:59:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [522]
-			"00:00:34 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [523]
-			"00:03:54 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gyam) (distri:) (GUILD)", -- [524]
-			"00:04:57 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (16) (0)", -- [525]
-			"00:05:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [526]
-			"00:10:32 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [527]
-			"00:11:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [528]
-			"00:13:24 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (16) (1)", -- [529]
-			"00:14:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [530]
-			"00:14:22 - GetML()", -- [531]
-			"00:14:22 - LootMethod =  (personalloot)", -- [532]
-			"00:15:28 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [533]
-			"00:16:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Faramas) (distri:) (GUILD)", -- [534]
-			"00:16:40 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [535]
-			"00:16:40 - GetML()", -- [536]
-			"00:16:40 - LootMethod =  (personalloot)", -- [537]
-			"00:19:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [538]
-			"00:19:22 - GetML()", -- [539]
-			"00:19:22 - LootMethod =  (personalloot)", -- [540]
-			"00:19:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Adachi) (distri:) (GUILD)", -- [541]
-			"10/01/17", -- [542]
-			"10:33:03 - Logged In", -- [543]
-			"10:33:03 - ML initialized!", -- [544]
-			"10:33:08 - Laru-Frostwolf (2.5.5) (nil)", -- [545]
-			"10:33:08 - ActivateSkin (new_blue)", -- [546]
-			"10:33:09 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [547]
-			"10:33:09 - GetML()", -- [548]
-			"10:33:09 - LootMethod =  (personalloot)", -- [549]
-			"10:33:09 - GetPlayersGuildRank()", -- [550]
-			"10:33:09 - Found Guild Rank: Raid Member", -- [551]
-			"10:33:09 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [552]
-			"10:35:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [553]
-			"10:35:52 - GetML()", -- [554]
-			"10:35:52 - LootMethod =  (personalloot)", -- [555]
-			"10:36:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [556]
-			"10:36:22 - GetML()", -- [557]
-			"10:36:22 - LootMethod =  (personalloot)", -- [558]
-			"10:38:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [559]
-			"10:38:11 - GetML()", -- [560]
-			"10:38:11 - LootMethod =  (personalloot)", -- [561]
-			"10:40:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [562]
-			"10:40:51 - GetML()", -- [563]
-			"10:40:51 - LootMethod =  (personalloot)", -- [564]
-			"10:41:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [565]
-			"10:41:11 - GetML()", -- [566]
-			"10:41:11 - LootMethod =  (personalloot)", -- [567]
-			"10:41:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [568]
-			"10:41:42 - GetML()", -- [569]
-			"10:41:42 - LootMethod =  (personalloot)", -- [570]
-			"10:51:00 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (Snorkidk) (distri:) (GUILD)", -- [571]
-			"11:09:15 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [572]
-			"11:23:04 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [573]
-			"11:23:04 - GetML()", -- [574]
-			"11:23:04 - LootMethod =  (personalloot)", -- [575]
-			"11:28:32 - Event: (RAID_INSTANCE_WELCOME) (The Emerald Nightmare (Normal)) (250288) (0) (0)", -- [576]
-			"11:28:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [577]
-			"11:28:32 - GetML()", -- [578]
-			"11:28:32 - LootMethod =  (personalloot)", -- [579]
-			"11:31:05 - Event: (ENCOUNTER_END) (1853) (Nythendra) (14) (15) (1)", -- [580]
-			"11:36:40 - Event: (ENCOUNTER_END) (1841) (Ursoc) (14) (15) (1)", -- [581]
-			"11:39:16 - Event: (ENCOUNTER_END) (1854) (Dragons of Nightmare) (14) (15) (1)", -- [582]
-			"11:42:05 - Event: (ENCOUNTER_END) (1876) (Elerethe Renferal) (14) (15) (1)", -- [583]
-			"11:46:38 - Event: (ENCOUNTER_END) (1873) (Il'gynoth, The Heart of Corruption) (14) (15) (1)", -- [584]
-			"11:50:13 - Event: (ENCOUNTER_END) (1877) (Cenarius) (14) (13) (1)", -- [585]
-			"11:53:52 - Event: (ENCOUNTER_END) (1864) (Xavius) (14) (13) (1)", -- [586]
-			"11:54:49 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [587]
-			"11:54:49 - GetML()", -- [588]
-			"11:54:49 - LootMethod =  (personalloot)", -- [589]
-			"11:55:38 - Event: (RAID_INSTANCE_WELCOME) (The Emerald Nightmare (Heroic)) (248661) (0) (0)", -- [590]
-			"11:55:38 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [591]
-			"11:55:38 - GetML()", -- [592]
-			"11:55:38 - LootMethod =  (personalloot)", -- [593]
-			"11:55:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [594]
-			"11:58:39 - Event: (ENCOUNTER_END) (1853) (Nythendra) (15) (12) (1)", -- [595]
-			"12:03:09 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [596]
-			"12:04:39 - Event: (ENCOUNTER_END) (1841) (Ursoc) (15) (12) (1)", -- [597]
-			"12:07:33 - Event: (ENCOUNTER_END) (1854) (Dragons of Nightmare) (15) (12) (1)", -- [598]
-			"12:10:50 - Event: (ENCOUNTER_END) (1876) (Elerethe Renferal) (15) (12) (1)", -- [599]
-			"12:12:26 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [600]
-			"12:15:44 - Event: (ENCOUNTER_END) (1873) (Il'gynoth, The Heart of Corruption) (15) (12) (1)", -- [601]
-			"10/01/17", -- [602]
-			"12:18:18 - Logged In", -- [603]
-			"12:18:18 - ML initialized!", -- [604]
-			"12:18:21 - Laru-Frostwolf (2.5.5) (nil)", -- [605]
-			"12:18:21 - ActivateSkin (new_blue)", -- [606]
-			"12:18:22 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [607]
-			"12:18:22 - GetML()", -- [608]
-			"12:18:22 - LootMethod =  (personalloot)", -- [609]
-			"12:18:22 - GetPlayersGuildRank()", -- [610]
-			"12:18:22 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [611]
-			"12:18:22 - GetML()", -- [612]
-			"12:18:22 - LootMethod =  (personalloot)", -- [613]
-			"12:18:23 - GetPlayersGuildRank()", -- [614]
-			"12:18:23 - Found Guild Rank: Raid Member", -- [615]
-			"12:18:23 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [616]
-			"12:20:19 - Event: (ENCOUNTER_END) (1877) (Cenarius) (15) (12) (1)", -- [617]
-			"12:22:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [618]
-			"12:25:10 - Event: (ENCOUNTER_END) (1864) (Xavius) (15) (12) (1)", -- [619]
-			"12:25:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [620]
-			"12:25:57 - GetML()", -- [621]
-			"12:25:57 - LootMethod =  (personalloot)", -- [622]
-			"12:30:07 - Event: (RAID_INSTANCE_WELCOME) (Trial of Valor (Heroic)) (246592) (0) (0)", -- [623]
-			"12:30:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [624]
-			"12:30:07 - GetML()", -- [625]
-			"12:30:07 - LootMethod =  (personalloot)", -- [626]
-			"12:30:29 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [627]
-			"12:30:29 - GetML()", -- [628]
-			"12:30:29 - LootMethod =  (personalloot)", -- [629]
-			"12:31:55 - Event: (RAID_INSTANCE_WELCOME) (Trial of Valor (Normal)) (246484) (0) (0)", -- [630]
-			"12:31:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [631]
-			"12:31:56 - GetML()", -- [632]
-			"12:31:56 - LootMethod =  (personalloot)", -- [633]
-			"12:36:46 - Event: (ENCOUNTER_END) (1958) (Odyn) (14) (17) (1)", -- [634]
-			"12:40:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [635]
-			"12:41:17 - Event: (ENCOUNTER_END) (1962) (Guarm) (14) (17) (1)", -- [636]
-			"12:45:38 - Event: (ENCOUNTER_END) (2008) (Helya) (14) (17) (1)", -- [637]
-			"12:46:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [638]
-			"12:46:01 - GetML()", -- [639]
-			"12:46:01 - LootMethod =  (personalloot)", -- [640]
-			"12:46:23 - Event: (RAID_INSTANCE_WELCOME) (Trial of Valor (Heroic)) (245616) (0) (0)", -- [641]
-			"12:46:23 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [642]
-			"12:46:23 - GetML()", -- [643]
-			"12:46:23 - LootMethod =  (personalloot)", -- [644]
-			"12:51:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Eowyndra) (distri:) (GUILD)", -- [645]
-			"12:52:04 - Comm received:^1^SverTest^T^N1^S2.5.2^t^^ (from:) (Milliau) (distri:) (GUILD)", -- [646]
-			"12:53:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [647]
-			"12:54:17 - Event: (ENCOUNTER_END) (1958) (Odyn) (15) (14) (1)", -- [648]
-			"13:00:02 - Event: (ENCOUNTER_END) (1962) (Guarm) (15) (14) (1)", -- [649]
-			"13:05:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Ypzo) (distri:) (GUILD)", -- [650]
-			"13:05:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Neruat) (distri:) (GUILD)", -- [651]
-			"13:06:49 - Event: (ENCOUNTER_END) (2008) (Helya) (15) (14) (1)", -- [652]
-			"13:07:47 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [653]
-			"13:07:47 - GetML()", -- [654]
-			"13:07:47 - LootMethod =  (personalloot)", -- [655]
-			"13:08:02 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [656]
-			"13:08:02 - GetML()", -- [657]
-			"13:08:02 - LootMethod =  (personalloot)", -- [658]
-			"13:10:43 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [659]
-			"13:14:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Profit) (distri:) (GUILD)", -- [660]
-			"13:15:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [661]
-			"13:20:32 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [662]
-			"13:20:32 - GetML()", -- [663]
-			"13:20:32 - LootMethod =  (personalloot)", -- [664]
-			"13:23:06 - Event: (RAID_INSTANCE_WELCOME) (The Nighthold (Heroic)) (243414) (0) (0)", -- [665]
-			"13:23:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [666]
-			"13:23:07 - GetML()", -- [667]
-			"13:23:07 - LootMethod =  (personalloot)", -- [668]
-			"13:23:27 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [669]
-			"13:28:21 - Event: (ENCOUNTER_END) (1849) (Skorpyron) (15) (30) (1)", -- [670]
-			"13:32:14 - Event: (ENCOUNTER_END) (1865) (Chronomatic Anomaly) (15) (30) (1)", -- [671]
-			"13:34:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [672]
-			"13:35:35 - Event: (ENCOUNTER_END) (1867) (Trilliax) (15) (30) (1)", -- [673]
-			"13:37:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Greenthumbs) (distri:) (GUILD)", -- [674]
-			"13:40:35 - Event: (ENCOUNTER_END) (1871) (Spellblade Aluriel) (15) (29) (1)", -- [675]
-			"13:43:20 - Comm received:^1^SverTest^T^N1^S2.5.2^t^^ (from:) (Milliau) (distri:) (GUILD)", -- [676]
-			"13:44:54 - Event: (ENCOUNTER_END) (1862) (Tichondrius) (15) (28) (0)", -- [677]
-			"13:45:36 - Event: (ENCOUNTER_END) (1862) (Tichondrius) (15) (28) (0)", -- [678]
-			"13:48:03 - Event: (ENCOUNTER_END) (1862) (Tichondrius) (15) (29) (1)", -- [679]
-			"13:50:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [680]
-			"13:51:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bloodiv) (distri:) (GUILD)", -- [681]
-			"13:53:52 - Event: (ENCOUNTER_END) (1842) (Krosus) (15) (28) (1)", -- [682]
-			"13:56:12 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [683]
-			"13:57:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jaman) (distri:) (GUILD)", -- [684]
-			"14:00:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Ypzo) (distri:) (GUILD)", -- [685]
-			"14:00:12 - Event: (ENCOUNTER_END) (1863) (Star Augur Etraeus) (15) (27) (1)", -- [686]
-			"14:02:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriko) (distri:) (GUILD)", -- [687]
-			"14:06:32 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [688]
-			"14:06:33 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [689]
-			"14:06:59 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [690]
-			"14:07:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [691]
-			"14:09:05 - Event: (ENCOUNTER_END) (1886) (High Botanist Tel'arn) (15) (29) (1)", -- [692]
-			"14:09:37 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Imapaloldin) (distri:) (GUILD)", -- [693]
-			"14:12:18 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jaman) (distri:) (GUILD)", -- [694]
-			"14:14:59 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [695]
-			"14:16:59 - Event: (ENCOUNTER_END) (1872) (Grand Magistrix Elisande) (15) (30) (1)", -- [696]
-			"14:18:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiee) (distri:) (GUILD)", -- [697]
-			"14:22:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Monkdiv) (distri:) (GUILD)", -- [698]
-			"14:24:31 - Event: (ENCOUNTER_END) (1866) (Gul'dan) (15) (28) (1)", -- [699]
-			"14:25:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [700]
-			"14:25:01 - GetML()", -- [701]
-			"14:25:01 - LootMethod =  (personalloot)", -- [702]
-			"14:25:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [703]
-			"14:25:26 - GetML()", -- [704]
-			"14:25:26 - LootMethod =  (personalloot)", -- [705]
-			"14:26:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [706]
-			"14:28:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [707]
-			"14:28:28 - GetML()", -- [708]
-			"14:28:28 - LootMethod =  (personalloot)", -- [709]
-			"14:28:42 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [710]
-			"14:31:54 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Profit) (distri:) (GUILD)", -- [711]
-			"14:33:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bloodiv) (distri:) (GUILD)", -- [712]
-			"14:34:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [713]
-			"14:35:14 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Imapaloldin) (distri:) (GUILD)", -- [714]
-			"14:35:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiee) (distri:) (GUILD)", -- [715]
-			"14:35:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [716]
-			"14:41:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [717]
-			"14:47:08 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [718]
-			"14:57:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Greenthumbs) (distri:) (GUILD)", -- [719]
-			"15:00:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [720]
-			"10/01/17", -- [721]
-			"15:49:55 - Logged In", -- [722]
-			"15:49:55 - ML initialized!", -- [723]
-			"15:50:04 - Laru-Frostwolf (2.5.5) (nil)", -- [724]
-			"15:50:04 - ActivateSkin (new_blue)", -- [725]
-			"15:50:05 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [726]
-			"15:50:05 - GetML()", -- [727]
-			"15:50:05 - LootMethod =  (personalloot)", -- [728]
-			"15:50:05 - GetPlayersGuildRank()", -- [729]
-			"15:50:05 - Found Guild Rank: Raid Member", -- [730]
-			"15:50:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [731]
-			"10/01/17", -- [732]
-			"15:52:57 - Logged In", -- [733]
-			"15:52:57 - ML initialized!", -- [734]
-			"15:53:07 - Laru-Frostwolf (2.5.5) (nil)", -- [735]
-			"15:53:07 - ActivateSkin (new_blue)", -- [736]
-			"15:53:07 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [737]
-			"15:53:07 - GetML()", -- [738]
-			"15:53:07 - LootMethod =  (personalloot)", -- [739]
-			"15:53:08 - GetPlayersGuildRank()", -- [740]
-			"15:53:08 - Found Guild Rank: Raid Member", -- [741]
-			"15:53:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [742]
-			"15:56:17 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [743]
-			"15:56:17 - GetML()", -- [744]
-			"15:56:17 - LootMethod =  (personalloot)", -- [745]
-			"15:59:06 - Event: (RAID_INSTANCE_WELCOME) (The Nighthold (Normal)) (234053) (0) (0)", -- [746]
-			"15:59:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [747]
-			"15:59:07 - GetML()", -- [748]
-			"15:59:07 - LootMethod =  (personalloot)", -- [749]
-			"15:59:23 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [750]
-			"16:03:30 - Event: (ENCOUNTER_END) (1849) (Skorpyron) (14) (14) (1)", -- [751]
-			"16:06:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [752]
-			"16:07:46 - Event: (ENCOUNTER_END) (1865) (Chronomatic Anomaly) (14) (14) (1)", -- [753]
-			"16:11:17 - Event: (ENCOUNTER_END) (1867) (Trilliax) (14) (14) (1)", -- [754]
-			"16:11:36 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (Snorkidk) (distri:) (GUILD)", -- [755]
-			"16:12:24 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Ypzo) (distri:) (GUILD)", -- [756]
-			"16:16:20 - Event: (ENCOUNTER_END) (1871) (Spellblade Aluriel) (14) (14) (1)", -- [757]
-			"16:20:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [758]
-			"16:23:29 - Event: (ENCOUNTER_END) (1862) (Tichondrius) (14) (14) (1)", -- [759]
-			"16:30:03 - Event: (ENCOUNTER_END) (1842) (Krosus) (14) (14) (1)", -- [760]
-			"16:36:11 - Event: (ENCOUNTER_END) (1863) (Star Augur Etraeus) (14) (13) (1)", -- [761]
-			"16:36:36 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bêlya) (distri:) (GUILD)", -- [762]
-			"16:42:29 - Event: (ENCOUNTER_END) (1886) (High Botanist Tel'arn) (14) (13) (1)", -- [763]
-			"16:46:34 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (Snorkidk) (distri:) (GUILD)", -- [764]
-			"16:50:54 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [765]
-			"16:51:06 - Event: (ENCOUNTER_END) (1872) (Grand Magistrix Elisande) (14) (12) (1)", -- [766]
-			"16:56:56 - Event: (ENCOUNTER_END) (1866) (Gul'dan) (14) (12) (1)", -- [767]
-			"16:57:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [768]
-			"16:57:18 - GetML()", -- [769]
-			"16:57:18 - LootMethod =  (personalloot)", -- [770]
-			"16:58:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [771]
-			"16:58:06 - GetML()", -- [772]
-			"16:58:06 - LootMethod =  (personalloot)", -- [773]
-			"16:59:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [774]
-			"17:00:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [775]
-			"17:00:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [776]
-			"17:00:52 - GetML()", -- [777]
-			"17:00:52 - LootMethod =  (personalloot)", -- [778]
-			"17:01:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Ypzo) (distri:) (GUILD)", -- [779]
-			"17:02:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [780]
-			"10/01/17", -- [781]
-			"17:08:41 - Logged In", -- [782]
-			"17:08:41 - ML initialized!", -- [783]
-			"17:08:50 - Laru-Frostwolf (2.5.5) (nil)", -- [784]
-			"17:08:50 - ActivateSkin (new_blue)", -- [785]
-			"17:08:51 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [786]
-			"17:08:51 - GetML()", -- [787]
-			"17:08:51 - LootMethod =  (personalloot)", -- [788]
-			"17:08:52 - GetPlayersGuildRank()", -- [789]
-			"17:08:52 - Found Guild Rank: Raid Member", -- [790]
-			"17:08:52 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [791]
-			"17:10:37 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [792]
-			"17:10:37 - GetML()", -- [793]
-			"17:10:37 - LootMethod =  (personalloot)", -- [794]
-			"17:14:55 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Normal)) (229504) (0) (0)", -- [795]
-			"17:14:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [796]
-			"17:14:56 - GetML()", -- [797]
-			"17:14:56 - LootMethod =  (personalloot)", -- [798]
-			"17:22:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [799]
-			"17:25:10 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [800]
-			"17:29:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [801]
-			"17:31:34 - Event: (ENCOUNTER_END) (2032) (Goroth) (14) (16) (1)", -- [802]
-			"17:33:10 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shourija) (distri:) (GUILD)", -- [803]
-			"17:36:32 - Event: (ENCOUNTER_END) (2048) (Demonic Inquisition) (14) (16) (1)", -- [804]
-			"17:40:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Huntyö) (distri:) (GUILD)", -- [805]
-			"17:41:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [806]
-			"17:41:42 - Event: (ENCOUNTER_END) (2036) (Harjatan) (14) (15) (1)", -- [807]
-			"17:43:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Hàklqt) (distri:) (GUILD)", -- [808]
-			"17:47:19 - Event: (ENCOUNTER_END) (2037) (Mistress Sassz'ine) (14) (15) (1)", -- [809]
-			"17:52:13 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (14) (16) (0)", -- [810]
-			"17:56:21 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (14) (16) (1)", -- [811]
-			"17:58:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [812]
-			"18:01:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [813]
-			"18:04:40 - Event: (ENCOUNTER_END) (2054) (The Desolate Host) (14) (16) (1)", -- [814]
-			"18:06:52 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [815]
-			"18:10:52 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Vycleas) (distri:) (GUILD)", -- [816]
-			"18:13:02 - Event: (ENCOUNTER_END) (2052) (Maiden of Vigilance) (14) (16) (1)", -- [817]
-			"18:21:27 - Event: (ENCOUNTER_END) (2038) (Fallen Avatar) (14) (16) (1)", -- [818]
-			"18:22:00 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [819]
-			"18:26:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [820]
-			"18:29:52 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [821]
-			"18:31:48 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (14) (16) (1)", -- [822]
-			"18:32:14 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [823]
-			"18:32:14 - GetML()", -- [824]
-			"18:32:14 - LootMethod =  (personalloot)", -- [825]
-			"18:48:30 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [826]
-			"18:52:46 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [827]
-			"18:54:46 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Hàklqt) (distri:) (GUILD)", -- [828]
-			"18:58:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [829]
-			"18:58:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Grogoll) (distri:) (GUILD)", -- [830]
-			"10/01/17", -- [831]
-			"19:08:46 - Logged In", -- [832]
-			"19:08:46 - ML initialized!", -- [833]
-			"19:08:56 - Laru-Frostwolf (2.5.5) (nil)", -- [834]
-			"19:08:56 - ActivateSkin (new_blue)", -- [835]
-			"19:08:57 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [836]
-			"19:08:57 - GetML()", -- [837]
-			"19:08:57 - LootMethod =  (personalloot)", -- [838]
-			"19:08:57 - GetPlayersGuildRank()", -- [839]
-			"19:08:57 - Found Guild Rank: Raid Member", -- [840]
-			"19:08:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [841]
-			"19:11:48 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [842]
-			"19:11:48 - GetML()", -- [843]
-			"19:11:48 - LootMethod =  (personalloot)", -- [844]
-			"19:16:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [845]
-			"19:17:36 - Event: (RAID_INSTANCE_WELCOME) (Assault on Violet Hold (Mythic)) (222145) (0) (0)", -- [846]
-			"19:17:36 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [847]
-			"19:17:36 - GetML()", -- [848]
-			"19:17:36 - LootMethod =  (personalloot)", -- [849]
-			"19:18:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [850]
-			"19:18:42 - GetML()", -- [851]
-			"19:18:42 - LootMethod =  (personalloot)", -- [852]
-			"19:19:45 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [853]
-			"19:19:45 - GetML()", -- [854]
-			"19:19:45 - LootMethod =  (personalloot)", -- [855]
-			"19:19:56 - Event: (RAID_INSTANCE_WELCOME) (Assault on Violet Hold (Mythic)) (222003) (0) (0)", -- [856]
-			"19:19:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [857]
-			"19:19:57 - GetML()", -- [858]
-			"19:19:57 - LootMethod =  (personalloot)", -- [859]
-			"19:22:56 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [860]
-			"19:23:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [861]
-			"19:24:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [862]
-			"19:25:57 - Event: (ENCOUNTER_END) (1848) (Festerface) (23) (5) (1)", -- [863]
-			"19:30:07 - Event: (ENCOUNTER_END) (1846) (Mindflayer Kaahrj) (23) (5) (1)", -- [864]
-			"19:33:50 - Event: (ENCOUNTER_END) (1856) (Fel Lord Betrug) (23) (5) (1)", -- [865]
-			"19:34:14 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [866]
-			"19:34:14 - GetML()", -- [867]
-			"19:34:14 - LootMethod =  (personalloot)", -- [868]
-			"19:39:17 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [869]
-			"19:39:17 - GetML()", -- [870]
-			"19:39:17 - LootMethod =  (personalloot)", -- [871]
-			"19:43:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [872]
-			"19:44:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Locura) (distri:) (GUILD)", -- [873]
-			"19:45:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lenalya) (distri:) (GUILD)", -- [874]
-			"19:47:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [875]
-			"19:50:58 - Event: (RAID_INSTANCE_WELCOME) (Eye of Azshara (Mythic)) (220141) (0) (0)", -- [876]
-			"19:50:58 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [877]
-			"19:50:58 - GetML()", -- [878]
-			"19:50:58 - LootMethod =  (personalloot)", -- [879]
-			"19:51:37 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardinia) (distri:) (GUILD)", -- [880]
-			"19:51:57 - Event: (ENCOUNTER_END) (1810) (Warlord Parjesh) (23) (5) (1)", -- [881]
-			"19:53:57 - Event: (ENCOUNTER_END) (1811) (Lady Hatecoil) (23) (5) (1)", -- [882]
-			"19:55:11 - Event: (ENCOUNTER_END) (1813) (Serpentrix) (23) (5) (1)", -- [883]
-			"19:57:58 - Event: (ENCOUNTER_END) (1812) (King Deepbeard) (23) (5) (1)", -- [884]
-			"19:58:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fluffypillow) (distri:) (GUILD)", -- [885]
-			"19:59:46 - Event: (ENCOUNTER_END) (1814) (Wrath of Azshara) (23) (5) (1)", -- [886]
-			"20:01:40 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [887]
-			"20:01:40 - GetML()", -- [888]
-			"20:01:40 - LootMethod =  (personalloot)", -- [889]
-			"20:02:13 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [890]
-			"20:03:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bullwârk) (distri:) (GUILD)", -- [891]
-			"20:07:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [892]
-			"20:12:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gárdor) (distri:) (GUILD)", -- [893]
-			"20:17:04 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Faramas) (distri:) (GUILD)", -- [894]
-			"20:30:30 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [895]
-			"20:30:30 - GetML()", -- [896]
-			"20:30:30 - LootMethod =  (personalloot)", -- [897]
-			"20:34:12 - Event: (RAID_INSTANCE_WELCOME) (Darkheart Thicket (Mythic)) (217547) (0) (0)", -- [898]
-			"20:34:12 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [899]
-			"20:34:12 - GetML()", -- [900]
-			"20:34:12 - LootMethod =  (personalloot)", -- [901]
-			"20:37:51 - Event: (ENCOUNTER_END) (1836) (Archdruid Glaidalis) (23) (5) (1)", -- [902]
-			"20:38:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lenalya) (distri:) (GUILD)", -- [903]
-			"20:41:38 - Event: (ENCOUNTER_END) (1837) (Oakheart) (23) (5) (1)", -- [904]
-			"20:44:01 - Event: (ENCOUNTER_END) (1838) (Dresaron) (23) (5) (1)", -- [905]
-			"20:46:58 - Event: (ENCOUNTER_END) (1839) (Shade of Xavius) (23) (5) (1)", -- [906]
-			"20:47:33 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [907]
-			"20:47:33 - GetML()", -- [908]
-			"20:47:33 - LootMethod =  (personalloot)", -- [909]
-			"21:00:33 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [910]
-			"21:00:33 - GetML()", -- [911]
-			"21:00:33 - LootMethod =  (personalloot)", -- [912]
-			"21:02:22 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [913]
-			"21:06:39 - Event: (RAID_INSTANCE_WELCOME) (Halls of Valor (Mythic)) (215600) (0) (0)", -- [914]
-			"21:06:39 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [915]
-			"21:06:39 - GetML()", -- [916]
-			"21:06:39 - LootMethod =  (personalloot)", -- [917]
-			"21:08:01 - Event: (ENCOUNTER_END) (1805) (Hymdall) (23) (5) (1)", -- [918]
-			"21:09:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [919]
-			"21:09:26 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [920]
-			"21:10:36 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Kargathas) (distri:) (GUILD)", -- [921]
-			"21:11:43 - Event: (ENCOUNTER_END) (1806) (Hyrja) (23) (5) (1)", -- [922]
-			"21:12:09 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Locura) (distri:) (GUILD)", -- [923]
-			"21:14:09 - Event: (ENCOUNTER_END) (1807) (Fenryr) (23) (5) (0)", -- [924]
-			"21:14:55 - Event: (ENCOUNTER_END) (1807) (Fenryr) (23) (5) (1)", -- [925]
-			"21:15:26 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [926]
-			"21:18:39 - Event: (ENCOUNTER_END) (1808) (God-King Skovald) (23) (5) (1)", -- [927]
-			"21:20:06 - Event: (ENCOUNTER_END) (1809) (Odyn) (23) (5) (1)", -- [928]
-			"21:20:34 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [929]
-			"21:20:34 - GetML()", -- [930]
-			"21:20:34 - LootMethod =  (personalloot)", -- [931]
-			"21:25:00 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [932]
-			"21:25:00 - GetML()", -- [933]
-			"21:25:00 - LootMethod =  (personalloot)", -- [934]
-			"21:25:19 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [935]
-			"21:25:19 - GetML()", -- [936]
-			"21:25:19 - LootMethod =  (personalloot)", -- [937]
-			"21:25:29 - Event: (RAID_INSTANCE_WELCOME) (Neltharion's Lair (Mythic)) (214470) (0) (0)", -- [938]
-			"21:25:30 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [939]
-			"21:25:30 - GetML()", -- [940]
-			"21:25:30 - LootMethod =  (personalloot)", -- [941]
-			"21:27:30 - Event: (ENCOUNTER_END) (1790) (Rokmora) (23) (5) (0)", -- [942]
-			"21:28:28 - Event: (ENCOUNTER_END) (1790) (Rokmora) (23) (5) (1)", -- [943]
-			"21:32:10 - Event: (ENCOUNTER_END) (1791) (Ularogg Cragshaper) (23) (5) (1)", -- [944]
-			"21:34:02 - Event: (ENCOUNTER_END) (1792) (Naraxas) (23) (5) (1)", -- [945]
-			"21:36:12 - Event: (ENCOUNTER_END) (1793) (Dargrul the Underking) (23) (5) (1)", -- [946]
-			"21:36:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [947]
-			"21:36:32 - GetML()", -- [948]
-			"21:36:32 - LootMethod =  (personalloot)", -- [949]
-			"21:46:22 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [950]
-			"21:53:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lardeck) (distri:) (GUILD)", -- [951]
-			"21:56:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gárdor) (distri:) (GUILD)", -- [952]
-			"22:02:30 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [953]
-			"10/01/17", -- [954]
-			"23:22:49 - Logged In", -- [955]
-			"23:22:49 - ML initialized!", -- [956]
-			"23:22:53 - Laruchan-Frostwolf (2.5.5) (nil)", -- [957]
-			"23:22:53 - ActivateSkin (new_blue)", -- [958]
-			"23:22:54 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [959]
-			"23:22:54 - GetML()", -- [960]
-			"23:22:54 - LootMethod =  (personalloot)", -- [961]
-			"23:22:54 - GetPlayersGuildRank()", -- [962]
-			"23:22:54 - Found Guild Rank: Alt", -- [963]
-			"23:22:54 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laruchan) (distri:) (GUILD)", -- [964]
-			"23:23:17 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [965]
-			"23:23:17 - GetML()", -- [966]
-			"23:23:17 - LootMethod =  (personalloot)", -- [967]
-			"23:28:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [968]
-			"23:28:26 - GetML()", -- [969]
-			"23:28:26 - LootMethod =  (personalloot)", -- [970]
-			"10/01/17", -- [971]
-			"23:30:20 - Logged In", -- [972]
-			"23:30:20 - ML initialized!", -- [973]
-			"23:30:21 - Laruchan-Frostwolf (2.5.5) (nil)", -- [974]
-			"23:30:21 - ActivateSkin (new_blue)", -- [975]
-			"23:30:22 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [976]
-			"23:30:22 - GetML()", -- [977]
-			"23:30:22 - LootMethod =  (personalloot)", -- [978]
-			"23:30:22 - GetPlayersGuildRank()", -- [979]
-			"23:30:22 - Found Guild Rank: Alt", -- [980]
-			"23:30:23 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laruchan) (distri:) (GUILD)", -- [981]
-			"10/01/17", -- [982]
-			"23:31:40 - Logged In", -- [983]
-			"23:31:40 - ML initialized!", -- [984]
-			"23:31:48 - Laruchan-Frostwolf (2.5.5) (nil)", -- [985]
-			"23:31:48 - ActivateSkin (new_blue)", -- [986]
-			"23:31:48 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [987]
-			"23:31:48 - GetML()", -- [988]
-			"23:31:48 - LootMethod =  (personalloot)", -- [989]
-			"23:31:49 - GetPlayersGuildRank()", -- [990]
-			"23:31:49 - Found Guild Rank: Alt", -- [991]
-			"23:31:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laruchan) (distri:) (GUILD)", -- [992]
-			"23:31:49 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [993]
-			"23:31:49 - GetML()", -- [994]
-			"23:31:49 - LootMethod =  (personalloot)", -- [995]
-			"10/01/17", -- [996]
-			"23:32:02 - Logged In", -- [997]
-			"23:32:02 - ML initialized!", -- [998]
-			"23:32:02 - Laruchan-Frostwolf (2.5.5) (nil)", -- [999]
-			"23:32:02 - ActivateSkin (new_blue)", -- [1000]
-			"23:32:03 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1001]
-			"23:32:03 - GetML()", -- [1002]
-			"23:32:03 - LootMethod =  (personalloot)", -- [1003]
-			"23:32:03 - GetPlayersGuildRank()", -- [1004]
-			"23:32:03 - Found Guild Rank: Alt", -- [1005]
-			"23:32:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laruchan) (distri:) (GUILD)", -- [1006]
-			"10/01/17", -- [1007]
-			"23:32:13 - Logged In", -- [1008]
-			"23:32:13 - ML initialized!", -- [1009]
-			"23:32:16 - Bizzl-Frostwolf (2.5.5) (nil)", -- [1010]
-			"23:32:16 - ActivateSkin (new_blue)", -- [1011]
-			"23:32:17 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1012]
-			"23:32:17 - GetML()", -- [1013]
-			"23:32:17 - LootMethod =  (personalloot)", -- [1014]
-			"23:32:17 - GetPlayersGuildRank()", -- [1015]
-			"23:32:17 - Found Guild Rank: Alt", -- [1016]
-			"23:32:17 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bizzl) (distri:) (GUILD)", -- [1017]
-			"23:32:39 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1018]
-			"23:32:39 - GetML()", -- [1019]
-			"23:32:39 - LootMethod =  (personalloot)", -- [1020]
-			"23:32:45 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1021]
-			"23:32:45 - GetML()", -- [1022]
-			"23:32:45 - LootMethod =  (personalloot)", -- [1023]
-			"23:32:54 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1024]
-			"23:32:54 - GetML()", -- [1025]
-			"23:32:54 - LootMethod =  (personalloot)", -- [1026]
-			"23:39:50 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [1027]
+			"14:23:47 - GetML()", -- [1]
+			"14:23:47 - LootMethod =  (personalloot)", -- [2]
+			"14:25:24 - Event: (RAID_INSTANCE_WELCOME) (Return to Karazhan (Mythic)) (326075) (0) (0)", -- [3]
+			"14:25:25 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [4]
+			"14:25:25 - GetML()", -- [5]
+			"14:25:25 - LootMethod =  (personalloot)", -- [6]
+			"14:26:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [7]
+			"14:27:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [8]
+			"14:28:44 - Event: (ENCOUNTER_END) (1957) (Opera Hall) (23) (5) (1)", -- [9]
+			"14:29:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [10]
+			"14:31:37 - Event: (ENCOUNTER_END) (1954) (Maiden of Virtue) (23) (5) (1)", -- [11]
+			"14:33:26 - Event: (ENCOUNTER_END) (1961) (Moroes) (23) (5) (1)", -- [12]
+			"14:34:49 - Event: (ENCOUNTER_END) (1960) (Attumen the Huntsman) (23) (5) (1)", -- [13]
+			"14:39:06 - Event: (ENCOUNTER_END) (1964) (The Curator) (23) (5) (1)", -- [14]
+			"14:43:22 - Event: (ENCOUNTER_END) (2031) (Nightbane) (23) (5) (1)", -- [15]
+			"14:44:10 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [16]
+			"14:44:10 - GetML()", -- [17]
+			"14:44:10 - LootMethod =  (personalloot)", -- [18]
+			"14:44:15 - Event: (RAID_INSTANCE_WELCOME) (Return to Karazhan (Mythic)) (324944) (1) (0)", -- [19]
+			"14:44:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [20]
+			"14:44:15 - GetML()", -- [21]
+			"14:44:15 - LootMethod =  (personalloot)", -- [22]
+			"14:45:47 - Event: (ENCOUNTER_END) (1965) (Shade of Medivh) (23) (5) (1)", -- [23]
+			"14:47:45 - Event: (ENCOUNTER_END) (1959) (Mana Devourer) (23) (5) (1)", -- [24]
+			"14:51:46 - Event: (ENCOUNTER_END) (2017) (Viz'aduum the Watcher) (23) (5) (1)", -- [25]
+			"14:52:39 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [26]
+			"14:52:39 - GetML()", -- [27]
+			"14:52:39 - LootMethod =  (personalloot)", -- [28]
+			"14:53:30 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [29]
+			"14:53:30 - GetML()", -- [30]
+			"14:53:30 - LootMethod =  (personalloot)", -- [31]
+			"14:54:34 - Event: (RAID_INSTANCE_WELCOME) (Seat of the Triumvirate (Mythic)) (324325) (0) (0)", -- [32]
+			"14:54:34 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [33]
+			"14:54:34 - GetML()", -- [34]
+			"14:54:34 - LootMethod =  (personalloot)", -- [35]
+			"14:56:04 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [36]
+			"14:56:29 - Event: (ENCOUNTER_END) (2065) (Zuraal the Ascended) (23) (5) (1)", -- [37]
+			"15:04:00 - Event: (ENCOUNTER_END) (2066) (Saprish) (23) (5) (1)", -- [38]
+			"15:06:27 - Event: (ENCOUNTER_END) (2067) (Viceroy Nezhar) (23) (5) (1)", -- [39]
+			"15:08:39 - Event: (ENCOUNTER_END) (2068) (L'ura) (23) (5) (1)", -- [40]
+			"15:08:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [41]
+			"15:09:05 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [42]
+			"15:09:05 - GetML()", -- [43]
+			"15:09:05 - LootMethod =  (personalloot)", -- [44]
+			"15:10:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [45]
+			"15:10:28 - GetML()", -- [46]
+			"15:10:28 - LootMethod =  (personalloot)", -- [47]
+			"15:11:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [48]
+			"15:11:26 - GetML()", -- [49]
+			"15:11:26 - LootMethod =  (personalloot)", -- [50]
+			"15:16:21 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [51]
+			"15:19:57 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [52]
+			"15:19:57 - GetML()", -- [53]
+			"15:19:57 - LootMethod =  (personalloot)", -- [54]
+			"15:23:35 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [55]
+			"15:27:34 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Neruat) (distri:) (GUILD)", -- [56]
+			"15:27:35 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [57]
+			"15:27:35 - GetML()", -- [58]
+			"15:27:35 - LootMethod =  (personalloot)", -- [59]
+			"15:35:29 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [60]
+			"15:35:29 - GetML()", -- [61]
+			"15:35:29 - LootMethod =  (personalloot)", -- [62]
+			"15:35:32 - Event: (RAID_INSTANCE_WELCOME) (Seat of the Triumvirate (Heroic)) (62667) (0) (0)", -- [63]
+			"15:35:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [64]
+			"15:35:32 - GetML()", -- [65]
+			"15:35:32 - LootMethod =  (personalloot)", -- [66]
+			"15:37:34 - Event: (ENCOUNTER_END) (2065) (Zuraal the Ascended) (2) (5) (1)", -- [67]
+			"15:45:20 - Event: (ENCOUNTER_END) (2066) (Saprish) (2) (5) (1)", -- [68]
+			"15:47:48 - Event: (ENCOUNTER_END) (2067) (Viceroy Nezhar) (2) (5) (1)", -- [69]
+			"15:50:05 - Event: (ENCOUNTER_END) (2068) (L'ura) (2) (5) (1)", -- [70]
+			"15:50:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [71]
+			"15:50:21 - GetML()", -- [72]
+			"15:50:21 - LootMethod =  (personalloot)", -- [73]
+			"09/30/17", -- [74]
+			"15:54:42 - Logged In", -- [75]
+			"15:54:42 - ML initialized!", -- [76]
+			"15:54:47 - Laru-Frostwolf (2.5.5) (nil)", -- [77]
+			"15:54:47 - ActivateSkin (new_blue)", -- [78]
+			"15:54:47 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [79]
+			"15:54:47 - GetML()", -- [80]
+			"15:54:47 - LootMethod =  (personalloot)", -- [81]
+			"15:54:48 - GetPlayersGuildRank()", -- [82]
+			"15:54:48 - Found Guild Rank: Raid Member", -- [83]
+			"15:54:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [84]
+			"15:56:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [85]
+			"15:56:01 - GetML()", -- [86]
+			"15:56:01 - LootMethod =  (personalloot)", -- [87]
+			"15:56:17 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [88]
+			"15:56:17 - GetML()", -- [89]
+			"15:56:17 - LootMethod =  (personalloot)", -- [90]
+			"15:58:24 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [91]
+			"15:58:24 - GetML()", -- [92]
+			"15:58:24 - LootMethod =  (personalloot)", -- [93]
+			"16:00:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [94]
+			"16:00:01 - GetML()", -- [95]
+			"16:00:01 - LootMethod =  (personalloot)", -- [96]
+			"16:03:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bêlya) (distri:) (GUILD)", -- [97]
+			"09/30/17", -- [98]
+			"17:06:06 - Logged In", -- [99]
+			"17:06:06 - ML initialized!", -- [100]
+			"17:06:14 - Chuckxn-Frostwolf (2.5.5) (nil)", -- [101]
+			"17:06:14 - ActivateSkin (new_blue)", -- [102]
+			"17:06:15 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [103]
+			"17:06:15 - GetML()", -- [104]
+			"17:06:15 - LootMethod =  (personalloot)", -- [105]
+			"17:06:15 - GetPlayersGuildRank()", -- [106]
+			"17:06:15 - Found Guild Rank: Alt", -- [107]
+			"17:06:15 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Chuckxn) (distri:) (GUILD)", -- [108]
+			"17:08:42 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [109]
+			"09/30/17", -- [110]
+			"18:05:50 - Logged In", -- [111]
+			"18:05:50 - ML initialized!", -- [112]
+			"18:06:02 - Blaustrumpf-Frostwolf (2.5.5) (nil)", -- [113]
+			"18:06:02 - ActivateSkin (new_blue)", -- [114]
+			"18:06:02 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [115]
+			"18:06:02 - GetML()", -- [116]
+			"18:06:02 - LootMethod =  (personalloot)", -- [117]
+			"18:06:02 - GetPlayersGuildRank()", -- [118]
+			"18:06:02 - Found Guild Rank: Alt", -- [119]
+			"18:06:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Blaustrumpf) (distri:) (GUILD)", -- [120]
+			"18:06:15 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [121]
+			"18:06:15 - GetML()", -- [122]
+			"18:06:15 - LootMethod =  (personalloot)", -- [123]
+			"18:14:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [124]
+			"18:16:33 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gárdor) (distri:) (GUILD)", -- [125]
+			"18:21:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Kargathas) (distri:) (GUILD)", -- [126]
+			"18:24:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Mcsquare) (distri:) (GUILD)", -- [127]
+			"18:25:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sixthumbs) (distri:) (GUILD)", -- [128]
+			"18:31:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [129]
+			"18:58:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [130]
+			"19:15:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lenalya) (distri:) (GUILD)", -- [131]
+			"19:20:18 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [132]
+			"19:26:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [133]
+			"19:32:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [134]
+			"19:33:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [135]
+			"09/30/17", -- [136]
+			"19:36:23 - Logged In", -- [137]
+			"19:36:23 - ML initialized!", -- [138]
+			"19:36:32 - Chuckxn-Frostwolf (2.5.5) (nil)", -- [139]
+			"19:36:32 - ActivateSkin (new_blue)", -- [140]
+			"19:36:33 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [141]
+			"19:36:33 - GetML()", -- [142]
+			"19:36:33 - LootMethod =  (personalloot)", -- [143]
+			"19:36:33 - GetPlayersGuildRank()", -- [144]
+			"19:36:33 - Found Guild Rank: Alt", -- [145]
+			"19:36:33 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Chuckxn) (distri:) (GUILD)", -- [146]
+			"19:37:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [147]
+			"19:37:20 - GetML()", -- [148]
+			"19:37:20 - LootMethod =  (personalloot)", -- [149]
+			"19:42:07 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [150]
+			"19:44:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [151]
+			"09/30/17", -- [152]
+			"19:47:09 - Logged In", -- [153]
+			"19:47:09 - ML initialized!", -- [154]
+			"19:47:14 - Laru-Frostwolf (2.5.5) (nil)", -- [155]
+			"19:47:14 - ActivateSkin (new_blue)", -- [156]
+			"19:47:15 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [157]
+			"19:47:15 - GetML()", -- [158]
+			"19:47:15 - LootMethod =  (personalloot)", -- [159]
+			"19:47:15 - GetPlayersGuildRank()", -- [160]
+			"19:47:15 - Found Guild Rank: Raid Member", -- [161]
+			"19:47:15 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [162]
+			"19:48:43 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [163]
+			"19:49:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [164]
+			"19:50:33 - Comm received:^1^SverTest^T^N1^S2.5.2^t^^ (from:) (Milliau) (distri:) (GUILD)", -- [165]
+			"19:53:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardinia) (distri:) (GUILD)", -- [166]
+			"19:55:53 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [167]
+			"19:57:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Faramas) (distri:) (GUILD)", -- [168]
+			"09/30/17", -- [169]
+			"19:58:57 - Logged In", -- [170]
+			"19:58:57 - ML initialized!", -- [171]
+			"19:59:06 - Blaustrumpf-Frostwolf (2.5.5) (nil)", -- [172]
+			"19:59:06 - ActivateSkin (new_blue)", -- [173]
+			"19:59:07 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [174]
+			"19:59:07 - GetML()", -- [175]
+			"19:59:07 - LootMethod =  (personalloot)", -- [176]
+			"19:59:07 - GetPlayersGuildRank()", -- [177]
+			"19:59:07 - Found Guild Rank: Alt", -- [178]
+			"19:59:07 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Blaustrumpf) (distri:) (GUILD)", -- [179]
+			"19:59:07 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [180]
+			"19:59:07 - GetML()", -- [181]
+			"19:59:07 - LootMethod =  (personalloot)", -- [182]
+			"20:01:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [183]
+			"20:02:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardinia) (distri:) (GUILD)", -- [184]
+			"20:07:56 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [185]
+			"20:10:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [186]
+			"20:19:53 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [187]
+			"20:22:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [188]
+			"20:24:13 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [189]
+			"20:25:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [190]
+			"20:25:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [191]
+			"20:28:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [192]
+			"20:32:03 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [193]
+			"20:32:21 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Kargathas) (distri:) (GUILD)", -- [194]
+			"20:40:25 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [195]
+			"09/30/17", -- [196]
+			"21:11:24 - Logged In", -- [197]
+			"21:11:24 - ML initialized!", -- [198]
+			"21:11:28 - Laru-Frostwolf (2.5.5) (nil)", -- [199]
+			"21:11:28 - ActivateSkin (new_blue)", -- [200]
+			"21:11:29 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [201]
+			"21:11:29 - GetML()", -- [202]
+			"21:11:29 - LootMethod =  (personalloot)", -- [203]
+			"21:11:29 - GetPlayersGuildRank()", -- [204]
+			"21:11:29 - Found Guild Rank: Raid Member", -- [205]
+			"21:11:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [206]
+			"21:12:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [207]
+			"21:12:53 - GetML()", -- [208]
+			"21:12:53 - LootMethod =  (personalloot)", -- [209]
+			"21:13:24 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [210]
+			"21:13:24 - GetML()", -- [211]
+			"21:13:24 - LootMethod =  (personalloot)", -- [212]
+			"21:13:48 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [213]
+			"21:13:48 - GetML()", -- [214]
+			"21:13:48 - LootMethod =  (personalloot)", -- [215]
+			"21:13:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [216]
+			"21:13:52 - GetML()", -- [217]
+			"21:13:52 - LootMethod =  (personalloot)", -- [218]
+			"21:16:42 - Event: (ENCOUNTER_END) (1828) (General Xakal) (2) (5) (1)", -- [219]
+			"21:18:26 - Event: (ENCOUNTER_END) (1826) (Nal'tira) (2) (5) (1)", -- [220]
+			"21:18:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Chapman) (distri:) (GUILD)", -- [221]
+			"21:20:10 - Event: (ENCOUNTER_END) (1825) (Corstilax) (2) (5) (1)", -- [222]
+			"21:22:12 - Event: (ENCOUNTER_END) (1827) (Ivanyr) (2) (5) (1)", -- [223]
+			"21:24:36 - Event: (ENCOUNTER_END) (1829) (Advisor Vandros) (2) (5) (1)", -- [224]
+			"21:24:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shourija) (distri:) (GUILD)", -- [225]
+			"21:24:54 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [226]
+			"21:24:54 - GetML()", -- [227]
+			"21:24:54 - LootMethod =  (personalloot)", -- [228]
+			"21:26:59 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [229]
+			"21:28:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shourija) (distri:) (GUILD)", -- [230]
+			"21:32:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [231]
+			"21:34:07 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [232]
+			"21:35:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [233]
+			"21:38:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [234]
+			"21:40:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Voodini) (distri:) (GUILD)", -- [235]
+			"21:41:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [236]
+			"21:45:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [237]
+			"21:46:10 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [238]
+			"21:53:09 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [239]
+			"21:53:09 - GetML()", -- [240]
+			"21:53:09 - LootMethod =  (personalloot)", -- [241]
+			"21:54:45 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [242]
+			"21:54:45 - GetML()", -- [243]
+			"21:54:45 - LootMethod =  (personalloot)", -- [244]
+			"21:55:06 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Heroic)) (299094) (0) (0)", -- [245]
+			"21:55:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [246]
+			"21:55:06 - GetML()", -- [247]
+			"21:55:06 - LootMethod =  (personalloot)", -- [248]
+			"22:02:06 - Event: (ENCOUNTER_END) (2032) (Goroth) (15) (14) (1)", -- [249]
+			"22:04:53 - Event: (ENCOUNTER_END) (2048) (Demonic Inquisition) (15) (14) (0)", -- [250]
+			"22:08:37 - Event: (ENCOUNTER_END) (2048) (Demonic Inquisition) (15) (14) (1)", -- [251]
+			"22:08:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [252]
+			"22:10:50 - Event: (ENCOUNTER_END) (2036) (Harjatan) (15) (14) (0)", -- [253]
+			"22:14:23 - Event: (ENCOUNTER_END) (2036) (Harjatan) (15) (14) (1)", -- [254]
+			"22:16:47 - Event: (ENCOUNTER_END) (2037) (Mistress Sassz'ine) (15) (14) (0)", -- [255]
+			"22:17:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [256]
+			"22:21:10 - Event: (ENCOUNTER_END) (2037) (Mistress Sassz'ine) (15) (14) (1)", -- [257]
+			"22:24:21 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (15) (13) (0)", -- [258]
+			"22:25:12 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (15) (13) (0)", -- [259]
+			"22:25:43 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (15) (13) (0)", -- [260]
+			"22:32:07 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (15) (13) (1)", -- [261]
+			"22:40:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [262]
+			"22:46:02 - Event: (ENCOUNTER_END) (2054) (The Desolate Host) (15) (13) (1)", -- [263]
+			"22:56:31 - Event: (ENCOUNTER_END) (2052) (Maiden of Vigilance) (15) (13) (1)", -- [264]
+			"23:05:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [265]
+			"23:05:40 - Event: (ENCOUNTER_END) (2038) (Fallen Avatar) (15) (13) (1)", -- [266]
+			"23:21:15 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (13) (0)", -- [267]
+			"23:28:53 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [268]
+			"23:31:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shourija) (distri:) (GUILD)", -- [269]
+			"23:32:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [270]
+			"23:38:28 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (15) (0)", -- [271]
+			"23:40:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [272]
+			"23:40:37 - GetML()", -- [273]
+			"23:40:37 - LootMethod =  (personalloot)", -- [274]
+			"23:41:02 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [275]
+			"23:41:02 - GetML()", -- [276]
+			"23:41:02 - LootMethod =  (personalloot)", -- [277]
+			"23:41:59 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [278]
+			"23:41:59 - GetML()", -- [279]
+			"23:41:59 - LootMethod =  (personalloot)", -- [280]
+			"23:43:17 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Heroic)) (292602) (1) (0)", -- [281]
+			"23:43:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [282]
+			"23:43:18 - GetML()", -- [283]
+			"23:43:18 - LootMethod =  (personalloot)", -- [284]
+			"23:45:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Huntyö) (distri:) (GUILD)", -- [285]
+			"23:45:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [286]
+			"23:50:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [287]
+			"23:54:18 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [288]
+			"23:55:50 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (15) (0)", -- [289]
+			"23:59:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [290]
+			"00:00:34 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [291]
+			"00:03:54 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gyam) (distri:) (GUILD)", -- [292]
+			"00:04:57 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (16) (0)", -- [293]
+			"00:05:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [294]
+			"00:10:32 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [295]
+			"00:11:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [296]
+			"00:13:24 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (15) (16) (1)", -- [297]
+			"00:14:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [298]
+			"00:14:22 - GetML()", -- [299]
+			"00:14:22 - LootMethod =  (personalloot)", -- [300]
+			"00:15:28 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [301]
+			"00:16:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Faramas) (distri:) (GUILD)", -- [302]
+			"00:16:40 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [303]
+			"00:16:40 - GetML()", -- [304]
+			"00:16:40 - LootMethod =  (personalloot)", -- [305]
+			"00:19:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [306]
+			"00:19:22 - GetML()", -- [307]
+			"00:19:22 - LootMethod =  (personalloot)", -- [308]
+			"00:19:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Adachi) (distri:) (GUILD)", -- [309]
+			"10/01/17", -- [310]
+			"10:33:03 - Logged In", -- [311]
+			"10:33:03 - ML initialized!", -- [312]
+			"10:33:08 - Laru-Frostwolf (2.5.5) (nil)", -- [313]
+			"10:33:08 - ActivateSkin (new_blue)", -- [314]
+			"10:33:09 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [315]
+			"10:33:09 - GetML()", -- [316]
+			"10:33:09 - LootMethod =  (personalloot)", -- [317]
+			"10:33:09 - GetPlayersGuildRank()", -- [318]
+			"10:33:09 - Found Guild Rank: Raid Member", -- [319]
+			"10:33:09 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [320]
+			"10:35:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [321]
+			"10:35:52 - GetML()", -- [322]
+			"10:35:52 - LootMethod =  (personalloot)", -- [323]
+			"10:36:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [324]
+			"10:36:22 - GetML()", -- [325]
+			"10:36:22 - LootMethod =  (personalloot)", -- [326]
+			"10:38:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [327]
+			"10:38:11 - GetML()", -- [328]
+			"10:38:11 - LootMethod =  (personalloot)", -- [329]
+			"10:40:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [330]
+			"10:40:51 - GetML()", -- [331]
+			"10:40:51 - LootMethod =  (personalloot)", -- [332]
+			"10:41:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [333]
+			"10:41:11 - GetML()", -- [334]
+			"10:41:11 - LootMethod =  (personalloot)", -- [335]
+			"10:41:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [336]
+			"10:41:42 - GetML()", -- [337]
+			"10:41:42 - LootMethod =  (personalloot)", -- [338]
+			"10:51:00 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (Snorkidk) (distri:) (GUILD)", -- [339]
+			"11:09:15 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [340]
+			"11:23:04 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [341]
+			"11:23:04 - GetML()", -- [342]
+			"11:23:04 - LootMethod =  (personalloot)", -- [343]
+			"11:28:32 - Event: (RAID_INSTANCE_WELCOME) (The Emerald Nightmare (Normal)) (250288) (0) (0)", -- [344]
+			"11:28:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [345]
+			"11:28:32 - GetML()", -- [346]
+			"11:28:32 - LootMethod =  (personalloot)", -- [347]
+			"11:31:05 - Event: (ENCOUNTER_END) (1853) (Nythendra) (14) (15) (1)", -- [348]
+			"11:36:40 - Event: (ENCOUNTER_END) (1841) (Ursoc) (14) (15) (1)", -- [349]
+			"11:39:16 - Event: (ENCOUNTER_END) (1854) (Dragons of Nightmare) (14) (15) (1)", -- [350]
+			"11:42:05 - Event: (ENCOUNTER_END) (1876) (Elerethe Renferal) (14) (15) (1)", -- [351]
+			"11:46:38 - Event: (ENCOUNTER_END) (1873) (Il'gynoth, The Heart of Corruption) (14) (15) (1)", -- [352]
+			"11:50:13 - Event: (ENCOUNTER_END) (1877) (Cenarius) (14) (13) (1)", -- [353]
+			"11:53:52 - Event: (ENCOUNTER_END) (1864) (Xavius) (14) (13) (1)", -- [354]
+			"11:54:49 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [355]
+			"11:54:49 - GetML()", -- [356]
+			"11:54:49 - LootMethod =  (personalloot)", -- [357]
+			"11:55:38 - Event: (RAID_INSTANCE_WELCOME) (The Emerald Nightmare (Heroic)) (248661) (0) (0)", -- [358]
+			"11:55:38 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [359]
+			"11:55:38 - GetML()", -- [360]
+			"11:55:38 - LootMethod =  (personalloot)", -- [361]
+			"11:55:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [362]
+			"11:58:39 - Event: (ENCOUNTER_END) (1853) (Nythendra) (15) (12) (1)", -- [363]
+			"12:03:09 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [364]
+			"12:04:39 - Event: (ENCOUNTER_END) (1841) (Ursoc) (15) (12) (1)", -- [365]
+			"12:07:33 - Event: (ENCOUNTER_END) (1854) (Dragons of Nightmare) (15) (12) (1)", -- [366]
+			"12:10:50 - Event: (ENCOUNTER_END) (1876) (Elerethe Renferal) (15) (12) (1)", -- [367]
+			"12:12:26 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [368]
+			"12:15:44 - Event: (ENCOUNTER_END) (1873) (Il'gynoth, The Heart of Corruption) (15) (12) (1)", -- [369]
+			"10/01/17", -- [370]
+			"12:18:18 - Logged In", -- [371]
+			"12:18:18 - ML initialized!", -- [372]
+			"12:18:21 - Laru-Frostwolf (2.5.5) (nil)", -- [373]
+			"12:18:21 - ActivateSkin (new_blue)", -- [374]
+			"12:18:22 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [375]
+			"12:18:22 - GetML()", -- [376]
+			"12:18:22 - LootMethod =  (personalloot)", -- [377]
+			"12:18:22 - GetPlayersGuildRank()", -- [378]
+			"12:18:22 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [379]
+			"12:18:22 - GetML()", -- [380]
+			"12:18:22 - LootMethod =  (personalloot)", -- [381]
+			"12:18:23 - GetPlayersGuildRank()", -- [382]
+			"12:18:23 - Found Guild Rank: Raid Member", -- [383]
+			"12:18:23 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [384]
+			"12:20:19 - Event: (ENCOUNTER_END) (1877) (Cenarius) (15) (12) (1)", -- [385]
+			"12:22:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [386]
+			"12:25:10 - Event: (ENCOUNTER_END) (1864) (Xavius) (15) (12) (1)", -- [387]
+			"12:25:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [388]
+			"12:25:57 - GetML()", -- [389]
+			"12:25:57 - LootMethod =  (personalloot)", -- [390]
+			"12:30:07 - Event: (RAID_INSTANCE_WELCOME) (Trial of Valor (Heroic)) (246592) (0) (0)", -- [391]
+			"12:30:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [392]
+			"12:30:07 - GetML()", -- [393]
+			"12:30:07 - LootMethod =  (personalloot)", -- [394]
+			"12:30:29 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [395]
+			"12:30:29 - GetML()", -- [396]
+			"12:30:29 - LootMethod =  (personalloot)", -- [397]
+			"12:31:55 - Event: (RAID_INSTANCE_WELCOME) (Trial of Valor (Normal)) (246484) (0) (0)", -- [398]
+			"12:31:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [399]
+			"12:31:56 - GetML()", -- [400]
+			"12:31:56 - LootMethod =  (personalloot)", -- [401]
+			"12:36:46 - Event: (ENCOUNTER_END) (1958) (Odyn) (14) (17) (1)", -- [402]
+			"12:40:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [403]
+			"12:41:17 - Event: (ENCOUNTER_END) (1962) (Guarm) (14) (17) (1)", -- [404]
+			"12:45:38 - Event: (ENCOUNTER_END) (2008) (Helya) (14) (17) (1)", -- [405]
+			"12:46:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [406]
+			"12:46:01 - GetML()", -- [407]
+			"12:46:01 - LootMethod =  (personalloot)", -- [408]
+			"12:46:23 - Event: (RAID_INSTANCE_WELCOME) (Trial of Valor (Heroic)) (245616) (0) (0)", -- [409]
+			"12:46:23 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [410]
+			"12:46:23 - GetML()", -- [411]
+			"12:46:23 - LootMethod =  (personalloot)", -- [412]
+			"12:51:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Eowyndra) (distri:) (GUILD)", -- [413]
+			"12:52:04 - Comm received:^1^SverTest^T^N1^S2.5.2^t^^ (from:) (Milliau) (distri:) (GUILD)", -- [414]
+			"12:53:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [415]
+			"12:54:17 - Event: (ENCOUNTER_END) (1958) (Odyn) (15) (14) (1)", -- [416]
+			"13:00:02 - Event: (ENCOUNTER_END) (1962) (Guarm) (15) (14) (1)", -- [417]
+			"13:05:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Ypzo) (distri:) (GUILD)", -- [418]
+			"13:05:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Neruat) (distri:) (GUILD)", -- [419]
+			"13:06:49 - Event: (ENCOUNTER_END) (2008) (Helya) (15) (14) (1)", -- [420]
+			"13:07:47 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [421]
+			"13:07:47 - GetML()", -- [422]
+			"13:07:47 - LootMethod =  (personalloot)", -- [423]
+			"13:08:02 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [424]
+			"13:08:02 - GetML()", -- [425]
+			"13:08:02 - LootMethod =  (personalloot)", -- [426]
+			"13:10:43 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [427]
+			"13:14:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Profit) (distri:) (GUILD)", -- [428]
+			"13:15:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [429]
+			"13:20:32 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [430]
+			"13:20:32 - GetML()", -- [431]
+			"13:20:32 - LootMethod =  (personalloot)", -- [432]
+			"13:23:06 - Event: (RAID_INSTANCE_WELCOME) (The Nighthold (Heroic)) (243414) (0) (0)", -- [433]
+			"13:23:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [434]
+			"13:23:07 - GetML()", -- [435]
+			"13:23:07 - LootMethod =  (personalloot)", -- [436]
+			"13:23:27 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [437]
+			"13:28:21 - Event: (ENCOUNTER_END) (1849) (Skorpyron) (15) (30) (1)", -- [438]
+			"13:32:14 - Event: (ENCOUNTER_END) (1865) (Chronomatic Anomaly) (15) (30) (1)", -- [439]
+			"13:34:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [440]
+			"13:35:35 - Event: (ENCOUNTER_END) (1867) (Trilliax) (15) (30) (1)", -- [441]
+			"13:37:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Greenthumbs) (distri:) (GUILD)", -- [442]
+			"13:40:35 - Event: (ENCOUNTER_END) (1871) (Spellblade Aluriel) (15) (29) (1)", -- [443]
+			"13:43:20 - Comm received:^1^SverTest^T^N1^S2.5.2^t^^ (from:) (Milliau) (distri:) (GUILD)", -- [444]
+			"13:44:54 - Event: (ENCOUNTER_END) (1862) (Tichondrius) (15) (28) (0)", -- [445]
+			"13:45:36 - Event: (ENCOUNTER_END) (1862) (Tichondrius) (15) (28) (0)", -- [446]
+			"13:48:03 - Event: (ENCOUNTER_END) (1862) (Tichondrius) (15) (29) (1)", -- [447]
+			"13:50:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [448]
+			"13:51:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bloodiv) (distri:) (GUILD)", -- [449]
+			"13:53:52 - Event: (ENCOUNTER_END) (1842) (Krosus) (15) (28) (1)", -- [450]
+			"13:56:12 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [451]
+			"13:57:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jaman) (distri:) (GUILD)", -- [452]
+			"14:00:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Ypzo) (distri:) (GUILD)", -- [453]
+			"14:00:12 - Event: (ENCOUNTER_END) (1863) (Star Augur Etraeus) (15) (27) (1)", -- [454]
+			"14:02:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriko) (distri:) (GUILD)", -- [455]
+			"14:06:32 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [456]
+			"14:06:33 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [457]
+			"14:06:59 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [458]
+			"14:07:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [459]
+			"14:09:05 - Event: (ENCOUNTER_END) (1886) (High Botanist Tel'arn) (15) (29) (1)", -- [460]
+			"14:09:37 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Imapaloldin) (distri:) (GUILD)", -- [461]
+			"14:12:18 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jaman) (distri:) (GUILD)", -- [462]
+			"14:14:59 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [463]
+			"14:16:59 - Event: (ENCOUNTER_END) (1872) (Grand Magistrix Elisande) (15) (30) (1)", -- [464]
+			"14:18:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiee) (distri:) (GUILD)", -- [465]
+			"14:22:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Monkdiv) (distri:) (GUILD)", -- [466]
+			"14:24:31 - Event: (ENCOUNTER_END) (1866) (Gul'dan) (15) (28) (1)", -- [467]
+			"14:25:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [468]
+			"14:25:01 - GetML()", -- [469]
+			"14:25:01 - LootMethod =  (personalloot)", -- [470]
+			"14:25:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [471]
+			"14:25:26 - GetML()", -- [472]
+			"14:25:26 - LootMethod =  (personalloot)", -- [473]
+			"14:26:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [474]
+			"14:28:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [475]
+			"14:28:28 - GetML()", -- [476]
+			"14:28:28 - LootMethod =  (personalloot)", -- [477]
+			"14:28:42 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [478]
+			"14:31:54 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Profit) (distri:) (GUILD)", -- [479]
+			"14:33:58 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bloodiv) (distri:) (GUILD)", -- [480]
+			"14:34:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [481]
+			"14:35:14 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Imapaloldin) (distri:) (GUILD)", -- [482]
+			"14:35:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiee) (distri:) (GUILD)", -- [483]
+			"14:35:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [484]
+			"14:41:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [485]
+			"14:47:08 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [486]
+			"14:57:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Greenthumbs) (distri:) (GUILD)", -- [487]
+			"15:00:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [488]
+			"10/01/17", -- [489]
+			"15:49:55 - Logged In", -- [490]
+			"15:49:55 - ML initialized!", -- [491]
+			"15:50:04 - Laru-Frostwolf (2.5.5) (nil)", -- [492]
+			"15:50:04 - ActivateSkin (new_blue)", -- [493]
+			"15:50:05 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [494]
+			"15:50:05 - GetML()", -- [495]
+			"15:50:05 - LootMethod =  (personalloot)", -- [496]
+			"15:50:05 - GetPlayersGuildRank()", -- [497]
+			"15:50:05 - Found Guild Rank: Raid Member", -- [498]
+			"15:50:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [499]
+			"10/01/17", -- [500]
+			"15:52:57 - Logged In", -- [501]
+			"15:52:57 - ML initialized!", -- [502]
+			"15:53:07 - Laru-Frostwolf (2.5.5) (nil)", -- [503]
+			"15:53:07 - ActivateSkin (new_blue)", -- [504]
+			"15:53:07 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [505]
+			"15:53:07 - GetML()", -- [506]
+			"15:53:07 - LootMethod =  (personalloot)", -- [507]
+			"15:53:08 - GetPlayersGuildRank()", -- [508]
+			"15:53:08 - Found Guild Rank: Raid Member", -- [509]
+			"15:53:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [510]
+			"15:56:17 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [511]
+			"15:56:17 - GetML()", -- [512]
+			"15:56:17 - LootMethod =  (personalloot)", -- [513]
+			"15:59:06 - Event: (RAID_INSTANCE_WELCOME) (The Nighthold (Normal)) (234053) (0) (0)", -- [514]
+			"15:59:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [515]
+			"15:59:07 - GetML()", -- [516]
+			"15:59:07 - LootMethod =  (personalloot)", -- [517]
+			"15:59:23 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [518]
+			"16:03:30 - Event: (ENCOUNTER_END) (1849) (Skorpyron) (14) (14) (1)", -- [519]
+			"16:06:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [520]
+			"16:07:46 - Event: (ENCOUNTER_END) (1865) (Chronomatic Anomaly) (14) (14) (1)", -- [521]
+			"16:11:17 - Event: (ENCOUNTER_END) (1867) (Trilliax) (14) (14) (1)", -- [522]
+			"16:11:36 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (Snorkidk) (distri:) (GUILD)", -- [523]
+			"16:12:24 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Ypzo) (distri:) (GUILD)", -- [524]
+			"16:16:20 - Event: (ENCOUNTER_END) (1871) (Spellblade Aluriel) (14) (14) (1)", -- [525]
+			"16:20:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [526]
+			"16:23:29 - Event: (ENCOUNTER_END) (1862) (Tichondrius) (14) (14) (1)", -- [527]
+			"16:30:03 - Event: (ENCOUNTER_END) (1842) (Krosus) (14) (14) (1)", -- [528]
+			"16:36:11 - Event: (ENCOUNTER_END) (1863) (Star Augur Etraeus) (14) (13) (1)", -- [529]
+			"16:36:36 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bêlya) (distri:) (GUILD)", -- [530]
+			"16:42:29 - Event: (ENCOUNTER_END) (1886) (High Botanist Tel'arn) (14) (13) (1)", -- [531]
+			"16:46:34 - Comm received:^1^SverTest^T^N1^S2.4.4^t^^ (from:) (Snorkidk) (distri:) (GUILD)", -- [532]
+			"16:50:54 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [533]
+			"16:51:06 - Event: (ENCOUNTER_END) (1872) (Grand Magistrix Elisande) (14) (12) (1)", -- [534]
+			"16:56:56 - Event: (ENCOUNTER_END) (1866) (Gul'dan) (14) (12) (1)", -- [535]
+			"16:57:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [536]
+			"16:57:18 - GetML()", -- [537]
+			"16:57:18 - LootMethod =  (personalloot)", -- [538]
+			"16:58:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [539]
+			"16:58:06 - GetML()", -- [540]
+			"16:58:06 - LootMethod =  (personalloot)", -- [541]
+			"16:59:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Deimuhdi) (distri:) (GUILD)", -- [542]
+			"17:00:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [543]
+			"17:00:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [544]
+			"17:00:52 - GetML()", -- [545]
+			"17:00:52 - LootMethod =  (personalloot)", -- [546]
+			"17:01:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Ypzo) (distri:) (GUILD)", -- [547]
+			"17:02:39 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [548]
+			"10/01/17", -- [549]
+			"17:08:41 - Logged In", -- [550]
+			"17:08:41 - ML initialized!", -- [551]
+			"17:08:50 - Laru-Frostwolf (2.5.5) (nil)", -- [552]
+			"17:08:50 - ActivateSkin (new_blue)", -- [553]
+			"17:08:51 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [554]
+			"17:08:51 - GetML()", -- [555]
+			"17:08:51 - LootMethod =  (personalloot)", -- [556]
+			"17:08:52 - GetPlayersGuildRank()", -- [557]
+			"17:08:52 - Found Guild Rank: Raid Member", -- [558]
+			"17:08:52 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [559]
+			"17:10:37 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [560]
+			"17:10:37 - GetML()", -- [561]
+			"17:10:37 - LootMethod =  (personalloot)", -- [562]
+			"17:14:55 - Event: (RAID_INSTANCE_WELCOME) (Tomb of Sargeras (Normal)) (229504) (0) (0)", -- [563]
+			"17:14:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [564]
+			"17:14:56 - GetML()", -- [565]
+			"17:14:56 - LootMethod =  (personalloot)", -- [566]
+			"17:22:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [567]
+			"17:25:10 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [568]
+			"17:29:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [569]
+			"17:31:34 - Event: (ENCOUNTER_END) (2032) (Goroth) (14) (16) (1)", -- [570]
+			"17:33:10 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shourija) (distri:) (GUILD)", -- [571]
+			"17:36:32 - Event: (ENCOUNTER_END) (2048) (Demonic Inquisition) (14) (16) (1)", -- [572]
+			"17:40:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Huntyö) (distri:) (GUILD)", -- [573]
+			"17:41:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [574]
+			"17:41:42 - Event: (ENCOUNTER_END) (2036) (Harjatan) (14) (15) (1)", -- [575]
+			"17:43:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Hàklqt) (distri:) (GUILD)", -- [576]
+			"17:47:19 - Event: (ENCOUNTER_END) (2037) (Mistress Sassz'ine) (14) (15) (1)", -- [577]
+			"17:52:13 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (14) (16) (0)", -- [578]
+			"17:56:21 - Event: (ENCOUNTER_END) (2050) (Sisters of the Moon) (14) (16) (1)", -- [579]
+			"17:58:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [580]
+			"18:01:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [581]
+			"18:04:40 - Event: (ENCOUNTER_END) (2054) (The Desolate Host) (14) (16) (1)", -- [582]
+			"18:06:52 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [583]
+			"18:10:52 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Vycleas) (distri:) (GUILD)", -- [584]
+			"18:13:02 - Event: (ENCOUNTER_END) (2052) (Maiden of Vigilance) (14) (16) (1)", -- [585]
+			"18:21:27 - Event: (ENCOUNTER_END) (2038) (Fallen Avatar) (14) (16) (1)", -- [586]
+			"18:22:00 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [587]
+			"18:26:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [588]
+			"18:29:52 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [589]
+			"18:31:48 - Event: (ENCOUNTER_END) (2051) (Kil'jaeden) (14) (16) (1)", -- [590]
+			"18:32:14 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [591]
+			"18:32:14 - GetML()", -- [592]
+			"18:32:14 - LootMethod =  (personalloot)", -- [593]
+			"18:48:30 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Máriká) (distri:) (GUILD)", -- [594]
+			"18:52:46 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [595]
+			"18:54:46 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Hàklqt) (distri:) (GUILD)", -- [596]
+			"18:58:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [597]
+			"18:58:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Grogoll) (distri:) (GUILD)", -- [598]
+			"10/01/17", -- [599]
+			"19:08:46 - Logged In", -- [600]
+			"19:08:46 - ML initialized!", -- [601]
+			"19:08:56 - Laru-Frostwolf (2.5.5) (nil)", -- [602]
+			"19:08:56 - ActivateSkin (new_blue)", -- [603]
+			"19:08:57 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [604]
+			"19:08:57 - GetML()", -- [605]
+			"19:08:57 - LootMethod =  (personalloot)", -- [606]
+			"19:08:57 - GetPlayersGuildRank()", -- [607]
+			"19:08:57 - Found Guild Rank: Raid Member", -- [608]
+			"19:08:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [609]
+			"19:11:48 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [610]
+			"19:11:48 - GetML()", -- [611]
+			"19:11:48 - LootMethod =  (personalloot)", -- [612]
+			"19:16:20 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [613]
+			"19:17:36 - Event: (RAID_INSTANCE_WELCOME) (Assault on Violet Hold (Mythic)) (222145) (0) (0)", -- [614]
+			"19:17:36 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [615]
+			"19:17:36 - GetML()", -- [616]
+			"19:17:36 - LootMethod =  (personalloot)", -- [617]
+			"19:18:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [618]
+			"19:18:42 - GetML()", -- [619]
+			"19:18:42 - LootMethod =  (personalloot)", -- [620]
+			"19:19:45 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [621]
+			"19:19:45 - GetML()", -- [622]
+			"19:19:45 - LootMethod =  (personalloot)", -- [623]
+			"19:19:56 - Event: (RAID_INSTANCE_WELCOME) (Assault on Violet Hold (Mythic)) (222003) (0) (0)", -- [624]
+			"19:19:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [625]
+			"19:19:57 - GetML()", -- [626]
+			"19:19:57 - LootMethod =  (personalloot)", -- [627]
+			"19:22:56 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [628]
+			"19:23:41 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [629]
+			"19:24:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [630]
+			"19:25:57 - Event: (ENCOUNTER_END) (1848) (Festerface) (23) (5) (1)", -- [631]
+			"19:30:07 - Event: (ENCOUNTER_END) (1846) (Mindflayer Kaahrj) (23) (5) (1)", -- [632]
+			"19:33:50 - Event: (ENCOUNTER_END) (1856) (Fel Lord Betrug) (23) (5) (1)", -- [633]
+			"19:34:14 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [634]
+			"19:34:14 - GetML()", -- [635]
+			"19:34:14 - LootMethod =  (personalloot)", -- [636]
+			"19:39:17 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [637]
+			"19:39:17 - GetML()", -- [638]
+			"19:39:17 - LootMethod =  (personalloot)", -- [639]
+			"19:43:50 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [640]
+			"19:44:01 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Locura) (distri:) (GUILD)", -- [641]
+			"19:45:31 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lenalya) (distri:) (GUILD)", -- [642]
+			"19:47:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [643]
+			"19:50:58 - Event: (RAID_INSTANCE_WELCOME) (Eye of Azshara (Mythic)) (220141) (0) (0)", -- [644]
+			"19:50:58 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [645]
+			"19:50:58 - GetML()", -- [646]
+			"19:50:58 - LootMethod =  (personalloot)", -- [647]
+			"19:51:37 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardinia) (distri:) (GUILD)", -- [648]
+			"19:51:57 - Event: (ENCOUNTER_END) (1810) (Warlord Parjesh) (23) (5) (1)", -- [649]
+			"19:53:57 - Event: (ENCOUNTER_END) (1811) (Lady Hatecoil) (23) (5) (1)", -- [650]
+			"19:55:11 - Event: (ENCOUNTER_END) (1813) (Serpentrix) (23) (5) (1)", -- [651]
+			"19:57:58 - Event: (ENCOUNTER_END) (1812) (King Deepbeard) (23) (5) (1)", -- [652]
+			"19:58:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fluffypillow) (distri:) (GUILD)", -- [653]
+			"19:59:46 - Event: (ENCOUNTER_END) (1814) (Wrath of Azshara) (23) (5) (1)", -- [654]
+			"20:01:40 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [655]
+			"20:01:40 - GetML()", -- [656]
+			"20:01:40 - LootMethod =  (personalloot)", -- [657]
+			"20:02:13 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [658]
+			"20:03:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bullwârk) (distri:) (GUILD)", -- [659]
+			"20:07:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [660]
+			"20:12:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gárdor) (distri:) (GUILD)", -- [661]
+			"20:17:04 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Faramas) (distri:) (GUILD)", -- [662]
+			"20:30:30 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [663]
+			"20:30:30 - GetML()", -- [664]
+			"20:30:30 - LootMethod =  (personalloot)", -- [665]
+			"20:34:12 - Event: (RAID_INSTANCE_WELCOME) (Darkheart Thicket (Mythic)) (217547) (0) (0)", -- [666]
+			"20:34:12 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [667]
+			"20:34:12 - GetML()", -- [668]
+			"20:34:12 - LootMethod =  (personalloot)", -- [669]
+			"20:37:51 - Event: (ENCOUNTER_END) (1836) (Archdruid Glaidalis) (23) (5) (1)", -- [670]
+			"20:38:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lenalya) (distri:) (GUILD)", -- [671]
+			"20:41:38 - Event: (ENCOUNTER_END) (1837) (Oakheart) (23) (5) (1)", -- [672]
+			"20:44:01 - Event: (ENCOUNTER_END) (1838) (Dresaron) (23) (5) (1)", -- [673]
+			"20:46:58 - Event: (ENCOUNTER_END) (1839) (Shade of Xavius) (23) (5) (1)", -- [674]
+			"20:47:33 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [675]
+			"20:47:33 - GetML()", -- [676]
+			"20:47:33 - LootMethod =  (personalloot)", -- [677]
+			"21:00:33 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [678]
+			"21:00:33 - GetML()", -- [679]
+			"21:00:33 - LootMethod =  (personalloot)", -- [680]
+			"21:02:22 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [681]
+			"21:06:39 - Event: (RAID_INSTANCE_WELCOME) (Halls of Valor (Mythic)) (215600) (0) (0)", -- [682]
+			"21:06:39 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [683]
+			"21:06:39 - GetML()", -- [684]
+			"21:06:39 - LootMethod =  (personalloot)", -- [685]
+			"21:08:01 - Event: (ENCOUNTER_END) (1805) (Hymdall) (23) (5) (1)", -- [686]
+			"21:09:06 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [687]
+			"21:09:26 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sneakk) (distri:) (GUILD)", -- [688]
+			"21:10:36 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Kargathas) (distri:) (GUILD)", -- [689]
+			"21:11:43 - Event: (ENCOUNTER_END) (1806) (Hyrja) (23) (5) (1)", -- [690]
+			"21:12:09 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Locura) (distri:) (GUILD)", -- [691]
+			"21:14:09 - Event: (ENCOUNTER_END) (1807) (Fenryr) (23) (5) (0)", -- [692]
+			"21:14:55 - Event: (ENCOUNTER_END) (1807) (Fenryr) (23) (5) (1)", -- [693]
+			"21:15:26 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [694]
+			"21:18:39 - Event: (ENCOUNTER_END) (1808) (God-King Skovald) (23) (5) (1)", -- [695]
+			"21:20:06 - Event: (ENCOUNTER_END) (1809) (Odyn) (23) (5) (1)", -- [696]
+			"21:20:34 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [697]
+			"21:20:34 - GetML()", -- [698]
+			"21:20:34 - LootMethod =  (personalloot)", -- [699]
+			"21:25:00 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [700]
+			"21:25:00 - GetML()", -- [701]
+			"21:25:00 - LootMethod =  (personalloot)", -- [702]
+			"21:25:19 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [703]
+			"21:25:19 - GetML()", -- [704]
+			"21:25:19 - LootMethod =  (personalloot)", -- [705]
+			"21:25:29 - Event: (RAID_INSTANCE_WELCOME) (Neltharion's Lair (Mythic)) (214470) (0) (0)", -- [706]
+			"21:25:30 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [707]
+			"21:25:30 - GetML()", -- [708]
+			"21:25:30 - LootMethod =  (personalloot)", -- [709]
+			"21:27:30 - Event: (ENCOUNTER_END) (1790) (Rokmora) (23) (5) (0)", -- [710]
+			"21:28:28 - Event: (ENCOUNTER_END) (1790) (Rokmora) (23) (5) (1)", -- [711]
+			"21:32:10 - Event: (ENCOUNTER_END) (1791) (Ularogg Cragshaper) (23) (5) (1)", -- [712]
+			"21:34:02 - Event: (ENCOUNTER_END) (1792) (Naraxas) (23) (5) (1)", -- [713]
+			"21:36:12 - Event: (ENCOUNTER_END) (1793) (Dargrul the Underking) (23) (5) (1)", -- [714]
+			"21:36:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [715]
+			"21:36:32 - GetML()", -- [716]
+			"21:36:32 - LootMethod =  (personalloot)", -- [717]
+			"21:46:22 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [718]
+			"21:53:44 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lardeck) (distri:) (GUILD)", -- [719]
+			"21:56:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gárdor) (distri:) (GUILD)", -- [720]
+			"22:02:30 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [721]
+			"10/01/17", -- [722]
+			"23:22:49 - Logged In", -- [723]
+			"23:22:49 - ML initialized!", -- [724]
+			"23:22:53 - Laruchan-Frostwolf (2.5.5) (nil)", -- [725]
+			"23:22:53 - ActivateSkin (new_blue)", -- [726]
+			"23:22:54 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [727]
+			"23:22:54 - GetML()", -- [728]
+			"23:22:54 - LootMethod =  (personalloot)", -- [729]
+			"23:22:54 - GetPlayersGuildRank()", -- [730]
+			"23:22:54 - Found Guild Rank: Alt", -- [731]
+			"23:22:54 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laruchan) (distri:) (GUILD)", -- [732]
+			"23:23:17 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [733]
+			"23:23:17 - GetML()", -- [734]
+			"23:23:17 - LootMethod =  (personalloot)", -- [735]
+			"23:28:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [736]
+			"23:28:26 - GetML()", -- [737]
+			"23:28:26 - LootMethod =  (personalloot)", -- [738]
+			"10/01/17", -- [739]
+			"23:30:20 - Logged In", -- [740]
+			"23:30:20 - ML initialized!", -- [741]
+			"23:30:21 - Laruchan-Frostwolf (2.5.5) (nil)", -- [742]
+			"23:30:21 - ActivateSkin (new_blue)", -- [743]
+			"23:30:22 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [744]
+			"23:30:22 - GetML()", -- [745]
+			"23:30:22 - LootMethod =  (personalloot)", -- [746]
+			"23:30:22 - GetPlayersGuildRank()", -- [747]
+			"23:30:22 - Found Guild Rank: Alt", -- [748]
+			"23:30:23 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laruchan) (distri:) (GUILD)", -- [749]
+			"10/01/17", -- [750]
+			"23:31:40 - Logged In", -- [751]
+			"23:31:40 - ML initialized!", -- [752]
+			"23:31:48 - Laruchan-Frostwolf (2.5.5) (nil)", -- [753]
+			"23:31:48 - ActivateSkin (new_blue)", -- [754]
+			"23:31:48 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [755]
+			"23:31:48 - GetML()", -- [756]
+			"23:31:48 - LootMethod =  (personalloot)", -- [757]
+			"23:31:49 - GetPlayersGuildRank()", -- [758]
+			"23:31:49 - Found Guild Rank: Alt", -- [759]
+			"23:31:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laruchan) (distri:) (GUILD)", -- [760]
+			"23:31:49 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [761]
+			"23:31:49 - GetML()", -- [762]
+			"23:31:49 - LootMethod =  (personalloot)", -- [763]
+			"10/01/17", -- [764]
+			"23:32:02 - Logged In", -- [765]
+			"23:32:02 - ML initialized!", -- [766]
+			"23:32:02 - Laruchan-Frostwolf (2.5.5) (nil)", -- [767]
+			"23:32:02 - ActivateSkin (new_blue)", -- [768]
+			"23:32:03 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [769]
+			"23:32:03 - GetML()", -- [770]
+			"23:32:03 - LootMethod =  (personalloot)", -- [771]
+			"23:32:03 - GetPlayersGuildRank()", -- [772]
+			"23:32:03 - Found Guild Rank: Alt", -- [773]
+			"23:32:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laruchan) (distri:) (GUILD)", -- [774]
+			"10/01/17", -- [775]
+			"23:32:13 - Logged In", -- [776]
+			"23:32:13 - ML initialized!", -- [777]
+			"23:32:16 - Bizzl-Frostwolf (2.5.5) (nil)", -- [778]
+			"23:32:16 - ActivateSkin (new_blue)", -- [779]
+			"23:32:17 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [780]
+			"23:32:17 - GetML()", -- [781]
+			"23:32:17 - LootMethod =  (personalloot)", -- [782]
+			"23:32:17 - GetPlayersGuildRank()", -- [783]
+			"23:32:17 - Found Guild Rank: Alt", -- [784]
+			"23:32:17 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Bizzl) (distri:) (GUILD)", -- [785]
+			"23:32:39 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [786]
+			"23:32:39 - GetML()", -- [787]
+			"23:32:39 - LootMethod =  (personalloot)", -- [788]
+			"23:32:45 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [789]
+			"23:32:45 - GetML()", -- [790]
+			"23:32:45 - LootMethod =  (personalloot)", -- [791]
+			"23:32:54 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [792]
+			"23:32:54 - GetML()", -- [793]
+			"23:32:54 - LootMethod =  (personalloot)", -- [794]
+			"23:39:50 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [795]
+			"10/01/17", -- [796]
+			"23:44:40 - Logged In", -- [797]
+			"23:44:40 - ML initialized!", -- [798]
+			"23:44:44 - Laru-Frostwolf (2.5.5) (nil)", -- [799]
+			"23:44:44 - ActivateSkin (new_blue)", -- [800]
+			"23:44:45 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [801]
+			"23:44:45 - GetML()", -- [802]
+			"23:44:45 - LootMethod =  (personalloot)", -- [803]
+			"23:44:45 - GetPlayersGuildRank()", -- [804]
+			"23:44:45 - Found Guild Rank: Raid Member", -- [805]
+			"23:44:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [806]
+			"23:46:08 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [807]
+			"23:47:59 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [808]
+			"23:47:59 - GetML()", -- [809]
+			"23:47:59 - LootMethod =  (personalloot)", -- [810]
+			"23:49:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Faramas) (distri:) (GUILD)", -- [811]
+			"23:52:47 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [812]
+			"23:52:49 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [813]
+			"23:53:01 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [814]
+			"23:54:15 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [815]
+			"23:54:15 - GetML()", -- [816]
+			"23:54:15 - LootMethod =  (personalloot)", -- [817]
+			"23:54:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [818]
+			"23:54:18 - GetML()", -- [819]
+			"23:54:18 - LootMethod =  (personalloot)", -- [820]
+			"23:56:23 - Event: (ENCOUNTER_END) (1805) (Hymdall) (1) (5) (1)", -- [821]
+			"23:58:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [822]
+			"00:01:56 - Event: (ENCOUNTER_END) (1806) (Hyrja) (1) (5) (1)", -- [823]
+			"00:04:43 - Event: (ENCOUNTER_END) (1807) (Fenryr) (1) (5) (0)", -- [824]
+			"00:06:21 - Event: (ENCOUNTER_END) (1807) (Fenryr) (1) (5) (1)", -- [825]
+			"00:06:29 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Márika) (distri:) (GUILD)", -- [826]
+			"00:11:12 - Event: (ENCOUNTER_END) (1808) (God-King Skovald) (1) (5) (1)", -- [827]
+			"00:13:00 - Event: (ENCOUNTER_END) (1809) (Odyn) (1) (5) (1)", -- [828]
+			"00:13:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [829]
+			"00:13:57 - GetML()", -- [830]
+			"00:13:57 - LootMethod =  (personalloot)", -- [831]
+			"10/02/17", -- [832]
+			"19:35:06 - Logged In", -- [833]
+			"19:35:06 - ML initialized!", -- [834]
+			"19:35:12 - Laru-Frostwolf (2.5.5) (nil)", -- [835]
+			"19:35:12 - ActivateSkin (new_blue)", -- [836]
+			"19:35:13 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [837]
+			"19:35:13 - GetML()", -- [838]
+			"19:35:13 - LootMethod =  (personalloot)", -- [839]
+			"19:35:13 - GetPlayersGuildRank()", -- [840]
+			"19:35:13 - Found Guild Rank: Raid Member", -- [841]
+			"19:35:13 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Laru) (distri:) (GUILD)", -- [842]
+			"19:36:07 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [843]
+			"19:36:07 - GetML()", -- [844]
+			"19:36:07 - LootMethod =  (personalloot)", -- [845]
+			"19:37:07 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [846]
+			"19:43:00 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Lardeck) (distri:) (GUILD)", -- [847]
+			"19:47:10 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [848]
+			"19:57:02 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [849]
+			"19:57:02 - GetML()", -- [850]
+			"19:57:02 - LootMethod =  (personalloot)", -- [851]
+			"19:59:03 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [852]
+			"19:59:03 - GetML()", -- [853]
+			"19:59:03 - LootMethod =  (personalloot)", -- [854]
+			"20:00:54 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [855]
+			"20:00:54 - GetML()", -- [856]
+			"20:00:54 - LootMethod =  (personalloot)", -- [857]
+			"20:01:41 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [858]
+			"20:01:41 - GetML()", -- [859]
+			"20:01:41 - LootMethod =  (personalloot)", -- [860]
+			"20:04:19 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Imapaloldin) (distri:) (GUILD)", -- [861]
+			"20:05:37 - Event: (RAID_INSTANCE_WELCOME) (Vault of the Wardens (Mythic)) (132864) (0) (0)", -- [862]
+			"20:05:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [863]
+			"20:05:37 - GetML()", -- [864]
+			"20:05:37 - LootMethod =  (personalloot)", -- [865]
+			"20:08:26 - Event: (ENCOUNTER_END) (1815) (Tirathon Saltheril) (23) (5) (1)", -- [866]
+			"20:09:35 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiee) (distri:) (GUILD)", -- [867]
+			"20:11:37 - Event: (ENCOUNTER_END) (1850) (Inquisitor Tormentorum) (23) (5) (1)", -- [868]
+			"20:11:55 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Monkdiv) (distri:) (GUILD)", -- [869]
+			"20:13:12 - Event: (ENCOUNTER_END) (1817) (Glazer) (23) (5) (1)", -- [870]
+			"20:13:43 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [871]
+			"20:14:26 - Event: (ENCOUNTER_END) (1816) (Ash'Golm) (23) (5) (1)", -- [872]
+			"20:15:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [873]
+			"20:19:13 - Event: (ENCOUNTER_END) (1818) (Cordana Felsong) (23) (5) (1)", -- [874]
+			"20:19:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [875]
+			"20:19:32 - GetML()", -- [876]
+			"20:19:32 - LootMethod =  (personalloot)", -- [877]
+			"20:22:54 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Adachi) (distri:) (GUILD)", -- [878]
+			"20:29:07 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sixthumbs) (distri:) (GUILD)", -- [879]
+			"20:41:59 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [880]
+			"20:41:59 - GetML()", -- [881]
+			"20:41:59 - LootMethod =  (personalloot)", -- [882]
+			"20:44:16 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gyam) (distri:) (GUILD)", -- [883]
+			"20:46:17 - Event: (RAID_INSTANCE_WELCOME) (Black Rook Hold (Mythic)) (130422) (0) (0)", -- [884]
+			"20:46:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [885]
+			"20:46:18 - GetML()", -- [886]
+			"20:46:18 - LootMethod =  (personalloot)", -- [887]
+			"20:48:11 - Event: (ENCOUNTER_END) (1832) (Amalgam of Souls) (23) (5) (1)", -- [888]
+			"20:51:02 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [889]
+			"20:51:50 - Event: (ENCOUNTER_END) (1833) (Ilysanna Ravencrest) (23) (5) (1)", -- [890]
+			"20:54:44 - Event: (ENCOUNTER_END) (1834) (Smashspite the Hateful) (23) (5) (1)", -- [891]
+			"20:56:00 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [892]
+			"20:56:47 - Event: (ENCOUNTER_END) (1835) (Lord Kur'talos Ravencrest) (23) (5) (1)", -- [893]
+			"20:57:12 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [894]
+			"20:57:37 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [895]
+			"20:57:37 - GetML()", -- [896]
+			"20:57:37 - LootMethod =  (personalloot)", -- [897]
+			"20:58:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [898]
+			"20:58:21 - GetML()", -- [899]
+			"20:58:21 - LootMethod =  (personalloot)", -- [900]
+			"21:01:51 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [901]
+			"21:04:21 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Vairasza) (distri:) (GUILD)", -- [902]
+			"21:04:34 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Vairasza) (distri:) (GUILD)", -- [903]
+			"21:05:52 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Vairasza) (distri:) (GUILD)", -- [904]
+			"21:11:15 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [905]
+			"21:20:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [906]
+			"21:20:15 - GetML()", -- [907]
+			"21:20:15 - LootMethod =  (personalloot)", -- [908]
+			"21:21:07 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [909]
+			"21:21:07 - GetML()", -- [910]
+			"21:21:07 - LootMethod =  (personalloot)", -- [911]
+			"21:21:30 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [912]
+			"21:21:30 - GetML()", -- [913]
+			"21:21:30 - LootMethod =  (personalloot)", -- [914]
+			"21:31:07 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [915]
+			"21:32:27 - Event: (RAID_INSTANCE_WELCOME) (Maw of Souls (Mythic)) (127652) (0) (0)", -- [916]
+			"21:32:27 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [917]
+			"21:32:27 - GetML()", -- [918]
+			"21:32:27 - LootMethod =  (personalloot)", -- [919]
+			"21:34:47 - Event: (ENCOUNTER_END) (1822) (Ymiron, the Fallen King) (23) (5) (1)", -- [920]
+			"21:37:43 - Event: (ENCOUNTER_END) (1823) (Harbaron) (23) (5) (1)", -- [921]
+			"21:38:05 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [922]
+			"21:38:11 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Daggster) (distri:) (GUILD)", -- [923]
+			"21:42:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [924]
+			"21:43:38 - Event: (ENCOUNTER_END) (1824) (Helya) (23) (5) (1)", -- [925]
+			"21:44:12 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [926]
+			"21:44:12 - GetML()", -- [927]
+			"21:44:12 - LootMethod =  (personalloot)", -- [928]
+			"21:47:12 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [929]
+			"21:47:12 - GetML()", -- [930]
+			"21:47:12 - LootMethod =  (personalloot)", -- [931]
+			"21:55:28 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [932]
+			"21:55:28 - GetML()", -- [933]
+			"21:55:28 - LootMethod =  (personalloot)", -- [934]
+			"21:55:44 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [935]
+			"21:55:44 - GetML()", -- [936]
+			"21:55:44 - LootMethod =  (personalloot)", -- [937]
+			"22:01:21 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [938]
+			"22:01:21 - GetML()", -- [939]
+			"22:01:21 - LootMethod =  (personalloot)", -- [940]
+			"22:03:35 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [941]
+			"22:03:35 - GetML()", -- [942]
+			"22:03:35 - LootMethod =  (personalloot)", -- [943]
+			"22:03:56 - Event: (RAID_INSTANCE_WELCOME) (Return to Karazhan (Mythic)) (125763) (1) (0)", -- [944]
+			"22:03:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [945]
+			"22:03:56 - GetML()", -- [946]
+			"22:03:56 - LootMethod =  (personalloot)", -- [947]
+			"22:05:43 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Hàklqt) (distri:) (GUILD)", -- [948]
+			"22:05:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [949]
+			"22:09:04 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Talar) (distri:) (GUILD)", -- [950]
+			"22:09:24 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Profit) (distri:) (GUILD)", -- [951]
+			"22:10:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Gyam) (distri:) (GUILD)", -- [952]
+			"22:11:18 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [953]
+			"22:12:18 - Event: (ENCOUNTER_END) (1957) (Opera Hall) (8) (5) (1)", -- [954]
+			"22:22:53 - Event: (ENCOUNTER_END) (1954) (Maiden of Virtue) (8) (5) (1)", -- [955]
+			"22:27:00 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [956]
+			"22:29:48 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [957]
+			"22:30:38 - Event: (ENCOUNTER_END) (1961) (Moroes) (8) (5) (1)", -- [958]
+			"22:38:26 - Event: (ENCOUNTER_END) (1960) (Attumen the Huntsman) (8) (5) (0)", -- [959]
+			"22:41:46 - Event: (ENCOUNTER_END) (1960) (Attumen the Huntsman) (8) (5) (1)", -- [960]
+			"22:42:44 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [961]
+			"22:43:04 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [962]
+			"22:43:04 - GetML()", -- [963]
+			"22:43:04 - LootMethod =  (personalloot)", -- [964]
+			"22:47:36 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [965]
+			"22:47:36 - GetML()", -- [966]
+			"22:47:36 - LootMethod =  (personalloot)", -- [967]
+			"22:47:53 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Chapman) (distri:) (GUILD)", -- [968]
+			"22:48:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [969]
+			"22:48:32 - GetML()", -- [970]
+			"22:48:32 - LootMethod =  (personalloot)", -- [971]
+			"22:52:42 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [972]
+			"22:52:42 - GetML()", -- [973]
+			"22:52:42 - LootMethod =  (personalloot)", -- [974]
+			"22:53:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [975]
+			"22:53:01 - GetML()", -- [976]
+			"22:53:01 - LootMethod =  (personalloot)", -- [977]
+			"22:53:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [978]
+			"22:53:22 - GetML()", -- [979]
+			"22:53:22 - LootMethod =  (personalloot)", -- [980]
+			"22:56:03 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [981]
+			"22:56:03 - GetML()", -- [982]
+			"22:56:03 - LootMethod =  (personalloot)", -- [983]
+			"22:57:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [984]
+			"22:57:42 - GetML()", -- [985]
+			"22:57:42 - LootMethod =  (personalloot)", -- [986]
+			"22:58:05 - Event: (RAID_INSTANCE_WELCOME) (The Arcway (Mythic)) (122514) (1) (0)", -- [987]
+			"22:58:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [988]
+			"22:58:06 - GetML()", -- [989]
+			"22:58:06 - LootMethod =  (personalloot)", -- [990]
+			"23:05:14 - Event: (ENCOUNTER_END) (1828) (General Xakal) (8) (5) (1)", -- [991]
+			"23:09:34 - Event: (ENCOUNTER_END) (1826) (Nal'tira) (8) (5) (1)", -- [992]
+			"23:13:38 - Event: (ENCOUNTER_END) (1825) (Corstilax) (8) (5) (1)", -- [993]
+			"23:16:57 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [994]
+			"23:17:39 - Event: (ENCOUNTER_END) (1827) (Ivanyr) (8) (5) (1)", -- [995]
+			"23:22:43 - Event: (ENCOUNTER_END) (1829) (Advisor Vandros) (8) (5) (1)", -- [996]
+			"23:23:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [997]
+			"23:23:32 - GetML()", -- [998]
+			"23:23:32 - LootMethod =  (personalloot)", -- [999]
+			"23:24:36 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [1000]
+			"23:27:18 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1001]
+			"23:27:18 - GetML()", -- [1002]
+			"23:27:18 - LootMethod =  (personalloot)", -- [1003]
+			"23:29:38 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [1004]
+			"23:33:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1005]
+			"23:33:22 - GetML()", -- [1006]
+			"23:33:22 - LootMethod =  (personalloot)", -- [1007]
+			"23:34:47 - Event: (RAID_INSTANCE_WELCOME) (Return to Karazhan (Mythic)) (120312) (1) (0)", -- [1008]
+			"23:34:47 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1009]
+			"23:34:47 - GetML()", -- [1010]
+			"23:34:47 - LootMethod =  (personalloot)", -- [1011]
+			"23:40:19 - Event: (ENCOUNTER_END) (1957) (Opera Hall) (8) (5) (0)", -- [1012]
+			"23:42:38 - Event: (ENCOUNTER_END) (1957) (Opera Hall) (8) (5) (1)", -- [1013]
+			"23:43:42 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [1014]
+			"23:52:45 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Sharpshooter) (distri:) (GUILD)", -- [1015]
+			"23:53:19 - Event: (ENCOUNTER_END) (1954) (Maiden of Virtue) (8) (5) (1)", -- [1016]
+			"23:56:12 - Event: (ENCOUNTER_END) (1961) (Moroes) (8) (5) (0)", -- [1017]
+			"23:59:42 - Event: (ENCOUNTER_END) (1961) (Moroes) (8) (5) (1)", -- [1018]
+			"00:05:57 - Event: (ENCOUNTER_END) (1960) (Attumen the Huntsman) (8) (5) (0)", -- [1019]
+			"00:10:39 - Comm received:^1^SverTest^T^N1^S2.6.0^N2^SBeta.1^t^^ (from:) (Trollax) (distri:) (GUILD)", -- [1020]
+			"00:10:40 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [1021]
+			"00:11:19 - Event: (ENCOUNTER_END) (1960) (Attumen the Huntsman) (8) (5) (1)", -- [1022]
+			"00:11:22 - Comm received:^1^SverTest^T^N1^S2.5.5^t^^ (from:) (Jayde) (distri:) (GUILD)", -- [1023]
+			"00:14:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1024]
+			"00:14:42 - GetML()", -- [1025]
+			"00:14:42 - LootMethod =  (personalloot)", -- [1026]
+			"00:16:22 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1027]
+			"00:16:22 - GetML()", -- [1028]
+			"00:16:22 - LootMethod =  (personalloot)", -- [1029]
 		},
 	},
 	["profileKeys"] = {
@@ -1115,107 +1129,107 @@ RCLootCouncilLootDB = {
 		["Horde - Frostwolf"] = {
 			["Laru-Frostwolf"] = {
 				{
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147007::::::::110:65::5:3:3562:1517:3336:::|h[The Deceiver's Grand Design]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["groupSize"] = 20,
 					["date"] = "27/09/17",
 					["class"] = "PALADIN",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["time"] = "21:30:52",
 					["votes"] = 0,
+					["response"] = "Mainspec/Need",
 					["lootWon"] = "|cffa335ee|Hitem:147004::::::::110:63::6:4:3563:40:1522:3336:::|h[Sea Star of the Depthmother]|h|r",
-					["boss"] = "Mistress Sassz'ine",
 					["difficultyID"] = 16,
+					["time"] = "21:30:52",
+					["isAwardReason"] = false,
+					["boss"] = "Mistress Sassz'ine",
 					["responseID"] = 1,
 					["itemReplaced2"] = "|cffa335ee|Hitem:147004::151580::::::110:65::5:4:3562:1808:1497:3528:::|h[Sea Star of the Depthmother]|h|r",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147007::::::::110:65::5:3:3562:1517:3336:::|h[The Deceiver's Grand Design]|h|r",
+					["mapID"] = 1676,
 				}, -- [1]
 			},
 			["Shouria-Frostwolf"] = {
 				{
 					["mapID"] = 1676,
 					["itemReplaced1"] = "|cffff8000|Hitem:144281:5883:::::::110:250:::2:3459:3570:::|h[Skullflower's Haemostasis]|h|r",
-					["date"] = "27/09/17",
 					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "DEATHKNIGHT",
-					["votes"] = 0,
-					["response"] = "Mainspec/Need",
-					["lootWon"] = "|cffa335ee|Hitem:147069::::::::110:63::6:3:3563:1527:3337:::|h[Shoulderplates of Crackling Flame]|h|r",
-					["difficultyID"] = 16,
-					["time"] = "20:08:25",
-					["isAwardReason"] = false,
-					["boss"] = "Goroth",
-					["responseID"] = 1,
-					["groupSize"] = 20,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["class"] = "DEATHKNIGHT",
+					["boss"] = "Goroth",
+					["groupSize"] = 20,
+					["time"] = "20:08:25",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147069::::::::110:63::6:3:3563:1527:3337:::|h[Shoulderplates of Crackling Flame]|h|r",
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["responseID"] = 1,
+					["response"] = "Mainspec/Need",
+					["date"] = "27/09/17",
 				}, -- [1]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147062::::::::110:250::6:3:3563:1537:3337:::|h[Groundshatter Gauntlets]|h|r",
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "27/09/17",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["boss"] = "Sisters of the Moon",
-					["lootWon"] = "|cffa335ee|Hitem:147061::::::::110:63::6:3:3563:1512:3528:::|h[Dusk-Crusher Handguards]|h|r",
-					["difficultyID"] = 16,
-					["time"] = "21:46:34",
-					["responseID"] = 3,
 					["response"] = "Transmog",
-					["date"] = "27/09/17",
+					["boss"] = "Sisters of the Moon",
+					["votes"] = 0,
+					["time"] = "21:46:34",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147061::::::::110:63::6:3:3563:1512:3528:::|h[Dusk-Crusher Handguards]|h|r",
+					["responseID"] = 3,
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [2]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147062::::::::110:250::6:3:3563:1537:3337:::|h[Groundshatter Gauntlets]|h|r",
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "27/09/17",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["boss"] = "Sisters of the Moon",
-					["lootWon"] = "|cffa335ee|Hitem:147061::::::::110:63::6:4:3563:1808:1517:3336:::|h[Dusk-Crusher Handguards]|h|r",
-					["difficultyID"] = 16,
-					["time"] = "21:47:16",
-					["responseID"] = 3,
 					["response"] = "Transmog",
-					["date"] = "27/09/17",
+					["boss"] = "Sisters of the Moon",
+					["votes"] = 0,
+					["time"] = "21:47:16",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147061::::::::110:63::6:4:3563:1808:1517:3336:::|h[Dusk-Crusher Handguards]|h|r",
+					["responseID"] = 3,
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [3]
 			},
 			["Muhdiv-Frostwolf"] = {
 				{
 					["mapID"] = 1530,
-					["groupSize"] = 20,
+					["response"] = "Offspec/Greed",
 					["instance"] = "The Nighthold-Mythic",
 					["class"] = "SHAMAN",
-					["votes"] = 0,
-					["response"] = "Offspec/Greed",
-					["time"] = "20:38:48",
 					["boss"] = "Unknown",
+					["groupSize"] = 20,
+					["time"] = "20:38:48",
+					["difficultyID"] = 16,
 					["lootWon"] = "|cffa335ee|Hitem:140835::::::::110:63::6:3:3518:1502:3528:::|h[Unkindled Ember]|h|r",
 					["color"] = {
 						1, -- [1]
@@ -1225,51 +1239,51 @@ RCLootCouncilLootDB = {
 					},
 					["date"] = "26/09/17",
 					["responseID"] = 2,
+					["votes"] = 0,
 					["isAwardReason"] = false,
-					["difficultyID"] = 16,
 				}, -- [1]
 				{
 					["mapID"] = 1676,
-					["difficultyID"] = 16,
-					["date"] = "27/09/17",
-					["class"] = "SHAMAN",
 					["boss"] = "Goroth",
-					["response"] = "Offspec/Greed",
-					["time"] = "20:09:29",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:147112::::::::110:63::6:3:3563:1512:3528:::|h[Felsoul Vortex]|h|r",
-					["groupSize"] = 20,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["responseID"] = 2,
-					["votes"] = 0,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["response"] = "Offspec/Greed",
+					["time"] = "20:09:29",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:147112::::::::110:63::6:3:3563:1512:3528:::|h[Felsoul Vortex]|h|r",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["responseID"] = 2,
+					["difficultyID"] = 16,
+					["date"] = "27/09/17",
 				}, -- [2]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:133805::::::::110:264::35:3:3536:1582:3337:::|h[Kette des Donnerrufers]|h|r",
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "27/09/17",
 					["class"] = "SHAMAN",
 					["isAwardReason"] = false,
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["boss"] = "Sisters of the Moon",
-					["lootWon"] = "|cffa335ee|Hitem:147056::::::::110:63::6:4:3563:1808:1512:3528:::|h[Waistguard of Interminable Unity]|h|r",
-					["difficultyID"] = 16,
-					["time"] = "21:47:26",
-					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["date"] = "27/09/17",
+					["boss"] = "Sisters of the Moon",
+					["votes"] = 0,
+					["time"] = "21:47:26",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147056::::::::110:63::6:4:3563:1808:1512:3528:::|h[Waistguard of Interminable Unity]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [3]
 				{
 					["mapID"] = 1676,
@@ -1297,24 +1311,24 @@ RCLootCouncilLootDB = {
 				}, -- [4]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147094::::::::110:264::6:3:3563:1512:3528:::|h[Virus der Lethargie]|h|r",
+					["date"] = "27/09/17",
+					["response"] = "Transmog",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "SHAMAN",
+					["votes"] = 0,
+					["groupSize"] = 20,
+					["time"] = "22:52:48",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:147094::::::::110:63::6:3:3563:1512:3528:::|h[Virus of Lethargy]|h|r",
+					["difficultyID"] = 16,
+					["boss"] = "Maiden of Vigilance",
+					["responseID"] = 3,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 20,
-					["date"] = "27/09/17",
-					["class"] = "SHAMAN",
-					["boss"] = "Maiden of Vigilance",
-					["response"] = "Transmog",
-					["lootWon"] = "|cffa335ee|Hitem:147094::::::::110:63::6:3:3563:1512:3528:::|h[Virus of Lethargy]|h|r",
-					["isAwardReason"] = false,
-					["time"] = "22:52:48",
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["mapID"] = 1676,
 				}, -- [5]
 			},
@@ -1373,90 +1387,90 @@ RCLootCouncilLootDB = {
 			["Tidok-Frostwolf"] = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:151189::::::::110:252::5:3:3562:1507:3336:::|h[Tears of the Maiden]|h|r",
+					["date"] = "27/09/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "DEATHKNIGHT",
+					["votes"] = 0,
+					["groupSize"] = 20,
+					["time"] = "22:51:39",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151189::::::::110:63::6:3:3563:1512:3528:::|h[Tears of the Maiden]|h|r",
+					["difficultyID"] = 16,
+					["boss"] = "Maiden of Vigilance",
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 20,
-					["date"] = "27/09/17",
-					["class"] = "DEATHKNIGHT",
-					["boss"] = "Maiden of Vigilance",
-					["response"] = "Mainspec/Need",
-					["lootWon"] = "|cffa335ee|Hitem:151189::::::::110:63::6:3:3563:1512:3528:::|h[Tears of the Maiden]|h|r",
-					["isAwardReason"] = false,
-					["time"] = "22:51:39",
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["mapID"] = 1676,
 				}, -- [1]
 			},
 			["Fallen-Frostwolf"] = {
 				{
 					["mapID"] = 1530,
-					["date"] = "26/09/17",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "26/09/17",
 					["class"] = "MAGE",
-					["groupSize"] = 20,
 					["response"] = "Autopass",
+					["groupSize"] = 20,
 					["time"] = "20:38:54",
-					["votes"] = 0,
+					["boss"] = "Unknown",
 					["lootWon"] = "|cffa335ee|Hitem:140825::::::::110:63::6:3:3518:1502:3528:::|h[Felfire Pitch]|h|r",
 					["instance"] = "The Nighthold-Mythic",
 					["difficultyID"] = 16,
 					["responseID"] = "AUTOPASS",
+					["votes"] = 0,
 					["isAwardReason"] = false,
-					["boss"] = "Unknown",
 				}, -- [1]
 				{
 					["mapID"] = 1676,
-					["difficultyID"] = 16,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "MAGE",
 					["isAwardReason"] = false,
-					["response"] = "Autopass",
-					["time"] = "20:08:35",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
 					["votes"] = 0,
+					["groupSize"] = 20,
+					["time"] = "20:08:35",
+					["difficultyID"] = 16,
 					["lootWon"] = "|cffa335ee|Hitem:147108::::::::110:63::6:3:3563:1512:3528:::|h[Brand of Relentless Agony]|h|r",
 					["boss"] = "Goroth",
 					["date"] = "27/09/17",
 					["responseID"] = "AUTOPASS",
-					["groupSize"] = 20,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
+					["response"] = "Autopass",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [2]
 				{
 					["mapID"] = 1676,
+					["date"] = "27/09/17",
+					["isAwardReason"] = false,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "MAGE",
+					["difficultyID"] = 16,
+					["response"] = "Pass",
+					["votes"] = 0,
+					["boss"] = "Goroth",
+					["lootWon"] = "|cffa335ee|Hitem:146986::::::::110:63::6:3:3563:1512:3528:::|h[Emberscatter Treads]|h|r",
+					["groupSize"] = 20,
+					["time"] = "20:08:43",
+					["responseID"] = "PASS",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["difficultyID"] = 16,
-					["date"] = "27/09/17",
-					["class"] = "MAGE",
-					["isAwardReason"] = false,
-					["response"] = "Pass",
-					["boss"] = "Goroth",
-					["votes"] = 0,
-					["time"] = "20:08:43",
-					["groupSize"] = 20,
-					["lootWon"] = "|cffa335ee|Hitem:146986::::::::110:63::6:3:3563:1512:3528:::|h[Emberscatter Treads]|h|r",
-					["responseID"] = "PASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["itemReplaced1"] = "|cffa335ee|Hitem:146986::151584::::::110:63::6:4:3563:1808:1517:3336:::|h[Emberscatter Treads]|h|r",
 				}, -- [3]
 			},
@@ -1489,24 +1503,24 @@ RCLootCouncilLootDB = {
 			["Locura-Frostwolf"] = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147000::::::::110:258::5:3:3562:1497:3528:::|h[Ravenous Devotee's Bracelets]|h|r",
-					["date"] = "27/09/17",
-					["response"] = "Mainspec/Need",
 					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "PRIEST",
-					["votes"] = 0,
 					["groupSize"] = 20,
-					["time"] = "20:27:24",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:147000::::::::110:63::6:3:3563:1517:3336:::|h[Ravenous Devotee's Bracelets]|h|r",
-					["difficultyID"] = 16,
-					["boss"] = "Harjatan",
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["class"] = "PRIEST",
+					["boss"] = "Harjatan",
+					["response"] = "Mainspec/Need",
+					["lootWon"] = "|cffa335ee|Hitem:147000::::::::110:63::6:3:3563:1517:3336:::|h[Ravenous Devotee's Bracelets]|h|r",
+					["isAwardReason"] = false,
+					["time"] = "20:27:24",
+					["difficultyID"] = 16,
+					["votes"] = 0,
+					["responseID"] = 1,
+					["date"] = "27/09/17",
 					["mapID"] = 1676,
 				}, -- [1]
 				{
@@ -1562,50 +1576,50 @@ RCLootCouncilLootDB = {
 			},
 			["Kremo-Frostwolf"] = {
 				{
-					["mapID"] = 1676,
 					["itemReplaced1"] = "|cffa335ee|Hitem:134528:5428:::::::110:253::16:3:3418:1572:3336:::|h[Band of Callous Dominance]|h|r",
+					["mapID"] = 1676,
 					["date"] = "27/09/17",
 					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "HUNTER",
-					["votes"] = 0,
-					["groupSize"] = 20,
-					["difficultyID"] = 16,
-					["boss"] = "Sisters of the Moon",
-					["lootWon"] = "|cffa335ee|Hitem:147021::::::::110:63::6:3:3563:1512:3528:::|h[Yathae's Thumb Ring]|h|r",
-					["time"] = "21:47:46",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffff8000|Hitem:151641:5427:151583::::::110:253:::2:1811:3570:::|h[Soul of the Huntmaster]|h|r",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["class"] = "HUNTER",
+					["difficultyID"] = 16,
+					["groupSize"] = 20,
+					["boss"] = "Sisters of the Moon",
+					["isAwardReason"] = false,
+					["time"] = "21:47:46",
+					["lootWon"] = "|cffa335ee|Hitem:147021::::::::110:63::6:3:3563:1512:3528:::|h[Yathae's Thumb Ring]|h|r",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffff8000|Hitem:151641:5427:151583::::::110:253:::2:1811:3570:::|h[Soul of the Huntmaster]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [1]
 			},
 			["Máriká-Frostwolf"] = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147104::::::::110:102::6:3:3563:1517:3336:::|h[Ikone der abnormalen Animation]|h|r",
+					["date"] = "27/09/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "DRUID",
+					["votes"] = 0,
+					["groupSize"] = 20,
+					["time"] = "22:06:37",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:147106::::::::110:63::6:3:3563:1522:3336:::|h[Glowing Prayer Candle]|h|r",
+					["difficultyID"] = 16,
+					["boss"] = "The Desolate Host",
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 20,
-					["date"] = "27/09/17",
-					["class"] = "DRUID",
-					["boss"] = "The Desolate Host",
-					["response"] = "Mainspec/Need",
-					["lootWon"] = "|cffa335ee|Hitem:147106::::::::110:63::6:3:3563:1522:3336:::|h[Glowing Prayer Candle]|h|r",
-					["isAwardReason"] = false,
-					["time"] = "22:06:37",
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["mapID"] = 1676,
 				}, -- [1]
 			},
@@ -1664,34 +1678,34 @@ RCLootCouncilLootDB = {
 			["Grogoll-Frostwolf"] = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147071::::::::110:71::6:3:3563:1517:3336:::|h[Shiversleet Waistguard]|h|r",
-					["date"] = "27/09/17",
-					["response"] = "Mainspec/Need",
 					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "WARRIOR",
-					["votes"] = 0,
 					["groupSize"] = 20,
-					["time"] = "20:26:56",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:147071::::::::110:63::6:3:3563:1532:3337:::|h[Shiversleet Waistguard]|h|r",
-					["difficultyID"] = 16,
-					["boss"] = "Harjatan",
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["class"] = "WARRIOR",
+					["boss"] = "Harjatan",
+					["response"] = "Mainspec/Need",
+					["lootWon"] = "|cffa335ee|Hitem:147071::::::::110:63::6:3:3563:1532:3337:::|h[Shiversleet Waistguard]|h|r",
+					["isAwardReason"] = false,
+					["time"] = "20:26:56",
+					["difficultyID"] = 16,
+					["votes"] = 0,
+					["responseID"] = 1,
+					["date"] = "27/09/17",
 					["mapID"] = 1676,
 				}, -- [1]
 				{
 					["mapID"] = 1676,
-					["response"] = "Offspec/Greed",
-					["date"] = "27/09/17",
-					["class"] = "WARRIOR",
-					["boss"] = "The Desolate Host",
 					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "WARRIOR",
 					["votes"] = 0,
+					["response"] = "Offspec/Greed",
+					["boss"] = "The Desolate Host",
 					["isAwardReason"] = false,
 					["time"] = "22:04:43",
 					["lootWon"] = "|cffa335ee|Hitem:147114::::::::110:63::6:3:3563:1517:3336:::|h[Preserved Starlight Incense]|h|r",
@@ -1703,16 +1717,16 @@ RCLootCouncilLootDB = {
 						0, -- [3]
 						1, -- [4]
 					},
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["date"] = "27/09/17",
 				}, -- [2]
 				{
 					["mapID"] = 1676,
-					["response"] = "Candidate is selecting response, please wait",
-					["date"] = "27/09/17",
-					["class"] = "WARRIOR",
-					["boss"] = "The Desolate Host",
 					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "WARRIOR",
 					["votes"] = 0,
+					["response"] = "Candidate is selecting response, please wait",
+					["boss"] = "The Desolate Host",
 					["isAwardReason"] = false,
 					["time"] = "22:06:48",
 					["lootWon"] = "|cffa335ee|Hitem:147114::::::::110:63::6:3:3563:1517:3336:::|h[Preserved Starlight Incense]|h|r",
@@ -1724,55 +1738,8 @@ RCLootCouncilLootDB = {
 						0, -- [3]
 						1, -- [4]
 					},
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["date"] = "27/09/17",
 				}, -- [3]
-			},
-			["Vairasza-Frostwolf"] = {
-				{
-					["mapID"] = 1676,
-					["votes"] = 0,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "PALADIN",
-					["isAwardReason"] = false,
-					["response"] = "Offspec/Greed",
-					["time"] = "20:18:37",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147088::::::::110:63::6:3:3563:1512:3528:::|h[Smoldering Thumbscrews]|h|r",
-					["groupSize"] = 20,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 2,
-					["boss"] = "Demonic Inquisition",
-					["date"] = "27/09/17",
-				}, -- [1]
-				{
-					["mapID"] = 1676,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PALADIN",
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:28:18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147159::::::::110:65::5:3:3562:1502:3336:::|h[Radiant Lightbringer Gauntlets]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Upgrade to existing tier/random upgrade",
-					["boss"] = "Harjatan",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147320::::::::110:63::6:1:569:::|h[Gauntlets of the Foregone Conqueror]|h|r",
-					["votes"] = 0,
-					["date"] = "27/09/17",
-					["responseID"] = 3,
-					["tierToken"] = "HandsSlot",
-					["tokenRoll"] = true,
-				}, -- [2]
 			},
 			["Cluze-Frostwolf"] = {
 				{
@@ -1801,12 +1768,12 @@ RCLootCouncilLootDB = {
 				}, -- [1]
 				{
 					["mapID"] = 1676,
-					["groupSize"] = 20,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "HUNTER",
-					["votes"] = 0,
 					["response"] = "Offspec/Greed",
+					["date"] = "27/09/17",
+					["class"] = "HUNTER",
 					["boss"] = "Demonic Inquisition",
+					["groupSize"] = 20,
+					["votes"] = 0,
 					["isAwardReason"] = false,
 					["time"] = "20:20:04",
 					["lootWon"] = "|cffa335ee|Hitem:147077::::::::110:63::6:3:3563:1512:3528:::|h[Inexorable Truth Serum]|h|r",
@@ -1818,7 +1785,54 @@ RCLootCouncilLootDB = {
 						0, -- [3]
 						1, -- [4]
 					},
+					["instance"] = "Tomb of Sargeras-Mythic",
+				}, -- [2]
+			},
+			["Vairasza-Frostwolf"] = {
+				{
+					["mapID"] = 1676,
+					["isAwardReason"] = false,
 					["date"] = "27/09/17",
+					["class"] = "PALADIN",
+					["difficultyID"] = 16,
+					["response"] = "Offspec/Greed",
+					["time"] = "20:18:37",
+					["boss"] = "Demonic Inquisition",
+					["lootWon"] = "|cffa335ee|Hitem:147088::::::::110:63::6:3:3563:1512:3528:::|h[Smoldering Thumbscrews]|h|r",
+					["groupSize"] = 20,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["votes"] = 0,
+					["instance"] = "Tomb of Sargeras-Mythic",
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PALADIN",
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:28:18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147159::::::::110:65::5:3:3562:1502:3336:::|h[Radiant Lightbringer Gauntlets]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Upgrade to existing tier/random upgrade",
+					["boss"] = "Harjatan",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147320::::::::110:63::6:1:569:::|h[Gauntlets of the Foregone Conqueror]|h|r",
+					["votes"] = 0,
+					["date"] = "27/09/17",
+					["responseID"] = 3,
+					["tierToken"] = "HandsSlot",
+					["tokenRoll"] = true,
 				}, -- [2]
 			},
 			["Uguluugulu-Frostwolf"] = {
@@ -1848,24 +1862,24 @@ RCLootCouncilLootDB = {
 				}, -- [1]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147115::::::::110:253::6:3:3563:1517:3336:::|h[Entfaltende Neuerschaffung]|h|r",
-					["date"] = "27/09/17",
-					["response"] = "Mainspec/Need",
 					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "HUNTER",
-					["votes"] = 0,
 					["groupSize"] = 20,
-					["time"] = "21:31:12",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:147113::::::::110:63::6:3:3563:1512:3528:::|h[Flawless Hurricane Pearl]|h|r",
-					["difficultyID"] = 16,
-					["boss"] = "Mistress Sassz'ine",
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["class"] = "HUNTER",
+					["boss"] = "Mistress Sassz'ine",
+					["response"] = "Mainspec/Need",
+					["lootWon"] = "|cffa335ee|Hitem:147113::::::::110:63::6:3:3563:1512:3528:::|h[Flawless Hurricane Pearl]|h|r",
+					["isAwardReason"] = false,
+					["time"] = "21:31:12",
+					["difficultyID"] = 16,
+					["votes"] = 0,
+					["responseID"] = 1,
+					["date"] = "27/09/17",
 					["mapID"] = 1676,
 				}, -- [2]
 			},

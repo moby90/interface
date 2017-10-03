@@ -807,8 +807,8 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["fadeout"] = true,
-							["fadeoutalpha"] = 0,
 							["padding"] = 1,
+							["fadeoutalpha"] = 0,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 4.02523692535033,
@@ -967,14 +967,14 @@ Bartender4DB = {
 						{
 							["rows"] = 4,
 							["fadeout"] = true,
-							["hidemacrotext"] = true,
 							["version"] = 3,
+							["hidemacrotext"] = true,
 							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = -4.99999809265137,
-								["x"] = -410.212127685547,
-								["point"] = "BOTTOM",
 								["growVertical"] = "UP",
+								["point"] = "BOTTOM",
+								["x"] = -410.212127685547,
 							},
 							["fadeoutalpha"] = 0,
 							["padding"] = -2,
@@ -1003,8 +1003,8 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["fadeout"] = true,
-							["version"] = 3,
 							["hidemacrotext"] = true,
+							["version"] = 3,
 							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 4.02523692535033,
@@ -1809,9 +1809,9 @@ Bartender4DB = {
 					},
 				},
 				["Bizzl - Frostwolf"] = {
+					["fadeout"] = true,
 					["fadeoutalpha"] = 0,
 					["version"] = 3,
-					["fadeout"] = true,
 					["position"] = {
 						["y"] = 40.5000076293945,
 						["x"] = -281.5,
@@ -1829,9 +1829,9 @@ Bartender4DB = {
 					},
 				},
 				["Bizzl_Sublety_1.0"] = {
+					["fadeout"] = true,
 					["version"] = 3,
 					["fadeoutalpha"] = 0,
-					["fadeout"] = true,
 					["position"] = {
 						["y"] = 40.5000076293945,
 						["x"] = -281.5,
@@ -1887,14 +1887,14 @@ Bartender4DB = {
 					},
 				},
 				["Laru_1.1"] = {
+					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["position"] = {
 						["y"] = 40.5000076293945,
 						["x"] = -281.5,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 1,
 					},
-					["fadeout"] = true,
-					["fadeoutalpha"] = 0,
 					["version"] = 3,
 				},
 				["Nanahara - Aegwynn"] = {
@@ -1907,15 +1907,15 @@ Bartender4DB = {
 					},
 				},
 				["Laru_2.0"] = {
+					["fadeoutalpha"] = 0,
 					["fadeoutdelay"] = 0,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 40.4999809265137,
 						["x"] = -281.5,
 						["point"] = "BOTTOMRIGHT",
 						["scale"] = 1,
 					},
-					["fadeoutalpha"] = 0,
+					["version"] = 3,
 					["fadeout"] = true,
 				},
 				["Laruchan - Frostwolf"] = {
@@ -1947,9 +1947,9 @@ Bartender4DB = {
 					},
 				},
 				["Laruchan_1.0"] = {
+					["fadeout"] = true,
 					["fadeoutalpha"] = 0,
 					["version"] = 3,
-					["fadeout"] = true,
 					["position"] = {
 						["y"] = 40.5000076293945,
 						["x"] = -281.5,
@@ -2006,7 +2006,15 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Bizzl - Frostwolf"] = {
+				["Laru_1.1"] = {
+					["position"] = {
+						["y"] = 136.023818969727,
+						["x"] = 587.966552734375,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+				},
+				["Laruchan_1.0"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223,
@@ -2014,7 +2022,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Laruchan_1.0"] = {
+				["Bizzl - Frostwolf"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223,
@@ -2029,14 +2037,6 @@ Bartender4DB = {
 						["x"] = -31.5000610351563,
 						["point"] = "BOTTOM",
 					},
-				},
-				["Laru_1.1"] = {
-					["position"] = {
-						["y"] = 136.023818969727,
-						["x"] = 587.966552734375,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
 				},
 				["Laru_2.0"] = {
 					["position"] = {
@@ -2243,12 +2243,12 @@ Bartender4DB = {
 					},
 				},
 				["Laru_1.1"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 				["Nanahara - Aegwynn"] = {
 					["enabled"] = true,
@@ -2260,12 +2260,12 @@ Bartender4DB = {
 					},
 				},
 				["Laru_2.0"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 				["Laruchan - Frostwolf"] = {
 					["enabled"] = true,
@@ -2427,6 +2427,7 @@ Bartender4DB = {
 				},
 				["Laru_1.1"] = {
 					["alpha"] = 0.35,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 58.625,
 						["x"] = -9.62499833106995,
@@ -2434,7 +2435,6 @@ Bartender4DB = {
 						["scale"] = 1.75,
 					},
 					["padding"] = -3,
-					["version"] = 3,
 				},
 				["Nanahara - Aegwynn"] = {
 					["version"] = 3,
@@ -3114,13 +3114,13 @@ Bartender4DB = {
 			["outofrange"] = "hotkey",
 		},
 		["Laru_1.1"] = {
-			["selfcastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["focuscastmodifier"] = false,
 			["minimapIcon"] = {
 				["minimapPos"] = 159.08742330489,
 				["hide"] = true,
 			},
+			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
+			["selfcastmodifier"] = false,
 			["outofrange"] = "hotkey",
 		},
 		["Nanahara - Aegwynn"] = {
