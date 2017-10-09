@@ -58,12 +58,12 @@ AngryAssign_Pages = {
 		["Backup"] = "{circle} Ranged Position\n{diamond} Ranged Position\n{cross} Soulstalkers\n{skull} Boss\n{triangle} Charge\n\n{icon ability_kick}:Ribesal - Nerviar - Zhaneqt - Liquiritia \n\n||cgreenHEAL CDs Apocalypse\n(1)  {icon ability_toughness}+{icon spell_shadow_unsummonbuilding}\n(2)  {icon spell_fire_elementaldevastation}\n(3)  {icon ability_shaman_healingtide}\n(4)  {icon spell_monk_revival}\n(5)",
 		["Contents"] = "{circle} Ranged Position\n{diamond} Ranged Position\n{cross} Soulstalkers\n{skull} Boss\n{triangle} Charge\n\n{icon ability_kick}:Ribesal - Nerviar - Zhaneqt - Liquiritia \n\n||cgreenHEAL CDs Apocalypse\n(1)  {icon ability_toughness}+{icon spell_shadow_unsummonbuilding}\n(2)  {icon spell_fire_elementaldevastation}\n(3)  {icon ability_shaman_healingtide}\n(4)  {icon spell_monk_revival}\n(5)",
 	},
-	[298256478] = {
-		["Updated"] = 1448566033,
-		["Name"] = "HFC12 Mannoroth",
-		["Id"] = 298256478,
-		["UpdateId"] = 991601833,
-		["Contents"] = "Imp Grip\n\n1. ||credTidok||r\n2. ||credBelya||r\n\nKicks:\n\n1. Lardeck, Eo, Uzglug, Grummln\n2. Malfiesto, Arthenos, Ugulugu, Vernys\n3. Tidok, Belya, Mages\n\n\nGuldan Soak\n\nFallen -> End -> Meta \nersatz arthenos -> uzglug\n\nDoom:\n\n1. Sacrifice Profit\n2. Cocoon Blood\n\nCDs P1:\n\n1. SB Volley: Ring + DA\n1. Gaze: Tide\n2. SB Volley: Revivial\n2. Gaze:\n3. SB Volley + 3. Gaze: Barrier + Ring\n\nCDs P2: (GROB!)\n\n1. Combo: Tide (Imps) + AMZ Tidok + DA (Gaze)\n2. Combo: Ring + AW + Ascendance (SB Volley + Imps) + AMZ Belya + Link 1 (Gaze)\nFel Hellstorm: Rallying Cry\n3. Combo: Revival (Imps)  + Link 2 (Gaze) + Smokes +  Barrier\n\nCDs P3:\n\nAMZ/Smoke auf CD im Imp Spawn / Hellstorm\n1. Gaze: Ring\n1. Shadowforce: Roar Dewi + Devotion Aura + Tide\n2. Gaze: ?\n2. Shadowforce: Roar Fluffy + Alles ziehen was noch da istt",
+	[3901284293] = {
+		["Updated"] = 1498162485,
+		["Name"] = "KJ",
+		["Id"] = 3901284293,
+		["UpdateId"] = 589168860,
+		["Contents"] = "Fallen/Cluze\nFonsetz/Kremo\nRoanar/Ugu\n\n{square}Cluze{diamond}Kremo\n{cross}Ugu{star}Roanar\n\nRogues wenn nähe melee\n\nP3\nRogues/Hunter den orb kiten\n\n1. Armageddon -> Reflections: Jayde\n--- Intermission: ---\n2. Armageddon -> Pfeil (Tranq) (Pfeil Melees+Heiler)\n3. Armageddon + Pfeil (Pfeil Ranges)\n--- \n4. Armageddon + TankAdd\n5. Pfeil\n6. Reflections + Pfeil -> Armageddon (HTT + Devo Vairasza)\n7. Reflection + Armageddon + Pfeil (Jayde+SLT)",
 	},
 	[1504715925] = {
 		["Updated"] = 1449778534,
@@ -72,19 +72,19 @@ AngryAssign_Pages = {
 		["UpdateId"] = 2756829910,
 		["Contents"] = "Allures:\n#1 Nega{rt6}\n#2 Nega{rt6}, Wakasi{rt5}\n#3 Nega{rt6}, Uzglug{rt7}\n#4 Nega{rt6}, Uzglug{rt7}\n#5 Nega{rt6}, Uzglug{rt7}\n\nP2\n#1 Wrought: Ring + AW + Hymn\n#2 Wrought: HTT\n#3 Wrought: Revival + DA\n\nShackle-Roar:\n1. Dewi\n2. Inuku\n3. Lardeck\n\nmelee left {rt1}\nGruppe 2\n\nmelee right {rt2}\nGruppe 1\n\nranged left {rt3}\nGruppe 3\n\nranged right {rt4}\nGruppe 4\n\n...",
 	},
-	[3901284293] = {
-		["Updated"] = 1498162485,
-		["Name"] = "KJ",
-		["Id"] = 3901284293,
-		["UpdateId"] = 589168860,
-		["Contents"] = "Fallen/Cluze\nFonsetz/Kremo\nRoanar/Ugu\n\n{square}Cluze{diamond}Kremo\n{cross}Ugu{star}Roanar\n\nRogues wenn nähe melee\n\nP3\nRogues/Hunter den orb kiten\n\n1. Armageddon -> Reflections: Jayde\n--- Intermission: ---\n2. Armageddon -> Pfeil (Tranq) (Pfeil Melees+Heiler)\n3. Armageddon + Pfeil (Pfeil Ranges)\n--- \n4. Armageddon + TankAdd\n5. Pfeil\n6. Reflections + Pfeil -> Armageddon (HTT + Devo Vairasza)\n7. Reflection + Armageddon + Pfeil (Jayde+SLT)",
+	[298256478] = {
+		["Updated"] = 1448566033,
+		["Name"] = "HFC12 Mannoroth",
+		["Id"] = 298256478,
+		["UpdateId"] = 991601833,
+		["Contents"] = "Imp Grip\n\n1. ||credTidok||r\n2. ||credBelya||r\n\nKicks:\n\n1. Lardeck, Eo, Uzglug, Grummln\n2. Malfiesto, Arthenos, Ugulugu, Vernys\n3. Tidok, Belya, Mages\n\n\nGuldan Soak\n\nFallen -> End -> Meta \nersatz arthenos -> uzglug\n\nDoom:\n\n1. Sacrifice Profit\n2. Cocoon Blood\n\nCDs P1:\n\n1. SB Volley: Ring + DA\n1. Gaze: Tide\n2. SB Volley: Revivial\n2. Gaze:\n3. SB Volley + 3. Gaze: Barrier + Ring\n\nCDs P2: (GROB!)\n\n1. Combo: Tide (Imps) + AMZ Tidok + DA (Gaze)\n2. Combo: Ring + AW + Ascendance (SB Volley + Imps) + AMZ Belya + Link 1 (Gaze)\nFel Hellstorm: Rallying Cry\n3. Combo: Revival (Imps)  + Link 2 (Gaze) + Smokes +  Barrier\n\nCDs P3:\n\nAMZ/Smoke auf CD im Imp Spawn / Hellstorm\n1. Gaze: Ring\n1. Shadowforce: Roar Dewi + Devotion Aura + Tide\n2. Gaze: ?\n2. Shadowforce: Roar Fluffy + Alles ziehen was noch da istt",
 	},
 	[3744746738] = {
-		["Updated"] = 1506621839,
+		["Updated"] = 1507147323,
 		["Name"] = "Avatar",
 		["Id"] = 3744746738,
-		["UpdateId"] = 1982173949,
-		["Contents"] = "Beams, jeder 7 stacks.\n\nLinks:  Fallen Shaydera Cluze Kremo Roanar\nRechts: Fooneses Locura Uguluugulu Pillock Jayde\n\n\nTouches: von links nach rechts \n\nalle Till  >  Eo > Dewi > Marika\n\n\nP2 Marks\n\n1. Camp: {moon} || L/R: Mages + Shadows bei {moon} || M: Rogues am boss\n2. Camp: {moon} || Vairasza + Laru + Gardor bei {circle} || \n3. solo Left{cross}, Middle{triangle}, Right{skull}\n4. solo \n5. solo",
+		["UpdateId"] = 3995149982,
+		["Contents"] = "Beams, jeder 7 stacks.\n\nLinks:  Fallen Hàklqt Cluze Kremo Roanar\nRechts: Fooneses Locura Uguluugulu Pillock Jayde\n\n\nTouches: von links nach rechts \n\nalle Till  >  Eo > Dewi > Marika\n\n\nP2 Marks\n\n1. Camp: {moon} || L/R: Mages + Shadows bei {moon} || M: Rogues am boss\n2. Camp: {moon} || Vairasza + Laru + Gardor bei {circle} || \n3. solo Left{cross}, Middle{triangle}, Right{skull}\n4. solo \n5. solo",
 	},
 	[4205316334] = {
 		["Updated"] = 1495564335,
@@ -115,20 +115,19 @@ AngryAssign_Pages = {
 		["Backup"] = "||credBloodlust \n{bl}: nach 3. Hände\n\n||cgreenDMG-Reduce CDs:\n1. / 4. Hands: Falkenbrut{icon spell_holy_powerwordbarrier}\n2. Hands:  + Zhaneqt{icon ability_rogue_smoke}\n3. Hands: {icon ability_toughness}\n\n||cgreenHeal CDs:\n1. / 4. Pound: Daeyra\n2. / 5. Pound: Laru{icon spell_holy_auramastery}       Daeyra{icon ability_shaman_healingtide}\n3. / 6. Pound: {icon ability_toughness} + {icon spell_shadow_unsummonbuilding} + {icon ability_shaman_ancestralguidance}\n\n||cgreenRunes on Enrage\n||cyellowLäufer = Zhane + BoP",
 		["Contents"] = "||credBloodlust \n{bl}: nach 3. Hände\n\n||cgreenDMG-Reduce CDs:\n1. / 4. Hands: Falkenbrut{icon spell_holy_powerwordbarrier}\n2. Hands:  + Zhaneqt{icon ability_rogue_smoke}\n3. Hands: {icon ability_toughness}\n\n||cgreenHeal CDs:\n1. / 4. Pound: Daeyra\n2. / 5. Pound: Laru{icon spell_holy_auramastery}       Daeyra{icon ability_shaman_healingtide}\n3. / 6. Pound: {icon ability_toughness} + {icon spell_shadow_unsummonbuilding} + {icon ability_shaman_ancestralguidance}\n\n||cgreenRunes on Enrage\n||cyellowLäufer = Zhane + BoP",
 	},
-	[1889444566] = {
-		["Updated"] = 1441304555,
-		["Name"] = "04. Hellfire High Council",
-		["Id"] = 1889444566,
-		["UpdateId"] = 1534996767,
-		["Backup"] = "||credBloodlust \n{bl}:  Bloodboil 30%\n\n||cbluePhase 1:      0:00 - 2:30\n||cgreenBloodboil Groups\n||cyellowGP1:||r Slowpew   Efanque   Borki   Hirnkeks   Laru   \n||cyellowGP2:||r Milatdas   Tanaquia   Alexyra   Slitz   Thaldor\n\n||cgreenFel Rage Reduce (25sec):\n(1) Mütze{icon spell_druid_ironbark} -> Laru{icon spell_holy_sealofsacrifice}\n(2) Mütze{icon spell_druid_ironbark} -> Laru{icon spell_holy_sealofsacrifice}\n\n||cgreen Felstorm HEAL-CDs\n(1) --\n(2) Ring {icon inv_60legendary_ring1a}  +  Laru {icon spell_holy_avenginewrath}\n(3) --\n(4) Ribe {icon spell_fire_elementaldevastation}\n\n||cgreenDispels:\nMark  --> 10s - 15s\n\n||cbluePhase 2:      2:30 - 3:40\n{icon spell_nature_tranquility}  -> {icon ability_shaman_healingtide}+{icon spell_shaman_spiritlink}+{icon spell_holy_powerwordbarrier}  -> {icon inv_60legendary_ring1a}+{icon spell_holy_auramastery}\nAuf Abruf: {icon ability_toughness}+{icon spell_shadow_unsummonbuilding}+{icon ability_shaman_ancestralguidance}\n\n                     ||cblue 5:10 - 6:00\nRibe {icon spell_fire_elementaldevastation}  -> {icon inv_60legendary_ring1a}",
-		["Contents"] = "||credBloodlust \n{bl}:  Bloodboil 30%\n\n||cbluePhase 1:      0:00 - 2:30\n||cgreenBloodboil Groups\n||cyellowGP1:||r Slowpew   Efanque   Borki   Hirnkeks   Laru   \n||cyellowGP2:||r Milatdas   Tanaquia   Alexyra   Slitz   Thaldor\n\n||cgreenFel Rage Reduce (25sec):\n(1) Mütze{icon spell_druid_ironbark} -> Laru{icon spell_holy_sealofsacrifice}\n(2) Mütze{icon spell_druid_ironbark} -> Laru{icon spell_holy_sealofsacrifice}\n\n||cgreen Felstorm HEAL-CDs\n(1) --\n(2) Ring {icon inv_60legendary_ring1a}  +  Laru {icon spell_holy_avenginewrath}\n(3) --\n(4) Ribe {icon spell_fire_elementaldevastation}\n\n||cgreenDispels:\nMark  --> 10s - 15s\n\n||cbluePhase 2:      2:30 - 3:40\n{icon spell_nature_tranquility}  -> {icon ability_shaman_healingtide}+{icon spell_shaman_spiritlink}+{icon spell_holy_powerwordbarrier}  -> {icon inv_60legendary_ring1a}+{icon spell_holy_auramastery}\nAuf Abruf: {icon ability_toughness}+{icon spell_shadow_unsummonbuilding}+{icon ability_shaman_ancestralguidance}\n\n                     ||cblue 5:10 - 6:00\nRibe {icon spell_fire_elementaldevastation}  -> {icon inv_60legendary_ring1a}",
+	[3553190877] = {
+		["Updated"] = 1505676532,
+		["Name"] = "[M] KJ",
+		["Id"] = 3553190877,
+		["UpdateId"] = 1583494789,
+		["Contents"] = "Armageddon Soaks\n\n{cross} Fallen, Ugu, ypzo, Tidok\n{skull} Fooneses, Kremo, Laru, Eo\n{square} Roanar, Pillock, jd, Talar\n{star} Cluze, dewi ,Till, Marika\n\nBig Soaks\n\np1\n1. Tank + Tentreesha\n2. Cluze  + Laru (bop) \n3. Kremo + Talar\n\nintermission\nnur tanks (Roanar ersatz)\n\np2 \n6. Fallen + Fooneses\n7. Tank + Cluze\n8. Talar + Ugu\n9. Fooneses + Kremo\n10. Offtank + Till (bop)\n11. Tank + Roanar\n12. Talar + Cluze\n\np3 kite\nCluze/Kremo/Eo\nHannes/Roanar/Dokz",
 	},
-	[2857715915] = {
-		["Updated"] = 1498760590,
-		["Name"] = "Inquisiton",
-		["Id"] = 2857715915,
-		["UpdateId"] = 1127173357,
-		["Contents"] = "1. Grogoll - Malfiesto\n2. Smiber - Tanks\n3. Belya - Muhdiv - Ranges",
+	[1946518365] = {
+		["Updated"] = 1490211629,
+		["Name"] = "Krosus",
+		["Id"] = 1946518365,
+		["UpdateId"] = 3067819290,
+		["Contents"] = "1. Slam ||cpriestTrollified||r{icon 47536}\nSoaken\n2. Slam ||cpriestTrollified||r{icon 207948}\n3. Slam ||cpaladinLaru||r{icon 31884}\n----------------------\n1. Slam ||cpriestTrollified||r{icon 62618} ||cdruidLutien||r{icon 740}\nSoaken ||cpriestTrollified||r{icon 47536}{icon 132603}\n2. Slam ||cpriestTrollified||r{icon 207948}\n3. Slam ||cpaladinLaru||r{icon 31821}\n----------------------\n1. Slam\nSoaken\n2. Slam ||cpriestTrollified||r {icon 207948}\n3. Slam\n----------------------\n1. Slam ||cpriestTrollified||r{icon 47536}\nSoaken ||cdruidLutien||r{icon 740}\n2. Slam ||cpriestTrollified||r {icon 207948}\n3. Slam ||cpaladinLaru||r{icon 31821}",
 	},
 	[3111238261] = {
 		["Updated"] = 1490214289,
@@ -144,26 +143,27 @@ AngryAssign_Pages = {
 		["UpdateId"] = 2800415126,
 		["Contents"] = "(1){square}: Gruppe 4\n(2){triangle}: Gruppe 2\n(3){circle}: Gruppe 1\n(4){diamond}: Gruppe 3\n\n1. LW + AM(M)\n2. HTT + SLT            \n3. LW + Barrier + AM(L)\n4. Tranq\n5. LW + AM(M)\n6. HTT + SLT            \n7. LW + Barrier + AM(L)\n8. Tranq\n9. LW + SLT            \n10 HTT + Barrier",
 	},
-	[661693737] = {
-		["Updated"] = 1450209475,
-		["Name"] = "HFC06 Gorefiend Mythic",
-		["Id"] = 661693737,
-		["UpdateId"] = 339482394,
-		["Contents"] = "1. profit + Muhdiv\n2. Rayonn + Azylion\n3. Wakasi + Gardor\n4. Lardeck + Nevel\n5. Uuglug + Uzglug\n6. Fallen + End\n7. Inuke + Arthenia\n8. Tidok + Tyven\n9. Malfiesto + Grummln\n\nHeal CDs:\n2. Healerring, ohne CDs (AW+Ascendance)\n3. SL\n4. DA + Tranq\n5..PWB + HT\n5. AMZ  Belya -> Tidok",
+	[2607537655] = {
+		["Updated"] = 1490209169,
+		["Name"] = "Elisande (2P)",
+		["Id"] = 2607537655,
+		["UpdateId"] = 2946795785,
+		["Contents"] = "Phase 1 (0:10~2:00)\nBlue + Red: ||cpriestTrollified||r{icon 64843} -> ||cpriestTradias||r {icon 132603}{icon 207948}{icon 62618}\nRed:  ||cdruidLuthïen||r {icon 740}\n\nPhase 2 (2:00~4:40)\nBlue + Red: ||cpaladinPlaylist||r {icon 31821} + ||cpriestTradias||r {icon 207948}\nRed + Beams: ||cpriestTrollified||r{icon 64843} +  ||cpriestTradias||r {icon 132603}{icon 62618}\nBeams:\n\nPhase 3 (4:40~7:55)\n\nOrb Soak:\n{star} ||cffabd473Uguluugulu||r \n{cross} ||cffabd473Cluze||r \n{diamond} ||cffabd473Kremo||r \n{triangle} 1. ||cffff7d0aDewi||r  2. ||cff3fc7ebFallen||r \n{square} 1. ||cffff7d0aMáriká||r  2. ||cffffffffLocura||r",
 	},
 	[3676158019] = {
-		["Updated"] = 1506626453,
+		["Updated"] = 1507226648,
 		["Name"] = "[M] KJ 3 tanks",
 		["Id"] = 3676158019,
-		["UpdateId"] = 3490239243,
-		["Contents"] = "Armageddon Soaks\n\n{cross} Fallen, Ugu, ypzo, Sneakk\n{skull} Fooneses, Kremo, Laru, Eo\n{square} Roanar, Pillock, JD, Talar\n{star} Cluze, Dewi ,Till, Marika\n\nBig Soaks\n\np1\n1. Tidok + Tank \n2. Cluze  + Tidok\n3. Kremo + Talar\n\nintermission\nnur tanks\n\np2 \n6. Fallen + Fooneses\n7. Tidok + Uguluugulu\n8. Tidok + Talar\n9. Tidok + Kremo\n10. Till (bop) + Tidok\n11. Tidok + Roanar\n12. Tidok + Talar\n\np3 kite\nRoanar/Kremo/Eo\nFallen/Ugu/Cluze",
+		["UpdateId"] = 4258834090,
+		["Contents"] = "Armageddon Soaks\n\n{cross} Fallen, Ugu, Muhdiv, Lardeck\n{skull} Fooneses, Kremo, Laru, Eo\n{square} Roanar, Pillock, JD, Talar\n{star} Cluze, Dewi ,Till, Marika\n\nBig Soaks\n\np1\n1. Tidok + Tank \n2. Cluze  + Tidok\n3. Kremo + Talar\n\nintermission\nnur tanks\n\np2 \n6. Fallen + Fooneses\n7. Tidok + Uguluugulu\n8. Tidok + Talar\n9. Tidok + Kremo\n10. Till (bop) + Tidok\n11. Tidok + Roanar\n12. Tidok + Talar\n\np3 kite\nRoanar/Kremo/Eo\nFallen/Ugu/Cluze",
 	},
-	[3553190877] = {
-		["Updated"] = 1505676532,
-		["Name"] = "[M] KJ",
-		["Id"] = 3553190877,
-		["UpdateId"] = 1583494789,
-		["Contents"] = "Armageddon Soaks\n\n{cross} Fallen, Ugu, ypzo, Tidok\n{skull} Fooneses, Kremo, Laru, Eo\n{square} Roanar, Pillock, jd, Talar\n{star} Cluze, dewi ,Till, Marika\n\nBig Soaks\n\np1\n1. Tank + Tentreesha\n2. Cluze  + Laru (bop) \n3. Kremo + Talar\n\nintermission\nnur tanks (Roanar ersatz)\n\np2 \n6. Fallen + Fooneses\n7. Tank + Cluze\n8. Talar + Ugu\n9. Fooneses + Kremo\n10. Offtank + Till (bop)\n11. Tank + Roanar\n12. Talar + Cluze\n\np3 kite\nCluze/Kremo/Eo\nHannes/Roanar/Dokz",
+	[1889444566] = {
+		["Updated"] = 1441304555,
+		["Name"] = "04. Hellfire High Council",
+		["Id"] = 1889444566,
+		["UpdateId"] = 1534996767,
+		["Backup"] = "||credBloodlust \n{bl}:  Bloodboil 30%\n\n||cbluePhase 1:      0:00 - 2:30\n||cgreenBloodboil Groups\n||cyellowGP1:||r Slowpew   Efanque   Borki   Hirnkeks   Laru   \n||cyellowGP2:||r Milatdas   Tanaquia   Alexyra   Slitz   Thaldor\n\n||cgreenFel Rage Reduce (25sec):\n(1) Mütze{icon spell_druid_ironbark} -> Laru{icon spell_holy_sealofsacrifice}\n(2) Mütze{icon spell_druid_ironbark} -> Laru{icon spell_holy_sealofsacrifice}\n\n||cgreen Felstorm HEAL-CDs\n(1) --\n(2) Ring {icon inv_60legendary_ring1a}  +  Laru {icon spell_holy_avenginewrath}\n(3) --\n(4) Ribe {icon spell_fire_elementaldevastation}\n\n||cgreenDispels:\nMark  --> 10s - 15s\n\n||cbluePhase 2:      2:30 - 3:40\n{icon spell_nature_tranquility}  -> {icon ability_shaman_healingtide}+{icon spell_shaman_spiritlink}+{icon spell_holy_powerwordbarrier}  -> {icon inv_60legendary_ring1a}+{icon spell_holy_auramastery}\nAuf Abruf: {icon ability_toughness}+{icon spell_shadow_unsummonbuilding}+{icon ability_shaman_ancestralguidance}\n\n                     ||cblue 5:10 - 6:00\nRibe {icon spell_fire_elementaldevastation}  -> {icon inv_60legendary_ring1a}",
+		["Contents"] = "||credBloodlust \n{bl}:  Bloodboil 30%\n\n||cbluePhase 1:      0:00 - 2:30\n||cgreenBloodboil Groups\n||cyellowGP1:||r Slowpew   Efanque   Borki   Hirnkeks   Laru   \n||cyellowGP2:||r Milatdas   Tanaquia   Alexyra   Slitz   Thaldor\n\n||cgreenFel Rage Reduce (25sec):\n(1) Mütze{icon spell_druid_ironbark} -> Laru{icon spell_holy_sealofsacrifice}\n(2) Mütze{icon spell_druid_ironbark} -> Laru{icon spell_holy_sealofsacrifice}\n\n||cgreen Felstorm HEAL-CDs\n(1) --\n(2) Ring {icon inv_60legendary_ring1a}  +  Laru {icon spell_holy_avenginewrath}\n(3) --\n(4) Ribe {icon spell_fire_elementaldevastation}\n\n||cgreenDispels:\nMark  --> 10s - 15s\n\n||cbluePhase 2:      2:30 - 3:40\n{icon spell_nature_tranquility}  -> {icon ability_shaman_healingtide}+{icon spell_shaman_spiritlink}+{icon spell_holy_powerwordbarrier}  -> {icon inv_60legendary_ring1a}+{icon spell_holy_auramastery}\nAuf Abruf: {icon ability_toughness}+{icon spell_shadow_unsummonbuilding}+{icon ability_shaman_ancestralguidance}\n\n                     ||cblue 5:10 - 6:00\nRibe {icon spell_fire_elementaldevastation}  -> {icon inv_60legendary_ring1a}",
 	},
 	[4188261769] = {
 		["Updated"] = 1490209114,
@@ -239,12 +239,13 @@ AngryAssign_Pages = {
 		["UpdateId"] = 1630617884,
 		["Contents"] = "Soaks: \n||cpaladinShourija||r -> ||crogueMalfiesto||r -> ||cpaladinShourija||r -> ||crogueEowyndra||r\n\nPhase 1:\n1.||cshamanMuhdiv||r{icon 108280}\n2.||cdruidLuthïen||r {icon 740}\n3.||cpriestTrollified||r {icon 132603}\n4.||cpaladinLaru||r {icon 31821}\n\nPhase 2:\n1.||cpriestTrollified||r {icon 207948}\n2.||cshamanMuhdiv||r{icon 108280}\n3.||cdruidLuthïen||r {icon 740}\n4.||cpriestTrollified||r {icon 132603}\n\nPhase 3:\n1.||cpaladinLaru||r {icon 31821}\n2.||cpriestTrollified||r {icon 207948}\n3.||cshamanMuhdiv||r{icon 108280}\n4.||cdruidLuthïen||r {icon 740}",
 	},
-	[987692279] = {
-		["Updated"] = 1495563010,
-		["Name"] = "Odyn",
-		["Id"] = 987692279,
-		["UpdateId"] = 2586220203,
-		["Contents"] = "||cff0070deBêlya||r {circle}\nTalar{diamond}\n||cff3fc7ebFallen||r {square}\n||cffffffffTrollified||r {triangle}\n||cffffffffRoanar||r {star}\n\nMarika, Dewi, Muhdiv, Sucukbaron, Roanar",
+	[1533989043] = {
+		["Updated"] = 1443463557,
+		["Name"] = "09. Fel Lord Zakuun",
+		["Id"] = 1533989043,
+		["UpdateId"] = 2124956758,
+		["Contents"] = "{bl}: ||cred30%\n\n\n{star}    {circle}    {diamond}    {triangle}    {moon}\n\n          {skull}      {cross}\n\n\n||cblue1) {star} ||cyellowZeek + Alexyra + Tanaquia {star}\n||cblue2) {moon} ||rSaradoc + Efanque + Laru {moon}\n||cblue3) {diamond} ||cpurpletank  {diamond}  ||rMütze + Thaldor + Milatdas + Nerviar\n||cblue4) {diamond} ||cpurpletank  {diamond}  ||rFalkenbrut + Ahrix + Frostey + Ribesal",
+		["Backup"] = "{bl}: ||cred30%\n\n\n{star}    {circle}    {diamond}    {triangle}    {moon}\n\n          {skull}      {cross}\n\n\n||cblue1) {star} ||cyellowZeek + Alexyra + Tanaquia {star}\n||cblue2) {moon} ||rSaradoc + Efanque + Laru {moon}\n||cblue3) {diamond} ||cpurpletank  {diamond}  ||rMütze + Thaldor + Milatdas + Nerviar\n||cblue4) {diamond} ||cpurpletank  {diamond}  ||rFalkenbrut + Ahrix + Frostey + Ribesal",
 	},
 	[111606192] = {
 		["Updated"] = 1441302053,
@@ -261,12 +262,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 1874840136,
 		["Contents"] = "grummln/tidok/laru\nazylion/gardor/rhaa\n\nkicks\neo -> tidok/belya/lardeck -> Grummln",
 	},
-	[1271817639] = {
-		["Updated"] = 1503255665,
-		["Name"] = "[M] Mistress",
-		["Id"] = 1271817639,
-		["UpdateId"] = 2897651061,
-		["Contents"] = "99%{square} Fallen {triangle} Roanar {cross} Marika {diamond} Talar {star} Ugu\n85%{square} Permok {triangle} Tidok {cross} Pillock {diamond} Cluze {star} Kremo\n70%{square} Till {triangle} Laru {cross} Ypzo {diamond} Dewi {star} Jayde\n55%{square} Fallen {triangle} Roanar {cross} Pillock {diamond} Malfiesto {star}Belya\n40%{square} Kremo {triangle} Tidok {cross} Marika {diamond} Talar {star} Ugu\n25%{square} Permok {triangle} Fooneses {cross} Pillock {diamond} Cluze {star} nen ranged!\n10% yolo",
+	[2606295085] = {
+		["Updated"] = 1496254466,
+		["Name"] = "Gul'Dan quick",
+		["Id"] = 2606295085,
+		["UpdateId"] = 3683859229,
+		["Contents"] = "1. Hellfire: ||cpriestTrollified||r{icon 29166}{icon 132603}\n1. E-Bonds: ||cpriestTrollified||r{icon 217830}\n2. Hellfire: ||cdruidTentreesha||r{icon 740}\n2. E-Bonds: ||cdruidTentreesha||r{icon 217830}\n3. Hellfire: ||cpaladinLaru||r{icon 31821}\n3. E-Bonds: ||cpaladinLaru||r{icon 217830}\n4. Hellfire: ||cpaladinVairasza||r{icon 31821}\n\n1. Eye: ||cpriestTrollified||r\n1. Harvest: ||cpriestTrollified||r{icon 29166}{icon 132603}\n2. Eye: ||cdruidTentreesha||r{icon 740}\n2. Harvest: ||cpaladinLaru||r{icon 31821}\n3./4. Eye: ||cpriestTrollified||r + ||cpaladinVairasza||r{icon 31821}\n3. Harvest: {icon 196718}{icon 62618}{icon 97462}\n\n2. Crash: Troll\n3. Crash\n4. Crash\n1. Essences\n5. Crash\n6. Crash: ||cpaladinVairasza||r{icon 31821}\n7. Crash \n2. Essences: ||cdruidTentreesha||r{icon 740}\n\nCCs: Cluze - Mcdok - Shouri - Vairasza",
 	},
 	[1345943154] = {
 		["Updated"] = 1448832130,
@@ -340,20 +341,19 @@ AngryAssign_Pages = {
 		["UpdateId"] = 3056900255,
 		["Contents"] = "",
 	},
-	[2606295085] = {
-		["Updated"] = 1496254466,
-		["Name"] = "Gul'Dan quick",
-		["Id"] = 2606295085,
-		["UpdateId"] = 3683859229,
-		["Contents"] = "1. Hellfire: ||cpriestTrollified||r{icon 29166}{icon 132603}\n1. E-Bonds: ||cpriestTrollified||r{icon 217830}\n2. Hellfire: ||cdruidTentreesha||r{icon 740}\n2. E-Bonds: ||cdruidTentreesha||r{icon 217830}\n3. Hellfire: ||cpaladinLaru||r{icon 31821}\n3. E-Bonds: ||cpaladinLaru||r{icon 217830}\n4. Hellfire: ||cpaladinVairasza||r{icon 31821}\n\n1. Eye: ||cpriestTrollified||r\n1. Harvest: ||cpriestTrollified||r{icon 29166}{icon 132603}\n2. Eye: ||cdruidTentreesha||r{icon 740}\n2. Harvest: ||cpaladinLaru||r{icon 31821}\n3./4. Eye: ||cpriestTrollified||r + ||cpaladinVairasza||r{icon 31821}\n3. Harvest: {icon 196718}{icon 62618}{icon 97462}\n\n2. Crash: Troll\n3. Crash\n4. Crash\n1. Essences\n5. Crash\n6. Crash: ||cpaladinVairasza||r{icon 31821}\n7. Crash \n2. Essences: ||cdruidTentreesha||r{icon 740}\n\nCCs: Cluze - Mcdok - Shouri - Vairasza",
+	[1271817639] = {
+		["Updated"] = 1503255665,
+		["Name"] = "[M] Mistress",
+		["Id"] = 1271817639,
+		["UpdateId"] = 2897651061,
+		["Contents"] = "99%{square} Fallen {triangle} Roanar {cross} Marika {diamond} Talar {star} Ugu\n85%{square} Permok {triangle} Tidok {cross} Pillock {diamond} Cluze {star} Kremo\n70%{square} Till {triangle} Laru {cross} Ypzo {diamond} Dewi {star} Jayde\n55%{square} Fallen {triangle} Roanar {cross} Pillock {diamond} Malfiesto {star}Belya\n40%{square} Kremo {triangle} Tidok {cross} Marika {diamond} Talar {star} Ugu\n25%{square} Permok {triangle} Fooneses {cross} Pillock {diamond} Cluze {star} nen ranged!\n10% yolo",
 	},
-	[1533989043] = {
-		["Updated"] = 1443463557,
-		["Name"] = "09. Fel Lord Zakuun",
-		["Id"] = 1533989043,
-		["UpdateId"] = 2124956758,
-		["Contents"] = "{bl}: ||cred30%\n\n\n{star}    {circle}    {diamond}    {triangle}    {moon}\n\n          {skull}      {cross}\n\n\n||cblue1) {star} ||cyellowZeek + Alexyra + Tanaquia {star}\n||cblue2) {moon} ||rSaradoc + Efanque + Laru {moon}\n||cblue3) {diamond} ||cpurpletank  {diamond}  ||rMütze + Thaldor + Milatdas + Nerviar\n||cblue4) {diamond} ||cpurpletank  {diamond}  ||rFalkenbrut + Ahrix + Frostey + Ribesal",
-		["Backup"] = "{bl}: ||cred30%\n\n\n{star}    {circle}    {diamond}    {triangle}    {moon}\n\n          {skull}      {cross}\n\n\n||cblue1) {star} ||cyellowZeek + Alexyra + Tanaquia {star}\n||cblue2) {moon} ||rSaradoc + Efanque + Laru {moon}\n||cblue3) {diamond} ||cpurpletank  {diamond}  ||rMütze + Thaldor + Milatdas + Nerviar\n||cblue4) {diamond} ||cpurpletank  {diamond}  ||rFalkenbrut + Ahrix + Frostey + Ribesal",
+	[987692279] = {
+		["Updated"] = 1495563010,
+		["Name"] = "Odyn",
+		["Id"] = 987692279,
+		["UpdateId"] = 2586220203,
+		["Contents"] = "||cff0070deBêlya||r {circle}\nTalar{diamond}\n||cff3fc7ebFallen||r {square}\n||cffffffffTrollified||r {triangle}\n||cffffffffRoanar||r {star}\n\nMarika, Dewi, Muhdiv, Sucukbaron, Roanar",
 	},
 	[513006255] = {
 		["Updated"] = 1446062119,
@@ -384,12 +384,12 @@ AngryAssign_Pages = {
 		["Backup"] = "{tank}{healer}{damage}\n{bl}\n{star}, {circle}, {diamond}, {triangle}, {moon}, {square}, {cross}, {skull}\n{hs}\n{icon spell_holy_sealofprotection}{icon ability_kick}\n\"||credHello||r\" ||-r reverts back to normal color\n\nTranq: {icon spell_nature_tranquility}\nRevival: {icon spell_monk_revival}\nKuppel: {icon spell_holy_powerwordbarrier}\nDevotion Aura: {icon spell_holy_auramastery}\nHealing Tide: {icon ability_shaman_healingtide}\nSpirit Link: {icon spell_shaman_spiritlink}\nAvenging Wrath {icon spell_holy_avenginewrath}\nAscendacne {icon spell_fire_elementaldevastation}\n\nRallying Cry: {icon ability_toughness}\nSmoke Bomb: {icon ability_rogue_smoke}\nVampiric Embrace: {icon spell_shadow_unsummonbuilding}\nAncestrial Guidance: {icon ability_shaman_ancestralguidance}\nAnti Magic Zone: {icon spell_deathknight_antimagiczone}\n\nHoS: {icon spell_holy_sealofsacrifice}\nHoP: {icon spell_holy_sealofprotection}\nIronbark: {icon spell_druid_ironbark}\nVigilance: {icon ability_warrior_vigilance}\npainsup: {icon spell_holy_painsupression}\nCocoon: {icon ability_monk_chicocoon}\n\nshield wall: {icon ability_warrior_shieldwall}\nfortifying brew: {icon ability_monk_fortifyingale_new}\n\nstamp roar: {icon spell_druid_stampedingroar_cat}",
 		["Contents"] = "{tank}{healer}{damage}\n{bl}\n{star}, {circle}, {diamond}, {triangle}, {moon}, {square}, {cross}, {skull}\n{hs}\n{icon spell_holy_sealofprotection}{icon ability_kick}\n\"||credHello||r\" ||-r reverts back to normal color\n\nTranq: {icon spell_nature_tranquility}\nRevival: {icon spell_monk_revival}\nKuppel: {icon spell_holy_powerwordbarrier}\nDevotion Aura: {icon spell_holy_auramastery}\nHealing Tide: {icon ability_shaman_healingtide}\nSpirit Link: {icon spell_shaman_spiritlink}\nAvenging Wrath {icon spell_holy_avenginewrath}\nAscendacne {icon spell_fire_elementaldevastation}\n\nRallying Cry: {icon ability_toughness}\nSmoke Bomb: {icon ability_rogue_smoke}\nVampiric Embrace: {icon spell_shadow_unsummonbuilding}\nAncestrial Guidance: {icon ability_shaman_ancestralguidance}\nAnti Magic Zone: {icon spell_deathknight_antimagiczone}\n\nHoS: {icon spell_holy_sealofsacrifice}\nHoP: {icon spell_holy_sealofprotection}\nIronbark: {icon spell_druid_ironbark}\nVigilance: {icon ability_warrior_vigilance}\npainsup: {icon spell_holy_painsupression}\nCocoon: {icon ability_monk_chicocoon}\n\nshield wall: {icon ability_warrior_shieldwall}\nfortifying brew: {icon ability_monk_fortifyingale_new}\n\nstamp roar: {icon spell_druid_stampedingroar_cat}",
 	},
-	[2607537655] = {
-		["Updated"] = 1490209169,
-		["Name"] = "Elisande (2P)",
-		["Id"] = 2607537655,
-		["UpdateId"] = 2946795785,
-		["Contents"] = "Phase 1 (0:10~2:00)\nBlue + Red: ||cpriestTrollified||r{icon 64843} -> ||cpriestTradias||r {icon 132603}{icon 207948}{icon 62618}\nRed:  ||cdruidLuthïen||r {icon 740}\n\nPhase 2 (2:00~4:40)\nBlue + Red: ||cpaladinPlaylist||r {icon 31821} + ||cpriestTradias||r {icon 207948}\nRed + Beams: ||cpriestTrollified||r{icon 64843} +  ||cpriestTradias||r {icon 132603}{icon 62618}\nBeams:\n\nPhase 3 (4:40~7:55)\n\nOrb Soak:\n{star} ||cffabd473Uguluugulu||r \n{cross} ||cffabd473Cluze||r \n{diamond} ||cffabd473Kremo||r \n{triangle} 1. ||cffff7d0aDewi||r  2. ||cff3fc7ebFallen||r \n{square} 1. ||cffff7d0aMáriká||r  2. ||cffffffffLocura||r",
+	[661693737] = {
+		["Updated"] = 1450209475,
+		["Name"] = "HFC06 Gorefiend Mythic",
+		["Id"] = 661693737,
+		["UpdateId"] = 339482394,
+		["Contents"] = "1. profit + Muhdiv\n2. Rayonn + Azylion\n3. Wakasi + Gardor\n4. Lardeck + Nevel\n5. Uuglug + Uzglug\n6. Fallen + End\n7. Inuke + Arthenia\n8. Tidok + Tyven\n9. Malfiesto + Grummln\n\nHeal CDs:\n2. Healerring, ohne CDs (AW+Ascendance)\n3. SL\n4. DA + Tranq\n5..PWB + HT\n5. AMZ  Belya -> Tidok",
 	},
 	[2768910979] = {
 		["Updated"] = 1493321426,
@@ -405,12 +405,12 @@ AngryAssign_Pages = {
 		["UpdateId"] = 4115875913,
 		["Contents"] = "Phase 1 (0:10~2:00)\nBlue + Red: ||cshamanMuhdiv ||r {icon 108280}\nRed:  ||cdruidTentreesha||r {icon 740}\n\nPhase 2 (2:00~4:40)\n!Orbs! (~0:10)\nBlue + Red: ||cpaladinLaru||r {icon 31821} \nRed + Beams: ||cshamanMuhdiv ||r {icon 108280}\n!Orbs! (~1:40)\nBeams: ||cdruidTentreesha||r {icon 740}\n\nPhase 3 (4:40~7:55)\n\nSoaks:  \n{star} Ugu\n{cross} Cluze\n{diamond} Kremo\n{triangle} Fallen\n{square} Roanar\n\nErsatz\nDewi {diamond} seite\nTidok {cross} seite",
 	},
-	[1946518365] = {
-		["Updated"] = 1490211629,
-		["Name"] = "Krosus",
-		["Id"] = 1946518365,
-		["UpdateId"] = 3067819290,
-		["Contents"] = "1. Slam ||cpriestTrollified||r{icon 47536}\nSoaken\n2. Slam ||cpriestTrollified||r{icon 207948}\n3. Slam ||cpaladinLaru||r{icon 31884}\n----------------------\n1. Slam ||cpriestTrollified||r{icon 62618} ||cdruidLutien||r{icon 740}\nSoaken ||cpriestTrollified||r{icon 47536}{icon 132603}\n2. Slam ||cpriestTrollified||r{icon 207948}\n3. Slam ||cpaladinLaru||r{icon 31821}\n----------------------\n1. Slam\nSoaken\n2. Slam ||cpriestTrollified||r {icon 207948}\n3. Slam\n----------------------\n1. Slam ||cpriestTrollified||r{icon 47536}\nSoaken ||cdruidLutien||r{icon 740}\n2. Slam ||cpriestTrollified||r {icon 207948}\n3. Slam ||cpaladinLaru||r{icon 31821}",
+	[2857715915] = {
+		["Updated"] = 1498760590,
+		["Name"] = "Inquisiton",
+		["Id"] = 2857715915,
+		["UpdateId"] = 1127173357,
+		["Contents"] = "1. Grogoll - Malfiesto\n2. Smiber - Tanks\n3. Belya - Muhdiv - Ranges",
 	},
 	[202392132] = {
 		["Updated"] = 1446496121,
@@ -431,7 +431,6 @@ AngryAssign_Pages = {
 AngryAssign_Categories = {
 }
 AngryAssign_State = {
-	["locked"] = true,
 	["display"] = {
 		["y"] = 0,
 		["x"] = 4.00345993041992,
@@ -440,7 +439,13 @@ AngryAssign_State = {
 		["hidden"] = false,
 		["width"] = 287.999664306641,
 	},
-	["directionUp"] = false,
+	["locked"] = true,
+	["window"] = {
+		["height"] = 502.999877929688,
+		["top"] = 958.465942382813,
+		["left"] = 1029.93603515625,
+		["width"] = 927.000671386719,
+	},
 	["tree"] = {
 		["groups"] = {
 			[1640047391] = true,
@@ -497,16 +502,11 @@ AngryAssign_State = {
 		},
 		["fullwidth"] = 893.000610351563,
 		["scrollvalue"] = 17,
-		["treesizable"] = true,
-		["treewidth"] = 180.999969482422,
 		["selected"] = 1609917136,
+		["treewidth"] = 180.999969482422,
+		["treesizable"] = true,
 	},
-	["window"] = {
-		["height"] = 502.999877929688,
-		["top"] = 958.465942382813,
-		["left"] = 1029.93603515625,
-		["width"] = 927.000671386719,
-	},
+	["directionUp"] = false,
 }
 AngryAssign_Config = {
 	["highlightColor"] = "f7ff1e",

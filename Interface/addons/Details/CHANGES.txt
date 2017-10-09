@@ -1,5 +1,11 @@
-changeset:   676:8f7230c2e02e
+changeset:   677:6cf0fca6ebdb
 tag:         tip
+user:        Tercio
+date:        Sun Oct 01 21:03:47 2017 -0300
+summary:     - lib folder renamed.
+
+
+changeset:   676:8f7230c2e02e
 user:        Tercio
 date:        Wed Sep 27 17:59:04 2017 -0300
 summary:     - Rolling back to Mercurial repository.
