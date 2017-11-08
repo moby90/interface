@@ -1,3 +1,11 @@
+VER 3 000000000000004D "#1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use  [@mouseover] 13
+END
+VER 3 000000000000004E "#2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover] 14
+END
 VER 3 0000000000000043 "BoF" "1030095"
 /target  Tentreesha's Hopeless Reflection
 /cast Beacon of Faith
@@ -9,11 +17,6 @@ VER 3 0000000000000042 "BoL" "236247"
 END
 VER 3 0000000000000047 "Dewi" "136081"
 /target Dewi's Hopeless Reflection
-END
-VER 3 0000000000000044 "Freedom" "135968"
-/target Tentreesha's Hopeless Reflection
-/cast Blessing of Freedom
-/targetlasttarget
 END
 VER 3 0000000000000048 "gate" "136057"
 /focus [target=mouseover]

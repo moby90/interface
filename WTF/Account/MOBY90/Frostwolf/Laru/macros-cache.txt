@@ -1,3 +1,8 @@
+VER 3 0100000000000050 " " "135963"
+/tar Sigryn
+/cast Repentance
+/targetlasttarget
+END
 VER 3 0100000000000018 "beacon" "ABILITY_PALADIN_BEACONOFLIGHT"
 #showtooltip
 /cast [@mouseover] Beacon of Light
@@ -60,7 +65,7 @@ VER 3 010000000000004F "kj trinket" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000004B "lotm" "1360762"
 #showtooltip Light of the Martyr
-/cast [@mouseover, nodead]Light of the Martyr
+/cast [@mouseover,help,nodead,exists][@target,help]Light of the Martyr
 END
 VER 3 010000000000004C "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -74,9 +79,4 @@ END
 VER 3 010000000000004E "T5" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [talent:5/2] Holy Avenger; [talent:5/3] Holy Prism
-END
-VER 3 0100000000000048 "taunta" "135891"
-#showtooltip
-/cast Crusader Strike
-/use Ring of Collapsing Futures
 END

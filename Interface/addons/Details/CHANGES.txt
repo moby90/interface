@@ -1,5 +1,47 @@
-changeset:   677:6cf0fca6ebdb
+changeset:   684:8a7fba7e847c
 tag:         tip
+user:        Tercio
+date:        Sat Oct 21 13:30:06 2017 -0200
+summary:     - Fixed an error when clicking on the spec icon.
+
+
+changeset:   683:e708d8a64e08
+user:        Tercio
+date:        Sat Oct 21 12:40:54 2017 -0200
+summary:     - Fix for ticket #262: unable to open the player detail window when streamer option 'no alerts' are enabled.
+
+
+changeset:   682:6ade12d881ad
+user:        Tercio
+date:        Mon Oct 16 21:21:44 2017 -0200
+summary:     - Fixed green icons on the new feature 'event tracker'.
+
+
+changeset:   681:217e1d219223
+user:        Tercio
+date:        Mon Oct 16 14:38:40 2017 -0200
+summary:     - Click to open menus now close the menu if already opened.
+
+
+changeset:   680:7ffc9da9aaee
+user:        Tercio
+date:        Sat Oct 14 16:01:59 2017 -0300
+summary:     - framework update to v58 (looks like some author are adding words like 'topleft' and 'top' to the global namespace).
+
+
+changeset:   679:bc5a5e38ecac
+user:        Tercio
+date:        Sat Oct 14 13:04:36 2017 -0300
+summary:     - fixed an issue opening the segments menu.
+
+
+changeset:   678:fb72e955bfed
+user:        Tercio
+date:        Mon Oct 09 22:43:26 2017 -0300
+summary:     - Added several options and tools for streamers and youtubers.
+
+
+changeset:   677:6cf0fca6ebdb
 user:        Tercio
 date:        Sun Oct 01 21:03:47 2017 -0300
 summary:     - lib folder renamed.
