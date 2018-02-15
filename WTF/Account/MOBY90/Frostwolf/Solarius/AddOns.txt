@@ -47,7 +47,7 @@ ArkInventoryConfig: disabled
 ArkInventoryRules: disabled
 ArkInventoryRules_Example: disabled
 ArkInventorySearch: disabled
-ExRT: enabled
+ExRT: disabled
 GTFO: enabled
 Hansgar_And_Franzok_Assist: enabled
 oRA3: enabled
@@ -140,7 +140,7 @@ Details_RaidInfo-Nighthold: enabled
 Details_RaidInfo-TombOfSargeras: enabled
 Details_RaidInfo-TrialOfValor: enabled
 Details_ChartViewer: enabled
-GarrisonMissionManager: disabled
+GarrisonMissionManager: enabled
 Grid2: disabled
 Grid2Options: disabled
 Grid2RaidDebuffs: disabled
@@ -158,4 +158,4 @@ ShadowedUnitFrames: disabled
 StarCursor: disabled
 WorldQuestAssistant: disabled
 GuildGreet: disabled
-SavedInstances: enabled
+HideTalkingHead: enabled

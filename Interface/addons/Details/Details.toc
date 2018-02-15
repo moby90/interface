@@ -23,6 +23,7 @@ locales\Details-zhTW.lua
 boot.lua
 indent.lua
 core\util.lua
+API.lua
 
 functions\profiles.lua
 functions\hooks.lua
@@ -41,10 +42,9 @@ functions\playerclass.lua
 functions\timedata.lua
 functions\report.lua
 functions\rowanimation.lua
+functions\raidinfo.lua
 
 core\timemachine.lua
-
-
 
 gumps\anime.lua
 gumps\anime.xml

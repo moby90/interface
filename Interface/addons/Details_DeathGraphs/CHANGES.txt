@@ -1,7 +1,7 @@
-changeset:   69:fb22264bb145
-tag:         v7.3.0.068
+changeset:   79:880aeb7bfa95
+tag:         v7.3.5.079
 user:        Tercio
-date:        Sat Oct 21 13:34:13 2017 -0200
-summary:     - Removed overall deaths feature.
+date:        Thu Jan 18 14:54:25 2018 -0200
+summary:     - Using the new button template from Details!
 
 

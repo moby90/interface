@@ -235,7 +235,7 @@ DBM-VPYike: disabled
 ElvUI: enabled
 ElvUI_Config: enabled
 ArkInventorySearch: disabled
-ExRT: enabled
+ExRT: disabled
 Hansgar_And_Franzok_Assist: enabled
 WeakAurasTemplates: enabled
 DBM-BrokenIsles: disabled
@@ -314,10 +314,11 @@ Details_RaidInfo-Nighthold: enabled
 Details_RaidInfo-TombOfSargeras: enabled
 Details_RaidInfo-TrialOfValor: enabled
 Details_ChartViewer: enabled
-GarrisonMissionManager: disabled
+GarrisonMissionManager: enabled
 LittleWigs: enabled
 Masque_Serenity: enabled
 SexyCooldown: enabled
 StarCursor: enabled
 WorldQuestAssistant: disabled
-GuildGreet: disabled
+RCLootCouncil: enabled
+HideTalkingHead: enabled

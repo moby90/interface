@@ -3,7 +3,7 @@
 	
 	--> default weaktable
 	_detalhes.weaktable = {__mode = "v"}
-
+	
 	--> globals
 	--[[global]] DETAILS_WA_AURATYPE_ICON = 1
 	--[[global]] DETAILS_WA_AURATYPE_TEXT = 2
@@ -26,7 +26,24 @@
 	--[[global]] DETAILS_WA_TRIGGER_INTERRUPT = 11
 	--[[global]] DETAILS_WA_TRIGGER_DISPELL = 12
 	
-	--weak auras
+	--templates
+	
+	_detalhes:GetFramework():InstallTemplate ("button", "DETAILS_FORGE_TEXTENTRY_TEMPLATE", {
+		backdrop = {bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true}, --edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, 
+		backdropcolor = {0, 0, 0, .1},
+	})
+	
+	local CONST_BUTTON_TEMPLATE = _detalhes:GetFramework():InstallTemplate ("button", "DETAILS_FORGE_BUTTON_TEMPLATE", {
+		width = 140,
+	},
+	"DETAILS_PLUGIN_BUTTON_TEMPLATE")
+	
+	local CONST_BUTTONSELECTED_TEMPLATE = _detalhes:GetFramework():InstallTemplate ("button", "DETAILS_FORGE_BUTTONSELECTED_TEMPLATE", {
+		width = 140,
+	}, 
+	"DETAILS_PLUGIN_BUTTONSELECTED_TEMPLATE")
+	
+	--weak auras	
 	
 	local text_dispell_prototype = {
 		["outline"] = true,
@@ -1691,21 +1708,35 @@
 
 	end
 	
+
+	-- other_values DBM:
+	-- text_size 72
+	-- dbm_timer_id Timer183254cd
+	-- text Next Allure of Flames In
+	-- spellid 183254
+	-- icon Interface\Icons\Spell_Fire_FelFlameStrike
+	
+	-- other_values BW:
+	-- bw_timer_id 183828
+	-- text Next Death Brand In
+	-- icon Interface\Icons\warlock_summon_doomguard
+	-- text_size 72
+	
+	function _detalhes:InitializeAuraCreationWindow()
+		local DetailsAuraPanel = CreateFrame ("frame", "DetailsAuraPanel", UIParent)
+		DetailsAuraPanel.Frame = DetailsAuraPanel
+		DetailsAuraPanel.__name = L["STRING_CREATEAURA"]
+		DetailsAuraPanel.real_name = "DETAILS_CREATEAURA"
+		DetailsAuraPanel.__icon = [[Interface\BUTTONS\UI-GroupLoot-DE-Up]]
+		DetailsPluginContainerWindow.EmbedPlugin (DetailsAuraPanel, DetailsAuraPanel, true)
+	
+		function DetailsAuraPanel.RefreshWindow()
+			_detalhes:OpenAuraPanel() --spellid, spellname, spellicon, encounterid, triggertype, auratype, other_values
+		end
+	end
+
 	local empty_other_values = {}
 	function _detalhes:OpenAuraPanel (spellid, spellname, spellicon, encounterid, triggertype, auratype, other_values)
-		
-		-- other_values DBM:
-		-- text_size 72
-		-- dbm_timer_id Timer183254cd
-		-- text Next Allure of Flames In
-		-- spellid 183254
-		-- icon Interface\Icons\Spell_Fire_FelFlameStrike
-		
-		-- other_values BW:
-		-- bw_timer_id 183828
-		-- text Next Death Brand In
-		-- icon Interface\Icons\warlock_summon_doomguard
-		-- text_size 72
 		
 		if (not spellname) then
 			spellname = select (1, GetSpellInfo (spellid))
@@ -1714,7 +1745,9 @@
 		wipe (empty_other_values)
 		other_values = other_values or empty_other_values
 		
-		if (not DetailsAuraPanel) then
+		if (not DetailsAuraPanel or not DetailsAuraPanel.Initialized) then
+			
+			DetailsAuraPanel.Initialized = true
 			
 			--> check if there is a group for our auras
 			if (WeakAuras and WeakAurasSaved) then
@@ -1728,15 +1761,25 @@
 				end
 			end
 
-			local f = CreateFrame ("frame", "DetailsAuraPanel", UIParent)
+			local f = DetailsAuraPanel or CreateFrame ("frame", "DetailsAuraPanel", UIParent)
 			f:SetSize (800, 600)
 			f:SetPoint ("center", UIParent, "center", 0, 150)
-			f:SetFrameStrata ("HIGH")
+			f:SetFrameStrata ("DIALOG")
 			f:EnableMouse (true)
 			f:SetMovable (true)
 			f:SetToplevel (true)
-			f:SetBackdrop ({edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true})
-			f:SetBackdropColor (24/255, 24/255, 24/255, .8)
+			
+			--background
+			f.bg1 = f:CreateTexture (nil, "background")
+			f.bg1:SetTexture ([[Interface\AddOns\Details\images\background]], true)
+			f.bg1:SetAlpha (0.8)
+			f.bg1:SetVertexColor (0.27, 0.27, 0.27)
+			f.bg1:SetVertTile (true)
+			f.bg1:SetHorizTile (true)
+			f.bg1:SetSize (790, 454)
+			f.bg1:SetAllPoints()
+			f:SetBackdrop ({edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\AddOns\Details\images\background]], tileSize = 64, tile = true})
+			f:SetBackdropColor (.5, .5, .5, .7)
 			f:SetBackdropBorderColor (0, 0, 0, 1)
 			
 			--register to libwindow
@@ -1745,6 +1788,12 @@
 			LibWindow.RestorePosition (f)
 			LibWindow.MakeDraggable (f)
 			LibWindow.SavePosition (f)
+			
+			f:SetScript ("OnMouseDown", function (self, button)
+				if (button == "RightButton") then
+					f:Hide()
+				end
+			end)
 			
 			--titlebar
 			f.TitleBar = CreateFrame ("frame", "$parentTitleBar", f)
@@ -1771,7 +1820,6 @@
 			--title
 			f.Title = f.TitleBar:CreateFontString ("$parentTitle", "overlay", "GameFontNormal")
 			f.Title:SetPoint ("center", f.TitleBar, "center")
-			f.Title:SetTextColor (.8, .8, .8, 1)
 			f.Title:SetText ("Details! Create Aura")
 
 			local fw = _detalhes:GetFramework()
@@ -1808,13 +1856,13 @@
 			aura_type:SetPoint ("left", aura_type_label, "right", 2, 0)
 			aura_type:Hide()
 			
-			local Icon_IconAuraType = fw:CreateImage (f, [[Interface\AddOns\Details\images\icons2]], 32, 32, "overlay", {119/512, 151/512, 176/512, 208/512}, nil, nil)
+			local Icon_IconAuraType = fw:CreateImage (f, [[Interface\AddOns\Details\images\icons2]], 32, 32, "overlay", {200/512, 232/512, 336/512, 368/512}, nil, nil)
 			Icon_IconAuraType:SetPoint ("topleft", aura_type_label, "bottomleft", 10, -16)
 			
-			local Icon_StatusbarAuraType = fw:CreateImage (f, [[Interface\AddOns\Details\images\icons2]], 92, 12, "overlay", {154/512, 246/512, 176/512, 188/512}, nil, nil)
+			local Icon_StatusbarAuraType = fw:CreateImage (f, [[Interface\AddOns\Details\images\icons2]], 92, 12, "overlay", {235/512, 327/512, 336/512, 348/512}, nil, nil)
 			Icon_StatusbarAuraType:SetPoint ("topleft", aura_type_label, "bottomleft", 60, -26)
-
-			local Icon_TextOnlyAuraType = fw:CreateImage (f, [[Interface\AddOns\Details\images\icons2]], 57, 8, "overlay", {169/512, 225/512, 200/512, 207/512}, nil, nil)
+			
+			local Icon_TextOnlyAuraType = fw:CreateImage (f, [[Interface\AddOns\Details\images\icons2]], 57, 8, "overlay", {250/512, 306/512, 360/512, 367/512}, nil, nil)
 			Icon_TextOnlyAuraType:SetPoint ("topleft", aura_type_label, "bottomleft", 170, -28)
 			
 			local AuraTypeSelectedColor = {1, 1, 1, 0.3}
@@ -2258,11 +2306,15 @@
 				f:Hide()
 			end
 			
-			local create_button = fw:CreateButton (f, create_func, 106, 20, "Create Aura")
+			local create_button = fw:CreateButton (f, create_func, 106, 20, L["STRING_CREATEAURA"])
 			create_button:SetTemplate (slider_template)
+			create_button:SetTemplate (_detalhes.gump:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+			create_button:SetWidth (160)
 			
 			local cancel_button = fw:CreateButton (f, function() name_textentry:ClearFocus(); f:Hide() end, 106, 20, "Cancel")
-			cancel_button:SetTemplate (slider_template)
+			cancel_button:SetTemplate (_detalhes.gump:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+			cancel_button:SetWidth (160)
+			
 			
 			create_button:SetIcon ([[Interface\Buttons\UI-CheckBox-Check]], nil, nil, nil, {0.125, 0.875, 0.125, 0.875}, nil, 4, 2)
 			cancel_button:SetIcon ([[Interface\Buttons\UI-GroupLoot-Pass-Down]], nil, nil, nil, {0.125, 0.875, 0.125, 0.875}, nil, 4, 2)
@@ -2444,6 +2496,8 @@
 		DetailsAuraPanel:UpdateLabels()
 		
 		DetailsAuraPanel:Show()
+		DetailsPluginContainerWindow.OpenPlugin (DetailsAuraPanel)
+		
 	end
 	
 	------------------------------------------------------------------------------------------------------------------
@@ -2829,27 +2883,40 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --> forge
 
-	function _detalhes:OpenForge()
-	
-		if (not DetailsForgePanel) then
+	function _detalhes:InitializeForge()
+		local DetailsForgePanel = _detalhes.gump:CreateSimplePanel (UIParent, 960, 600, "Details! " .. L["STRING_SPELLLIST"], "DetailsForgePanel")
+		DetailsForgePanel.Frame = DetailsForgePanel
+		DetailsForgePanel.__name = L["STRING_SPELLLIST"]
+		DetailsForgePanel.real_name = "DETAILS_FORGE"
+		DetailsForgePanel.__icon = [[Interface\MINIMAP\Vehicle-HammerGold-3]]
+		DetailsPluginContainerWindow.EmbedPlugin (DetailsForgePanel, DetailsForgePanel, true)
 		
+		function DetailsForgePanel.RefreshWindow()
+			_detalhes:OpenForge()
+		end
+	end
+	
+	function _detalhes:OpenForge()
+		
+		if (not DetailsForgePanel or not DetailsForgePanel.Initialized) then
+			
 			local fw = _detalhes:GetFramework()
 			local lower = string.lower
 			
+			DetailsForgePanel.Initialized = true
+			
 			--main frame
-			local f = _detalhes.gump:CreateSimplePanel (UIParent, 960, 600, "Details! Forge", "DetailsForgePanel")
+			local f = DetailsForgePanel or _detalhes.gump:CreateSimplePanel (UIParent, 960, 600, "Details! " .. L["STRING_SPELLLIST"], "DetailsForgePanel")
 			f:SetPoint ("center", UIParent, "center")
 			f:SetFrameStrata ("HIGH")
 			f:SetToplevel (true)
 			f:SetMovable (true)
 			f.Title:SetTextColor (1, .8, .2)
 			
-			f:SetBackdropColor (unpack (_detalhes.default_backdropcolor))
-
 			local have_plugins_enabled
 			
 			for id, instanceTable in pairs (_detalhes.EncounterInformation) do
-				if (id == _detalhes.current_raid_tier_mapid) then
+				if (_detalhes.InstancesToStoreData [id]) then
 					have_plugins_enabled = true
 					break
 				end
@@ -2905,6 +2972,39 @@
 				end
 				wipe (spell_already_added)
 			end)
+			
+			f.bg1 = f:CreateTexture (nil, "background")
+			f.bg1:SetTexture ([[Interface\AddOns\Details\images\background]], true)
+			f.bg1:SetAlpha (0.7)
+			f.bg1:SetVertexColor (0.27, 0.27, 0.27)
+			f.bg1:SetVertTile (true)
+			f.bg1:SetHorizTile (true)
+			f.bg1:SetSize (790, 454)
+			f.bg1:SetAllPoints()
+			
+			f:SetBackdrop ({edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\AddOns\Details\images\background]], tileSize = 64, tile = true})
+			f:SetBackdropColor (.5, .5, .5, .5)
+			f:SetBackdropBorderColor (0, 0, 0, 1)
+			
+			--[=[
+			--scroll gradient
+			local blackdiv = f:CreateTexture (nil, "artwork")
+			blackdiv:SetTexture ([[Interface\ACHIEVEMENTFRAME\UI-Achievement-HorizontalShadow]])
+			blackdiv:SetVertexColor (0, 0, 0)
+			blackdiv:SetAlpha (1)
+			blackdiv:SetPoint ("topleft", f, "topleft", 170, -100)
+			blackdiv:SetHeight (461)
+			blackdiv:SetWidth (200)
+			
+			--big gradient
+			local blackdiv = f:CreateTexture (nil, "artwork")
+			blackdiv:SetTexture ([[Interface\ACHIEVEMENTFRAME\UI-Achievement-HorizontalShadow]])
+			blackdiv:SetVertexColor (0, 0, 0)
+			blackdiv:SetAlpha (0.7)
+			blackdiv:SetPoint ("topleft", f, "topleft", 0, 0)
+			blackdiv:SetPoint ("bottomleft", f, "bottomleft", 0, 0)
+			blackdiv:SetWidth (200)
+			--]=]
 			
 			local no_func = function()end
 			local nothing_to_show = {}
@@ -3276,7 +3376,7 @@
 				end,
 				fill_name = "DetailsForgeAllSpellsFillPanel",
 			}
-
+			
 			
 			-----------------------------------------------
 			
@@ -3688,6 +3788,8 @@
 			
 			-----------------------------------------------
 			
+
+
 			local select_module = function (a, b, module_number)
 			
 				if (current_module ~= module_number) then
@@ -3701,9 +3803,9 @@
 				end
 				
 				for index, button in ipairs (buttons) do
-					button.textcolor = "white"
+					button:SetTemplate (CONST_BUTTON_TEMPLATE)
 				end
-				buttons[module_number].textcolor = "orange"
+				buttons[module_number]:SetTemplate (CONST_BUTTONSELECTED_TEMPLATE)
 				
 				local module = all_modules [module_number]
 				if (module) then
@@ -3711,13 +3813,13 @@
 					
 					local fillpanel = module.fill_panel
 					if (not fillpanel) then
-						fillpanel = fw:NewFillPanel (f, module.header, module.fill_name, nil, 740, 480, module.fill_gettotal, module.fill_fillrows, false)
+						fillpanel = fw:NewFillPanel (f, module.header, module.fill_name, nil, 740, 481, module.fill_gettotal, module.fill_fillrows, false)
 						fillpanel:SetPoint (170, -80)
 						fillpanel.module = module
 						
 						local background = fillpanel:CreateTexture (nil, "background")
 						background:SetAllPoints()
-						background:SetColorTexture (0, 0, 0, 0.8)
+						background:SetColorTexture (0, 0, 0, 0.2)
 						
 						module.fill_panel = fillpanel
 					end
@@ -3730,6 +3832,13 @@
 					
 					fillpanel:Show()
 					fillpanel:Refresh()
+					
+					for o = 1, #fillpanel.scrollframe.lines do
+						for i = 1, #fillpanel.scrollframe.lines [o].entry_inuse do
+							--> text entry
+							fillpanel.scrollframe.lines [o].entry_inuse [i]:SetTemplate (fw:GetTemplate ("button", "DETAILS_FORGE_TEXTENTRY_TEMPLATE"))
+						end
+					end
 				end
 			end
 			
@@ -3757,10 +3866,10 @@
 				local module = all_modules [i]
 				local b = fw:CreateButton (f, select_module, 140, 20, module.name, i)
 				b.tooltip = module.desc
-				b.textalign = "<"
 				
-				b:SetIcon ([[Interface\BUTTONS\UI-GuildButton-PublicNote-Up]])
-				b:SetTemplate (_detalhes.gump:GetTemplate ("button", "OPTIONS_BUTTON_TEMPLATE"))
+				b:SetTemplate (CONST_BUTTON_TEMPLATE)
+				b:SetIcon ([[Interface\BUTTONS\UI-GuildButton-PublicNote-Up]], nil, nil, nil, nil, {1, 1, 1, 0.7})
+				b:SetWidth (140)
 				
 				if (lastButton) then
 					if (brackets [i]) then
@@ -3788,6 +3897,8 @@
 		else
 			DetailsForgePanel.FirstRun = true
 		end
+		
+		DetailsPluginContainerWindow.OpenPlugin (DetailsForgePanel)
 		
 	end
 

@@ -2,13 +2,53 @@
 DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
+		{
+			["date_end"] = "18:34:04",
+			["date_start"] = "18:33:55",
+			["name"] = "Gug'rokk",
+			["total_time"] = 9.00299999996787,
+		}, -- [1]
+		{
+			["date_end"] = "18:33:09",
+			["date_start"] = "18:33:06",
+			["name"] = "Roltall",
+			["total_time"] = 3.00399999995716,
+		}, -- [2]
+		{
+			["date_end"] = "18:32:09",
+			["date_start"] = "18:31:52",
+			["name"] = "Magmolatus",
+			["total_time"] = 17.0009999999893,
+		}, -- [3]
+		{
+			["date_end"] = "18:30:28",
+			["date_start"] = "18:30:24",
+			["name"] = "Slave Watcher Crushto",
+			["total_time"] = 4.00699999998324,
+		}, -- [4]
 	},
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
 	["cooldowns_timeline"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
 	},
 	["debuff_timeline"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
 	},
 	["backdrop_color"] = {
 		0, -- [1]
@@ -17,5 +57,13 @@ DetailsTimeLineDB = {
 		0.4, -- [4]
 	},
 	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+		}, -- [3]
+		{
+		}, -- [4]
 	},
 }

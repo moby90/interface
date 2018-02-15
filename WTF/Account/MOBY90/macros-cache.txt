@@ -7,13 +7,13 @@ VER 3 000000000000004E "#2" "INV_MISC_QUESTIONMARK"
 /use [@mouseover] 14
 END
 VER 3 0000000000000043 "BoF" "1030095"
-/target  Elydrood's Hopeless Reflection
+/target  Jayde's Hopeless Reflection
 /cast Beacon of Faith
 END
 VER 3 0000000000000042 "BoL" "236247"
-/target  Jayde's Hopeless Reflection
+/target  Laru's Hopeless Reflection
 /cast Beacon of Light
-/target Laru's Hopeless Reflection
+/target Muhdiv's Hopeless Reflection
 END
 VER 3 0000000000000047 "Dewi" "136081"
 /target Dewi's Hopeless Reflection
@@ -55,7 +55,11 @@ VER 3 000000000000003D "show combat text" "INV_JEWELRY_TRINKET_04"
 /console floatingCombatTextCombatHealing 1
 END
 VER 3 0000000000000041 "Tentris" "136081"
-/target Tentreesha's Hopeless Reflection
+/target Tentrisha's Hopeless Reflection
+END
+VER 3 0000000000000050 "varimathras" "135754"
+/target Shadow of
+/cast Holy Shock
 END
 VER 3 000000000000004B "weg" "136047"
 /s Weg.

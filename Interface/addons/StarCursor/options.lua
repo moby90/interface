@@ -1,18 +1,31 @@
-StarCursor = {};
- StarCursor.panel = CreateFrame( "Frame", "StarCursorPanel", UIParent );
- -- Registering in the Interface Addon Options GUI
- -- Setting the name for the Category for the Options Panel
- StarCursor.panel.name = "StarCursor";
- -- Adding the panel to the Interface Options
- InterfaceOptions_AddCategory(StarCursor.panel);
- 
-SLASH_STARCURSOR1 = "/sc"
-local blizzPanel
-SlashCmdList["STARCURSOR"] = function(msg)
-	InterfaceOptionsFrame_OpenToCategory(StarCursor.panel)
-end
+local L = LibStub("AceLocale-3.0"):GetLocale("StarCursor", false)
 
-local hijackFrame = CreateFrame("Frame", nil, InterfaceOptionsFrame)
-hijackFrame:SetScript("OnShow", function(self)
-	self:SetScript("OnShow", nil)
-end)
+hooksecurefunc("InterfaceOptionsFrame_OpenToCategory",InterfaceOptionsFrame_OpenToCategory)
+
+-- Blizzard options frame
+        local panel = CreateFrame("Frame", "StarCursorBlizzOptions")
+        panel.name = "StarCursor"
+        InterfaceOptions_AddCategory(panel)
+ 
+
+        local fs = panel:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+        fs:SetPoint("TOPLEFT", 10, -15)
+        fs:SetPoint("BOTTOMRIGHT", panel, "TOPRIGHT", 10, -45)
+        fs:SetJustifyH("LEFT")
+        fs:SetJustifyV("TOP")
+        fs:SetText("StarCursor")
+
+        local button = CreateFrame("Button", nil, panel, "UIPanelButtonTemplate")
+        button:SetText(L['Configure'])
+        button:SetWidth(128)
+        button:SetPoint("TOPLEFT", 10, -48)
+        button:SetScript('OnClick', function()
+            
+            print("StarCursor: Options are comming soon. ")
+        end)
+
+		-- Slash Handler
+		SLASH_STARCURSOR1 = "/sc"
+		SlashCmdList.STARCURSOR = function(msg)
+	InterfaceOptionsFrame_OpenToCategory(StarCursorBlizzOptions)
+end

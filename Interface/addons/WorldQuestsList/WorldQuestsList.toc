@@ -1,6 +1,0 @@
-## Interface: 70300
-## Title: World Quests List
-## Author: ykiigor
-## Version: 49
-## SavedVariables: VWQL
-WorldQuestsList.lua

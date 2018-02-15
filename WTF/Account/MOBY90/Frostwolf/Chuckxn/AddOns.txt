@@ -221,7 +221,7 @@ AddOnSkins: enabled
 DBM-ProvingGrounds: disabled
 DBM-VPYike: disabled
 ArkInventorySearch: disabled
-ExRT: enabled
+ExRT: disabled
 Hansgar_And_Franzok_Assist: enabled
 WeakAurasTemplates: enabled
 ElvUI_Config: enabled
@@ -294,7 +294,7 @@ Details_RaidInfo-Nighthold: enabled
 Details_RaidInfo-TombOfSargeras: enabled
 Details_RaidInfo-TrialOfValor: enabled
 Details_ChartViewer: enabled
-GarrisonMissionManager: disabled
+GarrisonMissionManager: enabled
 LittleWigs: enabled
 Masque: enabled
 Masque_Serenity: disabled
@@ -302,4 +302,4 @@ Masque_Shadow: disabled
 SexyCooldown: disabled
 StarCursor: disabled
 WorldQuestAssistant: disabled
-GuildGreet: disabled
+HideTalkingHead: enabled

@@ -1,7 +1,7 @@
-changeset:   73:2915b167c979
-tag:         v7.3.0.073
+changeset:   81:c623442f2466
+tag:         v7.3.5.081
 user:        Tercio
-date:        Sat Oct 21 13:59:53 2017 -0200
-summary:     - Fixed debuff soulbind on Desolate Host encounter not showing on the timeline.
+date:        Thu Jan 18 14:55:34 2018 -0200
+summary:     - Using the new buttom template from Details!
 
 

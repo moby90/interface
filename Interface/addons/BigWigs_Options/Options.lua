@@ -57,13 +57,13 @@ local acOptions = {
 					name = L.minimapIcon,
 					desc = L.minimapToggle,
 					order = 13,
-					get = function() return not BigWigs3IconDB.hide end,
+					get = function() return not BigWigsIconDB.hide end,
 					set = function(_, v)
 						if v then
-							BigWigs3IconDB.hide = nil
+							BigWigsIconDB.hide = nil
 							icon:Show("BigWigs")
 						else
-							BigWigs3IconDB.hide = true
+							BigWigsIconDB.hide = true
 							icon:Hide("BigWigs")
 						end
 					end,
@@ -593,14 +593,19 @@ do
 						currentSize = currentSize + #link + 1
 					end
 				else
-					local _, _, _, _, _, _, _, _, link = EJ_GetSectionInfo(-o)
-					if currentSize + #link + 1 > 255 then
-						printList(channel, header, abilities)
-						wipe(abilities)
-						currentSize = 0
+					local tbl = C_EncounterJournal.GetSectionInfo(-o)
+					if not tbl or not tbl.link then
+						BigWigs:Print(("Failed to fetch the link for journal id (-)%d."):format(-o))
+					else
+						local link = tbl.link
+						if currentSize + #link + 1 > 255 then
+							printList(channel, header, abilities)
+							wipe(abilities)
+							currentSize = 0
+						end
+						abilities[#abilities + 1] = link
+						currentSize = currentSize + #link + 1
 					end
-					abilities[#abilities + 1] = link
-					currentSize = currentSize + #link + 1
 				end
 			end
 		end
@@ -619,11 +624,18 @@ local function populateToggleOptions(widget, module)
 	scrollFrame:ReleaseChildren()
 	scrollFrame:PauseLayout()
 
-	local sDB = BigWigsStatisticsDB
-	if module.journalId and module.zoneId and BigWigs:GetPlugin("Statistics").db.profile.enabled and sDB and sDB[module.zoneId] and sDB[module.zoneId][module.journalId] then
-		sDB = sDB[module.zoneId][module.journalId]
+	local id = 0 -- XXX temp
+	if module.instanceId then
+		id = module.instanceId
+	elseif module.zoneId and module.zoneId > 0 then
+		id = GetAreaMapInfo(module.zoneId)
+	end
 
-		if sDB.LFR or sDB.normal or sDB.heroic or sDB.mythic then -- Create statistics table
+	local sDB = BigWigsStatsDB
+	if module.journalId and id > 0 and BigWigs:GetPlugin("Statistics").db.profile.enabled and sDB and sDB[id] and sDB[id][module.journalId] then
+		sDB = sDB[id][module.journalId]
+
+		if next(sDB) then -- Create statistics table
 			local statGroup = AceGUI:Create("InlineGroup")
 			statGroup:SetTitle(L.statistics)
 			statGroup:SetLayout("Flow")

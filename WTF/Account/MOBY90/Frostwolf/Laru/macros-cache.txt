@@ -1,8 +1,3 @@
-VER 3 0100000000000050 " " "135963"
-/tar Sigryn
-/cast Repentance
-/targetlasttarget
-END
 VER 3 0100000000000018 "beacon" "ABILITY_PALADIN_BEACONOFLIGHT"
 #showtooltip
 /cast [@mouseover] Beacon of Light
@@ -59,9 +54,6 @@ VER 3 0100000000000040 "judge" "SPELL_HOLY_RIGHTEOUSFURY"
 /targetnexttarget
 /cast Judgement
 /targetlasttarget
-END
-VER 3 010000000000004F "kj trinket" "INV_MISC_QUESTIONMARK"
-/use [@mouseover, nodead]The Deceiver's Grand Design
 END
 VER 3 010000000000004B "lotm" "1360762"
 #showtooltip Light of the Martyr

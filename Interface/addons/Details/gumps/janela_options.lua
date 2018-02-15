@@ -1,4 +1,4 @@
---[[ options panel file --]]
+	--[[ options panel file --]]
 
 --[[
 	search for "~number" without the quotes to quick access the page:
@@ -67,6 +67,12 @@ local TEXTENTRY_HEIGHT = 18
 local DROPDOWN_WIDTH = 160
 local COLOR_BUTTON_WIDTH = 160
 
+
+
+local CONST_BUTTON_TEMPLATE = g:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE")
+
+
+
 _detalhes.options_window_background = [[Interface\AddOns\Details\images\options_window]]
 
 function _detalhes:SetOptionsWindowTexture (texture)
@@ -75,6 +81,36 @@ function _detalhes:SetOptionsWindowTexture (texture)
 		_G.DetailsOptionsWindowBackground:SetTexture (texture)
 	end
 end
+
+
+function _detalhes:InitializeOptionsWindow()
+	local DetailsOptionsWindow = g:NewPanel (UIParent, _, "DetailsOptionsWindow", _, 897, 592)
+	
+	local f = DetailsOptionsWindow.frame
+	
+	f.Frame = f
+	f.__name = "Options"
+	f.real_name = "DETAILS_OPTIONS"
+	f.__icon = [[Interface\Scenarios\ScenarioIcon-Interact]]
+	DetailsPluginContainerWindow.EmbedPlugin (f, f, true)
+	f:Hide()
+
+	function f.RefreshWindow()
+		if (not _G.DetailsOptionsWindow.instance) then
+			local lower_instance = _detalhes:GetLowerInstanceNumber()
+			if (not lower_instance) then
+				local instance = _detalhes:GetInstance (1)
+				_detalhes.CriarInstancia (_, _, 1)
+				_detalhes:OpenOptionsWindow (instance)
+			else
+				_detalhes:OpenOptionsWindow (_detalhes:GetInstance (lower_instance))
+			end
+		else
+			_detalhes:OpenOptionsWindow (_G.DetailsOptionsWindow.instance)
+		end
+	end
+end
+
 
 function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 
@@ -96,10 +132,14 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 	end
 	
 	if (_G.DetailsOptionsWindow and _G.DetailsOptionsWindow.full_created) then
-		return _G.DetailsOptionsWindow.MyObject:update_all (instance, section)
+		_detalhes:FormatBackground (_G.DetailsOptionsWindow)
+		
+		_G.DetailsOptionsWindow.MyObject:update_all (instance, section)
+		DetailsOptionsWindow.OpenInPluginPanel()
+		return 
 	end
 	
-	if (not window) then
+	if (not window or not window.Initialized) then
 
 		local options_button_template = g:GetTemplate ("button", "OPTIONS_BUTTON_TEMPLATE")
 		local options_dropdown_template = g:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
@@ -133,7 +173,10 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 
 		-- Most of details widgets have the same 6 first parameters: parent, container, global name, parent key, width, height
 	
-		window = g:NewPanel (UIParent, _, "DetailsOptionsWindow", _, 897, 592)
+		window = DetailsOptionsWindow and DetailsOptionsWindow.MyObject or g:NewPanel (UIParent, _, "DetailsOptionsWindow", _, 897, 592)
+		window.Initialized = true
+		window.frame.Initialized = true
+		
 		window.instance = instance
 		tinsert (UISpecialFrames, "DetailsOptionsWindow")
 		window:SetFrameStrata ("HIGH")
@@ -164,30 +207,30 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 		
 		--x 9 897 y 9 592
 		
-		local background = g:NewImage (window, _detalhes.options_window_background, 897, 592, nil, nil, "background", "$parentBackground")
-		background:SetPoint (0, 0)
-		background:SetDrawLayer ("border")
-		background:SetTexCoord (0, 0.8759765625, 0, 0.578125)
+		--local background = g:NewImage (window, _detalhes.options_window_background, 897, 592, nil, nil, "background", "$parentBackground")
+		--background:SetPoint (0, 0)
+		--background:SetDrawLayer ("border")
+		--background:SetTexCoord (0, 0.8759765625, 0, 0.578125)
 		
-		local sub_background = window:CreateTexture ("DetailsOptionsWindowBackgroundWallpaper", "background")
+		--local sub_background = window:CreateTexture ("DetailsOptionsWindowBackgroundWallpaper", "background")
 		--sub_background:SetTexture ([[Interface\FrameGeneral\UI-Background-Marble]], true)
-		sub_background:SetTexture ([[Interface\DialogFrame\UI-DialogBox-Background-Dark]])
-		sub_background:SetPoint ("topleft", window.widget, "topleft", 192, -80)
-		sub_background:SetPoint ("bottomright", window.widget, "bottomright", -30, 27)
+		--sub_background:SetTexture ([[Interface\DialogFrame\UI-DialogBox-Background-Dark]])
+		--sub_background:SetPoint ("topleft", window.widget, "topleft", 192, -80)
+		--sub_background:SetPoint ("bottomright", window.widget, "bottomright", -30, 27)
 		--sub_background:SetVertTile (true)
 		--sub_background:SetHorizTile (true)
 		--sub_background:SetAlpha (0.81)
-		sub_background:SetAlpha (0.85)
+		--sub_background:SetAlpha (0.85)
 		--sub_background:Hide()
 		
-		local menu_background = window:CreateTexture ("DetailsOptionsWindowBackgroundMenu", "background")
+		--local menu_background = window:CreateTexture ("DetailsOptionsWindowBackgroundMenu", "background")
 		--menu_background:SetTexture ([[Interface\AddOns\Details\images\options_window]], true)
-		menu_background:SetTexture ([[Interface\DialogFrame\UI-DialogBox-Background-Dark]])
-		menu_background:SetPoint ("topleft", window.widget, "topleft", 29, -78)
-		menu_background:SetSize (164, 488)
+		--menu_background:SetTexture ([[Interface\DialogFrame\UI-DialogBox-Background-Dark]])
+		--menu_background:SetPoint ("topleft", window.widget, "topleft", 29, -78)
+		--menu_background:SetSize (164, 488)
 		--menu_background:SetTexCoord (327/1024, 488/1024, 627/1024, 663/1024)
 		--menu_background:SetAlpha (0.81)
-		menu_background:SetAlpha (0.85)
+		--menu_background:SetAlpha (0.85)
 		--menu_background:SetVertTile (true)
 		--menu_background:Hide()
 
@@ -201,7 +244,7 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 		window_icon:SetTexCoord (0, 0.054199, 0.591308, 0.646972) --605 663
 
 		--> title
-		local title = g:NewLabel (window, nil, "$parentTitleLabel", "title", Loc ["STRING_OPTIONS_WINDOW"], "GameFontHighlightLeft", 12, {227/255, 186/255, 4/255})
+		local title = g:NewLabel (window, nil, "$parentTitleLabel", "title", "Details! " .. Loc ["STRING_OPTIONS_WINDOW"], "GameFontHighlightLeft", 12, {227/255, 186/255, 4/255})
 		title:SetPoint ("center", window, "center")
 		title:SetPoint ("top", window, "top", 0, -28)
 		
@@ -215,8 +258,8 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 		--> edit anchors
 		editing.apoio_icone_esquerdo = window:CreateTexture (nil, "ARTWORK")
 		editing.apoio_icone_direito = window:CreateTexture (nil, "ARTWORK")
-		editing.apoio_icone_esquerdo:SetTexture ("Interface\\PaperDollInfoFrame\\PaperDollSidebarTabs")
-		editing.apoio_icone_direito:SetTexture ("Interface\\PaperDollInfoFrame\\PaperDollSidebarTabs")
+		--editing.apoio_icone_esquerdo:SetTexture ("Interface\\PaperDollInfoFrame\\PaperDollSidebarTabs")
+		--editing.apoio_icone_direito:SetTexture ("Interface\\PaperDollInfoFrame\\PaperDollSidebarTabs")
 		
 		local apoio_altura = 13/256
 		editing.apoio_icone_esquerdo:SetTexCoord (0, 1, 0, apoio_altura)
@@ -266,15 +309,16 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 		
 		local desc_background = g:NewImage (window, [[Interface\AddOns\Details\images\options_window]], 253, 198, "artwork", {0.3193359375, 0.56640625, 0.685546875, 0.87890625}, "descBackgroundImage", "$parentDescBackgroundImage") -- 327 702 580 900
 		desc_background:SetPoint ("topleft", info_text, "topleft", 0, 0)
-		
-		--> forge and history buttons
-		local forge_button = g:NewButton (window, _, "$parentForgeButton", "ForgeButton", 90, 20, function() _detalhes:OpenForge(); window:Hide() end, nil, nil, nil, "Open Forge", 1) --, g:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
-		forge_button:SetIcon ([[Interface\AddOns\Details\images\icons]], nil, nil, nil, {396/512, 428/512, 243/512, 273/512}, nil, nil, 2)
-		forge_button:SetPoint ("topleft", 80, -61)
 
-		local history_button = g:NewButton (window, _, "$parentHistoryButton", "HistoryButton", 90, 20, function() _detalhes:OpenRaidHistoryWindow(); window:Hide() end, nil, nil, nil, "Guild Rank", 1) --, g:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
-		history_button:SetIcon ([[Interface\AddOns\Details\images\icons]], nil, nil, nil, {434/512, 466/512, 243/512, 273/512}, nil, nil, 2)
-		history_button:SetPoint ("topleft", 180, -61)
+-- as it stands in the plugin panel, these buttons aren't required anymore
+		--> forge and history buttons
+--		local forge_button = g:NewButton (window, _, "$parentForgeButton", "ForgeButton", 90, 20, function() _detalhes:OpenForge(); window:Hide() end, nil, nil, nil, "Open Forge", 1) --, g:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
+--		forge_button:SetIcon ([[Interface\AddOns\Details\images\icons]], nil, nil, nil, {396/512, 428/512, 243/512, 273/512}, nil, nil, 2)
+--		forge_button:SetPoint ("topleft", 80, -61)
+
+--		local history_button = g:NewButton (window, _, "$parentHistoryButton", "HistoryButton", 90, 20, function() _detalhes:OpenRaidHistoryWindow(); window:Hide() end, nil, nil, nil, "Guild Rank", 1) --, g:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
+--		history_button:SetIcon ([[Interface\AddOns\Details\images\icons]], nil, nil, nil, {434/512, 466/512, 243/512, 273/512}, nil, nil, 2)
+--		history_button:SetPoint ("topleft", 180, -61)
 
 		--> select instance dropbox
 		local onSelectInstance = function (_, _, instance)
@@ -472,13 +516,6 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 		
 		g:NewColor ("C_OptionsButtonOrange", 0.9999, 0.8196, 0, 1)
 		
-		local extra_buttons_on_enter = function (self, capsule)
-			capsule.textcolor = "yellow"
-		end
-		local extra_buttons_on_leave = function (self, capsule)
-			capsule.textcolor = "C_OptionsButtonOrange"
-		end
-		
 		local create_test_bars_func = function()
 			_detalhes.CreateTestBars()
 			if (not _detalhes.test_bar_update) then
@@ -489,10 +526,7 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 		end
 		local fillbars = g:NewButton (window, _, "$parentCreateExampleBarsButton", nil, 110, 14, create_test_bars_func, nil, nil, nil, Loc ["STRING_OPTIONS_TESTBARS"], 1)
 		fillbars:SetPoint ("bottomleft", window.widget, "bottomleft", 41, 12)
-		fillbars.textalign = "left"
-		fillbars.textcolor = "C_OptionsButtonOrange"
-		fillbars:SetHook ("OnEnter", extra_buttons_on_enter)
-		fillbars:SetHook ("OnLeave", extra_buttons_on_leave)
+		fillbars:SetTemplate (CONST_BUTTON_TEMPLATE)
 		
 		local fillbars_image = g:NewImage (window, [[Interface\Buttons\UI-RADIOBUTTON]], 8, 9, "artwork", {20/64, 27/64, 4/16, 11/16})
 		fillbars_image:SetPoint ("right", fillbars, "left", -1, 0)
@@ -501,10 +535,7 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 
 		local changelog = g:NewButton (window, _, "$parentOpenChangeLogButton", nil, 110, 14, _detalhes.OpenNewsWindow, "change_log", nil, nil, Loc ["STRING_OPTIONS_CHANGELOG"], 1)
 		changelog:SetPoint ("left", fillbars, "right", 10, 0)
-		changelog.textalign = "left"
-		changelog.textcolor = "C_OptionsButtonOrange"
-		changelog:SetHook ("OnEnter", extra_buttons_on_enter)
-		changelog:SetHook ("OnLeave", extra_buttons_on_leave)
+		changelog:SetTemplate (CONST_BUTTON_TEMPLATE)
 		
 		local changelog_image = g:NewImage (window, [[Interface\Buttons\UI-RADIOBUTTON]], 8, 9, "artwork", {20/64, 27/64, 4/16, 11/16})
 		changelog_image:SetPoint ("right", changelog, "left", -1, 0)
@@ -513,10 +544,7 @@ function _detalhes:OpenOptionsWindow (instance, no_reopen, section)
 	
 		local feedback_button = g:NewButton (window, _, "$parentOpenFeedbackButton", nil, 80, 14, _detalhes.OpenFeedbackWindow, nil, nil, nil, Loc ["STRING_OPTIONS_SENDFEEDBACK"], 1)
 		feedback_button:SetPoint ("left", changelog, "right", 10, 0)
-		feedback_button.textalign = "left"
-		feedback_button.textcolor = "C_OptionsButtonOrange"
-		feedback_button:SetHook ("OnEnter", extra_buttons_on_enter)
-		feedback_button:SetHook ("OnLeave", extra_buttons_on_leave)
+		feedback_button:SetTemplate (CONST_BUTTON_TEMPLATE)
 		
 		local feedback_image = g:NewImage (window, [[Interface\Buttons\UI-RADIOBUTTON]], 8, 9, "artwork", {20/64, 27/64, 4/16, 11/16})
 		feedback_image:SetPoint ("right", feedback_button, "left", -1, 0)
@@ -711,7 +739,7 @@ local menus2 = {
 		mouse_over_texture:SetHeight (37)
 		mouse_over_texture:Hide()
 		mouse_over_texture:SetBlendMode ("ADD")
-
+		
 		--> menu anchor textures
 		
 		local menu_frame = CreateFrame("frame", "DetailsOptionsWindowMenuAnchor", window.widget)
@@ -719,34 +747,37 @@ local menus2 = {
 		menu_frame:SetSize (1, 1)
 		
 		--general settings
+		
+			local menuTitleAnchorX = 10
+		
 			local g_settings = g:NewButton (menu_frame, _, "$parentGeneralSettingsButton", "g_settings", 150, 33, function() end, 0x1)
 			
 			g:NewLabel (menu_frame, _, "$parentgeneral_settings_text", "GeneralSettingsLabel", Loc ["STRING_OPTIONS_GENERAL"], "GameFontNormal", 12)
-			menu_frame.GeneralSettingsLabel:SetPoint ("topleft", g_settings, "topleft", 35, -11)
+			menu_frame.GeneralSettingsLabel:SetPoint ("topleft", g_settings, "topleft", menuTitleAnchorX, -10)
 		
-			local g_settings_texture = g:NewImage (menu_frame, [[Interface\AddOns\Details\images\options_window]], 160, 33, nil, nil, "GeneralSettingsTexture", "$parentGeneralSettingsTexture")
-			g_settings_texture:SetTexCoord (0, 0.15625, 0.685546875, 0.7177734375)
-			g_settings_texture:SetPoint ("topleft", g_settings, "topleft", 0, 0)
+		--	local g_settings_texture = g:NewImage (menu_frame, [[Interface\AddOns\Details\images\options_window]], 160, 33, nil, nil, "GeneralSettingsTexture", "$parentGeneralSettingsTexture")
+		--	g_settings_texture:SetTexCoord (0, 0.15625, 0.685546875, 0.7177734375)
+		--	g_settings_texture:SetPoint ("topleft", g_settings, "topleft", 0, 0)
 
 		--apparance
 			local g_appearance = g:NewButton (menu_frame, _, "$parentAppearanceButton", "g_appearance", 150, 33, function() end, 0x2)
 
 			g:NewLabel (menu_frame, _, "$parentappearance_settings_text", "AppearanceSettingsLabel", Loc ["STRING_OPTIONS_APPEARANCE"], "GameFontNormal", 12)
-			menu_frame.AppearanceSettingsLabel:SetPoint ("topleft", g_appearance, "topleft", 35, -11)
+			menu_frame.AppearanceSettingsLabel:SetPoint ("topleft", g_appearance, "topleft", menuTitleAnchorX, -11)
 		
-			local g_appearance_texture = g:NewImage (menu_frame, [[Interface\AddOns\Details\images\options_window]], 160, 33, nil, nil, "AppearanceSettingsTexture", "$parentAppearanceSettingsTexture")
-			g_appearance_texture:SetTexCoord (0, 0.15625, 0.71875, 0.7509765625)
-			g_appearance_texture:SetPoint ("topleft", g_appearance, "topleft", 0, 0)
+		--	local g_appearance_texture = g:NewImage (menu_frame, [[Interface\AddOns\Details\images\options_window]], 160, 33, nil, nil, "AppearanceSettingsTexture", "$parentAppearanceSettingsTexture")
+		--	g_appearance_texture:SetTexCoord (0, 0.15625, 0.71875, 0.7509765625)
+		--	g_appearance_texture:SetPoint ("topleft", g_appearance, "topleft", 0, 0)
 
 		--advanced
 			local g_advanced = g:NewButton (menu_frame, _, "$parentAdvancedButton", "g_advanced", 150, 33, function() end, 0x4)
 			
 			g:NewLabel (menu_frame, _, "$parentadvanced_settings_text", "AdvancedSettingsLabel", Loc ["STRING_OPTIONS_ADVANCED"], "GameFontNormal", 12)
-			menu_frame.AdvancedSettingsLabel:SetPoint ("topleft", g_advanced, "topleft", 35, -11)
+			menu_frame.AdvancedSettingsLabel:SetPoint ("topleft", g_advanced, "topleft", menuTitleAnchorX, -11)
 		
-			local g_advanced_texture = g:NewImage (menu_frame, [[Interface\AddOns\Details\images\options_window]], 160, 33, nil, nil, "AdvancedSettingsTexture", "$parentAdvancedSettingsTexture")
-			g_advanced_texture:SetTexCoord (0, 0.15625, 0.8173828125, 0.849609375)
-			g_advanced_texture:SetPoint ("topleft", g_advanced, "topleft", 0, 0)
+		--	local g_advanced_texture = g:NewImage (menu_frame, [[Interface\AddOns\Details\images\options_window]], 160, 33, nil, nil, "AdvancedSettingsTexture", "$parentAdvancedSettingsTexture")
+		--	g_advanced_texture:SetTexCoord (0, 0.15625, 0.8173828125, 0.849609375)
+		--	g_advanced_texture:SetPoint ("topleft", g_advanced, "topleft", 0, 0)
 
 		
 		
@@ -804,21 +835,34 @@ local menus2 = {
 			return true
 		end
 		
+		--[=[
+		--> gradient
+		local blackdiv = window:CreateTexture (nil, "artwork")
+		blackdiv:SetTexture ([[Interface\ACHIEVEMENTFRAME\UI-Achievement-HorizontalShadow]])
+		blackdiv:SetVertexColor (0, 0, 0)
+		blackdiv:SetAlpha (0.7)
+		blackdiv:SetPoint ("topleft", window.frame, "topleft", 0, 0)
+		blackdiv:SetPoint ("bottomleft", window.frame, "bottomleft", 0, 0)
+		blackdiv:SetWidth (200)
+		--]=]
+		
 		--move buttons creation to loading process
 		function window:create_left_menu()
 			for index, menulist in ipairs (menus) do 
 				
-				anchors [index]:SetPoint (23, y)
+				anchors [index]:SetPoint (10, y)
 				local amount = #menulist
 				
 				y = y - 37
 				
 				for i = 1, amount do 
 				
-					local texture = g:NewImage (menu_frame, [[Interface\ARCHEOLOGY\ArchaeologyParts]], 130, 14, nil, nil, nil, "$parentButton_" .. index .. "_" .. i .. "_texture")
-					texture:SetTexCoord (0.146484375, 0.591796875, 0.0546875, 0.26171875)
-					texture:SetPoint (38, y-2)
+					--local texture = g:NewImage (menu_frame, [[Interface\ARCHEOLOGY\ArchaeologyParts]], 130, 14, nil, nil, nil, "$parentButton_" .. index .. "_" .. i .. "_texture")
+					local texture = g:NewImage (menu_frame, [[Interface\Scenarios\ScenarioIcon-Combat]], 10, 10, nil, nil, nil, "$parentButton_" .. index .. "_" .. i .. "_texture")
+					texture:SetTexCoord (0.23, 0.87, 0.15, 0.73)
+					texture:SetPoint (24, y-5)
 					texture:SetVertexColor (1, 1, 1, .5)
+					--texture:Hide()
 
 					local button = g:NewButton (menu_frame, _, "$parentButton_" .. index .. "_" .. i, nil, 150, 18, select_options, menus_settings [true_index], true_index, "", menus [index] [i])
 					button:SetPoint (40, y)
@@ -960,8 +1004,8 @@ local menus2 = {
 
 			g:NewScrollBar (container_window, container_slave, 8, -10)
 			container_window.slider:Altura (449)
-			container_window.slider:cimaPoint (0, 1)
-			container_window.slider:baixoPoint (0, -3)
+			container_window.slider:cimaPoint (20, 1)
+			container_window.slider:baixoPoint (20, -3)
 			container_window.wheel_jump = 80
 			
 			container_window.ultimo = 0
@@ -1075,8 +1119,8 @@ local menus2 = {
 			f:SetSize (260, 16)
 			f:SetScript ("OnEnter", background_on_enter)
 			f:SetScript ("OnLeave", background_on_leave)
-			f:SetScript ("OnMouseDown", background_on_mouse_down)
-			f:SetScript ("OnMouseUp", background_on_mouse_up)
+			--f:SetScript ("OnMouseDown", background_on_mouse_down)
+			--f:SetScript ("OnMouseUp", background_on_mouse_up)
 			f:SetBackdrop({bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", tile = true, tileSize = 16, insets = {left = 0, right = 0, top = 0, bottom = 0}})		
 			f:SetBackdropColor (0, 0, 0, 0)
 			f.parent = parent
@@ -1167,8 +1211,8 @@ local menus2 = {
 			f.is_button2 = is_button2
 			f:SetScript ("OnEnter", background_on_enter2)
 			f:SetScript ("OnLeave", background_on_leave2)
-			f:SetScript ("OnMouseDown", background_on_mouse_down)
-			f:SetScript ("OnMouseUp", background_on_mouse_up)
+			--f:SetScript ("OnMouseDown", background_on_mouse_down)
+			--f:SetScript ("OnMouseUp", background_on_mouse_up)
 			f:SetBackdrop({bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", tile = true, tileSize = 16, insets = {left = 0, right = 0, top = 0, bottom = 0}})		
 			f:SetBackdropColor (0, 0, 0, 0)
 			f.parent = parent
@@ -1244,7 +1288,7 @@ local menus2 = {
 		window.title_y_pos2 = -50
 		
 		window.left_start_at = 30
-		window.right_start_at = 360
+		window.right_start_at = 390
 		window.top_start_at = -90
 		
 		window.buttons_width = 160
@@ -1332,8 +1376,8 @@ local menus2 = {
 			close_button:GetNormalTexture():SetDesaturated (true)
 		
 			--> create a new background texture
-			background:SetTexture ([[Interface\AddOns\Details\images\background]])
-			background:SetVertexColor (0.27, 0.27, 0.27, 0.7)
+			--background:SetTexture ([[Interface\AddOns\Details\images\background]])
+			--background:SetVertexColor (0.27, 0.27, 0.27, 0.7)
 			window:SetBackdrop ({edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1})
 			window:SetBackdropColor (1, 1, 1, 1)
 			window:SetBackdropBorderColor (0, 0, 0, 1)
@@ -1346,12 +1390,12 @@ local menus2 = {
 			window_icon:Hide()
 			
 			--> decrease the width of menu background
-			menu_background:SetSize (163, 488)
-			menu_background:SetPoint ("topleft", window.widget, "topleft", 23, -78)
-			menu_background:Hide()
-			sub_background:SetPoint ("topleft", window.widget, "topleft", 192, -80)
-			sub_background:SetPoint ("bottomright", window.widget, "bottomright", -30, 27)
-			sub_background:Hide()
+			--menu_background:SetSize (163, 488)
+			--menu_background:SetPoint ("topleft", window.widget, "topleft", 23, -78)
+			--menu_background:Hide()
+			--sub_background:SetPoint ("topleft", window.widget, "topleft", 192, -80)
+			--sub_background:SetPoint ("bottomright", window.widget, "bottomright", -30, 27)
+			--sub_background:Hide()
 
 			--> hide the dog and other stuff
 			bigdog:Hide()
@@ -1373,10 +1417,10 @@ local menus2 = {
 			--> location
 			fillbars:SetPoint ("bottomleft", window.widget, "bottomleft", 17, 16)
 			
-			forge_button:SetTemplate (options_button_template)
-			forge_button:SetSize(120, 20) --
-			history_button:SetTemplate (options_button_template)
-			history_button:SetSize(120, 20)
+--			forge_button:SetTemplate (options_button_template)
+--			forge_button:SetSize(120, 20) --
+--			history_button:SetTemplate (options_button_template)
+--			history_button:SetSize(120, 20)
 			fillbars:SetTemplate (options_button_template)
 			fillbars:SetSize(120, 20)
 			changelog:SetTemplate (options_button_template)
@@ -1387,19 +1431,19 @@ local menus2 = {
 			--feedback_button.textcolor = "white"
 			--changelog.textcolor = "white"
 			--fillbars.textcolor = "white"
-			history_button.textcolor = "C_OptionsButtonOrange"
-			forge_button.textcolor = "C_OptionsButtonOrange"
+--			history_button.textcolor = "C_OptionsButtonOrange"
+--			forge_button.textcolor = "C_OptionsButtonOrange"
 			
-			history_button:SetHook ("OnEnter", extra_buttons_on_enter)
-			history_button:SetHook ("OnLeave", extra_buttons_on_leave)
-			forge_button:SetHook ("OnEnter", extra_buttons_on_enter)
-			forge_button:SetHook ("OnLeave", extra_buttons_on_leave)
+--			history_button:SetHook ("OnEnter", extra_buttons_on_enter)
+--			history_button:SetHook ("OnLeave", extra_buttons_on_leave)
+--			forge_button:SetHook ("OnEnter", extra_buttons_on_enter)
+--			forge_button:SetHook ("OnLeave", extra_buttons_on_leave)
 			
 			feedback_button.textsize = 10
 			changelog.textsize = 10
 			fillbars.textsize = 10
-			history_button.textsize = 10
-			forge_button.textsize = 10
+--			history_button.textsize = 10
+--			forge_button.textsize = 10
 			
 			fillbars:SetIcon ("Interface\\AddOns\\Details\\images\\icons", nil, nil, nil, {323/512, 365/512, 42/512, 78/512}, {1, 1, 1, 0.6}, 4, 2)
 			changelog:SetIcon ("Interface\\AddOns\\Details\\images\\icons", nil, nil, nil, {367/512, 399/512, 43/512, 76/512}, {1, 1, 1, 0.8}, 4, 2)
@@ -1409,12 +1453,12 @@ local menus2 = {
 			fillbars_image:Hide()
 			feedback_image:Hide()
 			
-			history_button:ClearAllPoints()
-			forge_button:ClearAllPoints()
+--			history_button:ClearAllPoints()
+--			forge_button:ClearAllPoints()
 			--forge_button:SetPoint ("topright", -17, -47)
-			forge_button:SetPoint ("bottomleft", fillbars, "topleft", 0, 2)
+--			forge_button:SetPoint ("bottomleft", fillbars, "topleft", 0, 2)
 			--history_button:SetPoint ("right", forge_button, "left", -2, 0)
-			history_button:SetPoint ("bottomleft", changelog, "topleft", 0, 2)
+--			history_button:SetPoint ("bottomleft", changelog, "topleft", 0, 2)
 			--forge_button:Hide()
 			--history_button:Hide()
 
@@ -1456,7 +1500,7 @@ local menus2 = {
 						local down = frame.baixo
 						local slider = frame.slider
 						
-						slider:SetPoint ("TOPLEFT", frame, "TOPRIGHT", 3, -20)
+						slider:SetPoint ("TOPLEFT", frame, "TOPRIGHT", 30, -20)
 						slider:Altura (429)
 						
 						up:SetNormalTexture ([[Interface\Buttons\Arrow-Up-Up]])
@@ -2453,6 +2497,7 @@ function window:CreateFrame18()
 				window:CreateLineBackground2 (frame18, "ClearCacheSlider", "ClearCacheLabel", "Reduces the chance of getting a serial number overlap when working with multiple realms.")
 				
 			--> advanced animations
+			--[[
 				g:NewLabel (frame18, _, "$parentAdvancedAnimationsLabel", "AdvancedAnimationsLabel", "Use Animation Acceleration", "GameFontHighlightLeft")
 				g:NewSwitch (frame18, _, "$parentAdvancedAnimationsSlider", "AdvancedAnimationsSlider", 60, 20, _, _, _detalhes.streamer_config.use_animation_accel, nil, nil, nil, nil, options_switch_template)
 
@@ -2465,8 +2510,8 @@ function window:CreateFrame18()
 				end
 				
 				window:CreateLineBackground2 (frame18, "AdvancedAnimationsSlider", "AdvancedAnimationsLabel", "Animation speed changes accordly to the amount of space the bar needs to travel.")
-				
-				
+			--]]	
+			
 		--> anchoring
 		local x = window.left_start_at
 		titleFrame18:SetPoint (x, window.title_y_pos)
@@ -2500,7 +2545,7 @@ function window:CreateFrame18()
 			{"QuickDetectionLabel"},
 			{"DisableMythicDungeonLabel"},
 			{"ClearCacheLabel"},
-			{"AdvancedAnimationsLabel"},
+			--{"AdvancedAnimationsLabel"},
 		}
 		
 		window:arrange_menu (frame18, right_side, window.right_start_at, window.top_start_at)
@@ -11160,8 +11205,6 @@ end --> if not window
 ----------------------------------------------------------------------------------------
 --> Show
 
-
-
 	local strata = {
 		["BACKGROUND"] = "Background",
 		["LOW"] = "Low",
@@ -11626,7 +11669,7 @@ end --> if not window
 		_G.DetailsOptionsWindow18QuickDetectionSlider.MyObject:SetValue (_detalhes.streamer_config.quick_detection)
 		_G.DetailsOptionsWindow18DisableMythicDungeonSlider.MyObject:SetValue (_detalhes.streamer_config.disable_mythic_dungeon)
 		_G.DetailsOptionsWindow18ClearCacheSlider.MyObject:SetValue (_detalhes.streamer_config.reset_spec_cache)
-		_G.DetailsOptionsWindow18AdvancedAnimationsSlider.MyObject:SetValue (_detalhes.streamer_config.use_animation_accel)
+		--_G.DetailsOptionsWindow18AdvancedAnimationsSlider.MyObject:SetValue (_detalhes.streamer_config.use_animation_accel)
 		
 		--> window 17
 		_G.DetailsOptionsWindow17CombatAlphaDropdown.MyObject:Select (editing_instance.hide_in_combat_type, true)
@@ -11965,6 +12008,7 @@ end --> if not window
 		
 	end
 
+	
 	if (_G.DetailsOptionsWindow.full_created) then
 		_G.DetailsOptionsWindow.MyObject:update_all (instance)
 	else
@@ -11977,7 +12021,24 @@ end --> if not window
 		end
 		window.loading_check = _detalhes:ScheduleRepeatingTimer ("options_loading_done", 0.1)
 	end
-
+	
 	window:Show()
+	
+	function DetailsOptionsWindow.OpenInPluginPanel()
+		for i = 1, #window.options do
+			local frame = window.options [i][1]
+			if (frame) then
+				frame:EnableMouse (false)
+				--frame:SetSize (DetailsPluginContainerWindow.FrameWidth, DetailsPluginContainerWindow.FrameHeight)
+			end
+		end
+		
+		--DetailsOptionsWindowBackground:SetSize (DetailsPluginContainerWindow.FrameWidth, DetailsPluginContainerWindow.FrameHeight)
+		_detalhes:FormatBackground (_G.DetailsOptionsWindow)
+		
+		DetailsPluginContainerWindow.OpenPlugin (DetailsOptionsWindow)
+	end
+	
+	DetailsOptionsWindow.OpenInPluginPanel()
 
 end --> OpenOptionsWindow

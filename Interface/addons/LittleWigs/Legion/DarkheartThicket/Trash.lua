@@ -18,7 +18,7 @@ mod:RegisterEnableMob(
 -- Localization
 --
 
-local L = mod:NewLocale("enUS", true)
+local L = mod:GetLocale()
 if L then
 	L.ruiner = "Dreadsoul Ruiner"
 	L.razorbeak = "Crazed Razorbeak"
@@ -26,7 +26,6 @@ if L then
 	L.fury = "Bloodtainted Fury"
 	L.imp = "Dreadfire Imp"
 end
-L = mod:GetLocale()
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -47,6 +46,7 @@ function mod:GetOptions()
 		--[[ Bloodtainted Fury ]]--
 		201226, -- Blood Assault
 		201272, -- Blood Bomb
+		225562, -- Blood Metamorphosis
 
 		--[[ Dreadfire Imp ]]--
 		201399, -- Dread Inferno
@@ -69,7 +69,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "Casts", 200768, 200580)
 
 	--[[ Bloodtainted Fury ]]--
-	self:Log("SPELL_CAST_START", "BloodBombAssault", 201226, 201272) -- Blood Assault, Blood Bomb
+	self:Log("SPELL_CAST_START", "Blood", 201226, 201272, 225562) -- Blood Assault, Blood Bomb, Blood Metamorphosis
 
 	--[[ Festerhide Grizzly ]]--
 	self:Log("SPELL_AURA_APPLIED", "CorruptionPool", 218759)
@@ -104,6 +104,6 @@ do
 end
 
 -- Bloodtainted Fury
-function mod:BloodBombAssault(args)
+function mod:Blood(args)
 	self:Message(args.spellId, "Urgent", "Warning", CL.casting:format(args.spellName))
 end

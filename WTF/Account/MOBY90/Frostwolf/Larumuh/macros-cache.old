@@ -1,23 +1,5 @@
-VER 3 010000000000001A " " "INV_MISC_QUESTIONMARK"
-#showtooltip Cloudburst Totem
-/stopcasting 
-/click TotemFrameTotem3 RightButton 
-/cast Cloudburst Totem
-END
-VER 3 0100000000000019 "dispel" "ABILITY_SHAMAN_CLEANSESPIRIT"
-#showtooltip
-/cast [@mouseover] Purify Spirit
-END
 VER 3 0100000000000023 "disspell" "SPELL_NATURE_PURGE"
 /cast [help] purify spirit; [harm] Purge
-END
-VER 3 0100000000000024 "focus" "SPELL_NATURE_CYCLONE"
-/stopcasting
-/cast [target=focus, harm, exists] []wind shear
-END
-VER 3 0100000000000025 "focus hex" "SPELL_SHAMAN_HEX"
-#showtooltip hex
-/cast [target=focus] hex
 END
 VER 3 010000000000001C "grounding" "SPELL_NATURE_GROUNDINGTOTEM"
 #showtooltip
@@ -26,38 +8,6 @@ VER 3 010000000000001C "grounding" "SPELL_NATURE_GROUNDINGTOTEM"
 END
 VER 3 0100000000000021 "lavaburst" "INV_MISC_QUESTIONMARK"
 /Cast [help] Chain Heal; [harm] Lava Burst
-END
-VER 3 0100000000000022 "NS" "SPELL_SHAMAN_ELEMENTALOATH"
-#showtooltip Ancestral Swiftness
-/stopcasting
-/Cast ancestral swiftness
-/use Primal Combatant's Badge of Dominance
-/cast Healing Surge
-END
-VER 3 0100000000000026 "ourge focus" "SPELL_NATURE_PURGE"
-#showtooltip
-/Cast [@focus] Purge
-END
-VER 3 010000000000001E "party1" "ABILITY_SHAMAN_CLEANSESPIRIT"
-/cast [target=party1] purify spirit
-END
-VER 3 010000000000001F "party2" "ABILITY_SHAMAN_CLEANSESPIRIT"
-/cast [target=party2] purify spirit
-END
-VER 3 010000000000001D "player" "ABILITY_SHAMAN_CLEANSESPIRIT"
-/cast [target=player] purify spirit
-END
-VER 3 0100000000000027 "shear1" "SPELL_NATURE_CYCLONE"
-/stopcasting
-/cast [target=arena1] Wind Shear
-END
-VER 3 0100000000000028 "shear2" "SPELL_NATURE_CYCLONE"
-/stopcasting
-/cast [target=arena2] Wind Shear
-END
-VER 3 0100000000000029 "shear3" "SPELL_NATURE_CYCLONE"
-/stopcasting
-/cast [target=arena3] Wind Shear
 END
 VER 3 010000000000001B "Tremor" "SPELL_NATURE_TREMORTOTEM"
 #showtooltip

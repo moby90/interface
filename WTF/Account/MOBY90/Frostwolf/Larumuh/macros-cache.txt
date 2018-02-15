@@ -1,5 +1,5 @@
 VER 3 0100000000000023 "disspell" "SPELL_NATURE_PURGE"
-/cast [help] purify spirit; [harm] Purge
+/cast [@mouseover, help] Purify Spirit; [@mouseover, harm] Purge
 END
 VER 3 010000000000001C "grounding" "SPELL_NATURE_GROUNDINGTOTEM"
 #showtooltip

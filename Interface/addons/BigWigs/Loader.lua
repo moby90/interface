@@ -7,8 +7,8 @@ local bwFrame = CreateFrame("Frame")
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 75
-local BIGWIGS_RELEASE_STRING = ""
+local BIGWIGS_VERSION = 88
+local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s", "V^%d^%s"
 
 do
@@ -18,7 +18,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "58fba63" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "5a0d494" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -39,6 +39,7 @@ do
 		releaseString = L.alphaRelease:format(BIGWIGS_VERSION, myGitHash)
 	end
 	BIGWIGS_RELEASE_STRING = releaseString
+	BIGWIGS_VERSION_STRING = ("%d-%s"):format(BIGWIGS_VERSION, myGitHash)
 	-- Format is "V:version-hash"
 	versionQueryString = versionQueryString:format(BIGWIGS_VERSION, myGitHash)
 	versionResponseString = versionResponseString:format(BIGWIGS_VERSION, myGitHash)
@@ -243,7 +244,7 @@ do
 	}
 end
 
--- GLOBALS: _G, ADDON_LOAD_FAILED, BigWigs, BigWigs3DB, BigWigs3IconDB, BigWigsLoader, BigWigsOptions, ChatFrame_ImportAllListsToHash, ChatTypeInfo, CreateFrame, CUSTOM_CLASS_COLORS, DEFAULT_CHAT_FRAME, error
+-- GLOBALS: _G, ADDON_LOAD_FAILED, BigWigs, BigWigs3DB, BigWigsIconDB, BigWigsLoader, BigWigsOptions, ChatFrame_ImportAllListsToHash, ChatTypeInfo, CreateFrame, CUSTOM_CLASS_COLORS, DEFAULT_CHAT_FRAME, error
 -- GLOBALS: GetAddOnEnableState, GetAddOnInfo, GetAddOnMetadata, GetLocale, GetNumGroupMembers, GetRealmName, GetSpecialization, GetSpecializationRole, GetTime, GRAY_FONT_COLOR, hash_SlashCmdList, InCombatLockdown
 -- GLOBALS: IsAddOnLoaded, IsAltKeyDown, IsControlKeyDown, IsEncounterInProgress, IsInGroup, IsInRaid, IsLoggedIn, IsPartyLFG, IsSpellKnown, LFGDungeonReadyPopup
 -- GLOBALS: LibStub, LoadAddOn, message, PlaySound, print, RAID_CLASS_COLORS, RaidNotice_AddMessage, RaidWarningFrame, RegisterAddonMessagePrefix, RolePollPopup, select, StopSound
@@ -615,9 +616,16 @@ function mod:ADDON_LOADED(addon)
 
 	local icon = LibStub("LibDBIcon-1.0", true)
 	if icon and ldb then
-		if not BigWigs3IconDB then BigWigs3IconDB = {} end
-		icon:Register("BigWigs", ldb, BigWigs3IconDB)
+		if not BigWigsIconDB then
+			if BigWigs3IconDB then -- XXX temp
+				BigWigsIconDB = BigWigs3IconDB
+			else
+				BigWigsIconDB = {}
+			end
+		end
+		icon:Register("BigWigs", ldb, BigWigsIconDB)
 	end
+	BigWigs3IconDB = nil -- XXX temp
 
 	if BigWigs3DB then
 		-- Somewhat ugly, but saves loading AceDB with the loader instead of with the core
@@ -857,8 +865,8 @@ end
 
 do
 	-- This is a crapfest mainly because DBM's actual handling of versions is a crapfest, I'll try explain how this works...
-	local DBMdotRevision = "16803" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
-	local DBMdotDisplayVersion = "7.3.6" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
+	local DBMdotRevision = "17241" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
+	local DBMdotDisplayVersion = "7.3.21" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
 	local DBMdotReleaseRevision = DBMdotRevision -- This is manually changed by them every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil
@@ -1298,6 +1306,10 @@ end
 
 function public:GetReleaseString()
 	return BIGWIGS_RELEASE_STRING
+end
+
+function public:GetVersionString()
+	return BIGWIGS_VERSION_STRING
 end
 
 function public:GetZoneMenus()

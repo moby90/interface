@@ -1,4 +1,11 @@
 Version: 1
+Frame: MinimapCluster
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -10
+Y: -26
+W: 192
+H: 192
 Frame: ChannelPulloutTab
 FrameLevel: 1
 Anchor: TOP
@@ -18,5 +25,5 @@ FrameLevel: 1
 Anchor: CENTER
 X: 20
 Y: 124
-W: 283
-H: 342
+W: 263
+H: 202

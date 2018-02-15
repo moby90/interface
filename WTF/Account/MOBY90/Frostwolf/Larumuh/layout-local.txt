@@ -13,3 +13,10 @@ X: 0
 Y: 0
 W: 365
 H: 200
+Frame: DetailsPluginContainerWindow
+FrameLevel: 1
+Anchor: RIGHT
+X: -380
+Y: 69
+W: 925
+H: 600

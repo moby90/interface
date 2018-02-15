@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 -- TODO List:
--- Wave Data for all difficulties
+-- Normal mode wave data
 
 --------------------------------------------------------------------------------
 -- Module Declaration
@@ -8,7 +8,7 @@
 
 local mod, CL = BigWigs:NewBoss("Eonar the Life-Binder", nil, 2025, 1712)
 if not mod then return end
-mod:RegisterEnableMob(122500) -- Essence of Eonar
+mod:RegisterEnableMob(122500, 124445) -- Essence of Eonar, The Paraxis
 mod.engageId = 2075
 mod.respawnTime = 30
 
@@ -20,75 +20,124 @@ local rainofFelCounter = 1
 local spearCounter = 1
 local finalDoomCounter = 1
 local lifeForceCounter = 1
-local lifeForceNeeded = 5
+local lifeForceNeeded = mod:LFR() and 3 or 4
+local shouldAnnounceEnergy = true
 local engageTime = 0
+
+local timersLFR = {
+	--[[ Waves ]]--
+	["top"] = {
+		{88, "destructor"},
+		{218, "destructor"}
+	},
+	["mid"] = {
+		{10, "destructor"},
+		{135, "destructor"},
+		{263, "destructor"}
+	},
+	["bot"] = {
+		{50, "destructor"},
+		{175, "destructor"}
+	}
+}
 
 local timersNormal = {
 	--[[ Rain of Fel ]]--
-	[248332] = {},
+	[248332] = {30, 31, 35, 45, 80, 50, 20, 35}, -- XXX vary a lot across logs
 
 	--[[ Waves ]]--
 	["top"] = {
+		{112, "destructor"},
+		{236, "destructor"}
 	},
 	["mid"] = {
+		{6, "destructor"},
+		{74, "destructor"},
+		{165, "obfuscator"},
+		{285, "destructor"}
 	},
 	["bot"] = {
+		{44, "destructor"},
+		{125, nil}, -- XXX not confirmed
+		{205, "destructor"}
 	},
 	["air"] = {
+		{195, nil} -- XXX not confirmed
 	}
 }
 
 local timersHeroic = {
 	--[[ Rain of Fel ]]--
-	[248332] = {},
+	[248332] = {15, 38.5, 10, 45, 34.5, 19, 19, 29, 44.5, 35, 97, 99.5},
 
 	--[[ Spear of Doom ]] --
-	[248861] = {},
+	[248861] = {29.7, 59.6, 64.5, 40.3, 84.6, 35.2, 65.7, 35.1, 64.3},
 
-	--[[ Waves ]]--
+	--[[ Waves ]]-- -- XXX Check these after implementation
 	["top"] = {
+		{68, "obfuscator"},
+		{87, "destructor"},
+		{192, "small_adds"},
+		{320, "destructor"},
 	},
 	["mid"] = {
+		{6.8, "destructor"},
+		{114, "purifier"},
+		{215, "purifier"}, -- Also spawns a obfuscator
+		{320, "destructor"},
 	},
 	["bot"] = {
+		{35, "destructor"},
+		{190, "destructor"}, -- Also spawns a purifier
+		{320, "obfuscator"},
 	},
 	["air"] = {
+		{159, nil},
+		{285, nil},
 	}
 }
 
 local timersMythic = {
 	--[[ Rain of Fel ]]--
-	[248332] = {6, 29, 25, 48.5, 5, 20, 50.5, 25, 4.5, 46, 24, 4},
+	[248332] = {6, 29, 25, 48.5, 5, 20, 50.5, 25, 4.5, 46, 24, 4, 50, 50},
 
 	--[[ Spear of Doom ]] --
-	[248861] = {15, 75, 75, 75, 25, 75, 75},
+	[248861] = {15, 75, 75, 75, 25, 75, 75, 50, 50},
 
-	--[[ Final Doom]]--
-	[249121] = {60.5, 125, 100},
+	--[[ Final Doom ]]--
+	[249121] = {60.5, 120, 100.5, 104.5, 100.5}, -- they seem to vary a bit
 
 	--[[ Waves ]]--
 	["top"] = {
-		{60.5, "purifier"},
-		{140.5, "destructor"},
-		{260.5, "purifier"},
-		{360.5, "obfuscator"},
+		{38, "destructor"},
+		{145, "small_adds"},
+		{328, "obfuscator"},
+		{352, "purifier"},
+		{424, "destructor"},
 	},
 	["mid"] = {
-		{7.5, "destructor"},
-		{110.5, "destructor"},
+		{11, "destructor"},
+		{65, "purifier"},
+		{133, "purifier"},
+		{278, "obfuscator"},
+		{403, "destructor"}, -- confirm / exact time needed
 	},
 	["bot"] = {
-		{35, nil},
-		{110.5, nil},
-		{335, "obfuscator"},
+		{38, "obfuscator"},
+		{110, "destructor"}, -- seems to vary a bit
+		{208, "purifier"},
+		{297, "small_adds"},
+		{413, "obfuscator"}, -- confirm / exact time needed
 	},
 	["air"] = {
-		{211.5, nil},
-		{285, nil},
+		{165, nil},
+		{260, nil}, -- confirm / exact time needed
+		{360, nil}, -- confirm / exact time needed
+		{480, nil}, -- confirm / exact time needed
 	}
 }
 
-local timers = mod:Mythic() and timersMythic or mod:Heroic() and timersHeroic or timersNormal
+local timers = mod:Mythic() and timersMythic or mod:Heroic() and timersHeroic or mod:LFR() and timersLFR or timersNormal
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -111,6 +160,7 @@ if L then
 	L.destructor = "Destructor" -- Fel-Infused Destructor
 	L.obfuscator = "Obfuscator" -- Fel-Charged Obfuscator
 	L.bats = "Fel Bats"
+	L.small_adds = CL.small_adds
 end
 
 --------------------------------------------------------------------------------
@@ -120,6 +170,7 @@ end
 function mod:GetOptions()
 	return {
 		"warp_in",
+		"infobox",
 		250048, -- Life Force
 		248861, -- Spear of Doom
 		{248332, "SAY", "FLASH"}, -- Rain of Fel
@@ -135,7 +186,6 @@ function mod:GetOptions()
 end
 
 function mod:OnBossEnable()
-	self:RegisterUnitEvent("UNIT_POWER", nil, "boss1")
 	self:Log("SPELL_CAST_START", "LifeForce", 250048)
 	self:Log("SPELL_CAST_SUCCESS", "LifeForceSuccess", 250048)
 
@@ -159,26 +209,39 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
-	timers = self:Mythic() and timersMythic or self:Heroic() and timersHeroic or timersNormal
+	timers = self:Mythic() and timersMythic or self:Heroic() and timersHeroic or self:LFR() and timersLFR or timersNormal
 	rainofFelCounter = 1
 	spearCounter = 1
 	finalDoomCounter = 1
 	lifeForceCounter = 1
+	lifeForceNeeded = self:LFR() and 3 or 4
+	shouldAnnounceEnergy = true
 
 	engageTime = GetTime()
 	self:StartWaveTimer("top", 1) -- Top wave spawns
 	self:StartWaveTimer("mid", 1) -- Middle wave spawns
 	self:StartWaveTimer("bot", 1) -- Bottom wave spawns
-	self:StartWaveTimer("air", 1) -- Air wave spawns
 
-	self:Bar(248332, timers[248332][rainofFelCounter]) -- Rain of Fel
+	if not self:LFR() then
+		self:StartWaveTimer("air", 1) -- Air wave spawns
+		self:Bar(248332, timers[248332][rainofFelCounter]) -- Rain of Fel
+	end
 
 	if self:Heroic() or self:Mythic() then
 		self:CDBar(248861, timers[248861][spearCounter]) -- Spear of Doom
 	end
 	if self:Mythic() then
-		self:CDBar(249121, timers[249121][finalDoomCounter]) -- Final Doom
+		self:CDBar(249121, timers[249121][finalDoomCounter], CL.count:format(self:SpellName(249121), finalDoomCounter)) -- Final Doom
 	end
+
+	self:RegisterUnitEvent("UNIT_POWER_FREQUENT", nil, "boss2")
+	self:RegisterUnitEvent("UNIT_HEALTH_FREQUENT", nil, "boss2")
+	self:OpenInfo("infobox", self.displayName)
+	self:SetInfo("infobox", 1, self:SpellName(7850)) -- Health
+	self:SetInfo("infobox", 2, "100%")
+	self:SetInfoBar("infobox", 1, 1, 0, .7, 0, 0.3) -- green
+	self:SetInfo("infobox", 3, self:SpellName(185188)) -- Energy
+	self:SetInfo("infobox", 4, 0)
 end
 
 --------------------------------------------------------------------------------
@@ -210,7 +273,7 @@ function mod:StartWaveTimer(lane, count)
 		icon = "inv_batpet"
 	end
 
-	local addTypeText = addType == "purifier" and L.purifier or addType == "destructor" and L.destructor or addType == "obfuscator" and L.obfuscator
+	local addTypeText = L[addType]
 	local barText = addTypeText and L.lane_text:format(laneText, addTypeText) or laneText
 
 	self:Bar("warp_in", length, barText, icon)
@@ -218,21 +281,31 @@ function mod:StartWaveTimer(lane, count)
 	self:ScheduleTimer("StartWaveTimer", length, lane, count+1)
 end
 
-function mod:UNIT_POWER(unit)
-	local power = UnitPower(unit)
-	if power >= 80 then
-		self:Message(250048, "Neutral", "Info", L.lifeforce_casts:format(CL.soon:format(self:SpellName(250048)), lifeForceCounter, lifeForceNeeded)) -- Life Force
-		self:UnregisterUnitEvent("UNIT_POWER", unit)
+function mod:UNIT_HEALTH_FREQUENT(unit)
+	local hp = UnitHealth(unit)
+	local max = UnitHealthMax(unit)
+	local percent = hp/max
+	self:SetInfo("infobox", 2, ("%s/%s (%.0f%%)"):format(self:AbbreviateNumber(hp), self:AbbreviateNumber(max), percent*100))
+	self:SetInfoBar("infobox", 1, percent, 0, .7, 0, 0.3) -- green
+end
+
+function mod:UNIT_POWER_FREQUENT(unit)
+	local power = UnitPower(unit, 10) -- Enum.PowerType.Alternate = 10
+	if power >= 80 and shouldAnnounceEnergy then
+		shouldAnnounceEnergy = nil
+		self:Message(250048, "Neutral", "Info", CL.soon:format(L.lifeforce_casts:format(self:SpellName(250048), lifeForceCounter, lifeForceNeeded))) -- Life Force (n/4) soon!
 	end
+	self:SetInfo("infobox", 4, ("%.0f"):format(power))
+	self:SetInfoBar("infobox", 3, power/100, .7, .7, 0, 0.3) -- yellow
 end
 
 function mod:LifeForce(args)
-	self:Message(args.spellId, "Positive", "Long", L.lifeforce_casts:format(CL.casting:format(args.spellName), lifeForceCounter, lifeForceNeeded))
+	self:Message(args.spellId, "Positive", "Long", CL.casting:format(L.lifeforce_casts:format(args.spellName, lifeForceCounter, lifeForceNeeded)))
 	lifeForceCounter = lifeForceCounter + 1
 end
 
 function mod:LifeForceSuccess()
-	self:RegisterUnitEvent("UNIT_POWER", nil, "boss1")
+	shouldAnnounceEnergy = true
 end
 
 function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg)
@@ -244,7 +317,7 @@ function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg)
 end
 
 do
-	local playerList = mod:NewTargetList()
+	local playerList, prev = mod:NewTargetList(), 0
 	function mod:RainofFel(args)
 		if self:Me(args.destGUID) then
 			self:Say(args.spellId)
@@ -254,8 +327,12 @@ do
 		playerList[#playerList+1] = args.destName
 		if #playerList == 1 then
 			self:ScheduleTimer("TargetMessage", 0.3, args.spellId, playerList, "Important", "Alarm")
-			rainofFelCounter = rainofFelCounter + 1
-			self:Bar(args.spellId, timers[args.spellId][rainofFelCounter])
+			local t = GetTime()
+			if t-prev > 5 then -- prevent a wrong bar if Rain of Fel gets delayed late
+				prev = t
+				rainofFelCounter = rainofFelCounter + 1
+				self:Bar(args.spellId, timers[args.spellId][rainofFelCounter])
+			end
 		end
 	end
 
@@ -275,8 +352,8 @@ end
 
 function mod:Purge(args)
 	self:StopBar(CL.cast:format(CL.count:format(self:SpellName(249121), finalDoomCounter-1)))
-	self:Message(249121, "Positive", "Info", CL.interupted:format(self:SpellName(249121)))
-	self:CastBar(args.spellId, 20)
+	self:Message(249121, "Positive", "Info", CL.interrupted:format(self:SpellName(249121))) -- Final Doom
+	self:CastBar(args.spellId, 30)
 end
 
 function mod:ArcaneBuildup(args)
@@ -285,6 +362,8 @@ function mod:ArcaneBuildup(args)
 		self:Say(args.spellId)
 		self:Flash(args.spellId)
 		self:SayCountdown(args.spellId, 5)
+		self:CastBar(args.spellId, 5, CL.you:format(args.spellName))
+		self:ScheduleTimer("Bar", 5, args.spellId, 20, CL.you:format(args.spellName))
 	end
 end
 
@@ -300,6 +379,8 @@ function mod:BurningEmbers(args)
 		self:Say(args.spellId)
 		self:Flash(args.spellId)
 		self:SayCountdown(args.spellId, 5)
+		self:CastBar(args.spellId, 5, CL.you:format(args.spellName))
+		self:ScheduleTimer("Bar", 5, args.spellId, 25, CL.you:format(args.spellName))
 	end
 end
 
@@ -312,6 +393,6 @@ end
 function mod:FoulSteps(args)
 	local amount = args.amount or 1
 	if self:Me(args.destGUID) and amount % 3 == 0 then
-		self:StackMessage(args.spellId, args.destName, amount, "Personal", "Alarm")
+		self:StackMessage(args.spellId, args.destName, amount, "Personal", amount > 5 and "Alarm")
 	end
 end

@@ -15,7 +15,7 @@ local CVF = ChartViewer.Frame
 --> desc
 ChartViewer:SetPluginDescription (Loc ["STRING_PLUGIN_DESC"])
 
-local plugin_version = "v2.8" 
+local plugin_version = "v2.81" 
 
 local function CreatePluginFrames (data)
 
@@ -24,6 +24,14 @@ local function CreatePluginFrames (data)
 	insets = {left = 1, right = 1, top = 1, bottom = 1}})
 	ChartViewerWindowFrame:SetBackdropColor (unpack (_detalhes.PluginDefaults and _detalhes.PluginDefaults.BackdropColor or {0, 0, 0, .6}))
 	ChartViewerWindowFrame:SetBackdropBorderColor (unpack (_detalhes.PluginDefaults and _detalhes.PluginDefaults.BackdropBorderColor or {0, 0, 0, 1}))
+	
+	ChartViewerWindowFrame.bg1 = ChartViewerWindowFrame:CreateTexture (nil, "background")
+	ChartViewerWindowFrame.bg1:SetTexture ([[Interface\AddOns\Details\images\background]], true)
+	ChartViewerWindowFrame.bg1:SetAlpha (0.7)
+	ChartViewerWindowFrame.bg1:SetVertexColor (0.27, 0.27, 0.27)
+	ChartViewerWindowFrame.bg1:SetVertTile (true)
+	ChartViewerWindowFrame.bg1:SetHorizTile (true)
+	ChartViewerWindowFrame.bg1:SetAllPoints()	
 
 	local c = CreateFrame ("Button", "ChartViewerWindowFrameCloseButton", ChartViewerWindowFrame, "UIPanelCloseButton")
 	c:SetWidth (20)
@@ -43,10 +51,12 @@ local function CreatePluginFrames (data)
 		
 		elseif (event == "SHOW") then
 			if (not ChartViewerWindowFrame.OptionsButton) then
-				local options = ChartViewer:GetFramework():NewButton (ChartViewerWindowFrame, nil, "$parentOptionsButton", "OptionsButton", 86, 16, ChartViewer.OpenOptionsPanel, nil, nil, nil, "Options")
+				local options = ChartViewer:GetFramework():NewButton (ChartViewerWindowFrame, nil, "$parentOptionsButton", "OptionsButton", 120, 20, ChartViewer.OpenOptionsPanel, nil, nil, nil, "Options")
 				options:SetTextColor (1, 0.93, 0.74)
 				options:SetIcon ([[Interface\Buttons\UI-OptionsButton]], 14, 14, nil, {0, 1, 0, 1}, nil, 3)
-				options:SetPoint ("bottomleft", ChartViewer.NewTabButton, "topleft", 0, 0)
+				options:SetPoint ("left", ChartViewer.NewTabButton, "right", 4, 0)
+				options:SetTemplate (ChartViewer:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+				options:SetFrameLevel (10)
 			end
 			
 			ChartViewer:RefreshScale()
@@ -163,6 +173,33 @@ function ChartViewer:CheckFor_CreateNewTabForCombat()
 end
 		
 ----------> Tabs
+	local titlecase = function (first, rest)
+		return first:upper()..rest:lower()
+	end
+	
+	--tab on enter
+	function ChartViewer:TabOnEnter (tab)
+			GameTooltip:SetOwner (tab, "ANCHOR_TOPLEFT")
+			local tabObject = DETAILS_PLUGIN_CHART_VIEWER:GetTab (tab.index)
+			GameTooltip:AddLine (tabObject.name)
+			GameTooltip:AddLine (tabObject.segment_type == 1 and "Current Segment" or "Last 5 Segments")
+			GameTooltip:AddLine (" ")
+			
+			local chartData = tabObject.data
+			if (chartData:find ("MULTICHARTS~")) then --multichart
+				chartData = chartData:gsub ("MULTICHARTS~", "")
+				chartData = chartData:gsub ("~", ", ")
+				
+			elseif (chartData:find ("_")) then --preset
+				chartData = chartData:gsub ("_", " ")
+				chartData = chartData:gsub ("(%a)([%w_']*)", titlecase)
+				chartData = chartData:gsub ("Preset", "Preset:")
+			end
+			
+			GameTooltip:AddDoubleLine ("Chart:", chartData)
+			GameTooltip:Show()
+			tab.CloseButton:SetNormalTexture ("Interface\\Buttons\\UI-Panel-MinimizeButton-Up")
+	end	
 		
 	--new tab
 		ChartViewer.tab_prototype = {name = Loc ["STRING_NEWTAB"], segment_type = 1, data = "", texture = "line", version = "v2.0"}
@@ -322,6 +359,7 @@ end
 			--cleanup default scripts
 			frame:SetScript ("OnDoubleClick", nil)
 			frame:SetScript ("OnDragStart", nil)
+			frame:SetAlpha (0.8)
 			return frame
 		end
 		function ChartViewer:TabHideNotUsedFrames()
@@ -462,7 +500,7 @@ end
 		frame:SetToplevel (true)
 	
 		--> using details framework
-		local chart_panel = ChartViewer:GetFramework():CreateChartPanel (frame, frame:GetWidth()-20, 318)
+		local chart_panel = ChartViewer:GetFramework():CreateChartPanel (frame, frame:GetWidth()-20, frame:GetHeight()-20, "ChartViewerWindowFrameChartFrame") --318
 		chart_panel:SetPoint ("topleft", frame, "topleft", 8, -65)
 		chart_panel:SetTitle ("")
 		chart_panel:SetFrameStrata ("HIGH")
@@ -471,33 +509,33 @@ end
 		chart_panel:HideCloseButton()
 		chart_panel:RightClickClose (false)
 		
-		chart_panel:SetScript ("OnMouseDown", function (self, button)
-			if (button == "LeftButton") then
-				if (not frame.isMoving) then
-					frame.isMoving = true
-					frame:StartMoving()
+		if (not DetailsPluginContainerWindow) then
+			chart_panel:SetScript ("OnMouseDown", function (self, button)
+				if (button == "LeftButton") then
+					if (not frame.isMoving) then
+						frame.isMoving = true
+						frame:StartMoving()
+					end
+				elseif (button == "RightButton") then
+					if (not frame.isMoving) then
+						frame:Hide()
+					end
 				end
-			elseif (button == "RightButton") then
-				if (not frame.isMoving) then
-					frame:Hide()
+			end)
+			chart_panel:SetScript ("OnMouseUp", function (self, button)
+				if (button == "LeftButton" and frame.isMoving) then
+					frame.isMoving = nil
+					frame:StopMovingOrSizing()
 				end
-			end
-		end)
-		chart_panel:SetScript ("OnMouseUp", function (self, button)
-			if (button == "LeftButton" and frame.isMoving) then
-				frame.isMoving = nil
-				frame:StopMovingOrSizing()
-			end
-		end)
+			end)
+		else
+			chart_panel:EnableMouse (false)
+		end
 		
 		chart_panel:SetBackdrop({
 				edgeFile = "Interface\\DialogFrame\\UI-DialogBox-gold-Border", tile = true, tileSize = 16, edgeSize = 5,
 				insets = {left = 1, right = 1, top = 0, bottom = 1},})
-		
-		--
 
-		--
-		
 		local g = chart_panel
 		
 		g:Reset()
@@ -519,7 +557,7 @@ end
 					ChartViewer.segments_dropdown:Select (1, true)
 				end
 			end
-		
+			
 			local current_tab = ChartViewer:TabGetCurrent()
 			
 			local capture_name = current_tab.data
@@ -677,13 +715,31 @@ end
 					local line_name = chart [4]
 					local texture = chart [5]
 					
-					g:AddLine (chart_data, chart_color, line_name, combat_time, texture, "SMA")
+					g:AddLine (chart_data, chart_color, line_name, combat_time, texture) --, "SMA"
 				end
 			end
 			
 		end
 
 ----------> Window Functions
+
+		function ChartViewer.RefreshWindow()
+			local segments = ChartViewer:GetCombatSegments()
+			
+			for i = 1, #segments do
+				local this_combat = segments [i]
+				if (this_combat.is_boss and this_combat.is_boss.index) then
+				
+					ChartViewer.current_segment = i
+					ChartViewer.segments_dropdown:Refresh()
+					ChartViewer.segments_dropdown:Select (1, true)
+					
+					break
+				end
+			end
+			
+			ChartViewer:TabRefresh()
+		end
 
 	--open window
 		function ChartViewer:OpenWindow()
@@ -702,7 +758,9 @@ end
 			end
 			
 			ChartViewer:TabRefresh()
-			ChartViewerWindowFrame:Show()
+			
+			--ChartViewerWindowFrame:Show()
+			DetailsPluginContainerWindow.OpenPlugin (ChartViewer)
 		end
 		
 	
@@ -769,24 +827,26 @@ local create_segment_dropdown = function()
 	statusbar_background:SetFrameLevel (9)
 	
 	local frame = ChartViewerWindowFrame
-	statusbar_background:SetScript ("OnMouseDown", function (self, button)
-		if (button == "LeftButton") then
-			if (not frame.isMoving) then
-				frame.isMoving = true
-				frame:StartMoving()
+	if (not DetailsPluginContainerWindow) then
+		statusbar_background:SetScript ("OnMouseDown", function (self, button)
+			if (button == "LeftButton") then
+				if (not frame.isMoving) then
+					frame.isMoving = true
+					frame:StartMoving()
+				end
+			elseif (button == "RightButton") then
+				if (not frame.isMoving) then
+					frame:Hide()
+				end
 			end
-		elseif (button == "RightButton") then
-			if (not frame.isMoving) then
-				frame:Hide()
+		end)
+		statusbar_background:SetScript ("OnMouseUp", function (self, button)
+			if (button == "LeftButton" and frame.isMoving) then
+				frame.isMoving = nil
+				frame:StopMovingOrSizing()
 			end
-		end
-	end)
-	statusbar_background:SetScript ("OnMouseUp", function (self, button)
-		if (button == "LeftButton" and frame.isMoving) then
-			frame.isMoving = nil
-			frame:StopMovingOrSizing()
-		end
-	end)
+		end)
+	end
 
 	local on_segment_chosen = function (self, _, segment)
 		ChartViewer.current_segment = segment
@@ -810,11 +870,12 @@ local create_segment_dropdown = function()
 	end
 	
 	local segments_string = ChartViewer:GetFramework():CreateLabel (ChartViewerWindowFrame, "Segment:", nil, nil, "GameFontNormal")
-	segments_string:SetPoint ("bottomleft", frame, "bottomleft", 10, 10)
+	segments_string:SetPoint ("bottomleft", frame, "bottomleft", 8, 12)
 	
 	local segments_dropdown = ChartViewer:GetFramework():CreateDropDown (ChartViewerWindowFrame, build_segments_menu, 1, 150, 20)
 	segments_dropdown:SetPoint ("left", segments_string, "right", 2, 0)
 	segments_dropdown:SetFrameLevel (10)
+	segments_dropdown:SetTemplate (_detalhes.gump:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE"))
 	ChartViewer.segments_dropdown = segments_dropdown
 end
 
@@ -835,26 +896,29 @@ local create_delete_button = function (f, name)
 end
 	
 local create_add_tab_button = function()
-	
 	local fw = ChartViewer:GetFramework()
 	
-	local button = fw:CreateButton (ChartViewerWindowFrame, ChartViewer.OpenAddTabPanel, 86, 16, "Add Chart")
+	local button = fw:CreateButton (ChartViewerWindowFrame, ChartViewer.OpenAddTabPanel, 120, 20, "Add Chart")
 	button:SetTextColor (1, 0.93, 0.74)
-	--button:SetIcon ([[Interface\Buttons\UI-OptionsButton]], 14, 14, nil, {0, 1, 0, 1}, nil, 3)
 	button:SetIcon ([[Interface\PaperDollInfoFrame\Character-Plus]], 14, 14, nil, {0, 1, 0, 1}, nil, 3)
-	button:SetPoint ("topright", ChartViewerWindowFrame, "topright", -30, -45)
-	
+	button:SetTemplate (ChartViewer:GetFramework():GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+	button:SetFrameLevel (10)
+
+	button:SetPoint ("left", ChartViewer.segments_dropdown, "right", 4, 0)
 	ChartViewer.NewTabButton = button
-	
 end
 local create_add_tab_panel = function()
-
+	
 	local fw = ChartViewer:GetFramework()
 	
-	local panel = fw:CreatePanel (ChartViewerWindowFrame, 225, 180, {bgFile = [[Interface\AddOns\Details\images\background]], tile = true, tileSize = 16,
+	local panel = fw:CreatePanel (ChartViewerWindowFrame, 260, 180, {bgFile = [[Interface\AddOns\Details\images\background]], tile = true, tileSize = 16,
 	insets = {left = 0, right = 0, top = 0, bottom = 0}, edgeFile = [[Interface\DialogFrame\UI-DialogBox-Border]], edgeSize = 10})
 	ChartViewer.NewTabPanel = panel
-
+	
+	panel:SetBackdrop ({edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\AddOns\Details\images\background]], tileSize = 64, tile = true})
+	panel:SetBackdropColor (0.2, 0.2, 0.2, .6)
+	panel:SetBackdropBorderColor (0, 0, 0, 1)	
+	
 	panel:SetPoint ("center", ChartViewerWindowFrame, "center")
 	
 	panel:SetFrameStrata ("FULLSCREEN")
@@ -978,7 +1042,7 @@ local create_add_tab_panel = function()
 		local texture_dropdown = fw:CreateDropDown (panel, texture_options_func, 1, 150, 20)
 		texture_dropdown:SetPoint ("left", texture_label, "right", 2, 0)
 		ChartViewer.texture_dropdown = texture_dropdown
-	
+		
 		local internal_options = {
 			["MULTICHARTS~Your Team Damage~Enemy Team Damage"] = {colors = {["Your Team Damage"] = {1, 1, 1}, ["Enemy Team Damage"] = {1, 0.6, 0.2}}, iType = "arena-DAMAGER", name = "Arena Damage"},
 			["MULTICHARTS~Your Team Healing~Enemy Team Healing"] = {colors = {["Your Team Healing"] = {1, 1, 1}, ["Enemy Team Healing"] = {1, 0.6, 0.2}}, iType = "arena-HEALER", name = "Arena Heal"},
@@ -1152,15 +1216,27 @@ function ChartViewer:OnEvent (_, event, ...)
 				_G._detalhes:RegisterEvent (ChartViewer, "COMBAT_CHARTTABLES_CREATING")
 				_G._detalhes:RegisterEvent (ChartViewer, "COMBAT_CHARTTABLES_CREATED")
 				
+				create_segment_dropdown()
 				create_add_tab_panel()
 				create_add_tab_button()
-				create_segment_dropdown()
 				
 				ChartViewer.current_segment = 1
 				
 				ChartViewer.NewTabPanel:Hide()
 				
+				--> replace the built-in frame with the outside frame
+				ChartViewer.Frame = _G.ChartViewerWindowFrame
+				
+				--> embed the plugin into the plugin window
+				if (DetailsPluginContainerWindow) then
+					DetailsPluginContainerWindow.EmbedPlugin (ChartViewer, ChartViewerWindowFrame)
+				end
+				
 				C_Timer.After (5, function()
+					--> adjust the size of the chart frame
+					local height = ChartViewerWindowFrame:GetHeight()
+					ChartViewerWindowFrameChartFrame:SetSize (ChartViewerWindowFrame:GetWidth()-20, height-100)
+				
 					ChartViewerWindowFrame:SetBackdrop ({edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\AddOns\Details\images\background]], tileSize = 64, tile = true})
 					ChartViewerWindowFrame:SetBackdropColor (0.2, 0.2, 0.2, .6)
 					ChartViewerWindowFrame:SetBackdropBorderColor (0, 0, 0, 1)

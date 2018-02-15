@@ -94,7 +94,7 @@ Details_RaidInfo-Nighthold: enabled
 Details_RaidInfo-TombOfSargeras: enabled
 Details_RaidInfo-TrialOfValor: enabled
 Details_ChartViewer: enabled
-GarrisonMissionManager: disabled
+GarrisonMissionManager: enabled
 Grid2: disabled
 Grid2Options: disabled
 Grid2RaidDebuffs: disabled
@@ -119,4 +119,5 @@ WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
 WorldQuestAssistant: disabled
 GuildGreet: disabled
-SavedInstances: enabled
+ExRT: disabled
+HideTalkingHead: enabled

@@ -2,6 +2,7 @@ local frame = CreateFrame("Frame", nil, UIParent);
 frame:SetFrameStrata("TOOLTIP");
 local texture = frame:CreateTexture();
 texture:SetTexture([[Interface\Cooldown\star4]]);
+--texture:SetVertexColor(1, 0, 0,.5);
 texture:SetBlendMode("ADD");
 texture:SetAlpha(0.5);
 local x = 0;
