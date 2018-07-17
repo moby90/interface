@@ -3,7 +3,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Raest", nil, nil, 1684)
+local mod, CL = BigWigs:NewBoss("Raest", 1684) -- Thwarting the Twins
 if not mod then return end
 mod:RegisterEnableMob(116409, 116410) -- Raest Magespear, Karam Magespear
 mod.otherMenu = 1716 -- Broken Shore Mage Tower
@@ -50,8 +50,12 @@ function mod:GetOptions()
 		"warmup",
 		202081, -- Fixate
 		235308, -- Purgatory
+
+		--[[ Stage 2 ]]--
 		"handFromBeyond",
 		{235578, "FLASH"}, -- Grasp from Beyond
+
+		--[[ Stage 3 ]]--
 		{"rune", "FLASH"},
 		"thing",
 	}, {
@@ -139,7 +143,7 @@ end
 
 function mod:Interrupts(args)
 	if args.extraSpellId == 235578 then -- Grasp from Beyond
-		self:Message(args.extraSpellId, "Personal", nil, CL.interrupted:format(args.extraSpellName))
+		self:Message(235578, "Personal", nil, CL.interrupted:format(args.extraSpellName))
 		self:StopBar(CL.cast:format(args.extraSpellName))
 	end
 end

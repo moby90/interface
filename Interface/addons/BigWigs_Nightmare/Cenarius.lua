@@ -13,7 +13,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Cenarius", 1094, 1750)
+local mod, CL = BigWigs:NewBoss("Cenarius", 1520, 1750)
 if not mod then return end
 mod:RegisterEnableMob(104636)
 mod.engageId = 1877
@@ -374,7 +374,7 @@ do
 	local cleansedGroundCheck = nil
 
 	local function checkForCleansedGround(self, spellId, spellName)
-		if UnitDebuff("player", spellName) then
+		if self:UnitDebuff("player", spellName) then
 			self:Message(spellId, "Positive", "Alert", CL.underyou:format(spellName))
 			cleansedGroundCheck = self:ScheduleTimer(checkForCleansedGround, 1, self, spellId, spellName)
 		end
@@ -459,7 +459,7 @@ do
 			isOnMe = true
 			self:Flash(args.spellId)
 			self:Say(args.spellId)
-			local _, _, _, _, _, _, expires = UnitDebuff("player", args.spellName)
+			local _, _, _, expires = self:UnitDebuff("player", args.spellName)
 			local t = expires - GetTime()
 			self:TargetBar(args.spellId, t, args.destName)
 			self:OpenProximity(args.spellId, 8)

@@ -5,7 +5,7 @@
 --TO do List Eye beam is completely missing in transcriptor logs in any means ??
 --Dark Rush and Eye beam Say's should be Tested
 --Arcane blitz warning message could be changed into "Interrupt (sourceGuid)"
-local mod, CL = BigWigs:NewBoss("Illysanna Ravencrest", 1081, 1653)
+local mod, CL = BigWigs:NewBoss("Illysanna Ravencrest", 1501, 1653)
 if not mod then return end
 mod:RegisterEnableMob(98696)
 
@@ -67,7 +67,7 @@ function mod:EyeBeams(args) -- eye beam missing timer xxx fix this
 	self:StopBar(197418) -- Vengeful Shear
 	self:Bar(197696, 15) -- Eye Beam
 	if self:Me(args.destGUID) then
-		self:Say(args.spellId)
+		self:Say(197696)
 	end
 end
 

@@ -3,7 +3,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Goroth", 1147, 1862)
+local mod, CL = BigWigs:NewBoss("Goroth", 1676, 1862)
 if not mod then return end
 mod:RegisterEnableMob(115844)
 mod.engageId = 2032
@@ -113,7 +113,7 @@ function mod:BurningArmorSuccess(args)
 end
 
 function mod:BurningArmor(args)
-	self:TargetMessage(args.spellId, args.destName, "Attention", not UnitDebuff("player", self:SpellName(234264)) and "Warning" or "Alarm", nil, nil, true)
+	self:TargetMessage(args.spellId, args.destName, "Attention", not self:UnitDebuff("player", self:SpellName(234264)) and "Warning" or "Alarm", nil, nil, true)
 	if self:Me(args.destGUID) then
 		self:Say(args.spellId)
 	end

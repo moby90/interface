@@ -3,7 +3,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Tomb of Sargeras Trash", 1147)
+local mod, CL = BigWigs:NewBoss("Tomb of Sargeras Trash", 1676)
 if not mod then return end
 mod.displayName = CL.trash
 mod:RegisterEnableMob(
@@ -343,7 +343,7 @@ end
 
 function mod:BloodDrainDispelled(args)
 	if args.extraSpellId == 241716 then
-		self:Message(args.extraSpellId, "Positive", "Info", CL.removed_by:format(args.extraSpellName, self:ColorName(args.sourceName)))
+		self:Message(241716, "Positive", "Info", CL.removed_by:format(args.extraSpellName, self:ColorName(args.sourceName)))
 	end
 end
 
@@ -351,7 +351,7 @@ function mod:CoralCut(args)
 	if self:Tank(args.destName) then
 		local amount = args.amount or 1
 		self:StackMessage(args.spellId, args.destName, amount, "Attention")
-		if not self:Me(args.destGUID) and amount > 1 and self:Tank() and not UnitDebuff("player", args.spellName) then
+		if not self:Me(args.destGUID) and amount > 1 and self:Tank() and not self:UnitDebuff("player", args.spellName) then
 			self:PlaySound(args.spellId, "Warning")
 		end
 		self:StopBar(CL.count:format(args.spellName, amount-1), args.destName)

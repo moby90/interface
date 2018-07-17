@@ -3,9 +3,11 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Vigilant Kaathar", 984, 1185)
+local mod, CL = BigWigs:NewBoss("Vigilant Kaathar", 1182, 1185)
 if not mod then return end
 mod:RegisterEnableMob(75839)
+mod.engageId = 1686
+mod.respawnTime = 30
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -27,15 +29,11 @@ function mod:GetOptions()
 end
 
 function mod:OnBossEnable()
-	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT", "CheckBossStatus")
-
 	self:Log("SPELL_CAST_START", "HolyShield", 153002)
 	self:Log("SPELL_CAST_START", "ConsecratedLight", 153006)
 	self:Log("SPELL_AURA_REMOVED", "ConsecratedLightOver", 153006)
 	self:Log("SPELL_CAST_START", "SanctifiedStrike", 152954)
 	self:Log("SPELL_AURA_APPLIED", "SanctifiedGround", 153430)
-
-	self:Death("Win", 75839)
 end
 
 function mod:OnEngage()
@@ -83,4 +81,3 @@ function mod:SanctifiedGround(args)
 		self:Message(args.spellId, "Personal", "Alarm", CL.underyou:format(args.spellName))
 	end
 end
-

@@ -40,12 +40,12 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_x"] = -5,
 			["row_texture"] = "Details Serenity",
-			["arrow_anchor_y"] = 0,
-			["main_frame_locked"] = true,
-			["main_frame_strata"] = "LOW",
+			["scale"] = 1,
+			["row_height"] = 20,
+			["point"] = "BOTTOMRIGHT",
 			["enabled"] = true,
 			["arrow_size"] = 15,
-			["use_spark"] = true,
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -55,7 +55,11 @@ Details_StreamerDB = {
 			},
 			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\Tooltips\\ReforgeGreenArrow",
+			["use_spark"] = true,
 			["y"] = 188.000015258789,
+			["x"] = -39,
+			["font_face"] = "Friz Quadrata TT",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -63,22 +67,18 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = 0.00146484375,
 				["x"] = 0,
-				["attribute_type"] = 2,
-				["update_speed"] = 0.05,
 				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 2,
 			},
-			["x"] = -39,
-			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["point"] = "BOTTOMRIGHT",
-			["row_height"] = 20,
-			["scale"] = 1,
+			["main_frame_locked"] = true,
+			["arrow_anchor_y"] = 0,
 		},
 	},
 }

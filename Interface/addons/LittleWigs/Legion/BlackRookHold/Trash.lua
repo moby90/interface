@@ -3,7 +3,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Black Rook Hold Trash", 1081)
+local mod, CL = BigWigs:NewBoss("Black Rook Hold Trash", 1501)
 if not mod then return end
 mod.displayName = CL.trash
 mod:RegisterEnableMob(
@@ -80,7 +80,7 @@ function mod:ArcaneBlitz(args)
 	-- only show a message if stacks are getting high (6 = 300% which is around 1m damage a hit)
 	local unit = self:GetUnitIdByGUID(args.sourceGUID)
 	if unit then
-		local _, _, _, amount = UnitBuff(unit, args.spellName)
+		local _, amount = self:UnitBuff(unit, args.spellName)
 		if amount and amount > 5 and (self:Interrupter(args.destGUID) or self:Dispeller("magic", true)) then
 			self:Message(args.spellId, "Attention", "Alert", CL.count:format(args.spellName, amount))
 		end

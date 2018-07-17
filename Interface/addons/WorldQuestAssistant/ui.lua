@@ -54,14 +54,17 @@ StaticPopupDialogs["WQA_LEAVE_GROUP"] = {
 
 local buttonGroups = {}
 local blockAttachments = {}
+local numGlows = 0
 
 local function ReleaseButtonGroup(group)
   if group then
+    group.ApplyFrame:Hide()
     group:Hide()
     group:SetScale(1.0)
     group:ClearAllPoints()
     if group.questID then
       blockAttachments[group.questID] = nil
+      group.questID = nil
     end
     tinsert(buttonGroups, group)
   end
@@ -139,10 +142,11 @@ local function CreateButtonGroup()
   end)
 
   f = ApplyFrame
+  f:Hide()
   f.SetPendingInvites = function(self)
     self:SetEnabled(#mod.pendingGroups > 0)
     self:SetText(#mod.pendingGroups)
-    if #mod.pendingGroups == 0 or tostring(mod.activeQuestID) ~= tostring(ButtonsFrame.questID) then
+    if #mod.pendingGroups == 0 or tostring(mod.currentQuestInfo.questID) ~= tostring(ButtonsFrame.questID) then
       self:Hide()
     else
       self:Show()
@@ -156,7 +160,8 @@ local function CreateButtonGroup()
   f.tooltipText = L["Apply to groups for this quest"]
   f:SetScript("OnEnter", showTooltip)
   f:SetScript("OnLeave", hideTooltip)
-  f.glow = CreateFrame("Frame", nil, ApplyFrame, "ActionBarButtonSpellActivationAlert")
+  numGlows = numGlows+1
+  f.glow = CreateFrame("Frame", "WQA_ButtonGlow"..numGlows, ApplyFrame, "ActionBarButtonSpellActivationAlert")
 
   f.glow.animIn:Stop()
   local frameWidth, frameHeight = f:GetSize()
@@ -179,10 +184,10 @@ local function CreateButtonGroup()
   f:SetSize(1, 1)
   f:Hide()
 
-  ButtonsFrame.Attach = function(self, block)
+  ButtonsFrame.Attach = function(self, block, questID)
     self:SetParent(block)
-    if block and block.id then
-      f.questID = tostring(block.id)
+    if block and questID then
+      f.questID = tostring(questID)
       blockAttachments[f.questID] = f
       f:Show()
       updateLayout(block)
@@ -192,7 +197,6 @@ local function CreateButtonGroup()
   end
 
   ButtonsFrame.Update = function(self)
-    ApplyFrame:SetPendingInvites()
     if mod:IsInParty() then
       ApplyFrame:Hide()
       NewGroupFrame:Hide()
@@ -224,15 +228,15 @@ function mod.UI:GetActiveQuestBlock()
   end
 end
 
-function mod.UI:SetSearch()
-  for id, attachment in pairs(blockAttachments) do
-    attachment:SetSearch()
-  end
-end
+--function mod.UI:SetSearch()
+--  for id, attachment in pairs(blockAttachments) do
+--    attachment:SetSearch()
+--  end
+--end
 
 function mod.UI:SetPendingInvites()
   for id, attachment in pairs(blockAttachments) do
-    attachment:SetSearch()
+    attachment.ApplyFrame:SetPendingInvites()
   end
 end
 
@@ -245,14 +249,15 @@ end
 local mapButton = nil
 local preserved = {}
 
-local function updateBlock(block)
-  local strID = tostring(block.id)
+local function updateBlock(block, questID)
+  local ID = questID or block.id
+  local strID = tostring(ID)
   local group = blockAttachments[strID] or GetButtonGroup()
   preserved[strID] = true
   if mod:IsInOtherQueues() then
     group:Hide()
   else
-    group:Attach(block)
+    group:Attach(block, ID)
     group:Update()
   end
   return group
@@ -271,6 +276,10 @@ function mod.UI:SetupTrackerBlocks()
     local m = updateBlock(mapButton)
     m:SetScale(0.8)
   end
+  if select(10, C_Scenario.GetInfo()) == LE_SCENARIO_TYPE_LEGION_INVASION then
+    -- TODO: also check IsEligibleQuest
+    updateBlock(ObjectiveTrackerFrame.BlocksFrame.ScenarioHeader, mod.ID_SCENARIO)
+  end
 
   for id, block in pairs(blockAttachments) do
     if not preserved[tostring(id)] then
@@ -284,7 +293,7 @@ function mod.UI:GetTrackerBlocks(callback)
   if not ObjectiveTrackerFrame.MODULES then return end
   for i, module in ipairs(ObjectiveTrackerFrame.MODULES) do
     for name, block in pairs(module.usedBlocks) do
-      if mod:IsEligibleQuest(block.id) then
+      if mod:IsEligibleQuest(block.id, true) then
         callback(block)
       end
     end
@@ -292,6 +301,7 @@ function mod.UI:GetTrackerBlocks(callback)
 end
 
 function mod.UI:SetMapButton(button)
+  if (button == mapButton) then return end
   if button then
     button.id = tostring(button.questID)
     mapButton = button

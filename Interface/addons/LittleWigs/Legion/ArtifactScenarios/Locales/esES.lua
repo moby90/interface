@@ -64,4 +64,15 @@ end
 L = BigWigs:NewBossLocale("Archmage Xylem", "esES") or BigWigs:NewBossLocale("Archmage Xylem", "esMX")
 if L then
 	L.name = "Archimago Xylem"
+	L.corruptingShadows = "Sombra corruptora"
+end
+
+L = BigWigs:NewBossLocale("Agatha", "esES") or BigWigs:NewBossLocale("Agatha", "esMX")
+if L then
+	L.name = "Agatha"
+	L.imp_servant = "Sirviente diablillo"
+	L.fuming_imp = "Diablillo humeante"
+
+	-- L.absorb = "Absorb"
+	-- L.stacks = "Stacks"
 end

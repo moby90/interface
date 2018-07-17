@@ -8,7 +8,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Skorpyron", 1088, 1706)
+local mod, CL = BigWigs:NewBoss("Skorpyron", 1530, 1706)
 if not mod then return end
 mod:RegisterEnableMob(102263)
 mod.engageId = 1849
@@ -105,7 +105,7 @@ do
 	local brokenShardCheck, name = nil, mod:SpellName(204284)
 
 	local function checkForBrokenShard()
-		if not UnitDebuff("player", name) then
+		if not self:UnitDebuff("player", name) then
 			mod:Message(204284, "Personal", "Warning", CL.no:format(name))
 			brokenShardCheck = mod:ScheduleTimer(checkForBrokenShard, 1)
 		else

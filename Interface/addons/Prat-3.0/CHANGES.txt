@@ -1,7 +1,13 @@
-changeset:   1081:54646840f7ac
-tag:         3.6.34
+changeset:   1145:24e7f4c7119e
+tag:         3.5.70
 user:        sylvanaar <sylvanaar@mindspring.com>
-date:        Sat Oct 07 18:15:35 2017 -0700
-summary:     Fix SoundKit error
+date:        Sat Jun 02 11:46:15 2018 -0700
+summary:     Fix not being able to disable whispers
+
+
+changeset:   1144:b3a3699d562b
+user:        sylvanaar <sylvanaar@mindspring.com>
+date:        Mon May 28 20:52:13 2018 -0700
+summary:     - Disable the broken search mobule
 
 

@@ -141,7 +141,7 @@ oRA3DB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["lastSelectedList"] = 3,
+			["lastSelectedPanel"] = "Cooldowns",
 			["positions"] = {
 				["oRA3CooldownFrameBarsDefault"] = {
 					["Height"] = 96.0001907348633,
@@ -166,7 +166,7 @@ oRA3DB = {
 					["PosX"] = 633.600319161687,
 				},
 			},
-			["lastSelectedPanel"] = "Cooldowns",
+			["lastSelectedList"] = 3,
 		},
 		["Laru"] = {
 			["lastSelectedList"] = 2,

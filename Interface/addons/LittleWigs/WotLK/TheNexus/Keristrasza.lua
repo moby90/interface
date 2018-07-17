@@ -3,7 +3,7 @@
 -- Module declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Keristrasza", 520, 621)
+local mod, CL = BigWigs:NewBoss("Keristrasza", 576, 621)
 if not mod then return end
 mod:RegisterEnableMob(26723)
 
@@ -54,6 +54,6 @@ function mod:CrystalChainsRemoved(args)
 end
 
 function mod:Enrage(args)
-	self:Message(args.spellId, "Important", self:Dispeller("enrage", true) and "Info", "25% - ".. args.spellName)
+	self:Message(args.spellId, "Important", self:Dispeller("enrage", true) and "Info", CL.percent:format(25, args.spellName))
 end
 

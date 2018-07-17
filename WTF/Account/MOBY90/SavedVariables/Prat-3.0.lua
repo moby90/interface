@@ -148,6 +148,20 @@ Prat3DB = {
 				},
 			},
 		},
+		["Prat_ChatTabs"] = {
+			["profiles"] = {
+				["Laru Extended"] = {
+					["on"] = true,
+				},
+				["Default"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["Prat_UrlCopy"] = {
+		},
+		["Prat_KeyBindings"] = {
+		},
 		["Prat_Font"] = {
 			["profiles"] = {
 				["Laru Extended"] = {
@@ -167,34 +181,7 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_KeyBindings"] = {
-		},
-		["Prat_ChatTabs"] = {
-			["profiles"] = {
-				["Laru Extended"] = {
-					["on"] = true,
-				},
-				["Default"] = {
-					["on"] = true,
-				},
-			},
-		},
-		["Prat_Scroll"] = {
-		},
-		["Prat_UrlCopy"] = {
-		},
-		["Prat_Paragraph"] = {
-			["profiles"] = {
-				["Laru Extended"] = {
-					["on"] = true,
-				},
-				["Default"] = {
-					["on"] = true,
-					["justification"] = {
-						["ChatFrame1"] = "RIGHT",
-					},
-				},
-			},
+		["Prat_Bubbles"] = {
 		},
 		["Prat_ChannelNames"] = {
 			["profiles"] = {
@@ -210,11 +197,7 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_Alias"] = {
-		},
-		["Prat_OriginalButtons"] = {
-		},
-		["Prat_Sounds"] = {
+		["Prat_Scroll"] = {
 		},
 		["Prat_Timestamps"] = {
 			["profiles"] = {
@@ -238,11 +221,34 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_ChannelSticky"] = {
+		["Prat_Achievements"] = {
+		},
+		["Prat_Paragraph"] = {
+			["profiles"] = {
+				["Laru Extended"] = {
+					["on"] = true,
+				},
+				["Default"] = {
+					["on"] = true,
+					["justification"] = {
+						["ChatFrame1"] = "RIGHT",
+					},
+				},
+			},
+		},
+		["Prat_Alias"] = {
+		},
+		["Prat_OriginalButtons"] = {
 		},
 		["Prat_History"] = {
 		},
-		["Prat_PopupMessage"] = {
+		["Prat_ChatLog"] = {
+		},
+		["Prat_ChannelSticky"] = {
+		},
+		["Prat_Invites"] = {
+		},
+		["Prat_Sounds"] = {
 		},
 		["Prat_CopyChat"] = {
 			["profiles"] = {
@@ -257,7 +263,7 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_ChatLog"] = {
+		["Prat_PopupMessage"] = {
 		},
 		["Prat_Search"] = {
 		},
@@ -291,7 +297,7 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_Bubbles"] = {
+		["Prat_HoverTips"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -323,10 +329,10 @@ Prat3DB = {
 			["modules"] = {
 				["Alias"] = 2,
 				["ChatTabs"] = 3,
+				["PopupMessage"] = 2,
 				["AltNames"] = 2,
 				["Sounds"] = 2,
 				["KeyBindings"] = 2,
-				["PopupMessage"] = 2,
 				["OriginalButtons"] = 2,
 				["ChatLog"] = 2,
 			},
@@ -335,11 +341,11 @@ Prat3DB = {
 			["modules"] = {
 				["Sounds"] = 2,
 				["ChatTabs"] = 3,
-				["Alias"] = 2,
+				["AltNames"] = 2,
 				["OriginalButtons"] = 2,
 				["PopupMessage"] = 2,
-				["AltNames"] = 2,
 				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["KeyBindings"] = 2,
 			},
 		},

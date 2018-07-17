@@ -3,9 +3,11 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Oshir", 987, 1237)
+local mod, CL = BigWigs:NewBoss("Oshir", 1195, 1237)
 if not mod then return end
 mod:RegisterEnableMob(79852)
+mod.engageId = 1750
+mod.respawnTime = 33
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -27,16 +29,8 @@ function mod:GetOptions()
 end
 
 function mod:OnBossEnable()
-	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT", "CheckBossStatus")
-
 	self:Log("SPELL_AURA_APPLIED", "TimeToFeed", 162415)
 	self:Log("SPELL_AURA_REMOVED", "TimeToFeedOver", 162415)
-
-	self:Death("Win", 79852)
-end
-
-function mod:OnEngage()
-
 end
 
 --------------------------------------------------------------------------------
@@ -58,4 +52,3 @@ do
 		self:StopBar(args.spellId, args.destName)
 	end
 end
-

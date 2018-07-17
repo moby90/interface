@@ -3,18 +3,11 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Skulloc", 987, 1238)
+local mod, CL = BigWigs:NewBoss("Skulloc", 1195, 1238)
 if not mod then return end
 mod:RegisterEnableMob(83612, 83613, 83616) -- Skulloc, Koramar, Zoggosh
-
---------------------------------------------------------------------------------
--- Localization
---
-
-local L = mod:GetLocale()
-if L then
-	
-end
+mod.engageId = 1754
+mod.respawnTime = 33
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -28,12 +21,9 @@ function mod:GetOptions()
 end
 
 function mod:OnBossEnable()
-	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT", "CheckBossStatus")
-
 	self:Log("SPELL_CAST_START", "GronnSmash", 168227)
 	self:Log("SPELL_CAST_START", "CannonBarrage", 168929)
-
-	self:Death("Win", 83612)
+	self:Death("SkullocDeath", 83612)
 end
 
 function mod:OnEngage()
@@ -54,3 +44,6 @@ function mod:CannonBarrage(args)
 	self:Flash(args.spellId)
 end
 
+function mod:SkullocDeath()
+	self:StopBar(168227) -- Gronn Smash
+end

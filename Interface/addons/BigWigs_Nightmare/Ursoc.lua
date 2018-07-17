@@ -6,7 +6,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Ursoc", 1094, 1667)
+local mod, CL = BigWigs:NewBoss("Ursoc", 1520, 1667)
 if not mod then return end
 mod:RegisterEnableMob(100497)
 mod.engageId = 1841
@@ -119,7 +119,7 @@ end
 function mod:RendFleshCast(args)
 	self:Message(204859, "Attention", nil, CL.casting:format(args.spellName))
 	if self:Tank() and not UnitDetailedThreatSituation("player", "boss1") then
-		local _, _, _, _, _, _, expiration = UnitDebuff("player", self:SpellName(197943)) -- Overwhelm
+		local _, _, _, expiration = self:UnitDebuff("player", self:SpellName(197943)) -- Overwhelm
 		if not expiration or expiration-GetTime() < 2.5 then
 			self:PlaySound(204859, "Warning") -- Warning = taunt
 		end

@@ -3,7 +3,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Lady Hatecoil", 1046, 1490)
+local mod, CL = BigWigs:NewBoss("Lady Hatecoil", 1456, 1490)
 if not mod then return end
 mod:RegisterEnableMob(91789)
 mod.engageId = 1811
@@ -84,7 +84,7 @@ end
 function mod:CurseOfTheWitch(args)
 	if self:Me(args.destGUID) then
 		self:TargetMessage(args.spellId, args.destName, "Personal", "Alarm")
-		local _, _, _, _, _, duration = UnitDebuff("player", args.spellName) -- Random lengths
+		local _, _, duration = self:UnitDebuff("player", args.spellId) -- Random lengths
 		self:Bar(args.spellId, duration or 6)
 	end
 end

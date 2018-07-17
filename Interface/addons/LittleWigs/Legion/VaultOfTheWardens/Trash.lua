@@ -3,7 +3,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Vault of the Wardens Trash", 1045)
+local mod, CL = BigWigs:NewBoss("Vault of the Wardens Trash", 1493)
 if not mod then return end
 mod.displayName = CL.trash
 mod:RegisterEnableMob(
@@ -15,6 +15,12 @@ mod:RegisterEnableMob(
 	99649, -- Dreadlord Mendacius
 	102566 -- Grimhorn the Enslaver
 )
+
+--------------------------------------------------------------------------------
+-- Locals
+--
+
+local tormentOnMe = false
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -100,6 +106,7 @@ function mod:OnBossEnable()
 
 	--[[ Grimhorn the Enslaver ]]--
 	self:Log("SPELL_AURA_APPLIED", "Torment", 202615)
+	self:Log("SPELL_AURA_REMOVED", "TormentRemoved", 202615)
 	self:Log("SPELL_AURA_APPLIED", "AnguishedSouls", 202607) -- Anguished Souls
  	self:Log("SPELL_PERIODIC_DAMAGE", "AnguishedSouls", 202607)
  	self:Log("SPELL_PERIODIC_MISSED", "AnguishedSouls", 202607)
@@ -149,10 +156,12 @@ end
 do
 	local prev = 0
 	function mod:GroundEffectDamage(args)
-		local t = GetTime()
-		if self:Me(args.destGUID) and t-prev > 1.5 then
-			prev = t
-			self:Message(args.spellId, "Personal", "Alert", CL.underyou:format(args.spellName))
+		if self:Me(args.destGUID) then
+			local t = GetTime()
+			if t-prev > 1.5 then
+				prev = t
+				self:Message(args.spellId, "Personal", "Alert", CL.underyou:format(args.spellName))
+			end
 		end
 	end
 end
@@ -175,20 +184,30 @@ end
 
 --[[ Grimhorn the Enslaver ]]--
 function mod:Torment(args)
+	if self:Me(args.destGUID) then
+		tormentOnMe = true
+		self:Say(args.spellId)
+	end
 	self:TargetMessage(args.spellId, args.destName, "Urgent", "Alarm", nil, nil, true)
 	self:TargetBar(args.spellId, 6, args.destName)
+end
+
+function mod:TormentRemoved(args)
 	if self:Me(args.destGUID) then
-		self:Say(args.spellId)
+		tormentOnMe = false
 	end
 end
 
 do
 	local prev = 0
 	function mod:AnguishedSouls(args)
-		local t = GetTime()
-		if self:Me(args.destGUID) and (UnitDebuff("player",  self:SpellName(202615)) and t-prev > 6 or t-prev > 1.5) then -- don't be spammy if the player can't move (due to Torment)
-			prev = t
-			self:Message(args.spellId, "Personal", "Alert", CL.underyou:format(args.spellName))
+		if self:Me(args.destGUID) then
+			local t = GetTime()
+			-- Increased throttle if the player can't move due to having Torment
+			if t-prev > (tormentOnMe and 6 or 1.5) then
+				prev = t
+				self:Message(args.spellId, "Personal", "Alert", CL.underyou:format(args.spellName))
+			end
 		end
 	end
 end

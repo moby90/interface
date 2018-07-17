@@ -3,7 +3,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Serpentrix", 1046, 1479)
+local mod, CL = BigWigs:NewBoss("Serpentrix", 1456, 1479)
 if not mod then return end
 mod:RegisterEnableMob(91808)
 mod.engageId = 1813
@@ -42,7 +42,7 @@ end
 
 function mod:CHAT_MSG_RAID_BOSS_EMOTE(_, msg)
 	if msg:find("191873", nil, true) then
-		self:Message(191873, "Attention", "Long", submergeHp .."% - ".. self:SpellName(191873))
+		self:Message(191873, "Attention", "Long", CL.percent:format(submergeHp, self:SpellName(191873)))
 		submergeHp = submergeHp - 33
 	end
 end

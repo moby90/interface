@@ -876,6 +876,12 @@ local function CreatePluginFrames()
 		texture:SetColorTexture (0, 1, 0, .2)
 		block.texture = texture
 		
+		local icon = block:CreateTexture (nil, "border")
+		icon:SetPoint ("topleft", texture, "topleft", 0, 0)
+		icon:SetPoint ("bottomleft", texture, "bottomleft", 0, 0)
+		icon:SetWidth (16)
+		block.spellicon = icon
+		
 		return block
 	end
 	
@@ -910,7 +916,10 @@ local function CreatePluginFrames()
 		
 		if (TimeLine.db.useicons) then
 			local _, _, icon = GetSpellInfo (spellid)
-			block.texture:SetTexture (icon)
+			block.spellicon:SetTexture (icon)
+			block.spellicon:SetWidth (block:GetHeight())
+		else
+			block.spellicon:SetTexture (nil)
 		end
 		
 		if (search) then

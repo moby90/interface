@@ -21,7 +21,7 @@ if L then
 
 	L.gifts = "恩赐：%s（天空），%s（海洋）"
 	L.burst = "|T1778229:15:15:0:0:64:64:4:60:4:60|t爆发：%s" -- short for Soulburst
-	L.bomb = "|T1778228:15:15:0:0:64:64:4:60:4:60|t|T137002:0|t炸弹（%d）：%s -" -- short for Soulbomb
+	L.bomb = "|T1778228:15:15:0:0:64:64:4:60:4:60|t炸弹（%d）：|T137002:0|t%s -" -- short for Soulbomb
 
 	L.sky_say = "{rt5} 爆击/精通" -- short for Critical Strike/Mastery (stats)
 	L.sea_say = "{rt6} 急速/全能" -- short for Haste/Versatility (stats)
@@ -37,7 +37,7 @@ if L then
 	L.track_ember = "泰沙拉克的余烬追踪器"
 	L.track_ember_desc = "显示每个泰沙拉克的余烬死亡信息。"
 
-	L.custom_off_ember_marker_desc = "使用 {rt1}{rt2}{rt3}{rt4}{rt5} 标记泰沙拉克的余烬，需要权限。\n|cff33ff99史诗：将只会标记当前一波能量大于45的增援。|r"
+	L.custom_off_ember_marker_desc = "使用 {rt1}{rt2}{rt3}{rt4}{rt5} 标记泰沙拉克的余烬，需要权限。\n|cff33ff99史诗：将只会标记当前一波的增援。|r"
 end
 
 L = BigWigs:NewBossLocale("The Coven of Shivarra", "zhCN")
@@ -76,6 +76,7 @@ if L then
 	L.worldExplosion_desc = "显示崩塌的世界爆炸计时条。"
 	L.platform_active = "%s激活！" -- Platform: Xoroth Active!
 	L.add_killed = "%s已击杀！"
+	L.achiev = "“致命传送”成就减益" -- Achievement 11928
 end
 
 L = BigWigs:NewBossLocale("Kin'garoth", "zhCN")

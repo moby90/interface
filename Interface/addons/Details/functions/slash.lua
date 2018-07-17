@@ -54,6 +54,39 @@ function SlashCmdList.DETAILS (msg, editbox)
 			_detalhes:ShutDownAllInstances()
 		end
 	
+	elseif (command == "softhide") then
+		for instanceID, instance in _detalhes:ListInstances() do
+			if (instance:IsEnabled()) then
+				if (instance.hide_in_combat_type > 1) then
+					instance:SetWindowAlphaForCombat (true)
+				end
+			end
+		end
+	
+	elseif (command == "softshow") then
+		for instanceID, instance in _detalhes:ListInstances() do
+			if (instance:IsEnabled()) then
+				if (instance.hide_in_combat_type > 1) then
+					instance:SetWindowAlphaForCombat (false)
+				end
+			end
+		end
+	
+	elseif (command == "softtoggle") then
+		for instanceID, instance in _detalhes:ListInstances() do
+			if (instance:IsEnabled()) then
+				if (instance.hide_in_combat_type > 1) then
+					if (instance.baseframe:GetAlpha() > 0.1) then
+						--show
+						instance:SetWindowAlphaForCombat (true)
+					else
+						--hide
+						instance:SetWindowAlphaForCombat (false)
+					end
+				end
+			end
+		end
+	
 	elseif (command == Loc ["STRING_SLASH_SHOW"] or command == Loc ["STRING_SLASH_SHOW_ALIAS1"] or command == "show") then
 	
 		_detalhes.LastShowCommand = GetTime()
@@ -1513,7 +1546,7 @@ Damage Update Status: @INSTANCEDAMAGESTATUS
 		--end
 		
 		print (" ")
-		print (Loc ["STRING_DETAILS1"] .. "(" .. _detalhes.userversion .. ") " ..  Loc ["STRING_COMMAND_LIST"])
+		print (Loc ["STRING_DETAILS1"] .. "" .. _detalhes.userversion .. " [|cFFFFFF00CORE: " .. _detalhes.realversion .. "|r] " ..  Loc ["STRING_COMMAND_LIST"] .. ":")
 		
 		print ("|cffffaeae/details|r |cffffff33" .. Loc ["STRING_SLASH_NEW"] .. "|r: " .. Loc ["STRING_SLASH_NEW_DESC"])
 		print ("|cffffaeae/details|r |cffffff33" .. Loc ["STRING_SLASH_SHOW"] .. " " .. Loc ["STRING_SLASH_HIDE"] .. " " .. Loc ["STRING_SLASH_TOGGLE"] .. "|r|cfffcffb0 <" .. Loc ["STRING_WINDOW_NUMBER"] .. ">|r: " .. Loc ["STRING_SLASH_SHOWHIDETOGGLE_DESC"])

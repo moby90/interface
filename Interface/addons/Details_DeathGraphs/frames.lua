@@ -185,7 +185,7 @@ do
 				if (DeathGraphs.db.showing_type == 1) then
 					DeathGraphs:RefreshPlayerScroll()
 				elseif (DeathGraphs.db.showing_type == 2) then
-					DeathGraphs:ShowEndurance (boss)
+					DeathGraphs:ShowEndurance (boss, true)
 				end
 				
 				DeathGraphs:RefreshBossScroll()
@@ -873,11 +873,10 @@ do
 			self:SetBackdropColor (unpack (BUTTON_BACKGROUND_COLORHIGHLIGHT))
 			capsule.label2:SetTextColor (1, 1, 1)
 
-			GameCooltip:Reset()
-			GameCooltip:SetOption ("ButtonsYMod", 0)
-			GameCooltip:SetOption ("YSpacingMod", -5)
-			GameCooltip:SetOption ("IgnoreButtonAutoHeight", true)
-			GameCooltip:SetColor (1, 0.5, 0.5, 0.5, 0.5)
+			GameCooltip:Preset (2)
+			GameCooltip:SetOwner (self, "topleft", "topright")
+			
+			GameCooltip:SetOption ("FixedWidth", 300)
 
 			local total_encounters = capsule.encounters
 			local points_earned = capsule.points
@@ -900,9 +899,6 @@ do
 				end
 			end
 			
-			GameCooltip:SetBackdrop (1, _detalhes.tooltip_backdrop, cooltip_block_bg, _detalhes.tooltip_border_color)
-			
-			GameCooltip:SetOwner (self, "topleft", "topright")
 			GameCooltip:Show()
 		end
 		
@@ -1037,9 +1033,10 @@ do
 		local reverse_sort = function (t1, t2)
 			return t1[4] < t2[4]
 		end
-	
-		function DeathGraphs:ShowEndurance (boss)
-
+		
+		--> if from dropdown, ignore all auto boss selection
+		function DeathGraphs:ShowEndurance (boss, fromDropdown)
+		
 			player_scroll:Show()
 			player_scroll:Hide()
 			segments_scroll:Show()
@@ -1080,29 +1077,30 @@ do
 			end
 			
 			--> get the boss from the latest segment
-				local currentCombat = Details:GetCurrentCombat()
-				if (currentCombat) then
-					if (currentCombat.is_boss) then
-						--> get the map index
-						local mapID = currentCombat.is_boss.mapid
-						--> get the boss index within the raid
-						local bossIndex = Details:GetBossIndex (mapID, currentCombat.is_boss.id, nil, currentCombat.is_boss.name)
-						if (bossIndex) then
-							--> get the EJID
-							local EJID = Details.EncounterInformation [mapID] and _detalhes.EncounterInformation [mapID].encounter_ids [bossIndex]
-							if (EJID) then
-								--> if the EJID exists build the hash
-								local bossDificulty = currentCombat.is_boss.diff
-								local hash = tostring (EJID) .. tostring (bossDificulty)
-								if (hash) then
-									boss = hash
+				if (not fromDropdown) then
+					local currentCombat = Details:GetCurrentCombat()
+					if (currentCombat) then
+						if (currentCombat.is_boss) then
+							--> get the map index
+							local mapID = currentCombat.is_boss.mapid
+							--> get the boss index within the raid
+							local bossIndex = Details:GetBossIndex (mapID, currentCombat.is_boss.id, nil, currentCombat.is_boss.name)
+							if (bossIndex) then
+								--> get the EJID
+								local EJID = Details.EncounterInformation [mapID] and _detalhes.EncounterInformation [mapID].encounter_ids [bossIndex]
+								if (EJID) then
+									--> if the EJID exists build the hash
+									local bossDificulty = currentCombat.is_boss.diff
+									local hash = tostring (EJID) .. tostring (bossDificulty)
+									if (hash) then
+										boss = hash
+									end
 								end
 							end
 						end
 					end
 				end
 			--
-			
 			
 			if (not boss) then
 				return

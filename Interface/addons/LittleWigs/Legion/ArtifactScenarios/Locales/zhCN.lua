@@ -54,7 +54,7 @@ if L then
 	L.erdris = "艾德里斯·索恩领主"
 
 	L.warmup_trigger = "你来的正是时候"
-	L.warmup_trigger2 = "出……出什么事了？" --Stage 5 Warm up
+	L.warmup_trigger2 = "出……出什么事了？" -- Stage 5
 
 	L.mage = "腐化的幽灵法师"
 	L.soldier = "腐化的幽灵士兵"
@@ -64,4 +64,15 @@ end
 L = BigWigs:NewBossLocale("Archmage Xylem", "zhCN")
 if L then
 	L.name = "大法师克希雷姆"
+	L.corruptingShadows = "腐蚀暗影"
+end
+
+L = BigWigs:NewBossLocale("Agatha", "zhCN")
+if L then
+	L.name = "阿加莎"
+	L.imp_servant = "小鬼仆从"
+	L.fuming_imp = "阴燃的小鬼"
+
+	L.absorb = "吸收"
+	L.stacks = "层数"
 end

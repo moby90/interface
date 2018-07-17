@@ -13,7 +13,7 @@ function mod:SetupTrackerBlocks()
   -- If any blocks were set up, anchor them to the Kaliel's sbutton frame
   local anchor = _G["!KalielsTrackerButtons"]:IsVisible() and _G["!KalielsTrackerButtons"] or _G["!KalielsTrackerFrame"]
   local anchorPoint, relativePoint = "TOPLEFT", "TOPRIGHT"
-  local left = anchor and anchor:GetLeft()
+  local left = anchor and anchor:GetLeft() or 0
   if left > UIParent:GetWidth() / 2 then
     anchorPoint, relativePoint = "TOPRIGHT", "TOPLEFT"
   end
@@ -23,7 +23,7 @@ function mod:SetupTrackerBlocks()
   for i, module in ipairs(ObjectiveTrackerFrame.MODULES) do
     for name, block in pairs(module.usedBlocks) do
       local attachment = blocks[tostring(block.id)]
-      if attachment then
+      if attachment and (tonumber(WQA.activeQuestID) == block.id) then
         attachment:SetParent(anchor)
         attachment:ClearAllPoints()
         attachment:SetPoint(anchorPoint, anchor, relativePoint, 0, -7)

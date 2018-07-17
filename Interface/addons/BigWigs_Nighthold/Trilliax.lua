@@ -7,7 +7,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Trilliax", 1088, 1731)
+local mod, CL = BigWigs:NewBoss("Trilliax", 1530, 1731)
 if not mod then return end
 mod:RegisterEnableMob(104288)
 mod.engageId = 1867
@@ -241,7 +241,7 @@ do
 
 		if myPartner then
 			self:Message(208910, "Personal", "Warning", L.yourLink:format(self:ColorName(myPartner)))
-			local _, _, _, _, _, _, expires = UnitDebuff("player", args.spellName)
+			local _, _, _, expires = self:UnitDebuff("player", args.spellName)
 			local remaining = expires-GetTime()
 			self:Bar(208910, remaining, L.yourLinkShort:format(self:ColorName(myPartner)))
 			myPartner = nil

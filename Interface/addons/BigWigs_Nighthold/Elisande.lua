@@ -12,7 +12,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Grand Magistrix Elisande", 1088, 1743)
+local mod, CL = BigWigs:NewBoss("Grand Magistrix Elisande", 1530, 1743)
 if not mod then return end
 mod:RegisterEnableMob(106643, 111151) -- Elisande, Midnight Siphoner
 mod.engageId = 1872
@@ -352,8 +352,9 @@ end
 -- Event Handlers
 --
 
-function mod:Warmup(_, msg)
+function mod:Warmup(event, msg)
 	if msg == L.elisande_trigger then
+		self:UnregisterEvent(event)
 		self:Bar("boss_active", 68, L.boss_active, L.boss_active_icon)
 	end
 end
@@ -481,20 +482,19 @@ function mod:CHAT_MSG_MONSTER_YELL(event, msg)
 		end
 
 	-- Should be in DelphuricBeamCast XXX remove if confirmed
-	--[[elseif msg:find(L.beam_msg) then
-		self:Message(209244, "Urgent", "Alert")
-		beamCount = beamCount + 1
-		if not savedBeamCount or beamCount < savedBeamCount then
-			local t = timers[209244][beamCount]
-			if t then
-				self:Bar(209244, t, CL.count:format(self:SpellName(209244), beamCount))
-			end
-		end]]
+	--elseif msg:find(L.beam_msg) then
+	--	self:Message(209244, "Urgent", "Alert")
+	--	beamCount = beamCount + 1
+	--	if not savedBeamCount or beamCount < savedBeamCount then
+	--		local t = timers[209244][beamCount]
+	--		if t then
+	--			self:Bar(209244, t, CL.count:format(self:SpellName(209244), beamCount))
+	--		end
+	--	end
 
 	-- Should be in StartSingularityTimer XXX remove if confirmed
-	--[[elseif msg:find(L.singularity_msg) and phase == 2 or phase == 3 then -- Mythic only, zones apears 2s after the message.
-		self:ScheduleTimer("Message", 2, 209170, "Attention", "Info", self:SpellName(209170))
-		]]
+	--elseif msg:find(L.singularity_msg) and phase == 2 or phase == 3 then -- Mythic only, zones apears 2s after the message.
+	--	self:ScheduleTimer("Message", 2, 209170, "Attention", "Info", self:SpellName(209170))
 	end
 end
 
@@ -613,7 +613,7 @@ end
 function mod:SlowTime(args)
 	if self:Me(args.destGUID)then
 		self:TargetMessage(args.spellId, args.destName, "Personal", "Long")
-		local _, _, _, _, _, _, expires = UnitDebuff("player", args.spellName)
+		local _, _, _, expires = self:UnitDebuff("player", args.spellName)
 		local t = expires - GetTime()
 		self:TargetBar(args.spellId, t, args.destName)
 	end
@@ -627,7 +627,7 @@ end
 function mod:FastTime(args)
 	if self:Me(args.destGUID)then
 		self:Message(args.spellId, "Positive", "Long", CL.you:format(args.spellName))
-		local _, _, _, _, _, _, expires = UnitDebuff("player", args.spellName)
+		local _, _, _, expires = self:UnitDebuff("player", args.spellName)
 		local t = expires - GetTime()
 		self:TargetBar(args.spellId, t, args.destName)
 	end
@@ -682,7 +682,7 @@ function mod:DelphuricBeam(args)
 	if self:Me(args.destGUID) then
 		self:Flash(args.spellId)
 		self:Say(args.spellId)
-		local _, _, _, _, _, _, expires = UnitDebuff("player", args.spellName)
+		local _, _, _, expires = self:UnitDebuff("player", args.spellName)
 		local t = expires - GetTime()
 		self:TargetBar(args.spellId, t, args.destName)
 		self:TargetMessage(args.spellId, args.destName, "Important", "Alarm")
@@ -714,7 +714,7 @@ do
 	local playerList = mod:NewTargetList()
 	function mod:PermeliativeTorment(args)
 		if self:Me(args.destGUID) then
-			local _, _, _, _, _, _, expires = UnitDebuff("player", args.spellName)
+			local _, _, _, expires = self:UnitDebuff("player", args.spellName)
 			local t = expires - GetTime()
 			self:TargetBar(args.spellId, t, args.destName)
 		end
@@ -747,7 +747,7 @@ do
 			self:Flash(209597)
 			self:Say(209597)
 			-- Need to constantly update because of fast/slow time
-			--local _, _, _, _, _, _, expires = UnitDebuff("player", args.spellName)
+			--local _, _, _, expires = self:UnitDebuff("player", args.spellName)
 			--local t = expires - GetTime()
 			--self:TargetBar(209597, t, args.destName)
 		end

@@ -1,19 +1,20 @@
 local L = BigWigs:NewBossLocale("Eye of Azshara Trash", "ptBR")
 if not L then return end
 if L then
-	--L.wrangler = "Hatecoil Wrangler"
-	--L.stormweaver = "Hatecoil Stormweaver"
-	--L.oracle = "Hatecoil Oracle"
-	--L.siltwalker = "Mak'rana Siltwalker"
-	--L.tides = "Restless Tides"
-	--L.arcanist = "Hatecoil Arcanist"
+	L.wrangler = "Domador de Espiródio"
+	L.stormweaver = "Tempestece Espiródio"
+	L.crusher = "Esmagador Espiródio"
+	L.oracle = "Oráculo Espiródio"
+	L.siltwalker = "Mak'rana Andalodo"
+	L.tides = "Marés Inquietas"
+	L.arcanist = "Arcanista Espiródio"
 end
 
 L = BigWigs:NewBossLocale("Lady Hatecoil", "ptBR")
 if L then
-	--L.custom_on_show_helper_messages = "Helper messages for Static Nova and Focused Lightning"
-	--L.custom_on_show_helper_messages_desc = "Enable this option to add a helper message telling you whether water or land is safe when the boss starts casting |cff71d5ffStatic Nova|r or |cff71d5ffFocused Lightning|r."
+	L.custom_on_show_helper_messages = "Mensagens de ajuda para Nova Estática e Raio Concentrado"
+	L.custom_on_show_helper_messages_desc = "Ative esta opção para adicionar uma mensagem auxiliar informando se a água ou a terra estão seguras quando o chefe começa a castar |cff71d5ffNova Estática|r ou |cff71d5ffRacio concentrado|r."
 
-	--L.water_safe = "%s (water is safe)"
-	--L.land_safe = "%s (land is safe)"
+	L.water_safe = "%s (água está segura)"
+	L.land_safe = "%s (terra está segura)"
 end

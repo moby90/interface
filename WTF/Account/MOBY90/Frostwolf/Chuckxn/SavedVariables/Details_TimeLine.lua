@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "21:37:53",
 			["date_start"] = "21:37:06",
+			["date_end"] = "21:37:53",
 			["name"] = "Weaver",
 			["total_time"] = 47.0029999999679,
 		}, -- [1]
 		{
-			["date_end"] = "21:36:48",
 			["date_start"] = "21:36:33",
+			["date_end"] = "21:36:48",
 			["name"] = "Dreamscythe",
 			["total_time"] = 15.0040000000154,
 		}, -- [2]
 		{
-			["date_end"] = "21:36:09",
 			["date_start"] = "21:35:48",
+			["date_end"] = "21:36:09",
 			["name"] = "Jammal'an the Prophet",
 			["total_time"] = 21.0019999999786,
 		}, -- [3]
 		{
-			["date_end"] = "21:34:28",
 			["date_start"] = "21:33:55",
+			["date_end"] = "21:34:28",
 			["name"] = "Avatar of Hakkar",
 			["total_time"] = 33.0009999999893,
 		}, -- [4]
@@ -30,7 +30,7 @@ DetailsTimeLineDB = {
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{
@@ -72,7 +72,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{

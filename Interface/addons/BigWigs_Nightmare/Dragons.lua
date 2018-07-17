@@ -8,7 +8,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Dragons of Nightmare", 1094, 1704)
+local mod, CL = BigWigs:NewBoss("Dragons of Nightmare", 1520, 1704)
 if not mod then return end
 mod:RegisterEnableMob(
 	102679, -- Ysondre
@@ -209,7 +209,7 @@ function mod:MarkApplied(args)
 			self:StopBar(CL.count:format(args.spellName, amount-1), args.destName)
 		end
 
-		local _, _, _, _, _, duration = UnitDebuff("player", args.spellName)
+		local _, _, duration = self:UnitDebuff("player", args.spellName)
 		self:TargetBar(-12809, duration or 35, args.destName, CL.count:format(args.spellName, amount), args.spellId)
 	end
 end

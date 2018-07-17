@@ -1,22 +1,22 @@
-lightweight tag bf06e87a21804baacefb0e3030d602ec92446e3a v0.6
-Author:	Chris Heald <cheald@gmail.com>
-Date:	Tue Jun 13 14:55:53 2017 -0700
+lightweight tag 0e20a8374b79e4a1c6cca5548d9a1accd2be024d v0.6.4
+Author:	Sebastian Weiser <wqa@sweiser.33mail.com>
+Date:	Thu May 17 20:15:45 2018 +0200
 
-commit bf06e87a21804baacefb0e3030d602ec92446e3a
-Author: Chris Heald <cheald@gmail.com>
-Date:   Tue Jun 13 14:55:53 2017 -0700
+commit 0e20a8374b79e4a1c6cca5548d9a1accd2be024d
+Author: Sebastian Weiser <wqa@sweiser.33mail.com>
+Date:   Thu May 17 20:15:45 2018 +0200
 
-    LFGList.CreateListing expects a parsed table of search terms now
+    removed "Mud Mucking" from blacklist
 
-commit 8c016b419e1cbd32bc5e5f71ecd9e77b6ce80711
-Author: Chris Heald <cheald@gmail.com>
-Date:   Wed May 17 16:19:52 2017 -0700
+commit dd65c6a62514f993c42a3b66690e91ae8aa7322a
+Author: Sebastian Weiser <wqa@sweiser.33mail.com>
+Date:   Tue May 15 21:21:41 2018 +0200
 
-    Minor timing bugfixes related to group leaving, and add a search-by-questID option
+    don't clear search results after creating or joining a group
 
-commit 9e83c4cfa3fa8a88bc59e8b8dcd9c32c271c02ac
-Author: Chris Heald <cheald@gmail.com>
-Date:   Tue May 16 13:04:30 2017 -0700
+commit af7e0283a7952765ee0a03e62a49c62ac637f7fe
+Author: Sebastian Weiser <wqa@sweiser.33mail.com>
+Date:   Tue May 15 21:15:56 2018 +0200
 
-    Locale updates (thanks Salty\!)
+    don't pop up same quest again after completing when "join as a group" is enabled
 

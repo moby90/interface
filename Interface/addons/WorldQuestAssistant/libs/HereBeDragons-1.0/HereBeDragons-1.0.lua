@@ -1,6 +1,11 @@
 -- HereBeDragons is a data API for the World of Warcraft mapping system
 
-local MAJOR, MINOR = "HereBeDragons-1.0", 32
+-- HereBeDragons-1.0 is not supported on WoW 8.0
+if select(4, GetBuildInfo()) >= 80000 then
+	return
+end
+
+local MAJOR, MINOR = "HereBeDragons-1.0", 33
 assert(LibStub, MAJOR .. " requires LibStub")
 
 local HereBeDragons, oldversion = LibStub:NewLibrary(MAJOR, MINOR)
@@ -16,7 +21,7 @@ HereBeDragons.mapToID          = HereBeDragons.mapToID or { Cosmic = WORLDMAP_CO
 HereBeDragons.microDungeons    = HereBeDragons.microDungeons or {}
 HereBeDragons.transforms       = HereBeDragons.transforms or {}
 
-HereBeDragons.callbacks        = CBH:New(HereBeDragons, nil, nil, false)
+HereBeDragons.callbacks        = HereBeDragons.callbacks or CBH:New(HereBeDragons, nil, nil, false)
 
 -- constants
 local TERRAIN_MATCH = "_terrain%d+$"
@@ -26,6 +31,7 @@ local PI2 = math.pi * 2
 local atan2 = math.atan2
 local pairs, ipairs = pairs, ipairs
 local type = type
+local band = bit.band
 
 -- WoW API upvalues
 local UnitPosition = UnitPosition
@@ -88,7 +94,7 @@ local function RestoreWMU()
 end
 
 -- gather map info, but only if this isn't an upgrade (or the upgrade version forces a re-map)
-if not oldversion or oldversion < 30 then
+if not oldversion or oldversion < 33 then
     -- wipe old data, if required, otherwise the upgrade path isn't triggered
     if oldversion then
         wipe(mapData)
@@ -122,8 +128,9 @@ if not oldversion or oldversion < 30 then
     local function processTransforms()
         wipe(transforms)
         for _, tID in ipairs(GetWorldMapTransforms()) do
-            local terrainMapID, newTerrainMapID, _, _, transformMinY, transformMaxY, transformMinX, transformMaxX, offsetY, offsetX = GetWorldMapTransformInfo(tID)
-            if offsetY ~= 0 or offsetX ~= 0 then
+            local terrainMapID, newTerrainMapID, _, _, transformMinY, transformMaxY, transformMinX, transformMaxX, offsetY, offsetX, flags = GetWorldMapTransformInfo(tID)
+            -- flag 4 indicates the transform is only for the flight map
+            if band(flags, 4) ~= 4 and (offsetY ~= 0 or offsetX ~= 0) then
                 local transform = {
                     instanceID = terrainMapID,
                     newInstanceID = newTerrainMapID,
@@ -611,7 +618,7 @@ end
 -- @param level Optional level of the zone
 function HereBeDragons:GetWorldCoordinatesFromZone(x, y, zone, level)
     local data = getMapDataTable(zone, level)
-    if not data or data[0] == 0 or data[1] == 0 then return nil, nil, nil end
+    if not data or data[1] == 0 or data[2] == 0 then return nil, nil, nil end
     if not x or not y then return nil, nil, nil end
 
     local width, height, left, top = data[1], data[2], data[3], data[4]
@@ -628,7 +635,7 @@ end
 -- @param allowOutOfBounds Allow coordinates to go beyond the current map (ie. outside of the 0-1 range), otherwise nil will be returned
 function HereBeDragons:GetZoneCoordinatesFromWorld(x, y, zone, level, allowOutOfBounds)
     local data = getMapDataTable(zone, level)
-    if not data or data[0] == 0 or data[1] == 0 then return nil, nil end
+    if not data or data[1] == 0 or data[2] == 0 then return nil, nil end
     if not x or not y then return nil, nil end
 
     local width, height, left, top = data[1], data[2], data[3], data[4]

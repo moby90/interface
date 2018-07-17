@@ -9,7 +9,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Maiden of Vigilance", 1147, 1897)
+local mod, CL = BigWigs:NewBoss("Maiden of Vigilance", 1676, 1897)
 if not mod then return end
 mod:RegisterEnableMob(118289) -- Maiden of Vigilance
 mod.engageId = 2052
@@ -171,7 +171,7 @@ do
 				self:TargetMessage(235117, args.destName, "Personal", "Alarm")
 			end
 			-- Duration can be longer if the debuff gets refreshed
-			local _, _, _, _, _, _, expires = UnitDebuff(args.destName, args.spellName)
+			local _, _, _, expires = self:UnitDebuff(args.destName, args.spellName)
 			local remaining = expires-GetTime()
 			self:TargetBar(235117, remaining, args.destName)
 		end

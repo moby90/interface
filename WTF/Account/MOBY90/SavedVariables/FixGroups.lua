@@ -1,32 +1,22 @@
 
 FixGroupsDB = {
-	["faction"] = {
-		["Horde"] = {
-			["damagerRoleNonGuildCache"] = {
-				["melee"] = {
-					["Sytena-Eredar"] = 1518634518,
+	["profiles"] = {
+		["Default"] = {
+			["options"] = {
+				["coreRaiderRank"] = {
+					["Jade Falcons-Frostwolf"] = 4,
 				},
-				["ranged"] = {
+				["minimapIcon"] = {
+					["minimapPos"] = 191.604997968475,
 				},
-			},
-			["damagerRoleGuildCache"] = {
-				["melee"] = {
-					["Soldira-Frostwolf"] = 1518122051,
-					["Bêlya-Frostwolf"] = 1518645517,
-					["Soldira-"] = 1518121654,
-					["Bêlya-"] = 1518642183,
-				},
-				["ranged"] = {
-					["Greenthumbs-"] = 1518120228,
-					["Taydruid-Frostwolf"] = 1518645422,
-					["Dewi-"] = 1517425174,
-					["Quovi-Frostwolf"] = 1517511460,
-					["Dewi-Frostwolf"] = 1517436366,
-					["Taydruid-"] = 1518637995,
-					["Máriká-Frostwolf"] = 1518634592,
-				},
+				["showMinimapIconPRN"] = true,
+				["showMinimapIconAlways"] = false,
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Taobaibai - Frostwolf"] = "Default",
+		["Laru - Frostwolf"] = "Default",
 	},
 	["global"] = {
 		["guildRanks"] = {
@@ -42,21 +32,24 @@ FixGroupsDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Laru - Frostwolf"] = "Default",
-		["Taobaibai - Frostwolf"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-			["options"] = {
-				["coreRaiderRank"] = {
-					["Jade Falcons-Frostwolf"] = 4,
+	["faction"] = {
+		["Horde"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
 				},
-				["minimapIcon"] = {
-					["minimapPos"] = 191.604997968475,
+				["ranged"] = {
 				},
-				["showMinimapIconPRN"] = true,
-				["showMinimapIconAlways"] = false,
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+					["Muhdiv-"] = 1530899275,
+					["Muhdiv-Frostwolf"] = 1530902735,
+				},
+				["ranged"] = {
+					["Quovi-Frostwolf"] = 1530901022,
+					["Taydruid-"] = 1531167672,
+					["Quovi-"] = 1530900912,
+				},
 			},
 		},
 	},

@@ -1,22 +1,26 @@
 
 FixGroupsDB = {
-	["profiles"] = {
-		["Default"] = {
-			["options"] = {
-				["coreRaiderRank"] = {
-					["Jade Falcons-Frostwolf"] = 4,
+	["faction"] = {
+		["Horde"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
+					["Aenys-Drak'thul"] = 1531170037,
 				},
-				["minimapIcon"] = {
-					["minimapPos"] = 191.604997968475,
+				["ranged"] = {
 				},
-				["showMinimapIconPRN"] = true,
-				["showMinimapIconAlways"] = false,
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+					["Muhdiv-"] = 1530899275,
+					["Muhdiv-Frostwolf"] = 1530902735,
+				},
+				["ranged"] = {
+					["Quovi-"] = 1530900912,
+					["Taydruid-"] = 1531167672,
+					["Quovi-Frostwolf"] = 1530901022,
+				},
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Taobaibai - Frostwolf"] = "Default",
-		["Laru - Frostwolf"] = "Default",
 	},
 	["global"] = {
 		["guildRanks"] = {
@@ -32,32 +36,21 @@ FixGroupsDB = {
 			},
 		},
 	},
-	["faction"] = {
-		["Horde"] = {
-			["damagerRoleNonGuildCache"] = {
-				["melee"] = {
-					["Bangtiddies-TwistingNether"] = 1518110971,
-					["Skamm-Illidan"] = 1518110970,
+	["profileKeys"] = {
+		["Laru - Frostwolf"] = "Default",
+		["Taobaibai - Frostwolf"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["options"] = {
+				["coreRaiderRank"] = {
+					["Jade Falcons-Frostwolf"] = 4,
 				},
-				["ranged"] = {
-					["Souflakis-Chromaggus"] = 1518110935,
+				["minimapIcon"] = {
+					["minimapPos"] = 191.604997968475,
 				},
-			},
-			["damagerRoleGuildCache"] = {
-				["melee"] = {
-					["Bêlya-"] = 1518040907,
-					["Soldira-"] = 1518121654,
-					["Bêlya-Frostwolf"] = 1518040876,
-					["Soldira-Frostwolf"] = 1518122051,
-				},
-				["ranged"] = {
-					["Taydruid-Frostwolf"] = 1518118408,
-					["Dewi-"] = 1517425174,
-					["Quovi-Frostwolf"] = 1517511460,
-					["Dewi-Frostwolf"] = 1517436366,
-					["Greenthumbs-"] = 1518120228,
-					["Taydruid-"] = 1518118437,
-				},
+				["showMinimapIconPRN"] = true,
+				["showMinimapIconAlways"] = false,
 			},
 		},
 	},

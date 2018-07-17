@@ -3,7 +3,7 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Kruul", nil, nil, 1698)
+local mod, CL = BigWigs:NewBoss("Kruul", 1698) -- The Highlord's Return
 if not mod then return end
 mod:RegisterEnableMob(117933, 117198) -- Inquisitor Variss, Highlord Kruul
 mod.otherMenu = 1716 -- Broken Shore Mage Tower
@@ -30,9 +30,6 @@ if L then
 	L.warmup_trigger = "Arrogant fools! I am empowered by the souls of a thousand conquered worlds!"
 	L.win_trigger = "So be it. You will not stand in our way any longer."
 
-	-- Engage / Options
-	L.engage_message = "Highlord Kruul's Challenge Engaged!"
-
 	L.nether_aberration = 235110
 	L.nether_aberration_desc = "Summons portals around the room, spawning Nether Aberrations."
 	L.nether_aberration_icon = "ability_socererking_summonaberration"
@@ -52,12 +49,18 @@ function mod:GetOptions()
 		"stages",
 		"nether_aberration", -- Nether Aberration
 		240790, -- Nether Storm
+
+		--[[ Prophet Velen ]]--
 		233473, -- Holy Ward
+
+		--[[ Inquisitor Variss ]]--
 		234423, -- Drain Life
 		234422, -- Aura of Decay
 		234428, -- Summon Tormenting Eye
 		"smoldering_infernal", -- Smoldering Infernal Summon
 		234631, -- Smash
+
+		--[[ Highlord Kruul ]]--
 		236572, -- Annihilate
 		234920, -- Shadow Sweep
 		234673, -- Nether Stomp
@@ -75,9 +78,10 @@ function mod:OnRegister()
 end
 
 function mod:OnBossEnable()
-	self:RegisterEvent("CHAT_MSG_MONSTER_SAY", "SayTriggers")
 	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT", "CheckBossStatus")
+	self:RegisterEvent("CHAT_MSG_MONSTER_SAY", "SayTriggers")
 	self:RegisterUnitEvent("UNIT_SPELLCAST_SUCCEEDED", nil, "boss1")
+
 	self:Log("SPELL_CAST_START", "NetherStorm", 240790)
 	self:Log("SPELL_CAST_START", "DrainLife", 234423)
 	self:Log("SPELL_CAST_START", "HolyWard", 233473)
@@ -88,15 +92,13 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "TwistedReflections", 234676)
 
 	self:Death("KruulIncoming", 117933) -- Inquisitor Variss
-	self:Death("Win", 117198) -- Highlord Kruul, fallback win condition
 end
 
 function mod:OnEngage()
 	aberrationCounter = 1
 	annihilateCounter = 1
-	self:Message("stages", "Neutral", nil, L.engage_message, "inv_icon_heirloomtoken_weapon01")
 	self:CDBar(234428, 3) -- Summon Tormenting Eye
-	self:CDBar("nether_aberration", 10, CL.count:format(L.nether_aberration, aberrationCounter), L.nether_aberration_icon) -- Nether Aberration
+	self:CDBar("nether_aberration", 10, CL.count:format(self:SpellName(L.nether_aberration), aberrationCounter), L.nether_aberration_icon) -- Nether Aberration
 	self:CDBar("smoldering_infernal", 35, L.smoldering_infernal, L.smoldering_infernal_icon) -- Smoldering Infernal Summon
 end
 
@@ -107,7 +109,7 @@ end
 function mod:SayTriggers(_, msg)
 	if msg == L.warmup_trigger then
 		self:CDBar("warmup", 25, CL.active, "inv_pet_inquisitoreye")
-	elseif msg == L.win_trigger then -- Fallback is Kruul Death
+	elseif msg == L.win_trigger then
 		self:Win()
 	end
 end
@@ -129,6 +131,9 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(unit, spellName, _, _, spellId)
 	elseif spellId == 234673 then -- Netherstomp
 		self:Message(spellId, "Urgent", "Alert")
 		self:Bar(spellId, 15.8)
+	elseif spellId == 233458 then -- Gift of Sargeras
+		-- Spoiler: HE EXPLODES!
+		self:Win()
 	end
 end
 

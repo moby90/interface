@@ -904,6 +904,8 @@ local default_profile = {
 		
 	--> PvP
 		only_pvp_frags = false,
+		color_by_arena_team = true,
+		show_arena_role_icon = true,
 
 	--> window settings
 		max_window_size = {width = 480, height = 450},
@@ -983,6 +985,7 @@ local default_profile = {
 		report_to_who = "",
 		report_heal_links = false,
 		report_schema = 1,
+		deny_score_messages = false,
 		
 	--> colors
 		default_bg_color = 0.0941,
@@ -1013,6 +1016,7 @@ local default_profile = {
 		overall_clear_newboss = true,
 		overall_clear_newchallenge = true,
 		overall_clear_logout = false,
+		data_cleanup_logout = false,
 		close_shields = false,
 		pvp_as_group = true,
 		use_battleground_server_parser = true,
@@ -1307,6 +1311,11 @@ local default_global_data = {
 			boss_dedicated_segment = true, --
 			make_overall_when_done = true, --
 			make_overall_boss_only = false, --
+			show_damage_graphic = true,
+			delay_to_show_graphic = 5,
+			last_mythicrun_chart = {},
+			mythicrun_chart_frame = {},
+			mythicrun_chart_frame_minimized = {},
 		},
 	
 	--> plugin window positions
@@ -1401,7 +1410,22 @@ function _detalhes:RestoreState_CurrentMythicDungeonRun()
 	local savedTable = _detalhes.mythic_dungeon_currentsaved
 	local mythicLevel = C_ChallengeMode.GetActiveKeystoneInfo()
 	local zoneName, _, _, _, _, _, _, currentZoneID = GetInstanceInfo()
-	local ejID = EJ_GetCurrentInstance()
+	
+	local ejID = 0
+	
+	if (_detalhes.IsBFAClient) then
+		local mapID =  C_Map.GetBestMapForUnit ("player")
+		
+		if (not mapID) then
+			return
+		end
+		
+		if (mapID) then
+			ejID = EJ_GetInstanceForMap (mapID) or 0
+		end
+	else
+		ejID = EJ_GetCurrentInstance() or 0
+	end
 
 	--> is there a saved state for the dungeon?
 	if (savedTable.started) then

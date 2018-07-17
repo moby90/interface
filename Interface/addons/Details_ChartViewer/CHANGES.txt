@@ -1,7 +1,7 @@
-changeset:   54:7ef9ce8c3a75
-tag:         v7.3.5.054
+changeset:   56:c0e733d752f0
+tag:         v7.3.5.056
 user:        Tercio
-date:        Thu Jan 18 14:52:38 2018 -0200
-summary:     - Using the new default button templates from Details!
+date:        Sat Mar 10 11:57:05 2018 -0300
+summary:     - Formated the add chart window to use the framework templates and setting ground to add smoothness options to the drawn line.
 
 

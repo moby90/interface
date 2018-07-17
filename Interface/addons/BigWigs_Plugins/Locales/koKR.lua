@@ -2,11 +2,15 @@ local L = BigWigsAPI:NewLocale("BigWigs: Plugins", "koKR")
 if not L then return end
 
 L.general = "일반"
+L.comma = ", "
 
 L.positionX = "X 위치"
 L.positionY = "Y 위치"
 L.positionExact = "정확한 위치"
 L.positionDesc = "고정기로부터 정확한 위치를 원한다면 상자에 입력하거나 슬라이더를 움직이세요."
+--L.width = "Width"
+--L.height = "Height"
+--L.sizeDesc = "Normally you set the size by dragging the anchor. If you need an exact size you can use this slider or type the value into the box, which has no maximum."
 
 -----------------------------------------------------------------------
 -- AltPower.lua
@@ -16,6 +20,28 @@ L.altPowerTitle = "보조 자원"
 L.toggleDisplayPrint = "디스플레이가 다음에 표시됩니다. 이 우두머리 전투에서 완전히 비활성하려면 우두머리 전투 옵션에서 끄도록 전환해야 합니다."
 L.disabled = "비활성"
 L.disabledDisplayDesc = "디스플레이를 사용하는 모든 모듈에서 디스플레이를 비활성화합니다."
+
+-----------------------------------------------------------------------
+-- AutoReply.lua
+--
+
+L.autoReply = "자동 응답"
+L.autoReplyDesc = "우두머리와 전투 중일때 자동으로 귓속말에 응답합니다."
+L.responseType = "응답 형식"
+L.autoReplyFinalReply = "전투종료시 귓속말"
+L.guildAndFriends = "길드원 및 친구들"
+L.everyoneElse = "그 외 모두"
+
+L.autoReplyBasic = "우두머리와 전투하느라 바쁩니다."
+L.autoReplyNormal = "'%s'와(과) 전투하느라 바쁩니다."
+L.autoReplyAdvanced = "'%s' (%s)와(과) 전투하느라 바쁩니다.현재 %d/%d 명이 생존 중입니다."
+L.autoReplyExtreme = "'%s' (%s)와(과) 전투하느라 바쁩니다.현재 %d/%d 명이 생존 중입니다: %s"
+
+L.autoReplyLeftCombatBasic = "더이상 우두머리와 싸우고 있지 않습니다."
+L.autoReplyLeftCombatNormalWin = "'%s'에게 승리하였습니다."
+L.autoReplyLeftCombatNormalWipe = "'%s'에게 전멸하였습니다."
+L.autoReplyLeftCombatAdvancedWin = "'%s'에게 %d/%d 명 생존한 채로 승리하였습니다."
+L.autoReplyLeftCombatAdvancedWipe = "'%s'에게 %s 에서 전멸하였습니다."
 
 -----------------------------------------------------------------------
 -- Bars.lua
@@ -44,11 +70,12 @@ L.disable = "비활성화"
 L.disableDesc = "이 바를 생성하는 우두머리 전투 능력 옵션을 영구적으로 비활성합니다."
 
 L.emphasizeAt = "다음에 강조... (초)"
-L.scale = "크기 비율"
 L.growingUpwards = "위로 확장"
 L.growingUpwardsDesc = "고정기로부터 위 또는 아래로 확장하도록 전환합니다."
 L.texture = "텍스쳐"
 L.emphasize = "강조"
+L.emphasizeMultiplier = "배율"
+L.emphasizeMultiplierDesc = "강조 고정기로 이동하는 바가 활성화되지 않았을때, 이 옵션은 해당 바를 강조 바로 이동하지 않고 바의 크기를 주어진 배율만큼 확대시킵니다."
 L.enable = "활성화"
 L.move = "이동"
 L.moveDesc = "강조된 바를 강조 고정기로 이동시킵니다. 이 옵션을 끄면 강조된 바는 단순히 크기 비율과 색상을 변경합니다."
@@ -64,11 +91,15 @@ L.time = "시간"
 L.timeDesc = "바에 남은 시간을 표시하거나 숨깁니다."
 L.icon = "아이콘"
 L.iconDesc = "바 아이콘을 표시하거나 숨깁니다."
+L.iconPosition = "아이콘 위치"
+L.iconPositionDesc = "바의 어느 위치에 아이콘이 위치할지 지정합니다."
 L.font = "글꼴"
 L.restart = "다시 시작"
 L.restartDesc = "강조된 바를 10부터 다시 셉니다."
 L.fill = "채우기"
 L.fillDesc = "바를 비우는 대신 채워나갑니다."
+L.spacing = "간격"
+L.spacingDesc = "각 바 사이의 간격을 조절합니다."
 
 L.localTimer = "지역"
 L.timerFinished = "%s: 타이머 [%s] 종료됨."
@@ -166,7 +197,6 @@ L.messages = "메시지"
 L.normalMessages = "일반 메시지"
 L.emphasizedMessages = "강조 메시지"
 L.output = "출력"
-L.emphasizedCountdown = "강조 초읽기"
 
 L.useColors = "색상 사용"
 L.useColorsDesc = "색상을 무시하도록 메시지에 색상 사용을 전환합니다."
@@ -231,9 +261,12 @@ L.combatLog = "자동 전투 기록"
 L.combatLogDesc = "전투 예정 타이머 시작부터 우두머리 전투 종료로 타이머가 끝날 때까지의 전투 기록을 자동으로 켭니다."
 
 L.pull = "전투 예정"
-L.pulling = "전투 시작!"
+L.engageSoundTitle = "우두머리 전투가 시작될때 소리 재생"
+L.pullStartedSoundTitle = "전투 예정 타이머가 시작되었을때 소리 재생"
+L.pullFinishedSoundTitle = "전투 예정 타이머가 끝났을때 소리 재생"
 L.pullStarted = "%s 사용자 %s|1이;가; 전투 예정 타이머를 시작했습니다."
 L.pullStopped = "%s|1이;가; 전투 예정 타이머를 취소했습니다."
+L.pullStoppedCombat = "전투가 이미 시작되었기 때문에 전투 예정 타이머가 취소되었습니다."
 L.pullIn = "%d초 후 전투 시작"
 L.sendPull = "BigWigs와 DBM 사용자에게 전투 예정 타이머를 보냅니다."
 L.wrongPullFormat = "1초에서 60초 사이여야 합니다. 올바른 예제: /pull 5"
@@ -249,14 +282,6 @@ L.primary = "첫번째"
 L.primaryDesc = "우두머리 전투 스크립트가 사용할 첫번째 공격대 대상 아이콘입니다."
 L.secondary = "두번째"
 L.secondaryDesc = "우두머리 전투 스크립트가 사용할 두번째 공격대 대상 아이콘입니다."
-
------------------------------------------------------------------------
--- Respawn.lua
---
-
-L.respawn = "재생성"
-L.showRespawnBar = "재생성 바 표시"
-L.showRespawnBarDesc = "우두머리에서 전멸 후에 우두머리 재생성까지 남은 시간을 보여주는 바를 표시합니다."
 
 -----------------------------------------------------------------------
 -- Sound.lua
@@ -317,3 +342,13 @@ L.victoryMessageBigWigsDesc = "BigWigs 메시지는 단순한 \"우두머리를 
 L.victoryMessageBlizzard = "블리자드 메시지 표시"
 L.victoryMessageBlizzardDesc = "Blizzard 메시지는 화면 중앙의 아주 큰 \"우두머리 처치\" 애니메이션입니다."
 L.defeated = "%s|1을;를; 처치했습니다"
+
+-----------------------------------------------------------------------
+-- Wipe.lua
+--
+
+L.wipe = "전멸"
+L.wipeSoundTitle = "전멸했을 때 소리 재생"
+L.respawn = "재생성"
+L.showRespawnBar = "재생성 바 표시"
+L.showRespawnBarDesc = "우두머리에서 전멸 후에 우두머리 재생성까지 남은 시간을 보여주는 바를 표시합니다."

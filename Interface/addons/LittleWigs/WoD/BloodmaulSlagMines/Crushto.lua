@@ -3,10 +3,11 @@
 -- Module Declaration
 --
 
-local mod, CL = BigWigs:NewBoss("Slave Watcher Crushto", 964, 888)
+local mod, CL = BigWigs:NewBoss("Slave Watcher Crushto", 1175, 888)
 if not mod then return end
 mod:RegisterEnableMob(74787)
---BOSS_KILL#1653#Slave Watcher Crushto
+mod.engageId = 1653
+mod.respawnTime = 30
 
 --------------------------------------------------------------------------------
 -- Locals
@@ -20,7 +21,7 @@ local yellCount = 0
 
 local L = mod:GetLocale()
 if L then
-	
+
 end
 
 --------------------------------------------------------------------------------
@@ -36,14 +37,10 @@ function mod:GetOptions()
 end
 
 function mod:OnBossEnable()
-	self:RegisterEvent("INSTANCE_ENCOUNTER_ENGAGE_UNIT", "CheckBossStatus")
-
 	self:Log("SPELL_CAST_START", "FerociousYell", 150759)
 	self:Log("SPELL_CAST_START", "WildSlam", 150753)
 	self:Log("SPELL_AURA_APPLIED", "CrushingLeap", 150751)
 	self:Log("SPELL_AURA_REMOVED", "CrushingLeapOver", 150751)
-
-	self:Death("Win", 74787)
 end
 
 function mod:OnEngage()
@@ -76,4 +73,3 @@ end
 function mod:CrushingLeapOver(args)
 	self:PrimaryIcon(args.spellId)
 end
-
