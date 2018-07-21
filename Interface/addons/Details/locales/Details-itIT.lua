@@ -909,6 +909,8 @@ L["STRING_MINITUTORIAL_OPTIONS_PANEL6"] = "Selezionare qui che finestra che si d
 --[[Translation missing --]]
 --[[ L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["STRING_OPTIONS_CHANGECOLOR"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["STRING_OPTIONS_CHANGELOG"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["STRING_OPTIONS_CHART_ADD"] = ""--]] 

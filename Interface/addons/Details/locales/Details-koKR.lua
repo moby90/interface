@@ -536,6 +536,8 @@ L["STRING_OPTIONS_CENERGY_DESC"] = [=[수집 허용:
 - |cFFFFFF00룬 마력 생성|r]=]
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS"] = "직업 색상 수정"
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = "직업을 위한 새로운 색상을 선택합니다."
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_CHANGECOLOR"] = ""--]] 
 L["STRING_OPTIONS_CHANGELOG"] = "버전 노트"
 L["STRING_OPTIONS_CHART_ADD"] = "데이터 추가"
 L["STRING_OPTIONS_CHART_ADD2"] = "추가"

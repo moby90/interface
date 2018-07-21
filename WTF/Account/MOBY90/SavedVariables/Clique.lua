@@ -3,7 +3,13 @@ CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
 		["Laru - Frostwolf"] = {
+			["spec1_profileKey"] = "Laru - Frostwolf",
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Laru - Frostwolf",
+			["downclick"] = false,
+			["spec3_profileKey"] = "Laru - Frostwolf",
 			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Taobaibai - Frostwolf"] = {
 			["alerthidden"] = true,
@@ -366,12 +372,12 @@ CliqueDB3 = {
 					},
 				}, -- [1]
 				{
-					["spell"] = "Beacon of Faith",
-					["key"] = "SHIFT-Q",
+					["spell"] = "Lay on Hands",
+					["key"] = "J",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 1030095,
+					["icon"] = 135928,
 					["type"] = "spell",
 				}, -- [2]
 				{
@@ -384,21 +390,21 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [3]
 				{
-					["spell"] = "Lay on Hands",
-					["key"] = "J",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["type"] = "spell",
-				}, -- [4]
-				{
 					["spell"] = "Blessing of Sacrifice",
 					["key"] = "SHIFT-W",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135966,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Beacon of Faith",
+					["key"] = "SHIFT-Q",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 1030095,
 					["type"] = "spell",
 				}, -- [5]
 				{
@@ -420,15 +426,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [7]
 				{
-					["spell"] = "Holy Shock",
-					["key"] = "BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135972,
-					["type"] = "spell",
-				}, -- [8]
-				{
 					["spell"] = "Holy Light",
 					["key"] = "BUTTON2",
 					["sets"] = {
@@ -436,7 +433,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135981,
 					["type"] = "spell",
-				}, -- [9]
+				}, -- [8]
 				{
 					["spell"] = "Beacon of Light",
 					["key"] = "Q",
@@ -444,6 +441,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 236247,
+					["type"] = "spell",
+				}, -- [9]
+				{
+					["spell"] = "Holy Shock",
+					["key"] = "BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135972,
 					["type"] = "spell",
 				}, -- [10]
 				{

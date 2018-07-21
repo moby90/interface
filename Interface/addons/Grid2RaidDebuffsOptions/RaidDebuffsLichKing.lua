@@ -1,7 +1,7 @@
 local RDDB = Grid2Options:GetRaidDebuffsTable()
 
 RDDB["The Lich King"] = {
-	[604] = { -- Ciudadela de la Corona de Hielo 
+	[604] = { -- Ciudadela de la Corona de Hielo
 		["Lord Marrowgar"] = {
 		order = 1, ejid = nil,
 		69065, -- Empalado
@@ -100,7 +100,7 @@ RDDB["The Lich King"] = {
 		71257, -- Golpe barb�rico
 		},
 	},
-	[609] = { -- El Sagrario Rub� 
+	[609] = { -- El Sagrario Rub�
 		["Halion"] = {
 		order = 1, ejid = nil,
 		74562, -- Combusti�n �gnea
@@ -121,14 +121,14 @@ RDDB["The Lich King"] = {
 		74452, -- Conflagraci�n
 		},
 	},
-	[527] = { -- El Ojo de la Eternidad 
+	[527] = { -- El Ojo de la Eternidad
 		["Malygos"] = {
 		order = nil, ejid = nil,
 		56272, -- Aliento Arcano
 		57407, -- Oleada de poder
 		},
 	},
-	[543] = { -- Prueba del Cruzado 
+	[543] = { -- Prueba del Cruzado
 		["Lord Jaraxxus"] = {
 		order = 2, ejid = nil,
 		66532, -- Bola de Fuego vil
@@ -172,7 +172,7 @@ RDDB["The Lich King"] = {
 		66683, -- Colisi�n monumental
 		},
 	},
-	[531] = { -- El Sagrario Obsidiana 
+	[531] = { -- El Sagrario Obsidiana
 		["Sartharion"] = {
 		order = 1, ejid = nil,
 		60708, -- Debilitar armadura
@@ -184,7 +184,7 @@ RDDB["The Lich King"] = {
 		58936, -- Lluvia de Fuego
 		},
 	},
-	[532] = { -- La C�mara de Archavon 
+	[532] = { -- La C�mara de Archavon
 		["Koralon"] = {
 		order = 3, ejid = nil,
 		},
@@ -193,7 +193,7 @@ RDDB["The Lich King"] = {
 		72004, -- Congelamiento
 		},
 	},
-	[535] = { -- Naxxramas 
+	[535] = { -- Naxxramas
 		["Anub'Rekhan"] = {
 		order = 1, ejid = nil,
 		28786, -- Enjambre de langostas
@@ -253,7 +253,7 @@ RDDB["The Lich King"] = {
 		55314, -- Estrangular
 		},
 	},
-	[529] = { -- Ulduar 
+	[529] = { -- Ulduar
 		["Ignis the Furnace Master"] = {
 		order = 2, ejid = nil,
 		62548, -- Agostar

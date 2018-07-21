@@ -95,6 +95,66 @@ GTFO.SpellID["276262"] = {
   sound = 3;
 };
 
+GTFO.SpellID["264465"] = {
+  --desc = "Barrel Aged (Barman Bill)";
+  sound = 3;
+};
+
+GTFO.SpellID["264403"] = {
+  --desc = "Hoppy Finish (Barman Bill)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["266288"] = {
+  --desc = "Gnash (Vicious Vicejaw)";
+  sound = 3;
+};
+
+GTFO.SpellID["270460"] = {
+  --desc = "Stone Eruption (Goldenvein)";
+  sound = 3;
+};
+
+GTFO.SpellID["257351"] = {
+  --desc = "Thorned Burst (Rindlewoe)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["277044"] = {
+  --desc = "Tidal Force (Kvaldir Dreadbringer)";
+  sound = 3;
+};
+
+GTFO.SpellID["271713"] = {
+  --desc = "Elemental Slam (Unbound Azerite)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["266288"] = {
+  --desc = "Gnash (Mudsnout Thornback)";
+  sound = 3;
+};
+
+GTFO.SpellID["244882"] = {
+  --desc = "Cracking Blow (Guuru the Mountain-Breaker)";
+  sound = 3;
+};
+
+GTFO.SpellID["277347"] = {
+  --desc = "Whirling Venom (Shipwrecked Strongarm)";
+  sound = 3;
+  applicationOnly = true;
+};
+
+GTFO.SpellID["275823"] = {
+  --desc = "Ground Spike (Duster)";
+  sound = 3;
+};
+
+
 -- ***********************
 -- * Shrine of the Storm *
 -- ***********************

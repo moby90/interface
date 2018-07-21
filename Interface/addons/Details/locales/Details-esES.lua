@@ -678,6 +678,8 @@ L["STRING_OPTIONS_CENERGY_DESC"] = [=[Activar la recogida de:
 --[[Translation missing --]]
 --[[ L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["STRING_OPTIONS_CHANGECOLOR"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["STRING_OPTIONS_CHANGELOG"] = ""--]] 
 L["STRING_OPTIONS_CHART_ADD"] = "Añadir datos"
 L["STRING_OPTIONS_CHART_ADD2"] = "Añadir"

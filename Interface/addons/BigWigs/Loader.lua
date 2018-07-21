@@ -7,7 +7,7 @@ local bwFrame = CreateFrame("Frame")
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 98
+local BIGWIGS_VERSION = 99
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s", "V^%d^%s"
 
@@ -18,7 +18,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "f817253" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "af1275d" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -54,8 +54,9 @@ local ldb = nil
 local tooltipFunctions = {}
 local next, tonumber, strsplit = next, tonumber, strsplit
 local SendAddonMessage, Ambiguate, CTimerAfter, CTimerNewTicker = C_ChatInfo and C_ChatInfo.SendAddonMessage or SendAddonMessage, Ambiguate, C_Timer.After, C_Timer.NewTicker -- XXX C_ChatInfo check for 8.0
-local IsInInstance, GetCurrentMapAreaID, SetMapToCurrentZone = IsInInstance, GetCurrentMapAreaID, SetMapToCurrentZone
+local GetCurrentMapAreaID, SetMapToCurrentZone = GetCurrentMapAreaID, SetMapToCurrentZone
 local GetInstanceInfo, GetPlayerMapAreaID, GetBestMapForUnit = GetInstanceInfo, GetPlayerMapAreaID, C_Map and C_Map.GetBestMapForUnit -- XXX remove GetPlayerMapAreaID
+local GetMapInfo = C_Map.GetMapInfo
 
 -- Try to grab unhooked copies of critical funcs (hooked by some crappy addons)
 public.GetCurrentMapAreaID = GetCurrentMapAreaID -- XXX remove
@@ -63,6 +64,7 @@ public.GetPlayerMapAreaID = GetPlayerMapAreaID -- XXX remove
 public.GetBestMapForUnit = GetBestMapForUnit
 public.SetMapToCurrentZone = SetMapToCurrentZone -- XXX remove
 public.GetCurrentMapDungeonLevel = GetCurrentMapDungeonLevel -- XXX remove
+public.GetMapInfo = GetMapInfo
 public.GetInstanceInfo = GetInstanceInfo
 public.SendAddonMessage = SendAddonMessage
 public.SendChatMessage = SendChatMessage
@@ -84,10 +86,10 @@ local enableZones = {} -- contains the zones in which BigWigs will enable
 local disabledZones -- contains the zones in which BigWigs will enable, but the user has disabled the addon
 local worldBosses = {} -- contains the list of world bosses per zone that should enable the core
 local fakeZones = { -- Fake zones used as GUI menus
-	[-466]=true, -- Outland
-	[-862]=true, -- Pandaria
-	[-962]=true, -- Draenor
-	[-1007]=true, -- Broken Isles
+	[-101]=true, -- Outland
+	[-424]=true, -- Pandaria
+	[-572]=true, -- Draenor
+	[-619]=true, -- Broken Isles
 	[1716]=true, -- Broken Shore Mage Tower
 }
 
@@ -116,7 +118,7 @@ do
 		[509] = c, -- Ruins of Ahn'Qiraj
 		[531] = c, -- Ahn'Qiraj Temple
 		--[[ BigWigs: The Burning Crusade ]]--
-		[-466] = bc, -- Outland (Fake Menu)
+		[-101] = bc, -- Outland (Fake Menu)
 		[565] = bc, -- Gruul's Lair
 		[532] = bc, -- Karazhan
 		[548] = bc, -- Coilfang: Serpentshrine Cavern
@@ -142,19 +144,19 @@ do
 		[720] = cata, -- Firelands
 		[967] = cata, -- Dragon Soul
 		--[[ BigWigs: Mists of Pandaria ]]--
-		[-862] = mop, -- Pandaria (Fake Menu)
+		[-424] = mop, -- Pandaria (Fake Menu)
 		[1009] = mop, -- Heart of Fear
 		[996] = mop, -- Terrace of Endless Spring
 		[1008] = mop, -- Mogu'shan Vaults
 		[1098] = mop, -- Throne of Thunder
 		[1136] = mop, -- Siege of Orgrimmar
 		--[[ BigWigs: Warlords of Draenor ]]--
-		[-962] = wod, -- Draenor (Fake Menu)
+		[-572] = wod, -- Draenor (Fake Menu)
 		[1228] = wod, -- Highmaul
 		[1205] = wod, -- Blackrock Foundry
 		[1448] = wod, -- Hellfire Citadel
 		--[[ BigWigs: Legion ]]--
-		[-1007] = l, -- Broken Isles (Fake Menu)
+		[-619] = l, -- Broken Isles (Fake Menu)
 		[1520] = l, -- The Emerald Nightmare
 		[1648] = l, -- Trial of Valor
 		[1530] = l, -- The Nighthold
@@ -261,10 +263,10 @@ do
 	}
 
 	public.zoneTblWorld = {
-		[-473] = -466, [-465] = -466, -- Outland
-		[-807] = -862, [-809] = -862, [-928] = -862, [-929] = -862, [-951] = -862, -- Pandaria
-		[-948] = -962, [-949] = -962, [-945] = -962, -- Draenor
-		[-1015] = -1007, [-1017] = -1007, [-1018] = -1007, [-1024] = -1007, [-1033] = -1007, -- Broken Isles
+		[-104] = -101, [-100] = -101, -- Outland
+		[-376] = -424, [-379] = -424, [-504] = -424, [-507] = -424, [-554] = -424, -- Pandaria
+		[-542] = -572, [-543] = -572, [-534] = -572, -- Draenor
+		[-630] = -619, [-634] = -619, [-641] = -619, [-650] = -619, [-680] = -619, -- Broken Isles
 	}
 end
 
@@ -504,7 +506,17 @@ do
 			local rawMenu = select(i, ...)
 			local id = tonumber(rawMenu:trim())
 			if id then
-				local name = id < 0 and (GetMapNameByID and GetMapNameByID(-id) or tostring(id)) or GetRealZoneText(id) -- XXX 8.0 fixme
+				local name
+				if id < 0 then
+					local tbl = GetMapInfo(-id)
+					if tbl then
+						name = tbl.name
+					else
+						name = tostring(id)
+					end
+				else
+					name = GetRealZoneText(id)
+				end
 				if name and name ~= "" then -- Protect live client from beta client ids
 					if not loadOnZone[id] then loadOnZone[id] = {} end
 					loadOnZone[id][#loadOnZone[id] + 1] = addon
@@ -523,7 +535,17 @@ do
 			local rawMenu = select(i, ...)
 			local id = tonumber(rawMenu:trim())
 			if id then
-				local name = id < 0 and (GetMapNameByID and GetMapNameByID(-id) or tostring(id)) or GetRealZoneText(id) -- XXX 8.0 fixme
+				local name
+				if id < 0 then
+					local tbl = GetMapInfo(-id)
+					if tbl then
+						name = tbl.name
+					else
+						name = tostring(id)
+					end
+				else
+					name = GetRealZoneText(id)
+				end
 				if name and name ~= "" and not blockedMenus[id] then -- Protect live client from beta client ids
 					blockedMenus[id] = true
 				end
@@ -849,8 +871,8 @@ end
 
 do
 	-- This is a crapfest mainly because DBM's actual handling of versions is a crapfest, I'll try explain how this works...
-	local DBMdotRevision = "17510" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
-	local DBMdotDisplayVersion = "7.3.29" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
+	local DBMdotRevision = "17623" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
+	local DBMdotDisplayVersion = "8.0.0" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
 	local DBMdotReleaseRevision = DBMdotRevision -- This is manually changed by them every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil

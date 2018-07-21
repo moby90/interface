@@ -27,8 +27,8 @@ bind CTRL-F2 NONE
 bind CTRL-F3 NONE
 bind CTRL-F4 NONE
 bind CTRL-F5 NONE
-bind CTRL-1 CLICK BT4Button55:LeftButton
-bind CTRL-2 NONE
+bind CTRL-1 CLICK BT4Button58:LeftButton
+bind CTRL-2 CLICK BT4Button59:LeftButton
 bind CTRL-3 NONE
 bind CTRL-4 NONE
 bind CTRL-5 TARGETPARTYMEMBER4
@@ -52,6 +52,7 @@ bind SHIFT-T NONE
 bind C CLICK BT4Button49:LeftButton
 bind SHIFT-B OPENALLBAGS
 bind F9 NONE
+bind SHIFT-O TOGGLEGUILDTAB
 bind H CLICK BT4Button52:LeftButton
 bind I NONE
 bind Y TOGGLESHEATH

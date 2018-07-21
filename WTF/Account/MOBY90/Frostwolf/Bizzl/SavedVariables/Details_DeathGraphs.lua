@@ -6,6 +6,17 @@ DeathGraphsDBDeaths = {
 		["name"] = "Maiden of Vigilance",
 		["id"] = 1897,
 		["diff"] = 14,
+		["player_db"] = {
+			["Shourious"] = {
+				["overall"] = {
+					[235214] = 370073,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Shourious",
+				["class"] = "DEMONHUNTER",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 7,
@@ -18,17 +29,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Shourious"] = {
-				["name"] = "Shourious",
-				["class"] = "DEMONHUNTER",
-				["overall"] = {
-					[235214] = 370073,
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["189814"] = {
 		["hash"] = "189814",
@@ -36,6 +36,37 @@ DeathGraphsDBDeaths = {
 		["name"] = "Kil'jaeden",
 		["id"] = 1898,
 		["diff"] = 14,
+		["player_db"] = {
+			["Hubb-Eredar"] = {
+				["overall"] = {
+					[239216] = 3342953,
+					[239155] = 384231,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Hubb-Eredar",
+				["class"] = "HUNTER",
+			},
+			["Arangom"] = {
+				["overall"] = {
+					[239216] = 759674,
+					[239852] = 1633631,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Arangom",
+				["class"] = "WARLOCK",
+			},
+			["Máriká"] = {
+				["overall"] = {
+					[241702] = 311721,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Máriká",
+				["class"] = "DRUID",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 9,
@@ -49,37 +80,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Hubb-Eredar"] = {
-				["name"] = "Hubb-Eredar",
-				["class"] = "HUNTER",
-				["overall"] = {
-					[239216] = 3342953,
-					[239155] = 384231,
-				},
-				["deaths"] = {
-				},
-			},
-			["Arangom"] = {
-				["name"] = "Arangom",
-				["class"] = "WARLOCK",
-				["overall"] = {
-					[239216] = 759674,
-					[239852] = 1633631,
-				},
-				["deaths"] = {
-				},
-			},
-			["Máriká"] = {
-				["name"] = "Máriká",
-				["class"] = "DRUID",
-				["overall"] = {
-					[241702] = 311721,
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["186114"] = {
 		["hash"] = "186114",
@@ -87,6 +87,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "Mistress Sassz'ine",
 		["id"] = 1861,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -100,8 +102,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
 	},
 	["185614"] = {
 		["hash"] = "185614",
@@ -109,6 +109,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "Harjatan",
 		["id"] = 1856,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 3,
@@ -120,8 +122,6 @@ DeathGraphsDBDeaths = {
 			["encounter"] = "Harjatan",
 			["diff"] = 14,
 		},
-		["player_db"] = {
-		},
 	},
 	["186714"] = {
 		["hash"] = "186714",
@@ -129,6 +129,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "Demonic Inquisition",
 		["id"] = 1867,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -142,8 +144,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
 	},
 	["190314"] = {
 		["hash"] = "190314",
@@ -151,6 +151,20 @@ DeathGraphsDBDeaths = {
 		["name"] = "Sisters of the Moon",
 		["id"] = 1903,
 		["diff"] = 14,
+		["player_db"] = {
+			["Bolya"] = {
+				["overall"] = {
+					[233284] = 892303,
+					[237633] = 498705,
+					[236519] = 526296,
+					[236541] = 1812745,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Bolya",
+				["class"] = "DRUID",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 4,
@@ -163,20 +177,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["diff"] = 14,
 		},
-		["player_db"] = {
-			["Bolya"] = {
-				["name"] = "Bolya",
-				["class"] = "DRUID",
-				["overall"] = {
-					[233284] = 892303,
-					[237633] = 498705,
-					[236519] = 526296,
-					[236541] = 1812745,
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["189614"] = {
 		["hash"] = "189614",
@@ -184,6 +184,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "The Desolate Host",
 		["id"] = 1896,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 6,
@@ -197,8 +199,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
 	},
 	["186214"] = {
 		["hash"] = "186214",
@@ -206,6 +206,19 @@ DeathGraphsDBDeaths = {
 		["name"] = "Goroth",
 		["id"] = 1862,
 		["diff"] = 14,
+		["player_db"] = {
+			["Bolya"] = {
+				["overall"] = {
+					[236329] = 3709062,
+					[233283] = 1493824,
+					[230345] = 328984,
+				},
+				["deaths"] = {
+				},
+				["name"] = "Bolya",
+				["class"] = "DRUID",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -219,19 +232,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Bolya"] = {
-				["name"] = "Bolya",
-				["class"] = "DRUID",
-				["overall"] = {
-					[236329] = 3709062,
-					[233283] = 1493824,
-					[230345] = 328984,
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["187314"] = {
 		["hash"] = "187314",
@@ -239,6 +239,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "Fallen Avatar",
 		["id"] = 1873,
 		["diff"] = 14,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 8,
@@ -252,8 +254,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
 	},
 }
 DeathGraphsDBEndurance = {
@@ -263,18 +263,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Maiden of Vigilance",
 		["id"] = 1897,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "Tomb of Sargeras",
-			["id"] = 2052,
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Maiden of Vigilance",
-			["encounter"] = "Maiden of Vigilance",
-			["ej_instance_id"] = 875,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Memeñto"] = {
 				["encounters"] = 1,
@@ -415,6 +403,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "PALADIN",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Tomb of Sargeras",
+			["id"] = 2052,
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Maiden of Vigilance",
+			["encounter"] = "Maiden of Vigilance",
+			["ej_instance_id"] = 875,
+			["diff"] = 14,
+		},
 	},
 	["189814"] = {
 		["hash"] = "189814",
@@ -422,19 +422,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Kil'jaeden",
 		["id"] = 1898,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 9,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Kil'jaeden",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Kil'jaeden",
-			["diff"] = 14,
-			["id"] = 2051,
-			["ej_instance_id"] = 875,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Scretchy"] = {
 				["encounters"] = 1,
@@ -585,6 +572,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "PALADIN",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 9,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Kil'jaeden",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Kil'jaeden",
+			["diff"] = 14,
+			["id"] = 2051,
+			["ej_instance_id"] = 875,
+			["killed"] = true,
+		},
 	},
 	["186114"] = {
 		["hash"] = "186114",
@@ -592,6 +592,141 @@ DeathGraphsDBEndurance = {
 		["name"] = "Mistress Sassz'ine",
 		["id"] = 1861,
 		["diff"] = 14,
+		["player_db"] = {
+			["Scretchy"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Hubb-Eredar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Morthan"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Cluze"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Scâjah"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Bolya"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Plueschi-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Shourious"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Taydude-Eredar"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Mixu"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Lór"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+			},
+			["Memeñto"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+			},
+			["Myrandos"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
+			["Máriká"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Emowyndra"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Bullwârk"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+			["Arangom"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Bizzl"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Kelvion"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 5,
@@ -605,6 +740,13 @@ DeathGraphsDBEndurance = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
+	},
+	["185614"] = {
+		["hash"] = "185614",
+		["type"] = "endurance",
+		["name"] = "Harjatan",
+		["id"] = 1856,
+		["diff"] = 14,
 		["player_db"] = {
 			["Scretchy"] = {
 				["encounters"] = 1,
@@ -740,13 +882,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "PALADIN",
 			},
 		},
-	},
-	["185614"] = {
-		["hash"] = "185614",
-		["type"] = "endurance",
-		["name"] = "Harjatan",
-		["id"] = 1856,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 3,
@@ -758,6 +893,13 @@ DeathGraphsDBEndurance = {
 			["encounter"] = "Harjatan",
 			["diff"] = 14,
 		},
+	},
+	["186714"] = {
+		["hash"] = "186714",
+		["type"] = "endurance",
+		["name"] = "Demonic Inquisition",
+		["id"] = 1867,
+		["diff"] = 14,
 		["player_db"] = {
 			["Scretchy"] = {
 				["encounters"] = 1,
@@ -893,13 +1035,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "PALADIN",
 			},
 		},
-	},
-	["186714"] = {
-		["hash"] = "186714",
-		["type"] = "endurance",
-		["name"] = "Demonic Inquisition",
-		["id"] = 1867,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 2,
@@ -913,141 +1048,6 @@ DeathGraphsDBEndurance = {
 			["ej_instance_id"] = 875,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Scretchy"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Hubb-Eredar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Morthan"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Cluze"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Scâjah"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Bolya"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Plueschi-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Shourious"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Taydude-Eredar"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Mixu"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Lór"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Memeñto"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Myrandos"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Máriká"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Emowyndra"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Bullwârk"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Arangom"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Bizzl"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Kelvion"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-		},
 	},
 	["190314"] = {
 		["hash"] = "190314",
@@ -1055,18 +1055,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Sisters of the Moon",
 		["id"] = 1903,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "Tomb of Sargeras",
-			["id"] = 2050,
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Sisters of the Moon",
-			["encounter"] = "Sisters of the Moon",
-			["ej_instance_id"] = 875,
-			["diff"] = 14,
-		},
 		["player_db"] = {
 			["Scretchy"] = {
 				["encounters"] = 1,
@@ -1207,6 +1195,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "PALADIN",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "Tomb of Sargeras",
+			["id"] = 2050,
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Sisters of the Moon",
+			["encounter"] = "Sisters of the Moon",
+			["ej_instance_id"] = 875,
+			["diff"] = 14,
+		},
 	},
 	["189614"] = {
 		["hash"] = "189614",
@@ -1214,19 +1214,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "The Desolate Host",
 		["id"] = 1896,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 6,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "The Desolate Host",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "The Desolate Host",
-			["diff"] = 14,
-			["id"] = 2054,
-			["ej_instance_id"] = 875,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Memeñto"] = {
 				["encounters"] = 1,
@@ -1362,6 +1349,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "PALADIN",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 6,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "The Desolate Host",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "The Desolate Host",
+			["diff"] = 14,
+			["id"] = 2054,
+			["ej_instance_id"] = 875,
+			["killed"] = true,
+		},
 	},
 	["186214"] = {
 		["hash"] = "186214",
@@ -1369,19 +1369,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Goroth",
 		["id"] = 1862,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Goroth",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Goroth",
-			["diff"] = 14,
-			["id"] = 2032,
-			["ej_instance_id"] = 875,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Scretchy"] = {
 				["encounters"] = 1,
@@ -1522,6 +1509,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "PALADIN",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Goroth",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Goroth",
+			["diff"] = 14,
+			["id"] = 2032,
+			["ej_instance_id"] = 875,
+			["killed"] = true,
+		},
 	},
 	["187314"] = {
 		["hash"] = "187314",
@@ -1529,19 +1529,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Fallen Avatar",
 		["id"] = 1873,
 		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 8,
-			["zone"] = "Tomb of Sargeras",
-			["encounter"] = "Fallen Avatar",
-			["mapid"] = 1676,
-			["try_number"] = 1,
-			["name"] = "Fallen Avatar",
-			["diff"] = 14,
-			["id"] = 2038,
-			["ej_instance_id"] = 875,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Memeñto"] = {
 				["encounters"] = 1,
@@ -1676,6 +1663,19 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PALADIN",
 			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 8,
+			["zone"] = "Tomb of Sargeras",
+			["encounter"] = "Fallen Avatar",
+			["mapid"] = 1676,
+			["try_number"] = 1,
+			["name"] = "Fallen Avatar",
+			["diff"] = 14,
+			["id"] = 2038,
+			["ej_instance_id"] = 875,
+			["killed"] = true,
 		},
 	},
 }
@@ -4311,80 +4311,6 @@ DeathGraphsDBGraph = {
 					1503694217, -- [2]
 				}, -- [34]
 			},
-			["Deathly Screech"] = {
-				{
-					68, -- [1]
-					1503694217, -- [2]
-				}, -- [1]
-			},
-			["Embrace of the Eclipse"] = {
-				{
-					48, -- [1]
-					1503694217, -- [2]
-				}, -- [1]
-				{
-					103, -- [1]
-					1503694217, -- [2]
-				}, -- [2]
-			},
-			["Moon Burn"] = {
-				{
-					8, -- [1]
-					1503694217, -- [2]
-				}, -- [1]
-				{
-					33, -- [1]
-					1503694217, -- [2]
-				}, -- [2]
-				{
-					58, -- [1]
-					1503694217, -- [2]
-				}, -- [3]
-				{
-					68, -- [1]
-					1503694217, -- [2]
-				}, -- [4]
-				{
-					92, -- [1]
-					1503694217, -- [2]
-				}, -- [5]
-				{
-					125, -- [1]
-					1503694217, -- [2]
-				}, -- [6]
-				{
-					142, -- [1]
-					1503694217, -- [2]
-				}, -- [7]
-				{
-					169, -- [1]
-					1503694217, -- [2]
-				}, -- [8]
-			},
-			["Rapid Shot"] = {
-				{
-					57, -- [1]
-					1503694217, -- [2]
-				}, -- [1]
-				{
-					76, -- [1]
-					1503694217, -- [2]
-				}, -- [2]
-				{
-					94, -- [1]
-					1503694217, -- [2]
-				}, -- [3]
-				{
-					113, -- [1]
-					1503694217, -- [2]
-				}, -- [4]
-			},
-			["Call Moontalon"] = {
-				{
-					42, -- [1]
-					1503694217, -- [2]
-				}, -- [1]
-			},
 			["Shadow Shot"] = {
 				{
 					4, -- [1]
@@ -4495,27 +4421,125 @@ DeathGraphsDBGraph = {
 					1503694217, -- [2]
 				}, -- [27]
 			},
-			["Lunar Fire"] = {
+			["Embrace of the Eclipse"] = {
 				{
-					120, -- [1]
+					48, -- [1]
 					1503694217, -- [2]
 				}, -- [1]
 				{
-					132, -- [1]
+					103, -- [1]
+					1503694217, -- [2]
+				}, -- [2]
+			},
+			["Moon Burn"] = {
+				{
+					8, -- [1]
+					1503694217, -- [2]
+				}, -- [1]
+				{
+					33, -- [1]
 					1503694217, -- [2]
 				}, -- [2]
 				{
-					143, -- [1]
+					58, -- [1]
 					1503694217, -- [2]
 				}, -- [3]
 				{
-					154, -- [1]
+					68, -- [1]
 					1503694217, -- [2]
 				}, -- [4]
 				{
-					173, -- [1]
+					92, -- [1]
 					1503694217, -- [2]
 				}, -- [5]
+				{
+					125, -- [1]
+					1503694217, -- [2]
+				}, -- [6]
+				{
+					142, -- [1]
+					1503694217, -- [2]
+				}, -- [7]
+				{
+					169, -- [1]
+					1503694217, -- [2]
+				}, -- [8]
+			},
+			["Rapid Shot"] = {
+				{
+					57, -- [1]
+					1503694217, -- [2]
+				}, -- [1]
+				{
+					76, -- [1]
+					1503694217, -- [2]
+				}, -- [2]
+				{
+					94, -- [1]
+					1503694217, -- [2]
+				}, -- [3]
+				{
+					113, -- [1]
+					1503694217, -- [2]
+				}, -- [4]
+			},
+			["Call Moontalon"] = {
+				{
+					42, -- [1]
+					1503694217, -- [2]
+				}, -- [1]
+			},
+			["Deathly Screech"] = {
+				{
+					68, -- [1]
+					1503694217, -- [2]
+				}, -- [1]
+			},
+			["Incorporeal Teleport"] = {
+				{
+					4, -- [1]
+					1503694217, -- [2]
+				}, -- [1]
+				{
+					13, -- [1]
+					1503694217, -- [2]
+				}, -- [2]
+				{
+					24, -- [1]
+					1503694217, -- [2]
+				}, -- [3]
+				{
+					32, -- [1]
+					1503694217, -- [2]
+				}, -- [4]
+				{
+					34, -- [1]
+					1503694217, -- [2]
+				}, -- [5]
+				{
+					71, -- [1]
+					1503694217, -- [2]
+				}, -- [6]
+				{
+					94, -- [1]
+					1503694217, -- [2]
+				}, -- [7]
+				{
+					113, -- [1]
+					1503694217, -- [2]
+				}, -- [8]
+				{
+					122, -- [1]
+					1503694217, -- [2]
+				}, -- [9]
+				{
+					146, -- [1]
+					1503694217, -- [2]
+				}, -- [10]
+				{
+					170, -- [1]
+					1503694217, -- [2]
+				}, -- [11]
 			},
 			["Twilight Volley"] = {
 				{
@@ -4581,68 +4605,44 @@ DeathGraphsDBGraph = {
 					1503694217, -- [2]
 				}, -- [3]
 			},
-			["Incorporeal Teleport"] = {
+			["Lunar Fire"] = {
 				{
-					4, -- [1]
+					120, -- [1]
 					1503694217, -- [2]
 				}, -- [1]
 				{
-					13, -- [1]
+					132, -- [1]
 					1503694217, -- [2]
 				}, -- [2]
 				{
-					24, -- [1]
+					143, -- [1]
 					1503694217, -- [2]
 				}, -- [3]
 				{
-					32, -- [1]
+					154, -- [1]
 					1503694217, -- [2]
 				}, -- [4]
 				{
-					34, -- [1]
+					173, -- [1]
 					1503694217, -- [2]
 				}, -- [5]
-				{
-					71, -- [1]
-					1503694217, -- [2]
-				}, -- [6]
-				{
-					94, -- [1]
-					1503694217, -- [2]
-				}, -- [7]
-				{
-					113, -- [1]
-					1503694217, -- [2]
-				}, -- [8]
-				{
-					122, -- [1]
-					1503694217, -- [2]
-				}, -- [9]
-				{
-					146, -- [1]
-					1503694217, -- [2]
-				}, -- [10]
-				{
-					170, -- [1]
-					1503694217, -- [2]
-				}, -- [11]
 			},
 		},
 		["ids"] = {
 			["Twilight Glaive"] = 236529,
 			["Lunar Strike"] = 237632,
-			["Deathly Screech"] = 236697,
+			["Shadow Shot"] = 237630,
 			["Embrace of the Eclipse"] = 233263,
 			["Moon Burn"] = 236518,
 			["Rapid Shot"] = 236596,
 			["Call Moontalon"] = 236694,
-			["Shadow Shot"] = 237630,
-			["Lunar Fire"] = 239264,
+			["Deathly Screech"] = 236697,
+			["Incorporeal Teleport"] = 236115,
 			["Twilight Volley"] = 236442,
 			["Moon Glaive"] = 236547,
 			["Lunar Beacon"] = 236712,
 			["Glaive Storm"] = 239386,
-			["Incorporeal Teleport"] = 236115,
+			["Lunar Fire"] = 239264,
 		},
 	},
 }

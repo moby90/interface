@@ -47,7 +47,7 @@ Prat:AddModuleToLoad(function()
     PL:AddLocale(PRAT_MODULE, "enUS", {
         ["module_name"] = "Achievements",
         ["module_desc"] = "Achievment related customizations",
-        ["grats_link"]  = "grats",
+        ["grats_link"]  = "say grats",
         ["completed"] = "Completed %s",
         ["showCompletedDate_name"] = "Show completed date",
         ["showCompletedDate_desc"] = "Show the date you completed the acheievment next to the link",
@@ -122,7 +122,7 @@ Prat:AddModuleToLoad(function()
 		["grats_have_7"] = "I worked on that for ages %s, grats!",
 		["grats_have_8"] = "I remember doing that, %s, grats!",
 		["grats_have_9"] = "Nicely done %s",
-		["grats_link"] = "grats",
+		["grats_link"] = "say grats",
 		["module_desc"] = "Achievment related customizations",
 		["module_name"] = "Achievements",
 		["showCompletedDate_desc"] = "Show the date you completed the acheievment next to the link",
@@ -359,34 +359,21 @@ Prat:AddModuleToLoad(function()
   L=
 {
 	["Achievements"] = {
-		--[[Translation missing --]]
-		--[[ ["completed"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGrats_defualt"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGrats_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGrats_name"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGratsText_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGratsText_name"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_1"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_10"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_2"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_3"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_4"] = "",--]] 
+		["completed"] = "Abgeschlossen %s",
+		["customGrats_defualt"] = "Grats %s",
+		["customGrats_desc"] = "Benutze eine eigene Glückwunsch-Nachricht anstatt einer zufälligen",
+		["customGrats_name"] = "Benutze eine eigene Glückwunsch-Nachricht",
+		["customGratsText_desc"] = "Eigene Glückwunsch-Nachricht. Du kannst hier einen beliebigen Text für Glückwunsch-Nachrichten eingeben. Möchtest du den Spielernamen einschließen benutze `%s` als Platzhalter. ",
+		["customGratsText_name"] = "Glückwunsch-Nachricht",
+		["grats_donthave_1"] = "Grats %s",
+		["grats_donthave_10"] = "Den hätt ich auch gerne %s",
+		["grats_donthave_2"] = "Gz %s! Den brauche ich auch noch",
+		["grats_donthave_3"] = "Den will ich auch %s, grats!",
+		["grats_donthave_4"] = "Wow %s der ist super!",
 		--[[Translation missing --]]
 		--[[ ["grats_donthave_5"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_6"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_7"] = "",--]] 
+		["grats_donthave_6"] = "Gz %s, an dem arbeite ich seid Jahren",
+		["grats_donthave_7"] = "Den brauch ich immer noch %s, grats!",
 		--[[Translation missing --]]
 		--[[ ["grats_donthave_8"] = "",--]] 
 		--[[Translation missing --]]
@@ -923,7 +910,7 @@ Prat:AddModuleToLoad(function()
     local function buildGratsLink(name, group, channel, achievementId)
         if type(name) == "nil" or type(group) == "nil" then
         else
-            return Prat.BuildLink(gratsLinkType, ("%s:%s:%s:%s"):format(name, group, channel or "", tostring(achievementId)), PL.grats_link, "00a0ff")
+            return Prat.BuildLink(gratsLinkType, ("%s:%s:%s:%s"):format(name, group, channel or "", tostring(achievementId)), PL.grats_link, "2080a0")
         end
 
         return ""
@@ -934,13 +921,13 @@ Prat:AddModuleToLoad(function()
         local type = Prat.CurrentMessage.CHATTYPE
         if type == "WHISPER_INFORM" then return end
 
-        local text, thierId, thierPlayerGuid, thierDone, thierMonth, thierDay, thierYear, _, _, _, _, thierAchievmentName = ...
+        local text, theirId, theirPlayerGuid, theirDone, theirMonth, theirDay, theirYear, _, _, _, _, theirAchievmentName = ...
 
-        if thierDone == "0" then return end
+        if not theirPlayerGuid or theirDone == "0" then return end
 
-        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(thierId)
+        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(theirId)
 
-        local _, _, _, _, _, thierName, _ = GetPlayerInfoByGUID(thierPlayerGuid)
+        local _, _, _, _, _, theirName, _ = GetPlayerInfoByGUID(theirPlayerGuid)
         local group = Prat.CurrentMessage.CHATGROUP
         local channelNum = Prat.CurrentMessage.CHATTARGET
 
@@ -948,9 +935,9 @@ Prat:AddModuleToLoad(function()
         if group == "CHANNEL" and not tonumber(channelNum) then return end
 
         if completed then
-            return Prat:RegisterMatch(text..module:addDate(day, month, year)..module:addGrats(thierName, group, channelNum, thierId))
+            return Prat:RegisterMatch(text..module:addDate(day, month, year)..module:addGrats(theirName, group, channelNum, theirId))
         else
-            return Prat:RegisterMatch(text..module:addGrats(thierName, group, channelNum, thierId))
+            return Prat:RegisterMatch(text..module:addGrats(theirName, group, channelNum, theirId))
         end
     end
 

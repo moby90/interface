@@ -5,7 +5,7 @@ RDDB["Warlords of Draenor"] = {
 		order = 1, ejid = 1128,
 		158986, -- Berserker Rush
 		159947, -- Chain Hurl
-		162497, -- On the Hunt	
+		162497, -- On the Hunt
 		159178, -- Open Wounds
 		159213, -- Monster's Brawl
 		159410, -- Mauling Brew
@@ -14,7 +14,7 @@ RDDB["Warlords of Draenor"] = {
 		159386, -- Iron Bomb
 		159188, -- Grapple
 		159202, -- Flame Jet
-		159311, -- Flame Jet		
+		159311, -- Flame Jet
 		159113, -- Impale
 		},
 		["The Butcher"] = {
@@ -107,7 +107,7 @@ RDDB["Warlords of Draenor"] = {
 		175816, -- Alma de vacio
 		},
 	},
-	[988] = { -- Fundici�n Roca Negra 
+	[988] = { -- Fundici�n Roca Negra
 		["Gruul"] = {
 		order = 1, ejid = 1161,
 		155078, -- Golpes sobrecogedores
@@ -221,20 +221,20 @@ RDDB["Warlords of Draenor"] = {
 		184238, -- Cower (movement)
 		180022, -- Bore (frontal cone damage)
 		185157, -- Burn (cone dot)
-		180079, -- Felfire Munitions (carrying, dot)		
+		180079, -- Felfire Munitions (carrying, dot)
 		},
 		["Iron Reaver"] = {
-		order = 2, ejid = 1425,		
+		order = 2, ejid = 1425,
 		182001, -- Orbe inestable
 		182074, -- Inmolation
 		179897, -- Blitz (carry, silence, not dispellable)
 		182022, -- Pounding
 		182280, -- Artillery
-		182003, -- Fuel Streak (movement)		
+		182003, -- Fuel Streak (movement)
 		},
 		["Kormrok"] = {
 		order = 3, ejid = 1392,
-		181306, -- Explosive Burst	
+		181306, -- Explosive Burst
 		181321, -- Fel Touch
 		180244, -- Pound
 		187819, -- Crush
@@ -245,7 +245,7 @@ RDDB["Warlords of Draenor"] = {
 		181082, -- Shadowy Pool (standing in pool)
 		180270, -- Shadow Globule (dot)
 		186560, -- Foul Pool (standing in pool)
-		185521, -- Foul Globule (dot)		
+		185521, -- Foul Globule (dot)
 		},
 		["Hellfire High Council"] = {
 		order = 4, ejid = 1432,
@@ -254,10 +254,10 @@ RDDB["Warlords of Draenor"] = {
 		184355, -- Bloodboil (dot, stacks)
 		184847, -- Acidic Wound (tank dot, stacks)
 		184357, -- Tainted Blood (debuff, stacks)
-		184652, -- Reap (standing in puddle?)		
+		184652, -- Reap (standing in puddle?)
 		},
 		["Kilrogg Deadeye"] = {
-		order = 5, ejid = 1396,	
+		order = 5, ejid = 1396,
 		180372, -- Heart Seeker
 		182159, -- Fel Corruption
 		180200, -- Shredded Armor
@@ -283,37 +283,37 @@ RDDB["Warlords of Draenor"] = {
 		185239,  -- Radiance-of-anzu
 		},
 		["Socrethar the Eternal"] = {
-		order = 8, ejid = 1427,	
+		order = 8, ejid = 1427,
 		182038, -- Shattered Defenses
 		182635, -- Reverberating Blow
 		184239, -- Shadow Word Agony
 		136913, -- Overwhelming Power
 		184124, -- Gift of the Man'ari
-		182769, -- Ghastly Fixation		
+		182769, -- Ghastly Fixation
 		},
 		["Fel Lord Zakuun"] = {
-		order = 9, ejid = 1391,	
+		order = 9, ejid = 1391,
 		181508, -- Seed of destruction
-		189260, -- Cloven Soul		
+		189260, -- Cloven Soul
 		179711, -- Befouled
 		182008, -- Latent Energy
 		179620, -- Fel Crystal
 		189030, -- BEFOULEDRED
 		189031, -- BEFOULEDORANGE
-		189032, -- BEFOULEDGREEN		
+		189032, -- BEFOULEDGREEN
 		},
 		["Xhul'horac"] = {
-		order = 10, ejid = 1447,	
+		order = 10, ejid = 1447,
 		186490, -- Chains of Fel
 		186546, -- Black Hole
 		186407, -- Fel Surge
 		186073, -- Felsinged
 		186134, -- Feltouched
-		185656, -- Shadowfel Annihilation		
+		185656, -- Shadowfel Annihilation
 		186333, -- Void Surge
 		186063, -- Wasting Void
-		186135, -- Voidtouched		
-		186448, -- Felblaze Flurry		
+		186135, -- Voidtouched
+		186448, -- Felblaze Flurry
 		},
 		["Tyrant Velhari"] = {
 		order = 11, ejid = 1394,
@@ -324,44 +324,44 @@ RDDB["Warlords of Draenor"] = {
 		180526, -- Font of corruption
 		180533, -- Tainted Shadows
 		180569, -- Tainted Shadows
-		180604, -- Despoiled Ground		
+		180604, -- Despoiled Ground
 		},
 		["Mannoroth"] = {
 		order = 12, ejid = 1395,
 		181099, -- Mark of Doom
-		181597, -- Mannoroth's Gaze	
-		181359, -- Massive Blast	
-		184252, -- Puncture Wound	
+		181597, -- Mannoroth's Gaze
+		181359, -- Massive Blast
+		184252, -- Puncture Wound
 		181116, -- Doom Spike
 		181275, -- Curse of the Legion
 		186362, -- Wrath of Gul'dan
-		186350, -- Gripping Shadows		
+		186350, -- Gripping Shadows
 		181841, -- Shadowforce
-		182088, -- Empowered Shadowforce		
+		182088, -- Empowered Shadowforce
 		},
 		["Archimonde"] = {
 		order = 13, ejid = 1438,
 		189891, -- Nether Tear
-		186952, -- Nether Banish		
+		186952, -- Nether Banish
 		185590, -- Desecrate
 		183864, -- Shadow Blast
 		183828, -- Death Brand
-		184931, -- Shackled Torment		
+		184931, -- Shackled Torment
 		182879, -- Doomfire Fixate
 		183586, -- Doomfire
-		186123, -- Wrought Chaos		
+		186123, -- Wrought Chaos
 		183634, -- Shadowfel Burst
 		187047, -- Devour Life
-		185014, -- Focused Chaos		
+		185014, -- Focused Chaos
 		190341, -- Nether Corruption
 		183963, -- Light of the Naaru
 		189895, -- Void Star Fixate
-		187255, -- Nether Storm		
+		187255, -- Nether Storm
 		},
 		["Trash"] = {
 		order = 50, ejid = nil,
 		184621, -- Hellfire Blast
-		184587, -- Touch of Mortality		
+		184587, -- Touch of Mortality
 		},
 	},
 	-- world bosses
@@ -382,7 +382,7 @@ RDDB["Warlords of Draenor"] = {
 		}
 	},
 	-- 5 man Instances
-	[987] = { -- Puerto de Hierro 
+	[987] = { -- Puerto de Hierro
 		["Nok'Gar"] = {
 		order = 1, ejid = 1235,
 		164837, -- Vapuleo salvaje
@@ -413,7 +413,7 @@ RDDB["Warlords of Draenor"] = {
 		158341, -- Heridas sangrantes
 		},
 	},
-	[989] = { -- Trecho Celestial 
+	[989] = { -- Trecho Celestial
 		["Ranjit"] = {
 		order = 1, ejid = 965,
 		153757, -- Abanico de hojas
@@ -443,7 +443,7 @@ RDDB["Warlords of Draenor"] = {
 		160303, -- Detonaci�n solar
 		},
 	},
-	[1008] = { -- El Vergel Eterno 
+	[1008] = { -- El Vergel Eterno
 		["Cortezamustia"] = {
 		order = 1, ejid = 1214,
 		164294, -- Crecimiento descontrolado
@@ -487,7 +487,7 @@ RDDB["Warlords of Draenor"] = {
 		164965, -- Vides asfixiantes
 		},
 	},
-	[995] = { -- Cumbre de Roca Negra Superior 
+	[995] = { -- Cumbre de Roca Negra Superior
 		["Gor'ashan"] = {
 		order = 1, ejid = 1226,
 		},
@@ -531,7 +531,7 @@ RDDB["Warlords of Draenor"] = {
 		165954, -- Ola de choque
 		},
 	},
-	[984] = { -- Auchindoun 
+	[984] = { -- Auchindoun
 		["Vigilante Kaathar"] = {
 		order = 1, ejid = 1185,
 		153430, -- Suelo santificado
@@ -566,7 +566,7 @@ RDDB["Warlords of Draenor"] = {
 		156856, -- Lluvia de Fuego
 		},
 	},
-	[993] = { -- Terminal Malav�a 
+	[993] = { -- Terminal Malav�a
 		["Chispahete y Borka"] = {
 		order = 1, ejid = 1138,
 		162507, -- Adquiriendo objetivos
@@ -595,7 +595,7 @@ RDDB["Warlords of Draenor"] = {
 		166340, -- Zona de trueno
 		},
 	},
-	[964] = { -- Minas Machacasangre 
+	[964] = { -- Minas Machacasangre
 		["Magmolatus"] = {
 		order = 1, ejid = 893,
 		150011, -- Tromba de magma
@@ -637,7 +637,7 @@ RDDB["Warlords of Draenor"] = {
 		151566, -- V�nculo de magma
 		},
 	},
-	[969] = { -- Cementerio de Sombraluna 
+	[969] = { -- Cementerio de Sombraluna
 		["Nhallish"] = {
 		order = 2, ejid = 1168,
 		153070, -- Devastaci�n del vac�o

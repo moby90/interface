@@ -588,6 +588,8 @@ L["STRING_OPTIONS_CENERGY_DESC"] = [=[Ativa a Captura de:
 - |cFFFFFFFFPoder Rúnico Gerado|r]=]
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS"] = "Modificar Cores Das Classes"
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = "Escolha novas cores para as cores das classes."
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_CHANGECOLOR"] = ""--]] 
 L["STRING_OPTIONS_CHANGELOG"] = "Notas da Versão"
 L["STRING_OPTIONS_CHART_ADD"] = "Adicionar Dados"
 L["STRING_OPTIONS_CHART_ADD2"] = "Adicionar"

@@ -24,13 +24,12 @@ oRA3DB = {
 				},
 			},
 		},
-		["Difficulty"] = {
+		["Alerts"] = {
 			["profiles"] = {
-				["Default"] = {
-					["prevRaidDifficulty"] = 15,
-				},
 				["Laru"] = {
-					["prevRaidDifficulty"] = 15,
+					["enableForParty"] = false,
+					["enableForRaid"] = false,
+					["output"] = "raid",
 				},
 			},
 		},
@@ -80,8 +79,8 @@ oRA3DB = {
 						["Default"] = {
 							[62618] = true,
 							[98008] = true,
-							[2825] = true,
 							[871] = true,
+							[2825] = true,
 							[97462] = true,
 						},
 					},
@@ -107,12 +106,13 @@ oRA3DB = {
 		},
 		["GuildRepairs"] = {
 		},
-		["Alerts"] = {
+		["Difficulty"] = {
 			["profiles"] = {
+				["Default"] = {
+					["prevRaidDifficulty"] = 15,
+				},
 				["Laru"] = {
-					["enableForParty"] = false,
-					["enableForRaid"] = false,
-					["output"] = "raid",
+					["prevRaidDifficulty"] = 15,
 				},
 			},
 		},

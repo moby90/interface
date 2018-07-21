@@ -59,6 +59,26 @@ GTFO.SpellID["266281"] = {
   sound = 1;
 };
 
+GTFO.SpellID["258004"] = {
+  --desc = "Sanguine Pool (Blood Witch Pakkala)";
+  sound = 1;
+};
+
+GTFO.SpellID["255307"] = {
+  --desc = "Whirling Spin (Akakakoo)";
+  sound = 1;
+};
+
+GTFO.SpellID["270161"] = {
+  --desc = "Soul Burst (Emily Mayville)";
+  sound = 1;
+};
+
+GTFO.SpellID["271715"] = {
+  --desc = "Volatile Expulsion (Unbound Azerite)";
+  sound = 1;
+};
+
 
 -- ***********************
 -- * Shrine of the Storm *

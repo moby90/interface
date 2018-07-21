@@ -4,20 +4,22 @@ FixGroupsDB = {
 		["Horde"] = {
 			["damagerRoleNonGuildCache"] = {
 				["melee"] = {
-					["Aenys-Drak'thul"] = 1531170037,
 				},
 				["ranged"] = {
 				},
 			},
 			["damagerRoleGuildCache"] = {
 				["melee"] = {
+					["Bêlya-"] = 1531943840,
+					["Bêlya-Frostwolf"] = 1531947839,
 					["Muhdiv-"] = 1530899275,
 					["Muhdiv-Frostwolf"] = 1530902735,
 				},
 				["ranged"] = {
-					["Quovi-"] = 1530900912,
-					["Taydruid-"] = 1531167672,
 					["Quovi-Frostwolf"] = 1530901022,
+					["Taydruid-Frostwolf"] = 1531947824,
+					["Taydruid-"] = 1531167672,
+					["Quovi-"] = 1530900912,
 				},
 			},
 		},

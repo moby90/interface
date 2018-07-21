@@ -8,6 +8,9 @@
 -- |cff0055FF = blau/blue
 -- ***
 -- Changelog:
+-- 0.27 by Jim-Bim
+-- - TOC Update for 8.0
+-- - Adjusted API calls for BfA
 -- 0.26 by Jim-Bim
 -- - TOC Update for 7.3
 -- 0.25 by Jim-Bim
@@ -118,16 +121,6 @@ function shwcrd(num)
 		return round(num * 100)
 	end
 end
-
-local mapExpanded = not (WORLDMAP_SETTINGS.size == WORLDMAP_WINDOWED_SIZE);
-
-hooksecurefunc("WorldMap_ToggleSizeUp", function()
-	mapExpanded = true
-end)
-
-hooksecurefunc("WorldMap_ToggleSizeDown", function()
-	mapExpanded = false
-end)
 
 function MapCoords_OnLoad()
 	SlashCmdList["MAPCOORDS"] = MapCoords_SlashCommand
@@ -337,7 +330,8 @@ end
 
 function MapCoordsPlayer_OnUpdate()
 	if (MapCoords2["portrait player"] == true) then
-		local posX, posY = GetPlayerMapPosition("player")
+		local mapID = C_Map.GetBestMapForUnit("player")
+		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "player"):GetXY()
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsPlayerPortraitCoords:SetText("n/a")
 		else
@@ -358,7 +352,8 @@ function MapCoordsPlayer_OnUpdate()
 	end
 	
 	if (MapCoords2["portrait party1"] == true and currentPlayers >= 1 and PartyMemberFrame1:IsVisible()) then
-		local posX, posY = GetPlayerMapPosition("party1")
+		local mapID = C_Map.GetBestMapForUnit("party1")
+		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "party1"):GetXY()
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsParty1PortraitCoords:SetText("n/a")
 		else
@@ -368,7 +363,8 @@ function MapCoordsPlayer_OnUpdate()
 		MapCoordsParty1PortraitCoords:SetText("")
 	end
 	if (MapCoords2["portrait party2"] == true and currentPlayers >= 2 and PartyMemberFrame2:IsVisible()) then
-		local posX, posY = GetPlayerMapPosition("party2")
+		local mapID = C_Map.GetBestMapForUnit("party2")
+		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "party2"):GetXY()
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsParty2PortraitCoords:SetText("n/a")
 		else
@@ -378,7 +374,8 @@ function MapCoordsPlayer_OnUpdate()
 		MapCoordsParty2PortraitCoords:SetText("")
 	end
 	if (MapCoords2["portrait party3"] == true and currentPlayers >= 3 and PartyMemberFrame3:IsVisible()) then
-		local posX, posY = GetPlayerMapPosition("party3")
+		local mapID = C_Map.GetBestMapForUnit("party3")
+		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "party3"):GetXY()
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsParty3PortraitCoords:SetText("n/a")
 		else
@@ -388,7 +385,8 @@ function MapCoordsPlayer_OnUpdate()
 		MapCoordsParty3PortraitCoords:SetText("")
 	end
 	if (MapCoords2["portrait party4"] == true and currentPlayers >= 4 and PartyMemberFrame4:IsVisible()) then
-		local posX, posY = GetPlayerMapPosition("party4")
+		local mapID = C_Map.GetBestMapForUnit("party4")
+		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "party4"):GetXY()
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsParty4PortraitCoords:SetText("n/a")
 		else
@@ -401,7 +399,8 @@ end
 
 function MapCoordsMiniMap_OnUpdate()
     if (MapCoords2["minimap"] == true) then
-        local posX, posY = GetPlayerMapPosition("player")
+        local mapID = C_Map.GetBestMapForUnit("player")
+		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "player"):GetXY()
         if ( posX == 0 and posY == 0 ) then
             MapCoordsMiniMap:SetText("n/a")
         else
@@ -415,17 +414,10 @@ end
 function MapCoordsWorldMap_OnUpdate()
 	local output = ""
 	if (MapCoords2["worldmap cursor"] == true) then
-		local scale = WorldMapDetailFrame:GetEffectiveScale()
-		local width = WorldMapDetailFrame:GetWidth()
-		local height = WorldMapDetailFrame:GetHeight()
-		local centerX, centerY = WorldMapDetailFrame:GetCenter()
-		local x, y = GetCursorPosition()
-		-- Tweak coords so they are accurate
-		local adjustedX = (x / scale - (centerX - (width/2))) / width
-        local adjustedY = (centerY + (height/2) - y / scale) / height		
+		local adjustedX, adjustedY = WorldMapFrame:GetNormalizedCursorPosition()	
 	
 		-- Write output
-		if (adjustedX >= 0  and adjustedY >= 0 and adjustedX <=1 and adjustedY <=1) then
+		if (adjustedX > 0  and adjustedY > 0 and adjustedX <1 and adjustedY <1) then
             output = MAPCOORDS_SLASH4..shwcrd(adjustedX).." / "..shwcrd(adjustedY)
         end
 	end
@@ -435,7 +427,8 @@ function MapCoordsWorldMap_OnUpdate()
         end
     end
 	if (MapCoords2["worldmap player"] == true) then
-		local px, py = GetPlayerMapPosition("player")
+		local mapID = C_Map.GetBestMapForUnit("player")
+		local px, py = C_Map.GetPlayerMapPosition(mapID, "player"):GetXY()
 		if ( px == 0 and py == 0 ) then
             output = output..MAPCOORDS_SLASH5.."n/a"
 		else
@@ -443,8 +436,8 @@ function MapCoordsWorldMap_OnUpdate()
         end
 	end
 
-	if (mapExpanded) then
-		MapCoordsWorldMap:SetPoint("BOTTOM", WorldMapFrame, "BOTTOM", 0, 10)
+	if (WorldMapMixin.isMaximized) then
+		MapCoordsWorldMap:SetPoint("CENTER", WorldMapFrame.BorderFrame, "BOTTOM", 0, 10)
 		MapCoordsWorldMap:SetTextColor(GameFontNormal:GetTextColor())
 	else
         local offset = 0
@@ -454,9 +447,9 @@ function MapCoordsWorldMap_OnUpdate()
             end
         end
 		if(QuestMapFrame:IsVisible()) then
-			MapCoordsWorldMap:SetPoint("BOTTOM", WorldMapFrame, "BOTTOM", -145, 5 + offset)
+			MapCoordsWorldMap:SetPoint("CENTER", WorldMapFrame.BorderFrame, "BOTTOM", -145, 10 + offset)
 		else
-			MapCoordsWorldMap:SetPoint("BOTTOM", WorldMapFrame, "BOTTOM", 0, 5 + offset)
+			MapCoordsWorldMap:SetPoint("CENTER", WorldMapFrame.BorderFrame, "BOTTOM", 0, 10 + offset)
 		end
 		MapCoordsWorldMap:SetTextColor(1, 1, 1, 1)
 	end

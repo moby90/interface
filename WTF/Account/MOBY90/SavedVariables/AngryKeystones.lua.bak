@@ -848,51 +848,7 @@ AngryKeystones_Data = {
 	["rumors"] = {
 	},
 	["state"] = {
-		["mapID"] = 200,
-		["splits"] = {
-			254, -- [1]
-			762, -- [2]
-			1178, -- [3]
-			1604, -- [4]
-			1765, -- [5]
-			1362, -- [6]
-			["party1Name"] = "Laru",
-			["party1Class"] = "Paladin",
-			["party4Class"] = "Druid",
-			["party2Name"] = "Taydekay",
-			["patch"] = "7.3.5",
-			["timeLimit"] = 2700,
-			["level"] = 15,
-			["timeElapsed"] = 1764.762,
-			["party3Role"] = "DAMAGER",
-			["affixes3"] = 9,
-			["party5Role"] = "DAMAGER",
-			["party3Name"] = "Chuckx",
-			["affixes2"] = 4,
-			["party1Role"] = "HEALER",
-			["party4Name"] = "Aenys",
-			["party4Role"] = "DAMAGER",
-			["party3Class"] = "Mage",
-			["wasEnergized"] = true,
-			["affixes1"] = 6,
-			["party5Class"] = "Warlock",
-			["mapID"] = 1477,
-			["party2Role"] = "TANK",
-			["date"] = 1531169981,
-			["party2Class"] = "Death Knight",
-			["party5Name"] = "Sawasawa",
-		},
 		["playerDeaths"] = {
-			["Aenys-Drak'thul"] = 4,
-			["Chuckx"] = 2,
-		},
-		["splitNames"] = {
-			"Hymdall", -- [1]
-			"Hyrja", -- [2]
-			"Fenryr", -- [3]
-			"God-King Skovald", -- [4]
-			"Odyn", -- [5]
-			"Enemy Forces", -- [6]
 		},
 	},
 	["splits"] = {

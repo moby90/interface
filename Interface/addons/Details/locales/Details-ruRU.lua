@@ -545,6 +545,8 @@ L["STRING_OPTIONS_CENERGY_DESC"] = [=[Включить захват:
 - |cFFFFFF00Получено: силы рун|r]=]
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS"] = "Изменение цвета класса"
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = "Выберите новые цвета для классов."
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_CHANGECOLOR"] = ""--]] 
 L["STRING_OPTIONS_CHANGELOG"] = "Заметки о версии"
 L["STRING_OPTIONS_CHART_ADD"] = "Добавить данные"
 L["STRING_OPTIONS_CHART_ADD2"] = "Добавить"

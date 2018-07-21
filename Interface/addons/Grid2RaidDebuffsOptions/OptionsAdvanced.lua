@@ -3,8 +3,10 @@
 local L = LibStub("AceLocale-3.0"):GetLocale("Grid2Options")
 local GSRD = Grid2:GetModule("Grid2RaidDebuffs")
 local RDO = Grid2Options.RDO
-			 
--- modules databases
+
+-- battle of azeroth shit fix
+local WorldMapAreaID_rev 
+
 local RDDB = RDO.RDDB
 -- raid-debuffs statuses
 local statuses         = RDO.statuses
@@ -46,6 +48,14 @@ end
 local function SetBossTag(bossKey, field, value)
 	DbSetValue(value, RDO.db.profile.debuffs, visibleInstance, bossKey, field)
 end	
+
+local function GetMapNameByID(id)
+	id = WorldMapAreaID_rev[id]
+	if id then
+		local info = C_Map.GetMapInfo(id)
+		return info and info.name or string.format( "unknown(%d)", id )
+	end
+end
 
 --=================================================================
 -- Options interface management
@@ -262,8 +272,18 @@ function RDO:RefreshAdvancedOptions()
 	MakeRaidDebuffsOptions(true)
 end
 
+function RDO:InitMapTables()
+	if not WorldMapAreaID_rev then
+		WorldMapAreaID_rev = {}
+		for k,v in ipairs(GSRD.WorldMapAreaID) do
+			WorldMapAreaID_rev[v] = k
+		end
+	end	
+end
+
 function RDO:InitAdvancedOptions()
-	RDDB["[Custom Debuffs]"] = RDO.db.profile.debuffs 
+	RDDB["[Custom Debuffs]"] = RDO.db.profile.debuffs
+	self:InitMapTables()
 	self:RegisterAutodetectedDebuffs()
 	self:RefreshAdvancedOptions()
 end
@@ -277,7 +297,7 @@ local function OpenJournal(info)
 	if not IsAddOnLoaded("Blizzard_EncounterJournal") then LoadAddOn("Blizzard_EncounterJournal") end
 	local instanceID, encounterID, sectionID = EJ_HandleLinkPath(1, EJ_ID)
 	local _,_,difficulty = GetInstanceInfo()
-	if instanceID ~= EJ_GetCurrentInstance()  then
+	if instanceID ~=  EJ_GetInstanceForMap( C_Map.GetBestMapForUnit("player") ) then
 		difficulty = RDO.db.profile.defaultEJ_difficulty or 14
 	end
 	if InterfaceOptionsFrame:IsShown() then

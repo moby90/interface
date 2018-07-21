@@ -1,27 +1,30 @@
-tag b2b5c488c708f7edfcfcecddc124696d570aba64 v7.0.13
+tag 3ab9397444d5d67cfa2ecfce5158aefbd5e6e4c0 8.0.1
 Author:	Benjamin Staneck <staneck@gmail.com>
-Date:	Thu Dec 21 15:17:46 2017 +0100
+Date:	Wed Jul 18 15:46:31 2018 +0200
 
-commit 8ebde998e3bb801156bd9b9da82fd59b5e350d73
-Author: Trid3nt <andytdgibson@gmail.com>
-Date:   Wed Dec 20 12:47:11 2017 +0000
+8.0.1
 
-    Changed wording
-
-commit 0221cf8cce680052969d93a5a2c45ed83f2fda66
+commit 64c04e4a3397a9312297773184eadfe901e489be
 Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Mon Dec 11 10:28:14 2017 +0100
+Date:   Wed Jul 18 15:39:03 2018 +0200
 
-    removed timewalking final boss drops quests as they are not resetting.
-    
-    Closes #28
+    fix M+/ChallengeMode API usage
 
-commit e3a2544226f95ededa85e1b42794ea9901198c42
-Author: Trid3nt <andytdgibson@gmail.com>
-Date:   Sun Dec 10 13:46:36 2017 +0000
+commit 8737852bc41277b59a39e256759b59a98648ff31
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Wed Jul 18 15:29:03 2018 +0200
 
-    Update SavedInstances.lua
-    
-    Changed Parent ID to 1642
-    Added commands to comments section at 142 and 145 to help make it easier in future to troubleshoot.
+    fix Calendar API usage
+
+commit afb280fe9b20e3aad9b7d7c23b2b4a42c59acfdb
+Author: Benjamin Staneck <Stanzilla@users.noreply.github.com>
+Date:   Wed Jul 18 15:09:42 2018 +0200
+
+    Rename SavedInstances/libs/LibDataBroker-1.1/LibDataBroker-1.1.lua to SavedInstances/Libs/LibDataBroker-1.1/LibDataBroker-1.1.lua
+
+commit 791cb9f79a06fc817ce58bb960cca7411a8589bb
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Wed Jul 18 15:05:03 2018 +0200
+
+    fix lib folder embeds/ignore
 

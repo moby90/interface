@@ -1,13 +1,19 @@
-changeset:   1145:24e7f4c7119e
-tag:         3.5.70
+changeset:   1149:fe402521b2ac
+tag:         3.5.71
 user:        sylvanaar <sylvanaar@mindspring.com>
-date:        Sat Jun 02 11:46:15 2018 -0700
-summary:     Fix not being able to disable whispers
+date:        Tue Jun 26 16:07:38 2018 -0700
+summary:     Dim the "say grats" link a bit.
 
 
-changeset:   1144:b3a3699d562b
+changeset:   1148:cca3df1f5abf
 user:        sylvanaar <sylvanaar@mindspring.com>
-date:        Mon May 28 20:52:13 2018 -0700
-summary:     - Disable the broken search mobule
+date:        Tue Jun 26 14:50:48 2018 -0700
+summary:     Add a nil check, and fix spelling errors
+
+
+changeset:   1147:ad01beed1f11
+user:        sylvanaar <sylvanaar@mindspring.com>
+date:        Tue Jun 26 14:33:50 2018 -0700
+summary:     Make the grats link more expressive.
 
 

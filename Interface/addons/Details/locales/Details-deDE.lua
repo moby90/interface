@@ -535,6 +535,8 @@ L["STRING_OPTIONS_CENERGY_DESC"] = [=[Aktiviert die Erfassung von:
 - |cFFFFFF00Erzeugte Runenmacht|r]=]
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS"] = "Klassenfarben ändern"
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = "Wähle neue Klassenfarben aus."
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_CHANGECOLOR"] = ""--]] 
 L["STRING_OPTIONS_CHANGELOG"] = "Versionshinweise"
 L["STRING_OPTIONS_CHART_ADD"] = "Daten hinzufügen"
 L["STRING_OPTIONS_CHART_ADD2"] = "Hinzufügen"
@@ -843,8 +845,7 @@ L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN_DESC"] = "Segmente mit abgräumtem Dungeo
 L["STRING_OPTIONS_OVERALL_LOGOFF"] = "Beim Ausloggen löschen"
 L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = "Aktiviert: Die Gesamtdaten werden automatisch beim Ausloggen des Charakters gelöscht."
 L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = "Beim Start einer Mythic+ löschen"
---[[Translation missing --]]
---[[ L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""--]] 
+L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = "Wenn aktiviert, werden sämtliche Daten automatisch gelöscht, wenn ein neue Mythisch+ Durchlauf gestartet wird."
 L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "Bei neuem Boss löschen"
 L["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"] = "Aktiviert: Die Gesamtdaten werden automatisch bei einem neuen Boss gelöscht."
 L["STRING_OPTIONS_OVERALL_RAIDBOSS"] = "Schlachtzugsbosse"

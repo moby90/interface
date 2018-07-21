@@ -6,13 +6,6 @@ X: -39
 Y: 188
 W: 303
 H: 133
-Frame: MinimapCluster
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -10
-Y: -26
-W: 192
-H: 192
 Frame: ScriptErrorsFrame
 FrameLevel: 0
 Anchor: RIGHT
