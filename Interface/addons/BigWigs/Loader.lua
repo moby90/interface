@@ -7,7 +7,7 @@ local bwFrame = CreateFrame("Frame")
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 99
+local BIGWIGS_VERSION = 100
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s", "V^%d^%s"
 
@@ -18,7 +18,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "af1275d" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "40cbe63" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -53,17 +53,11 @@ end
 local ldb = nil
 local tooltipFunctions = {}
 local next, tonumber, strsplit = next, tonumber, strsplit
-local SendAddonMessage, Ambiguate, CTimerAfter, CTimerNewTicker = C_ChatInfo and C_ChatInfo.SendAddonMessage or SendAddonMessage, Ambiguate, C_Timer.After, C_Timer.NewTicker -- XXX C_ChatInfo check for 8.0
-local GetCurrentMapAreaID, SetMapToCurrentZone = GetCurrentMapAreaID, SetMapToCurrentZone
-local GetInstanceInfo, GetPlayerMapAreaID, GetBestMapForUnit = GetInstanceInfo, GetPlayerMapAreaID, C_Map and C_Map.GetBestMapForUnit -- XXX remove GetPlayerMapAreaID
-local GetMapInfo = C_Map.GetMapInfo
+local SendAddonMessage, Ambiguate, CTimerAfter, CTimerNewTicker = C_ChatInfo.SendAddonMessage, Ambiguate, C_Timer.After, C_Timer.NewTicker
+local GetInstanceInfo, GetBestMapForUnit, GetMapInfo = GetInstanceInfo, C_Map.GetBestMapForUnit, C_Map.GetMapInfo
 
 -- Try to grab unhooked copies of critical funcs (hooked by some crappy addons)
-public.GetCurrentMapAreaID = GetCurrentMapAreaID -- XXX remove
-public.GetPlayerMapAreaID = GetPlayerMapAreaID -- XXX remove
 public.GetBestMapForUnit = GetBestMapForUnit
-public.SetMapToCurrentZone = SetMapToCurrentZone -- XXX remove
-public.GetCurrentMapDungeonLevel = GetCurrentMapDungeonLevel -- XXX remove
 public.GetMapInfo = GetMapInfo
 public.GetInstanceInfo = GetInstanceInfo
 public.SendAddonMessage = SendAddonMessage
@@ -90,7 +84,6 @@ local fakeZones = { -- Fake zones used as GUI menus
 	[-424]=true, -- Pandaria
 	[-572]=true, -- Draenor
 	[-619]=true, -- Broken Isles
-	[1716]=true, -- Broken Shore Mage Tower
 }
 
 do
@@ -235,7 +228,6 @@ do
 		[1175] = lw_wod, -- Bloodmaul Slag Mines
 		[1358] = lw_wod, -- Upper Blackrock Spire
 		--[[ LittleWigs: Legion ]]--
-		[1716] = lw_l, -- Broken Shore Mage Tower (Fake Menu)
 		[1544] = lw_l, -- Assault on Violet Hold
 		[1677] = lw_l, -- Cathedral of Eternal Night
 		[1571] = lw_l, -- Court of Stars
@@ -601,25 +593,16 @@ function mod:ADDON_LOADED(addon)
 	RolePollPopup:UnregisterEvent("ROLE_POLL_BEGIN")
 
 	bwFrame:RegisterEvent("CHAT_MSG_ADDON")
-	if C_ChatInfo then -- XXX 8.0
-		C_ChatInfo.RegisterAddonMessagePrefix("BigWigs")
-		C_ChatInfo.RegisterAddonMessagePrefix("D4") -- DBM
-	else
-		RegisterAddonMessagePrefix("BigWigs")
-		RegisterAddonMessagePrefix("D4") -- DBM
-	end
+	C_ChatInfo.RegisterAddonMessagePrefix("BigWigs")
+	C_ChatInfo.RegisterAddonMessagePrefix("D4") -- DBM
+
 	local icon = LibStub("LibDBIcon-1.0", true)
 	if icon and ldb then
-		if not BigWigsIconDB then
-			if BigWigs3IconDB then -- XXX temp
-				BigWigsIconDB = BigWigs3IconDB
-			else
-				BigWigsIconDB = {}
-			end
+		if type(BigWigsIconDB) ~= "table" then
+			BigWigsIconDB = {}
 		end
 		icon:Register("BigWigs", ldb, BigWigsIconDB)
 	end
-	BigWigs3IconDB = nil -- XXX temp 7.3.5
 
 	if BigWigs3DB then
 		-- Somewhat ugly, but saves loading AceDB with the loader instead of with the core
@@ -1171,12 +1154,7 @@ do
 		-- Zone checking
 		local _, instanceType, _, _, _, _, _, id = GetInstanceInfo()
 		if instanceType == "none" then
-			local mapId
-			if GetBestMapForUnit then -- XXX 8.0
-				mapId = GetBestMapForUnit("player")
-			else
-				mapId = GetPlayerMapAreaID("player")
-			end
+			local mapId = GetBestMapForUnit("player")
 			if mapId then
 				id = -mapId -- Use map id for world bosses
 			end

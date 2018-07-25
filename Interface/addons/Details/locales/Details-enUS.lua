@@ -447,7 +447,7 @@ L["STRING_OPTIONS_BAR_FOLLOWING_ANCHOR"] = "Player Bar:"
 L["STRING_OPTIONS_BAR_FOLLOWING_DESC"] = "When enabled, your bar will always be shown even when you aren't one of the top ranked players."
 L["STRING_OPTIONS_BAR_GROW"] = "Bar Growth Direction"
 L["STRING_OPTIONS_BAR_GROW_DESC"] = "Bars grow from the top or bottom of the window."
-L["STRING_OPTIONS_BAR_HEIGHT"] = "Line Height"
+L["STRING_OPTIONS_BAR_HEIGHT"] = "Bar Height"
 L["STRING_OPTIONS_BAR_HEIGHT_DESC"] = "Increase or decrease the bar height."
 L["STRING_OPTIONS_BAR_ICONFILE"] = "Icon File"
 L["STRING_OPTIONS_BAR_ICONFILE_DESC"] = [=[Path for a custom icon file.
@@ -537,7 +537,7 @@ L["STRING_OPTIONS_CENERGY_DESC"] = [=[Enable capture of:
 - |cFFFFFF00Runic Power Generated|r]=]
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS"] = "Modify Class Colors"
 L["STRING_OPTIONS_CHANGE_CLASSCOLORS_DESC"] = "Select new colors for classes."
-L["STRING_OPTIONS_CHANGECOLOR"] = "STRING_OPTIONS_CHANGECOLOR"
+L["STRING_OPTIONS_CHANGECOLOR"] = "Change Color"
 L["STRING_OPTIONS_CHANGELOG"] = "Version Notes"
 L["STRING_OPTIONS_CHART_ADD"] = "Add Data"
 L["STRING_OPTIONS_CHART_ADD2"] = "Add"
@@ -1675,6 +1675,13 @@ L["STRING_WELCOME_7"] = "used for rankings, this method uses the elapsed combat 
 --[[ L["STRING_WELCOME_71"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["STRING_WELCOME_72"] = ""--]] 
+L["STRING_WELCOME_73"] = "Select the Alphabet or Region:"
+L["STRING_WELCOME_74"] = "Latin Alphabet"
+L["STRING_WELCOME_75"] = "Cyrillic Alphabet"
+L["STRING_WELCOME_76"] = "China"
+L["STRING_WELCOME_77"] = "Korea"
+L["STRING_WELCOME_78"] = "Taiwan"
+L["STRING_WELCOME_79"] = "Create 2nd Window"
 L["STRING_WINDOW_NOTFOUND"] = "No window found."
 L["STRING_WINDOW_NUMBER"] = "window number"
 L["STRING_WINDOW1ATACH_DESC"] = "To create a group of windows, drag window #2 near window #1."

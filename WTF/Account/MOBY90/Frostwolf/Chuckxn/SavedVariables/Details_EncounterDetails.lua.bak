@@ -1,5 +1,16 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			["boss"] = "Weaver",
+		}, -- [1]
+		{
+			["boss"] = "Dreamscythe",
+		}, -- [2]
+		{
+			["boss"] = "Jammal'an the Prophet",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[114474] = {
 			["school"] = 4,
@@ -278,20 +289,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Crystalline Frayer",
 		},
-		[75610] = {
-			["school"] = 32,
+		[150032] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Corla, Herald of Twilight",
-		},
-		[113765] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Rattlegore",
+			["source"] = "Magmolatus",
 		},
 		[48094] = {
 			["school"] = 1,
@@ -300,6 +304,13 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Keristrasza",
+		},
+		[75610] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Corla, Herald of Twilight",
 		},
 		[106062] = {
 			["school"] = 1,
@@ -333,13 +344,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Alani",
 		},
-		[150290] = {
-			["school"] = 4,
+		[13748] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Calamity",
+			["source"] = "Bloodaxe Evoker",
 		},
 		[150038] = {
 			["school"] = 4,
@@ -348,19 +358,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Magmolatus",
 		},
-		[30926] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Nazan",
-		},
 		[16868] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Baroness Anastari",
+		},
+		[54850] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Drakkari Colossus",
 		},
 		[106797] = {
 			["school"] = 1,
@@ -372,13 +383,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Liu Flameheart",
 		},
-		[75817] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[30926] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Corla, Herald of Twilight",
+			["source"] = "Nazan",
 		},
 		[107223] = {
 			["school"] = 4,
@@ -387,13 +397,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sun",
 		},
-		[111323] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[47773] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Grand Magus Telestra",
 		},
 		[113379] = {
 			["school"] = 1,
@@ -468,12 +477,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Instructor Chillheart",
 		},
-		[47773] = {
-			["school"] = 4,
+		[111323] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Grand Magus Telestra",
+			["source"] = "Unknown",
 		},
 		[113394] = {
 			["school"] = 32,
@@ -482,13 +492,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Peril",
 		},
-		[54850] = {
-			["school"] = 8,
+		[75817] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Drakkari Colossus",
+			["source"] = "Corla, Herald of Twilight",
 		},
 		[40070] = {
 			["school"] = 32,
@@ -498,12 +508,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Keli'dan the Breaker",
 		},
-		[13748] = {
-			["school"] = 64,
+		[150290] = {
+			["school"] = 4,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Bloodaxe Evoker",
+			["source"] = "Calamity",
 		},
 		[56969] = {
 			["school"] = 64,
@@ -530,24 +541,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Peril",
 		},
-		[150032] = {
-			["school"] = 4,
+		[113765] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Magmolatus",
+			["source"] = "Rattlegore",
 		},
-	},
-	["emotes"] = {
-		{
-			["boss"] = "Weaver",
-		}, -- [1]
-		{
-			["boss"] = "Dreamscythe",
-		}, -- [2]
-		{
-			["boss"] = "Jammal'an the Prophet",
-		}, -- [3]
 	},
 }

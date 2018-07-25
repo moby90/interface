@@ -1,4 +1,11 @@
 Version: 1
+Frame: FloatingGarrisonFollowerTooltip
+FrameLevel: 1
+Anchor: CENTER
+X: 175
+Y: 114
+W: 260
+H: 150
 Frame: FocusFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -9,8 +16,8 @@ H: 100
 Frame: LootFrame
 FrameLevel: 1
 Anchor: CENTER
-X: -160
-Y: -190
+X: 13
+Y: 36
 W: 170
 H: 240
 Frame: ItemRefTooltip
@@ -34,13 +41,6 @@ X: -27
 Y: -89
 W: 210
 H: 175
-Frame: FloatingGarrisonFollowerTooltip
-FrameLevel: 1
-Anchor: CENTER
-X: 175
-Y: 114
-W: 260
-H: 150
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: RIGHT

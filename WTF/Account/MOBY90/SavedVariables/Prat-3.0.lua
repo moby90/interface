@@ -18,13 +18,13 @@ Prat3DB = {
 		["Prat_Frames"] = {
 			["profiles"] = {
 				["Laru Extended"] = {
-					["initialized"] = true,
-					["minchatheightdefault"] = 119.999992370605,
+					["minchatwidthdefault"] = 295.999969482422,
+					["minchatwidth"] = 340,
 					["framealpha"] = 0.75,
 					["maxchatheightdefault"] = 400,
 					["maxchatwidthdefault"] = 608,
-					["minchatwidthdefault"] = 295.999969482422,
-					["minchatwidth"] = 340,
+					["initialized"] = true,
+					["minchatheightdefault"] = 119.999992370605,
 				},
 				["Default"] = {
 					["minchatwidthdefault"] = 295.999969482422,
@@ -40,58 +40,58 @@ Prat3DB = {
 				["Laru Extended"] = {
 					["colors"] = {
 						["sayfheiler"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 						["sng"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 						["lemmingbros"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
 							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["sayfheal"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
 							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["rcelva"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 					},
 				},
 				["Default"] = {
 					["colors"] = {
 						["sayfheiler"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
 							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["sng"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
 							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["lemmingbros"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 						["sayfheal"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 						["rcelva"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
 							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 					},
 				},
@@ -101,16 +101,16 @@ Prat3DB = {
 			["profiles"] = {
 				["Laru Extended"] = {
 					["edgeSize"] = 16,
-					["editX"] = 356.000427246094,
+					["backgroundColor"] = {
+						["a"] = 0,
+					},
 					["editW"] = 346.999816894531,
-					["border"] = "ArkInventory Square 1",
+					["editX"] = 356.000427246094,
 					["tileSize"] = 1,
 					["editY"] = 24.9963779449463,
 					["background"] = "Solid",
 					["inset"] = 1,
-					["backgroundColor"] = {
-						["a"] = 0,
-					},
+					["border"] = "ArkInventory Square 1",
 				},
 				["Default"] = {
 					["edgeSize"] = 16,
@@ -160,8 +160,6 @@ Prat3DB = {
 		},
 		["Prat_UrlCopy"] = {
 		},
-		["Prat_KeyBindings"] = {
-		},
 		["Prat_Font"] = {
 			["profiles"] = {
 				["Laru Extended"] = {
@@ -169,8 +167,8 @@ Prat3DB = {
 					["rememberfont"] = true,
 					["size"] = {
 						["ChatFrame2"] = 13,
-						["ChatFrame1"] = 13,
 						["ChatFrame3"] = 13,
+						["ChatFrame1"] = 13,
 					},
 				},
 				["Default"] = {
@@ -197,7 +195,55 @@ Prat3DB = {
 				},
 			},
 		},
+		["Prat_KeyBindings"] = {
+		},
+		["Prat_PopupMessage"] = {
+		},
+		["Prat_Sounds"] = {
+		},
 		["Prat_Scroll"] = {
+		},
+		["Prat_Achievements"] = {
+		},
+		["Prat_Paragraph"] = {
+			["profiles"] = {
+				["Laru Extended"] = {
+					["on"] = true,
+				},
+				["Default"] = {
+					["on"] = true,
+					["justification"] = {
+						["ChatFrame1"] = "RIGHT",
+					},
+				},
+			},
+		},
+		["Prat_Alias"] = {
+		},
+		["Prat_OriginalButtons"] = {
+		},
+		["Prat_Highlight"] = {
+		},
+		["Prat_ChatLog"] = {
+		},
+		["Prat_ChannelSticky"] = {
+		},
+		["Prat_Invites"] = {
+		},
+		["Prat_History"] = {
+		},
+		["Prat_CopyChat"] = {
+			["profiles"] = {
+				["Laru Extended"] = {
+					["buttonpos"] = "BOTTOMLEFT",
+					["showbutton"] = {
+						["ChatFrame2"] = false,
+						["ChatFrame4"] = false,
+						["ChatFrame5"] = false,
+						["ChatFrame1"] = false,
+					},
+				},
+			},
 		},
 		["Prat_Timestamps"] = {
 			["profiles"] = {
@@ -221,67 +267,23 @@ Prat3DB = {
 				},
 			},
 		},
-		["Prat_Achievements"] = {
-		},
-		["Prat_Paragraph"] = {
-			["profiles"] = {
-				["Laru Extended"] = {
-					["on"] = true,
-				},
-				["Default"] = {
-					["on"] = true,
-					["justification"] = {
-						["ChatFrame1"] = "RIGHT",
-					},
-				},
-			},
-		},
-		["Prat_Alias"] = {
-		},
-		["Prat_OriginalButtons"] = {
-		},
-		["Prat_History"] = {
-		},
-		["Prat_ChatLog"] = {
-		},
-		["Prat_ChannelSticky"] = {
-		},
-		["Prat_Invites"] = {
-		},
-		["Prat_Sounds"] = {
-		},
-		["Prat_CopyChat"] = {
-			["profiles"] = {
-				["Laru Extended"] = {
-					["buttonpos"] = "BOTTOMLEFT",
-					["showbutton"] = {
-						["ChatFrame2"] = false,
-						["ChatFrame4"] = false,
-						["ChatFrame5"] = false,
-						["ChatFrame1"] = false,
-					},
-				},
-			},
-		},
-		["Prat_PopupMessage"] = {
-		},
 		["Prat_Search"] = {
 		},
 		["Prat_Buttons"] = {
 			["profiles"] = {
 				["Laru Extended"] = {
-					["scrollReminder"] = false,
-					["showBnet"] = false,
-					["showButtons"] = false,
-					["showMenu"] = false,
 					["showminimize"] = false,
+					["showBnet"] = false,
+					["scrollReminder"] = false,
+					["showMenu"] = false,
+					["showButtons"] = false,
 				},
 				["Default"] = {
-					["showminimize"] = false,
+					["scrollReminder"] = false,
 					["showBnet"] = false,
 					["showButtons"] = false,
+					["showminimize"] = false,
 					["showMenu"] = false,
-					["scrollReminder"] = false,
 				},
 			},
 		},
@@ -292,8 +294,8 @@ Prat3DB = {
 					["randomclr"] = false,
 				},
 				["Default"] = {
-					["randomclr"] = false,
 					["autoabbreviate"] = false,
+					["randomclr"] = false,
 				},
 			},
 		},
@@ -310,42 +312,42 @@ Prat3DB = {
 		["Laru - Frostwolf"] = "Laru Extended",
 		["Solarius - Frostwolf"] = "Laru Extended",
 		["Larulol - Frostwolf"] = "Default",
-		["Chuckxn - Frostwolf"] = "Laru Extended",
+		["Larumuh - Frostwolf"] = "Laru Extended",
 		["Loonytoon - Aegwynn"] = "Default",
 		["Nanahara - Aegwynn"] = "Laru Extended",
-		["Blaustrumpf - Frostwolf"] = "Default",
+		["Gdgff - Vek'lor"] = "Default",
 		["Glibunkel - Aegwynn"] = "Default",
 		["Laruwtf - Frostwolf"] = "Default",
 		["Himbeerblau - Frostwolf"] = "Laru Extended",
-		["Laruxd - Frostwolf"] = "Default",
 		["Laruchan - Frostwolf"] = "Laru Extended",
-		["Gdgff - Vek'lor"] = "Default",
-		["Larumuh - Frostwolf"] = "Laru Extended",
+		["Laruxd - Frostwolf"] = "Default",
+		["Blaustrumpf - Frostwolf"] = "Default",
+		["Chuckxn - Frostwolf"] = "Laru Extended",
 	},
 	["profiles"] = {
 		["MAGE"] = {
 		},
 		["Laru Extended"] = {
 			["modules"] = {
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 				["ChatTabs"] = 3,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
 				["Sounds"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 			},
 		},
 		["Default"] = {
 			["modules"] = {
 				["Sounds"] = 2,
 				["ChatTabs"] = 3,
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["OriginalButtons"] = 2,
 				["PopupMessage"] = 2,
-				["Alias"] = 2,
 				["AltNames"] = 2,
+				["ChatLog"] = 2,
 				["KeyBindings"] = 2,
 			},
 		},

@@ -5,11 +5,11 @@ CliqueDB3 = {
 		["Laru - Frostwolf"] = {
 			["spec1_profileKey"] = "Laru - Frostwolf",
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Laru - Frostwolf",
+			["specswap"] = false,
 			["downclick"] = false,
+			["spec2_profileKey"] = "Laru - Frostwolf",
 			["spec3_profileKey"] = "Laru - Frostwolf",
 			["alerthidden"] = true,
-			["specswap"] = false,
 		},
 		["Taobaibai - Frostwolf"] = {
 			["alerthidden"] = true,
@@ -372,24 +372,6 @@ CliqueDB3 = {
 					},
 				}, -- [1]
 				{
-					["spell"] = "Lay on Hands",
-					["key"] = "J",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["type"] = "spell",
-				}, -- [2]
-				{
-					["spell"] = "Blessing of Protection",
-					["key"] = "SHIFT-E",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135964,
-					["type"] = "spell",
-				}, -- [3]
-				{
 					["spell"] = "Blessing of Sacrifice",
 					["key"] = "SHIFT-W",
 					["sets"] = {
@@ -397,16 +379,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135966,
 					["type"] = "spell",
-				}, -- [4]
-				{
-					["spell"] = "Beacon of Faith",
-					["key"] = "SHIFT-Q",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 1030095,
-					["type"] = "spell",
-				}, -- [5]
+				}, -- [2]
 				{
 					["spell"] = "Blessing of Freedom",
 					["key"] = "SHIFT-F",
@@ -415,25 +388,43 @@ CliqueDB3 = {
 					},
 					["icon"] = 135968,
 					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Beacon of Faith",
+					["key"] = "SHIFT-Q",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 1030095,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Lay on Hands",
+					["key"] = "J",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Blessing of Protection",
+					["key"] = "SHIFT-E",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135964,
+					["type"] = "spell",
 				}, -- [6]
 				{
-					["spell"] = "Bestow Faith",
-					["key"] = "E",
+					["spell"] = "Cleanse",
+					["key"] = "G",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 236249,
+					["icon"] = 135949,
 					["type"] = "spell",
 				}, -- [7]
-				{
-					["spell"] = "Holy Light",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135981,
-					["type"] = "spell",
-				}, -- [8]
 				{
 					["spell"] = "Beacon of Light",
 					["key"] = "Q",
@@ -442,7 +433,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 236247,
 					["type"] = "spell",
-				}, -- [9]
+				}, -- [8]
 				{
 					["spell"] = "Holy Shock",
 					["key"] = "BUTTON1",
@@ -451,14 +442,23 @@ CliqueDB3 = {
 					},
 					["icon"] = 135972,
 					["type"] = "spell",
-				}, -- [10]
+				}, -- [9]
 				{
-					["spell"] = "Cleanse",
-					["key"] = "G",
+					["spell"] = "Holy Light",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135949,
+					["icon"] = 135981,
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spell"] = "Bestow Faith",
+					["key"] = "E",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 236249,
 					["type"] = "spell",
 				}, -- [11]
 				{

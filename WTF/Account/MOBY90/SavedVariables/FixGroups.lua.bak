@@ -11,7 +11,7 @@ FixGroupsDB = {
 			["damagerRoleGuildCache"] = {
 				["melee"] = {
 					["Bêlya-"] = 1531943840,
-					["Bêlya-Frostwolf"] = 1531947839,
+					["Bêlya-Frostwolf"] = 1532281332,
 					["Muhdiv-"] = 1530899275,
 					["Muhdiv-Frostwolf"] = 1530902735,
 				},

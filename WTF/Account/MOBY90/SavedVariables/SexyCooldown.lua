@@ -45,7 +45,7 @@ SexyCooldownDB = {
 						["PET_SPELL_COOLDOWN"] = false,
 					},
 					["bar"] = {
-						["orientation"] = "RIGHT_TO_LEFT",
+						["height"] = 13.0001192092896,
 						["backgroundColor"] = {
 							["a"] = 1,
 							["b"] = 0.67843137254902,
@@ -60,7 +60,7 @@ SexyCooldownDB = {
 						},
 						["time_max"] = 200,
 						["time_compression"] = 1,
-						["height"] = 13.0001192092896,
+						["inactiveAlpha"] = 0,
 						["borderColor"] = {
 							["a"] = 0,
 							["b"] = 1,
@@ -72,7 +72,7 @@ SexyCooldownDB = {
 						["x"] = -270,
 						["name"] = "Damage",
 						["lock"] = true,
-						["inactiveAlpha"] = 0,
+						["orientation"] = "RIGHT_TO_LEFT",
 						["flexible"] = true,
 						["advancedOptions"] = true,
 						["texture"] = "Grid2 Flat",
@@ -150,11 +150,11 @@ SexyCooldownDB = {
 						["spell:231657"] = "Judgment",
 						["spell:200025"] = "Beacon of Virtue",
 						["spell:125439"] = "Revive Battle Pets",
-						["spell:2050"] = "Holy Word: Serenity",
+						["spell:231661"] = "Judgment",
 						["spell:14914"] = "Holy Fire",
 						["spell:64843"] = "Divine Hymn",
 						["spell:26573"] = "Consecration",
-						["spell:31884"] = "Avenging Wrath",
+						["spell:2050"] = "Holy Word: Serenity",
 						["spell:114158"] = "Light's Hammer",
 						["spell:198034"] = "Divine Hammer",
 						["spell:47788"] = "Guardian Spirit",
@@ -176,7 +176,7 @@ SexyCooldownDB = {
 						["spell:216331"] = "Avenging Crusader",
 						["spell:184575"] = "Blade of Justice",
 						["spell:20473"] = "Holy Shock",
-						["spell:231661"] = "Judgment",
+						["spell:31884"] = "Avenging Wrath",
 					},
 					["eventColors"] = {
 					},
@@ -203,7 +203,7 @@ SexyCooldownDB = {
 						["timeOffset"] = -13,
 					},
 					["bar"] = {
-						["height"] = 13.0001192092896,
+						["orientation"] = "LEFT_TO_RIGHT",
 						["advancedOptions"] = true,
 						["fontColor"] = {
 							["a"] = 0,
@@ -213,7 +213,7 @@ SexyCooldownDB = {
 						},
 						["time_max"] = 200,
 						["time_compression"] = 0.36,
-						["orientation"] = "LEFT_TO_RIGHT",
+						["inactiveAlpha"] = 0,
 						["lock"] = true,
 						["width"] = 400,
 						["y"] = 388.000244140625,
@@ -225,7 +225,7 @@ SexyCooldownDB = {
 							["g"] = 0.52156862745098,
 							["b"] = 1,
 						},
-						["inactiveAlpha"] = 0,
+						["height"] = 13.0001192092896,
 						["x"] = 270,
 						["backgroundColor"] = {
 							["a"] = 1,

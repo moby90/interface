@@ -79,7 +79,7 @@ SexyCooldownDB = {
 						["timeOffset"] = -13,
 					},
 					["bar"] = {
-						["inactiveAlpha"] = 0,
+						["orientation"] = "RIGHT_TO_LEFT",
 						["advancedOptions"] = true,
 						["fontColor"] = {
 							["a"] = 0,
@@ -89,7 +89,7 @@ SexyCooldownDB = {
 						},
 						["x"] = -270,
 						["time_compression"] = 1,
-						["orientation"] = "RIGHT_TO_LEFT",
+						["height"] = 13.0001192092896,
 						["lock"] = true,
 						["width"] = 400,
 						["y"] = 387.99951171875,
@@ -101,7 +101,7 @@ SexyCooldownDB = {
 							["g"] = 0.52156862745098,
 							["b"] = 1,
 						},
-						["height"] = 13.0001192092896,
+						["inactiveAlpha"] = 0,
 						["time_max"] = 200,
 						["backgroundColor"] = {
 							["a"] = 1,
@@ -118,7 +118,7 @@ SexyCooldownDB = {
 						["PET_SPELL_COOLDOWN"] = false,
 					},
 					["bar"] = {
-						["inactiveAlpha"] = 0,
+						["height"] = 13.0001192092896,
 						["backgroundColor"] = {
 							["a"] = 1,
 							["b"] = 0.67843137254902,
@@ -133,7 +133,7 @@ SexyCooldownDB = {
 						},
 						["flexible"] = true,
 						["time_compression"] = 0.36,
-						["height"] = 13.0001192092896,
+						["orientation"] = "LEFT_TO_RIGHT",
 						["borderColor"] = {
 							["a"] = 0,
 							["b"] = 1,
@@ -145,7 +145,7 @@ SexyCooldownDB = {
 						["x"] = 270,
 						["name"] = "Utility",
 						["lock"] = true,
-						["orientation"] = "LEFT_TO_RIGHT",
+						["inactiveAlpha"] = 0,
 						["time_max"] = 200,
 						["advancedOptions"] = true,
 						["texture"] = "Grid2 Flat",
@@ -178,11 +178,11 @@ SexyCooldownDB = {
 						["spell:231657"] = "Judgment",
 						["spell:200025"] = "Beacon of Virtue",
 						["spell:125439"] = "Revive Battle Pets",
-						["spell:31884"] = "Avenging Wrath",
+						["spell:2050"] = "Holy Word: Serenity",
 						["spell:14914"] = "Holy Fire",
 						["spell:131206"] = "Path of the Shado-Pan",
 						["spell:26573"] = "Consecration",
-						["spell:231661"] = "Judgment",
+						["spell:31884"] = "Avenging Wrath",
 						["spell:114158"] = "Light's Hammer",
 						["spell:198034"] = "Divine Hammer",
 						["spell:47788"] = "Guardian Spirit",
@@ -204,7 +204,7 @@ SexyCooldownDB = {
 						["spell:33076"] = "Prayer of Mending",
 						["spell:152262"] = "Seraphim",
 						["spell:64843"] = "Divine Hymn",
-						["spell:2050"] = "Holy Word: Serenity",
+						["spell:231661"] = "Judgment",
 					},
 				}, -- [2]
 			},

@@ -1,11 +1,4 @@
 Version: 1
-Frame: LootFrame
-FrameLevel: 1
-Anchor: TOP
-X: 30
-Y: -171
-W: 170
-H: 240
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: CENTER
@@ -27,3 +20,10 @@ X: 0
 Y: 0
 W: 210
 H: 183
+Frame: LootFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 34
+Y: 24
+W: 170
+H: 240

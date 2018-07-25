@@ -1,8 +1,8 @@
-## Interface: 70300
+## Interface: 80000
 ## Title: PetJournal Enhanced
 ## Notes: Enhances the Pet Journal with various functions and filters.
 ## Author: nullberri
-## Version: 2.9.29
+## Version: 2.9.30
 ## LoadOnDemand: 1
 ## LoadWith: Blizzard_Collections
 ## SavedVariables: PetJournalEnhancedDB
@@ -40,7 +40,7 @@ modules\StaticData.lua
 modules\config.lua
 
 #dep: StaticData
-modules\ZoneFiltering.lua
+#modules\ZoneFiltering.lua
 
 #dep: Config
 modules\UniqueCount.lua

@@ -1694,6 +1694,20 @@ L["STRING_WELCOME_7"] = "usado em rankings, este método usa o tempo total da lu
 L["STRING_WELCOME_70"] = "Config da Barra de Título"
 L["STRING_WELCOME_71"] = "Config das Barras"
 L["STRING_WELCOME_72"] = "Config das Janelas"
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_73"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_74"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_75"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_76"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_77"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_78"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_WELCOME_79"] = ""--]] 
 L["STRING_WINDOW_NOTFOUND"] = "Nenhuma janela encontrada."
 L["STRING_WINDOW_NUMBER"] = "número da janela"
 L["STRING_WINDOW1ATACH_DESC"] = "Para criar um grupo de janelas, mova a janela #2 para perto da janela #1."

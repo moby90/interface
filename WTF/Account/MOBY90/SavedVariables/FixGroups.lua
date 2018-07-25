@@ -36,28 +36,22 @@ FixGroupsDB = {
 		["Horde"] = {
 			["damagerRoleNonGuildCache"] = {
 				["melee"] = {
-					["Thormuk-Blackhand"] = 1532028864,
-					["Coljin-Nera'thor"] = 1532030519,
-					["Tschaka-Blackhand"] = 1532029917,
-					["Eldohno-ZirkeldesCenarius"] = 1532030512,
-					["Burai-Zuluhed"] = 1532030487,
 				},
 				["ranged"] = {
-					["Hornmax-Thrall"] = 1532029918,
 				},
 			},
 			["damagerRoleGuildCache"] = {
 				["melee"] = {
+					["Bêlya-"] = 1531943840,
+					["Bêlya-Frostwolf"] = 1532281332,
 					["Muhdiv-"] = 1530899275,
 					["Muhdiv-Frostwolf"] = 1530902735,
-					["Bêlya-"] = 1531943840,
-					["Bêlya-Frostwolf"] = 1531947839,
 				},
 				["ranged"] = {
-					["Quovi-Frostwolf"] = 1530901022,
+					["Quovi-"] = 1530900912,
 					["Taydruid-"] = 1531167672,
 					["Taydruid-Frostwolf"] = 1531947824,
-					["Quovi-"] = 1530900912,
+					["Quovi-Frostwolf"] = 1530901022,
 				},
 			},
 		},

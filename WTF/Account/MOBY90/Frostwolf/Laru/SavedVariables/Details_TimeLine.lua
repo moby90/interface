@@ -3,34 +3,34 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "21:58:01",
-			["date_start"] = "21:58:00",
-			["name"] = "Lord Aurius Rivendare",
-			["total_time"] = 0.152999999932945,
+			["date_end"] = "21:52:26",
+			["date_start"] = "21:52:25",
+			["name"] = "High Astromancer Solarian",
+			["total_time"] = 0.692000000039116,
 		}, -- [1]
 		{
-			["date_end"] = "21:57:23",
-			["date_start"] = "21:57:23",
-			["name"] = "Ramstein the Gorger",
-			["total_time"] = 0.625,
+			["date_end"] = "21:52:26",
+			["date_start"] = "21:52:25",
+			["name"] = "High Astromancer Solarian",
+			["total_time"] = 0.692000000039116,
 		}, -- [2]
 		{
-			["date_end"] = "21:57:21",
-			["date_start"] = "21:55:42",
-			["name"] = "Nerub'enkan",
-			["total_time"] = 98.75,
+			["date_end"] = "21:50:53",
+			["date_start"] = "21:50:27",
+			["name"] = "Al'ar",
+			["total_time"] = 26.564000000013,
 		}, -- [3]
 		{
-			["date_end"] = "21:54:58",
-			["date_start"] = "21:54:35",
-			["name"] = "Maleki the Pallid",
-			["total_time"] = 23.2989999999991,
+			["date_end"] = "21:42:43",
+			["date_start"] = "21:41:49",
+			["name"] = "Nefarian",
+			["total_time"] = 53.7630000000354,
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
 	["useicons"] = false,
 	["window_scale"] = 1,
-	["cooldowns_timeline"] = {
+	["deaths_data"] = {
 		{
 		}, -- [1]
 		{
@@ -56,7 +56,7 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
-	["deaths_data"] = {
+	["cooldowns_timeline"] = {
 		{
 		}, -- [1]
 		{

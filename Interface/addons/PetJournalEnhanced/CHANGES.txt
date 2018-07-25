@@ -1,10 +1,16 @@
-tag e8993443142d1cdfb2ef48e4eb6483c5db124995 2.9.29
+lightweight tag ad406f439117e69c7a5559d742eec22c40b5c0c1 2.9.30
 Author:	Benjamin Staneck <staneck@gmail.com>
-Date:	Wed Aug 30 22:05:31 2017 +0200
+Date:	Wed Jul 18 18:55:17 2018 +0200
 
-commit eea17ff391cbaf72ff15d08391dc0ec12335aeec
+commit ad406f439117e69c7a5559d742eec22c40b5c0c1
 Author: Benjamin Staneck <staneck@gmail.com>
-Date:   Wed Aug 30 22:05:21 2017 +0200
+Date:   Wed Jul 18 18:55:17 2018 +0200
 
-    fix PlaySound
+    update toc for patch 8.0
+
+commit d38635c20caa438ace300f81c1d12d98d7c2f46a
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Wed Jul 18 18:52:10 2018 +0200
+
+    disable zone filtering for now
 
