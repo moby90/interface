@@ -2,13 +2,7 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
-		["Laru - Frostwolf"] = {
-			["spec1_profileKey"] = "Laru - Frostwolf",
-			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
-			["spec2_profileKey"] = "Laru - Frostwolf",
-			["spec3_profileKey"] = "Laru - Frostwolf",
+		["Larumuh - Frostwolf"] = {
 			["alerthidden"] = true,
 		},
 		["Taobaibai - Frostwolf"] = {
@@ -17,8 +11,14 @@ CliqueDB3 = {
 		["Solarius - Frostwolf"] = {
 			["alerthidden"] = true,
 		},
-		["Larumuh - Frostwolf"] = {
+		["Laru - Frostwolf"] = {
+			["spec1_profileKey"] = "Laru - Frostwolf",
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Laru - Frostwolf",
+			["downclick"] = false,
+			["specswap"] = false,
 			["alerthidden"] = true,
+			["spec3_profileKey"] = "Laru - Frostwolf",
 		},
 	},
 	["profileKeys"] = {
@@ -40,10 +40,10 @@ CliqueDB3 = {
 		["Chuckxn - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -59,10 +59,10 @@ CliqueDB3 = {
 		["Zurica - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -78,10 +78,10 @@ CliqueDB3 = {
 		["Laruchan - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -97,10 +97,10 @@ CliqueDB3 = {
 		["Bizzl - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -116,10 +116,10 @@ CliqueDB3 = {
 		["Ziltik - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -135,10 +135,10 @@ CliqueDB3 = {
 		["Larulol - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -154,10 +154,10 @@ CliqueDB3 = {
 		["Toxiquak - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -218,10 +218,10 @@ CliqueDB3 = {
 		["Himbeerblau - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -237,10 +237,10 @@ CliqueDB3 = {
 		["Larumuh - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -346,10 +346,10 @@ CliqueDB3 = {
 		["Blaustrumpf - Frostwolf"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -372,24 +372,6 @@ CliqueDB3 = {
 					},
 				}, -- [1]
 				{
-					["spell"] = "Blessing of Sacrifice",
-					["key"] = "SHIFT-W",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135966,
-					["type"] = "spell",
-				}, -- [2]
-				{
-					["spell"] = "Blessing of Freedom",
-					["key"] = "SHIFT-F",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135968,
-					["type"] = "spell",
-				}, -- [3]
-				{
 					["spell"] = "Beacon of Faith",
 					["key"] = "SHIFT-Q",
 					["sets"] = {
@@ -397,16 +379,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 1030095,
 					["type"] = "spell",
-				}, -- [4]
-				{
-					["spell"] = "Lay on Hands",
-					["key"] = "J",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["type"] = "spell",
-				}, -- [5]
+				}, -- [2]
 				{
 					["spell"] = "Blessing of Protection",
 					["key"] = "SHIFT-E",
@@ -415,25 +388,43 @@ CliqueDB3 = {
 					},
 					["icon"] = 135964,
 					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Lay on Hands",
+					["key"] = "J",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["spell"] = "Blessing of Sacrifice",
+					["key"] = "SHIFT-W",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135966,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Blessing of Freedom",
+					["key"] = "SHIFT-F",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135968,
+					["type"] = "spell",
 				}, -- [6]
 				{
-					["spell"] = "Cleanse",
-					["key"] = "G",
+					["spell"] = "Bestow Faith",
+					["key"] = "E",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135949,
+					["icon"] = 236249,
 					["type"] = "spell",
 				}, -- [7]
-				{
-					["spell"] = "Beacon of Light",
-					["key"] = "Q",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 236247,
-					["type"] = "spell",
-				}, -- [8]
 				{
 					["spell"] = "Holy Shock",
 					["key"] = "BUTTON1",
@@ -442,7 +433,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135972,
 					["type"] = "spell",
-				}, -- [9]
+				}, -- [8]
 				{
 					["spell"] = "Holy Light",
 					["key"] = "BUTTON2",
@@ -451,14 +442,23 @@ CliqueDB3 = {
 					},
 					["icon"] = 135981,
 					["type"] = "spell",
-				}, -- [10]
+				}, -- [9]
 				{
-					["spell"] = "Bestow Faith",
-					["key"] = "E",
+					["spell"] = "Beacon of Light",
+					["key"] = "Q",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 236249,
+					["icon"] = 236247,
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spell"] = "Cleanse",
+					["key"] = "G",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135949,
 					["type"] = "spell",
 				}, -- [11]
 				{

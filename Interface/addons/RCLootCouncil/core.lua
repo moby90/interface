@@ -5,7 +5,6 @@
 	Things marked with "todo"
 		- Emulate award stuff - i.e. log awards without awarding
 		- IDEA Change popups so they only hide on award/probably add the error message to it.
-		- TODO/IDEA Change chat_commands to seperate lines in order to have a table of printable cmds.
 
 	Backwards compability breaks:
 		- Remove equipLoc, subType, texture from lootTable. They can all be created with GetItemInfoInstant()
@@ -32,6 +31,11 @@
 	lootHistory:
 		RCHistory_ResponseEdit - fires when the user edits the response of a history entry. args: data (see LootHistory:BuildData())
 		RCHistory_NameEdit	-	fires when the user edits the receiver of a history entry. args: data.
+]]
+--[[ Notable AceComm-3.0 messages: (See RCLootCouncil:OnCommReceived() for receiving comms)
+	Comm prefix: "RCLootCouncil"
+		StartHandleLoot 			- Sent whenever RCLootCouncil starts handling loot.
+		StopHandleLoot				- Sent whenever RCLootCouncil stops handling loot.
 ]]
 --[===[@debug@
 --if LibDebug then LibDebug() end
@@ -448,6 +452,7 @@ function RCLootCouncil:OnEnable()
 	self:RegisterEvent("LOOT_OPENED",		"OnEvent")
 	self:RegisterEvent("LOOT_SLOT_CLEARED", "OnEvent")
 	self:RegisterEvent("LOOT_CLOSED",		"OnEvent")
+	self:RegisterEvent("ENCOUNTER_LOOT_RECEIVED", "OnEvent") -- REVIEW Check if boss loot is obtainable through this
 
 	--self:RegisterEvent("GROUP_ROSTER_UPDATE", "Debug", "event")
 
@@ -461,10 +466,8 @@ function RCLootCouncil:OnEnable()
 	self:ActivateSkin(db.currentSkin)
 
 	if self.db.global.version and self:VersionCompare(self.db.global.version, self.version) then -- We've upgraded
-		if self:VersionCompare(self.db.global.version, "2.7.0") then
-			self.db.global.localizedSubTypes = nil -- Removed in 2.7
-			self.db.profile.ignore = nil -- Replaced with ignoredItems in 2.7
-			self:ScheduleTimer("Print", 2, "v2.7 contains a lot of new features. See the changelog at https://www.curseforge.com/wow/addons/rclootcouncil/changes")
+		if self:VersionCompare(self.db.global.version, "2.8.1") then
+			wipe(db.itemStorage) -- Just in case some weird items are still there
 		end
 
 		self.db.global.oldVersion = self.db.global.version
@@ -716,6 +719,7 @@ function RCLootCouncil:UpdateAndSendRecentTradableItem(link)
 			end
 		end
 	end
+	self:Debug("Error - UpdateAndSendRecentTradableItem",link, "not found in bags")
 end
 
 -- Send the msg to the channel if it is valid. Otherwise just print the messsage.
@@ -1882,6 +1886,8 @@ function RCLootCouncil:OnEvent(event, ...)
 
 	elseif event == "LOOT_OPENED" then
 		self:Debug("Event:", event, ...)
+		self:Debug("GetUnitName:", GetUnitName("target"))
+		self:Debug("UnitGUID:", UnitGUID("target"))
 		if select(1, ...) ~= "scheduled" and self.LootOpenScheduled then return end -- When this function is scheduled to run again, but LOOT_OPENDED event fires, return.
 		self.LootOpenScheduled = false
 		wipe(self.lootSlotInfo)
@@ -1893,6 +1899,7 @@ function RCLootCouncil:OnEvent(event, ...)
 				local texture, name, quantity, quality, locked, isQuestItem, questId, isActive = GetLootSlotInfo(i)
 				local link = GetLootSlotLink(i)
 				if texture then
+					self:Debug("Adding to self.lootSlotInfo",i,link, quality)
 					self.lootSlotInfo[i] = {
 						name = name,
 						link = link, -- This could be nil, if the item is money.
@@ -1920,18 +1927,26 @@ function RCLootCouncil:OnEvent(event, ...)
 		if self.lootSlotInfo[slot] then -- If not, this is the 2nd LOOT_CLEARED event for the same thing. -_-
 			local link = self.lootSlotInfo[slot].link
 			local quality = self.lootSlotInfo[slot].quality
-			self:Debug("OnLootSlotCleared()", slot, link)
+			self:Debug("OnLootSlotCleared()", slot, link, quality)
 			self.lootSlotInfo[slot] = nil
-
-			if quality and quality >= GetLootThreshold() and IsInInstance() then -- Only send when in instance
+			-- v2.8.1 NOTE Quality is not ready here. Functionality handling on ENCOUNTER_LOOT_RECEIVED
+		--[[	if quality and quality >= GetLootThreshold() and IsInInstance() then -- Only send when in instance
 				-- Note that we don't check if this is master looted or not. We only know this is looted by ourselves.
 				self:ScheduleTimer("UpdateAndSendRecentTradableItem", 1, link) -- Delay a bit, need some time to between item removed from loot slot and moved to the bag.
-			end
+			end]]
 
 			if self.isMasterLooter then
 				self:GetActiveModule("masterlooter"):OnLootSlotCleared(slot, link)
 			end
 		end
+	elseif event == "ENCOUNTER_LOOT_RECEIVED" then
+		self:Debug("Event:", event, ...)
+		if self:UnitIsUnit("player", select(5, ...)) then
+			self:ScheduleTimer("UpdateAndSendRecentTradableItem", 2, select(3,...))
+		end
+
+	else
+		self:Debug("NonHandled Event:", event, ...)
 	end
 end
 
@@ -1946,9 +1961,8 @@ function RCLootCouncil:NewMLCheck()
 		return self:ScheduleTimer("NewMLCheck", 0.5)
 	end
 
-	if not self.isMasterLooter then -- we're not ML, so make sure it's disabled
-		self:GetActiveModule("masterlooter"):Disable()
-		self.handleLoot = false -- Reset
+	if not self.isMasterLooter and self:GetActiveModule("masterlooter"):IsEnabled() then -- we're not ML, so make sure it's disabled
+		self:StopHandleLoot()
 	end
 	if IsPartyLFG() then return end	-- We can't use in lfg/lfd so don't bother
 	if not self.masterLooter then return end -- Didn't find a leader or ML.
@@ -1997,9 +2011,18 @@ function RCLootCouncil:StartHandleLoot()
 	self:Print(L["Now handles looting"])
 	self:Debug("Start handle loot.")
 	self.handleLoot = true
+	self:SendCommand("group", "StartHandleLoot")
 	if #db.council == 0 then -- if there's no council
 		self:Print(L["You haven't set a council! You can edit your council by typing '/rc council'"])
 	end
+end
+
+--- Disables loot handling
+function RCLootCouncil:StopHandleLoot()
+	self:Debug("Stop handling loot")
+	self.handleLoot = false
+	self:GetActiveModule("masterlooter"):Disable()
+	self:SendCommand("group", "StopHandleLoot")
 end
 
 function RCLootCouncil:OnRaidEnter(arg)
@@ -2067,7 +2090,8 @@ function RCLootCouncil:GetInstalledModulesFormattedData()
 				modules[num] = modules[num].."-"..self:GetModule(name).tVersion
 			end
 		else
-			modules[num] = self:GetModule(name).baseName.. " - ".._G.UNKNOWN
+			local ver = GetAddOnMetadata(name, "Version")
+			modules[num] = self:GetModule(name).baseName.. " - "..(ver or _G.UNKNOWN)
 		end
 	end
 	return modules

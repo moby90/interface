@@ -27,6 +27,7 @@ local configDefaults = {
 	saveFilters = false,
 }
 local callbacks = {}
+local __filterTable
 
 local My_UIDropDownMenu_SetSelectedValue, My_UIDropDownMenu_GetSelectedValue, My_UIDropDownMenu_CreateInfo, My_UIDropDownMenu_AddButton, My_UIDropDownMenu_Initialize, My_UIDropDownMenuTemplate
 function Config:InitializeDropdown()
@@ -87,6 +88,9 @@ function Config:Set(key, newValue, silent)
 			AngryWorldQuests_Config[key] = newValue
 		end
 	end
+	if key == 'selectedFilters' then 
+		__filterTable = nil
+	end
 	if callbacks[key] and not silent then
 		for _, func in ipairs(callbacks[key]) do
 			func(key, newValue)
@@ -141,12 +145,14 @@ function Config:GetFilter(index)
 end
 
 function Config:GetFilterTable(numFilters)
+	if __filterTable ~= nil then return __filterTable end
 	local value = self:Get('selectedFilters')
 	local ret = {}
 	for i=1, numFilters do
 		local mask = 2^(i-1)
 		ret[i] = bit.band(value, mask) == mask
 	end
+	__filterTable = ret
 	return ret
 end
 
@@ -337,9 +343,9 @@ local function DropDown_Create(self)
 	DropDown_Index = DropDown_Index + 1
 	local dropdown = CreateFrame("Frame", ADDON.."ConfigDropDown"..DropDown_Index, self, My_UIDropDownMenuTemplate)
 	
-	local text = dropdown:CreateFontString(ADDON.."ConfigDropLabel"..DropDown_Index, "BACKGROUND", "GameFontNormal")
-	text:SetPoint("BOTTOMLEFT", dropdown, "TOPLEFT", 16, 3)
-	dropdown.Text = text
+	local label = dropdown:CreateFontString(ADDON.."ConfigDropLabel"..DropDown_Index, "BACKGROUND", "GameFontNormal")
+	label:SetPoint("BOTTOMLEFT", dropdown, "TOPLEFT", 16, 3)
+	dropdown.Label = label
 	
 	return dropdown
 end
@@ -386,7 +392,7 @@ Panel_OnRefresh = function(self)
 
 		for i,key in ipairs(dropdowns_order) do
 			dropdowns[i] = DropDown_Create(self)
-			dropdowns[i].Text:SetText( Addon.Locale['config_'..key] )
+			dropdowns[i].Label:SetText( Addon.Locale['config_'..key] )
 			dropdowns[i].configKey = key		
 			if i == 1 then
 				dropdowns[i]:SetPoint("TOPLEFT", checkboxes[#checkboxes], "BOTTOMLEFT", -13, -24)

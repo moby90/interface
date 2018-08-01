@@ -8,6 +8,9 @@
 -- |cff0055FF = blau/blue
 -- ***
 -- Changelog:
+-- 0.28 by Jim-Bim
+-- - Fixed issue with invalid mapID
+-- - Fixed issue with invalid mapPos
 -- 0.27 by Jim-Bim
 -- - TOC Update for 8.0
 -- - Adjusted API calls for BfA
@@ -120,6 +123,19 @@ function shwcrd(num)
 	else
 		return round(num * 100)
 	end
+end
+
+local function MapPositionToXY(arg)
+	local mapID = C_Map.GetBestMapForUnit(arg)
+	
+	if mapID and arg then
+		local mapPos = C_Map.GetPlayerMapPosition(mapID, arg)
+		if mapPos then
+			return mapPos:GetXY()
+		end
+	end
+	
+	return 0, 0
 end
 
 function MapCoords_OnLoad()
@@ -330,8 +346,7 @@ end
 
 function MapCoordsPlayer_OnUpdate()
 	if (MapCoords2["portrait player"] == true) then
-		local mapID = C_Map.GetBestMapForUnit("player")
-		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "player"):GetXY()
+		local posX, posY = MapPositionToXY("player")
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsPlayerPortraitCoords:SetText("n/a")
 		else
@@ -352,8 +367,7 @@ function MapCoordsPlayer_OnUpdate()
 	end
 	
 	if (MapCoords2["portrait party1"] == true and currentPlayers >= 1 and PartyMemberFrame1:IsVisible()) then
-		local mapID = C_Map.GetBestMapForUnit("party1")
-		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "party1"):GetXY()
+		local posX, posY = MapPositionToXY("party1")
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsParty1PortraitCoords:SetText("n/a")
 		else
@@ -363,8 +377,7 @@ function MapCoordsPlayer_OnUpdate()
 		MapCoordsParty1PortraitCoords:SetText("")
 	end
 	if (MapCoords2["portrait party2"] == true and currentPlayers >= 2 and PartyMemberFrame2:IsVisible()) then
-		local mapID = C_Map.GetBestMapForUnit("party2")
-		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "party2"):GetXY()
+		local posX, posY = MapPositionToXY("party2")
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsParty2PortraitCoords:SetText("n/a")
 		else
@@ -374,8 +387,7 @@ function MapCoordsPlayer_OnUpdate()
 		MapCoordsParty2PortraitCoords:SetText("")
 	end
 	if (MapCoords2["portrait party3"] == true and currentPlayers >= 3 and PartyMemberFrame3:IsVisible()) then
-		local mapID = C_Map.GetBestMapForUnit("party3")
-		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "party3"):GetXY()
+		local posX, posY = MapPositionToXY("party3")
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsParty3PortraitCoords:SetText("n/a")
 		else
@@ -385,8 +397,7 @@ function MapCoordsPlayer_OnUpdate()
 		MapCoordsParty3PortraitCoords:SetText("")
 	end
 	if (MapCoords2["portrait party4"] == true and currentPlayers >= 4 and PartyMemberFrame4:IsVisible()) then
-		local mapID = C_Map.GetBestMapForUnit("party4")
-		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "party4"):GetXY()
+		local posX, posY = MapPositionToXY("party4")
 		if ( posX == 0 and posY == 0 ) then
 			MapCoordsParty4PortraitCoords:SetText("n/a")
 		else
@@ -399,8 +410,7 @@ end
 
 function MapCoordsMiniMap_OnUpdate()
     if (MapCoords2["minimap"] == true) then
-        local mapID = C_Map.GetBestMapForUnit("player")
-		local posX, posY = C_Map.GetPlayerMapPosition(mapID, "player"):GetXY()
+        local posX, posY = MapPositionToXY("player")
         if ( posX == 0 and posY == 0 ) then
             MapCoordsMiniMap:SetText("n/a")
         else
@@ -427,12 +437,11 @@ function MapCoordsWorldMap_OnUpdate()
         end
     end
 	if (MapCoords2["worldmap player"] == true) then
-		local mapID = C_Map.GetBestMapForUnit("player")
-		local px, py = C_Map.GetPlayerMapPosition(mapID, "player"):GetXY()
-		if ( px == 0 and py == 0 ) then
+		local posX, posY = MapPositionToXY("player")
+		if ( posX == 0 and posY == 0 ) then
             output = output..MAPCOORDS_SLASH5.."n/a"
 		else
-            output = output..MAPCOORDS_SLASH5..shwcrd(px).." / "..shwcrd(py)
+            output = output..MAPCOORDS_SLASH5..shwcrd(posX).." / "..shwcrd(posY)
         end
 	end
 

@@ -1,22 +1,28 @@
 
 FixGroupsDB = {
-	["profiles"] = {
-		["Default"] = {
-			["options"] = {
-				["coreRaiderRank"] = {
-					["Jade Falcons-Frostwolf"] = 4,
+	["faction"] = {
+		["Horde"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
 				},
-				["minimapIcon"] = {
-					["minimapPos"] = 191.604997968475,
+				["ranged"] = {
 				},
-				["showMinimapIconPRN"] = true,
-				["showMinimapIconAlways"] = false,
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+					["Muhdiv-"] = 1530899275,
+					["Muhdiv-Frostwolf"] = 1532548510,
+					["Bêlya-Frostwolf"] = 1532548505,
+					["Bêlya-"] = 1532543960,
+				},
+				["ranged"] = {
+					["Quovi-Frostwolf"] = 1530901022,
+					["Taydruid-Frostwolf"] = 1532548515,
+					["Taydruid-"] = 1532546143,
+					["Quovi-"] = 1530900912,
+				},
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Taobaibai - Frostwolf"] = "Default",
-		["Laru - Frostwolf"] = "Default",
 	},
 	["global"] = {
 		["guildRanks"] = {
@@ -32,27 +38,21 @@ FixGroupsDB = {
 			},
 		},
 	},
-	["faction"] = {
-		["Horde"] = {
-			["damagerRoleNonGuildCache"] = {
-				["melee"] = {
+	["profileKeys"] = {
+		["Laru - Frostwolf"] = "Default",
+		["Taobaibai - Frostwolf"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["options"] = {
+				["coreRaiderRank"] = {
+					["Jade Falcons-Frostwolf"] = 4,
 				},
-				["ranged"] = {
+				["minimapIcon"] = {
+					["minimapPos"] = 191.604997968475,
 				},
-			},
-			["damagerRoleGuildCache"] = {
-				["melee"] = {
-					["Bêlya-"] = 1531943840,
-					["Bêlya-Frostwolf"] = 1532281332,
-					["Muhdiv-"] = 1530899275,
-					["Muhdiv-Frostwolf"] = 1530902735,
-				},
-				["ranged"] = {
-					["Quovi-"] = 1530900912,
-					["Taydruid-"] = 1531167672,
-					["Taydruid-Frostwolf"] = 1531947824,
-					["Quovi-Frostwolf"] = 1530901022,
-				},
+				["showMinimapIconPRN"] = true,
+				["showMinimapIconAlways"] = false,
 			},
 		},
 	},

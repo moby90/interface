@@ -1,4 +1,48 @@
 ------------------------------------------------------------------------
+r818 | michaelspain | 2018-07-22 08:45:33 +0000 (Sun, 22 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua
+
+- Fixed Grid2RaidDebuffs crash (ticket #566)
+------------------------------------------------------------------------
+r817 | michaelspain | 2018-07-21 19:11:20 +0000 (Sat, 21 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/modules/StatusDirection.lua
+
+Fixed Direction status crash.
+------------------------------------------------------------------------
+r816 | michaelspain | 2018-07-20 20:40:25 +0000 (Fri, 20 Jul 2018) | 3 lines
+Changed paths:
+   M /trunk/GridRoster.lua
+   M /trunk/modules/StatusDirection.lua
+   M /trunk/modules/StatusHealsAoe.lua
+   M /trunk/modules/StatusVoiceComm.lua
+
+-Fixed AOE Heals status (ticket #560)
+-Fixed Voice status (maybe, not tested).
+
+------------------------------------------------------------------------
+r815 | michaelspain | 2018-07-19 15:10:02 +0000 (Thu, 19 Jul 2018) | 4 lines
+Changed paths:
+   M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua
+   M /trunk/RaidDebuffsOptions/Grid2RaidDebuffsOptions.lua
+   M /trunk/RaidDebuffsOptions/OptionsAdvanced.lua
+   M /trunk/RaidDebuffsOptions/OptionsLuaCode.lua
+   M /trunk/RaidDebuffsOptions/OptionsRegAuto.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsBC.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsCataclysm.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsLegion.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsLichKing.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsMoP.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsWoD.lua
+   M /trunk/modules/StatusAurasDebuffs.lua
+   M /trunk/modules/StatusVoiceComm.lua
+
+-Fixed dispeleable debuffs crash (ticket #557)
+-Fixed Voice status crash, status was disabled, it does not work anymore(ticket #558)
+-Grid2RaidDebuffs: Due to Battle for Azeroth api changes WorldMapAreaIDs cannot be used anymore.
+So all WorldMapAreaIDs were converted to instanceMapIDs (8th parameter of GetInstanceInfo())
+------------------------------------------------------------------------
 r814 | michaelspain | 2018-07-17 22:13:56 +0000 (Tue, 17 Jul 2018) | 1 line
 Changed paths:
    M /trunk/Grid2.toc
