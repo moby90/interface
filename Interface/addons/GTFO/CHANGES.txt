@@ -1,25 +1,13 @@
 ------------------------------------------------------------------------
-r403 | Zensunim | 2018-07-17 17:24:28 +0000 (Tue, 17 Jul 2018) | 4 lines
+r405 | Zensunim | 2018-07-25 22:45:49 +0000 (Wed, 25 Jul 2018) | 3 lines
 Changed paths:
    M /trunk/GTFO.lua
    M /trunk/GTFO.toc
-   M /trunk/GTFO_Fail_BFA.lua
-   M /trunk/GTFO_Fail_LGN.lua
-   M /trunk/GTFO_Spells_BFA.lua
+   M /trunk/GTFO_Spells_Special.lua
    M /trunk/ReadMe.txt
 
-4.46
-* Added Legion spells for Brawler's Guild (a little late...)
-* Added Battle for Azeroth spells (world)
-* Updated for patch 8.0
-------------------------------------------------------------------------
-r402 | Zensunim | 2018-05-19 21:47:52 +0000 (Sat, 19 May 2018) | 1 line
-Changed paths:
-   M /trunk/GTFO.lua
-   M /trunk/GTFO.toc
-   M /trunk/GTFO_Spells_BFA.lua
-   M /trunk/ReadMe.txt
+4.46.1
+* Added Battle for Azeroth launch event spells (special)
 
-* Added Battle for Azeroth spells (world)
 ------------------------------------------------------------------------
 

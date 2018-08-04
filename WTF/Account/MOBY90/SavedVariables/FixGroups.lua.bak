@@ -42,16 +42,15 @@ FixGroupsDB = {
 			},
 			["damagerRoleGuildCache"] = {
 				["melee"] = {
-					["Bêlya-"] = 1531943840,
-					["Bêlya-Frostwolf"] = 1532281332,
-					["Muhdiv-"] = 1530899275,
-					["Muhdiv-Frostwolf"] = 1530902735,
+					["Bêlya-Frostwolf"] = 1533154107,
+					["Bêlya-"] = 1533153815,
+					["Muhdiv-Frostwolf"] = 1533154154,
 				},
 				["ranged"] = {
-					["Quovi-"] = 1530900912,
-					["Taydruid-"] = 1531167672,
-					["Taydruid-Frostwolf"] = 1531947824,
-					["Quovi-Frostwolf"] = 1530901022,
+					["Laìya-"] = 1533154128,
+					["Laìya-Frostwolf"] = 1533154101,
+					["Taydruid-Frostwolf"] = 1532548515,
+					["Taydruid-"] = 1532546143,
 				},
 			},
 		},

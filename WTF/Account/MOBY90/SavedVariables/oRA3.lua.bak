@@ -12,6 +12,15 @@ oRA3DB = {
 		},
 		["ReadyCheck"] = {
 		},
+		["Alerts"] = {
+			["profiles"] = {
+				["Laru"] = {
+					["enableForParty"] = false,
+					["enableForRaid"] = false,
+					["output"] = "raid",
+				},
+			},
+		},
 		["Difficulty"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -19,15 +28,6 @@ oRA3DB = {
 				},
 				["Laru"] = {
 					["prevRaidDifficulty"] = 15,
-				},
-			},
-		},
-		["Alerts"] = {
-			["profiles"] = {
-				["Laru"] = {
-					["output"] = "raid",
-					["enableForParty"] = false,
-					["enableForRaid"] = false,
 				},
 			},
 		},
@@ -49,22 +49,15 @@ oRA3DB = {
 		["Promote"] = {
 		},
 		["Cooldowns"] = {
-			["global"] = {
-				["spellsOnCooldown"] = {
-					[55233] = {
-						["Player-3703-04D7401D"] = 1044524.891,
-					},
-					[107574] = {
-						["Player-1407-06EAACC8"] = 1044488.117,
-					},
-					[51690] = {
-						["Player-604-0708B712"] = 1044545.417,
-					},
-				},
-				["lastTime"] = 1045167.754,
-			},
 			["profiles"] = {
 				["Default"] = {
+					["displays"] = {
+						["Default"] = {
+							["showDisplay"] = false,
+							["type"] = "Bars",
+							["barShorthand"] = true,
+						},
+					},
 					["spells"] = {
 						["Default"] = {
 							[740] = true,
@@ -77,13 +70,6 @@ oRA3DB = {
 							[55233] = true,
 						},
 					},
-					["displays"] = {
-						["Default"] = {
-							["showDisplay"] = false,
-							["type"] = "Bars",
-							["barShorthand"] = true,
-						},
-					},
 				},
 				["Laru"] = {
 					["enabled"] = false,
@@ -92,16 +78,16 @@ oRA3DB = {
 							[62618] = true,
 							[98008] = true,
 							[97462] = true,
-							[871] = true,
 							[2825] = true,
+							[871] = true,
 						},
 					},
 					["displays"] = {
 						["Default"] = {
-							["showDisplay"] = false,
 							["barHeight"] = 21,
-							["barShorthand"] = true,
+							["showDisplay"] = false,
 							["type"] = "Bars",
+							["barShorthand"] = true,
 						},
 					},
 				},
@@ -183,7 +169,7 @@ oRA3DB = {
 			["lastSelectedPanel"] = "Cooldowns",
 		},
 		["Laru"] = {
-			["lastSelectedPanel"] = "Checks",
+			["lastSelectedList"] = 2,
 			["positions"] = {
 				["oRA3CooldownFrameBarsDefault"] = {
 					["Height"] = 190.000015258789,
@@ -208,7 +194,7 @@ oRA3DB = {
 					["PosX"] = 307.199204487251,
 				},
 			},
-			["lastSelectedList"] = 2,
+			["lastSelectedPanel"] = "Checks",
 		},
 	},
 }

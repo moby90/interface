@@ -1329,3 +1329,5 @@ Change Log:
 * Added Battle for Azeroth spells (world)
 * Updated for patch 8.0
 
+4.46.1
+* Added Battle for Azeroth launch event spells (special)

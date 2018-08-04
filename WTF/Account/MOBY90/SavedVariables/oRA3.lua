@@ -24,13 +24,12 @@ oRA3DB = {
 				},
 			},
 		},
-		["Difficulty"] = {
+		["Alerts"] = {
 			["profiles"] = {
-				["Default"] = {
-					["prevRaidDifficulty"] = 15,
-				},
 				["Laru"] = {
-					["prevRaidDifficulty"] = 15,
+					["enableForParty"] = false,
+					["enableForRaid"] = false,
+					["output"] = "raid",
 				},
 			},
 		},
@@ -52,20 +51,6 @@ oRA3DB = {
 		["Promote"] = {
 		},
 		["Cooldowns"] = {
-			["global"] = {
-				["spellsOnCooldown"] = {
-					[107574] = {
-						["Player-1407-06EAACC8"] = 1044488.117,
-					},
-					[55233] = {
-						["Player-3703-04D7401D"] = 1044524.891,
-					},
-					[51690] = {
-						["Player-604-0708B712"] = 1044545.417,
-					},
-				},
-				["lastTime"] = 1221328.686,
-			},
 			["profiles"] = {
 				["Default"] = {
 					["displays"] = {
@@ -94,8 +79,8 @@ oRA3DB = {
 						["Default"] = {
 							[62618] = true,
 							[98008] = true,
-							[2825] = true,
 							[871] = true,
+							[2825] = true,
 							[97462] = true,
 						},
 					},
@@ -121,12 +106,13 @@ oRA3DB = {
 		},
 		["GuildRepairs"] = {
 		},
-		["Alerts"] = {
+		["Difficulty"] = {
 			["profiles"] = {
+				["Default"] = {
+					["prevRaidDifficulty"] = 15,
+				},
 				["Laru"] = {
-					["enableForParty"] = false,
-					["enableForRaid"] = false,
-					["output"] = "raid",
+					["prevRaidDifficulty"] = 15,
 				},
 			},
 		},
