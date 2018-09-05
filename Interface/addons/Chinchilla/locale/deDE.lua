@@ -21,8 +21,8 @@ L["Available quest"] = "Verfügbare Quest"
 L["Background"] = "Hintergrund"
 L["Battleground"] = "Schlachtfeld"
 L["Big Blizzard"] = "Big Blizzard"
---Translation missing 
--- L["Blink Rate"] = ""
+--[[Translation missing --]]
+--[[ L["Blink Rate"] = ""--]] 
 L["Blinking Blips"] = "Blinkende Verfolgungspunkte"
 L["Blip size"] = "Größe Markierung"
 L["Blizzard"] = "Blizzard"
@@ -154,8 +154,8 @@ L["Right mouse button"] = "Rechte Maustaste"
 L["Round"] = "Rund"
 L["See how the tracking dots will look"] = "Eine Vorschau wie die Symbole in der Minikarte aussehen werden."
 L["Set how far away from the center to place buttons on the minimap"] = "Festlegen, wie weit von der Mitte die Symbole an der Minikarte platziert werden."
---Translation missing 
--- L["Set how fast the blips flash."] = ""
+--[[Translation missing --]]
+--[[ L["Set how fast the blips flash."] = ""--]] 
 L["Set how large the blips on the minimap are"] = "Festlegen wie groß die Symbole in der Minikarte dargestellt werden sollen."
 L["Set how large the border texture is."] = "Festlegen der Größe der Rahmentextur"
 L["Set how large the minimap is"] = "Festlegen der Größe der Minikarte"
@@ -230,8 +230,8 @@ L["Show a test ping"] = "Zeigt einen Test-Ping"
 L["Show an expanded minimap on keypress"] = "Zeigt eine ausgedehnte Minikarte auf Tastendruck"
 L["Show and hide interface elements of the minimap"] = "Anzeigen und verstecken von Interface-Elementen der Minikarte."
 L["Show close button"] = "Zeigt Schließen-Symbol"
---Translation missing 
--- L["Show collapse button"] = ""
+--[[Translation missing --]]
+--[[ L["Show collapse button"] = ""--]] 
 L["Show coordinates on or near the minimap"] = "Zeigt Koordinaten auf oder in der Nähe der Minikarte"
 L["Show direction indicators on the minimap"] = "Zeigt Richtungsanzeige auf der Minikarte"
 L["Show in chat"] = "Im Chat anzeigen"

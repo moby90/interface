@@ -1,0 +1,16 @@
+lightweight tag 200ec3bf3b187c6705bc19822737451bd73d0a3c BFA-1.10
+Author:	TheBackstabi <thebackstabi@gmail.com>
+Date:	Sat Sep 1 13:28:24 2018 -0400
+
+commit 200ec3bf3b187c6705bc19822737451bd73d0a3c
+Author: TheBackstabi <thebackstabi@gmail.com>
+Date:   Sat Sep 1 13:28:24 2018 -0400
+
+    Fixed AceGUI/AceConfig errors when no other instance of Ace is found.
+
+commit fcdc8040e89f73d14e8defa2d7cbe3192ae67bb4
+Author: TheBackstabi <thebackstabi@gmail.com>
+Date:   Sat Sep 1 13:15:31 2018 -0400
+
+    Removed leftover debug printing. Added deDE, frFR, and ruRU translations.
+

@@ -1,4 +1,3 @@
-if not C_ChatInfo then return end -- XXX Don't load outside of 8.0
 
 --------------------------------------------------------------------------------
 -- Module Declaration
@@ -26,7 +25,7 @@ function mod:GetOptions()
 		{273282, "TANK"}, -- Essence Shear
 		273538, -- Obliteration Wave
 		272404, -- Oblivion Sphere
-		{272536, "SAY"}, -- Imminent Ruin
+		{272536, "SAY", "SAY_COUNTDOWN"}, -- Imminent Ruin
 		273810, -- Xalzaix's Awakening
 		274230, -- Oblivion's Veil
 		272115, -- Obliteration Beam
@@ -75,7 +74,7 @@ function mod:Annihilation(args)
 end
 
 function mod:EssenceShear(args)
-	self:Message(args.spellId, "yellow")
+	self:Message(args.spellId, "purple")
 	self:PlaySound(args.spellId, "alert")
 	if self:MobId(args.sourceGUID) == 134546 then -- Mythrax the Unraveler
 		self:Bar(args.spellId, 20)

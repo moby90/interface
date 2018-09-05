@@ -26,7 +26,7 @@ TradeSkillMaster_PriceReply: disabled
 TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_GuildSorter: disabled
 TradeSkillMaster_CoolDowns: disabled
-WorldQuestsList: disabled
+WorldQuestsList: enabled
 TrufiGCD: disabled
 MikScrollingBattleText: enabled
 MSBTOptions: enabled
@@ -121,3 +121,8 @@ WorldQuestAssistant: disabled
 GuildGreet: disabled
 ExRT: disabled
 HideTalkingHead: enabled
+WorldQuestParty: disabled
+flyPlateBuffs: disabled
+StealPurgeDispel: disabled
+bdCore: disabled
+bdNameplates: disabled

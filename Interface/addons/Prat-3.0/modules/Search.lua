@@ -53,8 +53,7 @@ Usage:
 		--[[ ["err_notfound"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["err_tooshort"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["find_results"] = "",--]] 
+		["find_results"] = "Résultats trouvés :",
 		--[[Translation missing --]]
 		--[[ ["module_desc"] = "",--]] 
 		--[[Translation missing --]]
@@ -173,10 +172,8 @@ Suche]=],
    L=
 {
 	["Search"] = {
-		--[[Translation missing --]]
-		--[[ ["err_notfound"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["err_tooshort"] = "",--]] 
+		["err_notfound"] = "No encontrado",
+		["err_tooshort"] = "Termino de búsqueda demasiado corto",
 		--[[Translation missing --]]
 		--[[ ["find_results"] = "",--]] 
 		--[[Translation missing --]]

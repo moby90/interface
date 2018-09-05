@@ -1,0 +1,12 @@
+tag 2aee102790b3935ceb70f193bfc138d1c2224f8f 8.0.0
+Author:	Bernhard Saumweber <b.saumweber@gmail.com>
+Date:	Fri Aug 17 10:38:18 2018 +0200
+
+Tagging 8.0.0
+
+commit 8a5acb83db1b427954dfa9633f5210804a2f1982
+Author: Bernhard Saumweber <b.saumweber@gmail.com>
+Date:   Sun Aug 12 22:39:43 2018 +0200
+
+    Updated README
+

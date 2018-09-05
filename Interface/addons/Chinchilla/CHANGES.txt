@@ -1,18 +1,12 @@
-tag 4f3fb771b5bde1d80fb62f24b05dbe7b2c3d124c v2.8.6
+tag e2eca4ad3eabc6152e457dfb04e1bd2f4091b2ff v2.9.1
 Author:	Ethan Centaurai <ethancentaurai@outlook.com>
-Date:	Wed Jan 17 21:03:21 2018 +0000
+Date:	Wed Aug 29 20:35:02 2018 +0100
 
-Tagging as v2.8.6.
+Tagging as v2.9.1.
 
-commit ce967d23c3dd7858d79e83b410f74be3e25f2a16
+commit a91138ca66d6e6acb902939c47fc4fd95e09eafd
 Author: Ethan Centaurai <ethancentaurai@outlook.com>
-Date:   Wed Jan 17 20:40:45 2018 +0000
+Date:   Mon Aug 27 15:29:33 2018 +0100
 
-    TrackingDots: Disabled blip preview temporarily.
-
-commit e304e94c0ed71711ec2f45f13fe2418b15bf44f8
-Author: Ethan Centaurai <ethancentaurai@outlook.com>
-Date:   Wed Jan 17 20:39:26 2018 +0000
-
-    TrackingDots: Updated blip atlas for Patch 7.3.5.
+    Expander: Use LibDBIcon-1.0's API instead of bypassing it.
 

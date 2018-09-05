@@ -266,7 +266,7 @@ TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_GuildSorter: disabled
 TradeSkillMaster_CoolDowns: disabled
 ElvUI_Lightbringer: enabled
-WorldQuestsList: disabled
+WorldQuestsList: enabled
 TrufiGCD: disabled
 CrossRealmAssist: disabled
 DBM-TombofSargeras: disabled
@@ -322,3 +322,11 @@ StarCursor: enabled
 WorldQuestAssistant: disabled
 RCLootCouncil: enabled
 HideTalkingHead: enabled
+Azeroth Auto Pilot: disabled
+WorldQuestParty: disabled
+flyPlateBuffs: disabled
+MapCoords: enabled
+StealPurgeDispel: disabled
+bdCore: disabled
+bdNameplates: disabled
+Plater: disabled

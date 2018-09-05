@@ -1011,12 +1011,16 @@ local default_profile = {
 			["aura"] = true,
 			["spellcast"] = true,
 		},
+		
+	--> bookmark
+		bookmark_text_size = 11,
 	
 	--> cloud capture
 		cloud_capture = true,
 	
 	--> combat
-		minimum_combat_time = 5,
+		minimum_combat_time = 5, --combats with less then this in elapsed time is discarted
+		minimum_overall_combat_time = 10, --minimum time the combat must have to be added into the overall data
 		overall_flag = 0x10,
 		overall_clear_newboss = true,
 		overall_clear_newchallenge = true,
@@ -1311,6 +1315,7 @@ local default_global_data = {
 		},
 		spell_pool = {},
 		encounter_spell_pool = {},
+		npcid_pool = {},
 		
 	--> aura creation frame libwindow
 		createauraframe = {},

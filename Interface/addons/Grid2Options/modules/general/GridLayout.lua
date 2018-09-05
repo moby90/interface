@@ -7,6 +7,7 @@ local L = Grid2Options.L
 local order_layout  = 20
 local order_display = 30
 local order_anchor  = 40
+local screen_w, screen_h = Grid2Options:GetScreenResolution()
 
 Grid2Options:AddGeneralOptions( "General" , "Layout Settings", { horizontal = {
 		type = "toggle",
@@ -30,18 +31,6 @@ Grid2Options:AddGeneralOptions( "General" , "Layout Settings", { horizontal = {
 		set = function()
 			Grid2Layout:FrameLock()
 		end,
-}, clickthrough = {
-		type = "toggle",
-		name = L["Click through the Grid Frame"],
-		desc = L["Allows mouse click through the Grid Frame."],
-		order = order_layout + 7,
-		get = function() return Grid2Layout.db.profile.ClickThrough end,
-		set = function()
-			local v = not Grid2Layout.db.profile.ClickThrough
-			Grid2Layout.db.profile.ClickThrough = v
-			Grid2Layout.frame:EnableMouse(not v)
-		end,
-		disabled = function () return not Grid2Layout.db.profile.FrameLock end,
 }, rightClickMenu = {
 		type = "toggle",
 		name = L["Right Click Menu"],
@@ -195,11 +184,43 @@ Grid2Options:AddGeneralOptions( "General" , "Layout Settings", { horizontal = {
 			if Grid2Options.LayoutTestRefresh then Grid2Options:LayoutTestRefresh() end
 		end,
 		values={["TOPLEFT"] = L["TOPLEFT"], ["TOPRIGHT"] = L["TOPRIGHT"], ["BOTTOMLEFT"] = L["BOTTOMLEFT"], ["BOTTOMRIGHT"] = L["BOTTOMRIGHT"] },
+}, positionx = {
+		type = "range",
+		name = L["Horizontal Position"],
+		desc = L["Adjust Grid2 horizontal position."],
+		order = order_anchor + 3,
+		softMin = -2048,
+		softMax = 2048,
+		step = 1,
+		get = function ()
+			return math.floor( Grid2Layout.db.profile.PosX * screen_w / (UIParent:GetWidth()*UIParent:GetEffectiveScale()) + 0.5 )
+		end,
+		set = function (_, v)
+			Grid2Layout.db.profile.PosX = v / (screen_w / (UIParent:GetWidth()*UIParent:GetEffectiveScale()))
+			Grid2Layout:RestorePosition()
+			Grid2Layout:SavePosition()
+		end,
+}, positiony = {
+		type = "range",
+		name = L["Vertical Position"],
+		desc = L["Adjust Grid2 vertical position."],
+		order = order_anchor + 4,
+		softMin = -2048,
+		softMax = 2048,
+		step = 1,
+		get = function ()
+			return math.floor( Grid2Layout.db.profile.PosY * screen_h / (UIParent:GetHeight()*UIParent:GetEffectiveScale()) + 0.5 )
+		end,
+		set = function (_, v)
+			Grid2Layout.db.profile.PosY = v / (screen_h / (UIParent:GetHeight()*UIParent:GetEffectiveScale()))
+			Grid2Layout:RestorePosition()
+			Grid2Layout:SavePosition()
+		end,
 }, clamp = {
 		type = "toggle",
 		name = L["Clamped to screen"],
 		desc = L["Toggle whether to permit movement out of screen."],
-		order = order_anchor + 3,
+		order = order_anchor + 5,
 		get = function ()
 				  return Grid2Layout.db.profile.clamp
 			  end,
@@ -212,6 +233,6 @@ Grid2Options:AddGeneralOptions( "General" , "Layout Settings", { horizontal = {
 		width = "half",
 		name = L["Reset"],
 		desc = L["Resets the layout frame's position and anchor."],
-		order = order_anchor + 4,
+		order = order_anchor + 6,
 		func = function () Grid2Layout:ResetPosition() end,
 }, } )

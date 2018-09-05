@@ -21,14 +21,14 @@ L["Available quest"] = "Quête disponible"
 L["Background"] = "Arrière-plan"
 L["Battleground"] = "Champ de bataille"
 L["Big Blizzard"] = "Blizzard grossis"
---Translation missing 
--- L["Blink Rate"] = ""
---Translation missing 
--- L["Blinking Blips"] = ""
+--[[Translation missing --]]
+--[[ L["Blink Rate"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Blinking Blips"] = ""--]] 
 L["Blip size"] = "Taille des spots"
 L["Blizzard"] = "Blizzard"
---Translation missing 
--- L["Blizzard, Big Resources"] = ""
+--[[Translation missing --]]
+--[[ L["Blizzard, Big Resources"] = ""--]] 
 L["Border"] = "Bordure"
 L["Border color"] = "Couleur de la bordure"
 L["Border radius"] = "Rayon de la bordure"
@@ -46,8 +46,8 @@ L["Calendar"] = "Calendrier"
 L["Capture bar"] = "Barre de capture"
 L["Center"] = "Centre"
 L["Change how the tracking dots look on the minimap."] = "Change les points de pistage (les points représentant des personnages) affichés sur la minicarte."
---Translation missing 
--- L["Charmed"] = ""
+--[[Translation missing --]]
+--[[ L["Charmed"] = ""--]] 
 L["Chinchilla Minimap"] = "Minicarte Chinchilla"
 L["Choose to toggle the expanded minimap or only keep it shown while pressing the button down."] = "Choisit d'afficher/cacher la minicarte étendue ou de la garder affichée uniquement en maintenant enfoncée le bouton."
 L["Clamped to Screen"] = "Garder à l'écran"
@@ -73,15 +73,15 @@ L["Enemy player"] = "Joueur ennemi"
 L["Expander"] = "Agrandisseur"
 L["Fadeout time"] = "Durée du fondu"
 L["Flat"] = "Flat"
---Translation missing 
--- L["Font"] = ""
+--[[Translation missing --]]
+--[[ L["Font"] = ""--]] 
 L["Frame level"] = "Niveau du cadre"
 L["Friendly npc"] = "PNJ amical"
 L["Friendly player"] = "Joueur amical"
 L["Fullscreen"] = "Plein écran"
 L["Fullscreen-dialog"] = "Plein écran-dialogue"
---Translation missing 
--- L["Garrison"] = ""
+--[[Translation missing --]]
+--[[ L["Garrison"] = ""--]] 
 L["Glass Spheres"] = "Sphères en verre"
 L["Guild difficulty"] = "Difficulté de guilde"
 L["Height"] = "Hauteur"
@@ -103,8 +103,8 @@ L["Lock any draggable items regarding the minimap, so they can't be dragged mist
 L["Lock buttons in place so that they won't be mistakenly dragged"] = "Verrouille les boutons à leur place actuelle afin qu'ils ne puissent pas être déplacés par accident."
 L["Low"] = "Faible"
 L["Mail"] = "Courrier"
---Translation missing 
--- L["Make the minimap blips flash to make them more noticable."] = ""
+--[[Translation missing --]]
+--[[ L["Make the minimap blips flash to make them more noticable."] = ""--]] 
 L["Medium"] = "Moyen"
 L["Middle mouse button"] = "Bouton central de la souris"
 L["Minimap"] = "Minicarte"
@@ -144,8 +144,8 @@ L["Position of the minimap on the screen"] = "Position de la minicarte sur l'éc
 L["Position of the quest/achievement tracker on the screen"] = "Position du suivi des objectifs sur l'écran."
 L["Position of the vehicle seat indicator on the screen"] = "Position de l'indicateur du véhicule de siège sur l'écran."
 L["Position of the world state indicator on the screen"] = "Position de l'indicateur d'état mondial sur l'écran."
---Translation missing 
--- L["Position the circular status window which shows in certain raid encounters."] = ""
+--[[Translation missing --]]
+--[[ L["Position the circular status window which shows in certain raid encounters."] = ""--]] 
 L["Precision"] = "Précision"
 L["Preferences button"] = "Bouton des préférences"
 L["Prevent the frames from being dragged off the edge of your screen."] = "Empêche le déplacement des cadres hors des bords de l'écran."
@@ -161,8 +161,8 @@ L["Right mouse button"] = "Bouton droit de la souris"
 L["Round"] = "Ronde"
 L["See how the tracking dots will look"] = "Permet de voir de quoi les points de pistage ont l'air."
 L["Set how far away from the center to place buttons on the minimap"] = "Définit à quelle distance du centre les boutons seront placés sur la minicarte."
---Translation missing 
--- L["Set how fast the blips flash."] = ""
+--[[Translation missing --]]
+--[[ L["Set how fast the blips flash."] = ""--]] 
 L["Set how large the blips on the minimap are"] = "Définit la taille des spots sur la minicarte."
 L["Set how large the border texture is."] = "Définit l'épaisseur de la texture de la bordure."
 L["Set how large the minimap is"] = "Définit la taille de la minicarte."
@@ -177,8 +177,8 @@ L["Set the position of the battleground indicator"] = "Définit la position de l
 L["Set the position of the calendar"] = "Définit la position du calendrier."
 L["Set the position of the clock"] = "Définit la position de l'horloge."
 L["Set the position of the coordinate indicator"] = "Définit la position de l'indicateur des coordonnées."
---Translation missing 
--- L["Set the position of the garrison report button"] = ""
+--[[Translation missing --]]
+--[[ L["Set the position of the garrison report button"] = ""--]] 
 L["Set the position of the guild instance difficulty indicator"] = "Définit la position de l'indicateur de difficulté d'instance de guilde."
 L["Set the position of the instance difficulty indicator"] = "Définit la position de l'indicateur de difficulté d'instance."
 L["Set the position of the location indicator"] = "Définit la position de l'indicateur de position."
@@ -229,8 +229,8 @@ L["Show a circle on the minimap at a prefered range"] = "Affiche un cercle sur l
 L["Show a frame that is movable to show where you want the boss frames to be"] = "Affiche un cadre amovible pour indiquer où vous souhaitez que les cadres d'unité des boss soient placées."
 L["Show a frame that is movable to show where you want the capture bar to be"] = "Affiche un cadre mobile indiquant où se trouve la barre de capture."
 L["Show a frame that is movable to show where you want the durability man to be"] = "Affiche un cadre mobile indiquant où se trouve le pantin en armure."
---Translation missing 
--- L["Show a frame that is movable to show where you want the power bar to be."] = ""
+--[[Translation missing --]]
+--[[ L["Show a frame that is movable to show where you want the power bar to be."] = ""--]] 
 L["Show a frame that is movable to show where you want the quest tracker to be"] = "Affiche un cadre mobile indiquant où se trouve le suivi des quêtes."
 L["Show a frame that is movable to show where you want the ticket status indicator to be"] = "Affiche un cadre mobile indiquant où se trouve l'indicateur du statut du ticket."
 L["Show a frame that is movable to show where you want the vehicle seat indicator to be"] = "Affiche un cadre mobile indiquant où se trouve l'indicateur du véhicule de siège."
@@ -239,8 +239,8 @@ L["Show a test ping"] = "Effectue un test du ping."
 L["Show an expanded minimap on keypress"] = "Affiche une minicarte agrandie à l'aide d'un raccourci."
 L["Show and hide interface elements of the minimap"] = "Affiche et masques les éléments de la minicarte."
 L["Show close button"] = "Bouton Fermer"
---Translation missing 
--- L["Show collapse button"] = ""
+--[[Translation missing --]]
+--[[ L["Show collapse button"] = ""--]] 
 L["Show coordinates on or near the minimap"] = "Affiche les coordonnées sur ou près de la minicarte."
 L["Show direction indicators on the minimap"] = "Affiche les indicateurs des directions sur la minicarte."
 L["Show in chat"] = "Afficher dans le chat"
@@ -253,8 +253,8 @@ L["Show the calendar"] = "Affiche le calendrier."
 L["Show the category banners on the quest tracker."] = "Affiche le titre dans le suivi de quête."
 L["Show the clock"] = "Affiche l'horloge."
 L["Show the collapse button on the quest tracker."] = "Affiche le bouton de réduction dans le suivi de quête."
---Translation missing 
--- L["Show the garrison report button"] = ""
+--[[Translation missing --]]
+--[[ L["Show the garrison report button"] = ""--]] 
 L["Show the instance difficulty flag on the minimap"] = "Affiche le marqueur de difficulté d'instance sur la minicarte."
 L["Show the location bar above the minimap"] = "Affiche la barre de position au dessus de la minicarte."
 L["Show the location text above the minimap"] = "Affiche le texte de position au dessus de la minicarte."
@@ -263,15 +263,15 @@ L["Show the mail indicator"] = "Affiche l'indicateur de courrier."
 L["Show the north symbol on the minimap"] = "Affiche la lettre symbolisant le nord sur la minicarte."
 L["Show the recording button"] = "Affiche le bouton d'enregistrement."
 L["Show the ticket status indicator"] = "Affiche l'indicateur du statut du ticket."
---Translation missing 
--- L["Show the title of the quest tracker."] = ""
+--[[Translation missing --]]
+--[[ L["Show the title of the quest tracker."] = ""--]] 
 L["Show the tracking indicator"] = "Affiche la bulle de pistage."
 L["Show the vehicle seats indicator"] = "Affiche l'indicateur du véhicule de siège."
 L["Show the voice chat button"] = "Affiche le bouton de la discussion vocale."
 L["Show the world map button"] = "Affiche le bouton de la carte du monde."
 L["Show the zoom in and out buttons"] = "Affiche les boutons pour zoomer et dézoomer."
---Translation missing 
--- L["Show title"] = ""
+--[[Translation missing --]]
+--[[ L["Show title"] = ""--]] 
 L["Show who last pinged the minimap"] = "Indique la dernière personne qui a pingé sur la minicarte."
 L["Show who pinged in chat instead of in a frame on the minimap."] = "Affiche qui a pingé dans la fenêtre de discussion au lieu de l'afficher sur la minicarte."
 L["Show zone information on or near minimap"] = "Affiche les informations concernant la zone sur ou près de la minicarte."

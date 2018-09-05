@@ -1,0 +1,5 @@
+r5
+* Memory usage optimizations
+
+r4
+* Updated for patch 8.0.1

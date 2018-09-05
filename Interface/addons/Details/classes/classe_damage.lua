@@ -1562,7 +1562,8 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 
 	--> n�o h� barras para mostrar -- not have something to show
 	if (#showing._ActorTable < 1) then 
-		if (_detalhes.debug) then
+		
+		if (_detalhes.debug and false) then
 			_detalhes.showing_ActorTable_Timer = _detalhes.showing_ActorTable_Timer or 0
 			if (time() > _detalhes.showing_ActorTable_Timer) then
 				_detalhes:Msg ("(debug) nothing to show -> #showing._ActorTable < 1")
@@ -2014,7 +2015,7 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 				end
 			
 				if (#conteudo < 1) then
-					if (_detalhes.debug) then
+					if (_detalhes.debug and false) then
 						_detalhes.showing_ActorTable_Timer2 = _detalhes.showing_ActorTable_Timer2 or 0
 						if (time() > _detalhes.showing_ActorTable_Timer2) then
 							_detalhes:Msg ("(debug) nothing to show -> #conteudo < 1 (using cache)")
@@ -2086,7 +2087,7 @@ function atributo_damage:RefreshWindow (instancia, tabela_do_combate, forcar, ex
 		end
 		instancia:EsconderScrollBar() --> precisaria esconder a scroll bar
 		
-		if (_detalhes.debug) then
+		if (_detalhes.debug and false) then
 			_detalhes.showing_ActorTable_Timer2 = _detalhes.showing_ActorTable_Timer2 or 0
 			if (time() > _detalhes.showing_ActorTable_Timer2) then
 				_detalhes:Msg ("(debug) nothing to show -> amount < 1")
@@ -2659,7 +2660,7 @@ local set_text_size = function (bar, instance)
 end
 
 --> this is the in bar icon (icon inside the player bar, like faction or role icon) padding, icon has the row height as is width and height - padding
-local InBarIconPadding = 0
+local InBarIconPadding = 6
 
 --[[ exported]] function _detalhes:SetBarLeftText (bar, instance, enemy, arena_enemy, arena_ally, UsingCustomLeftText)
 
@@ -2893,8 +2894,6 @@ function atributo_damage:ToolTip_DamageDone (instancia, numero, barra, keydown)
 				meu_tempo = instancia.showing:GetCombatTime()
 			end
 			
-			--print ("time:", meu_tempo)
-			
 			--add actor spells
 			for _spellid, _skill in _pairs (ActorSkillsContainer) do
 				ActorSkillsSortTable [#ActorSkillsSortTable+1] = {_spellid, _skill.total, _skill.total/meu_tempo}
@@ -3115,7 +3114,7 @@ function atributo_damage:ToolTip_DamageDone (instancia, numero, barra, keydown)
 				
 				--_detalhes:AddTooltipSpellHeaderText ("Phases", headerColor, 1, [[Interface\Garrison\MobileAppIcons]], 2*130/1024, 3*130/1024, 5*130/1024, 6*130/1024)
 				--_detalhes:AddTooltipSpellHeaderText ("Phases", headerColor, 1, [[Interface\Garrison\orderhall-missions-mechanic10]], 0, 1, 0, 1)
-				_detalhes:AddTooltipSpellHeaderText ("Phases", headerColor, 1, [[Interface\Garrison\orderhall-missions-mechanic8]], 11/64, 53/64, 11/64, 53/64)
+				_detalhes:AddTooltipSpellHeaderText ("Phases", headerColor, 1, [[Interface\Garrison\orderhall-missions-mechanic8]], 11/64, 53/64, 11/64, 53/64) --localize-me
 				--GameCooltip:AddIcon ([[Interface\AddOns\Details\images\key_shift]], 1, 2, _detalhes.tooltip_key_size_width, _detalhes.tooltip_key_size_height, 0, 1, 0, 0.640625, _detalhes.tooltip_key_overlay1)
 				_detalhes:AddTooltipHeaderStatusbar (r, g, b, barAlha)
 				

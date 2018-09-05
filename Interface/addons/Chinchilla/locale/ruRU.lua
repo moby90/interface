@@ -25,8 +25,8 @@ L["Blink Rate"] = "Скорость мигания"
 L["Blinking Blips"] = "Мерцающие значки"
 L["Blip size"] = "Размер указателей"
 L["Blizzard"] = "Близзард"
---Translation missing 
--- L["Blizzard, Big Resources"] = ""
+--[[Translation missing --]]
+--[[ L["Blizzard, Big Resources"] = ""--]] 
 L["Border"] = "Рамка"
 L["Border color"] = "Цвет рамки"
 L["Border radius"] = "Радиус рамки"
@@ -138,8 +138,8 @@ L["Position of the minimap on the screen"] = "Положение миникар�
 L["Position of the quest/achievement tracker on the screen"] = "Положение трекера заданий/достижений на экране"
 L["Position of the vehicle seat indicator on the screen"] = "Положение индикатора \"мест в машине\" на экране"
 L["Position of the world state indicator on the screen"] = "Положение индикатора \"состояние мира\" на экране"
---Translation missing 
--- L["Position the circular status window which shows in certain raid encounters."] = ""
+--[[Translation missing --]]
+--[[ L["Position the circular status window which shows in certain raid encounters."] = ""--]] 
 L["Precision"] = "Точность"
 L["Preferences button"] = "Кнопка активации настроек"
 L["Prevent the frames from being dragged off the edge of your screen."] = "Предотвратить выход фреймов за пределы экрана"
@@ -155,8 +155,8 @@ L["Right mouse button"] = "Кнопка мыши правая"
 L["Round"] = "Круг"
 L["See how the tracking dots will look"] = "Показать как будут выглядеть значки трекинга"
 L["Set how far away from the center to place buttons on the minimap"] = "Определяет расстояние расположения кнопок от центра миникарты"
---Translation missing 
--- L["Set how fast the blips flash."] = ""
+--[[Translation missing --]]
+--[[ L["Set how fast the blips flash."] = ""--]] 
 L["Set how large the blips on the minimap are"] = "Определяет размер указателей на миникарте."
 L["Set how large the border texture is."] = "Определяет размер рамки миникарты."
 L["Set how large the minimap is"] = "Определяет общий размер миникарты."
@@ -222,8 +222,8 @@ L["Show a circle on the minimap at a prefered range"] = "Отображать о
 L["Show a frame that is movable to show where you want the boss frames to be"] = "Отобразить фрейм \"фреймы боссов (boss frames)\" с активацией возможности его перетаскивания мышкой"
 L["Show a frame that is movable to show where you want the capture bar to be"] = "Отобразить фрейм \"захвата объектов (capture bar)\" с активацией возможности его перетаскивания мышкой"
 L["Show a frame that is movable to show where you want the durability man to be"] = "Отобразить фрейм \"прочности экипировки (durability man)\" с активацией возможности его перетаскивания мышкой"
---Translation missing 
--- L["Show a frame that is movable to show where you want the power bar to be."] = ""
+--[[Translation missing --]]
+--[[ L["Show a frame that is movable to show where you want the power bar to be."] = ""--]] 
 L["Show a frame that is movable to show where you want the quest tracker to be"] = "Отобразить фрейм трекера заданий (quest tracker) с активацией возможности его перетаскивания мышкой"
 L["Show a frame that is movable to show where you want the ticket status indicator to be"] = "Отобразить фрейм \"статус техподдержки (ticket status)\" с активацией возможности его перетаскивания мышкой"
 L["Show a frame that is movable to show where you want the vehicle seat indicator to be"] = "Отобразить фрейм \"места в машине (vehicle seat)\" с активацией возможности его перетаскивания мышкой"
@@ -232,8 +232,8 @@ L["Show a test ping"] = "Отобразить тестовый пинг."
 L["Show an expanded minimap on keypress"] = "Отображает увеличенную миникарту по нажатию заданной клавиши"
 L["Show and hide interface elements of the minimap"] = "Отображать и скрывать элементы интерфейса на миникарте"
 L["Show close button"] = "Отображать кнопку закрытия"
---Translation missing 
--- L["Show collapse button"] = ""
+--[[Translation missing --]]
+--[[ L["Show collapse button"] = ""--]] 
 L["Show coordinates on or near the minimap"] = "Отображать координаты на карте или возле нее"
 L["Show direction indicators on the minimap"] = "Отображать индикаторы направления на карте"
 L["Show in chat"] = "Показать в чате"
@@ -255,15 +255,15 @@ L["Show the mail indicator"] = "Показывать индикатор почт
 L["Show the north symbol on the minimap"] = "Отображать значок севера на миникарте"
 L["Show the recording button"] = "Отображать Recording button"
 L["Show the ticket status indicator"] = "Отображать индикатор \"статуса техподдержки\""
---Translation missing 
--- L["Show the title of the quest tracker."] = ""
+--[[Translation missing --]]
+--[[ L["Show the title of the quest tracker."] = ""--]] 
 L["Show the tracking indicator"] = "Показывать индикатор трекинга"
 L["Show the vehicle seats indicator"] = "Показывать индикатор мест в машине"
 L["Show the voice chat button"] = "Отображать кнопку голосового чата"
 L["Show the world map button"] = "Отображать кнопку карты мира"
 L["Show the zoom in and out buttons"] = "Отображать кнопки \"приближения\" и \"отдаления\""
---Translation missing 
--- L["Show title"] = ""
+--[[Translation missing --]]
+--[[ L["Show title"] = ""--]] 
 L["Show who last pinged the minimap"] = "Отображать, кто последним кликнул по миникарте активируя функцию пинга"
 L["Show who pinged in chat instead of in a frame on the minimap."] = "Отображать в чате, кто кликнул по миникарте активируя функцию пинга."
 L["Show zone information on or near minimap"] = "Отображать информацию о зоне возле или поверх миникарты"

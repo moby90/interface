@@ -60,6 +60,7 @@ local properties = {
     min = 1,
     softMax = screenWidth,
     bigStep = 1,
+    default = 32
   },
   height = {
     display = L["Height"],
@@ -67,7 +68,8 @@ local properties = {
     type = "number",
     min = 1,
     softMax = screenHeight,
-    bigStep = 1
+    bigStep = 1,
+    default = 32
   },
   glow = {
     display = L["Glow"],
@@ -85,7 +87,8 @@ local properties = {
     type = "number",
     min = 6,
     softMax = 72,
-    step = 1
+    step = 1,
+    default = 12
   },
   text2Color = {
     display = L["2. Text Color"],
@@ -98,7 +101,8 @@ local properties = {
     type = "number",
     min = 6,
     softMax = 72,
-    step = 1
+    step = 1,
+    default = 12
   },
   color = {
     display = L["Color"],
@@ -197,7 +201,7 @@ local function create(parent, data)
   region.stacks = stacks;
 
   local text2Frame = CreateFrame("frame", nil, region);
-  local text2 = stacksFrame:CreateFontString(nil, "OVERLAY");
+  local text2 = text2Frame:CreateFontString(nil, "OVERLAY");
   text2Frame:SetFrameLevel(cooldownFrameLevel)
   region.text2 = text2;
 
@@ -211,6 +215,7 @@ local function create(parent, data)
     SetFrameLevel(region, level);
     cooldown:SetFrameLevel(level);
     stacksFrame:SetFrameLevel(level + 1);
+    text2Frame:SetFrameLevel(level + 1);
     if (self.__WAGlowFrame) then
       self.__WAGlowFrame:SetFrameLevel(level + 1);
     end
@@ -254,6 +259,9 @@ local function configureText(fontString, icon, enabled, point, width, height, co
     local selfPoint = WeakAuras.inverse_point_types[point];
     fontString:SetPoint(selfPoint, icon, point, -0.5 * sxo, -0.5 * syo);
   end
+  -- WORKAROUND even more Blizzard stupidity. SetJustifyH doesn't seem to work with the hack from SetTextOnText
+  -- So reset here to automatic width
+  fontString:SetWidth(0);
   fontString:SetJustifyH(h);
   fontString:SetJustifyV(v);
   local fontPath = SharedMedia:Fetch("font", font);
@@ -324,9 +332,9 @@ local function modify(parent, region, data)
     if (r or g or b) then
       a = a or 1;
     end
-    icon:SetVertexColor(region.color_anim_r or r, region.color_anim_r or g, region.color_anim_r or b, region.color_anim_r or a);
+    icon:SetVertexColor(region.color_anim_r or r, region.color_anim_g or g, region.color_anim_b or b, region.color_anim_a or a);
     if region.button then
-      region.button:SetAlpha(region.color_anim_r or a or 1);
+      region.button:SetAlpha(region.color_anim_a or a or 1);
     end
   end
 
@@ -444,10 +452,10 @@ local function modify(parent, region, data)
     UpdateText();
   end
 
-  function region:Scale(scalex, scaley)
-    region.scalex = scalex;
-    region.scaley = scaley;
+  function region:UpdateSize()
     local mirror_h, mirror_v, width, height;
+    local scalex = region.scalex;
+    local scaley = region.scaley;
     if(scalex < 0) then
       mirror_h = true;
       scalex = scalex * -1;
@@ -492,18 +500,27 @@ local function modify(parent, region, data)
     end
   end
 
+  function region:Scale(scalex, scaley)
+    if region.scalex == scalex and region.scaley == scaley then
+      return
+    end
+    region.scalex = scalex;
+    region.scaley = scaley;
+    region:UpdateSize();
+  end
+
   function region:SetDesaturated(b)
     icon:SetDesaturated(b);
   end
 
   function region:SetRegionWidth(width)
     region.width = width
-    region:Scale(region.scalex, region.scaley);
+    region:UpdateSize();
   end
 
   function region:SetRegionHeight(height)
     region.height = height
-    region:Scale(region.scalex, region.scaley);
+    region:UpdateSize();
   end
 
   function region:SetText1Color(r, g, b, a)
@@ -531,7 +548,13 @@ local function modify(parent, region, data)
   end
 
   function region:SetGlow(showGlow)
-    if (showGlow) then
+    if MSQ then
+      if (showGlow) then
+        WeakAuras.ShowOverlayGlow(region.button);
+      else
+        WeakAuras.HideOverlayGlow(region.button);
+      end
+    elseif (showGlow) then
       if (not region.__WAGlowFrame) then
         region.__WAGlowFrame = CreateFrame("Frame", nil, region);
         region.__WAGlowFrame:SetAllPoints();

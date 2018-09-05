@@ -21,8 +21,8 @@ L["Available quest"] = "未接任務"
 L["Background"] = "背景"
 L["Battleground"] = "戰場資訊"
 L["Big Blizzard"] = "暴雪(大)"
---Translation missing 
--- L["Blink Rate"] = ""
+--[[Translation missing --]]
+--[[ L["Blink Rate"] = ""--]] 
 L["Blinking Blips"] = "標誌閃爍"
 L["Blip size"] = "標誌大小"
 L["Blizzard"] = "暴雪型"
@@ -70,8 +70,8 @@ L["Enemy player"] = "敵對玩家"
 L["Expander"] = "放大器"
 L["Fadeout time"] = "淡出時間"
 L["Flat"] = "平板型"
---Translation missing 
--- L["Font"] = ""
+--[[Translation missing --]]
+--[[ L["Font"] = ""--]] 
 L["Frame level"] = "框架層級"
 L["Friendly npc"] = "友好NPC"
 L["Friendly player"] = "友方玩家"
@@ -155,8 +155,8 @@ L["Right mouse button"] = "滑鼠右鍵"
 L["Round"] = "純圓形"
 L["See how the tracking dots will look"] = "看看所選的標誌是什麼樣子"
 L["Set how far away from the center to place buttons on the minimap"] = "設置在距離小地圖中心點多遠的地方放置按鈕"
---Translation missing 
--- L["Set how fast the blips flash."] = ""
+--[[Translation missing --]]
+--[[ L["Set how fast the blips flash."] = ""--]] 
 L["Set how large the blips on the minimap are"] = "設置小地圖上標誌大小"
 L["Set how large the border texture is."] = "設置邊框材質的大小。"
 L["Set how large the minimap is"] = "設置小地圖的大小"
@@ -231,8 +231,8 @@ L["Show a test ping"] = "顯示一個測試信號"
 L["Show an expanded minimap on keypress"] = "按下按鍵時顯示一個放大的小地圖"
 L["Show and hide interface elements of the minimap"] = "顯示隱藏小地圖的介面元素"
 L["Show close button"] = "顯示關閉按鈕"
---Translation missing 
--- L["Show collapse button"] = ""
+--[[Translation missing --]]
+--[[ L["Show collapse button"] = ""--]] 
 L["Show coordinates on or near the minimap"] = "在小地圖之上或者周圍顯示當前座標"
 L["Show direction indicators on the minimap"] = "在小地圖上顯示方向指示標誌。"
 L["Show in chat"] = "發送到聊天頻道"
@@ -254,15 +254,15 @@ L["Show the mail indicator"] = "顯示新郵件指示按鈕"
 L["Show the north symbol on the minimap"] = "顯示小地圖上指向北的符號N"
 L["Show the recording button"] = "顯示記錄按鈕"
 L["Show the ticket status indicator"] = "顯示問題回報單狀態"
---Translation missing 
--- L["Show the title of the quest tracker."] = ""
+--[[Translation missing --]]
+--[[ L["Show the title of the quest tracker."] = ""--]] 
 L["Show the tracking indicator"] = "顯示跟蹤按鈕"
 L["Show the vehicle seats indicator"] = "顯示載具坐椅指示器"
 L["Show the voice chat button"] = "顯示語音聊天按鈕"
 L["Show the world map button"] = "顯示世界地圖按鈕"
 L["Show the zoom in and out buttons"] = "顯示小地圖放大和縮小按鈕"
---Translation missing 
--- L["Show title"] = ""
+--[[Translation missing --]]
+--[[ L["Show title"] = ""--]] 
 L["Show who last pinged the minimap"] = "顯示誰最後發送了小地圖信號"
 L["Show who pinged in chat instead of in a frame on the minimap."] = "將發送人的名字發送到聊天頻道而不是顯示在小地圖上"
 L["Show zone information on or near minimap"] = "在小地圖附近顯示區域資訊"

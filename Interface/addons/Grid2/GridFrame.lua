@@ -111,6 +111,7 @@ local function GridFrame_Init(frame, width, height)
 		frame:SetAttribute("initial-width", width)
 		frame:SetAttribute("initial-height", height)
 	end
+	frame:RegisterForClicks("AnyUp")
 	frame.menu = Grid2Frame.RightClickUnitMenu
 	frame.container = frame:CreateTexture()
 	frame:CreateIndicators()
@@ -265,6 +266,12 @@ function Grid2Frame:GetFrameSize()
 	local l = Grid2Layout.layoutName or "NoLayout"
 	local m = Grid2Layout.instMaxPlayers or 0
 	return p.frameWidths[l] or p.frameWidths[m] or p.frameWidth, p.frameHeights[l] or p.frameHeights[m] or p.frameHeight
+end
+
+function Grid2Frame:SetFrameSize(w, h)
+	self.db.profile.frameWidth  = w or self.db.profile.frameWidth
+	self.db.profile.frameHeight = h or self.db.profile.frameHeight
+	Grid2Layout:UpdateDisplay()
 end
 
 -- Grid2Frame:WithAllFrames()

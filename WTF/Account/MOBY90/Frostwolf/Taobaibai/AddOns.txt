@@ -261,7 +261,7 @@ TradeSkillMaster_PriceReply: disabled
 TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_GuildSorter: disabled
 TradeSkillMaster_CoolDowns: disabled
-WorldQuestsList: disabled
+WorldQuestsList: enabled
 TrufiGCD: disabled
 CrossRealmAssist: enabled
 Kui_Media: disabled
@@ -312,3 +312,10 @@ SexyCooldown: enabled
 StarCursor: enabled
 WorldQuestAssistant: disabled
 HideTalkingHead: enabled
+WorldQuestParty: disabled
+Azeroth Auto Pilot: disabled
+flyPlateBuffs: enabled
+StealPurgeDispel: enabled
+bdCore: enabled
+bdNameplates: enabled
+Plater: enabled

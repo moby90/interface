@@ -53,6 +53,8 @@ Prat:AddModuleToLoad(function()
         ["showCompletedDate_desc"] = "Show the date you completed the acheievment next to the link",
         ["showGratsLink_name"] = "Show grats link",
         ["showGratsLink_desc"] = "Show a clickable link which sends a grats message",
+        ["dontShowAchievements_name"] = "Don't show achievements",
+        ["dontShowAchievements_desc"] = "Hide all achievement messages",
 
         ["customGrats_defualt"] = "Grats %s",
 
@@ -102,6 +104,8 @@ Prat:AddModuleToLoad(function()
 		["customGrats_name"] = "Use Custom Grats Message",
 		["customGratsText_desc"] = "Custom grats message. Type any text you wish for your grats message, if you want to include the player's name use '%s' as a placeholder",
 		["customGratsText_name"] = "Grats Message",
+		["dontShowAchievements_desc"] = "Hide all achievement messages",
+		["dontShowAchievements_name"] = "Don't show achievements",
 		["grats_donthave_1"] = "Grats %s",
 		["grats_donthave_10"] = "I can't wait to get that one %s",
 		["grats_donthave_2"] = "Gz %s, I still need that",
@@ -149,6 +153,10 @@ Prat:AddModuleToLoad(function()
 		--[[ ["customGratsText_desc"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["customGratsText_name"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_name"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["grats_donthave_1"] = "",--]] 
 		--[[Translation missing --]]
@@ -223,6 +231,10 @@ Prat:AddModuleToLoad(function()
 		--[[ ["customGratsText_desc"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["customGratsText_name"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_name"] = "",--]] 
 		["grats_donthave_1"] = "Parabéns %s",
 		["grats_donthave_10"] = "Não vejo a hora de ter esse, %s",
 		["grats_donthave_2"] = "Boa %s, eu ainda preciso desse",
@@ -282,58 +294,36 @@ Prat:AddModuleToLoad(function()
 	["Achievements"] = {
 		--[[Translation missing --]]
 		--[[ ["completed"] = "",--]] 
+		["customGrats_defualt"] = "GG %s !",
+		["customGrats_desc"] = "Utiliser un message personnalisé à la place d'un message aléatoire ",
+		["customGrats_name"] = "Utiliser un message personnalisé de félicitations",
+		["customGratsText_desc"] = "Message de félicitations personnalisé. Tapez n'importe quel texte, vous pouvez ajouter le nom du joueur avec la variable '%s'",
+		["customGratsText_name"] = "Message de gratification",
 		--[[Translation missing --]]
-		--[[ ["customGrats_defualt"] = "",--]] 
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
 		--[[Translation missing --]]
-		--[[ ["customGrats_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGrats_name"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGratsText_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGratsText_name"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_1"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_10"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_2"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_3"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_4"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_5"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_6"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_7"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_8"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_9"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_1"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_10"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_2"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_3"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_4"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_5"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_6"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_7"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_8"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_have_9"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_link"] = "",--]] 
+		--[[ ["dontShowAchievements_name"] = "",--]] 
+		["grats_donthave_1"] = "Félicitations %s !",
+		["grats_donthave_10"] = "Il faut aussi que je fasse ce haut fait %s",
+		["grats_donthave_2"] = "GG %s, je ne l'ai pas encore fini celui là",
+		["grats_donthave_3"] = "Il faut aussi que je le fasse celui là %s, gg !",
+		["grats_donthave_4"] = "Bien joué %s",
+		["grats_donthave_5"] = "Je suis trop jaloux %s, gg !  :)",
+		["grats_donthave_6"] = "Ça fait un baille que je tente de l'avoir celui là %s ^^",
+		["grats_donthave_7"] = "Il me manque toujours celui là %s, gg !",
+		["grats_donthave_8"] = "Tu ne veux pas aussi me le faire %s ? xD",
+		["grats_donthave_9"] = "Vivement que je le fasse aussi %s, bien joué !",
+		["grats_have_1"] = "Félicitations %s",
+		["grats_have_10"] = "Bien joué %s, maintenant on l'a tous les deux :)",
+		["grats_have_2"] = "GG %s, je l'ai aussi validé",
+		["grats_have_3"] = "Waw %s, c'est bien joué !",
+		["grats_have_4"] = "Bienvenue au club %s",
+		["grats_have_5"] = "Je me souviens encore de la fois où j'ai réalisé ce HF %s",
+		["grats_have_6"] = "Celui là est un incontournable %s",
+		["grats_have_7"] = "Ça fait un baille que je bosse sur celui là %s, gg !",
+		["grats_have_8"] = "Je me souviens encore de la fois où je l'ai réalisé, %s, gg !",
+		["grats_have_9"] = "Bien joué %s",
+		["grats_link"] = "dire gg",
 		--[[Translation missing --]]
 		--[[ ["module_desc"] = "",--]] 
 		--[[Translation missing --]]
@@ -342,10 +332,8 @@ Prat:AddModuleToLoad(function()
 		--[[ ["showCompletedDate_desc"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["showCompletedDate_name"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["showGratsLink_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["showGratsLink_name"] = "",--]] 
+		["showGratsLink_desc"] = "Montrer un lien clicable qui envoie des messages de félicitations",
+		["showGratsLink_name"] = "Montrer un lien de félicitations",
 	}
 }
   PL:AddLocale(PRAT_MODULE, "frFR", L)
@@ -360,6 +348,10 @@ Prat:AddModuleToLoad(function()
 		["customGrats_name"] = "Benutze eine eigene Glückwunsch-Nachricht",
 		["customGratsText_desc"] = "Eigene Glückwunsch-Nachricht. Du kannst hier einen beliebigen Text für Glückwunsch-Nachrichten eingeben. Möchtest du den Spielernamen einschließen benutze `%s` als Platzhalter. ",
 		["customGratsText_name"] = "Glückwunsch-Nachricht",
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_name"] = "",--]] 
 		["grats_donthave_1"] = "Grats %s",
 		["grats_donthave_10"] = "Den hätt ich auch gerne %s",
 		["grats_donthave_2"] = "Gz %s! Den brauche ich auch noch",
@@ -427,6 +419,10 @@ Prat:AddModuleToLoad(function()
 		--[[ ["customGratsText_desc"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["customGratsText_name"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_name"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["grats_donthave_1"] = "",--]] 
 		--[[Translation missing --]]
@@ -501,6 +497,10 @@ Prat:AddModuleToLoad(function()
 		--[[Translation missing --]]
 		--[[ ["customGratsText_name"] = "",--]] 
 		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_name"] = "",--]] 
+		--[[Translation missing --]]
 		--[[ ["grats_donthave_1"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["grats_donthave_10"] = "",--]] 
@@ -567,6 +567,10 @@ Prat:AddModuleToLoad(function()
 		["customGrats_name"] = "Использовать своё ПОЗДРАВИТЕЛЬНОЕ сообщение",
 		["customGratsText_desc"] = "Стандартное ГРАЦ сообщение. Напишите свой текст ГРАЦ сообщения. Если хотите включить имя игрока в сообщение - то добавьте %s",
 		["customGratsText_name"] = "Поздравительное сообщение",
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_name"] = "",--]] 
 		["grats_donthave_1"] = "Поздравляю %s",
 		["grats_donthave_10"] = "Я не могу дождаться, когда тоже получу его %s",
 		["grats_donthave_2"] = "Гц %s, мне всё ещё нужно это достижение",
@@ -613,6 +617,10 @@ Prat:AddModuleToLoad(function()
 		--[[ ["customGratsText_desc"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["customGratsText_name"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_name"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["grats_donthave_1"] = "",--]] 
 		--[[Translation missing --]]
@@ -674,24 +682,19 @@ Prat:AddModuleToLoad(function()
   L=
 {
 	["Achievements"] = {
+		["completed"] = "Completado %s",
+		["customGrats_defualt"] = "Felicidades %s",
+		["customGrats_desc"] = "Usar un mensaje de felicitación personalizado en lugar de uno aleatorio",
+		["customGrats_name"] = "Mensaje de felicitación personalizado",
+		["customGratsText_desc"] = "Mensaje de felicitación personalizado. Escriba el mensaje de felicitación que usted desee, si quiere incluir el nombre del jugador use '%s' como indicador",
+		["customGratsText_name"] = "Mensaje de felicitación",
 		--[[Translation missing --]]
-		--[[ ["completed"] = "",--]] 
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
 		--[[Translation missing --]]
-		--[[ ["customGrats_defualt"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGrats_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGrats_name"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGratsText_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["customGratsText_name"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_1"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_10"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_donthave_2"] = "",--]] 
+		--[[ ["dontShowAchievements_name"] = "",--]] 
+		["grats_donthave_1"] = "Felicidades %s",
+		["grats_donthave_10"] = "No puedo esperar a obtener ese %s",
+		["grats_donthave_2"] = "Felicidades %s, yo aún necesito ese",
 		--[[Translation missing --]]
 		--[[ ["grats_donthave_3"] = "",--]] 
 		--[[Translation missing --]]
@@ -726,20 +729,13 @@ Prat:AddModuleToLoad(function()
 		--[[ ["grats_have_8"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["grats_have_9"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["grats_link"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["module_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["module_name"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["showCompletedDate_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["showCompletedDate_name"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["showGratsLink_desc"] = "",--]] 
-		--[[Translation missing --]]
-		--[[ ["showGratsLink_name"] = "",--]] 
+		["grats_link"] = "Felicitar",
+		["module_desc"] = "Ajustes relacionados a logros",
+		["module_name"] = "Logros",
+		["showCompletedDate_desc"] = "Muestra la fecha en la que se completo el logro luego del enlace",
+		["showCompletedDate_name"] = "Mostrar fecha de finalización",
+		["showGratsLink_desc"] = "Muestra a enlace clickable para enviar un mensaje de felicitación",
+		["showGratsLink_name"] = "Mostrar enlace de felicitación",
 	}
 }
   PL:AddLocale(PRAT_MODULE, "esES",  L)
@@ -759,6 +755,10 @@ Prat:AddModuleToLoad(function()
 		--[[ ["customGratsText_desc"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["customGratsText_name"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_desc"] = "",--]] 
+		--[[Translation missing --]]
+		--[[ ["dontShowAchievements_name"] = "",--]] 
 		--[[Translation missing --]]
 		--[[ ["grats_donthave_1"] = "",--]] 
 		--[[Translation missing --]]
@@ -826,9 +826,10 @@ Prat:AddModuleToLoad(function()
     Prat:SetModuleDefaults(module.name, {
         profile = {
             on = true,
+            dontShowAchievements = false,
             showCompletedDate = true,
-            showGratsLink = true,
-            customGrats = false,
+            showGratsLink = false,
+            customGrats = true,
             customGratsText = PL.customGrats_defualt
         }
     })
@@ -838,6 +839,12 @@ Prat:AddModuleToLoad(function()
         desc = PL.module_desc,
         type = "group",
         args = {
+            dontShowAchievements = {
+                name = PL.dontShowAchievements_name,
+                desc = PL.dontShowAchievements_desc,
+                type = "toggle",
+                order = 90
+            },
             showCompletedDate = {
                 name = PL.showCompletedDate_name,
                 desc = PL.showCompletedDate_desc,
@@ -918,7 +925,7 @@ Prat:AddModuleToLoad(function()
 
         local text, theirId, theirPlayerGuid, theirDone, theirMonth, theirDay, theirYear, _, _, _, _, theirAchievmentName = ...
 
-        if not theirPlayerGuid or theirDone == "0" then return end
+        if not (tostring(theirPlayerGuid):len() > 3)  or (tostring(theirDone) == "0")  then return end
 
         local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(theirId)
 
@@ -941,7 +948,12 @@ Prat:AddModuleToLoad(function()
     })
 
     function module:OnModuleEnable()
+        Prat.RegisterChatEvent(self, "Prat_FrameMessage")
         Prat.RegisterLinkType({ linkid = gratsLinkType, linkfunc = self.OnGratsLink, handler = self }, self.name)
+    end
+
+    function module:OnModuleDisable()
+        Prat.UnregisterAllChatEvents(self)
     end
 
     function module:addGrats(name, group, channel, achievementId)
@@ -995,5 +1007,11 @@ Prat:AddModuleToLoad(function()
         end
 
         return false
+    end
+
+    function module:Prat_FrameMessage(info, message, frame, event)
+        if self.db.profile.dontShowAchievements and event == "CHAT_MSG_GUILD_ACHIEVEMENT" then
+            message.DONOTPROCESS = true
+        end
     end
 end)

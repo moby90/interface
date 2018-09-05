@@ -61,7 +61,7 @@ VER 3 010000000000004B "lotm" "1360762"
 END
 VER 3 010000000000004C "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover, nodead, talent:1/1] Bestow Faith; [@cursor, talent:1/2] Light's Hammer
+/cast [@mouseover, nodead, talent:1/2] Bestow Faith; [@cursor, talent:1/3] Light's Hammer
 END
 VER 3 010000000000004D "T3" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -70,5 +70,5 @@ VER 3 010000000000004D "T3" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000004E "T5" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [talent:5/2] Holy Avenger; [talent:5/3] Holy Prism
+/cast [talent:5/3] Holy Avenger; [talent:5/2] Holy Prism
 END

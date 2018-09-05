@@ -1,0 +1,8 @@
+## Interface: 80000
+## Title: What Did I Dispel 2
+## Author: Elotheon-Arthas-EU
+## Notes: Tracks buffs/debuffs you dispel, and displays them upon request.
+## Version: 8.0.0
+## SavedVariablesPerCharacter: WhatDidIDispelDB
+
+WhatDidIDispel2.lua

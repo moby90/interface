@@ -4,6 +4,7 @@ local Grid2 = Grid2
 local UnitDebuff = UnitDebuff
 local emptyTable = {}
 local myUnits = { player = true, pet = true, vehicle = true }
+local dispelTypes = { Magic = true, Curse = true, Disease = true, Poison = true }
 local statusTypes = { "color", "icon", "icons", "percent", "text" }
 
 -- Called from StatusAuras.lua
@@ -37,7 +38,8 @@ local function status_UpdateStateFilter(self, unit, name, texture, count, durati
 end
 
 local function status_UpdateStateDispel(self, unit, name, texture, count, duration, expiration, caster, isBossDebuff, debuffType)
-	if (not self.seen) and UnitDebuff(unit, 1, "RAID") then
+	name, texture, count, debuffType, duration, expiration = UnitDebuff(unit, 1, "RAID")
+	if name and dispelTypes[debuffType] then
 		self.states[unit] = true
 		self.textures[unit] = texture
 		self.durations[unit] = duration
@@ -45,8 +47,13 @@ local function status_UpdateStateDispel(self, unit, name, texture, count, durati
 		self.counts[unit] = count
 		self.types[unit] = debuffType
 		self.tracker[unit] = 1
-		self.seen = 1	
-	end
+		self.seen = 1
+	elseif self.states[unit] then
+		self:Reset(unit)
+		self.seen = 1  -- force indicators update to clear the status
+	else
+		self.seen = -1 -- avoid indicators update, status was not active
+	end	
 end
 
 local status_GetIconsWhiteList, status_GetIconsFilter, status_GetIconsDispel
@@ -62,8 +69,10 @@ do
 		while true do
 			name, textures[j], counts[j], debuffType, durations[j], expirations[j] = UnitDebuff(unit, i)
 			if not name then return j-1, textures, counts, expirations, durations, colors end
-			colors[j] = debuffType and typeColors[debuffType] or self.color
-			if spells[name] then j = j + 1 end
+			if spells[name] then 
+				colors[j] = typeColors[debuffType] or self.color
+				j = j + 1 
+			end
 			i = i + 1
 		end
 	end
@@ -74,19 +83,24 @@ do
 		while true do
 			name, textures[j], counts[j], debuffType, durations[j], expirations[j], caster, _, _, _, _, isBossDebuff = UnitDebuff(unit, i)
 			if not name then return j-1, textures, counts, expirations, durations, colors end
-			colors[j] = debuffType and typeColors[debuffType] or self.color
 			local filtered = spells[name] or (filterLong and (durations[j]>=300)==filterLong) or (filterBoss~=nil and filterBoss==isBossDebuff) or (filterCaster and (caster==unit or myUnits[caster]))
-			if not filtered then j = j + 1 end	
+			if not filtered then 
+				colors[j] = typeColors[debuffType] or self.color
+				j = j + 1 
+			end	
 			i = i + 1			
 		end
 	end
 	status_GetIconsDispel = function(self, unit)
-		local i, typeColors, name, debuffType = 1, self.typeColors
+		local i, j, typeColors, name, debuffType = 1, 1, self.typeColors
 		while true do
-			name, textures[i], counts[i], debuffType, durations[i], expirations[i] = UnitDebuff(unit, i, "RAID")
-			if not name then return i-1, textures, counts, expirations, durations, colors end
-			colors[i] = debuffType and typeColors[debuffType] or self.color
-			i = i + 1			
+			name, textures[j], counts[j], debuffType, durations[j], expirations[j] = UnitDebuff(unit, i, "RAID")
+			if not name then return j-1, textures, counts, expirations, durations, colors end
+			if dispelTypes[debuffType] then
+				colors[j] = typeColors[debuffType] or self.color
+				j = j + 1
+			end
+			i = i + 1
 		end
 	end	
 end

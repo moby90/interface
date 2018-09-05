@@ -435,10 +435,12 @@ function WeakAuras.ActivateEvent(id, triggernum, data, state)
         changed = true;
       end
 
-      if (state.autoHide or state.inverse) then
+      local autoHide = nil;
+      if (state.autoHide ~= autoHide) then
         changed = true;
+        state.autoHide = autoHide;
       end
-      state.autoHide = nil;
+
       if (state.value ~= arg1) then
         state.value = arg1;
         changed = true;
@@ -459,6 +461,11 @@ function WeakAuras.ActivateEvent(id, triggernum, data, state)
         state.resort = state.expirationTime ~= arg2;
         state.expirationTime = arg2;
         changed = true;
+      end
+      local autoHide = data.automaticAutoHide and arg1 > 0.01;
+      if (state.autoHide ~= autoHide) then
+        changed = true;
+        state.autoHide = autoHide;
       end
       if (state.value or state.total) then
         changed = true;
@@ -819,6 +826,7 @@ function GenericTrigger.Add(data, region)
         local internal_events = {};
         local force_events = false;
         local durationFunc, overlayFuncs, nameFunc, iconFunc, textureFunc, stacksFunc, loadFunc;
+        local tsuConditionVariables;
         if(triggerType == "status" or triggerType == "event") then
           if not(trigger.event) then
             error("Improper arguments to WeakAuras.Add - trigger type is \"event\" but event is not defined");
@@ -888,6 +896,10 @@ function GenericTrigger.Add(data, region)
           end
         else
           triggerFunc = WeakAuras.LoadFunction("return "..(trigger.custom or ""), id);
+          if (trigger.custom_type == "stateupdate") then
+            tsuConditionVariables = WeakAuras.LoadFunction("return \n" .. (trigger.customVariables or ""));
+          end
+
           if(trigger.custom_type == "status" or trigger.custom_type == "event" and trigger.custom_hide == "custom") then
             untriggerFunc = WeakAuras.LoadFunction("return "..(untrigger.custom or ""), id);
             if (not untriggerFunc) then
@@ -940,17 +952,20 @@ function GenericTrigger.Add(data, region)
           end
         end
 
-        local duration = nil;
+        local automaticAutoHide;
+        local duration;
         if(triggerType == "custom"
           and trigger.custom_type == "event"
           and trigger.custom_hide == "timed") then
-          duration = tonumber(trigger.duration);
+            automaticAutoHide = true;
+            if (not trigger.dynamicDuration) then
+              duration = tonumber(trigger.duration);
+            end
         end
 
-        local automaticAutoHide = true;
-        if ((triggerType == "status" or triggerType == "event")
-          and event_prototypes[trigger.event] and event_prototypes[trigger.event].automaticAutoHide ~= nil) then
-          automaticAutoHide = event_prototypes[trigger.event].automaticAutoHide;
+        if (triggerType == "event" and trigger.unevent == "timed") then
+          duration = tonumber(trigger.duration);
+          automaticAutoHide = true;
         end
 
         events[id] = events[id] or {};
@@ -974,25 +989,9 @@ function GenericTrigger.Add(data, region)
           stacksFunc = stacksFunc,
           loadFunc = loadFunc,
           duration = duration,
-          automaticAutoHide = automaticAutoHide
+          automaticAutoHide = automaticAutoHide,
+          tsuConditionVariables = tsuConditionVariables
         };
-
-        if(
-          (
-          (
-          triggerType == "status"
-          or triggerType == "event"
-          )
-          and trigger.unevent == "timed"
-          )
-          or (
-          triggerType == "custom"
-          and trigger.custom_type == "event"
-          and trigger.custom_hide == "timed"
-          )
-          ) then
-          events[id][triggernum].duration = tonumber(trigger.duration);
-        end
       end
     end
   end
@@ -1134,7 +1133,7 @@ function GenericTrigger.Modernize(data)
           end
 
           if (trigger.event == "Death Knight Rune") then
-            trigger.use_showOn = true;
+            trigger.use_genericShowOn = true;
           end
           trigger.use_inverse = nil
         end
@@ -1164,6 +1163,14 @@ function GenericTrigger.Modernize(data)
         end
         trigger.event = "Power";
         trigger.unit = "player";
+      end
+    end
+
+    if data.internalVersion < 6 then
+      if trigger and trigger.type ~= "aura" then
+        trigger.genericShowOn = trigger.showOn or "showOnActive"
+        trigger.showOn = nil
+        trigger.use_genericShowOn = trigger.use_showOn
       end
     end
   end
@@ -1373,10 +1380,11 @@ do
     cdReadyFrame:RegisterEvent("BAG_UPDATE_COOLDOWN");
     cdReadyFrame:RegisterEvent("UNIT_INVENTORY_CHANGED")
     cdReadyFrame:RegisterEvent("PLAYER_EQUIPMENT_CHANGED");
+    cdReadyFrame:RegisterEvent("ACTIONBAR_UPDATE_COOLDOWN");
     cdReadyFrame:SetScript("OnEvent", function(self, event, ...)
       WeakAuras.StartProfileSystem("generictrigger cd tracking");
       if(event == "SPELL_UPDATE_COOLDOWN" or event == "SPELL_UPDATE_CHARGES"
-        or event == "RUNE_POWER_UPDATE"
+        or event == "RUNE_POWER_UPDATE" or event == "ACTIONBAR_UPDATE_COOLDOWN"
         or event == "PLAYER_TALENT_UPDATE" or event == "PLAYER_PVP_TALENT_UPDATE") then
         WeakAuras.CheckCooldownReady();
       elseif(event == "UNIT_SPELLCAST_SENT") then
@@ -2699,16 +2707,27 @@ function GenericTrigger.GetOverlayInfo(data, triggernum)
 
   if (trigger.type == "custom") then
     if (trigger.custom_type == "stateupdate") then
-      local allStates = {};
-      WeakAuras.ActivateAuraEnvironment(data.id);
-      RunTriggerFunc(allStates, events[data.id][triggernum], data.id, triggernum, "OPTIONS");
-      WeakAuras.ActivateAuraEnvironment(nil);
       local count = 0;
-      for id, state in pairs(allStates) do
-        if (state.additionalProgress) then
-          count = max(count, #state.additionalProgress);
+      local variables = events[data.id][triggernum].tsuConditionVariables;
+      if (variables) then
+        if (type(variables.additionalProgress) == "table") then
+          count = #variables.additionalProgress;
+        elseif (type(variables.additionalProgress) == "number") then
+          count = variables.additionalProgress;
+        end
+      else
+        local allStates = {};
+        WeakAuras.ActivateAuraEnvironment(data.id);
+        RunTriggerFunc(allStates, events[data.id][triggernum], data.id, triggernum, "OPTIONS");
+        WeakAuras.ActivateAuraEnvironment(nil);
+        local count = 0;
+        for id, state in pairs(allStates) do
+          if (state.additionalProgress) then
+            count = max(count, #state.additionalProgress);
+          end
         end
       end
+
       count = min(count, 7);
       for i = 1, count do
         result = result or {};
@@ -2814,10 +2833,28 @@ function GenericTrigger.CanHaveTooltip(data, triggernum)
     end
   end
 
+  if (trigger.type == "custom") then
+    if (trigger.custom_type == "stateupdate") then
+      return true;
+    end
+  end
+
   return false;
 end
 
 function GenericTrigger.SetToolTip(trigger, state)
+  if (trigger.type == "custom" and trigger.custom_type == "stateupdate") then
+    if (state.spellId) then
+      GameTooltip:SetSpellByID(state.spellId);
+    elseif (state.itemId) then
+      GameTooltip:SetHyperlink("item:"..state.itemId..":0:0:0:0:0:0:0");
+    elseif (state.unit and state.unitBuffIndex) then
+      GameTooltip:SetUnitBuff(state.unit, state.unitBuffIndex);
+    elseif (state.unit and state.unitDebuffIndex) then
+      GameTooltip:SetUnitDebuff(state.unit, state.unitDebuffIndex);
+    end
+  end
+
   if (trigger.type == "event" or trigger.type == "status") then
     if (trigger.event and WeakAuras.event_prototypes[trigger.event]) then
       if(WeakAuras.event_prototypes[trigger.event].hasSpellID) then
@@ -2857,6 +2894,29 @@ function GenericTrigger.GetAdditionalProperties(data, triggernum)
   return ret;
 end
 
+local commonConditions = {
+  expirationTime = {
+    display = L["Remaining Duration"],
+    type = "timer",
+  },
+  duration = {
+    display = L["Total Duration"],
+    type = "number",
+  },
+  value = {
+    display = L["Progress Value"],
+    type = "number",
+  },
+  total = {
+    display = L["Progress Total"],
+    type = "number",
+  },
+  stacks = {
+    display = L["Stacks"],
+    type = "number"
+  }
+}
+
 function GenericTrigger.GetTriggerConditions(data, triggernum)
   local trigger;
   if (triggernum == 0) then
@@ -2879,32 +2939,17 @@ function GenericTrigger.GetTriggerConditions(data, triggernum)
       end
 
       if (timedDuration) then
-        result["expirationTime"] = {
-          display = L["Remaining Duration"],
-          type = "timer",
-        }
-        result["duration"] = {
-          display = L["Total Duration"],
-          type = "number",
-        }
+        result.expirationTime = commonConditions.expirationTime;
+        result.duration = commonConditions.duration;
       end
 
       if (valueDuration) then
-        result["value"] = {
-          display = L["Progress Value"],
-          type = "number",
-        }
-        result["total"] = {
-          display = L["Progress Total"],
-          type = "number",
-        }
+        result.value = commonConditions.value;
+        result.total = commonConditions.total;
       end
 
       if (WeakAuras.event_prototypes[trigger.event].stacksFunc) then
-        result["stacks"] = {
-          display = L["Stacks"],
-          type = "number"
-        }
+        result.stacks = commonConditions.stacks;
       end
 
       for _, v in pairs(WeakAuras.event_prototypes[trigger.event].args) do
@@ -2941,7 +2986,70 @@ function GenericTrigger.GetTriggerConditions(data, triggernum)
 
       return result;
     end
+  elseif(trigger.type == "custom") then
+    if (trigger.custom_type == "status" or trigger.custom_type == "event") then
+      local result = {};
+
+      local canHaveDurationFunc = trigger.custom_type == "status" or (trigger.custom_type == "event" and (trigger.custom_hide ~= "timed" or trigger.dynamicDuration));
+
+      if (canHaveDurationFunc and trigger.customDuration and trigger.customDuration ~= "") then
+        result.expirationTime = commonConditions.expirationTime;
+        result.duration = commonConditions.duration;
+        result.value = commonConditions.value;
+        result.total = commonConditions.total;
+      end
+
+      if (trigger.custom_type == "event" and trigger.custom_hide ~= "custom" and trigger.dynamicDuration ~= true) then
+        -- This is the static duration of a event/timed trigger
+        result.expirationTime = commonConditions.expirationTime;
+        result.duration = commonConditions.duration;
+      end
+
+      if (trigger.customStacks and trigger.customStacks ~= "") then
+        result.stacks = commonConditions.stacks;
+      end
+
+      return result;
+    elseif (trigger.custom_type == "stateupdate") then
+      if (events[data.id][triggernum] and events[data.id][triggernum].tsuConditionVariables) then
+        local result = CopyTable(events[data.id][triggernum].tsuConditionVariables);
+        -- Make the life of tsu authors easier, by automatically filling in the details for
+        -- expirationTime, duration, value, total, stacks, if those exists but aren't a table value
+        -- By allowing a short-hand notation of just variable = type
+        -- In addition to the long form of variable = { type = xyz, display = "desc"}
+
+        for k, v in pairs(commonConditions) do
+          if (result[k] and type(result[k]) ~= "table") then
+            result[k] = v;
+          end
+        end
+
+        for k, v in pairs(events[data.id][triggernum].tsuConditionVariables) do
+          if (type(v) == "string") then
+            result[k] = {
+              display = k,
+              type = v,
+            };
+          end
+        end
+
+        for k, v in pairs(result) do
+          if (type(v) ~= "table") then
+            result[k] = nil;
+          elseif (v.display == nil or type(v.display) ~= "string") then
+            if (type(k) == "string") then
+              v.display = k;
+            else
+              result[k] = nil;
+            end
+          end
+        end
+
+        return result;
+      end
+    end
   end
+
   return nil;
 end
 

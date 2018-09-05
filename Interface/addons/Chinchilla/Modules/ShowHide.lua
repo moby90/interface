@@ -19,7 +19,6 @@ local frames = {
 	lfg = "QueueStatusMinimapButton",
 	dayNight = "GameTimeFrame",
 	track = "MiniMapTracking",
-	voice = "MiniMapVoiceChatFrame",
 	zoomIn = "MinimapZoomIn",
 	zoomOut = "MinimapZoomOut",
 	vehicleSeats = "VehicleSeatIndicator",
@@ -29,17 +28,29 @@ local frames = {
 
 
 function ShowHide:ShowFrame(frame)
-	_G[frame]:SetParent( _G[frame].__origParent )
+	if _G[frame] then
+		_G[frame]:SetParent( _G[frame].__origParent )
+	else
+		print("Chinchilla:", frame, "has changed or no longer exists. Please notify the addon author.")
+	end
 end
 
 function ShowHide:HideFrame(frame)
-	_G[frame]:SetParent(ShowHideFrame)
+	if _G[frame] then
+		_G[frame]:SetParent(ShowHideFrame)
+	else
+		print("Chinchilla:", frame, "has changed or no longer exists. Please notify the addon author.")
+	end
 end
 
 
 function ShowHide:OnInitialize()
 	for _, frame in pairs(frames) do
-		_G[frame].__origParent = _G[frame]:GetParent():GetName()
+		if _G[frame] then
+			_G[frame].__origParent = _G[frame]:GetParent():GetName()
+		else
+			print("Chinchilla:", frame, "has changed or no longer exists. Please notify the addon author.")
+		end
 	end
 
 	self.db = Chinchilla.db:RegisterNamespace("ShowHide", {
@@ -49,7 +60,7 @@ function ShowHide:OnInitialize()
 
 			boss = true, north = true, difficulty = true, map = true,
 			mail = true, lfg = true, dayNight = true, track = true,
-			voice = true, zoom = true, clock = true, vehicleSeats = true,
+			zoom = true, clock = true, vehicleSeats = true,
 			garrison = true,
 		},
 	})
@@ -90,7 +101,7 @@ end
 function ShowHide:UpdateCalendar()
 	if not self.db.profile.calendarInviteOnly then return end
 
-	if CalendarGetNumPendingInvites() > 0 then
+	if C_Calendar.GetNumPendingInvites() > 0 then
 		self:ShowFrame("GameTimeFrame")
 	else
 		self:HideFrame("GameTimeFrame")
@@ -285,14 +296,6 @@ function ShowHide:GetOptions()
 
 				set(info, value)
 			end,
-		},
-		voice = {
-			name = L["Voice chat"],
-			desc = L["Show the voice chat button"],
-			type = 'toggle',
-			tristate = true,
-			order = 13,
-			get = get, set = set,
 		},
 		zoom = {
 			name = L["Zoom"],

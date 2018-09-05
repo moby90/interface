@@ -66,3 +66,9 @@ WeakAurasModelPaths: disabled
 WeakAurasOptions: disabled
 WeakAurasTemplates: disabled
 WorldQuestAssistant: disabled
+WorldQuestsList: enabled
+WorldQuestParty: disabled
+flyPlateBuffs: disabled
+StealPurgeDispel: disabled
+bdCore: disabled
+bdNameplates: disabled

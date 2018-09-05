@@ -1,4 +1,100 @@
 ------------------------------------------------------------------------
+r828 | michaelspain | 2018-08-15 18:36:29 +0000 (Wed, 15 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/Options/GridUtils.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua
+
+Fixed Grid2Options crash when game client is in windowed mode.
+------------------------------------------------------------------------
+r827 | michaelspain | 2018-08-13 13:25:42 +0000 (Mon, 13 Aug 2018) | 2 lines
+Changed paths:
+   M /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua
+
+- Removed duplicated raid debuffs.
+- Added some missing Uldir Raid Debuffs (thanks to Sixthumbs)
+------------------------------------------------------------------------
+r826 | stanzilla | 2018-08-13 12:01:43 +0000 (Mon, 13 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua
+
+add a few more Uldir debuffs, thanks to JD
+------------------------------------------------------------------------
+r825 | michaelspain | 2018-08-10 21:09:15 +0000 (Fri, 10 Aug 2018) | 2 lines
+Changed paths:
+   M /trunk/Options/modules/indicators/IndicatorIcon.lua
+   M /trunk/modules/IndicatorIcon.lua
+   M /trunk/modules/StatusBanzai.lua
+
+-Fixed banzai status.
+-Added a "Display Square" option to Icons indicator, enabling this option, the indicator will display a flat square instead the icon provided by the active status, useful to display a colorized square with an animation cooldown (see ticket #574).
+------------------------------------------------------------------------
+r824 | michaelspain | 2018-08-08 19:52:45 +0000 (Wed, 08 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/modules/StatusAurasBuffs.lua
+
+Fixing Buffs status bug (ticket #573).
+------------------------------------------------------------------------
+r823 | michaelspain | 2018-08-07 18:49:08 +0000 (Tue, 07 Aug 2018) | 2 lines
+Changed paths:
+   M /trunk/GridFrame.lua
+   M /trunk/Options/GridUtils.lua
+   M /trunk/Options/modules/general/GridLayout.lua
+   M /trunk/modules/StatusAurasDebuffs.lua
+
+- Speed optimization for Debuffs Groups statuses.
+- Minor code tweaks.
+------------------------------------------------------------------------
+r822 | michaelspain | 2018-08-07 03:55:21 +0000 (Tue, 07 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/modules/StatusAurasDebuffs.lua
+
+-Fixing bug in Dispellable debuffs filter status (ticket #572)
+------------------------------------------------------------------------
+r821 | michaelspain | 2018-08-07 03:25:39 +0000 (Tue, 07 Aug 2018) | 2 lines
+Changed paths:
+   M /trunk/Options/modules/general/GridLayout.lua
+   M /trunk/modules/StatusAurasBuffDebuff.lua
+   M /trunk/modules/StatusAurasDebuffs.lua
+
+-Some tweaks to Debuffs status , trying to fix ticket #572.
+-Added Horizontal&Vertical position sliders to general options (ticket #454)
+------------------------------------------------------------------------
+r820 | michaelspain | 2018-08-04 16:55:56 +0000 (Sat, 04 Aug 2018) | 1 line
+Changed paths:
+   M /trunk/GridLayout.lua
+
+Fixed layouts by raid size functionality (ticket #570)
+------------------------------------------------------------------------
+r819 | michaelspain | 2018-07-28 16:21:45 +0000 (Sat, 28 Jul 2018) | 9 lines
+Changed paths:
+   M /trunk/GridFrame.lua
+   M /trunk/GridLayout.lua
+   M /trunk/Options/locales/esES.lua
+   M /trunk/Options/modules/general/GridLayout.lua
+   M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua
+   M /trunk/RaidDebuffsOptions/Grid2RaidDebuffsOptions.lua
+   M /trunk/RaidDebuffsOptions/Grid2RaidDebuffsOptions.toc
+   M /trunk/RaidDebuffsOptions/OptionsAdvanced.lua
+   M /trunk/RaidDebuffsOptions/OptionsGeneral.lua
+   D /trunk/RaidDebuffsOptions/OptionsRegAuto.lua
+   D /trunk/RaidDebuffsOptions/RaidDebuffsBC.lua
+   A /trunk/RaidDebuffsOptions/RaidDebuffsBfA.lua
+   D /trunk/RaidDebuffsOptions/RaidDebuffsCataclysm.lua
+   M /trunk/RaidDebuffsOptions/RaidDebuffsLegion.lua
+   D /trunk/RaidDebuffsOptions/RaidDebuffsLichKing.lua
+   D /trunk/RaidDebuffsOptions/RaidDebuffsMoP.lua
+   D /trunk/RaidDebuffsOptions/RaidDebuffsWoD.lua
+
+-Enabled right click menu functionality without clique addon.
+-Removed clickthrough option.
+*RaidDebuffs:
+-Removed old expansions raid debuffs
+-Simplified raid debuffs autodetection code.
+-Added Battle for Azeroth raid debuffs for 5man instances and Uldir raid.
+*** WARNING: This version will reset raid debuffs configuration on first run, 
+all raid debuffs will by removed (even custom debuffs).
+
+------------------------------------------------------------------------
 r818 | michaelspain | 2018-07-22 08:45:33 +0000 (Sun, 22 Jul 2018) | 1 line
 Changed paths:
    M /trunk/RaidDebuffs/Grid2RaidDebuffs.lua

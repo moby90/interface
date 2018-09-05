@@ -1627,7 +1627,7 @@ do
 		if checkFlag(self, key, C.MESSAGE) then
 			local textType = type(text)
 			if player == pName then
-				self:SendMessage("BigWigs_Message", self, key, format(L.stackyou, stack or 1, textType == "string" and text or spells[text or key]), "Personal", icon ~= false and icons[icon or textType == "number" and text or key])
+				self:SendMessage("BigWigs_Message", self, key, format(L.stackyou, stack or 1, textType == "string" and text or spells[text or key]), "blue", icon ~= false and icons[icon or textType == "number" and text or key])
 			elseif not checkFlag(self, key, C.ME_ONLY) then
 				self:SendMessage("BigWigs_Message", self, key, format(L.stack, stack or 1, textType == "string" and text or spells[text or key], coloredNames[player]), color, icon ~= false and icons[icon or textType == "number" and text or key])
 			end
@@ -1665,7 +1665,7 @@ do
 				if not checkFlag(self, key, C.MESSAGE) and not meOnly then wipe(player) return end
 			end
 			if meOnly or (onMe and #player == 1) then
-				self:SendMessage("BigWigs_Message", self, key, format(L.you, msg), "Personal", texture)
+				self:SendMessage("BigWigs_Message", self, key, format(L.you, msg), "blue", texture)
 			else
 				self:SendMessage("BigWigs_Message", self, key, format(L.other, msg, list), color, texture)
 			end
@@ -1689,7 +1689,7 @@ do
 			end
 			if player == pName then
 				if checkFlag(self, key, C.MESSAGE) or checkFlag(self, key, C.ME_ONLY) then
-					self:SendMessage("BigWigs_Message", self, key, format(L.you, msg), "Personal", texture)
+					self:SendMessage("BigWigs_Message", self, key, format(L.you, msg), "blue", texture)
 					if sound then
 						if hasVoice and checkFlag(self, key, C.VOICE) then
 							self:SendMessage("BigWigs_Voice", self, key, sound, true)
@@ -1734,7 +1734,7 @@ do
 				end
 
 				if onMe and (meOnly or (msgEnabled and playersInTable == 1)) then
-					self:SendMessage("BigWigs_Message", self, key, format(L.you, msg), "Personal", texture)
+					self:SendMessage("BigWigs_Message", self, key, format(L.you, msg), "blue", texture)
 				elseif not meOnly and msgEnabled then
 					local list = tconcat(playerTable, comma, 1, playersInTable)
 					self:SendMessage("BigWigs_Message", self, key, format(L.other, msg, list), color, texture)
@@ -1766,7 +1766,7 @@ do
 			end
 		elseif player == pName then
 			if checkFlag(self, key, C.MESSAGE) or checkFlag(self, key, C.ME_ONLY) then
-				self:SendMessage("BigWigs_Message", self, key, format(underYou and L.underyou or L.you, msg), "Personal", texture)
+				self:SendMessage("BigWigs_Message", self, key, format(underYou and L.underyou or L.you, msg), "blue", texture)
 			end
 		elseif checkFlag(self, key, C.MESSAGE) and not checkFlag(self, key, C.ME_ONLY) then
 			self:SendMessage("BigWigs_Message", self, key, format(L.other, msg, coloredNames[player]), color, texture)
@@ -1902,11 +1902,11 @@ do
 
 		local textType = type(text)
 		local msg = format(L.cast, textType == "string" and text or spells[text or key])
-		if checkFlag(self, key, C.BAR) then
+		if checkFlag(self, key, C.CASTBAR) then
 			self:SendMessage("BigWigs_StartBar", self, key, msg, length, icons[icon or textType == "number" and text or key])
-		end
-		if checkFlag(self, key, C.COUNTDOWN) then
-			self:SendMessage("BigWigs_StartEmphasize", self, key, msg, length)
+			if checkFlag(self, key, C.COUNTDOWN) then
+				self:SendMessage("BigWigs_StartEmphasize", self, key, msg, length)
+			end
 		end
 	end
 end
@@ -2036,7 +2036,7 @@ end
 -- @number[opt] icon Add the designated raid icon to the countdown
 -- @number[opt] startAt When to start sending messages in say, default value is at 3 seconds remaining
 function boss:SayCountdown(key, seconds, icon, startAt)
-	if not checkFlag(self, key, C.SAY) then return end -- XXX implement a dedicated option for 7.3
+	if not checkFlag(self, key, C.SAY_COUNTDOWN) then return end
 	local tbl = {false, startAt or 3}
 	local function printTime()
 		if not tbl[1] then
@@ -2073,26 +2073,28 @@ do
 	-- @string sound the sound to play
 	-- @string[opt] voice command to play when using a voice pack
 	function boss:PlaySound(key, sound, voice, player)
-		if player then
-			local meOnly = checkFlag(self, key, C.ME_ONLY)
-			if type(player) == "table" then
-				if meOnly then
-					if player[#player] == cpName then
+		if checkFlag(self, key, C.SOUND) then
+			if player then
+				local meOnly = checkFlag(self, key, C.ME_ONLY)
+				if type(player) == "table" then
+					if meOnly then
+						if player[#player] == cpName then
+							self:SendMessage("BigWigs_Sound", self, key, tmp[sound] or sound)
+						end
+					elseif #player == 1 then
 						self:SendMessage("BigWigs_Sound", self, key, tmp[sound] or sound)
 					end
-				elseif #player == 1 then
-					self:SendMessage("BigWigs_Sound", self, key, tmp[sound] or sound)
+				else
+					if not meOnly or (meOnly and player == pName) then
+						self:SendMessage("BigWigs_Sound", self, key, tmp[sound] or sound)
+					end
 				end
 			else
-				if not meOnly or (meOnly and player == pName) then
+				if hasVoice and checkFlag(self, key, C.VOICE) then
+					self:SendMessage("BigWigs_Voice", self, key, tmp[sound] or sound)
+				else
 					self:SendMessage("BigWigs_Sound", self, key, tmp[sound] or sound)
 				end
-			end
-		elseif checkFlag(self, key, C.MESSAGE) then
-			if hasVoice and checkFlag(self, key, C.VOICE) then
-				self:SendMessage("BigWigs_Voice", self, key, tmp[sound] or sound)
-			else
-				self:SendMessage("BigWigs_Sound", self, key, tmp[sound] or sound)
 			end
 		end
 	end
@@ -2175,18 +2177,18 @@ function boss:Berserk(seconds, noEngageMessage, customBoss, customBerserk, custo
 
 	if not noEngageMessage then
 		-- Engage warning with minutes to enrage
-		self:Message(key, "Attention", nil, format(L.custom_start, name, berserk, seconds / 60), false)
+		self:Message(key, "yellow", nil, format(L.custom_start, name, berserk, seconds / 60), false)
 	end
 
 	-- Half-way to enrage warning.
 	local half = seconds / 2
 	local m = half % 60
 	local halfMin = (half - m) / 60
-	self:DelayedMessage(key, half + m, "Positive", format(L.custom_min, berserk, halfMin))
+	self:DelayedMessage(key, half + m, "yellow", format(L.custom_min, berserk, halfMin))
 
-	self:DelayedMessage(key, seconds - 60, "Positive", format(L.custom_min, berserk, 1))
-	self:DelayedMessage(key, seconds - 30, "Urgent", format(L.custom_sec, berserk, 30))
-	self:DelayedMessage(key, seconds - 10, "Urgent", format(L.custom_sec, berserk, 10))
-	self:DelayedMessage(key, seconds - 5, "Important", format(L.custom_sec, berserk, 5))
-	self:DelayedMessage(key, seconds, "Important", customFinalMessage or format(L.custom_end, name, berserk), icon, "Alarm")
+	self:DelayedMessage(key, seconds - 60, "orange", format(L.custom_min, berserk, 1))
+	self:DelayedMessage(key, seconds - 30, "orange", format(L.custom_sec, berserk, 30))
+	self:DelayedMessage(key, seconds - 10, "orange", format(L.custom_sec, berserk, 10))
+	self:DelayedMessage(key, seconds - 5, "orange", format(L.custom_sec, berserk, 5))
+	self:DelayedMessage(key, seconds, "red", customFinalMessage or format(L.custom_end, name, berserk), icon, "Alarm")
 end

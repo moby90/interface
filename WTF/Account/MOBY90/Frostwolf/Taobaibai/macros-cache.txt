@@ -29,6 +29,13 @@ END
 VER 3 0100000000000027 "leap" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover] Leap of Faith
+/target [@mouseover]
+/hug
+/targetlasttarget
+END
+VER 3 010000000000002C "penance" "237545"
+#showtooltipp
+/cast [@mouseover, exists] [@target] Penance 
 END
 VER 3 0100000000000023 "PoH" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -42,7 +49,16 @@ VER 3 010000000000001A "purify" "INV_MISC_QUESTIONMARK"
 #showtooltip Purify
 /cast [@mouseover,help] Purify; [harm] Dispel Magic
 END
+VER 3 010000000000002D "radiance" "1386546"
+#showtooltipp
+/cast [@mouseover, exists] [@target] Power Word: Radiance
+END
 VER 3 0100000000000022 "Serenity" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover] Holy Word: Serenity
+END
+VER 3 010000000000002E "SP&D_macro" "INV_Misc_QuestionMark"
+#showtooltip Dispel Magic 
+/stopcasting
+/cast [btn:1,@target] Dispel Magic; [btn:2,@focus] Dispel Magic
 END

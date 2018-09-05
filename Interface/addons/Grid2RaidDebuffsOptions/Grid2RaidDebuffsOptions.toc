@@ -8,7 +8,7 @@
 ## Dependencies: Grid2, Grid2RaidDebuffs
 ## LoadOnDemand: 1
 
-## Version: r818
+## Version: r828
 
 #@no-lib-strip@
 #Libs\LibBabble-Boss-3.0\lib.xml
@@ -17,13 +17,7 @@
 Grid2RaidDebuffsOptions.lua
 OptionsGeneral.lua
 OptionsAdvanced.lua
-OptionsRegAuto.lua
 OptionsLuaCode.lua
 
-RaidDebuffsCataclysm.lua
-RaidDebuffsLichKing.lua
-RaidDebuffsBC.lua
-RaidDebuffsMoP.lua
-RaidDebuffsWoD.lua
 RaidDebuffsLegion.lua
-
+RaidDebuffsBfA.lua

@@ -43,6 +43,9 @@ function Coordinates:OnInitialize()
 end
 
 local frame, timerID, backdrop
+local GetPlayerMapPosition = C_Map.GetPlayerMapPosition
+local GetBestMapForUnit = C_Map.GetBestMapForUnit
+
 function Coordinates:OnEnable()
 	backdrop = {
 		bgFile = LSM:Fetch("background", self.db.profile.backgroundTexture, true),
@@ -63,18 +66,19 @@ function Coordinates:OnEnable()
 		text:SetPoint("CENTER")
 
 		function frame:Update()
-			local x, y = GetPlayerMapPosition("player")
-			if not x or not y then
-				-- instance or can't get coords
-				self:Hide()
-			else
-				if not self:IsShown() then
-					self:Show()
-					Coordinates:Update()
-					return
-				end
-				text:SetText(coordString:format(x*100, y*100))
+			local uiMapID = GetBestMapForUnit("player")
+			if not uiMapID then self:Hide() return end
+
+			local coords = GetPlayerMapPosition(uiMapID, "player")
+			if not coords then self:Hide() return end
+
+			if not self:IsShown() then
+				self:Show()
+				Coordinates:Update()
+				return
 			end
+
+			text:SetText(coordString:format(coords.x*100, coords.y*100))
 		end
 
 		frame:SetScript("OnDragStart", function(this) this:StartMoving() end)

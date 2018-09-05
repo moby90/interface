@@ -32,7 +32,8 @@ local properties = {
     type = "number",
     min = 6,
     softMax = 72,
-    step = 1
+    step = 1,
+    default = 12
   }
 }
 
@@ -71,7 +72,7 @@ local function modify(parent, region, data)
   local fontPath = SharedMedia:Fetch("font", data.font);
   text:SetFont(fontPath, data.fontSize, data.outline);
   if not text:GetFont() then -- Font invalid, set the font but keep the setting
-    text:SetFont("Fonts\\FRIZQT__.TTF", data.fontSize, data.outline);
+    text:SetFont(STANDARD_TEXT_FONT, data.fontSize, data.outline);
   end
   if text:GetFont() then
     WeakAuras.regionPrototype.SetTextOnText(text, data.displayText);
@@ -82,10 +83,10 @@ local function modify(parent, region, data)
   text:ClearAllPoints();
   text:SetPoint("CENTER", UIParent, "CENTER");
 
-  data.width = text:GetWidth();
-  data.height = text:GetHeight();
-  region:SetWidth(data.width);
-  region:SetHeight(data.height);
+  region.width = text:GetWidth();
+  region.height = text:GetHeight();
+  region:SetWidth(region.width);
+  region:SetHeight(region.height);
 
   text:SetTextHeight(data.fontSize);
 
@@ -112,9 +113,9 @@ local function modify(parent, region, data)
 
       local height = text:GetHeight();
 
-      if(data.height ~= height) then
-        data.height = text:GetHeight();
-        region:SetHeight(data.height);
+      if(region.height ~= height) then
+        region.height = text:GetHeight();
+        region:SetHeight(region.height);
         if(data.parent and WeakAuras.regions[data.parent].region.ControlChildren) then
           WeakAuras.regions[data.parent].region:ControlChildren();
         end
@@ -132,11 +133,11 @@ local function modify(parent, region, data)
       end
       local width = text:GetWidth();
       local height = text:GetHeight();
-      if(width ~= data.width or height ~= data.height ) then
-        data.width = width;
-        data.height = height;
-        region:SetWidth(data.width);
-        region:SetHeight(data.height);
+      if(width ~= region.width or height ~= region.height ) then
+        region.width = width;
+        region.height = height;
+        region:SetWidth(region.width);
+        region:SetHeight(region.height);
         if(data.parent and WeakAuras.regions[data.parent].region.ControlChildren) then
           WeakAuras.regions[data.parent].region:ControlChildren();
         end
@@ -272,7 +273,7 @@ local function fallbackmodify(parent, region, data)
   WeakAuras.regionPrototype.modify(parent, region, data);
   local text = region.text;
 
-  text:SetFont("Fonts\\FRIZQT__.TTF", data.fontSize, data.outline and "OUTLINE" or nil);
+  text:SetFont(STANDARD_TEXT_FONT, data.fontSize, data.outline and "OUTLINE" or nil);
   if text:GetFont() then
     text:SetText(WeakAuras.L["Region type %s not supported"]:format(data.regionType));
   end

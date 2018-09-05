@@ -390,6 +390,14 @@ function Grid2Options:CopyOptionsTable(src, dst)
 	return dst
 end
 
+-- Return current screen resolution in pixels
+function Grid2Options:GetScreenResolution()
+	local i = GetCurrentResolution()
+	local r = (i>0 and select(i,GetScreenResolutions())) or GetCVar("gxWindowedResolution") or GetCVar("gxFullscreenResolution") or ""
+	local w, h = r:match("^(%d+)x(%d+)$")
+	return tonumber(w) or 1024, tonumber(h) or 768
+end
+
 -- Grid2Options:ConfirmDialog()
 function Grid2Options:ConfirmDialog(message, funcAccept, funcCancel)
 	local t

@@ -18,6 +18,8 @@ Chinchilla2DB = {
 				},
 			},
 		},
+		["RangeCircle"] = {
+		},
 		["TrackingDots"] = {
 		},
 		["QuestTracker"] = {
@@ -27,7 +29,12 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["Zoom"] = {
+		["Expander"] = {
+			["profiles"] = {
+				["Default"] = {
+					["enabled"] = false,
+				},
+			},
 		},
 		["ShowHide"] = {
 			["profiles"] = {
@@ -39,8 +46,8 @@ Chinchilla2DB = {
 					["difficulty"] = "mouseover",
 					["dayNight"] = "mouseover",
 					["clock"] = "mouseover",
-					["voice"] = false,
 					["track"] = "mouseover",
+					["voice"] = false,
 				},
 			},
 		},
@@ -68,7 +75,7 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["RangeCircle"] = {
+		["Compass"] = {
 		},
 		["MoveButtons"] = {
 			["profiles"] = {
@@ -78,17 +85,12 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["Expander"] = {
-			["profiles"] = {
-				["Default"] = {
-					["enabled"] = false,
-				},
-			},
+		["Zoom"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Taobaibai - Frostwolf"] = "Default",
 		["Laru - Frostwolf"] = "Default",
+		["Taobaibai - Frostwolf"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

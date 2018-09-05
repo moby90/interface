@@ -21,8 +21,8 @@ L["Available quest"] = "Missão disponível"
 L["Background"] = "Fundo"
 L["Battleground"] = "Campo de Batalha"
 L["Big Blizzard"] = "Blizzard Grande"
---Translation missing 
--- L["Blink Rate"] = ""
+--[[Translation missing --]]
+--[[ L["Blink Rate"] = ""--]] 
 L["Blinking Blips"] = "Pontos piscantes"
 L["Blip size"] = "Tamanho de ponto"
 L["Blizzard"] = "Blizzard"
@@ -70,15 +70,15 @@ L["Enemy player"] = "Jogador Inimigo"
 L["Expander"] = "Dilatador"
 L["Fadeout time"] = "Tempo para desaparecer"
 L["Flat"] = "Achatado"
---Translation missing 
--- L["Font"] = ""
+--[[Translation missing --]]
+--[[ L["Font"] = ""--]] 
 L["Frame level"] = "Nível da Moldura"
 L["Friendly npc"] = "PNJ Amigável"
 L["Friendly player"] = "Jogador Amigável"
 L["Fullscreen"] = "Tela-Cheia"
 L["Fullscreen-dialog"] = "Diálogo em Tela-cheia"
---Translation missing 
--- L["Garrison"] = ""
+--[[Translation missing --]]
+--[[ L["Garrison"] = ""--]] 
 L["Glass Spheres"] = "Esferas de vídro"
 L["Guild difficulty"] = "Dificuldade da Guild"
 L["Height"] = "Altura"
@@ -156,8 +156,8 @@ L["Right mouse button"] = "Botão direito do mouse"
 L["Round"] = "Circular"
 L["See how the tracking dots will look"] = "Veja quantos pontos de procura aparecerão"
 L["Set how far away from the center to place buttons on the minimap"] = "Escolha o quão distante do centro os botões ficarão no minimapa"
---Translation missing 
--- L["Set how fast the blips flash."] = ""
+--[[Translation missing --]]
+--[[ L["Set how fast the blips flash."] = ""--]] 
 L["Set how large the blips on the minimap are"] = "Escolha o quão grande os pontos estarão no minimapa"
 L["Set how large the border texture is."] = "Escolha o quão grande a textura da borda será"
 L["Set how large the minimap is"] = "Escolha o quão grande o minimapa será"
@@ -172,8 +172,8 @@ L["Set the position of the battleground indicator"] = "Escolha a posição do in
 L["Set the position of the calendar"] = "Escolha a posição do calendário"
 L["Set the position of the clock"] = "Escolha a posição do relógio"
 L["Set the position of the coordinate indicator"] = "Escolha a posição do indicador de coordenadas"
---Translation missing 
--- L["Set the position of the garrison report button"] = ""
+--[[Translation missing --]]
+--[[ L["Set the position of the garrison report button"] = ""--]] 
 L["Set the position of the guild instance difficulty indicator"] = "Escolha a posição da dificuldade de masmorra "
 L["Set the position of the instance difficulty indicator"] = "Escolha a posição do indicador de dificuldade da masmorra"
 L["Set the position of the location indicator"] = "Escolha a posição do indicador de localização"
@@ -233,8 +233,8 @@ L["Show a test ping"] = "Mostre um aviso de teste"
 L["Show an expanded minimap on keypress"] = "Mostre um minimapa expandido ao apertar um botão"
 L["Show and hide interface elements of the minimap"] = "Mostre ou esconda os elementos de interface no minimapa"
 L["Show close button"] = "Mostre o botão de fechar"
---Translation missing 
--- L["Show collapse button"] = ""
+--[[Translation missing --]]
+--[[ L["Show collapse button"] = ""--]] 
 L["Show coordinates on or near the minimap"] = "Mostre coordenadas sobre ou próximo ao minimapa"
 L["Show direction indicators on the minimap"] = "Mostre indicadores de direção no minimapa"
 L["Show in chat"] = "Mostre na conversa"
@@ -247,8 +247,8 @@ L["Show the calendar"] = "Mostre o calendário"
 L["Show the category banners on the quest tracker."] = "Mostre o título do rastreador de missões"
 L["Show the clock"] = "Mostre o relógio"
 L["Show the collapse button on the quest tracker."] = "Mostre botão de fechar no rastreador de quests"
---Translation missing 
--- L["Show the garrison report button"] = ""
+--[[Translation missing --]]
+--[[ L["Show the garrison report button"] = ""--]] 
 L["Show the instance difficulty flag on the minimap"] = "Mostre a bandeira de dificuldade de masmorra no minimapa"
 L["Show the location bar above the minimap"] = "Mostre a barra de localização acima do minimapa"
 L["Show the location text above the minimap"] = "Mostre o texto de localização acima do minimapa"
@@ -257,15 +257,15 @@ L["Show the mail indicator"] = "Mostre indicador de correio"
 L["Show the north symbol on the minimap"] = "Mostre o simbolo de norte no minimapa"
 L["Show the recording button"] = "Mostre o botão de gravação"
 L["Show the ticket status indicator"] = "Mostre o indicador de estado de ticket"
---Translation missing 
--- L["Show the title of the quest tracker."] = ""
+--[[Translation missing --]]
+--[[ L["Show the title of the quest tracker."] = ""--]] 
 L["Show the tracking indicator"] = "Mostre o indicador de rastreamento"
 L["Show the vehicle seats indicator"] = "Mostre o indicador de bancos de veículos"
 L["Show the voice chat button"] = "Mostre o botão de chat por voz"
 L["Show the world map button"] = "Mostre o botão de mapa do mundo"
 L["Show the zoom in and out buttons"] = "Mostre os botões de ampliar e afastar zoom"
---Translation missing 
--- L["Show title"] = ""
+--[[Translation missing --]]
+--[[ L["Show title"] = ""--]] 
 L["Show who last pinged the minimap"] = "Mostre quem por último enviou aviso para o minimapa"
 L["Show who pinged in chat instead of in a frame on the minimap."] = "Mostre quem enviou aviso na conversa em vez de no quadro do minimapa"
 L["Show zone information on or near minimap"] = "Mostre informações da zona próximo ou no minimapa"

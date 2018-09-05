@@ -729,9 +729,6 @@ local function modifyThumbnail(parent, borderframe, data, fullModify, width, hei
     end
   end
 
-  -- Fake bar alpha
-  region:SetAlpha(data.alpha);
-
   -- Fake status-bar style
   texture:SetTexture(SharedMedia:Fetch("statusbar", data.texture));
   texture:SetVertexColor(data.barColor[1], data.barColor[2], data.barColor[3], data.barColor[4]);
@@ -844,24 +841,13 @@ end
 
 local templates = {
   {
-    title = L["Default"],
-    data = {
-    };
-  },
-  {
-    title = L["Horizontal Blizzard Raid Bar"],
-    data = {
-      texture = "Blizzard Raid Bar",
-      width = 200,
-      height = 15,
-    };
-  },
-  {
     title = L["Horizontal Bar"],
     data = {
       width = 200,
       height = 30,
-      barColor = { 1, 1, 0, 1}
+      barColor = { 0, 1, 0, 1},
+      inverse = true,
+      smoothProgress = true,
     }
   },
   {
@@ -872,8 +858,8 @@ local templates = {
       barColor = { 0, 1, 0, 1},
       rotateText = "LEFT",
       orientation = "VERTICAL_INVERSE",
-      texture = "Blizzard Raid Bar",
-      icon = false
+      inverse = true,
+      smoothProgress = true,
     }
   },
 }

@@ -39,7 +39,6 @@ local default = {
   sparkColor = {1.0, 1.0, 1.0, 1.0},
   sparkTexture = "Interface\\CastingBar\\UI-CastingBar-Spark",
   sparkBlendMode = "ADD",
-  sparkDesature = false,
   sparkOffsetX = 0,
   sparkOffsetY = 0,
   sparkRotationMode = "AUTO",
@@ -145,6 +144,7 @@ local properties = {
     min = 6,
     softMax = 72,
     step = 1,
+    default = 12
   },
   timerSize = {
     display = L["Second Text Size"],
@@ -153,6 +153,7 @@ local properties = {
     min = 6,
     softMax = 72,
     step = 1,
+    default = 12
   },
   stacksSize = {
     display = L["Stacks Text Size"],
@@ -161,6 +162,7 @@ local properties = {
     min = 6,
     softMax = 72,
     step = 1,
+    default = 12
   },
   width = {
     display = L["Width"],
@@ -169,6 +171,7 @@ local properties = {
     min = 1,
     softMax = screenWidth,
     bigStep = 1,
+    defautl = 32,
   },
   height = {
     display = L["Height"],
@@ -176,7 +179,8 @@ local properties = {
     type = "number",
     min = 1,
     softMax = screenHeight,
-    bigStep = 1
+    bigStep = 1,
+    default = 32
   },
   orientation = {
     display = L["Orientation"],
@@ -366,7 +370,7 @@ local barPrototype = {
         if (not self.extraTextures[index]) then
           local extraTexture = self:CreateTexture(nil, "ARTWORK");
           extraTexture:SetTexture(self:GetStatusBarTexture(), extraTextureWrapMode, extraTextureWrapMode);
-          extraTexture:SetDrawLayer("ARTWORK", index);
+          extraTexture:SetDrawLayer("ARTWORK", min(index, 7));
           self.extraTextures[index] = extraTexture;
         end
 
@@ -1410,7 +1414,11 @@ local function modify(parent, region, data)
     then
       progress = 1 - progress;
     end
-    region.bar:SetValue(progress);
+    if (data.smoothProgress) then
+      region.bar:SetSmoothedValue(progress);
+    else
+      region.bar:SetValue(progress);
+    end
     UpdateText(region, data);
   end
 

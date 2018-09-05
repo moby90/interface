@@ -6,7 +6,7 @@ Chinchilla = LibStub("AceAddon-3.0"):NewAddon("Chinchilla", "AceHook-3.0")
 
 
 --@non-debug@
-Chinchilla.version = "v2.8.6"
+Chinchilla.version = "v2.9.1"
 --@end-non-debug@
 
 --[===[@debug@

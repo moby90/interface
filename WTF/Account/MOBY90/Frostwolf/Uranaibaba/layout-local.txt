@@ -1,1 +1,8 @@
 Version: 1
+Frame: AAP_AFkFrames
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -607
+Y: -214
+W: 120
+H: 40

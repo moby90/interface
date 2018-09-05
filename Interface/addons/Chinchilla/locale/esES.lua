@@ -21,14 +21,14 @@ L["Available quest"] = "Mision disponible"
 L["Background"] = "Fondo"
 L["Battleground"] = "Campo de batalla"
 L["Big Blizzard"] = "Gran Blizzard"
---Translation missing 
--- L["Blink Rate"] = ""
---Translation missing 
--- L["Blinking Blips"] = ""
+--[[Translation missing --]]
+--[[ L["Blink Rate"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Blinking Blips"] = ""--]] 
 L["Blip size"] = "Oprima el tamaño"
 L["Blizzard"] = "Blizzard"
---Translation missing 
--- L["Blizzard, Big Resources"] = ""
+--[[Translation missing --]]
+--[[ L["Blizzard, Big Resources"] = ""--]] 
 L["Border"] = "Marco"
 L["Border color"] = "Color del marco"
 L["Border radius"] = "Tamaño del marco"
@@ -41,17 +41,17 @@ L["Button border opacity"] = "Opacidad de marco"
 L[ [=[Button to use on the minimap to open the preferences window.
 Note: you can always open with /chin]=] ] = [=[Botón del minimapa para abrir la ventana de preferencias.
 Nota: siempre puedes abrirla con /chin]=]
---Translation missing 
--- L["Button to use on the minimap to toggle the tracking menu."] = ""
+--[[Translation missing --]]
+--[[ L["Button to use on the minimap to toggle the tracking menu."] = ""--]] 
 L["Calendar"] = "Calendario"
 L["Capture bar"] = "Barra de captura"
 L["Center"] = "Centro"
 L["Change how the tracking dots look on the minimap."] = "Cambia la forma de ver los puntos de trazado en el minimapa."
---Translation missing 
--- L["Charmed"] = ""
+--[[Translation missing --]]
+--[[ L["Charmed"] = ""--]] 
 L["Chinchilla Minimap"] = "Chinchilla Minimap"
---Translation missing 
--- L["Choose to toggle the expanded minimap or only keep it shown while pressing the button down."] = ""
+--[[Translation missing --]]
+--[[ L["Choose to toggle the expanded minimap or only keep it shown while pressing the button down."] = ""--]] 
 L["Clamped to Screen"] = "Limitado a la Pantalla"
 L["Clock"] = "Reloj"
 L["Color"] = "Color"
@@ -75,8 +75,8 @@ L["Enemy player"] = "Jugador enemigo"
 L["Expander"] = "Expandir"
 L["Fadeout time"] = "Tiempo de desvanecimiento."
 L["Flat"] = "Ancho."
---Translation missing 
--- L["Font"] = ""
+--[[Translation missing --]]
+--[[ L["Font"] = ""--]] 
 L["Frame level"] = "Nivel de cuadros"
 L["Friendly npc"] = "PNJ amistoso"
 L["Friendly player"] = "Jugador amistoso"
@@ -104,8 +104,8 @@ L["Lock any draggable items regarding the minimap, so they can't be dragged mist
 L["Lock buttons in place so that they won't be mistakenly dragged"] = "Bloquea los botones de forma que no puedan arrastrarse accidentalmente"
 L["Low"] = "Bajo"
 L["Mail"] = "Correo"
---Translation missing 
--- L["Make the minimap blips flash to make them more noticable."] = ""
+--[[Translation missing --]]
+--[[ L["Make the minimap blips flash to make them more noticable."] = ""--]] 
 L["Medium"] = "Medio"
 L["Middle mouse button"] = "Boton medio del raton"
 L["Minimap"] = "Minimapa"
@@ -145,12 +145,12 @@ L["Position of the minimap on the screen"] = "Posicion del minimapa en la pantal
 L["Position of the quest/achievement tracker on the screen"] = "Posicion del seguimiento de misiones/logros en la pantalla"
 L["Position of the vehicle seat indicator on the screen"] = "Posicion del asiento de vehiculo en la pantalla"
 L["Position of the world state indicator on the screen"] = "Posición del indicador sobre el estado del mapa en la pantalla"
---Translation missing 
--- L["Position the circular status window which shows in certain raid encounters."] = ""
+--[[Translation missing --]]
+--[[ L["Position the circular status window which shows in certain raid encounters."] = ""--]] 
 L["Precision"] = "Precision"
 L["Preferences button"] = "Boton de preferencias"
---Translation missing 
--- L["Prevent the frames from being dragged off the edge of your screen."] = ""
+--[[Translation missing --]]
+--[[ L["Prevent the frames from being dragged off the edge of your screen."] = ""--]] 
 L["Preview"] = "Previsualizacion"
 L["Quest and achievement tracker"] = "Seguimiento de misiones y logros"
 L["Quest Tracker"] = "Seguimiento de Objetivos de Misión"
@@ -163,8 +163,8 @@ L["Right mouse button"] = "Boton del raton derecho"
 L["Round"] = "Ronda"
 L["See how the tracking dots will look"] = "Vea cómo los puntos de seguimiento se verá"
 L["Set how far away from the center to place buttons on the minimap"] = "Establecer qué tan lejos del centro para colocar botones en el minimapa"
---Translation missing 
--- L["Set how fast the blips flash."] = ""
+--[[Translation missing --]]
+--[[ L["Set how fast the blips flash."] = ""--]] 
 L["Set how large the blips on the minimap are"] = "Ajuste la amplitud de la repuntes en el minimapa"
 L["Set how large the border texture is."] = "Establecer qué tan grande es la textura de los bordes"
 L["Set how large the minimap is"] = "Establecer qué tan grande es el minimapa"
@@ -223,16 +223,16 @@ L["Set the text color"] = "Define el color de texto"
 L["Set the time it takes between manually zooming in and automatically zooming out"] = "Ajustar el tiempo que tarda entre el zoom para acercar manual y el zoom para alejar automático."
 L["Set what texture style you want the minimap border to use."] = "Ajusta qué textura quieres usar para el borde del minimapa."
 L["Set which frame level the minimap is layered on in relation to others in your interface."] = "Ajustar el nivel de superposicionamiento del minimapa respecto a otras ventanas de tu interfaz."
---Translation missing 
--- L["Set which layer the minimap is layered on in relation to others in your interface."] = ""
+--[[Translation missing --]]
+--[[ L["Set which layer the minimap is layered on in relation to others in your interface."] = ""--]] 
 L["Shape"] = "Forma"
 L["Show / Hide"] = "Mostrar / Ocultar"
 L["Show a circle on the minimap at a prefered range"] = "Mostrar un círculo en el minimapa con un rango elegido"
 L["Show a frame that is movable to show where you want the boss frames to be"] = "Mostrar un cuadro movible para ajustar la posición del marco de jefes."
 L["Show a frame that is movable to show where you want the capture bar to be"] = "Mostar un cuadro movible para ajustar la posición de la barra de captura"
 L["Show a frame that is movable to show where you want the durability man to be"] = "Mostrar un cuadro movible para ajustar la posición del muñeco de durabilidad"
---Translation missing 
--- L["Show a frame that is movable to show where you want the power bar to be."] = ""
+--[[Translation missing --]]
+--[[ L["Show a frame that is movable to show where you want the power bar to be."] = ""--]] 
 L["Show a frame that is movable to show where you want the quest tracker to be"] = "Muestra un marco movible para poder ver donde colocar el seguimiento de misiones."
 L["Show a frame that is movable to show where you want the ticket status indicator to be"] = "Mostrar un marco movible para ver donde colocar el indicador de estado para el ticket."
 L["Show a frame that is movable to show where you want the vehicle seat indicator to be"] = "Muestra un marco movible para poder ver donde colocar en indicador de asientos del vehículo."
@@ -241,8 +241,8 @@ L["Show a test ping"] = "Muestra una prueba de ping."
 L["Show an expanded minimap on keypress"] = "Muestra un minimapa ampliado al pulsar la tecla"
 L["Show and hide interface elements of the minimap"] = "Muestra y oculta los elementos de la interfaz del minimapa."
 L["Show close button"] = "Mostrar botón de cerrar."
---Translation missing 
--- L["Show collapse button"] = ""
+--[[Translation missing --]]
+--[[ L["Show collapse button"] = ""--]] 
 L["Show coordinates on or near the minimap"] = "Mostrar coordenadas en o cerca del minimapa."
 L["Show direction indicators on the minimap"] = "Muestra el indicador de dirección en el minimapa."
 L["Show in chat"] = "Mostrar en chat."
@@ -264,26 +264,26 @@ L["Show the mail indicator"] = "Mostrar el indicador de correo"
 L["Show the north symbol on the minimap"] = "Mostrar el símbolo de norte en el minimapa"
 L["Show the recording button"] = "Mostrar el botón de grabación"
 L["Show the ticket status indicator"] = "Mostrar indicador de estado del ticket"
---Translation missing 
--- L["Show the title of the quest tracker."] = ""
+--[[Translation missing --]]
+--[[ L["Show the title of the quest tracker."] = ""--]] 
 L["Show the tracking indicator"] = "Mostrar indicador de seguimiento"
 L["Show the vehicle seats indicator"] = "Mostrar indicador de asientos del vehículo"
 L["Show the voice chat button"] = "Mostrar el botón de chat de voz"
 L["Show the world map button"] = "Mostrar el botón de mapa del mundo"
 L["Show the zoom in and out buttons"] = "Mostrar los botones de zoom"
---Translation missing 
--- L["Show title"] = ""
+--[[Translation missing --]]
+--[[ L["Show title"] = ""--]] 
 L["Show who last pinged the minimap"] = "Mostrar quien ha clickeado el último en el minimapa (ping)"
 L["Show who pinged in chat instead of in a frame on the minimap."] = "Mostrar quien ha clickeado el minimapa en el chat en vez de en el minimapa."
 L["Show zone information on or near minimap"] = "Mostrar información de zona en o cerca del minimapa"
---Translation missing 
--- L["Side, bottom rounded"] = ""
---Translation missing 
--- L["Side, left rounded"] = ""
---Translation missing 
--- L["Side, right rounded"] = ""
---Translation missing 
--- L["Side, top rounded"] = ""
+--[[Translation missing --]]
+--[[ L["Side, bottom rounded"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Side, left rounded"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Side, right rounded"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Side, top rounded"] = ""--]] 
 L["Size"] = "Tamaño"
 L["Size of the east, west, and south indicators relative to the north indicator"] = "Tamaño de los indicadores este, oeste y sur respecto al indicador de norte"
 L["Size of the indicators"] = "Tamaño de los indicadores"
@@ -312,14 +312,14 @@ L["Top-right"] = "Arriba-derecha"
 L["Tracked resource"] = "Seguimiento de recursos"
 L["Tracking"] = "Seguimiento"
 L["Tracking dots"] = "Seguimiento de dots"
---Translation missing 
--- L["Tri-corner, bottom-left square"] = ""
---Translation missing 
--- L["Tri-corner, bottom-right square"] = ""
---Translation missing 
--- L["Tri-corner, top-left square"] = ""
---Translation missing 
--- L["Tri-corner, top-right square"] = ""
+--[[Translation missing --]]
+--[[ L["Tri-corner, bottom-left square"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Tri-corner, bottom-right square"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Tri-corner, top-left square"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Tri-corner, top-right square"] = ""--]] 
 L["Tubular"] = "Tubular"
 L["Tweak the quest tracker"] = "Ajustar el seguimiento de misiones"
 L["Unread Invites Only"] = "Solo invitaciones no leídas"

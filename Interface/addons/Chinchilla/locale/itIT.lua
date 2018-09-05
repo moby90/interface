@@ -21,8 +21,8 @@ L["Available quest"] = "Missione disponibile"
 L["Background"] = "Sfondo"
 L["Battleground"] = "Campo di Battaglia"
 L["Big Blizzard"] = "Blizzard Grande"
---Translation missing 
--- L["Blink Rate"] = ""
+--[[Translation missing --]]
+--[[ L["Blink Rate"] = ""--]] 
 L["Blinking Blips"] = "Blip lampeggianti"
 L["Blip size"] = "Dimensione cursore"
 L["Blizzard"] = "Blizzard"
@@ -70,8 +70,7 @@ L["Enemy player"] = "Giocatore nemico"
 L["Expander"] = "Minimappa Espansa"
 L["Fadeout time"] = "Tempo di scomparsa"
 L["Flat"] = "Piano"
---Translation missing 
--- L["Font"] = ""
+L["Font"] = "Carattere"
 L["Frame level"] = "Livello Frame"
 L["Friendly npc"] = "PNG Amico"
 L["Friendly player"] = "Giocatore amico"
@@ -155,8 +154,8 @@ L["Right mouse button"] = "Pulsante destro mouse"
 L["Round"] = "Rotondo"
 L["See how the tracking dots will look"] = "Mostra come verrà visualizzato il tracciamento dei punti"
 L["Set how far away from the center to place buttons on the minimap"] = "Imposta la distanza dal centro per i pulsanti da piazzare intorno alla minimappa"
---Translation missing 
--- L["Set how fast the blips flash."] = ""
+--[[Translation missing --]]
+--[[ L["Set how fast the blips flash."] = ""--]] 
 L["Set how large the blips on the minimap are"] = "Imposta la larghezza dei lampeggiamenti sulla minimappa"
 L["Set how large the border texture is."] = "Imposta la larghezza del bordo"
 L["Set how large the minimap is"] = "Imposta la larghezza della minimappa"
@@ -231,8 +230,8 @@ L["Show a test ping"] = "Mostra un ping di test"
 L["Show an expanded minimap on keypress"] = "Mostra una minimappa estesa quando premi un pulsante"
 L["Show and hide interface elements of the minimap"] = "Mostra e nasconde elementi della minimappa"
 L["Show close button"] = "Mostra il pulsante chiudi"
---Translation missing 
--- L["Show collapse button"] = ""
+--[[Translation missing --]]
+--[[ L["Show collapse button"] = ""--]] 
 L["Show coordinates on or near the minimap"] = "Mostra le coordinate sulla minimappa o nei suoi pressi"
 L["Show direction indicators on the minimap"] = "Mostra gli indicatori di direzione sulla minimappa"
 L["Show in chat"] = "Mostra nella chat"
@@ -254,15 +253,15 @@ L["Show the mail indicator"] = "Mostra l'indicatore della posta"
 L["Show the north symbol on the minimap"] = "Mostra il simbolo del nord nella minimappa"
 L["Show the recording button"] = "Mostra il pulsante di registrazione"
 L["Show the ticket status indicator"] = "Mostra l'indicatore di status dei ticket"
---Translation missing 
--- L["Show the title of the quest tracker."] = ""
+--[[Translation missing --]]
+--[[ L["Show the title of the quest tracker."] = ""--]] 
 L["Show the tracking indicator"] = "Mostra l'indicatore del tracciamento"
 L["Show the vehicle seats indicator"] = "Mostra l'indicatore dei sedili del veicolo"
 L["Show the voice chat button"] = "Mosta il pulsante della chat vocale"
 L["Show the world map button"] = "Mostra il pulsante della mappa del mondo"
 L["Show the zoom in and out buttons"] = "Mostra i pulsanti Zoom In e Zoom Out"
---Translation missing 
--- L["Show title"] = ""
+--[[Translation missing --]]
+--[[ L["Show title"] = ""--]] 
 L["Show who last pinged the minimap"] = "Mostra chi ha effettuato l'ultimo ping sulla minimappa"
 L["Show who pinged in chat instead of in a frame on the minimap."] = "Scrivi chi ha effettuato un ping nella chat invece che sul frame della minimappa"
 L["Show zone information on or near minimap"] = "Mostra informazione zone sulla minimappa o nelle sue vicinanze"

@@ -3,11 +3,14 @@ local L = BigWigsAPI:GetLocale("BigWigs")
 local mod, public = {}, {}
 local bwFrame = CreateFrame("Frame")
 
+local ldb = LibStub("LibDataBroker-1.1")
+local ldbi = LibStub("LibDBIcon-1.0")
+
 -----------------------------------------------------------------------
 -- Generate our version variables
 --
 
-local BIGWIGS_VERSION = 101
+local BIGWIGS_VERSION = 104
 local BIGWIGS_RELEASE_STRING, BIGWIGS_VERSION_STRING = "", ""
 local versionQueryString, versionResponseString = "Q^%d^%s", "V^%d^%s"
 
@@ -18,7 +21,7 @@ do
 	local RELEASE = "RELEASE"
 
 	local releaseType = RELEASE
-	local myGitHash = "a843e0a" -- The ZIP packager will replace this with the Git hash.
+	local myGitHash = "f428344" -- The ZIP packager will replace this with the Git hash.
 	local releaseString = ""
 	--[===[@alpha@
 	-- The following code will only be present in alpha ZIPs.
@@ -50,11 +53,11 @@ end
 -- Locals
 --
 
-local ldb = nil
 local tooltipFunctions = {}
 local next, tonumber, strsplit = next, tonumber, strsplit
 local SendAddonMessage, Ambiguate, CTimerAfter, CTimerNewTicker = C_ChatInfo.SendAddonMessage, Ambiguate, C_Timer.After, C_Timer.NewTicker
 local GetInstanceInfo, GetBestMapForUnit, GetMapInfo = GetInstanceInfo, C_Map.GetBestMapForUnit, C_Map.GetMapInfo
+local UnitName = UnitName
 
 -- Try to grab unhooked copies of critical funcs (hooked by some crappy addons)
 public.GetBestMapForUnit = GetBestMapForUnit
@@ -266,7 +269,7 @@ end
 -- GLOBALS: GetAddOnEnableState, GetAddOnInfo, GetAddOnMetadata, GetLocale, GetNumGroupMembers, GetRealmName, GetSpecialization, GetSpecializationRole, GetTime, GRAY_FONT_COLOR, hash_SlashCmdList, InCombatLockdown
 -- GLOBALS: IsAddOnLoaded, IsAltKeyDown, IsControlKeyDown, IsEncounterInProgress, IsInGroup, IsInRaid, IsLoggedIn, IsPartyLFG, IsSpellKnown, LFGDungeonReadyPopup
 -- GLOBALS: LibStub, LoadAddOn, message, PlaySound, print, RAID_CLASS_COLORS, RaidNotice_AddMessage, RaidWarningFrame, RegisterAddonMessagePrefix, RolePollPopup, select, StopSound
--- GLOBALS: tostring, tremove, type, UnitAffectingCombat, UnitClass, UnitGroupRolesAssigned, UnitIsConnected, UnitIsDeadOrGhost, UnitName, UnitSetRole, unpack, SLASH_BigWigs1, SLASH_BigWigs2
+-- GLOBALS: tostring, tremove, type, UnitAffectingCombat, UnitClass, UnitGroupRolesAssigned, UnitIsConnected, UnitIsDeadOrGhost, UnitSetRole, unpack, SLASH_BigWigs1, SLASH_BigWigs2
 -- GLOBALS: SLASH_BigWigsVersion1, wipe
 
 -----------------------------------------------------------------------
@@ -294,6 +297,7 @@ local function load(obj, index)
 		loadOnSlash[index] = nil
 	end
 
+	EnableAddOn(index) -- Make sure it wasn't left disabled for whatever reason
 	local loaded, reason = LoadAddOn(index)
 	if not loaded then
 		sysprint(ADDON_LOAD_FAILED:format(GetAddOnInfo(index), _G["ADDON_"..reason]))
@@ -302,14 +306,18 @@ local function load(obj, index)
 end
 
 local function loadAddons(tbl)
-	if not tbl then return end
-	for _, index in next, tbl do
+	if not tbl[1] then return end
+
+	for i = 1, #tbl do
+		local index = tbl[i]
 		if not IsAddOnLoaded(index) and load(nil, index) then
 			local name = GetAddOnInfo(index)
 			public:SendMessage("BigWigs_ModulePackLoaded", name)
 		end
 	end
-	tbl = nil
+	for i = #tbl, 1, -1 do
+		tbl[i] = nil
+	end
 end
 
 local function loadZone(zone)
@@ -331,6 +339,62 @@ local function loadCoreAndOpenOptions()
 	if BigWigsOptions then
 		BigWigsOptions:Open()
 	end
+end
+
+local function Popup(msg)
+	BasicMessageDialog.Text:SetText(msg)
+	BasicMessageDialog:Show()
+end
+
+-----------------------------------------------------------------------
+-- LDB Plugin
+--
+
+local dataBroker = ldb:NewDataObject("BigWigs",
+	{type = "launcher", label = "BigWigs", icon = "Interface\\AddOns\\BigWigs\\Textures\\icons\\core-disabled"}
+)
+
+function dataBroker.OnClick(self, button)
+	if button == "RightButton" then
+		loadCoreAndOpenOptions()
+	else
+		loadAndEnableCore()
+		if IsAltKeyDown() then
+			if IsControlKeyDown() then
+				BigWigs:Disable()
+			else
+				for name, module in BigWigs:IterateBossModules() do
+					if module:IsEnabled() then module:Disable() end
+				end
+				sysprint(L.modulesDisabled)
+			end
+		else
+			for name, module in BigWigs:IterateBossModules() do
+				if module:IsEnabled() then module:Reboot() end
+			end
+			sysprint(L.modulesReset)
+		end
+	end
+end
+
+function dataBroker.OnTooltipShow(tt)
+	tt:AddLine("BigWigs")
+	if BigWigs and BigWigs:IsEnabled() then
+		local added = nil
+		for name, module in BigWigs:IterateBossModules() do
+			if module:IsEnabled() then
+				if not added then
+					tt:AddLine(L.activeBossModules, 1, 1, 1)
+					added = true
+				end
+				tt:AddLine(module.displayName)
+			end
+		end
+	end
+	for i = 1, #tooltipFunctions do
+		tooltipFunctions[i](tt)
+	end
+	tt:AddLine(L.tooltipHint, 0.2, 1, 0.2, 1)
 end
 
 -----------------------------------------------------------------------
@@ -372,10 +436,18 @@ do
 
 	for i = 1, GetNumAddOns() do
 		local name = GetAddOnInfo(i)
+		if reqFuncAddons[name] then
+			EnableAddOn(i) -- Make sure it wasn't left disabled for whatever reason
+		end
+
 		if IsAddOnEnabled(i) then
 			local meta = GetAddOnMetadata(i, "X-BigWigs-LoadOn-CoreEnabled")
 			if meta then
-				loadOnCoreEnabled[#loadOnCoreEnabled + 1] = i
+				if name == "BigWigs_Plugins" then -- Always first
+					table.insert(loadOnCoreEnabled, 1, i)
+				else
+					loadOnCoreEnabled[#loadOnCoreEnabled + 1] = i
+				end
 			end
 			meta = GetAddOnMetadata(i, "X-BigWigs-LoadOn-InstanceId")
 			if meta then
@@ -423,8 +495,6 @@ do
 					loadOnSlash[i][j] = slash
 				end
 			end
-		elseif reqFuncAddons[name] then
-			sysprint(L.coreAddonDisabled:format(name))
 		else
 			local meta = GetAddOnMetadata(i, "X-BigWigs-LoadOn-InstanceId")
 			if meta then -- Disabled content
@@ -572,7 +642,8 @@ do
 		end
 	end
 
-	for _, index in next, loadOnWorldBoss do
+	for i = 1, #loadOnWorldBoss do
+		local index = loadOnWorldBoss[i]
 		local zones = GetAddOnMetadata(index, "X-BigWigs-LoadOn-WorldBoss")
 		if zones then
 			iterateWorldBosses(index, strsplit(",", zones))
@@ -596,13 +667,11 @@ function mod:ADDON_LOADED(addon)
 	C_ChatInfo.RegisterAddonMessagePrefix("BigWigs")
 	C_ChatInfo.RegisterAddonMessagePrefix("D4") -- DBM
 
-	local icon = LibStub("LibDBIcon-1.0", true)
-	if icon and ldb then
-		if type(BigWigsIconDB) ~= "table" then
-			BigWigsIconDB = {}
-		end
-		icon:Register("BigWigs", ldb, BigWigsIconDB)
+	-- LibDBIcon setup
+	if type(BigWigsIconDB) ~= "table" then
+		BigWigsIconDB = {}
 	end
+	ldbi:Register("BigWigs", dataBroker, BigWigsIconDB)
 
 	if BigWigs3DB then
 		-- Somewhat ugly, but saves loading AceDB with the loader instead of with the core
@@ -624,11 +693,44 @@ function mod:ADDON_LOADED(addon)
 		-- TODO: look into having a way for our boss modules not to create a table when no options are changed.
 		if BigWigs3DB.namespaces then
 			for k,v in next, BigWigs3DB.namespaces do
-				if k:find("BigWigs_Bosses_", nil, true) and not next(v) then
+				if k:find("BigWigs_Bosses_", nil, true) and (not next(v) or not BigWigs3DB.wipe80) then -- XXX temp boss DB wipe for 8.0.1
 					BigWigs3DB.namespaces[k] = nil
 				end
+				-- XXX start temp 8.0.1 color conversion
+				if k == "BigWigs_Plugins_Colors" then
+					for profiles, profileList in next, v do
+						for name, tbl in next, profileList do
+							if tbl["Positive"] then
+								tbl["green"] = tbl["Positive"]
+								tbl["Positive"] = nil
+							end
+							if tbl["Personal"] then
+								tbl["blue"] = tbl["Personal"]
+								tbl["Personal"] = nil
+							end
+							if tbl["Important"] then
+								tbl["red"] = tbl["Important"]
+								tbl["Important"] = nil
+							end
+							if tbl["Urgent"] then
+								tbl["orange"] = tbl["Urgent"]
+								tbl["Urgent"] = nil
+							end
+							if tbl["Neutral"] then
+								tbl["cyan"] = tbl["Neutral"]
+								tbl["Neutral"] = nil
+							end
+							if tbl["Attention"] then
+								tbl["yellow"] = tbl["Attention"]
+								tbl["Attention"] = nil
+							end
+						end
+					end
+				end
+				-- XXX end temp 8.0.1 color conversion
 			end
 		end
+		BigWigs3DB.wipe80 = true -- XXX temp boss DB wipe for 8.0.1
 		if not BigWigs3DB.discord or BigWigs3DB.discord < 15 then
 			BigWigs3DB.discord = (BigWigs3DB.discord or 0) + 1
 			CTimerAfter(11, function() sysprint("We are now on Discord: https://discord.gg/jGveg85") end)
@@ -667,6 +769,7 @@ end
 do
 	local old = {
 		BigWigs_Ulduar = "BigWigs_WrathOfTheLichKing",
+		BigWigs_Yogg_Brain = "BigWigs_WrathOfTheLichKing",
 		BigWigs_TheEye = "BigWigs_BurningCrusade",
 		BigWigs_Sunwell = "BigWigs_BurningCrusade",
 		BigWigs_SSC = "BigWigs_BurningCrusade",
@@ -735,6 +838,13 @@ do
 		BigWigs_Voice_Overwatch = "BigWigs_Countdown_Overwatch",
 		BigWigs_AutoReply = "BigWigs",
 		BigWigs_AutoReply2 = "BigWigs",
+		BigWigs_Antorus = "BigWigs_Legion",
+		BigWigs_ArgusInvasionPoints = "BigWigs_Legion",
+		BigWigs_BrokenIsles = "BigWigs_Legion",
+		BigWigs_Nighthold = "BigWigs_Legion",
+		BigWigs_Nightmare = "BigWigs_Legion",
+		BigWigs_TombOfSargeras = "BigWigs_Legion",
+		BigWigs_TrialOfValor = "BigWigs_Legion",
 	}
 	local delayedMessages = {}
 
@@ -758,7 +868,7 @@ do
 
 		if old[name] then
 			delayedMessages[#delayedMessages+1] = L.removeAddon:format(name, old[name])
-			message(L.removeAddon:format(name, old[name]))
+			Popup(L.removeAddon:format(name, old[name]))
 		end
 	end
 
@@ -854,8 +964,8 @@ end
 
 do
 	-- This is a crapfest mainly because DBM's actual handling of versions is a crapfest, I'll try explain how this works...
-	local DBMdotRevision = "17635" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
-	local DBMdotDisplayVersion = "8.0.1" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
+	local DBMdotRevision = "17699" -- The changing version of the local client, changes with every alpha revision using an SVN keyword.
+	local DBMdotDisplayVersion = "8.0.3" -- "N.N.N" for a release and "N.N.N alpha" for the alpha duration. Unless they fuck up their release and leave the alpha text in it.
 	local DBMdotReleaseRevision = DBMdotRevision -- This is manually changed by them every release, they use it to track the highest release version, a new DBM release is the only time it will change.
 
 	local timer, prevUpgradedUser = nil, nil
@@ -1088,7 +1198,7 @@ do
 				local diff = highestFoundVersion - BIGWIGS_VERSION
 				local msg = L.warnSeveralReleases:format(diff)
 				sysprint(msg)
-				message(msg)
+				Popup(msg)
 				RaidNotice_AddMessage(RaidWarningFrame, msg, {r=1,g=1,b=1}, 20)
 			end, 1)
 		elseif warnedReallyOutOfDate > 1 and hasWarned < 2 then
@@ -1186,7 +1296,7 @@ do
 			if disabledZones and disabledZones[id] then -- We have content for the zone but it is disabled in the addons menu
 				local msg = L.disabledAddOn:format(disabledZones[id])
 				sysprint(msg)
-				message(msg)
+				Popup(msg)
 				-- Only print once
 				warnedThisZone[id] = true
 				disabledZones[id] = nil
@@ -1196,7 +1306,7 @@ do
 		-- Lacking zone modules
 		if (BigWigs and BigWigs.db.profile.showZoneMessages == false) or self.isShowingZoneMessages == false then return end
 		local zoneAddon = public.zoneTbl[id]
-		if zoneAddon and zoneAddon ~= "BigWigs_Legion" then
+		if zoneAddon and zoneAddon ~= "BigWigs_BattleForAzeroth" then
 			if zoneAddon:find("LittleWigs_", nil, true) then zoneAddon = "LittleWigs" end -- Collapse into one addon
 			if id > 0 and not fakeZones[id] and not warnedThisZone[id] and not IsAddOnEnabled(zoneAddon) then
 				warnedThisZone[id] = true
@@ -1245,9 +1355,7 @@ end
 public.RegisterMessage(mod, "BigWigs_BossModuleRegistered")
 
 function mod:BigWigs_CoreEnabled()
-	if ldb then
-		ldb.icon = "Interface\\AddOns\\BigWigs\\Textures\\icons\\core-enabled"
-	end
+	dataBroker.icon = "Interface\\AddOns\\BigWigs\\Textures\\icons\\core-enabled"
 
 	-- Send a version query on enable, should fix issues with joining a group then zoning into an instance,
 	-- which kills your ability to receive addon comms during the loading process.
@@ -1264,9 +1372,7 @@ end
 public.RegisterMessage(mod, "BigWigs_CoreEnabled")
 
 function mod:BigWigs_CoreDisabled()
-	if ldb then
-		ldb.icon = "Interface\\AddOns\\BigWigs\\Textures\\icons\\core-disabled"
-	end
+	dataBroker.icon = "Interface\\AddOns\\BigWigs\\Textures\\icons\\core-disabled"
 end
 public.RegisterMessage(mod, "BigWigs_CoreDisabled")
 
@@ -1297,64 +1403,6 @@ end
 
 function public:LoadZone(zone)
 	loadZone(zone)
-end
-
------------------------------------------------------------------------
--- LDB Plugin
---
-
-do
-	local ldb11 = LibStub("LibDataBroker-1.1", true)
-	if ldb11 then
-		ldb = ldb11:NewDataObject("BigWigs", {
-			type = "launcher",
-			label = "BigWigs",
-			icon = "Interface\\AddOns\\BigWigs\\Textures\\icons\\core-disabled",
-		})
-
-		function ldb.OnClick(self, button)
-			if button == "RightButton" then
-				loadCoreAndOpenOptions()
-			else
-				loadAndEnableCore()
-				if IsAltKeyDown() then
-					if IsControlKeyDown() then
-						BigWigs:Disable()
-					else
-						for name, module in BigWigs:IterateBossModules() do
-							if module:IsEnabled() then module:Disable() end
-						end
-						sysprint(L.modulesDisabled)
-					end
-				else
-					for name, module in BigWigs:IterateBossModules() do
-						if module:IsEnabled() then module:Reboot() end
-					end
-					sysprint(L.modulesReset)
-				end
-			end
-		end
-
-		function ldb.OnTooltipShow(tt)
-			tt:AddLine("BigWigs")
-			if BigWigs and BigWigs:IsEnabled() then
-				local added = nil
-				for name, module in BigWigs:IterateBossModules() do
-					if module:IsEnabled() then
-						if not added then
-							tt:AddLine(L.activeBossModules, 1, 1, 1)
-							added = true
-						end
-						tt:AddLine(module.displayName)
-					end
-				end
-			end
-			for i = 1, #tooltipFunctions do
-				tooltipFunctions[i](tt)
-			end
-			tt:AddLine(L.tooltipHint, 0.2, 1, 0.2, 1)
-		end
-	end
 end
 
 -----------------------------------------------------------------------

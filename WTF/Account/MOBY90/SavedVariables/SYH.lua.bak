@@ -1,0 +1,30 @@
+
+SalvageYardHDB = {
+	["profileKeys"] = {
+		["Toxiquak - Frostwolf"] = "Default",
+		["Taobaibai - Frostwolf"] = "Default",
+		["Laru - Frostwolf"] = "Default",
+		["Larumuh - Frostwolf"] = "Default",
+	},
+	["UserAutoSellList"] = {
+	},
+	["UserBlackListKeyWord"] = {
+	},
+	["UserBlackList"] = {
+	},
+	["profiles"] = {
+		["Default"] = {
+			["AutoOpenForMerchants"] = false,
+			["AutoRepair_UseGuildBank"] = true,
+			["MainPanel"] = {
+				["position"] = {
+					["y"] = 186.000061035156,
+					["x"] = -314.999938964844,
+				},
+				["IsLocked"] = false,
+			},
+			["AutoRepair"] = true,
+			["SellGreen"] = false,
+		},
+	},
+}

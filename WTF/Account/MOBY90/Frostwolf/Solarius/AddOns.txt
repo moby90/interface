@@ -28,7 +28,7 @@ MagicRunes_RuneBars: disabled
 TomTom: enabled
 SkadaWindowButtons: enabled
 ConsGoreFiend: disabled
-Clique: disabled
+Clique: enabled
 Storyline: disabled
 OmniBar: disabled
 CLCRet: disabled
@@ -95,7 +95,7 @@ TradeSkillMaster_PriceReply: disabled
 TradeSkillMaster_Mailing: disabled
 TradeSkillMaster_GuildSorter: disabled
 TradeSkillMaster_CoolDowns: disabled
-WorldQuestsList: disabled
+WorldQuestsList: enabled
 TrufiGCD: disabled
 Pawn: enabled
 MikScrollingBattleText: enabled
@@ -141,11 +141,11 @@ Details_RaidInfo-TombOfSargeras: enabled
 Details_RaidInfo-TrialOfValor: enabled
 Details_ChartViewer: enabled
 GarrisonMissionManager: enabled
-Grid2: disabled
-Grid2Options: disabled
-Grid2RaidDebuffs: disabled
-Grid2RaidDebuffsOptions: disabled
-Grid2LDB: disabled
+Grid2: enabled
+Grid2Options: enabled
+Grid2RaidDebuffs: enabled
+Grid2RaidDebuffsOptions: enabled
+Grid2LDB: enabled
 LittleWigs: enabled
 Masque: enabled
 Masque_Serenity: disabled
@@ -153,9 +153,15 @@ Masque_Shadow: disabled
 Prat-3.0: enabled
 Prat-3.0_Libraries: enabled
 SexyCooldown: disabled
-ShadowedUF_Options: disabled
-ShadowedUnitFrames: disabled
+ShadowedUF_Options: enabled
+ShadowedUnitFrames: enabled
 StarCursor: disabled
 WorldQuestAssistant: disabled
 GuildGreet: disabled
 HideTalkingHead: enabled
+WorldQuestParty: disabled
+flyPlateBuffs: disabled
+Azeroth Auto Pilot: enabled
+StealPurgeDispel: disabled
+bdCore: disabled
+bdNameplates: disabled

@@ -25,18 +25,17 @@ function Expander:OnInitialize()
 end
 
 
-local Appearance
+local Appearance, Position
 local DBI = LibStub("LibDBIcon-1.0", true)
 
 local show, button
 local origPoint, origParent, origAnchor, origX, origY
-local origHeight, origWidth, origStrata, origWheel
+local origHeight, origWidth, origWheel
 
 function Expander:Refresh()
 	if show then
 		origPoint, origParent, origAnchor, origX, origY = Minimap:GetPoint()
 		origHeight, origWidth = Minimap:GetSize()
-		origStrata = MinimapCluster:GetFrameStrata()
 		origWheel = Minimap:IsMouseWheelEnabled()
 
 		Minimap:SetWidth(140 * self.db.profile.scale)
@@ -48,7 +47,6 @@ function Expander:Refresh()
 
 		Minimap:SetFrameStrata(self.db.profile.strata)
 		MinimapBackdrop:SetFrameStrata(self.db.profile.strata)
-		MinimapCluster:SetFrameStrata(self.db.profile.strata)
 
 		Minimap:EnableMouse(false)
 		Minimap:EnableMouseWheel(false)
@@ -59,12 +57,19 @@ function Expander:Refresh()
 
 		if DBI then
 			for icon in pairs(DBI.objects) do
-				DBI.objects[icon]:Hide()
+				DBI:Hide(icon)
 			end
 		end
 	else
-		Minimap:ClearAllPoints()
-		Minimap:SetPoint(origPoint, origParent, origAnchor, origX, origY)
+		Minimap:SetWidth(origWidth)
+		Minimap:SetHeight(origHeight)
+
+		if Position and Position:IsEnabled() then
+			Position:SetMinimapPosition()
+		else
+			Minimap:ClearAllPoints()
+			Minimap:SetPoint(origPoint, origParent, origAnchor, origX, origY)
+		end
 
 		Minimap:EnableMouse(true)
 		Minimap:EnableMouseWheel(origWheel)
@@ -74,21 +79,17 @@ function Expander:Refresh()
 		if Appearance then
 			Appearance:SetAlpha()
 			Appearance:SetFrameStrata()
-			Appearance:SetScale()
 			Appearance:SetShape()
 		else
-			Minimap:SetWidth(origWidth)
-			Minimap:SetHeight(origHeight)
 			Minimap:SetFrameStrata(origStrata)
 			MinimapBackdrop:SetFrameStrata(origStrata)
-			MinimapCluster:SetFrameStrata(origStrata)
 			Minimap:SetMaskTexture([[Textures\MinimapMask]])
 			Minimap:SetAlpha(1)
 		end
 
 		if DBI then
 			for icon in pairs(DBI.objects) do
-				DBI.objects[icon]:Show()
+				DBI:Refresh(icon)
 			end
 		end
 	end
@@ -102,6 +103,11 @@ end
 
 function Expander:OnEnable()
 	Appearance = Chinchilla:GetModule("Appearance", true)
+	Position = Chinchilla:GetModule("Position", true)
+
+	origPoint, origParent, origAnchor, origX, origY = Minimap:GetPoint()
+	origHeight, origWidth = Minimap:GetSize()
+	origWheel = Minimap:IsMouseWheelEnabled()
 
 	if not button then
 		button = CreateFrame("Button", "Chinchilla_Expander_Button") -- button use for keybinding hax0rz
@@ -135,6 +141,9 @@ end
 
 
 function Expander:OnDisable()
+	show = false
+	self:Refresh()
+
 	button:SetScript("OnMouseDown", nil)
 	button:SetScript("OnMouseUp", nil)
 end
@@ -183,7 +192,12 @@ function Expander:GetOptions()
 			order = 2,
 			width = "double",
 			get = function() return self.db.profile.toggle end,
-			set = function(_, value) self.db.profile.toggle = value end,
+			set = function(_, value)
+				self.db.profile.toggle = value
+
+				show = false
+				self:Refresh()
+			end,
 		},
 --[[
 		movable = {
@@ -262,7 +276,6 @@ function Expander:GetOptions()
 				if show then
 					Minimap:SetFrameStrata(self.db.profile.strata)
 					MinimapBackdrop:SetFrameStrata(self.db.profile.strata)
-					MinimapCluster:SetFrameStrata(self.db.profile.strata)
 				end
 			end,
 			order = 5,

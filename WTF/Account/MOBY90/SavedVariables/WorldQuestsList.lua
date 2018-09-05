@@ -1,0 +1,222 @@
+
+VWQL = {
+	["Chuckxn-Frostwolf"] = {
+		["VERSION"] = 75,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Scale"] = 0.8,
+	["Ziltik-Frostwolf"] = {
+		["VERSION"] = 75,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Sort"] = 5,
+	["VERSION"] = 79,
+	["Laruchan-Frostwolf"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 75,
+	},
+	["Arrow_Point1"] = "TOP",
+	["Larumuh-Frostwolf"] = {
+		["VERSION"] = 79,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Arrow_PointY"] = -104.000137329102,
+	["ShellGameSize"] = 291.999877929688,
+	["AnchorQCBLeft"] = 1089.99938964844,
+	["Laru-Frostwolf"] = {
+		["VERSION"] = 79,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[50483] = true,
+			[51745] = true,
+			[52755] = true,
+			[51505] = true,
+			[51637] = true,
+			[51891] = true,
+			[52336] = true,
+			[49444] = true,
+			[52218] = true,
+			[52850] = true,
+			[51529] = true,
+			[52864] = true,
+			[51039] = true,
+			[43798] = true,
+			[51433] = true,
+			[51120] = true,
+			[50492] = true,
+			[51628] = true,
+			[50559] = true,
+			[52325] = true,
+			[50689] = true,
+			[51768] = true,
+			[53345] = true,
+			[51156] = true,
+			[51378] = true,
+			[52798] = true,
+			[51792] = true,
+			[51849] = true,
+			[51103] = true,
+			[50868] = true,
+			[52004] = true,
+			[52299] = true,
+			[52056] = true,
+			[51779] = true,
+		},
+		["Filter"] = 63,
+	},
+	["AnchorQCBTop"] = 865.000061035156,
+	["Taobaibai-Frostwolf"] = {
+		["Filter"] = 63,
+		["VERSION"] = 79,
+		["Quests"] = {
+			[52004] = true,
+			[51198] = true,
+			[52864] = true,
+			[51635] = true,
+			[50514] = true,
+			[51792] = true,
+			[51768] = true,
+			[52755] = true,
+			[51609] = true,
+			[49068] = true,
+			[51411] = true,
+			[52849] = true,
+			[50559] = true,
+			[49444] = true,
+			[52330] = true,
+			[50870] = true,
+			[52299] = true,
+			[51623] = true,
+			[50689] = true,
+			[52798] = true,
+			[51156] = true,
+			[51529] = true,
+			[50786] = true,
+			[51779] = true,
+			[51453] = true,
+			[51378] = true,
+			[51583] = true,
+			[52248] = true,
+			[51849] = true,
+			[51103] = true,
+			[51175] = true,
+			[51632] = true,
+		},
+		["FilterType"] = {
+		},
+	},
+	["Himbeerblau-Frostwolf"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 75,
+	},
+	["DisableIconsGeneralMap947"] = true,
+	["Zurica-Frostwolf"] = {
+		["VERSION"] = 75,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Solarius-Frostwolf"] = {
+		["VERSION"] = 76,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+			[44895] = true,
+			[42070] = true,
+			[41964] = true,
+			[43711] = true,
+		},
+		["FilterType"] = {
+		},
+	},
+	["Uranaibaba-Frostwolf"] = {
+		["VERSION"] = 79,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Arrow_Point2"] = "TOP",
+	["DisableShellGame"] = false,
+	["ShellGameLocked"] = true,
+	["Toxiquak-Frostwolf"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 78,
+	},
+	["DisableIconsGeneralMap619"] = true,
+	["Ignore"] = {
+		[52346] = 1535999878,
+		[52471] = 1535887057,
+		[52937] = 1535879596,
+		[52350] = 1535879594,
+		[52165] = 1535887058,
+		[51050] = 1535879599,
+		[53316] = 1534507516,
+		[52387] = 1535923125,
+		[52856] = 1535804326,
+		[52892] = 1535804323,
+		[52325] = 1536078647,
+		[52799] = 1536004143,
+		[52430] = 1535921568,
+		[52126] = 1535999880,
+		[52009] = 1535804327,
+		[52278] = 1535804324,
+		[53271] = 1534507512,
+		[51045] = 1535804330,
+		[51041] = 1534507522,
+		[51042] = 1535804331,
+		[52923] = 1535923128,
+	},
+	["DisableLFG"] = false,
+	["Blaustrumpf-Frostwolf"] = {
+		["VERSION"] = 75,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["AzeriteFormat"] = 20,
+	["ReverseSort"] = false,
+	["Arrow_PointX"] = -1.99941956996918,
+	["DisableIconsGeneralMap905"] = true,
+	["Bizzl-Frostwolf"] = {
+		["VERSION"] = 75,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["HideLegion"] = true,
+}

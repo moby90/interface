@@ -1,27 +1,22 @@
 
 FixGroupsDB = {
-	["faction"] = {
-		["Horde"] = {
-			["damagerRoleNonGuildCache"] = {
-				["melee"] = {
+	["profiles"] = {
+		["Default"] = {
+			["options"] = {
+				["coreRaiderRank"] = {
+					["Jade Falcons-Frostwolf"] = 4,
 				},
-				["ranged"] = {
+				["minimapIcon"] = {
+					["minimapPos"] = 191.604997968475,
 				},
-			},
-			["damagerRoleGuildCache"] = {
-				["melee"] = {
-					["Bêlya-Frostwolf"] = 1533154107,
-					["Bêlya-"] = 1533153815,
-					["Muhdiv-Frostwolf"] = 1533154154,
-				},
-				["ranged"] = {
-					["Taydruid-"] = 1532546143,
-					["Taydruid-Frostwolf"] = 1532548515,
-					["Laìya-"] = 1533154128,
-					["Laìya-Frostwolf"] = 1533154101,
-				},
+				["showMinimapIconPRN"] = true,
+				["showMinimapIconAlways"] = false,
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Taobaibai - Frostwolf"] = "Default",
+		["Laru - Frostwolf"] = "Default",
 	},
 	["global"] = {
 		["guildRanks"] = {
@@ -37,21 +32,43 @@ FixGroupsDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Laru - Frostwolf"] = "Default",
-		["Taobaibai - Frostwolf"] = "Default",
-	},
-	["profiles"] = {
-		["Default"] = {
-			["options"] = {
-				["coreRaiderRank"] = {
-					["Jade Falcons-Frostwolf"] = 4,
+	["faction"] = {
+		["Horde"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
+					["Wûlyn-Frostwolf"] = 1536000412,
+					["Ursoc-Krasus"] = 1536003236,
+					["Wûlyn-"] = 1536000403,
+					["Jkar-Lightbringer"] = 1536078429,
+					["Xeranja-Stormscale"] = 1536078352,
+					["Sámánok-Destromath"] = 1535996043,
+					["Урбэйн-Ревущийфьорд"] = 1536078356,
 				},
-				["minimapIcon"] = {
-					["minimapPos"] = 191.604997968475,
+				["ranged"] = {
+					["Ведычь-Дракономор"] = 1535995208,
+					["Litschie-Kargath"] = 1536078405,
+					["Shamanlolx-Stormscale"] = 1535999743,
+					["Айлинь-СвежевательДуш"] = 1535995077,
+					["Dogui-LaCroisadeécarlate"] = 1536003225,
+					["Диззлер-Ревущийфьорд"] = 1536003200,
+					["Milktoheal-Doomhammer"] = 1536003187,
+					["Madregå-Dalaran"] = 1535995227,
+					["Coldzz-Blackrock"] = 1536003201,
 				},
-				["showMinimapIconPRN"] = true,
-				["showMinimapIconAlways"] = false,
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+					["Ümml-"] = 1535908563,
+				},
+				["ranged"] = {
+					["Wuttibär-"] = 1535401828,
+					["Dewi-"] = 1534359579,
+					["Quovi-Frostwolf"] = 1534625865,
+					["Quovi-"] = 1534621346,
+					["Wuttibär-Frostwolf"] = 1535399847,
+					["Rattenköter-"] = 1535752001,
+					["Rattenköter-Frostwolf"] = 1535753873,
+				},
 			},
 		},
 	},

@@ -6,6 +6,11 @@ VER 3 000000000000004E "#2" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover] 14
 END
+VER 3 0000000000000051 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Serrik
+/use Antivenom
+END
 VER 3 0000000000000043 "BoF" "1030095"
 /target  Jayde's Hopeless Reflection
 /cast Beacon of Faith
@@ -60,17 +65,9 @@ END
 VER 3 0000000000000050 "varimathras" "135754"
 /target Shadow of
 /cast Holy Shock
-/targetlasttarget
 END
 VER 3 000000000000004B "weg" "136047"
 /s Weg.
-END
-VER 3 0000000000000046 "wtf" "589117"
-/cast Holy Avenger
-/cast Avenging Wrath
-/cast Aura Mastery
-/cast Light of Dawn
-/use Velen's Future Sight
 END
 VER 3 0000000000000040 "Ypzo" "136052"
 /target Ypzo's Hopeless Reflection
