@@ -18,13 +18,13 @@ Prat3DB = {
 		["Prat_Frames"] = {
 			["profiles"] = {
 				["Laru Extended"] = {
-					["initialized"] = true,
-					["minchatheightdefault"] = 119.999992370605,
+					["minchatwidthdefault"] = 295.999969482422,
+					["minchatwidth"] = 340,
 					["framealpha"] = 0.75,
 					["maxchatheightdefault"] = 400,
 					["maxchatwidthdefault"] = 608,
-					["minchatwidthdefault"] = 295.999969482422,
-					["minchatwidth"] = 340,
+					["initialized"] = true,
+					["minchatheightdefault"] = 119.999992370605,
 				},
 				["Default"] = {
 					["initialized"] = true,
@@ -40,193 +40,193 @@ Prat3DB = {
 				["Laru Extended"] = {
 					["colors"] = {
 						["wqp51743pvp"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
 							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
 						},
 						["wqp52057pvp"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
-						},
-						["wqp50847pvp"] = {
 							["b"] = 0.749019622802734,
 							["g"] = 0.749019622802734,
 							["r"] = 1,
 						},
-						["wqp52280pvp"] = {
-							["b"] = 0.909803986549378,
-							["g"] = 0.901960849761963,
-							["r"] = 0.764705955982208,
-						},
-						["wqp50717pvp"] = {
-							["r"] = 0.909803986549378,
-							["g"] = 0.619607865810394,
-							["b"] = 0.474509835243225,
-						},
-						["wqp50648pvp"] = {
-							["r"] = 0.909803986549378,
-							["g"] = 0.619607865810394,
-							["b"] = 0.474509835243225,
-						},
-						["wqp51064pvp"] = {
-							["r"] = 0.909803986549378,
-							["g"] = 0.619607865810394,
-							["b"] = 0.474509835243225,
-						},
-						["wqp50499pvp"] = {
-							["r"] = 0.909803986549378,
-							["g"] = 0.619607865810394,
-							["b"] = 0.474509835243225,
-						},
-						["wqp50489pvp"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
+						["wqp50547pvp"] = {
 							["b"] = 0.752941250801086,
-						},
-						["wqp50695pvp"] = {
+							["g"] = 0.752941250801086,
 							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
-						},
-						["wqp51112pvp"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
 						},
 						["wqp52007pvp"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
 							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
 						},
-						["wqp50468pvp"] = {
-							["r"] = 0.909803986549378,
-							["g"] = 0.619607865810394,
+						["wqp50717pvp"] = {
 							["b"] = 0.474509835243225,
+							["g"] = 0.619607865810394,
+							["r"] = 0.909803986549378,
 						},
-						["rcelva"] = {
+						["wqp50648pvp"] = {
+							["b"] = 0.474509835243225,
+							["g"] = 0.619607865810394,
+							["r"] = 0.909803986549378,
+						},
+						["wqp51064pvp"] = {
+							["b"] = 0.474509835243225,
+							["g"] = 0.619607865810394,
+							["r"] = 0.909803986549378,
+						},
+						["wqp50499pvp"] = {
+							["b"] = 0.474509835243225,
+							["g"] = 0.619607865810394,
+							["r"] = 0.909803986549378,
+						},
+						["wqp50489pvp"] = {
 							["b"] = 0.752941250801086,
 							["g"] = 0.752941250801086,
 							["r"] = 1,
-						},
-						["wqp51121pvp"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
-						},
-						["wqp50650pvp"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
-						},
-						["wqp50524pvp"] = {
-							["b"] = 0.909803986549378,
-							["g"] = 0.901960849761963,
-							["r"] = 0.764705955982208,
 						},
 						["sayfheiler"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["wqp51112pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
+						},
+						["wqp51037pvp"] = {
+							["b"] = 0.474509835243225,
+							["g"] = 0.619607865810394,
+							["r"] = 0.909803986549378,
+						},
+						["sayfheal"] = {
 							["b"] = 0.752941250801086,
 							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["rcelva"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["wqp51121pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
+						},
+						["lemmingbros"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["wqp50524pvp"] = {
+							["r"] = 0.764705955982208,
+							["g"] = 0.901960849761963,
+							["b"] = 0.909803986549378,
+						},
+						["wqp50695pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
 							["r"] = 1,
 						},
 						["sng"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
 							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["wqp50572pvp"] = {
-							["r"] = 0.909803986549378,
-							["g"] = 0.619607865810394,
 							["b"] = 0.474509835243225,
-						},
-						["wqp51699"] = {
-							["b"] = 0.909803986549378,
-							["g"] = 0.901960849761963,
-							["r"] = 0.764705955982208,
-						},
-						["wqp51627pvp"] = {
-							["b"] = 0.749019622802734,
-							["g"] = 0.749019622802734,
-							["r"] = 1,
-						},
-						["wqp51886pvp"] = {
-							["b"] = 0.909803986549378,
-							["g"] = 0.901960849761963,
-							["r"] = 0.764705955982208,
-						},
-						["wqp51422pvp"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
-						},
-						["wqp51640pvp"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
-						},
-						["wqp51173pvp"] = {
-							["r"] = 1,
-							["g"] = 0.749019622802734,
-							["b"] = 0.749019622802734,
+							["g"] = 0.619607865810394,
+							["r"] = 0.909803986549378,
 						},
 						["wqp52352pvp"] = {
-							["b"] = 0.909803986549378,
-							["g"] = 0.901960849761963,
 							["r"] = 0.764705955982208,
+							["g"] = 0.901960849761963,
+							["b"] = 0.909803986549378,
 						},
-						["lemmingbros"] = {
+						["wqp51627pvp"] = {
 							["r"] = 1,
-							["g"] = 0.752941250801086,
-							["b"] = 0.752941250801086,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
 						},
-						["sayfheal"] = {
+						["wqp51886pvp"] = {
+							["r"] = 0.764705955982208,
+							["g"] = 0.901960849761963,
+							["b"] = 0.909803986549378,
+						},
+						["wqp51422pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
 							["r"] = 1,
-							["g"] = 0.752941250801086,
-							["b"] = 0.752941250801086,
+						},
+						["wqp51640pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
+						},
+						["wqp51173pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
+						},
+						["wqp51699"] = {
+							["r"] = 0.764705955982208,
+							["g"] = 0.901960849761963,
+							["b"] = 0.909803986549378,
+						},
+						["wqp50650pvp"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
+						},
+						["wqp50468pvp"] = {
+							["b"] = 0.474509835243225,
+							["g"] = 0.619607865810394,
+							["r"] = 0.909803986549378,
 						},
 						["wqp52832pvp"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
-						},
-						["wqp51037pvp"] = {
-							["r"] = 0.909803986549378,
-							["g"] = 0.619607865810394,
-							["b"] = 0.474509835243225,
-						},
-						["wqp50547pvp"] = {
-							["r"] = 1,
 							["g"] = 0.752941250801086,
-							["b"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["wqp52280pvp"] = {
+							["r"] = 0.764705955982208,
+							["g"] = 0.901960849761963,
+							["b"] = 0.909803986549378,
+						},
+						["wqp50847pvp"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
 						},
 					},
 				},
 				["Default"] = {
 					["colors"] = {
 						["sayfheiler"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 						["sng"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 						["lemmingbros"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
 							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["sayfheal"] = {
-							["b"] = 0.752941250801086,
-							["g"] = 0.752941250801086,
 							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
 						},
 						["rcelva"] = {
-							["r"] = 1,
-							["g"] = 0.752941250801086,
 							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
 						},
 					},
 				},
@@ -236,16 +236,16 @@ Prat3DB = {
 			["profiles"] = {
 				["Laru Extended"] = {
 					["edgeSize"] = 16,
-					["inset"] = 1,
-					["editW"] = 346.999816894531,
 					["editX"] = 356.000427246094,
+					["editW"] = 346.999816894531,
+					["border"] = "ArkInventory Square 1",
 					["tileSize"] = 1,
 					["editY"] = 24.9963779449463,
 					["background"] = "Solid",
 					["backgroundColor"] = {
 						["a"] = 0,
 					},
-					["border"] = "ArkInventory Square 1",
+					["inset"] = 1,
 				},
 				["Default"] = {
 					["edgeSize"] = 16,
@@ -295,27 +295,6 @@ Prat3DB = {
 		},
 		["Prat_UrlCopy"] = {
 		},
-		["Prat_Font"] = {
-			["profiles"] = {
-				["Laru Extended"] = {
-					["fontface"] = "2002",
-					["rememberfont"] = true,
-					["size"] = {
-						["ChatFrame2"] = 13,
-						["ChatFrame3"] = 13,
-						["ChatFrame1"] = 13,
-					},
-				},
-				["Default"] = {
-					["size"] = {
-						["ChatFrame2"] = 11,
-						["ChatFrame3"] = 11,
-					},
-				},
-			},
-		},
-		["Prat_Bubbles"] = {
-		},
 		["Prat_ChannelNames"] = {
 			["profiles"] = {
 				["Laru Extended"] = {
@@ -332,58 +311,26 @@ Prat3DB = {
 		},
 		["Prat_KeyBindings"] = {
 		},
-		["Prat_PopupMessage"] = {
-		},
-		["Prat_Sounds"] = {
-		},
-		["Prat_Scroll"] = {
-		},
-		["Prat_Achievements"] = {
+		["Prat_Font"] = {
 			["profiles"] = {
 				["Laru Extended"] = {
-					["customGrats"] = false,
-				},
-			},
-		},
-		["Prat_Paragraph"] = {
-			["profiles"] = {
-				["Laru Extended"] = {
-					["on"] = true,
+					["fontface"] = "2002",
+					["rememberfont"] = true,
+					["size"] = {
+						["ChatFrame2"] = 13,
+						["ChatFrame1"] = 13,
+						["ChatFrame3"] = 13,
+					},
 				},
 				["Default"] = {
-					["on"] = true,
-					["justification"] = {
-						["ChatFrame1"] = "RIGHT",
+					["size"] = {
+						["ChatFrame2"] = 11,
+						["ChatFrame3"] = 11,
 					},
 				},
 			},
 		},
-		["Prat_Alias"] = {
-		},
-		["Prat_OriginalButtons"] = {
-		},
-		["Prat_Highlight"] = {
-		},
-		["Prat_ChatLog"] = {
-		},
-		["Prat_ChannelSticky"] = {
-		},
-		["Prat_Invites"] = {
-		},
-		["Prat_History"] = {
-		},
-		["Prat_CopyChat"] = {
-			["profiles"] = {
-				["Laru Extended"] = {
-					["buttonpos"] = "BOTTOMLEFT",
-					["showbutton"] = {
-						["ChatFrame2"] = false,
-						["ChatFrame4"] = false,
-						["ChatFrame5"] = false,
-						["ChatFrame1"] = false,
-					},
-				},
-			},
+		["Prat_Bubbles"] = {
 		},
 		["Prat_Timestamps"] = {
 			["profiles"] = {
@@ -407,23 +354,76 @@ Prat3DB = {
 				},
 			},
 		},
+		["Prat_Sounds"] = {
+		},
+		["Prat_Scroll"] = {
+		},
+		["Prat_Achievements"] = {
+			["profiles"] = {
+				["Laru Extended"] = {
+					["customGrats"] = false,
+				},
+			},
+		},
+		["Prat_History"] = {
+		},
+		["Prat_Alias"] = {
+		},
+		["Prat_OriginalButtons"] = {
+		},
+		["Prat_Highlight"] = {
+		},
+		["Prat_ChatLog"] = {
+		},
+		["Prat_ChannelSticky"] = {
+		},
+		["Prat_Invites"] = {
+		},
+		["Prat_Paragraph"] = {
+			["profiles"] = {
+				["Laru Extended"] = {
+					["on"] = true,
+				},
+				["Default"] = {
+					["on"] = true,
+					["justification"] = {
+						["ChatFrame1"] = "RIGHT",
+					},
+				},
+			},
+		},
+		["Prat_CopyChat"] = {
+			["profiles"] = {
+				["Laru Extended"] = {
+					["buttonpos"] = "BOTTOMLEFT",
+					["showbutton"] = {
+						["ChatFrame2"] = false,
+						["ChatFrame4"] = false,
+						["ChatFrame5"] = false,
+						["ChatFrame1"] = false,
+					},
+				},
+			},
+		},
+		["Prat_PopupMessage"] = {
+		},
 		["Prat_Search"] = {
 		},
 		["Prat_Buttons"] = {
 			["profiles"] = {
 				["Laru Extended"] = {
-					["showMenu"] = false,
-					["showBnet"] = false,
 					["showButtons"] = false,
-					["showminimize"] = false,
+					["showBnet"] = false,
 					["scrollReminder"] = false,
+					["showminimize"] = false,
+					["showMenu"] = false,
 				},
 				["Default"] = {
-					["showButtons"] = false,
+					["showMenu"] = false,
 					["showBnet"] = false,
 					["scrollReminder"] = false,
-					["showMenu"] = false,
 					["showminimize"] = false,
+					["showButtons"] = false,
 				},
 			},
 		},
@@ -434,8 +434,8 @@ Prat3DB = {
 					["randomclr"] = false,
 				},
 				["Default"] = {
-					["randomclr"] = false,
 					["autoabbreviate"] = false,
+					["randomclr"] = false,
 				},
 			},
 		},
@@ -452,31 +452,31 @@ Prat3DB = {
 		["Laru - Frostwolf"] = "Laru Extended",
 		["Solarius - Frostwolf"] = "Laru Extended",
 		["Larulol - Frostwolf"] = "Default",
-		["Larumuh - Frostwolf"] = "Laru Extended",
+		["Chuckxn - Frostwolf"] = "Laru Extended",
 		["Loonytoon - Aegwynn"] = "Default",
 		["Nanahara - Aegwynn"] = "Laru Extended",
-		["Gdgff - Vek'lor"] = "Default",
+		["Blaustrumpf - Frostwolf"] = "Default",
 		["Glibunkel - Aegwynn"] = "Default",
 		["Laruwtf - Frostwolf"] = "Default",
 		["Himbeerblau - Frostwolf"] = "Laru Extended",
-		["Laruchan - Frostwolf"] = "Laru Extended",
 		["Laruxd - Frostwolf"] = "Default",
-		["Blaustrumpf - Frostwolf"] = "Default",
-		["Chuckxn - Frostwolf"] = "Laru Extended",
+		["Laruchan - Frostwolf"] = "Laru Extended",
+		["Gdgff - Vek'lor"] = "Default",
+		["Larumuh - Frostwolf"] = "Laru Extended",
 	},
 	["profiles"] = {
 		["MAGE"] = {
 		},
 		["Laru Extended"] = {
 			["modules"] = {
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["ChatTabs"] = 3,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
 				["Sounds"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 			},
 		},
 		["Default"] = {

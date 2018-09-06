@@ -330,3 +330,4 @@ StealPurgeDispel: disabled
 bdCore: disabled
 bdNameplates: disabled
 Plater: disabled
+BigWigs_Uldir: enabled

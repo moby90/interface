@@ -1,22 +1,43 @@
 
 FixGroupsDB = {
-	["profiles"] = {
-		["Default"] = {
-			["options"] = {
-				["coreRaiderRank"] = {
-					["Jade Falcons-Frostwolf"] = 4,
+	["faction"] = {
+		["Horde"] = {
+			["damagerRoleNonGuildCache"] = {
+				["melee"] = {
+					["Hoempel-Wrathbringer"] = 1536233949,
+					["Ulthurr-BurningLegion"] = 1536231087,
 				},
-				["minimapIcon"] = {
-					["minimapPos"] = 191.604997968475,
+				["ranged"] = {
+					["Dervolm-Blackhand"] = 1536231218,
+					["Ланэя-ПиратскаяБухта"] = 1536233960,
+					["Apaireau-Illidan"] = 1536230007,
+					["Drakarpis-Garona"] = 1536230010,
+					["Boindell-Proudmoore"] = 1536228105,
+					["Moeey-Malfurion"] = 1536232136,
+					["Мегабычок-ВечнаяПесня"] = 1536233960,
+					["Nurzgashu-Terrordar"] = 1536228242,
 				},
-				["showMinimapIconPRN"] = true,
-				["showMinimapIconAlways"] = false,
+			},
+			["damagerRoleGuildCache"] = {
+				["melee"] = {
+					["Ümml-"] = 1535908563,
+				},
+				["ranged"] = {
+					["Dewi-"] = 1536177488,
+					["Wuttibär-Frostwolf"] = 1535399847,
+					["Gardine-Frostwolf"] = 1536180773,
+					["Rattenköter-"] = 1535752001,
+					["Quovi-"] = 1534621346,
+					["Wuttibär-"] = 1535401828,
+					["Gardine-"] = 1536180761,
+					["Quovi-Frostwolf"] = 1534625865,
+					["Taydruid-Frostwolf"] = 1536180786,
+					["Dewi-Frostwolf"] = 1536180788,
+					["Taydruid-"] = 1536175100,
+					["Rattenköter-Frostwolf"] = 1535753873,
+				},
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Taobaibai - Frostwolf"] = "Default",
-		["Laru - Frostwolf"] = "Default",
 	},
 	["global"] = {
 		["guildRanks"] = {
@@ -32,43 +53,21 @@ FixGroupsDB = {
 			},
 		},
 	},
-	["faction"] = {
-		["Horde"] = {
-			["damagerRoleNonGuildCache"] = {
-				["melee"] = {
-					["Wûlyn-Frostwolf"] = 1536000412,
-					["Ursoc-Krasus"] = 1536003236,
-					["Wûlyn-"] = 1536000403,
-					["Jkar-Lightbringer"] = 1536078429,
-					["Xeranja-Stormscale"] = 1536078352,
-					["Sámánok-Destromath"] = 1535996043,
-					["Урбэйн-Ревущийфьорд"] = 1536078356,
+	["profileKeys"] = {
+		["Laru - Frostwolf"] = "Default",
+		["Taobaibai - Frostwolf"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["options"] = {
+				["coreRaiderRank"] = {
+					["Jade Falcons-Frostwolf"] = 4,
 				},
-				["ranged"] = {
-					["Ведычь-Дракономор"] = 1535995208,
-					["Litschie-Kargath"] = 1536078405,
-					["Shamanlolx-Stormscale"] = 1535999743,
-					["Айлинь-СвежевательДуш"] = 1535995077,
-					["Dogui-LaCroisadeécarlate"] = 1536003225,
-					["Диззлер-Ревущийфьорд"] = 1536003200,
-					["Milktoheal-Doomhammer"] = 1536003187,
-					["Madregå-Dalaran"] = 1535995227,
-					["Coldzz-Blackrock"] = 1536003201,
+				["minimapIcon"] = {
+					["minimapPos"] = 191.604997968475,
 				},
-			},
-			["damagerRoleGuildCache"] = {
-				["melee"] = {
-					["Ümml-"] = 1535908563,
-				},
-				["ranged"] = {
-					["Wuttibär-"] = 1535401828,
-					["Dewi-"] = 1534359579,
-					["Quovi-Frostwolf"] = 1534625865,
-					["Quovi-"] = 1534621346,
-					["Wuttibär-Frostwolf"] = 1535399847,
-					["Rattenköter-"] = 1535752001,
-					["Rattenköter-Frostwolf"] = 1535753873,
-				},
+				["showMinimapIconPRN"] = true,
+				["showMinimapIconAlways"] = false,
 			},
 		},
 	},

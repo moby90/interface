@@ -15,17 +15,17 @@ SalvageYardHDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["AutoOpenForMerchants"] = false,
 			["AutoRepair_UseGuildBank"] = true,
+			["AutoRepair"] = true,
+			["SellGreen"] = false,
+			["AutoOpenForMerchants"] = false,
 			["MainPanel"] = {
-				["IsLocked"] = false,
 				["position"] = {
 					["y"] = 186.000061035156,
 					["x"] = -314.999938964844,
 				},
+				["IsLocked"] = false,
 			},
-			["AutoRepair"] = true,
-			["SellGreen"] = false,
 		},
 	},
 }

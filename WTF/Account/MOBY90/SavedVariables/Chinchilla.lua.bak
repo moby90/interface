@@ -18,7 +18,7 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["RangeCircle"] = {
+		["Zoom"] = {
 		},
 		["TrackingDots"] = {
 		},
@@ -46,8 +46,8 @@ Chinchilla2DB = {
 					["difficulty"] = "mouseover",
 					["dayNight"] = "mouseover",
 					["clock"] = "mouseover",
-					["track"] = "mouseover",
 					["voice"] = false,
+					["track"] = "mouseover",
 				},
 			},
 		},
@@ -85,12 +85,12 @@ Chinchilla2DB = {
 				},
 			},
 		},
-		["Zoom"] = {
+		["RangeCircle"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Laru - Frostwolf"] = "Default",
 		["Taobaibai - Frostwolf"] = "Default",
+		["Laru - Frostwolf"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
