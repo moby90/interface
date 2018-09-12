@@ -99,7 +99,6 @@ oRA3DB = {
 		["Consumables"] = {
 			["profiles"] = {
 				["Laru"] = {
-					["checkRune"] = true,
 					["checkReadyCheck"] = 1,
 					["output"] = 3,
 				},

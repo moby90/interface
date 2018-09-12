@@ -1,0 +1,24 @@
+tag 18f669c15a49121c315ab110baee6fed66e3e733 1.1.13
+Author:	Kyle Buller <bullerk@gmail.com>
+Date:	Tue Sep 4 21:47:23 2018 -0500
+
+Tagging as 1.1.13
+
+commit 899d8894097c8b316ee358d5ac0758e2a0597321
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Tue Sep 4 21:46:16 2018 -0500
+
+    Add Mephisto
+
+commit 986512bbf04b05df1c335de608d2a0b9e7dafc32
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Tue Sep 4 21:45:51 2018 -0500
+
+    Tweaks
+
+commit 815d1a81f7e75c16e8530ba11befabd6ef172e52
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Sat Aug 11 00:47:19 2018 -0500
+
+    Add missing Athena translations
+

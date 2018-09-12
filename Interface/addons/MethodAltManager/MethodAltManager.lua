@@ -3,12 +3,14 @@ local _, AltManager = ...;
 
 _G["AltManager"] = AltManager;
 
--- Made by: Qooning - Tarren Mill <Method>, 2017-2018
--- Last edit: 07/27/2018
+-- Made by: Qooning - Tarren Mill <Method>, 2017
 
 --local sizey = 200;
-local sizey = 220;
-local instances_y_add = 100;
+local sizey = 240;
+local instances_y_add = 20;
+local mythic_y_add = 220;
+local daily_y_add = 160;
+local warfront_y_add = 40;
 local xoffset = 0;
 local yoffset = 150;
 local alpha = 1;
@@ -25,48 +27,65 @@ local mythic_done_label = "Highest M+ done"
 local mythic_keystone_label = "Keystone"
 local seals_owned_label = "Seals owned"
 local seals_bought_label = "Seals obtained"
-local artifact_reaserch_label = "AK level"
-local artifact_research_time_label = "Next level in"
-local depleted_label = "Depleted"
-local nightbane_label = "Nightbane"
-local resources_label = "Order Resources"
-local argunite_label = "Veiled Argunite"
-local wakening_essence_label = "Wakening Essence"
+local resources_label = "War Resources"
+local hoa_label = "Heart of Azeroth"
+local island_label = "Island Expedition"
+local heroic_label = "Daily Heroic"
+local rndbg_label = "Random BG"
+local emissary_label = "Active Emissaries"
+local azerite_label = "Azerite Quests"
+local warfront_label = "Weekly"
+--local argus_label = "Argus killed"
 
--- deprecated
-local max_ak = 40
-
-local VERSION = "1.3"
-
--- C_ChallengeMode.GetMapTable
---local dungeons = {[1501] = "BRH",
---				  [1571] = "CoS",
---				  [1466] = "DHT",
---				  [1456] = "EoA",
---				  [1477] = "HoV",
---				  [1492] = "MoS",
---				  [1458] = "NL",
---				  [1516] = "Arcway",
---				  [1493] = "VotW",
---				  [1544] = "VH"
---				 };
-
-local dungeons = {[199] = "BRH",
-				  [210] = "CoS",
-				  [198] = "DHT",
-				  [197] = "EoA",
-				  [200] = "HoV",
-				  [208] = "MoS",
-				  [206] = "NL",
-				  [209] = "Arcway",
-				  [207] = "VotW",
-				  [1544] = "VH",
-				  [227] = "L-Kara",
-				  [233] = "Cath",
-				  [234] = "U-Kara",
-				  [239] = "Seat"
+local VERSION = "1.2"					   
+local dungeons = {[244] = "AD", 	-- Atal'dazar
+				  [245] = "FH", 	-- Freehold
+				  [246] = "TD", 	-- Tol Dagor
+				  [247] = "TM", 	-- The Motherload
+				  [248] = "WM", 	-- Waycrest Manor
+				  [249] = "KR", 	-- Kings' Rest
+				  [250] = "TOS",    -- Temple of Sethraliss
+				  [251] = "UNDR",   -- The Underrot
+				  [252] = "SOTS", 	-- Shrine of the Storm
+				  [353] = "SIEGE",	-- Siege of Boralus
 				 };
 
+local warfront_quests = {
+				  53252, -- Inscription
+				  53251, -- Inscription: War-Scroll of Battle Shout
+				  53243, -- Leatherworking: 
+				  53364, -- Leatherworking: Drums of the Maelstrom
+				  53263, -- Cooking
+				  53362, -- Cooking
+				  53261, -- Engineering: Frost-Laced Ammunition
+				  53260, -- Engineering: Incendiary Ammunition
+				  53232, -- Engineering
+				  53246, -- Blacksmithing: Monel-Hardened Stirrups
+				  53254, -- Enchanting: Enchant Ring - Seal of Critical Strike
+				  53247, -- Tailoring: Battle Flag: Spirit of Freedom
+				  53365, -- Tailoring
+				  53258, -- Jewelcrafting
+				  53256, -- Jewelcrafting: Deadly Solstone
+				  53335, -- War Resources
+				  52930, -- Gold
+				  53241, -- Alchemy: Costals Mana Potion
+				  52792, -- Alchemy: 
+				  53359, -- Alchemy: Steelskin Potion
+				  53242, -- Alchemy: Coastal Healing Potion
+				  
+}
+
+local faction_abb = {
+				  ["Champions of Azeroth"] = "CoA",
+				  ["Talanji's Expedition"] = "TE",
+				  ["Tortollan Seekers"] = "TS", 
+				  ["Voldunai"] = "Vol",["Horde War Effort"] = "HB",
+				  ["Zandalari Empire"] = "ZE",
+				  ["Alliance War Effort"] = "7L",
+				  ["Proudmoore Admiralty"] = "PA",
+				  ["Storm's Wake"] = "StW", 
+				  ["Order of Embers"] = "OoE"
+}
 
 SLASH_METHODALTMANAGER1 = "/mam";
 SLASH_METHODALTMANAGER2 = "/alts";
@@ -92,11 +111,7 @@ end
 
 function SlashCmdList.METHODALTMANAGER(cmd, editbox)
 	local rqst, arg = strsplit(' ', cmd)
-	if rqst == "help" then
-		print("Method Alt Manager help:")
-		print("   \"/alts purge\" to remove all stored data.")
-		print("   \"/alts remove name\" to remove characters by name.")
-	elseif rqst == "purge" then
+	if rqst == "purge" then
 		AltManager:Purge();
 	elseif rqst == "remove" then
 		AltManager:RemoveCharactersByName(arg)
@@ -112,7 +127,7 @@ do
 	main_frame.background = main_frame:CreateTexture(nil, "BACKGROUND");
 	main_frame.background:SetAllPoints();
 	main_frame.background:SetDrawLayer("ARTWORK", 1);
-	main_frame.background:SetColorTexture(0, 0, 0, 0.5);
+	main_frame.background:SetColorTexture(0, 0, 0, 0.7);
 	
 	main_frame.scan_tooltip = CreateFrame('GameTooltip', 'DepletedTooltipScan', UIParent, 'GameTooltipTemplate');
 	
@@ -123,34 +138,29 @@ do
 	
 	main_frame:RegisterEvent("ADDON_LOADED");
 	main_frame:RegisterEvent("PLAYER_LOGIN");
-	main_frame:RegisterEvent("PLAYER_LOGOUT");
 	main_frame:RegisterEvent("QUEST_TURNED_IN");
 	main_frame:RegisterEvent("BAG_UPDATE_DELAYED");
-	main_frame:RegisterEvent("ARTIFACT_XP_UPDATE");
+	main_frame:RegisterEvent("AZERITE_ITEM_EXPERIENCE_CHANGED");
 	main_frame:RegisterEvent("CHAT_MSG_CURRENCY");
 	main_frame:RegisterEvent("CURRENCY_DISPLAY_UPDATE");
-  main_frame:RegisterEvent("PLAYER_LEAVING_WORLD");
+	main_frame:RegisterEvent("LFG_COMPLETION_REWARD");
+	main_frame:RegisterEvent("UPDATE_BATTLEFIELD_STATUS");
 	
 
 	main_frame:SetScript("OnEvent", function(self, ...)
 		local event, loaded = ...;
 		if event == "ADDON_LOADED" then
 			if addon == loaded then
-      			AltManager:OnLoad();
+				AltManager:OnLoad();
 			end
 		end
 		if event == "PLAYER_LOGIN" then
-        	AltManager:OnLogin();
+			AltManager:OnLogin();
 		end
-		if event == "PLAYER_LEAVING_WORLD" or event == "ARTIFACT_XP_UPDATE" then
+		if (event == "AZERITE_ITEM_EXPERIENCE_CHANGED" or event == "BAG_UPDATE_DELAYED" or event == "QUEST_TURNED_IN" or event == "CHAT_MSG_CURRENCY" or event == "CURRENCY_DISPLAY_UPDATE" or event == "LFG_COMPLETION_REWARD" or event == "UPDATE_BATTLEFIELD_STATUS") and AltManager.addon_loaded then
 			local data = AltManager:CollectData(false);
 			AltManager:StoreData(data);
 		end
-		if (event == "BAG_UPDATE_DELAYED" or event == "QUEST_TURNED_IN" or event == "CHAT_MSG_CURRENCY" or event == "CURRENCY_DISPLAY_UPDATE") and AltManager.addon_loaded then
-			local data = AltManager:CollectData(false);
-			AltManager:StoreData(data);
-		end
-		
 	end)
 	
 	-- Show Frame
@@ -170,10 +180,6 @@ function AltManager:OnLogin()
 	
 	local alts = MethodAltManagerDB.alts;
 	
-	-- HACK: DUE TO THE LOGIN DATA GLITCH, I HAVE TO CHECK IF CURRENT ALT IS NEW
-	local guid = UnitGUID('player');
-	if MethodAltManagerDB.data[guid] == nil then alts = alts + 1 end
-  
 	self.main_frame:SetSize(max((alts + 1) * per_alt_x, min_x_size), sizey);
 	self.main_frame.background:SetAllPoints();
 	
@@ -190,13 +196,6 @@ function AltManager:OnLoad()
 	MethodAltManagerDB = MethodAltManagerDB or self:InitDB();
 
 	self.addon_loaded = true
-	C_MythicPlus.RequestRewards();
-	C_MythicPlus.RequestCurrentAffixes();
-	C_MythicPlus.RequestMapInfo();
-	for k,v in pairs(dungeons) do
-		-- request info in advance
-		C_MythicPlus.RequestMapInfo(k);
-	end
 end
 
 function AltManager:CreateFontFrame(parent, x_size, height, relative_to, y_offset, label, justify)
@@ -236,38 +235,48 @@ function AltManager:ValidateReset()
 	
 	for alt = 1, db.alts do
 		local expiry = db.data[keyset[alt]].expires or 0;
+		local daily = db.data[keyset[alt]].daily or 0
+		
 		local char_table = db.data[keyset[alt]];
 		if time() > expiry then
 			-- reset this alt
 			char_table.seals_bought = 0;
+			char_table.m0 = {};
 			char_table.dungeon = "Unknown";
 			char_table.level = "?";
 			char_table.highest_mplus = 0;
-			char_table.is_depleted = false;
 			char_table.expires = self:GetNextWeeklyResetTime();
 			
-			char_table.nh_normal = 0;
-			char_table.nh_heroic = 0;
-			char_table.nh_mythic = 0;
-			char_table.en_normal = 0;
-			char_table.en_heroic = 0;
-			char_table.en_mythic = 0;
-			char_table.tov_normal = 0;
-			char_table.tov_heroic = 0;
-			char_table.tov_mythic = 0;
-			char_table.tos_normal = 0;
-			char_table.tos_heroic = 0;
-			char_table.tos_mythic = 0;
-			char_table.antorus_normal = 0;
-			char_table.antorus_heroic = 0;
-			char_table.antorus_mythic = 0;
+			char_table.moverall = 0
+			char_table.ad = nil
+			char_table.fh = nil
+			char_table.kr = nil
+			char_table.sots = nil
+			char_table.siege = nil
+			char_table.tos = nil
+			char_table.tm = nil
+			char_table.undr = nil
+			char_table.td = nil
+			char_table.wm = nil
+			char_table.island_expedition = false;
+			char_table.uldir_normal = 0;
+			char_table.uldir_heroic = 0;
+			char_table.uldir_mythic = 0;
 
-			char_table.nh_lfr = 0;
-			char_table.en_lfr = 0;
-			char_table.tov_lfr = 0;
-			char_table.tos_lfr = 0;
-			char_table.antorus_lfr = 0;
+			char_table.uldir_lfr = 0;
+		elseif GetServerTime() > daily then
+			--print("Time "..time())
+			--print("Dailey "..daily)
+			char_table.daily = self:GetNextDailyResetTime();
+			
+			char_table.daily_heroic = nil
+			char_table.rnd_bg = false
+			char_table.d_em = (char_table.d_em and char_table.d_em<3 and char_table.d_em+1) or char_table.d_em
+			char_table.em1 = char_table.em2 and char_table.em2
+			char_table.em2 = char_table.em3 and char_table.em3
+			char_table.em3 = nil
 		end
+		
 	end
 end
 
@@ -332,242 +341,183 @@ function AltManager:StoreData(data)
 end
 
 function AltManager:CollectData(do_artifact)
+
 	
 	if UnitLevel('player') < min_level then return end;
-	-- this is an awful hack that will probably have some unforeseen consequences,
-	-- but Blizzard fucked something up with systems on logout, so let's see how it
-	-- goes.
-	_, i = GetAverageItemLevel()
-	if i == 0 then return end;
 
-	-- fix this when i'm not on a laptop at work
-	do_artifact = false
+	if do_artifact == nil then
+		do_artifact = true
+	end
 	
 	local name = UnitName('player')
 	local _, class = UnitClass('player')
+	local ownedKeystone = C_MythicPlus.GetOwnedKeystoneChallengeMapID()
 	local dungeon = nil;
 	local expire = nil;
 	local level = nil;
 	local seals = nil;
 	local seals_bought = nil;
-	local artifact_level = nil;
-	local next_research = nil;
+	local d_em = nil
 	local highest_mplus = 0;
 	local depleted = false;
-
+	
+	
 	local guid = UnitGUID('player');
-
-	local mine_old = nil
-	if MethodAltManagerDB and MethodAltManagerDB.data then
-		mine_old = MethodAltManagerDB.data[guid];
-	end
 	
-	C_MythicPlus.RequestRewards();
-	-- try the new api
-	highest_mplus = C_MythicPlus.GetWeeklyChestRewardLevel()
-	
-	--[[for k,v in pairs(dungeons) do
-		C_MythicPlus.RequestMapInfo(k);
-		-- there is a problem with relogging and retaining old value :(
-		local _, l = C_MythicPlus.GetWeeklyBestForMap(k);
-		if l and l > highest_mplus then
-			highest_mplus = l;
-		end
-	end ]]--
+	highest_mplus = C_MythicPlus.GetWeeklyChestRewardLevel();
 	
 	-- find keystone
-	local keystone_found = false;
-	for container=BACKPACK_CONTAINER, NUM_BAG_SLOTS do
-		local slots = GetContainerNumSlots(container)
-		for slot=1, slots do
-			local _, _, _, _, _, _, slotLink, _, _, slotItemID = GetContainerItemInfo(container, slot)
-			if slotItemID == 138019 then
-				local itemString = slotLink:match("|Hkeystone:([0-9:]+)|h(%b[])|h")
-				local info = { strsplit(":", itemString) }
-        -- print(info[0], info[1], info[2], info[3], info[4])
-				-- scan tooltip for depleted
-				self.main_frame.scan_tooltip:SetOwner(UIParent, 'ANCHOR_NONE');
-				self.main_frame.scan_tooltip:SetBagItem(container, slot);
-				local regions = self.main_frame.scan_tooltip:GetRegions();
-				self.main_frame.scan_tooltip:Hide();
-				--local mapname = C_ChallengeMode.GetMapInfo(info[1]);
-				dungeon = tonumber(info[2])
-				if not dungeon then print("MethodAltManager - Parse Failure, please let Qoning know that this happened."); end
-				level = tonumber(info[3])
-				if not level then print("MethodAltManager - Parse Failure, please let Qoning know that this happened."); end
-				expire = tonumber(info[11])
-				keystone_found = true;
-			end
-		end
+	local keystone_found = false
+	if ownedKeystone then
+		dungeon = dungeons[ownedKeystone]
+		level = C_MythicPlus.GetOwnedKeystoneLevel()
+		keystone_found = true
 	end
-  
-  -- nice idea, but these functions return weird values on login and logout
-  --dungeon = C_MythicPlus.GetOwnedKeystoneChallengeMapID()
-  --level = C_MythicPlus.GetOwnedKeystoneLevel()
-  
-  --if dungeon then keystone_found = true end
-  
+	
 	if not keystone_found then
 		dungeon = "Unknown";
 		level = "?"
 	end
-	
-	if do_artifact and HasArtifactEquipped() then
-		if not ArtifactFrame then
-			LoadAddOn("Blizzard_ArtifactUI");
-		end
-		-- open artifact
-		local is_open = ArtifactFrame:IsShown();
-		if (not ArtifactFrame or not ArtifactFrame:IsShown()) then
-			SocketInventoryItem(INVSLOT_MAINHAND);
-		end
-		artifact_level = C_ArtifactUI.GetArtifactKnowledgeLevel()
-		-- close artifact
-		if not is_open and ArtifactFrame and ArtifactFrame:IsShown() and C_ArtifactUI.IsViewedArtifactEquipped() then
-			C_ArtifactUI.Clear();
-		end
-	end
 
-	-- order resources
-	local _, order_resources = GetCurrencyInfo(1220);
-	local _, veiled_argunite = GetCurrencyInfo(1508);
-	local _, wakening_essence = GetCurrencyInfo(1533);
-	
-	local shipments = C_Garrison.GetLooseShipments(LE_GARRISON_TYPE_7_0)
-	local creation_time = nil
-	local duration = nil
-	local num_ready = nil
-	local num_total = nil
-	local found_research = false
-	
-	--[[for i = 1, #shipments do
-		local name, _, _, numReady, numTotal, creationTime, duration_l = C_Garrison.GetLandingPageShipmentInfoByContainerID(shipments[i])
-		
-		if name == GetItemInfo(139390) then		-- the name must be "Artifact Research Notes"
-			found_research = true;
-			creation_time = creationTime
-			duration = duration_l
-			num_ready = numReady
-			num_total = numTotal
-		end
-	end ]]--
-	
-	
-	if found_research and num_ready == 0 then
-		local remaining = (creation_time + duration) - time();
-			if (remaining < 0) then		-- next shipment is ready
-			num_ready = num_ready + 1
-			if num_ready > num_total then	-- prevent overflow
-				num_ready = num_total
-			end
-			remaining = 0
-		end
-		next_research = creation_time + duration
-	else
-		next_research = 0;
+	-- HoA Level
+	local hoa_level = nil
+	local neck = GetInventoryItemID("player", 2)
+	if neck and neck == 158075 then
+		local pos = C_AzeriteItem.FindActiveAzeriteItem()
+		local cur, max = C_AzeriteItem.GetAzeriteItemXPInfo(pos)
+		hoa_level = string.format("%d - %2d%%",C_AzeriteItem.GetPowerLevel(pos),math.floor((cur/max)*100))
 	end
 	
-	_, seals = GetCurrencyInfo(1273);
+	-- CoA Reputation
+	local coa = nil
+	local standingId, barMin, barMax, barValue = select(3,GetFactionInfoByID(2164))
+	coa = string.format("%2.1f / %2dk",(barValue - barMin)/1000,(barMax - barMin)/1000)
+	
+	-- Island Expedition
+	local island_expedition = nil
+	if IsQuestFlaggedCompleted(53435) then
+		island_expedition = "DONE"
+	else
+		local fulfilled, required = select(4,GetQuestObjectiveInfo(53435,1,false))
+		island_expedition = tostring(fulfilled)
+	end
+	
+	-- Warfront
+	local azerite = 0
+	local weekly = nil
+	for i,id in ipairs(warfront_quests) do
+		if IsQuestFlaggedCompleted(id) then
+			azerite = azerite + 1
+		end
+	end
+	
+	if IsQuestFlaggedCompleted(53416) then
+		weekly = true
+	end
+	
+	-- order resources
+	local _, war_resources = GetCurrencyInfo(1560);
+	
+	LFGRewardsFrame_UpdateFrame(LFDQueueFrameRandomScrollFrameChildFrame, 1671, LFDQueueFrameBackground)
+	local daily_heroic
+	local done, money = GetLFGDungeonRewards(1671);
+	if done and money > 0 then daily_heroic = true end
+	
+	RequestPVPRewards()
+	RequestRandomBattlegroundInstanceInfo()
+	local rnd_bg = select(3,C_PvP.GetRandomBGInfo());
+	
+	_, seals = GetCurrencyInfo(1580);
 	
 	seals_bought = 0
-	local gold_1 = IsQuestFlaggedCompleted(43895)
+	local gold_1 = IsQuestFlaggedCompleted(52834)
 	if gold_1 then seals_bought = seals_bought + 1 end
-	local gold_2 = IsQuestFlaggedCompleted(43896)
+	local gold_2 = IsQuestFlaggedCompleted(52838)
 	if gold_2 then seals_bought = seals_bought + 1 end
-	local gold_3 = IsQuestFlaggedCompleted(43897)
-	if gold_3 then seals_bought = seals_bought + 1 end
-	local resources_1 = IsQuestFlaggedCompleted(43892)
+	local resources_1 = IsQuestFlaggedCompleted(52837)
 	if resources_1 then seals_bought = seals_bought + 1 end
-	local resources_2 = IsQuestFlaggedCompleted(43893)
+	local resources_2 = IsQuestFlaggedCompleted(52840)
 	if resources_2 then seals_bought = seals_bought + 1 end
-	local resources_3 = IsQuestFlaggedCompleted(43894)
-	if resources_3 then seals_bought = seals_bought + 1 end
-	local marks_1 = IsQuestFlaggedCompleted(47851)
+	local marks_1 = IsQuestFlaggedCompleted(52835)
 	if marks_1 then seals_bought = seals_bought + 1 end
-	local marks_2 = IsQuestFlaggedCompleted(47864)
+	local marks_2 = IsQuestFlaggedCompleted(52839)
 	if marks_2 then seals_bought = seals_bought + 1 end
-	local marks_3 = IsQuestFlaggedCompleted(47865)
-	if marks_3 then seals_bought = seals_bought + 1 end
 	
+	-- Emissaries
+	local em1,em2,em3 = nil
+	local emissaries = GetQuestBountyInfoForMapID(876)
+	d_em = #emissaries
 	
-	local class_hall_seal = IsQuestFlaggedCompleted(43510)
-	if class_hall_seal then seals_bought = seals_bought + 1 end
-	
-
-	local nh_lfr, nh_normal, nh_heroic, nh_mythic = 0;
-	local tov_lfr, tov_normal, tov_heroic, tov_mythic = 0;
-	local en_lfr, en_normal, en_heroic, en_mythic = 0;
-	local tos_lfr, tos_normal, tos_heroic, tos_mythic = 0;
-	local antorus_lfr, antorus_normal, antorus_heroic, antorus_mythic = 0;
-
-	local nightbane_save = false;
-	local saves = GetNumSavedInstances();
-	for i = 1, saves do
-		local name, _, reset, _, _, _, _, _, _, difficulty, bosses, killed_bosses = GetSavedInstanceInfo(i);
-		-- nightbane
-		if name == C_Map.GetMapInfo(794).name and reset > 0 then
-			for j = 1, 20 do
-				local boss, _, killed = GetSavedInstanceEncounterInfo(i, j);
-				if boss == "Nightbane" then
-					nightbane_save = killed;
-				end
+	for BountyIndex, BountyInfo in ipairs(emissaries) do
+		local title = GetQuestLogTitle(GetQuestLogIndexByID(BountyInfo.questID))
+		local timeleft = C_TaskQuest.GetQuestTimeLeftMinutes(BountyInfo.questID)
+		local _, _, finished, fulfilled, required = GetQuestObjectiveInfo(BountyInfo.questID, 1, false)
+		if timeleft and faction_abb[title] then
+			if timeleft > 2880 then
+				em3 = {fulfilled,required,faction_abb[title]}
+			elseif timeleft > 1440 then
+				em2 = {fulfilled,required,faction_abb[title]}
+			else
+				em1 = {fulfilled,required,faction_abb[title]}
 			end
 		end
+	end
+	
+	-- Contract
+	local contract = nil
+	local contracts = {[256460] = "CoA",[256459] = "ToS",[256456] = "Vol",[256455] = "TE",[256453] = "ZE",[256452] = "StW",[256451] = "OoP",[256434] = "PA"}
+	for spellId, faction in pairs(contracts) do
+		if AuraUtil.FindAuraByName(GetSpellInfo(spellId),"player") then
+			contract = faction
+			break
+		end
+	end
+	
+	-- dungeons/raids
+	local ad,fh,kr,sots,siege,tos,tm,undr,td,wm
+	local dungeon_names = {["The MOTHERLOAD!!"] = tm,["Freehold"] = fh,["Kings' Rest"] = kr,["Atal'Dazar"] = ad,["Tol Dagor"] = td,["Siege of Boralus"] = siege,["The Underrot"] = undr,["Waycrest Manor"] = wm,
+						   ["Shrine of the Storm"] = sots,["Temple of Sethraliss"] = tos}	
+	local uldir_lfr, uldir_normal, uldir_heroic, uldir_mythic = 0;
+	local saves = GetNumSavedInstances()
+	local moverall = 0
+	
+	local GetMapNameByID = function(mapId)
+		local mapInfo = C_Map.GetMapInfo(mapId)
+		return mapInfo.name
+	end
+
+	for i = 1, saves do
+		local name, _, reset, _, _, _, _, isRaid, _, difficulty, bosses, killed_bosses = GetSavedInstanceInfo(i);	
+		-- check for M0
+		if not isRaid and difficulty == "Mythic" and reset > 0 then
+			if bosses == killed_bosses or (name == GetMapNameByID(1162) and killed_bosses == 4) then
+				moverall = moverall + 1
+			end
+		
+			if name == GetMapNameByID(934) then	ad = self:MakeDungeonString(killed_bosses,bosses) end
+			if name == GetMapNameByID(936) then fh = self:MakeDungeonString(killed_bosses,bosses) end
+			if name == GetMapNameByID(1004) then kr = self:MakeDungeonString(killed_bosses,bosses) end
+			if name == GetMapNameByID(1039) then sots = self:MakeDungeonString(killed_bosses,bosses) end
+			if name == GetMapNameByID(1162) then siege = self:MakeDungeonString(killed_bosses,4) end
+			if name == GetMapNameByID(1038) then tos = self:MakeDungeonString(killed_bosses,bosses) end
+			if name == GetMapNameByID(1010) then tm = self:MakeDungeonString(killed_bosses,bosses) end
+			if name == GetMapNameByID(1041) then undr = self:MakeDungeonString(killed_bosses,bosses) end
+			if name == GetMapNameByID(974) then td = self:MakeDungeonString(killed_bosses,bosses) end	
+			if name == GetMapNameByID(1015) then wm = self:MakeDungeonString(killed_bosses,bosses) end			
+		end
+		
 		-- check for raids
-		if name == C_Map.GetMapInfo(777).name and reset > 0 then
-			if difficulty == "Normal" then en_normal = killed_bosses end
-			if difficulty == "Heroic" then en_heroic = killed_bosses end
-			if difficulty == "Mythic" then en_mythic = killed_bosses end
-		end
-		if name == C_Map.GetMapInfo(806).name and reset > 0 then
-			if difficulty == "Normal" then tov_normal = killed_bosses end
-			if difficulty == "Heroic" then tov_heroic = killed_bosses end
-			if difficulty == "Mythic" then tov_mythic = killed_bosses end
-		end
-		if name == C_Map.GetMapInfo(764).name and reset > 0 then
-			if difficulty == "Normal" then nh_normal = killed_bosses end
-			if difficulty == "Heroic" then nh_heroic = killed_bosses end
-			if difficulty == "Mythic" then nh_mythic = killed_bosses end
-		end
-		if name == C_Map.GetMapInfo(850).name and reset > 0 then
-			if difficulty == "Normal" then tos_normal = killed_bosses end
-			if difficulty == "Heroic" then tos_heroic = killed_bosses end
-			if difficulty == "Mythic" then tos_mythic = killed_bosses end
-		end
-		if name == C_Map.GetMapInfo(909).name and reset > 0 then
-			if difficulty == "Normal" then antorus_normal = killed_bosses end
-			if difficulty == "Heroic" then antorus_heroic = killed_bosses end
-			if difficulty == "Mythic" then antorus_mythic = killed_bosses end
+		if name == GetMapNameByID(1148) and reset > 0 then
+			if difficulty == "Normal" then uldir_normal = killed_bosses end
+			if difficulty == "Heroic" then uldir_heroic = killed_bosses end
+			if difficulty == "Mythic" then uldir_mythic = killed_bosses end
 		end
 	end
+	local uldir_lfr_id = {1731, 1732, 1733};
 
-	local nh_lfr_id = {1293, 1292, 1291, 1290};
-	local tov_lfr_id = {1411};
-	local en_lfr_id = {1288, 1287, 1289};
-	local tos_lfr_id = {1494, 1495, 1496, 1497};
-	local antorus_lfr_id = {1610, 1611, 1612, 1613};
-
-	-- used to find: for i = 1,2000 do if(GetLFGDungeonInfo(i)) then print(i, GetLFGDungeonInfo(i)) end end
-
-	for _, v in pairs(nh_lfr_id) do
+	for _, v in pairs(uldir_lfr_id) do
 		local _, killed = GetLFGDungeonNumEncounters(v);
-		nh_lfr = nh_lfr + killed;
-	end
-	for _, v in pairs(tov_lfr_id) do
-		local _, killed = GetLFGDungeonNumEncounters(v);
-		tov_lfr = tov_lfr + killed;
-	end
-	for _, v in pairs(en_lfr_id) do
-		local _, killed = GetLFGDungeonNumEncounters(v);
-		en_lfr = en_lfr + killed;
-	end
-	for _, v in pairs(tos_lfr_id) do
-		local _, killed = GetLFGDungeonNumEncounters(v);
-		tos_lfr = tos_lfr + killed;
-	end
-		for _, v in pairs(antorus_lfr_id) do
-		local _, killed = GetLFGDungeonNumEncounters(v);
-		antorus_lfr = antorus_lfr + killed;
+		uldir_lfr = uldir_lfr + killed;
 	end
 
 	
@@ -583,51 +533,42 @@ function AltManager:CollectData(do_artifact)
 	char_table.ilevel = ilevel;
 	char_table.seals = seals;
 	char_table.seals_bought = seals_bought;
+	char_table.d_em = d_em
+	char_table.coa = coa
+	char_table.em1 = em1
+	char_table.em2 = em2
+	char_table.em3 = em3
+	char_table.contract = contract
+	char_table.moverall = moverall
 
-	if mine_old and mine_old.next_research and mine_old.next_research > next_research then
-		char_table.next_research = mine_old.next_research;
-	elseif mine_old and mine_old.next_research and mine_old.next_research < next_research then
-		char_table.next_research = next_research;
-		print("MethodAltManager debug: trying to overwrite old value with a lower one!");
-	else
-		char_table.next_research = next_research;
-	end
-	if do_artifact then
-		char_table.artifact_level = artifact_level;
-	end
+	char_table.ad = ad
+	char_table.fh = fh
+	char_table.kr = kr
+	char_table.sots = sots
+	char_table.siege = siege
+	char_table.tos = tos
+	char_table.tm = tm
+	char_table.undr = undr
+	char_table.td = td
+	char_table.wm = wm
 	char_table.dungeon = dungeon;
-  	char_table.level = level;
+	char_table.level = level;
 	char_table.highest_mplus = highest_mplus;
-	--remove nightbane for now
-	--char_table.nightbane = nightbane_save;
 
-	char_table.nh_lfr = nh_lfr;
-	char_table.en_lfr = en_lfr;
-	char_table.tov_lfr = tov_lfr;
-	char_table.tos_lfr = tos_lfr;
-	char_table.antorus_lfr = antorus_lfr;
+	char_table.uldir_lfr = uldir_lfr;
+	char_table.uldir_normal = uldir_normal;
+	char_table.uldir_heroic = uldir_heroic;
+	char_table.uldir_mythic = uldir_mythic;
 
-	char_table.nh_normal = nh_normal;
-	char_table.nh_heroic = nh_heroic;
-	char_table.nh_mythic = nh_mythic;
-	char_table.en_normal = en_normal;
-	char_table.en_heroic = en_heroic;
-	char_table.en_mythic = en_mythic;
-	char_table.tov_normal = tov_normal;
-	char_table.tov_heroic = tov_heroic;
-	char_table.tov_mythic = tov_mythic;
-	char_table.tos_normal = tos_normal;
-	char_table.tos_heroic = tos_heroic;
-	char_table.tos_mythic = tos_mythic;
-	char_table.antorus_normal = antorus_normal;
-	char_table.antorus_heroic = antorus_heroic;
-	char_table.antorus_mythic = antorus_mythic;
-
-	char_table.order_resources = order_resources;
-	char_table.veiled_argunite = veiled_argunite;
-	char_table.wakening_essence = wakening_essence;
-	char_table.is_depleted = depleted;
+	char_table.azerite = azerite;
+	char_table.weekly = weekly;
+	char_table.island_expedition = island_expedition;
+	char_table.hoa_level = hoa_level;
+	char_table.war_resources = war_resources;
+	char_table.daily_heroic = daily_heroic;
+	char_table.rnd_bg = rnd_bg;
 	char_table.expires = self:GetNextWeeklyResetTime();
+	char_table.daily = self:GetNextDailyResetTime();
 	
 	
 	return char_table;
@@ -699,78 +640,286 @@ function AltManager:CreateMenu()
 
 	local column_table = {
 		name = {
-			order = 1,
+			order = 0.5,
 			label = name_label,
 			data = function(alt_data) return alt_data.name end,
 			color = function(alt_data) return RAID_CLASS_COLORS[alt_data.class] end,
 		},
 		ilevel = {
-			order = 2,
+			order = 1,
 			data = function(alt_data) return string.format("%.2f", alt_data.ilevel or 0) end,
 			justify = "TOP",
 			font = "Fonts\\FRIZQT__.TTF",
 		},
 		mplus = {
-			order = 3,
+			order = 1.5,
 			label = mythic_done_label,
 			data = function(alt_data) return tostring(alt_data.highest_mplus) end, 
 		},
 		keystone = {
-			order = 4,
+			order = 2,
 			label = mythic_keystone_label,
 			data = function(alt_data) local depleted_string = alt_data.is_depleted and " (D)" or ""; return (dungeons[alt_data.dungeon] or alt_data.dungeon) .. " +" .. tostring(alt_data.level) .. depleted_string; end,
 		},
 		seals_owned = {
-			order = 5,
+			order = 2.5,
 			label = seals_owned_label,
-			data = function(alt_data) return tostring(alt_data.seals) end,
+			data = function(alt_data) return alt_data.seals and tostring(alt_data.seals) or "0" end,
 		},
 		seals_bought = {
-			order = 6,
+			order = 3,
 			label = seals_bought_label,
-			data = function(alt_data) return tostring(alt_data.seals_bought) end,
+			data = function(alt_data) return alt_data.seals_bought and tostring(alt_data.seals_bought) or "0" end,
 		},
-		--artifact_level = {
-		--	order = 7,
-		--	label = artifact_reaserch_label,
-		--	data = function(alt_data) return tostring(alt_data.artifact_level) end,
-		--},
-		--next_research = {
-		--	order = 8,
-		--	label = artifact_research_time_label,
-		--	data = function(alt_data) local remaining = alt_data.next_research - time(); if remaining < 0 then remaining = 0; end return alt_data.artifact_level < max_ak and self:TimeString(remaining) or "Max" end,
-		--},
-		order_resources = {
-			order = 9,
+		war_resources = {
+			order = 3.5,
 			label = resources_label,
-			data = function(alt_data) return alt_data.order_resources and tostring(alt_data.order_resources) or "0" end,
+			data = function(alt_data) return alt_data.war_resources and tostring(alt_data.war_resources) or "0" end,
 		},
-		veiled_argunite = {
-			order = 9.5,
-			label = argunite_label,
-			data = function(alt_data) return alt_data.veiled_argunite and tostring(alt_data.veiled_argunite) or "0" end,
+		hoa_level = {
+			order = 4,
+			label = hoa_label,
+			data = function(alt_data) return alt_data.hoa_level and tostring(alt_data.hoa_level) or "-" end,
 		},
-		wakening_essence = {
-			order = 9.6,
-			label = wakening_essence_label,
-			data = function(alt_data) return alt_data.wakening_essence and tostring(alt_data.wakening_essence) or "0" end,
+		coa = {
+			order = 4.5,
+			label = "CoA Rep",
+			data = function(alt_data) return alt_data.coa and tostring(alt_data.coa) or "-" end,
+		},
+		island_expedition = {
+			order = 5,
+			label = island_label,
+			data = function(alt_data) return alt_data.island_expedition and alt_data.island_expedition or "-" end,
 		},
 		dummy_empty_line = {
-			order = 10,
+			order = 5.5,
 			data = function(alt_data) return " " end,
 		},
-		raid_unroll = {
-			order = 11,
+		daily_unroll = {
+			order = 5.5,
 			data = "unroll",
-			name = "Instances >>",
-			unroll_function = function(button, my_rows)
+			button_pos = 0,
+			name = "Daily >",
+			unroll_function = function(button, my_rows, default_state)
+				self.daily_unroll = self.daily_unroll or {};
+				local lu = self.daily_unroll
+				lu.state = default_state or lu.state or "closed";
+				
+				lu.unroll_frame = lu.unroll_frame or CreateFrame("Button", nil, self.main_frame);
+				lu.unroll_frame:SetSize(per_alt_x, daily_y_add);
+				lu.unroll_frame:SetPoint("TOPLEFT",self.main_frame, "TOPLEFT", 4, self.main_frame.lowest_point + 10);
+				
+				if lu.state == "closed" then
+					-- do unroll
+					lu.unroll_frame:Show();
+					
+					local font_height = 20
+					-- create the rows for the unroll
+					if not lu.labels then
+						lu.labels = {}
+						local i = 1
+						for row_identifier, row in spairs(my_rows, function(t, a, b) return t[a].order < t[b].order end) do
+							if row.label then
+																	-- parent, 			x_size,    height, 	    relative_to,     y_offset,           label,          justify
+								local label_row = self:CreateFontFrame(lu.unroll_frame, per_alt_x, font_height, lu.unroll_frame, (-(i-1)*font_height) + 45, row.label..":", "RIGHT");
+								table.insert(lu.labels, label_row)
+							end
+							i = i + 1
+						end
+					end
+					
+					-- populate it for alts
+					lu.alt_columns = lu.alt_columns or {};
+					local alt = 0
+					local db = MethodAltManagerDB;
+					for alt_guid, alt_data in spairs(db.data, function(t, a, b) return t[a].ilevel > t[b]. ilevel end) do
+						alt = alt + 1
+						-- create the frame to which all the fontstrings anchor
+						local anchor_frame = lu.alt_columns[alt] or CreateFrame("Button", nil, lu.unroll_frame);
+						if not lu.alt_columns[alt] then
+							lu.alt_columns[alt] = anchor_frame;
+						end
+						anchor_frame:SetPoint("TOPLEFT", lu.unroll_frame, "TOPLEFT", per_alt_x * alt, -1);
+						anchor_frame:SetSize(per_alt_x, daily_y_add);
+						-- init table for fontstring storage
+						lu.alt_columns[alt].label_columns = lu.alt_columns[alt].label_columns or {};
+						local label_columns = lu.alt_columns[alt].label_columns;
+						-- create / fill fontstrings
+						local i = 1;
+						for column_iden, column in spairs(my_rows, function(t, a, b) return t[a].order < t[b].order end) do
+							local current_row = label_columns[i] or self:CreateFontFrame(lu.unroll_frame, per_alt_x, column.font_height or font_height, anchor_frame, (-(i - 1) * font_height) + 45, column.data(alt_data), "CENTER");
+							-- insert it into storage if just created
+							if not lu.alt_columns[alt].label_columns[i] then
+								lu.alt_columns[alt].label_columns[i] = current_row;
+							end
+							current_row:SetText(column.data(alt_data))
+							i = i + 1
+						end
+					end
+					
+					-- fixup the background
+					self.main_frame:SetSize(max((alt+1) * per_alt_x, min_x_size), sizey + daily_y_add);
+					self.main_frame.background:SetAllPoints();
+					
+					button:SetText("Daily <<");
+					lu.state = "open";
+				else
+					-- do rollup
+					self.main_frame:SetSize(max((MethodAltManagerDB.alts + 1) * per_alt_x, min_x_size), sizey);
+					self.main_frame.background:SetAllPoints();
+					self.daily_unroll.unroll_frame:Hide();
+					button:SetText("Daily >");
+					self.daily_unroll.state = "closed";
+				end
+			end,
+			rows = {
+				daily_heroic = {
+					order = 0.5,
+					label = heroic_label,
+					data = function(alt_data) return alt_data.daily_heroic and "DONE" or "\45" end,
+				},
+				rnd_bg = {
+					order = 1,
+					label = rndbg_label,
+					data = function(alt_data) return (alt_data.rnd_bg==true and "DONE") or "\45" end,
+				},	
+				line = {
+					order = 1.5,
+					data = function(alt_data) return " " end,
+				},
+				d_em = {
+					order = 2,
+					label = emissary_label,
+					data = function(alt_data) return alt_data.d_em and tostring(alt_data.d_em).."/3" or "\45" end,
+				},
+				em1 = {
+					order = 2.5,
+					label = "Emissary 1",
+					data = function(alt_data) return alt_data.em1 and self:MakeColoredString(alt_data.em1) or "\45" end,
+				},
+				em2 = {
+					order = 3,
+					label = "Emissary 2",
+					data = function(alt_data) return alt_data.em2 and self:MakeColoredString(alt_data.em2) or "\45" end,
+				},
+				em3 = {
+					order = 3.5,
+					label = "Emissary 3",
+					data = function(alt_data) return alt_data.em3 and self:MakeColoredString(alt_data.em3) or "\45" end,
+				},
+				contract = {
+					order = 4,
+					label = "Contract",
+					data = function(alt_data) return alt_data.contract and alt_data.contract or "\45" end,
+				}
+			}		
+		},		
+		warfront_unroll = {
+			order = 6,
+			data = "unroll",
+			button_pos = 100,
+			name = "Warfront >",
+			unroll_function = function(button, my_rows, default_state)
+				self.warfront_unroll = self.warfront_unroll or {};
+				local wu = self.warfront_unroll
+				wu.state = default_state or wu.state or "closed";
+				
+				wu.unroll_frame = wu.unroll_frame or CreateFrame("Button", nil, self.main_frame);
+				wu.unroll_frame:SetSize(per_alt_x, warfront_y_add);
+				wu.unroll_frame:SetPoint("TOPLEFT", self.main_frame, "TOPLEFT", 4, self.main_frame.lowest_point + 10);
+				
+				if wu.state == "closed" then
+					-- do unroll
+					wu.unroll_frame:Show();
+					
+					local font_height = 20;
+					-- create the rows for the unroll
+					if not wu.labels then
+						wu.labels = {};
+						local i = 1
+						for row_iden, row in spairs(my_rows, function(t, a, b) return t[a].order < t[b].order end) do
+							if row.label then
+								local label_row = self:CreateFontFrame(wu.unroll_frame, per_alt_x, font_height, wu.unroll_frame, (-(i-1)*font_height) + 45, row.label..":", "RIGHT");
+								table.insert(wu.labels, label_row)
+							end
+							i = i + 1
+						end
+					end
+					
+					-- populate it for alts
+					wu.alt_columns = wu.alt_columns or {};
+					local alt = 0
+					local db = MethodAltManagerDB;
+					for alt_guid, alt_data in spairs(db.data, function(t, a, b) return t[a].ilevel > t[b].ilevel end) do
+						alt = alt + 1
+						-- create the frame to which all the fontstrings anchor
+						local anchor_frame = wu.alt_columns[alt] or CreateFrame("Button", nil, wu.unroll_frame);
+						if not wu.alt_columns[alt] then
+							wu.alt_columns[alt] = anchor_frame;
+						end
+						anchor_frame:SetPoint("TOPLEFT", wu.unroll_frame, "TOPLEFT", per_alt_x * alt, -1);
+						anchor_frame:SetSize(per_alt_x, warfront_y_add);
+						
+						-- init table for fontstring storage
+						wu.alt_columns[alt].label_columns = wu.alt_columns[alt].label_columns or {};
+						local label_columns = wu.alt_columns[alt].label_columns;
+						
+						-- create / fill fontstrings
+						local i = 1;
+						for column_iden, column in spairs(my_rows, function(t, a, b) return t[a].order < t[b].order end) do
+							local current_row = label_columns[i] or self:CreateFontFrame(wu.unroll_frame, per_alt_x, column.font_height or font_height, anchor_frame, (-(i - 1) * font_height) + 45, column.data(alt_data), "CENTER");
+							-- insert it into storage if just created
+							if not wu.alt_columns[alt].label_columns[i] then
+								wu.alt_columns[alt].label_columns[i] = current_row;
+							end
+							current_row:SetText(column.data(alt_data))
+							i = i + 1
+						end
+					end
+
+					-- fixup the background
+					self.main_frame:SetSize(max((alt + 1) * per_alt_x, min_x_size), (sizey + warfront_y_add));
+					self.main_frame.background:SetAllPoints();
+
+					button:SetText("Warfront <<");
+					wu.state = "open";
+				else
+					-- do rollup
+					self.main_frame:SetSize(max((MethodAltManagerDB.alts + 1) * per_alt_x, min_x_size), sizey);
+					self.main_frame.background:SetAllPoints();
+					self.warfront_unroll.unroll_frame:Hide();
+					button:SetText("Warfront >");
+					self.warfront_unroll.state = "closed";
+				end
+			end,
+			rows = {
+				azerite = {
+					order = 0.5,
+					label = azerite_label,
+					data = function(alt_data) return alt_data.azerite and self:MakeColoredString({alt_data.azerite,11}) or "0/11" end
+				},
+				weekly = {
+					order = 0.5,
+					label = warfront_label,
+					data = function(alt_data) return alt_data.weekly and "DONE" or "\45" end
+				},
+			}
+		},
+		raid_unroll = {
+			order = 6.5,
+			data = "unroll",
+			button_pos = 200,
+			name = "Raids >",
+			unroll_function = function(button, my_rows, default_state)
 				self.instances_unroll = self.instances_unroll or {};
-				self.instances_unroll.state = self.instances_unroll.state or "closed";
+				self.instances_unroll.state = default_state or self.instances_unroll.state or "closed";
+				
+				self.instances_unroll.unroll_frame = self.instances_unroll.unroll_frame or CreateFrame("Button", nil, self.main_frame);
+				self.instances_unroll.unroll_frame:SetSize(per_alt_x, instances_y_add);
+				self.instances_unroll.unroll_frame:SetPoint("TOPLEFT", self.main_frame, "TOPLEFT", 4, self.main_frame.lowest_point + 10);
+				
 				if self.instances_unroll.state == "closed" then
 					-- do unroll
-					self.instances_unroll.unroll_frame = self.instances_unroll.unroll_frame or CreateFrame("Button", nil, self.main_frame);
-					self.instances_unroll.unroll_frame:SetSize(per_alt_x, instances_y_add);
-					self.instances_unroll.unroll_frame:SetPoint("TOPLEFT", self.main_frame, "TOPLEFT", 4, self.main_frame.lowest_point - 10);
 					self.instances_unroll.unroll_frame:Show();
 					
 					local font_height = 20;
@@ -780,7 +929,7 @@ function AltManager:CreateMenu()
 						local i = 1
 						for row_iden, row in spairs(my_rows, function(t, a, b) return t[a].order < t[b].order end) do
 							if row.label then
-								local label_row = self:CreateFontFrame(self.instances_unroll.unroll_frame, per_alt_x, font_height, self.instances_unroll.unroll_frame, -(i-1)*font_height, row.label..":", "RIGHT");
+								local label_row = self:CreateFontFrame(self.instances_unroll.unroll_frame, per_alt_x, font_height, self.instances_unroll.unroll_frame, (-(i-1)*font_height) + 45, row.label..":", "RIGHT");
 								table.insert(self.instances_unroll.labels, label_row)
 							end
 							i = i + 1
@@ -800,13 +949,15 @@ function AltManager:CreateMenu()
 						end
 						anchor_frame:SetPoint("TOPLEFT", self.instances_unroll.unroll_frame, "TOPLEFT", per_alt_x * alt, -1);
 						anchor_frame:SetSize(per_alt_x, instances_y_add);
+						
 						-- init table for fontstring storage
 						self.instances_unroll.alt_columns[alt].label_columns = self.instances_unroll.alt_columns[alt].label_columns or {};
 						local label_columns = self.instances_unroll.alt_columns[alt].label_columns;
+						
 						-- create / fill fontstrings
 						local i = 1;
 						for column_iden, column in spairs(my_rows, function(t, a, b) return t[a].order < t[b].order end) do
-							local current_row = label_columns[i] or self:CreateFontFrame(self.instances_unroll.unroll_frame, per_alt_x, column.font_height or font_height, anchor_frame, -(i - 1) * font_height, column.data(alt_data), "CENTER");
+							local current_row = label_columns[i] or self:CreateFontFrame(self.instances_unroll.unroll_frame, per_alt_x, column.font_height or font_height, anchor_frame, (-(i - 1) * font_height) + 45, column.data(alt_data), "CENTER");
 							-- insert it into storage if just created
 							if not self.instances_unroll.alt_columns[alt].label_columns[i] then
 								self.instances_unroll.alt_columns[alt].label_columns[i] = current_row;
@@ -817,48 +968,163 @@ function AltManager:CreateMenu()
 					end
 
 					-- fixup the background
-					self.main_frame:SetSize(max((alt + 1) * per_alt_x, min_x_size), sizey + instances_y_add);
+					self.main_frame:SetSize(max((alt + 1) * per_alt_x, min_x_size), (sizey + instances_y_add));
 					self.main_frame.background:SetAllPoints();
 
-					button:SetText("Instances <<");
+					button:SetText("Raids <<");
 					self.instances_unroll.state = "open";
 				else
 					-- do rollup
 					self.main_frame:SetSize(max((MethodAltManagerDB.alts + 1) * per_alt_x, min_x_size), sizey);
 					self.main_frame.background:SetAllPoints();
 					self.instances_unroll.unroll_frame:Hide();
-					button:SetText("Instances >>");
+					button:SetText("Raids >");
 					self.instances_unroll.state = "closed";
 				end
 			end,
 			rows = {
-				tomb_of_sargeras = {
-					order = 1,
-					label = "Tomb of Sargeras",
-					data = function(alt_data) return self:MakeRaidString(alt_data.tos_lfr, alt_data.tos_normal, alt_data.tos_heroic, alt_data.tos_mythic) end
-				},
-				nighthold = {
-					order = 2,
-					label = "Nighthold",
-					data = function(alt_data) return self:MakeRaidString(alt_data.nh_lfr, alt_data.nh_normal, alt_data.nh_heroic, alt_data.nh_mythic) end
-				},
-				trial_of_valor = {
-					order = 3,
-					label = "Trial of Valor",
-					data = function(alt_data) return self:MakeRaidString(alt_data.tov_lfr, alt_data.tov_normal, alt_data.tov_heroic, alt_data.tov_mythic) end
-				},
-				emerald_nightmare = {
-					order = 4,
-					label = "Emerald Nightmare",
-					data = function(alt_data) return self:MakeRaidString(alt_data.en_lfr, alt_data.en_normal, alt_data.en_heroic, alt_data.en_mythic) end
-				},
-				antorus_raid = {
+				uldir = {
 					order = 0.5,
-					label = "Antorus",
-					data = function(alt_data) return self:MakeRaidString(alt_data.antorus_lfr, alt_data.antorus_normal, alt_data.antorus_heroic, alt_data.antorus_mythic) end
-				}
+					label = "Uldir",
+					data = function(alt_data) return self:MakeRaidString(alt_data.uldir_lfr, alt_data.uldir_normal, alt_data.uldir_heroic, alt_data.uldir_mythic) end
+				},
+			}
+		},
+		mythicz_unroll = {
+			order = 7,
+			data = "unroll",
+			button_pos = 300,
+			name = "M0 >",
+			unroll_function = function(button, my_rows, default_state)
+				self.mythicz_unroll = self.mythicz_unroll or {};
+				self.mythicz_unroll.state = default_state or self.mythicz_unroll.state or "closed";
+				
+				self.mythicz_unroll.unroll_frame = self.mythicz_unroll.unroll_frame or CreateFrame("Button", nil, self.main_frame);
+				self.mythicz_unroll.unroll_frame:SetSize(per_alt_x, mythic_y_add);
+				self.mythicz_unroll.unroll_frame:SetPoint("TOPLEFT", self.main_frame, "TOPLEFT", 4, self.main_frame.lowest_point + 10);
+				
+				if self.mythicz_unroll.state == "closed" then
+					-- do unroll
+					self.mythicz_unroll.unroll_frame:Show();
+					
+					local font_height = 20;
+					-- create the rows for the unroll
+					if not self.mythicz_unroll.labels then
+						self.mythicz_unroll.labels = {};
+						local i = 1
+						for row_iden, row in spairs(my_rows, function(t, a, b) return t[a].order < t[b].order end) do
+							if row.label then
+								local label_row = self:CreateFontFrame(self.mythicz_unroll.unroll_frame, per_alt_x, font_height, self.mythicz_unroll.unroll_frame, (-(i-1)*font_height) + 45, row.label..":", "RIGHT");
+								table.insert(self.mythicz_unroll.labels, label_row)
+							end
+							i = i + 1
+						end
+					end
+					
+					-- populate it for alts
+					self.mythicz_unroll.alt_columns = self.mythicz_unroll.alt_columns or {};
+					local alt = 0
+					local db = MethodAltManagerDB;
+					for alt_guid, alt_data in spairs(db.data, function(t, a, b) return t[a].ilevel > t[b].ilevel end) do
+						alt = alt + 1
+						-- create the frame to which all the fontstrings anchor
+						local anchor_frame = self.mythicz_unroll.alt_columns[alt] or CreateFrame("Button", nil, self.mythicz_unroll.unroll_frame);
+						if not self.mythicz_unroll.alt_columns[alt] then
+							self.mythicz_unroll.alt_columns[alt] = anchor_frame;
+						end
+						anchor_frame:SetPoint("TOPLEFT", self.mythicz_unroll.unroll_frame, "TOPLEFT", per_alt_x * alt, -1);
+						anchor_frame:SetSize(per_alt_x, mythic_y_add);
+						
+						-- init table for fontstring storage
+						self.mythicz_unroll.alt_columns[alt].label_columns = self.mythicz_unroll.alt_columns[alt].label_columns or {};
+						local label_columns = self.mythicz_unroll.alt_columns[alt].label_columns;
+						
+						-- create / fill fontstrings
+						local i = 1;
+						for column_iden, column in spairs(my_rows, function(t, a, b) return t[a].order < t[b].order end) do
+							local current_row = label_columns[i] or self:CreateFontFrame(self.mythicz_unroll.unroll_frame, per_alt_x, column.font_height or font_height, anchor_frame, (-(i - 1) * font_height) + 45, column.data(alt_data), "CENTER");
+							-- insert it into storage if just created
+							if not self.mythicz_unroll.alt_columns[alt].label_columns[i] then
+								self.mythicz_unroll.alt_columns[alt].label_columns[i] = current_row;
+							end
+							current_row:SetText(column.data(alt_data))
+							i = i + 1
+						end
+					end
+
+					-- fixup the background
+					self.main_frame:SetSize(max((alt + 1) * per_alt_x, min_x_size), (sizey + mythic_y_add));
+					self.main_frame.background:SetAllPoints();
+
+					button:SetText("M0 <<");
+					self.mythicz_unroll.state = "open";
+				else
+					-- do rollup
+					self.main_frame:SetSize(max((MethodAltManagerDB.alts + 1) * per_alt_x, min_x_size), sizey);
+					self.main_frame.background:SetAllPoints();
+					self.mythicz_unroll.unroll_frame:Hide();
+					button:SetText("M0 >");
+					self.mythicz_unroll.state = "closed";
+				end
+			end,
+			rows = {
+				mythics_done = {
+					order = 0.5,
+					data = function(alt_data) return alt_data.moverall and self:MakeColoredString({alt_data.moverall,10}) or "-" end
+				},
+				ataldazar = {
+					order = 1,
+					label = "AD",
+					data = function(alt_data) return alt_data.ad or "-" end
+				},
+				freehold = {
+					order = 1.5,
+					label = "FH",
+					data = function(alt_data) return alt_data.fh or "-" end
+				},
+				kingsrest = {
+					order = 2,
+					label = "KR",
+					data = function(alt_data) return alt_data.kr or "-" end
+				},
+				shrineofthestorm = {
+					order = 2.5,
+					label = "SOTS",
+					data = function(alt_data) return alt_data.sots or "-" end
+				},
+				siegeofboralus = {
+					order = 3,
+					label = "SIEGE",
+					data = function(alt_data) return alt_data.siege or "-" end
+				},
+				templeofsethraliss = {
+					order = 3.5,
+					label = "TOS",
+					data = function(alt_data) return alt_data.tos or "-" end
+				},
+				themotherload = {
+					order = 4,
+					label = "TM",
+					data = function(alt_data) return alt_data.tm or "-" end
+				},
+				underrot = {
+					order = 4.5,
+					label = "UNDR",
+					data = function(alt_data) return alt_data.undr or "-" end
+				},
+				toldagor = {
+					order = 5,
+					label = "TD",
+					data = function(alt_data) return alt_data.td or "-" end
+				},
+				waycrestmanor = {
+					order = 5.5,
+					label = "WM",
+					data = function(alt_data) return alt_data.wm or "-" end
+				},
 			}
 		}
+		
 	}
 	self.columns_table = column_table;
 
@@ -870,25 +1136,48 @@ function AltManager:CreateMenu()
 	label_column:SetPoint("TOPLEFT", self.main_frame, "TOPLEFT", 4, -1);
 
 	local i = 1;
+	local buttonrows = {}
 	for row_iden, row in spairs(self.columns_table, function(t, a, b) return t[a].order < t[b].order end) do
 		if row.label then
 			local label_row = self:CreateFontFrame(self.main_frame, per_alt_x, font_height, label_column, -(i-1)*font_height, row.label..":", "RIGHT");
 			self.main_frame.lowest_point = -(i-1)*font_height;
 		end
 		if row.data == "unroll" then
+			local bp = row.button_pos
 			-- create a button that will unroll it
-			local unroll_button = CreateFrame("Button", "UnrollButton", self.main_frame, "UIPanelButtonTemplate");
+			local unroll_button = CreateFrame("Button", "UnrollButton"..i, self.main_frame, "UIPanelButtonTemplate");
+			table.insert(buttonrows,{row_iden, row, unroll_button})
 			unroll_button:SetText(row.name);
 			unroll_button:SetFrameStrata("HIGH");
 			--unroll_button:SetFrameLevel(self.main_frame:GetFrameLevel() - 1);
-			unroll_button:SetSize(unroll_button:GetTextWidth() + 20, 25);
-			unroll_button:SetPoint("BOTTOMRIGHT", self.main_frame, "TOPLEFT", 4 + per_alt_x, -(i-1)*font_height-10);
-			unroll_button:SetScript("OnClick", function() row.unroll_function(unroll_button, row.rows) end);
+			unroll_button:SetSize(100, 25);
+			unroll_button:SetPoint("BOTTOMRIGHT", self.main_frame, "TOPLEFT", 4 + per_alt_x + bp, -1*(sizey-10));
+			unroll_button:SetScript("OnClick", 
+			function() 
+				for x,r in ipairs(buttonrows) do
+					local r_i, ro, u_b = r[1], r[2], r[3]
+					if r_i ~= row_iden then
+						ro.unroll_function(u_b, nil, "open")
+					end
+				end
+				
+				row.unroll_function(unroll_button, row.rows) 
+			end);
 			self.main_frame.lowest_point = -(i-1)*font_height-10;
 		end
 		i = i + 1
 	end
 
+end
+
+function AltManager:MakeDungeonString(killed_bosses, bosses)
+	local string = "-"
+	if killed_bosses == bosses then 
+		string = "DONE"
+	else
+		string = killed_bosses .. "/" .. bosses
+	end
+	return string
 end
 
 function AltManager:MakeRaidString(lfr, normal, heroic, mythic)
@@ -905,6 +1194,20 @@ function AltManager:MakeRaidString(lfr, normal, heroic, mythic)
 	if lfr > 0 and (mythic > 0 or heroic > 0 or normal > 0) then string = string .. "-" end
 	if lfr > 0 then string = string .. tostring(lfr) .. "L" end
 	return string == "" and "-" or string
+end
+
+function AltManager:MakeColoredString(emi)
+	if type(emi) == "string" then return "old" end
+	local fulfilled,required,title = unpack(emi)
+	local progress
+	if fulfilled == required then
+		progress = string.format("|cff04CF05%d/%d|r",fulfilled,required)
+	elseif fulfilled > 0 then
+		progress = string.format("|cffFF7D0A%d/%d|r",fulfilled,required)
+	else
+		progress = fulfilled .. "/" .. required
+	end
+	return title and string.format("%s - %s",title,progress) or progress
 end
 
 function AltManager:HideInterface()
@@ -928,7 +1231,7 @@ function AltManager:MakeTopBottomTextures(frame)
 		frame.topPanelTex:SetAllPoints();
 		--frame.topPanelTex:SetSize(frame:GetWidth(), 30);
 		frame.topPanelTex:SetDrawLayer("ARTWORK", -5);
-		frame.topPanelTex:SetColorTexture(0, 0, 0, 0.7);
+		frame.topPanelTex:SetColorTexture(0, 0, 0, 0.85);
 		
 		frame.topPanelString = frame.topPanel:CreateFontString("Method name");
 		frame.topPanelString:SetFont("Fonts\\FRIZQT__.TTF", 20)
@@ -943,7 +1246,7 @@ function AltManager:MakeTopBottomTextures(frame)
 		frame.topPanelString:Show();
 		
 	end
-	frame.bottomPanel:SetColorTexture(0, 0, 0, 0.7);
+	frame.bottomPanel:SetColorTexture(0, 0, 0, 0.85);
 	frame.bottomPanel:ClearAllPoints();
 	frame.bottomPanel:SetPoint("TOPLEFT", frame, "BOTTOMLEFT", 0, 0);
 	frame.bottomPanel:SetSize(frame:GetWidth(), 30);
@@ -1018,32 +1321,17 @@ end
 
 function AltManager:GetNextDailyResetTime()
 	local resettime = GetQuestResetTime()
-	if not resettime or resettime <= 0 or -- ticket 43: can fail during startup
+	if not resettime or resettime <= 0 or resettime > 24*3600+30 then
+		-- ticket 43: can fail during startup
 		-- also right after a daylight savings rollover, when it returns negative values >.<
-		resettime > 24*3600+30 then -- can also be wrong near reset in an instance
-		return nil
+		-- can also be wrong near reset in an instance
+		return
 	end
-	if false then -- this should no longer be a problem after the 7.0 reset time changes
-		-- ticket 177/191: GetQuestResetTime() is wrong for Oceanic+Brazilian characters in PST instances
-		local serverHour, serverMinute = GetGameTime()
-		local serverResetTime = (serverHour*3600 + serverMinute*60 + resettime) % 86400 -- GetGameTime of the reported reset
-		local diff = serverResetTime - 10800 -- how far from 3AM server
-		if math.abs(diff) > 3.5*3600  -- more than 3.5 hours - ignore TZ differences of US continental servers
-			and self:GetRegion() == "US" then
-			local diffhours = math.floor((diff + 1800)/3600)
-			resettime = resettime - diffhours*3600
-			if resettime < -900 then -- reset already passed, next reset
-				resettime = resettime + 86400
-				elseif resettime > 86400+900 then
-				resettime = resettime - 86400
-			end
-		end
-	end
-	return time() + resettime
+	return resettime+GetServerTime()
 end
 
 function AltManager:GetServerOffset()
-	local serverDay = C_Calendar.GetDate().weekday - 1 -- 1-based starts on Sun
+	local serverDay = C_DateAndTime.GetTodaysDate().weekDay - 1 -- 1-based starts on Sun
 	local localDay = tonumber(date("%w")) -- 0-based starts on Sun
 	local serverHour, serverMinute = GetGameTime()
 	local localHour, localMinute = tonumber(date("%H")), tonumber(date("%M"))
@@ -1085,7 +1373,7 @@ end
 
 function AltManager:GetWoWDate()
 	local hour = tonumber(date("%H"));
-	local day = C_Calendar.GetDate().weekday;
+	local day = C_DateAndTime.GetTodaysDate().weekDay
 	return day, hour;
 end
 

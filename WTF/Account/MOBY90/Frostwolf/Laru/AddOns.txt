@@ -329,5 +329,12 @@ MapCoords: enabled
 StealPurgeDispel: disabled
 bdCore: disabled
 bdNameplates: disabled
-Plater: disabled
+Plater: enabled
 BigWigs_Uldir: enabled
+BigWigs_Azeroth: enabled
+BigWigs_Voice: enabled
+BigWigs_Cataclysm: enabled
+BigWigs_WarlordsOfDraenor: enabled
+BigWigs_Legion: enabled
+SYH: enabled
+WhatDidIDispel2: enabled

@@ -165,3 +165,4 @@ Azeroth Auto Pilot: enabled
 StealPurgeDispel: disabled
 bdCore: disabled
 bdNameplates: disabled
+WhatDidIDispel2: enabled

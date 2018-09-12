@@ -319,3 +319,6 @@ StealPurgeDispel: enabled
 bdCore: enabled
 bdNameplates: enabled
 Plater: enabled
+BigWigs_Uldir: enabled
+BigWigs_Voice: enabled
+WhatDidIDispel2: enabled

@@ -1,4 +1,4 @@
-local VERSION = 79
+local VERSION = 81
 
 --[[
 Special icons for rares, pvp or pet battle quests in list
@@ -234,6 +234,13 @@ Added option "Disable popup after quest completion (leave party)"
 Added "/wql way X Y" command for manual arrow
 Right click on LFG popup will hide it
 Minor fixes
+
+Update for Arathi rares
+Added "/way X Y" if no other addon found for it
+Some fixes for sorting
+Fix autoinvite for non-quest lfg groups
+
+Major fixes
 ]]
 
 local GlobalAddonName, WQLdb = ...
@@ -3763,7 +3770,7 @@ WorldQuestList.moveHeader:SetClampedToScreen(true)
 local SortFuncs = {
 	function(a,b) if a and b and a.time and b.time then 
 			if abs(a.time - b.time) <= 2 then 
-				return a.faction < b.faction 
+				return a.factionSort < b.factionSort 
 			else 
 				return a.time < b.time 
 			end 
@@ -3782,10 +3789,17 @@ local SortFuncs = {
 		end
 	end,
 	function(a,b) return a.name < b.name end,
-	function(a,b) if a.faction == b.faction then 
+	function(a,b) if a.factionSort == b.factionSort then 
 			if a.time and b.time then 
 				if abs(a.time - b.time) <= 2 then 
-					return a.name < b.name 
+					--return a.name < b.name 
+					if a.rewardType ~= b.rewardType then 
+						return a.rewardType < b.rewardType 
+					elseif a.rewardSort == b.rewardSort then
+						return (a.name or "0") > (b.name or "0")
+					else
+						return a.rewardSort > b.rewardSort 
+					end
 				else 
 					return a.time < b.time 
 				end 
@@ -3793,14 +3807,14 @@ local SortFuncs = {
 				return a.name < b.name 
 			end
 		else 
-			return a.faction < b.faction 
+			return a.factionSort < b.factionSort 
 		end
 	end,
 	function(a,b) if a and b then 
 			if a.rewardType ~= b.rewardType then 
 				return a.rewardType < b.rewardType 
 			elseif a.rewardSort == b.rewardSort then
-				return (a.questID or 0) > (b.questID or 0)
+				return (a.name or "0") > (b.name or "0")
 			else
 				return a.rewardSort > b.rewardSort 
 			end 
@@ -3876,7 +3890,7 @@ function WQL_AreaPOIDataProviderMixin:RefreshAllData()
 			local x,y,name,tType,reward,note,questID,specialFunc = 
 				treasureData[i][1],treasureData[i][2],treasureData[i][3],treasureData[i][4],treasureData[i][5],treasureData[i][6],treasureData[i][7],treasureData[i][8]
 			
-			if (not questID or not IsQuestFlaggedCompleted(questID)) and (not specialFunc or specialFunc()) then
+			if (not specialFunc or specialFunc()) then
 				local pin = self:GetMap():AcquirePin(self:GetPinTemplate(), {
 					areaPoiID = 0,
 					name = name,
@@ -3890,15 +3904,15 @@ function WQL_AreaPOIDataProviderMixin:RefreshAllData()
 						x = x,
 						y = y,
 						mapID = mapID,
-					}
+					},
 				})
-				
+
 				if not pin.Background then
 					pin.Background = pin:CreateTexture()
 					pin.Background:SetPoint("CENTER",1,-1)
 				end
 				if not pin.Overlay then
-					pin.Overlay = pin:CreateTexture()
+					pin.Overlay = pin:CreateTexture(nil,"OVERLAY")
 					pin.Overlay:SetPoint("CENTER",0,0)
 				end
 								
@@ -3922,6 +3936,14 @@ function WQL_AreaPOIDataProviderMixin:RefreshAllData()
 				else
 					pin:SetSize(15,15)
 					pin.Texture:SetSize(13,13)
+				end
+
+				if questID and IsQuestFlaggedCompleted(questID) then
+					pin.Texture:SetDesaturated(true)
+					pin.Overlay:SetAtlas("XMarksTheSpot")
+					pin.Overlay:SetSize(6,6)
+				else
+					pin.Texture:SetDesaturated(false)
 				end
 			end
 		end		
@@ -4757,7 +4779,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 		
 	WorldQuestList.currentMapID = mapAreaID
 	
-	if time() > 1534550400 and time() < 1543622400 then	--beetween 18.08.18 (second week, same AK as first) and 01.12.18 (AK level 17, max for now,30.07.2018)
+	if time() > 1534550400 and time() < 1543968000 then	--beetween 18.08.18 (second week, same AK as first) and 05.12.18 (AK level 17, max for now,30.07.2018)
 		O.nextResearch = WorldQuestList:GetNextResetTime(WorldQuestList:GetCurrentRegion())
 	end
 	
@@ -4830,7 +4852,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 				local reward = ""
 				local rewardItem
 				local rewardColor
-				local faction = ""
+				local faction,factionSort = "",""
 				local factionInProgress
 				local timeleft = ""
 				local name = ""
@@ -4923,6 +4945,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 					local factionName = GetFactionInfoByID(factionID)
 					if ( factionName ) then
 						faction = factionName
+						factionSort = faction
 					end
 					
 					if VWQL[charKey]["faction"..factionID.."Highlight"] then
@@ -5166,7 +5189,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 								ilvl = tonumber( ilvl:gsub("%+",""),nil )
 								if ilvl then
 									rewardType = O.isGearLessRelevant and 37 or 0
-									rewardSort = ilvl
+									rewardSort = ilvl + (itemID / 1000000)
 									hasRewardFiltered = true
 								end
 							elseif text and text:find(LE.ITEM_BIND_ON_EQUIP) and j<=4 then
@@ -5351,6 +5374,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 						rewardColor = rewardColor,
 						faction = faction,
 						factionInProgress = factionInProgress,
+						factionSort = factionSort,
 						zone = (((VWQL.OppositeContinent and (mapAreaID == 875 or mapAreaID == 876)) or mapAreaID == 947) and WorldQuestList:GetMapIcon(info.mapID) or "")..
 							(((mapAreaID == 875 or mapAreaID == 876)) and WorldQuestList:GetMapTextColor(info.mapID) or "")..WorldQuestList:GetMapName(info.mapID),
 						zoneID = info.mapID or 0,
@@ -5405,6 +5429,7 @@ function WorldQuestList_Update(preMapID,forceUpdate)
 					},
 					reward = description and description:gsub("^.-: ","") or "",
 					faction = "",
+					factionSort = "",
 					zone = (mapAreaID == 947 and WorldQuestList:GetMapIcon(zoneID) or "")..WorldQuestList:GetMapName(zoneID),
 					zoneID = zoneID or 0,
 					timeleft = WorldQuestList:FormatTime(timeLeftMinutes),
@@ -5879,8 +5904,8 @@ SlashCmdList["WQLSlash"] = function(arg)
 	elseif argL:find("^way ") then 
 		local x,y = argL:match("([%d%.,]+) ([%d%.,]+)")
 		if x and y then
-			x = tonumber( x:gsub(",$",""),nil )
-			y = tonumber( y:gsub(",$",""),nil )
+			x = tonumber( x:gsub(",$",""):gsub(",","."),nil )
+			y = tonumber( y:gsub(",$",""):gsub(",","."),nil )
 			if x and y then
 				local mapID = C_Map.GetBestMapForUnit("player")
 				if WorldMapFrame:IsVisible() then
@@ -5946,6 +5971,25 @@ SlashCmdList["WQLSlash"] = function(arg)
 end
 SLASH_WQLSlash1 = "/wql"
 SLASH_WQLSlash2 = "/worldquestslist"
+
+--Add /way
+C_Timer.After(3,function()
+	for name,_ in pairs(getmetatable(SlashCmdList).__index) do
+		local index = 1
+		local cmd = _G["SLASH_"..name..index]
+		while cmd do
+			if cmd == "/way" then
+				return
+			end
+			index = index+1
+			cmd = _G["SLASH_"..name..index]
+		end
+	end
+	SlashCmdList["WQLSlashWay"] = function(arg)
+		getmetatable(SlashCmdList).__index.WQLSlash("way "..(arg or ""))
+	end
+	SLASH_WQLSlashWay1 = "/way"
+end)
 
 WorldMapHideWQLCheck = CreateFrame("CheckButton",nil,WorldMapFrame,"UICheckButtonTemplate")  
 WorldMapHideWQLCheck:SetPoint("TOPLEFT", WorldMapFrame, "TOPRIGHT", -130, 25)
@@ -6949,6 +6993,12 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 		end
 		local active, activityID, ilvl, honorLevel, name, comment, voiceChat, duration, autoAccept, privateGroup, lfg_questID = C_LFGList.GetActiveEntryInfo()
 		if IsTeoreticalWQ(name) then
+			if activityID then
+				local _, _, categoryID = C_LFGList.GetActivityInfo(activityID)
+				if categoryID ~= 1 then
+					return
+				end
+			end
 			StaticPopup_Hide("LFG_LIST_AUTO_ACCEPT_CONVERT_TO_RAID")
 			
 			if not autoAccept and
@@ -7001,7 +7051,12 @@ QuestCreationBox:SetScript("OnEvent",function (self,event,arg1,arg2)
 		if not VWQL or VWQL.DisableLFG or not arg1 or VWQL.DisableLFG_PopupLeave then
 			return
 		end
-		if (C_LFGList.GetActiveEntryInfo() or LFGListFrame.SearchPanel.SearchBox:GetText()==tostring(arg1)) and QuestUtils_IsQuestWorldQuest(arg1) and CheckQuestPassPopup(arg1) and (not QuestCreationBox:IsVisible() or (QuestCreationBox.type ~= 1 and QuestCreationBox.type ~= 4) or (QuestCreationBox.type == 1 and QuestCreationBox.questID == arg1) or (QuestCreationBox.type == 4 and QuestCreationBox.questID == arg1)) then
+		if (C_LFGList.GetActiveEntryInfo() or LFGListFrame.SearchPanel.SearchBox:GetText()==tostring(arg1)) and 
+			QuestUtils_IsQuestWorldQuest(arg1) and 
+			CheckQuestPassPopup(arg1) and 
+			(not QuestCreationBox:IsVisible() or (QuestCreationBox.type ~= 1 and QuestCreationBox.type ~= 4) or (QuestCreationBox.type == 1 and QuestCreationBox.questID == arg1) or (QuestCreationBox.type == 4 and QuestCreationBox.questID == arg1)) and 
+			(GetNumGroupMembers() or 0) > 1 
+		then
 			local _, activityID = C_LFGList.GetActiveEntryInfo()
 			if activityID then
 				local _, _, categoryID = C_LFGList.GetActivityInfo(activityID)
@@ -7201,7 +7256,7 @@ local function ObjectiveTracker_Update_hook(reason, questID)
 						b:SetFrameLevel(block:GetFrameLevel()+1)
 						b.questID = questID
 						b:Show()
-						if createdID == tostring(questID) then
+						if createdID == tostring(questID) and (GetNumGroupMembers() > 0) then
 							if C_LFGList.GetActiveEntryInfo() or (GetNumGroupMembers() >= 5) then
 								b:Hide()
 							end
@@ -7320,13 +7375,15 @@ do
 	local WorldMapFrame_TextTable = CreateMapTextOverlay(WorldMapFrame,"WorldMap_WorldQuestPinTemplate")
 	
 	local UpdateFrameLevelFunc = function(self) 
-		if self.obj then 
+		if not self.obj:IsVisible() then
+			self:Hide()
+		elseif self.obj then 
 			local lvl = self.obj:GetFrameLevel()
 			if self.frLvl ~= lvl then
 				self:SetFrameLevel(lvl)
 				self.frLvl = lvl
 			end
-		end 
+		end
 	end
 	
 	local function AddText(table,obj,num,text)

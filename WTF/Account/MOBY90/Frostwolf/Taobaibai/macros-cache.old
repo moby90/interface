@@ -1,10 +1,10 @@
-VER 3 010000000000002B " " "135887"
-#showtooltip
-/cast [@mouseover] Circle of Healing
-END
 VER 3 010000000000002A " " "135953"
 #showtooltip
 /cast [@mouseover] Renew
+END
+VER 3 010000000000002B " " "135887"
+#showtooltip
+/cast [@mouseover] Circle of Healing
 END
 VER 3 0100000000000026 "angel" "INV_MISC_QUESTIONMARK"
 #showtooltip

@@ -1,25 +1,5 @@
 
 BigWigs3DB = {
-	["global"] = {
-		["watchedMovies"] = {
-			["1188:1"] = true,
-			["1188:6"] = true,
-			[682] = true,
-			["984:1"] = {
-			},
-			[549] = true,
-			["1188:9"] = true,
-			["1042:1"] = true,
-			[656] = true,
-			["964:1"] = true,
-			[686] = true,
-			["1147:6"] = true,
-			[688] = true,
-			[-909] = true,
-			[-917] = true,
-		},
-	},
-	["discord"] = 15,
 	["profileKeys"] = {
 		["Solarius - Frostwolf"] = "Default",
 		["Laruchan - Frostwolf"] = "Default",
@@ -28,6 +8,26 @@ BigWigs3DB = {
 		["Taobaibai - Frostwolf"] = "Default",
 		["Bizzl - Frostwolf"] = "Bizzl - Frostwolf",
 		["Laru - Frostwolf"] = "Laru",
+	},
+	["global"] = {
+		["watchedMovies"] = {
+			["1188:1"] = true,
+			["1188:6"] = true,
+			[682] = true,
+			[549] = true,
+			["984:1"] = {
+			},
+			[686] = true,
+			["1188:9"] = true,
+			["1042:1"] = true,
+			[656] = true,
+			["964:1"] = true,
+			[-1004] = true,
+			["1147:6"] = true,
+			[688] = true,
+			[-917] = true,
+			[-909] = true,
+		},
 	},
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
@@ -40,22 +40,22 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Soulbound Goliath"] = {
+		},
 		["BigWigs_Plugins_Alt Power"] = {
 			["profiles"] = {
 				["Laru"] = {
 					["posx"] = 201.955365133281,
 					["fontSize"] = 12.0000009536743,
 					["disabled"] = true,
-					["posy"] = 194.844253849979,
-					["fontOutline"] = "",
 					["font"] = "Friz Quadrata TT",
+					["posy"] = 194.844253849979,
 				},
 				["Default"] = {
 					["posx"] = 1351.82225495577,
 					["fontSize"] = 12.0000009536743,
-					["fontOutline"] = "",
-					["font"] = "Friz Quadrata TT",
 					["posy"] = 449.422016090812,
+					["font"] = "Friz Quadrata TT",
 				},
 				["Bizzl - Frostwolf"] = {
 					["posx"] = 265.955865814958,
@@ -66,30 +66,25 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Bosses_Mchimba the Embalmer"] = {
+		["BigWigs_Bosses_Mythrax the Unraveler"] = {
+			["profiles"] = {
+				["Laru"] = {
+					[272146] = 0,
+					[273282] = 0,
+					[272115] = 0,
+					[273538] = 1032951,
+				},
+			},
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
-		["BigWigs_Bosses_Taloc"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Bosses_Dazar, The First King"] = {
-		},
-		["BigWigs_Bosses_The Council of Tribes"] = {
-		},
-		["BigWigs_Bosses_The Golden Serpent"] = {
-		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Bosses_Vectis"] = {
+		["BigWigs_Bosses_Raal the Gluttonous"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Laru"] = {
-					["fontSize"] = 20,
 					["width"] = 150.999938964844,
 					["font"] = "Friz Quadrata TT",
 					["posx"] = 385.422274957764,
@@ -98,10 +93,9 @@ BigWigs3DB = {
 				},
 				["Default"] = {
 					["posx"] = 184.889023574196,
-					["fontSize"] = 20,
+					["posy"] = 241.777848736447,
 					["height"] = 119.999977111816,
 					["font"] = "Friz Quadrata TT",
-					["posy"] = 241.777848736447,
 					["width"] = 139.999801635742,
 				},
 				["Bizzl - Frostwolf"] = {
@@ -111,6 +105,49 @@ BigWigs3DB = {
 					["posy"] = 225.422401291798,
 				},
 			},
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Bosses_Heartsbane Triad"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Bosses_G'huun"] = {
+			["profiles"] = {
+				["Default"] = {
+					[267509] = 0,
+					[263482] = 0,
+					[263321] = 0,
+					[275160] = 1032951,
+					[263307] = 0,
+					[274582] = 0,
+					["stages"] = 0,
+					[270447] = 0,
+					[267427] = 0,
+					[270287] = 0,
+					[267462] = 0,
+					[267412] = 0,
+				},
+				["Laru"] = {
+					[267509] = 0,
+					[267412] = 0,
+					[267427] = 0,
+					[263321] = 0,
+					[263235] = 1032439,
+					[267409] = 967415,
+					[267462] = 0,
+					[270447] = 0,
+					[272506] = 0,
+					["stages"] = 0,
+					[274582] = 0,
+					[270373] = 967415,
+					[270287] = 0,
+					[263307] = 0,
+					[263482] = 0,
+				},
+			},
+		},
+		["BigWigs_Bosses_Waycrest Manor Trash"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 			["profiles"] = {
@@ -127,7 +164,7 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
@@ -151,27 +188,21 @@ BigWigs3DB = {
 					["BigWigsEmphasizeAnchor_height"] = 21.9999923706055,
 					["growup"] = false,
 					["BigWigsAnchor_height"] = 15.9999942779541,
-					["font"] = "MSBT Adventure",
 					["BigWigsAnchor_y"] = 194.133706957773,
 					["emphasizeGrowup"] = false,
 					["texture"] = "Grid2 Flat",
-					["tempSpacingReset"] = true,
 					["BigWigsEmphasizeAnchor_width"] = 243.999740600586,
 					["BigWigsEmphasizeAnchor_x"] = 827.734395043081,
-					["tempMonoUIReset"] = true,
 				},
 				["Default"] = {
 					["BigWigsEmphasizeAnchor_y"] = 537.600013017654,
-					["tempSpacingReset"] = true,
+					["BigWigsEmphasizeAnchor_width"] = 300.000122070313,
+					["BigWigsAnchor_x"] = 1260.08874579005,
 					["BigWigsEmphasizeAnchor_height"] = 21.9999923706055,
-					["tempMonoUIReset"] = true,
 					["BigWigsAnchor_width"] = 271.000091552734,
 					["BigWigsAnchor_y"] = 518.399969149959,
 					["BigWigsEmphasizeAnchor_x"] = 803.555748624276,
 					["BigWigsAnchor_height"] = 15.9999942779541,
-					["font"] = "Friz Quadrata TT",
-					["BigWigsAnchor_x"] = 1260.08874579005,
-					["BigWigsEmphasizeAnchor_width"] = 300.000122070313,
 				},
 				["Bizzl - Frostwolf"] = {
 					["BigWigsEmphasizeAnchor_y"] = 359.82210072676,
@@ -188,12 +219,16 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Uldir Trash"] = {
+		["BigWigs_Plugins_HeroesVoices"] = {
+			["profiles"] = {
+				["Laru"] = {
+					["locale"] = "koKR",
+				},
+			},
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 			["profiles"] = {
 				["Laru"] = {
-					["voice"] = "한국어: Heroes of the Storm",
 					["font"] = "Friz Quadrata TT",
 				},
 				["Default"] = {
@@ -204,29 +239,15 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Zek'voz, Herald of N'zoth"] = {
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
-		["BigWigs_Bosses_Fetid Devourer"] = {
-		},
-		["BigWigs_Bosses_MOTHER"] = {
-		},
 		["BigWigs_Plugins_Respawn"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_BossBlock"] = {
 		},
-		["BigWigs_Plugins_Pull"] = {
-			["profiles"] = {
-				["Laru"] = {
-					["countType"] = "normal",
-				},
-			},
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["Laru"] = {
-					["BWEmphasizeMessageAnchor_x"] = 845.511478806875,
 					["BWEmphasizeCountdownMessageAnchor_x"] = 895.289691817779,
 					["chat"] = true,
 					["BWEmphasizeMessageAnchor_y"] = 574.577835093605,
@@ -234,11 +255,10 @@ BigWigs3DB = {
 					["BWMessageAnchor_x"] = 842.666947487996,
 					["BWEmphasizeCountdownMessageAnchor_y"] = 438.044194634749,
 					["font"] = "MSBT Adventure",
-					["fontSize"] = 20,
+					["BWEmphasizeMessageAnchor_x"] = 845.511478806875,
 				},
 				["Default"] = {
 					["font"] = "Friz Quadrata TT",
-					["fontSize"] = 20,
 				},
 				["Bizzl - Frostwolf"] = {
 					["BWEmphasizeCountdownMessageAnchor_y"] = 463.644499074089,
@@ -250,8 +270,25 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Zul"] = {
+			["profiles"] = {
+				["Default"] = {
+					[273350] = 0,
+				},
+			},
+		},
+		["BigWigs_Plugins_Pull"] = {
+			["profiles"] = {
+				["Laru"] = {
+					["combatLog"] = true,
+					["countType"] = "normal",
+					["voice"] = "한국어: Heroes of the Storm: Genji",
+				},
+			},
+		},
 	},
 	["wipe80"] = true,
+	["discord"] = 15,
 	["profiles"] = {
 		["Laru"] = {
 		},
@@ -401,37 +438,95 @@ BigWigsStatsDB = {
 	[1861] = {
 		[2168] = {
 			["heroic"] = {
-				["kills"] = 1,
+				["kills"] = 2,
 				["wipes"] = 1,
 				["best"] = 296.440000000002,
+			},
+			["normal"] = {
+				["best"] = 230.80700000003,
+				["kills"] = 2,
 			},
 		},
 		[2169] = {
 			["heroic"] = {
-				["kills"] = 1,
-				["wipes"] = 5,
+				["kills"] = 2,
+				["wipes"] = 11,
 				["best"] = 466.945000000007,
 			},
-		},
-		[2166] = {
-			["heroic"] = {
-				["kills"] = 1,
-				["wipes"] = 1,
-				["best"] = 324.289999999979,
+			["normal"] = {
+				["best"] = 248.939000000013,
+				["kills"] = 2,
 			},
 		},
-		[2146] = {
+		[2147] = {
 			["heroic"] = {
 				["kills"] = 1,
-				["wipes"] = 1,
-				["best"] = 173.385000000009,
+				["wipes"] = 27,
+				["best"] = 399.887999999919,
+			},
+			["normal"] = {
+				["kills"] = 2,
+				["wipes"] = 4,
+				["best"] = 332.598999999929,
 			},
 		},
 		[2167] = {
 			["heroic"] = {
-				["kills"] = 1,
-				["wipes"] = 7,
+				["kills"] = 2,
+				["wipes"] = 8,
 				["best"] = 356.494999999995,
+			},
+			["normal"] = {
+				["kills"] = 2,
+				["wipes"] = 1,
+				["best"] = 208.572999999975,
+			},
+		},
+		[2194] = {
+			["heroic"] = {
+				["kills"] = 1,
+				["wipes"] = 5,
+				["best"] = 501.747999999905,
+			},
+			["normal"] = {
+				["kills"] = 2,
+				["wipes"] = 2,
+				["best"] = 302.187000000034,
+			},
+		},
+		[2166] = {
+			["heroic"] = {
+				["kills"] = 2,
+				["wipes"] = 4,
+				["best"] = 324.289999999979,
+			},
+			["normal"] = {
+				["kills"] = 2,
+				["wipes"] = 1,
+				["best"] = 190.099999999977,
+			},
+		},
+		[2195] = {
+			["heroic"] = {
+				["kills"] = 1,
+				["wipes"] = 21,
+				["best"] = 306.638000000035,
+			},
+			["normal"] = {
+				["best"] = 171.608000000007,
+				["kills"] = 2,
+			},
+		},
+		[2146] = {
+			["heroic"] = {
+				["kills"] = 2,
+				["wipes"] = 2,
+				["best"] = 173.385000000009,
+			},
+			["normal"] = {
+				["kills"] = 2,
+				["wipes"] = 1,
+				["best"] = 93.6940000000177,
 			},
 		},
 	},

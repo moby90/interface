@@ -17,2291 +17,2325 @@ RCLootCouncilDB = {
 	["global"] = {
 		["oldVersion"] = "2.8.2",
 		["log"] = {
-			"17:54:23 - Event: (ENCOUNTER_LOOT_RECEIVED) (2104) (159460) (|cffa335ee|Hitem:159460::::::::120:65::16:3:4780:1517:4786:::|h[Overseer's Lost Seal]|h|r) (1) (Pillock) (WARLOCK)", -- [1]
-			"17:54:35 - Event: (ENCOUNTER_LOOT_RECEIVED) (2104) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Tentrisha) (MONK)", -- [2]
-			"17:54:36 - Event: (ENCOUNTER_LOOT_RECEIVED) (2104) (159343) (|cffa335ee|Hitem:159343::::::::120:65::16:3:4780:1517:4786:::|h[Spark Dampening Footpads]|h|r) (1) (Tentrisha) (MONK)", -- [3]
-			"17:54:37 - Event: (LOOT_OPENED) (true)", -- [4]
-			"17:54:37 - GetUnitName: (Tentrisha)", -- [5]
-			"17:54:37 - UnitGUID: (Player-3703-04CEB935)", -- [6]
-			"17:54:37 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [7]
-			"17:54:37 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:159615::::::::120:65::16:3:4780:1517:4786:::|h[Ignition Mage's Fuse]|h|r) (nil)", -- [8]
-			"17:54:37 - Adding to self.lootSlotInfo (3) (|cff0070dd|Hcurrency:1553:200|h[Glowing Azerite Crystal]|h|r) (1553)", -- [9]
-			"17:54:37 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [10]
-			"17:54:37 - Event: (ENCOUNTER_LOOT_RECEIVED) (2104) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Laru) (PALADIN)", -- [11]
-			"17:54:37 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:159615::::::::120:65::16:3:4780:1517:4786:::|h[Ignition Mage's Fuse]|h|r) (nil)", -- [12]
-			"17:54:37 - Event: (ENCOUNTER_LOOT_RECEIVED) (2104) (159615) (|cffa335ee|Hitem:159615::::::::120:65::16:3:4780:1517:4786:::|h[Ignition Mage's Fuse]|h|r) (1) (Laru) (PALADIN)", -- [13]
-			"17:54:37 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1553:200|h[Glowing Azerite Crystal]|h|r) (1553)", -- [14]
-			"17:54:37 - Event: (LOOT_CLOSED)", -- [15]
-			"17:54:39 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [16]
-			"17:54:40 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:159615::::::::120:65::16:3:4780:1517:4786:::|h[Ignition~`Mage's~`Fuse]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [17]
-			"17:55:23 - TradeUI: Traded item(s) to (Pillock-Frostwolf)", -- [18]
-			"17:55:23 - Storage:RemoveItem (|cffa335ee|Hitem:159615::::::::120:65::16:3:4780:1517:4786:::|h[Ignition Mage's Fuse]|h|r)", -- [19]
-			"17:55:23 - Error - Couldn't remove item", -- [20]
-			"17:56:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [21]
-			"17:56:21 - GetML()", -- [22]
-			"17:58:52 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Omegalul) (distri:) (GUILD)", -- [23]
-			"17:59:49 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [24]
-			"17:59:49 - GetML()", -- [25]
-			"18:00:00 - Event: (RAID_INSTANCE_WELCOME) (The Underrot (Mythic)) (572399) (0) (0)", -- [26]
-			"18:00:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [27]
-			"18:00:01 - GetML()", -- [28]
-			"18:04:45 - Event: (ENCOUNTER_START) (2111) (Elder Leaxa) (8) (5)", -- [29]
-			"18:04:45 - UpdatePlayersData()", -- [30]
-			"18:05:11 - Event: (ENCOUNTER_END) (2111) (Elder Leaxa) (8) (5) (1)", -- [31]
-			"18:09:41 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belya) (distri:) (GUILD)", -- [32]
-			"18:10:39 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [33]
-			"18:10:45 - Event: (ENCOUNTER_START) (2118) (Cragmaw the Infested) (8) (5)", -- [34]
-			"18:10:45 - UpdatePlayersData()", -- [35]
-			"18:11:46 - Event: (ENCOUNTER_END) (2118) (Cragmaw the Infested) (8) (5) (1)", -- [36]
-			"18:14:18 - Event: (ENCOUNTER_START) (2112) (Sporecaller Zancha) (8) (5)", -- [37]
-			"18:14:18 - UpdatePlayersData()", -- [38]
-			"18:15:30 - Event: (ENCOUNTER_END) (2112) (Sporecaller Zancha) (8) (5) (1)", -- [39]
-			"18:15:42 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydekay) (distri:) (GUILD)", -- [40]
-			"18:19:10 - Event: (ENCOUNTER_START) (2123) (Unbound Abomination) (8) (5)", -- [41]
-			"18:19:10 - UpdatePlayersData()", -- [42]
-			"18:19:44 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendmonk) (distri:) (GUILD)", -- [43]
-			"18:20:27 - Event: (ENCOUNTER_END) (2123) (Unbound Abomination) (8) (5) (1)", -- [44]
-			"18:20:32 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Fooneses) (MAGE)", -- [45]
-			"18:20:32 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (159275) (|cffa335ee|Hitem:159275::::::::120:65::16:4:5005:4802:1527:4786:::|h[Wristwraps of Twined Morels]|h|r) (1) (Fooneses) (MAGE)", -- [46]
-			"18:20:33 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Tentrisha) (MONK)", -- [47]
-			"18:20:33 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (159292) (|cffa335ee|Hitem:159292::::::::120:65::16:3:5005:1527:4786:::|h[Sporecaller's Shroud]|h|r) (1) (Tentrisha) (MONK)", -- [48]
-			"18:20:34 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Pillock) (WARLOCK)", -- [49]
-			"18:20:34 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:64::::::|h[Hydrocore]|h|r^t^^ (from:) (Fooneses) (distri:) (PARTY)", -- [50]
-			"18:20:34 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159275::::::::120:64::16:4:5005:4802:1527:4786:::|h[Wristwraps~`of~`Twined~`Morels]|h|r^t^^ (from:) (Fooneses) (distri:) (PARTY)", -- [51]
-			"18:20:34 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Talar) (DEMONHUNTER)", -- [52]
-			"18:20:35 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (159653) (|cffa335ee|Hitem:159653::::::::120:65::16:3:5005:1527:4786:::|h[Bile-Stained Crawg Tusks]|h|r) (1) (Talar) (DEMONHUNTER)", -- [53]
-			"18:20:37 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:577::::::|h[Hydrocore]|h|r^t^^ (from:) (Talar) (distri:) (PARTY)", -- [54]
-			"18:20:37 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159653::::::::120:577::16:3:5005:1527:4786:::|h[Bile-Stained~`Crawg~`Tusks]|h|r^t^^ (from:) (Talar) (distri:) (PARTY)", -- [55]
-			"18:20:40 - Event: (LOOT_OPENED) (true)", -- [56]
-			"18:20:40 - GetUnitName: (nil)", -- [57]
-			"18:20:40 - UnitGUID: (nil)", -- [58]
-			"18:20:40 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [59]
-			"18:20:40 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [60]
-			"18:20:40 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [61]
-			"18:20:40 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Laru) (PALADIN)", -- [62]
-			"18:20:40 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [63]
-			"18:20:40 - Event: (LOOT_CLOSED)", -- [64]
-			"18:20:42 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [65]
-			"18:22:19 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendmonk) (distri:) (GUILD)", -- [66]
-			"18:22:33 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [67]
-			"18:22:33 - GetML()", -- [68]
-			"18:25:11 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belyâ) (distri:) (GUILD)", -- [69]
-			"18:26:11 - Event: (PARTY_LEADER_CHANGED)", -- [70]
-			"18:26:11 - GetML()", -- [71]
-			"18:26:11 - Resetting council as we have a new ML!", -- [72]
-			"18:26:11 - MasterLooter =  (Pillock-Frostwolf)", -- [73]
-			"18:26:25 - Timer MLdb_check passed", -- [74]
-			"18:27:49 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendmonk) (distri:) (GUILD)", -- [75]
-			"18:28:28 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendmonk) (distri:) (GUILD)", -- [76]
-			"18:29:51 - Event: (RAID_INSTANCE_WELCOME) (Temple of Sethraliss (Mythic)) (570608) (0) (0)", -- [77]
-			"18:29:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [78]
-			"18:29:52 - GetML()", -- [79]
-			"18:30:58 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendmonk) (distri:) (GUILD)", -- [80]
-			"18:33:16 - Event: (ENCOUNTER_START) (2124) (Adderis and Aspix) (8) (5)", -- [81]
-			"18:33:16 - UpdatePlayersData()", -- [82]
-			"18:34:18 - Event: (ENCOUNTER_END) (2124) (Adderis and Aspix) (8) (5) (1)", -- [83]
-			"18:35:41 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [84]
-			"18:43:11 - Event: (ENCOUNTER_START) (2125) (Merektha) (8) (5)", -- [85]
-			"18:43:11 - UpdatePlayersData()", -- [86]
-			"18:44:57 - Event: (ENCOUNTER_END) (2125) (Merektha) (8) (5) (1)", -- [87]
-			"18:45:57 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gnomspalter) (distri:) (GUILD)", -- [88]
-			"18:47:05 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [89]
-			"18:47:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Dewi) (distri:) (GUILD)", -- [90]
-			"18:48:37 - Event: (ENCOUNTER_START) (2126) (Galvazzt) (8) (5)", -- [91]
-			"18:48:37 - UpdatePlayersData()", -- [92]
-			"18:49:26 - Event: (ENCOUNTER_END) (2126) (Galvazzt) (8) (5) (1)", -- [93]
-			"18:52:57 - Comm received:^1^SverTest^T^N1^S2.8.0^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [94]
-			"18:54:51 - Event: (ENCOUNTER_START) (2127) (Avatar of Sethraliss) (8) (5)", -- [95]
-			"18:54:51 - UpdatePlayersData()", -- [96]
-			"18:54:59 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [97]
-			"18:55:05 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [98]
-			"18:58:26 - Event: (ENCOUNTER_END) (2127) (Avatar of Sethraliss) (8) (5) (1)", -- [99]
-			"18:58:36 - Event: (LOOT_OPENED) (true)", -- [100]
-			"18:58:36 - GetUnitName: (nil)", -- [101]
-			"18:58:36 - UnitGUID: (nil)", -- [102]
-			"18:58:36 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [103]
-			"18:58:36 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [104]
-			"18:58:36 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:158369::::::::120:65::16:3:5005:1527:4786:::|h[Galvanized Stormcrusher]|h|r) (nil)", -- [105]
-			"18:58:37 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [106]
-			"18:58:37 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Laru) (PALADIN)", -- [107]
-			"18:58:37 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [108]
-			"18:58:37 - OnLootSlotCleared() (3) (|cffa335ee|Hitem:158369::::::::120:65::16:3:5005:1527:4786:::|h[Galvanized Stormcrusher]|h|r) (nil)", -- [109]
-			"18:58:37 - Event: (LOOT_CLOSED)", -- [110]
-			"18:58:37 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (158369) (|cffa335ee|Hitem:158369::::::::120:65::16:3:5005:1527:4786:::|h[Galvanized Stormcrusher]|h|r) (1) (Laru) (PALADIN)", -- [111]
-			"18:58:38 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Pillock) (WARLOCK)", -- [112]
-			"18:58:38 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (159259) (|cffa335ee|Hitem:159259::::::::120:65::16:3:5005:1527:4786:::|h[Sandswept Sandals]|h|r) (1) (Pillock) (WARLOCK)", -- [113]
-			"18:58:39 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Tentrisha) (MONK)", -- [114]
-			"18:58:39 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [115]
-			"18:58:39 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Fooneses) (MAGE)", -- [116]
-			"18:58:39 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (158366) (|cffa335ee|Hitem:158366::::::::120:65::16:3:5005:1527:4786:::|h[Charged Sandstone Band]|h|r) (1) (Fooneses) (MAGE)", -- [117]
-			"18:58:39 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:158369::::::::120:65::16:3:5005:1527:4786:::|h[Galvanized~`Stormcrusher]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [118]
-			"18:58:41 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:64::::::|h[Hydrocore]|h|r^t^^ (from:) (Fooneses) (distri:) (PARTY)", -- [119]
-			"18:58:41 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:158366::::::::120:64::16:3:5005:1527:4786:::|h[Charged~`Sandstone~`Band]|h|r^t^^ (from:) (Fooneses) (distri:) (PARTY)", -- [120]
-			"18:58:51 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Talar) (DEMONHUNTER)", -- [121]
-			"18:58:54 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:577::::::|h[Hydrocore]|h|r^t^^ (from:) (Talar) (distri:) (PARTY)", -- [122]
-			"18:58:58 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [123]
-			"18:59:38 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [124]
-			"18:59:38 - GetML()", -- [125]
-			"19:02:04 - Event: (PARTY_LEADER_CHANGED)", -- [126]
-			"19:02:04 - GetML()", -- [127]
-			"19:02:04 - Resetting council as we have a new ML!", -- [128]
-			"19:02:04 - MasterLooter =  (Fooneses-Frostwolf)", -- [129]
-			"19:02:04 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Fooneses) (distri:) (PARTY)", -- [130]
-			"19:02:04 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Fooneses) (distri:) (PARTY)", -- [131]
-			"19:02:04 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Fooneses) (distri:) (PARTY)", -- [132]
-			"19:02:04 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Fooneses) (distri:) (PARTY)", -- [133]
-			"19:02:04 - Comm received:^1^Scouncil^T^N1^T^N1^SFooneses-Frostwolf^t^t^^ (from:) (Fooneses) (distri:) (PARTY)", -- [134]
-			"19:02:04 - false = (IsCouncil) (Laru-Frostwolf)", -- [135]
-			"19:02:09 - Event: (PARTY_LEADER_CHANGED)", -- [136]
-			"19:02:09 - GetML()", -- [137]
-			"19:02:09 - Resetting council as we have a new ML!", -- [138]
-			"19:02:09 - MasterLooter =  (Tentrisha-Frostwolf)", -- [139]
-			"19:02:17 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [140]
-			"19:02:19 - Timer MLdb_check passed", -- [141]
-			"19:02:24 - Timer MLdb_check passed", -- [142]
-			"19:09:01 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Voodoneses) (distri:) (GUILD)", -- [143]
-			"19:09:37 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [144]
-			"19:11:49 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [145]
-			"19:14:29 - Event: (PARTY_LEADER_CHANGED)", -- [146]
-			"19:14:29 - GetML()", -- [147]
-			"19:14:29 - Resetting council as we have a new ML!", -- [148]
-			"19:14:29 - MasterLooter =  (Talar-Frostwolf)", -- [149]
-			"19:14:29 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Talar) (distri:) (PARTY)", -- [150]
-			"19:14:29 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [151]
-			"19:14:29 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [152]
-			"19:14:29 - Comm received:^1^Scandidates^T^N1^T^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [153]
-			"19:14:29 - Comm received:^1^Scouncil^T^N1^T^N1^STalar-Frostwolf^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [154]
-			"19:14:29 - false = (IsCouncil) (Laru-Frostwolf)", -- [155]
-			"19:14:31 - Comm received:^1^SverTest^T^N1^S2.8.0^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [156]
-			"19:14:39 - Comm received:^1^Scouncil^T^N1^T^N1^STalar-Frostwolf^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [157]
-			"19:14:39 - false = (IsCouncil) (Laru-Frostwolf)", -- [158]
-			"19:14:39 - Comm received:^1^Scandidates^T^N1^T^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [159]
-			"19:14:44 - Timer MLdb_check passed", -- [160]
-			"19:22:21 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydruid) (distri:) (GUILD)", -- [161]
-			"19:23:45 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [162]
-			"19:24:41 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [163]
-			"19:28:55 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Grogoll) (distri:) (GUILD)", -- [164]
-			"19:29:15 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydruid) (distri:) (GUILD)", -- [165]
-			"19:29:21 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Bolya) (distri:) (GUILD)", -- [166]
-			"19:30:27 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gnomspalter) (distri:) (GUILD)", -- [167]
-			"19:30:39 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Bêlya) (distri:) (GUILD)", -- [168]
-			"19:31:31 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belyaa) (distri:) (GUILD)", -- [169]
-			"19:32:15 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Talar) (distri:) (RAID)", -- [170]
-			"19:32:15 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Talar) (distri:) (RAID)", -- [171]
-			"19:32:20 - Comm received:^1^Scouncil^T^N1^T^N1^STalar-Frostwolf^t^t^^ (from:) (Talar) (distri:) (RAID)", -- [172]
-			"19:32:20 - false = (IsCouncil) (Laru-Frostwolf)", -- [173]
-			"19:32:24 - Event: (PARTY_LEADER_CHANGED)", -- [174]
-			"19:32:24 - GetML()", -- [175]
-			"19:32:24 - Resetting council as we have a new ML!", -- [176]
-			"19:32:24 - MasterLooter =  (Fallen-Frostwolf)", -- [177]
-			"19:32:24 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Fallen) (distri:) (RAID)", -- [178]
-			"19:32:24 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Talar) (distri:) (RAID)", -- [179]
-			"19:32:24 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [180]
-			"19:32:27 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [181]
-			"19:32:28 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [182]
-			"19:32:28 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [183]
-			"19:32:28 - false = (IsCouncil) (Laru-Frostwolf)", -- [184]
-			"19:32:29 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [185]
-			"19:32:29 - false = (IsCouncil) (Laru-Frostwolf)", -- [186]
-			"19:32:31 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Huntyö) (distri:) (GUILD)", -- [187]
-			"19:32:34 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [188]
-			"19:32:34 - false = (IsCouncil) (Laru-Frostwolf)", -- [189]
-			"19:32:34 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [190]
-			"19:32:39 - Timer MLdb_check passed", -- [191]
-			"19:33:37 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belyö) (distri:) (GUILD)", -- [192]
-			"19:34:48 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Elunià) (distri:) (GUILD)", -- [193]
-			"19:34:56 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belyâ) (distri:) (GUILD)", -- [194]
-			"19:34:56 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Dewi) (distri:) (GUILD)", -- [195]
-			"19:35:51 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Voodoneses) (distri:) (GUILD)", -- [196]
-			"19:35:57 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sidayira) (distri:) (GUILD)", -- [197]
-			"19:37:05 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [198]
-			"19:37:58 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [199]
-			"19:37:58 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [200]
-			"19:38:04 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [201]
-			"19:38:04 - false = (IsCouncil) (Laru-Frostwolf)", -- [202]
-			"19:38:18 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [203]
-			"19:38:18 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [204]
-			"19:38:24 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [205]
-			"19:38:24 - false = (IsCouncil) (Laru-Frostwolf)", -- [206]
-			"19:38:27 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [207]
-			"19:38:39 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [208]
-			"19:38:39 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [209]
-			"19:38:54 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [210]
-			"19:38:54 - false = (IsCouncil) (Laru-Frostwolf)", -- [211]
-			"19:39:57 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [212]
-			"19:40:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [213]
-			"19:40:49 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [214]
-			"19:40:49 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [215]
-			"19:40:49 - false = (IsCouncil) (Laru-Frostwolf)", -- [216]
-			"19:41:29 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [217]
-			"19:41:29 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [218]
-			"19:41:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydekay) (distri:) (GUILD)", -- [219]
-			"19:41:55 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [220]
-			"19:41:55 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [221]
-			"19:41:59 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [222]
-			"19:41:59 - false = (IsCouncil) (Laru-Frostwolf)", -- [223]
-			"19:42:16 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [224]
-			"19:42:16 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [225]
-			"19:42:31 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [226]
-			"19:42:31 - false = (IsCouncil) (Laru-Frostwolf)", -- [227]
-			"19:42:37 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [228]
-			"19:42:56 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [229]
-			"19:42:56 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [230]
-			"19:43:06 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [231]
-			"19:43:06 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [232]
-			"19:43:07 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [233]
-			"19:43:07 - false = (IsCouncil) (Laru-Frostwolf)", -- [234]
-			"19:44:26 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [235]
-			"19:44:26 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [236]
-			"19:44:38 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [237]
-			"19:44:38 - false = (IsCouncil) (Laru-Frostwolf)", -- [238]
-			"19:45:13 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [239]
-			"19:45:13 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [240]
-			"19:45:13 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [241]
-			"19:45:13 - false = (IsCouncil) (Laru-Frostwolf)", -- [242]
-			"19:46:21 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [243]
-			"19:46:21 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.25^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [244]
-			"19:46:26 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [245]
-			"19:46:26 - false = (IsCouncil) (Laru-Frostwolf)", -- [246]
-			"19:47:02 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [247]
-			"19:47:02 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^Sclass^SSHAMAN^Srank^S^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [248]
-			"19:47:02 - Comm received:^1^Scouncil^T^N1^T^N1^SFallen-Frostwolf^N2^SMorthan-Frostwolf^N3^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [249]
-			"19:47:02 - false = (IsCouncil) (Laru-Frostwolf)", -- [250]
-			"19:48:27 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [251]
-			"19:48:27 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N328.9375^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [252]
-			"19:48:27 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [253]
-			"19:48:27 - false = (IsCouncil) (Laru-Frostwolf)", -- [254]
-			"19:49:06 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [255]
-			"19:49:06 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.25^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N328.9375^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [256]
-			"19:49:12 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [257]
-			"19:49:12 - false = (IsCouncil) (Laru-Frostwolf)", -- [258]
-			"19:49:13 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [259]
-			"19:49:15 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [260]
-			"19:49:16 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [261]
-			"19:49:16 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.25^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N328.9375^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N348.4375^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [262]
-			"19:49:26 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [263]
-			"19:49:26 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Sclass^SSHAMAN^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.25^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N132^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N343.625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N328.9375^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N348.4375^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [264]
-			"19:49:30 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [265]
-			"19:49:30 - false = (IsCouncil) (Laru-Frostwolf)", -- [266]
-			"19:50:11 - Comm received:^1^SverTest^T^N1^S2.8.0^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [267]
-			"19:50:11 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Fallen) (distri:) (RAID)", -- [268]
-			"19:50:11 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [269]
-			"19:50:11 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [270]
-			"19:50:11 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Sclass^SSHAMAN^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^Sclass^SSHAMAN^Srank^S^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [271]
-			"19:50:11 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [272]
-			"19:50:11 - false = (IsCouncil) (Laru-Frostwolf)", -- [273]
-			"19:50:11 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [274]
-			"19:50:11 - false = (IsCouncil) (Laru-Frostwolf)", -- [275]
-			"19:50:11 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [276]
-			"19:50:11 - false = (IsCouncil) (Laru-Frostwolf)", -- [277]
-			"19:50:15 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaìya-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.5625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [278]
-			"19:50:22 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [279]
-			"19:50:27 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydruid) (distri:) (GUILD)", -- [280]
-			"19:50:33 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laìya) (distri:) (GUILD)", -- [281]
-			"19:50:39 - Comm received:^1^SverTest^T^N1^S2.8.0^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [282]
-			"19:50:39 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Fallen) (distri:) (RAID)", -- [283]
-			"19:50:39 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [284]
-			"19:50:39 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [285]
-			"19:50:39 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Sclass^SSHAMAN^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^Sclass^SSHAMAN^Srank^S^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [286]
-			"19:50:39 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [287]
-			"19:50:39 - false = (IsCouncil) (Laru-Frostwolf)", -- [288]
-			"19:50:39 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [289]
-			"19:50:39 - false = (IsCouncil) (Laru-Frostwolf)", -- [290]
-			"19:50:40 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [291]
-			"19:50:40 - false = (IsCouncil) (Laru-Frostwolf)", -- [292]
-			"19:50:44 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaìya-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.5625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N348.4375^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [293]
-			"19:50:56 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [294]
-			"19:50:56 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [295]
-			"19:50:56 - false = (IsCouncil) (Laru-Frostwolf)", -- [296]
-			"19:51:14 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [297]
-			"19:51:31 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belyâ) (distri:) (GUILD)", -- [298]
-			"19:51:51 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laìya) (distri:) (GUILD)", -- [299]
-			"19:51:51 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [300]
-			"19:51:51 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [301]
-			"19:51:51 - false = (IsCouncil) (Laru-Frostwolf)", -- [302]
-			"19:52:10 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [303]
-			"19:52:10 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [304]
-			"19:52:10 - false = (IsCouncil) (Laru-Frostwolf)", -- [305]
-			"19:52:19 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [306]
-			"19:52:19 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.5625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N348.4375^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [307]
-			"19:53:43 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Nethiren) (distri:) (GUILD)", -- [308]
-			"19:53:43 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [309]
-			"19:53:43 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [310]
-			"19:53:43 - false = (IsCouncil) (Laru-Frostwolf)", -- [311]
-			"19:54:07 - Event: (RAID_INSTANCE_WELCOME) (Uldir (Heroic)) (565552) (0) (0)", -- [312]
-			"19:54:08 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [313]
-			"19:54:08 - GetML()", -- [314]
-			"19:56:16 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [315]
-			"19:57:06 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Dewi) (distri:) (GUILD)", -- [316]
-			"19:58:12 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [317]
-			"19:58:12 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.5625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.4375^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [318]
-			"19:58:22 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [319]
-			"19:58:22 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.5625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N348.4375^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [320]
-			"09/05/18", -- [321]
-			"19:58:53 - Logged In", -- [322]
-			"19:58:53 - ML initialized!", -- [323]
-			"19:58:53 - TradeUI enabled", -- [324]
-			"19:58:54 - Laru-Frostwolf (2.8.3) (nil)", -- [325]
-			"19:58:54 - ActivateSkin (new_blue)", -- [326]
-			"19:58:55 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [327]
-			"19:58:55 - GetML()", -- [328]
-			"19:58:55 - Resetting council as we have a new ML!", -- [329]
-			"19:58:55 - MasterLooter =  (Fallen-Frostwolf)", -- [330]
-			"19:58:55 - Player relog...", -- [331]
-			"19:58:55 - UpdatePlayersData()", -- [332]
-			"19:58:55 - GetPlayersGuildRank()", -- [333]
-			"19:58:55 - Found Guild Rank: Raid Member", -- [334]
-			"19:58:56 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laru) (distri:) (GUILD)", -- [335]
-			"19:58:56 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (WHISPER)", -- [336]
-			"19:58:56 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (WHISPER)", -- [337]
-			"19:58:56 - false = (IsCouncil) (Laru-Frostwolf)", -- [338]
-			"19:58:58 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.5625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N348.4375^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (WHISPER)", -- [339]
-			"19:59:04 - Timer MLdb_check passed", -- [340]
-			"20:01:06 - Event: (ENCOUNTER_START) (2144) (Taloc) (15) (26)", -- [341]
-			"20:01:06 - UpdatePlayersData()", -- [342]
-			"20:02:33 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [343]
-			"20:04:30 - Event: (ENCOUNTER_END) (2144) (Taloc) (15) (26) (0)", -- [344]
-			"20:05:00 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [345]
-			"20:05:17 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Eowyndra) (distri:) (GUILD)", -- [346]
-			"20:05:17 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [347]
-			"20:05:17 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [348]
-			"20:05:17 - false = (IsCouncil) (Laru-Frostwolf)", -- [349]
-			"20:05:32 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Talar) (distri:) (GUILD)", -- [350]
-			"20:05:43 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Talar) (distri:) (GUILD)", -- [351]
-			"20:06:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Nethiren) (distri:) (GUILD)", -- [352]
-			"20:06:44 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Talar) (distri:) (GUILD)", -- [353]
-			"20:06:46 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Eowyndra) (distri:) (GUILD)", -- [354]
-			"20:06:54 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [355]
-			"20:06:54 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [356]
-			"20:06:54 - false = (IsCouncil) (Laru-Frostwolf)", -- [357]
-			"20:07:42 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [358]
-			"20:07:42 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [359]
-			"20:07:42 - false = (IsCouncil) (Laru-Frostwolf)", -- [360]
-			"20:08:03 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.5625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [361]
-			"20:08:04 - Event: (ENCOUNTER_START) (2144) (Taloc) (15) (26)", -- [362]
-			"20:08:04 - UpdatePlayersData()", -- [363]
-			"20:11:22 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [364]
-			"20:11:22 - Comm received:^1^Scandidates^T^N1^T^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.875^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N348^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.5625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [365]
-			"20:13:01 - Event: (ENCOUNTER_END) (2144) (Taloc) (15) (26) (1)", -- [366]
-			"20:13:03 - Event: (ENCOUNTER_LOOT_RECEIVED) (2144) (160637) (|cffa335ee|Hitem:160637::::::::120:65::5:3:4799:1492:4786:::|h[Crimson Colossus Armguards]|h|r) (1) (Deosz) (WARRIOR)", -- [367]
-			"20:13:04 - Event: (ENCOUNTER_LOOT_RECEIVED) (2144) (160639) (|cffa335ee|Hitem:160639::::::::120:65::5:4:4799:43:1492:4786:::|h[Greaves of Unending Vigil]|h|r) (1) (Vairasza) (PALADIN)", -- [368]
-			"20:13:04 - Event: (LOOT_OPENED) (true)", -- [369]
-			"20:13:04 - GetUnitName: (Taloc)", -- [370]
-			"20:13:04 - UnitGUID: (Creature-0-4240-1861-31266-137119-0000101AC9)", -- [371]
-			"20:13:04 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [372]
-			"20:13:04 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hitem:154822::::::::120:65:::2:4796:1717:::|h[Festerroot Belt of the Harmonious]|h|r) (nil)", -- [373]
-			"20:13:04 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [374]
-			"20:13:05 - OnLootSlotCleared() (1) (nil) (nil)", -- [375]
-			"20:13:05 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:154822::::::::120:65:::2:4796:1717:::|h[Festerroot Belt of the Harmonious]|h|r) (nil)", -- [376]
-			"20:13:05 - OnLootSlotCleared() (3) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [377]
-			"20:13:05 - Event: (LOOT_CLOSED)", -- [378]
-			"20:13:05 - Event: (ENCOUNTER_LOOT_RECEIVED) (2144) (160622) (|cffa335ee|Hitem:160622::::::::120:65::5:3:4799:1492:4786:::|h[Bloodstorm Buckle]|h|r) (1) (Dewi) (DRUID)", -- [379]
-			"20:13:05 - Event: (ENCOUNTER_LOOT_RECEIVED) (2144) (160629) (|cffa335ee|Hitem:160629::::::::120:65::5:3:4799:1492:4786:::|h[Rubywrought Sparkguards]|h|r) (1) (Muhdiv) (SHAMAN)", -- [380]
-			"20:13:06 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160637::::::::120:71::5:3:4799:1492:4786:::|h[Crimson~`Colossus~`Armguards]|h|r^t^^ (from:) (Deosz) (distri:) (RAID)", -- [381]
-			"20:13:06 - Event: (ENCOUNTER_LOOT_RECEIVED) (2144) (160652) (|cffa335ee|Hitem:160652::::::::120:65::5:4:4799:1808:1492:4786:::|h[Construct Overcharger]|h|r) (1) (Uguluugulu) (HUNTER)", -- [382]
-			"20:13:07 - Event: (ENCOUNTER_LOOT_RECEIVED) (2144) (160714) (|cffa335ee|Hitem:160714::::::::120:65::5:3:4799:1492:4786:::|h[Volatile Walkers]|h|r) (1) (Fallen) (MAGE)", -- [383]
-			"20:13:07 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160622::::::::120:102::5:3:4799:1492:4786:::|h[Bloodstorm~`Buckle]|h|r^t^^ (from:) (Dewi) (distri:) (RAID)", -- [384]
-			"20:13:07 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160629::::::::120:264::5:3:4799:1492:4786:::|h[Rubingeschmiedete~`Funkenschützer]|h|r^t^^ (from:) (Muhdiv) (distri:) (RAID)", -- [385]
-			"20:13:08 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160652::::::::120:253::5:4:4799:1808:1492:4786:::|h[Konstruktüberlader]|h|r^t^^ (from:) (Uguluugulu) (distri:) (RAID)", -- [386]
-			"20:13:11 - Event: (ENCOUNTER_LOOT_RECEIVED) (2144) (160618) (|cffa335ee|Hitem:160618::::::::120:65::5:3:4799:1492:4786:::|h[Gloves of Descending Madness]|h|r) (1) (Tentrisha) (MONK)", -- [387]
-			"20:16:54 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Vairasza) (distri:) (GUILD)", -- [388]
-			"20:19:08 - Comm received:^1^SverTest^T^N1^S2.8.0^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [389]
-			"20:19:08 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Fallen) (distri:) (RAID)", -- [390]
-			"20:19:08 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [391]
-			"20:19:08 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [392]
-			"20:19:08 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Sclass^SSHAMAN^Srank^S^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SNethiren-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^Sclass^SSHAMAN^Srank^S^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [393]
-			"20:19:08 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [394]
-			"20:19:08 - false = (IsCouncil) (Laru-Frostwolf)", -- [395]
-			"20:19:08 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [396]
-			"20:19:08 - false = (IsCouncil) (Laru-Frostwolf)", -- [397]
-			"20:19:09 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [398]
-			"20:19:09 - false = (IsCouncil) (Laru-Frostwolf)", -- [399]
-			"20:19:13 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N341.625^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.875^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.9375^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [400]
-			"20:19:16 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [401]
-			"20:19:42 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [402]
-			"20:19:48 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [403]
-			"20:19:51 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [404]
-			"20:20:15 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [405]
-			"20:20:15 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [406]
-			"20:20:15 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [407]
-			"20:20:15 - false = (IsCouncil) (Laru-Frostwolf)", -- [408]
-			"20:20:49 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Dewi) (distri:) (GUILD)", -- [409]
-			"20:21:05 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [410]
-			"20:21:05 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [411]
-			"20:21:05 - false = (IsCouncil) (Laru-Frostwolf)", -- [412]
-			"20:21:57 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [413]
-			"20:21:57 - UpdatePlayersData()", -- [414]
-			"20:22:02 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (0)", -- [415]
-			"20:22:20 - Comm received:^1^SverTest^T^N1^S2.8.0^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [416]
-			"20:22:20 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Fallen) (distri:) (RAID)", -- [417]
-			"20:22:20 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [418]
-			"20:22:20 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [419]
-			"20:22:20 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Sclass^SSHAMAN^Srank^S^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SElunià-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SGardine-Frostwolf^T^Srole^SDAMAGER^Sclass^SSHAMAN^Srank^S^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SNethiren-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [420]
-			"20:22:20 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [421]
-			"20:22:20 - false = (IsCouncil) (Laru-Frostwolf)", -- [422]
-			"20:22:20 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [423]
-			"20:22:20 - false = (IsCouncil) (Laru-Frostwolf)", -- [424]
-			"20:22:20 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [425]
-			"20:22:20 - false = (IsCouncil) (Laru-Frostwolf)", -- [426]
-			"20:22:24 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Sclass^SSHAMAN^Srank^S^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [427]
-			"20:22:44 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [428]
-			"20:23:06 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [429]
-			"20:24:10 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [430]
-			"20:24:10 - UpdatePlayersData()", -- [431]
-			"20:26:29 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (0)", -- [432]
-			"20:28:03 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [433]
-			"20:28:03 - UpdatePlayersData()", -- [434]
-			"20:28:04 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (0)", -- [435]
-			"20:28:57 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [436]
-			"20:28:57 - UpdatePlayersData()", -- [437]
-			"20:29:51 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (0)", -- [438]
-			"20:31:19 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [439]
-			"20:31:19 - UpdatePlayersData()", -- [440]
-			"20:33:39 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (0)", -- [441]
-			"20:34:32 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [442]
-			"20:34:32 - UpdatePlayersData()", -- [443]
-			"20:34:34 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (0)", -- [444]
-			"20:35:32 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [445]
-			"20:35:32 - UpdatePlayersData()", -- [446]
-			"20:38:35 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (0)", -- [447]
-			"20:39:08 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [448]
-			"20:39:08 - UpdatePlayersData()", -- [449]
-			"20:40:02 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (0)", -- [450]
-			"20:43:31 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (26)", -- [451]
-			"20:43:31 - UpdatePlayersData()", -- [452]
-			"20:46:33 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (26) (0)", -- [453]
-			"20:47:04 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Nethiren) (distri:) (GUILD)", -- [454]
-			"20:47:21 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [455]
-			"20:47:21 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [456]
-			"20:47:21 - false = (IsCouncil) (Laru-Frostwolf)", -- [457]
-			"20:48:08 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [458]
-			"20:48:08 - UpdatePlayersData()", -- [459]
-			"20:48:59 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (0)", -- [460]
-			"20:50:34 - Event: (ENCOUNTER_START) (2141) (MOTHER) (15) (27)", -- [461]
-			"20:50:34 - UpdatePlayersData()", -- [462]
-			"20:56:31 - Event: (ENCOUNTER_END) (2141) (MOTHER) (15) (27) (1)", -- [463]
-			"20:56:42 - Event: (ENCOUNTER_LOOT_RECEIVED) (2141) (160645) (|cffa335ee|Hitem:160645::::::::120:65::5:3:4799:1492:4786:::|h[Rot-Scour Ring]|h|r) (1) (Cluze) (HUNTER)", -- [464]
-			"20:56:45 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160645::::::::120:253::5:3:4799:1492:4786:::|h[Rot-Scour~`Ring]|h|r^t^^ (from:) (Cluze) (distri:) (RAID)", -- [465]
-			"20:56:45 - Event: (ENCOUNTER_LOOT_RECEIVED) (2141) (160645) (|cffa335ee|Hitem:160645::::::::120:65::5:4:4799:1808:1492:4786:::|h[Rot-Scour Ring]|h|r) (1) (Fooneses) (MAGE)", -- [466]
-			"20:56:46 - Event: (ENCOUNTER_LOOT_RECEIVED) (2141) (160615) (|cffa335ee|Hitem:160615::::::::120:65::5:3:4799:1492:4786:::|h[Leggings of Lingering Infestation]|h|r) (1) (Pillock) (WARLOCK)", -- [467]
-			"20:56:47 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160645::::::::120:64::5:4:4799:1808:1492:4786:::|h[Rot-Scour~`Ring]|h|r^t^^ (from:) (Fooneses) (distri:) (RAID)", -- [468]
-			"20:56:48 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160615::::::::120:265::5:3:4799:1492:4786:::|h[Leggings~`of~`Lingering~`Infestation]|h|r^t^^ (from:) (Pillock) (distri:) (RAID)", -- [469]
-			"20:56:55 - Event: (ENCOUNTER_LOOT_RECEIVED) (2141) (160645) (|cffa335ee|Hitem:160645::::::::120:65::5:4:4799:1808:1492:4786:::|h[Rot-Scour Ring]|h|r) (1) (Nethiren) (PALADIN)", -- [470]
-			"20:56:56 - Event: (ENCOUNTER_LOOT_RECEIVED) (2141) (160645) (|cffa335ee|Hitem:160645::::::::120:65::5:3:4799:1492:4786:::|h[Rot-Scour Ring]|h|r) (1) (Sidayira) (ROGUE)", -- [471]
-			"20:56:57 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160645::::::::120:65::5:4:4799:1808:1492:4786:::|h[Rot-Scour~`Ring]|h|r^t^^ (from:) (Nethiren) (distri:) (RAID)", -- [472]
-			"20:56:57 - Event: (LOOT_OPENED) (true)", -- [473]
-			"20:56:57 - GetUnitName: (MOTHER)", -- [474]
-			"20:56:57 - UnitGUID: (Creature-0-4240-1861-31266-135452-0000102532)", -- [475]
-			"20:56:57 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [476]
-			"20:56:57 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [477]
-			"20:56:57 - OnLootSlotCleared() (1) (nil) (nil)", -- [478]
-			"20:56:58 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [479]
-			"20:56:58 - Event: (LOOT_CLOSED)", -- [480]
-			"20:56:58 - Event: (ENCOUNTER_LOOT_RECEIVED) (2141) (160625) (|cffa335ee|Hitem:160625::::::::120:65::5:3:4799:1502:4783:::|h[Pathogenic Legwraps]|h|r) (1) (Taydruid) (DRUID)", -- [481]
-			"20:56:58 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160645::::::::120:261::5:3:4799:1492:4786:::|h[Rot-Scour~`Ring]|h|r^t^^ (from:) (Sidayira) (distri:) (RAID)", -- [482]
-			"20:57:00 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160625::::::::120:102::5:3:4799:1502:4783:::|h[Pathogenic~`Legwraps]|h|r^t^^ (from:) (Taydruid) (distri:) (RAID)", -- [483]
-			"20:57:01 - Event: (ENCOUNTER_LOOT_RECEIVED) (2141) (160681) (|cffa335ee|Hitem:160681::::::::120:65::5:4:4799:42:1492:4786:::|h[Glaive of the Keepers]|h|r) (1) (Morthan) (DEMONHUNTER)", -- [484]
-			"20:57:03 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160681::::::::120:581::5:4:4799:42:1492:4786:::|h[Glaive~`of~`the~`Keepers]|h|r^t^^ (from:) (Morthan) (distri:) (RAID)", -- [485]
-			"21:00:46 - Event: (LOOT_OPENED) (true)", -- [486]
-			"21:00:46 - GetUnitName: (Nazmani Reaver)", -- [487]
-			"21:00:46 - UnitGUID: (Creature-0-4240-1861-31266-136495-0001901573)", -- [488]
-			"21:00:46 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [489]
-			"21:00:47 - OnLootSlotCleared() (1) (nil) (nil)", -- [490]
-			"21:00:47 - Event: (LOOT_CLOSED)", -- [491]
-			"21:02:07 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [492]
-			"21:02:07 - UpdatePlayersData()", -- [493]
-			"21:02:19 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [494]
-			"21:02:56 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [495]
-			"21:02:56 - UpdatePlayersData()", -- [496]
-			"21:03:09 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [497]
-			"21:03:09 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [498]
-			"21:03:09 - UpdatePlayersData()", -- [499]
-			"21:03:56 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [500]
-			"21:04:33 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [501]
-			"21:04:33 - UpdatePlayersData()", -- [502]
-			"21:04:33 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [503]
-			"21:04:59 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [504]
-			"21:04:59 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N341.625^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.875^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.9375^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [505]
-			"21:05:09 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [506]
-			"21:05:09 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N341.625^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.875^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.9375^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [507]
-			"21:05:11 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [508]
-			"21:05:11 - UpdatePlayersData()", -- [509]
-			"21:05:11 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [510]
-			"21:05:52 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [511]
-			"21:05:52 - UpdatePlayersData()", -- [512]
-			"21:06:00 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [513]
-			"21:06:43 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [514]
-			"21:06:43 - UpdatePlayersData()", -- [515]
-			"21:06:54 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [516]
-			"21:07:37 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [517]
-			"21:07:37 - UpdatePlayersData()", -- [518]
-			"21:07:45 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [519]
-			"21:12:12 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (26)", -- [520]
-			"21:12:12 - UpdatePlayersData()", -- [521]
-			"21:12:12 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (26) (0)", -- [522]
-			"21:12:44 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Nethiren) (distri:) (GUILD)", -- [523]
-			"21:13:02 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [524]
-			"21:13:02 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [525]
-			"21:13:02 - false = (IsCouncil) (Laru-Frostwolf)", -- [526]
-			"21:13:23 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [527]
-			"21:13:23 - UpdatePlayersData()", -- [528]
-			"21:17:49 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [529]
-			"21:18:13 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [530]
-			"21:18:28 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [531]
-			"21:18:28 - UpdatePlayersData()", -- [532]
-			"21:18:28 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (0)", -- [533]
-			"21:20:59 - Event: (ENCOUNTER_START) (2128) (Fetid Devourer) (15) (27)", -- [534]
-			"21:20:59 - UpdatePlayersData()", -- [535]
-			"21:23:53 - Event: (ENCOUNTER_END) (2128) (Fetid Devourer) (15) (27) (1)", -- [536]
-			"21:23:55 - Event: (ENCOUNTER_LOOT_RECEIVED) (2128) (160628) (|cffa335ee|Hitem:160628::::::::120:65::5:3:4799:1507:4784:::|h[Fused Monstrosity Stompers]|h|r) (1) (Gardine) (SHAMAN)", -- [537]
-			"21:23:55 - Event: (LOOT_OPENED) (true)", -- [538]
-			"21:23:55 - GetUnitName: (Fetid Devourer)", -- [539]
-			"21:23:55 - UnitGUID: (Creature-0-4240-1861-31266-133298-0000102C1F)", -- [540]
-			"21:23:55 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [541]
-			"21:23:55 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [542]
-			"21:23:55 - OnLootSlotCleared() (1) (nil) (nil)", -- [543]
-			"21:23:55 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [544]
-			"21:23:55 - Event: (LOOT_CLOSED)", -- [545]
-			"21:23:55 - Event: (ENCOUNTER_LOOT_RECEIVED) (2128) (160635) (|cffa335ee|Hitem:160635::::::::120:65::5:4:4799:1808:1492:4786:::|h[Waste Disposal Crushers]|h|r) (1) (Vairasza) (PALADIN)", -- [546]
-			"21:23:56 - Event: (ENCOUNTER_LOOT_RECEIVED) (2128) (160635) (|cffa335ee|Hitem:160635::::::::120:65::5:3:4799:1502:4783:::|h[Waste Disposal Crushers]|h|r) (1) (Deosz) (WARRIOR)", -- [547]
-			"21:23:57 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160628::::::::120:263::5:3:4799:1507:4784:::|h[Fused~`Monstrosity~`Stompers]|h|r^t^^ (from:) (Gardine) (distri:) (RAID)", -- [548]
-			"21:23:57 - Event: (ENCOUNTER_LOOT_RECEIVED) (2128) (160616) (|cffa335ee|Hitem:160616::::::::120:65::5:3:4823:1492:4786:::|h[Horrific Amalgam's Hood]|h|r) (1) (Elunià) (PRIEST)", -- [549]
-			"21:23:58 - Event: (ENCOUNTER_LOOT_RECEIVED) (2128) (160689) (|cffa335ee|Hitem:160689::::::::120:65::5:3:4799:1492:4786:::|h[Regurgitated Purifier's Flamestaff]|h|r) (1) (Laìya) (DRUID)", -- [550]
-			"21:23:58 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160635::::::::120:65::5:4:4799:1808:1492:4786:::|h[Waste~`Disposal~`Crushers]|h|r^t^^ (from:) (Vairasza) (distri:) (RAID)", -- [551]
-			"21:23:59 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160635::::::::120:71::5:3:4799:1502:4783:::|h[Waste~`Disposal~`Crushers]|h|r^t^^ (from:) (Deosz) (distri:) (RAID)", -- [552]
-			"21:23:59 - Event: (ENCOUNTER_LOOT_RECEIVED) (2128) (160648) (|cffa335ee|Hitem:160648::::::::120:65::5:3:4799:1497:4783:::|h[Frenetic Corpuscle]|h|r) (1) (Kremo) (HUNTER)", -- [553]
-			"21:23:59 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160616::::::::120:256::5:3:4823:1492:4786:::|h[Kapuze~`des~`entsetzlichen~`Amalgams]|h|r^t^^ (from:) (Elunià) (distri:) (RAID)", -- [554]
-			"21:24:00 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160689::::::::120:105::5:3:4799:1492:4786:::|h[Regurgitated~`Purifier's~`Flamestaff]|h|r^t^^ (from:) (Laìya) (distri:) (RAID)", -- [555]
-			"21:24:01 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160648::::::::120:253::5:3:4799:1497:4783:::|h[Frenetic~`Corpuscle]|h|r^t^^ (from:) (Kremo) (distri:) (RAID)", -- [556]
-			"21:24:07 - Event: (ENCOUNTER_LOOT_RECEIVED) (2128) (160643) (|cffa335ee|Hitem:160643::::::::120:65::5:3:4799:1492:4786:::|h[Fetid Horror's Tanglecloak]|h|r) (1) (Fallen) (MAGE)", -- [557]
-			"21:28:40 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [558]
-			"21:30:33 - Event: (ENCOUNTER_START) (2134) (Vectis) (15) (27)", -- [559]
-			"21:30:33 - UpdatePlayersData()", -- [560]
-			"21:30:49 - Event: (ENCOUNTER_END) (2134) (Vectis) (15) (27) (0)", -- [561]
-			"21:32:19 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [562]
-			"21:36:07 - Event: (ENCOUNTER_START) (2134) (Vectis) (15) (27)", -- [563]
-			"21:36:07 - UpdatePlayersData()", -- [564]
-			"21:42:17 - Event: (ENCOUNTER_END) (2134) (Vectis) (15) (27) (0)", -- [565]
-			"21:44:37 - Event: (ENCOUNTER_START) (2134) (Vectis) (15) (27)", -- [566]
-			"21:44:37 - UpdatePlayersData()", -- [567]
-			"21:50:02 - Event: (ENCOUNTER_END) (2134) (Vectis) (15) (27) (1)", -- [568]
-			"21:50:04 - Event: (LOOT_OPENED) (true)", -- [569]
-			"21:50:04 - GetUnitName: (Vectis)", -- [570]
-			"21:50:04 - UnitGUID: (Creature-0-4240-1861-31266-134442-00001031B5)", -- [571]
-			"21:50:04 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [572]
-			"21:50:04 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [573]
-			"21:50:04 - Event: (ENCOUNTER_LOOT_RECEIVED) (2134) (160623) (|cffa335ee|Hitem:160623::::::::120:65::5:3:4823:1492:4786:::|h[Hood of Pestilent Ichor]|h|r) (1) (Eowyndra) (ROGUE)", -- [574]
-			"21:50:04 - OnLootSlotCleared() (1) (nil) (nil)", -- [575]
-			"21:50:05 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [576]
-			"21:50:05 - Event: (LOOT_CLOSED)", -- [577]
-			"21:50:05 - Event: (ENCOUNTER_LOOT_RECEIVED) (2134) (160734) (|cffa335ee|Hitem:160734::::::::120:65::5:4:4799:41:1492:4786:::|h[Cord of Animated Contagion]|h|r) (1) (Shaydera) (PRIEST)", -- [578]
-			"21:50:05 - Event: (ENCOUNTER_LOOT_RECEIVED) (2134) (160644) (|cffa335ee|Hitem:160644::::::::120:65::5:3:4799:1492:4786:::|h[Plasma-Spattered Greatcloak]|h|r) (1) (Cluze) (HUNTER)", -- [579]
-			"21:50:06 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160623::::::::120:261::5:3:4823:1492:4786:::|h[Hood~`of~`Pestilent~`Ichor]|h|r^t^^ (from:) (Eowyndra) (distri:) (RAID)", -- [580]
-			"21:50:07 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160644::::::::120:253::5:3:4799:1492:4786:::|h[Plasma-Spattered~`Greatcloak]|h|r^t^^ (from:) (Cluze) (distri:) (RAID)", -- [581]
-			"21:50:08 - Event: (ENCOUNTER_LOOT_RECEIVED) (2134) (160621) (|cffa335ee|Hitem:160621::::::::120:65::5:4:4799:1808:1502:4783:::|h[Wristwraps of Coursing Miasma]|h|r) (1) (Sidayira) (ROGUE)", -- [582]
-			"21:50:10 - Event: (ENCOUNTER_LOOT_RECEIVED) (2134) (160734) (|cffa335ee|Hitem:160734::::::::120:65::5:3:4799:1497:4783:::|h[Cord of Animated Contagion]|h|r) (1) (Roanar) (MAGE)", -- [583]
-			"21:50:10 - Event: (ENCOUNTER_LOOT_RECEIVED) (2134) (160716) (|cffa335ee|Hitem:160716::::::::120:65::5:3:4799:1502:4783:::|h[Blighted Anima Greaves]|h|r) (1) (Uguluugulu) (HUNTER)", -- [584]
-			"21:50:11 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160621::::::::120:261::5:4:4799:1808:1502:4783:::|h[Wristwraps~`of~`Coursing~`Miasma]|h|r^t^^ (from:) (Sidayira) (distri:) (RAID)", -- [585]
-			"21:50:12 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160734::::::::120:62::5:3:4799:1497:4783:::|h[Cord~`of~`Animated~`Contagion]|h|r^t^^ (from:) (Roanar) (distri:) (RAID)", -- [586]
-			"21:50:12 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160716::::::::120:253::5:3:4799:1502:4783:::|h[Verseuchte~`Animabeinschützer]|h|r^t^^ (from:) (Uguluugulu) (distri:) (RAID)", -- [587]
-			"21:50:17 - Event: (ENCOUNTER_LOOT_RECEIVED) (2134) (160644) (|cffa335ee|Hitem:160644::::::::120:65::5:3:4799:1492:4786:::|h[Plasma-Spattered Greatcloak]|h|r) (1) (Érox) (DRUID)", -- [588]
-			"21:52:26 - Event: (ENCOUNTER_LOOT_RECEIVED) (0) (161077) (|cffa335ee|Hitem:161077::::::::120:65::5:3:4799:1492:4786:::|h[Fluid-Resistant Specimen Handlers]|h|r) (1) (Vairasza) (PALADIN)", -- [589]
-			"21:52:29 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:161077::::::::120:65::5:3:4799:1492:4786:::|h[Fluid-Resistant~`Specimen~`Handlers]|h|r^t^^ (from:) (Vairasza) (distri:) (RAID)", -- [590]
-			"21:52:33 - Comm received:^1^SlootTable^T^N1^T^N1^T^SequipLoc^SINVTYPE_HAND^Stexture^N2054628^Sawarded^b^Slink^S|cffa335ee|Hitem:161077::::::::120:64::5:3:4799:1492:4786:::|h[Fluid-Resistant~`Specimen~`Handlers]|h|r^Silvl^N370^Sowner^SVairasza-Frostwolf^SsubType^SPlate^Srelic^b^SisSent^b^Sname^SFluid-Resistant~`Specimen~`Handlers^Sclasses^N4294967295^Sboe^B^Squality^N4^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [591]
-			"21:52:33 - GetPlayersGear (|cffa335ee|Hitem:161077::::::::120:64::5:3:4799:1492:4786:::|h[Fluid-Resistant Specimen Handlers]|h|r) (INVTYPE_HAND)", -- [592]
-			"21:52:33 - LootFrame (GetFrame())", -- [593]
-			"21:52:33 - LootFrame:Start (1) (nil)", -- [594]
-			"21:52:33 - NumRolled: (0) (#items:) (1)", -- [595]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SFooneses-Frostwolf^N2^N64^N3^N350.625^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:154693:5932:::::::120:64::13:1:1704^t^Sgear2^T^t^t^t^^ (from:) (Fooneses) (distri:) (RAID)", -- [596]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SGardine-Frostwolf^N2^N263^N3^N347.8125^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N25^t^Sgear1^T^N1^Sitem:157952:5932:::::::120:263::27:3:4803:1537:4784^t^Sgear2^T^t^t^t^^ (from:) (Gardine) (distri:) (RAID)", -- [597]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SCluze-Frostwolf^N2^N253^N3^N351.25^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N25^t^Sgear1^T^N1^Sitem:159390::::::::120:253::16:3:4780:1517:4786^t^Sgear2^T^t^t^t^^ (from:) (Cluze) (distri:) (RAID)", -- [598]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SNethiren-Frostwolf^N2^N65^N3^N347.0625^N4^T^Sresponse^T^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:159457:5932:::::::120:65::23:3:4779:1527:4784^t^Sgear2^T^t^t^t^^ (from:) (Nethiren) (distri:) (RAID)", -- [599]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SKremo-Frostwolf^N2^N253^N3^N347.5^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N25^t^Sgear1^T^N1^Sitem:155892:5932:::::::120:253::23:3:4779:1517:4783^t^Sgear2^T^t^t^t^^ (from:) (Kremo) (distri:) (RAID)", -- [600]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SSidayira-Frostwolf^N2^N261^N3^N346.75^N4^T^Sresponse^T^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:155889::154126::::::120:261::23:4:4779:4802:1527:4784^t^Sgear2^T^t^t^t^^ (from:) (Sidayira) (distri:) (RAID)", -- [601]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SDewi-Frostwolf^N2^N102^N3^N346.875^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N25^t^Sgear1^T^N1^Sitem:159337::154127::::::120:102::23:4:4779:4802:1517:4783^t^Sgear2^T^t^t^t^^ (from:) (Dewi) (distri:) (RAID)", -- [602]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^STaydruid-Frostwolf^N2^N102^N3^N349.5625^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:159321::::::::120:102::16:3:5005:1527:4786^t^Sgear2^T^t^t^t^^ (from:) (Taydruid) (distri:) (RAID)", -- [603]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SBelyâ-Frostwolf^N2^N269^N3^N347.1875^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N20^t^Sgear1^T^N1^Sitem:158040:5932:::::::120:269::27:3:4803:1542:4784^t^Sgear2^T^t^t^t^^ (from:) (Belyâ) (distri:) (RAID)", -- [604]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SDeosz-Frostwolf^N2^N71^N3^N345.4375^N4^T^Sresponse^T^t^Sdiff^T^N1^N-10^t^Sgear1^T^N1^Sitem:160635::::::::120:71::5:3:4799:1502:4783^t^Sgear2^T^t^t^t^^ (from:) (Deosz) (distri:) (RAID)", -- [605]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SRoanar-Frostwolf^N2^N62^N3^N345^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:159237:5937:154126::::::120:62::23:4:4779:4802:1512:4786^t^Sgear2^T^t^t^t^^ (from:) (Roanar) (distri:) (RAID)", -- [606]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SPillock-Frostwolf^N2^N267^N3^N349.75^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:159253::::::::120:267::23:3:4779:1512:4786^t^Sgear2^T^t^t^t^^ (from:) (Pillock) (distri:) (RAID)", -- [607]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SSendhex-Frostwolf^N2^N265^N3^N346.3125^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:159237::::::::120:265::16:3:5005:1527:4786^t^Sgear2^T^t^t^t^^ (from:) (Sendhex) (distri:) (RAID)", -- [608]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SVairasza-Frostwolf^N2^N65^N3^N346^N4^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^Sitem:160635::154126::::::120:65::5:4:4799:1808:1492:4786^t^Sgear2^T^t^t^t^^ (from:) (Vairasza) (distri:) (RAID)", -- [609]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SUguluugulu-Frostwolf^N2^N253^N3^N348^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:158317::::::::120:253::23:4:4779:42:1512:4786^t^Sgear2^T^t^t^t^^ (from:) (Uguluugulu) (distri:) (RAID)", -- [610]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SLaìya-Frostwolf^N2^N105^N3^N350.1875^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N25^t^Sgear1^T^N1^Sitem:155889:5932:::::::120:105::23:3:4779:1517:4783^t^Sgear2^T^t^t^t^^ (from:) (Laìya) (distri:) (RAID)", -- [611]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^STalar-Frostwolf^N2^N577^N3^N346.625^N4^T^Sresponse^T^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:161353:5934:::::::120:577::3:3:4798:1477:4786^t^Sgear2^T^t^t^t^^ (from:) (Talar) (distri:) (RAID)", -- [612]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SMuhdiv-Frostwolf^N2^N264^N3^N349.875^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:159357:5937:::::::120:264::16:3:5005:1527:4786^t^Sgear2^T^t^t^t^^ (from:) (Muhdiv) (distri:) (RAID)", -- [613]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SEowyndra-Frostwolf^N2^N261^N3^N347.9375^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:159312::154127::::::120:261::23:4:4779:4802:1527:4784^t^Sgear2^T^t^t^t^^ (from:) (Eowyndra) (distri:) (RAID)", -- [614]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SElunià-Frostwolf^N2^N256^N3^N351.5625^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:159272:5932:::::::120:256::23:3:4779:1527:4784^t^Sgear2^T^t^t^t^^ (from:) (Elunià) (distri:) (RAID)", -- [615]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SLaru-Frostwolf^N2^N65^N3^N344.5625^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:159429::::::::120:65::23:3:4779:1512:4786^t^Sgear2^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [616]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SMorthan-Frostwolf^N2^N581^N3^N349.0625^N4^T^Sresponse^T^N1^B^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:161353::::::::120:581::3:3:4798:1477:4786^t^Sgear2^T^t^t^t^^ (from:) (Morthan) (distri:) (RAID)", -- [617]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SGrogoll-Frostwolf^N2^N71^N3^N346.3125^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:159457::154127::::::120:71::23:4:4779:4802:1512:4786^t^Sgear2^T^t^t^t^^ (from:) (Grogoll) (distri:) (RAID)", -- [618]
-			"21:52:33 - Comm received:^1^SlootAck^T^N1^SFallen-Frostwolf^N2^N64^N3^N350.9375^N4^T^Sresponse^T^t^Sdiff^T^N1^N20^t^Sgear1^T^N1^Sitem:159247:5937:::::::120:64::23:3:4779:1522:4783^t^Sgear2^T^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [619]
-			"21:52:36 - Comm received:^1^Sresponse^T^N1^N1^N2^SPillock-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Pillock) (distri:) (RAID)", -- [620]
-			"21:52:37 - Comm received:^1^Sresponse^T^N1^N1^N2^SFallen-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [621]
-			"21:52:39 - Comm received:^1^Sresponse^T^N1^N1^N2^SSidayira-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Sidayira) (distri:) (RAID)", -- [622]
-			"21:52:39 - Comm received:^1^Sresponse^T^N1^N1^N2^SNethiren-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Nethiren) (distri:) (RAID)", -- [623]
-			"21:52:40 - Comm received:^1^Sresponse^T^N1^N1^N2^SVairasza-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Vairasza) (distri:) (RAID)", -- [624]
-			"21:52:44 - Comm received:^1^Soffline_timer^T^t^^ (from:) (Fallen) (distri:) (RAID)", -- [625]
-			"21:52:45 - Comm received:^1^Sresponse^T^N1^N1^N2^SGrogoll-Frostwolf^N3^T^Snote^SBIS^Sresponse^N1^t^t^^ (from:) (Grogoll) (distri:) (RAID)", -- [626]
-			"21:52:50 - Comm received:^1^Sresponse^T^N1^N1^N2^SDeosz-Frostwolf^N3^T^Sresponse^N2^t^t^^ (from:) (Deosz) (distri:) (RAID)", -- [627]
-			"21:52:58 - LootFrame:Response (1) (Response:) (Upgrade)", -- [628]
-			"21:52:58 - SendResponse (group) (1) (1) (nil) (false) (nil) (nil) (nil) (nil) (nil) (nil) (nil) (nil)", -- [629]
-			"21:52:58 - Trashing entry: (1) (|cffa335ee|Hitem:161077::::::::120:64::5:3:4799:1492:4786:::|h[Fluid-Resistant Specimen Handlers]|h|r)", -- [630]
-			"21:52:58 - NumRolled: (1) (#items:) (1)", -- [631]
-			"21:52:58 - Comm received:^1^Sresponse^T^N1^N1^N2^SLaru-Frostwolf^N3^T^Sresponse^N1^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [632]
-			"21:53:24 - Comm received:^1^Shistory^T^N1^SGrogoll-Frostwolf^N2^T^SmapID^N1861^Sdate^S05/09/18^Sclass^SWARRIOR^SgroupSize^N27^Svotes^N0^Stime^S21:53:18^SitemReplaced1^S|cffa335ee|Hitem:159457::154127::::::120:64::23:4:4779:4802:1512:4786:::|h[Risen~`Lord's~`Oversized~`Gauntlets]|h|r^Sinstance^SUldir-Heroic^Sresponse^SUpgrade^Sid^S1536173598-0^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:161077::::::::120:64::5:3:4799:1492:4786:::|h[Fluid-Resistant~`Specimen~`Handlers]|h|r^Snote^SBIS^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^SresponseID^N1^SisAwardReason^b^Sboss^SVectis^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [633]
-			"21:53:24 - Comm received:^1^Sawarded^T^N1^N1^N2^SGrogoll-Frostwolf^N3^SVairasza-Frostwolf^t^^ (from:) (Fallen) (distri:) (RAID)", -- [634]
-			"21:53:25 - Comm received:^1^Ssession_end^T^t^^ (from:) (Fallen) (distri:) (RAID)", -- [635]
-			"21:53:39 - Comm received:^1^Strade_complete^T^N1^S|cffa335ee|Hitem:161077::::::::120:65::5:3:4799:1492:4786:::|h[Fluid-Resistant~`Specimen~`Handlers]|h|r^N2^SGrogoll-Frostwolf^N3^SVairasza-Frostwolf^t^^ (from:) (Vairasza) (distri:) (RAID)", -- [636]
-			"21:57:53 - Event: (ENCOUNTER_START) (2136) (Zek'voz) (15) (27)", -- [637]
-			"21:57:53 - UpdatePlayersData()", -- [638]
-			"21:58:10 - Event: (ENCOUNTER_END) (2136) (Zek'voz) (15) (27) (0)", -- [639]
-			"22:03:24 - Event: (ENCOUNTER_START) (2136) (Zek'voz) (15) (27)", -- [640]
-			"22:03:24 - UpdatePlayersData()", -- [641]
-			"22:11:02 - Event: (ENCOUNTER_END) (2136) (Zek'voz) (15) (27) (0)", -- [642]
-			"22:11:28 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Elunià) (distri:) (GUILD)", -- [643]
-			"22:11:58 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Elunià) (distri:) (GUILD)", -- [644]
-			"22:12:16 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [645]
-			"22:12:16 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N341.625^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.875^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.9375^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [646]
-			"22:12:26 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [647]
-			"22:12:26 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N341.625^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.875^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.9375^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [648]
-			"22:12:29 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Elunià) (distri:) (GUILD)", -- [649]
-			"22:13:05 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Elunià) (distri:) (GUILD)", -- [650]
-			"22:13:59 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [651]
-			"22:13:59 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N341.625^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.875^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.9375^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [652]
-			"22:15:40 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Elunià) (distri:) (GUILD)", -- [653]
-			"22:15:59 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [654]
-			"22:15:59 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^Sérox-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N341.625^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.875^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.9375^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [655]
-			"22:16:05 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [656]
-			"22:16:05 - false = (IsCouncil) (Laru-Frostwolf)", -- [657]
-			"22:19:36 - Event: (ENCOUNTER_START) (2136) (Zek'voz) (15) (26)", -- [658]
-			"22:19:36 - UpdatePlayersData()", -- [659]
-			"22:20:46 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laìya) (distri:) (GUILD)", -- [660]
-			"22:21:05 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [661]
-			"22:21:08 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [662]
-			"22:21:08 - false = (IsCouncil) (Laru-Frostwolf)", -- [663]
-			"22:21:50 - Event: (ENCOUNTER_END) (2136) (Zek'voz) (15) (26) (0)", -- [664]
-			"22:23:50 - Event: (ENCOUNTER_START) (2136) (Zek'voz) (15) (27)", -- [665]
-			"22:23:50 - UpdatePlayersData()", -- [666]
-			"22:28:36 - Event: (ENCOUNTER_END) (2136) (Zek'voz) (15) (27) (0)", -- [667]
-			"22:31:09 - Event: (ENCOUNTER_START) (2136) (Zek'voz) (15) (27)", -- [668]
-			"22:31:09 - UpdatePlayersData()", -- [669]
-			"22:38:11 - Event: (ENCOUNTER_END) (2136) (Zek'voz) (15) (27) (0)", -- [670]
-			"22:40:48 - Event: (ENCOUNTER_START) (2136) (Zek'voz) (15) (27)", -- [671]
-			"22:40:48 - UpdatePlayersData()", -- [672]
-			"22:42:38 - Event: (ENCOUNTER_END) (2136) (Zek'voz) (15) (27) (0)", -- [673]
-			"22:44:23 - Event: (ENCOUNTER_START) (2136) (Zek'voz) (15) (27)", -- [674]
-			"22:44:23 - UpdatePlayersData()", -- [675]
-			"22:52:10 - Event: (ENCOUNTER_END) (2136) (Zek'voz) (15) (27) (1)", -- [676]
-			"22:52:12 - Event: (ENCOUNTER_LOOT_RECEIVED) (2136) (160624) (|cffa335ee|Hitem:160624::::::::120:65::5:3:4799:1492:4786:::|h[Quarantine Protocol Treads]|h|r) (1) (Tentrisha) (MONK)", -- [677]
-			"22:52:12 - Event: (ENCOUNTER_LOOT_RECEIVED) (2136) (160647) (|cffa335ee|Hitem:160647::::::::120:65::5:3:4799:1492:4786:::|h[Ring of the Infinite Void]|h|r) (1) (Fooneses) (MAGE)", -- [678]
-			"22:52:15 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:160647::::::::120:64::5:3:4799:1492:4786:::|h[Ring~`of~`the~`Infinite~`Void]|h|r^t^^ (from:) (Fooneses) (distri:) (RAID)", -- [679]
-			"22:52:18 - Event: (LOOT_OPENED) (true)", -- [680]
-			"22:52:18 - GetUnitName: (Zek'voz)", -- [681]
-			"22:52:18 - UnitGUID: (Creature-0-4240-1861-31266-134445-0000103FD9)", -- [682]
-			"22:52:18 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [683]
-			"22:52:18 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [684]
-			"22:52:18 - OnLootSlotCleared() (1) (nil) (nil)", -- [685]
-			"22:52:18 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:162461::::::::120:65::::::|h[Sanguicell]|h|r) (nil)", -- [686]
-			"22:52:18 - Event: (LOOT_CLOSED)", -- [687]
-			"22:52:21 - Comm received:^1^SlootTable^T^N1^T^N1^T^SequipLoc^SINVTYPE_FINGER^Stexture^N2000824^Sawarded^b^Slink^S|cffa335ee|Hitem:160647::::::::120:64::5:3:4799:1492:4786:::|h[Ring~`of~`the~`Infinite~`Void]|h|r^Silvl^N370^Sowner^SFooneses-Frostwolf^SsubType^SMiscellaneous^Srelic^b^SisSent^b^Sname^SRing~`of~`the~`Infinite~`Void^Sclasses^N4294967295^Sboe^b^Squality^N4^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [688]
-			"22:52:21 - GetPlayersGear (|cffa335ee|Hitem:160647::::::::120:64::5:3:4799:1492:4786:::|h[Ring of the Infinite Void]|h|r) (INVTYPE_FINGER)", -- [689]
-			"22:52:21 - LootFrame:Start (1) (nil)", -- [690]
-			"22:52:21 - NumRolled: (0) (#items:) (1)", -- [691]
-			"22:52:21 - Restoring entry: (normal) (1)", -- [692]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SSendhex-Frostwolf^N2^N265^N3^N346.3125^N4^T^Sresponse^T^t^Sdiff^T^N1^N40^t^Sgear1^T^N1^Sitem:154857:5940:154129::::::120:265::26:4:4802:4803:1522:4781^t^Sgear2^T^N1^Sitem:159463:5940:154129::::::120:265::23:4:4779:4802:1512:4786^t^t^t^^ (from:) (Sendhex) (distri:) (RAID)", -- [693]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SSidayira-Frostwolf^N2^N261^N3^N348.3125^N4^T^Sresponse^T^t^Sdiff^T^N1^N20^t^Sgear1^T^N1^Sitem:160645:5938:::::::120:261::5:3:4799:1492:4786^t^Sgear2^T^N1^Sitem:158160:5938:::::::120:261::26:3:4803:1542:4784^t^t^t^^ (from:) (Sidayira) (distri:) (RAID)", -- [694]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SLaìya-Frostwolf^N2^N105^N3^N350.1875^N4^T^Sresponse^T^t^Sdiff^T^N1^N25^t^Sgear1^T^N1^Sitem:158152:5939:::::::120:105::27:3:4803:1537:4784^t^Sgear2^T^N1^Sitem:159461:5938:::::::120:105::16:3:5005:1527:4786^t^t^t^^ (from:) (Laìya) (distri:) (RAID)", -- [695]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^STalar-Frostwolf^N2^N577^N3^N346.625^N4^T^Sresponse^T^t^Sdiff^T^N1^N35^t^Sgear1^T^N1^Sitem:158160:5939:154127::::::120:577::26:4:4803:4802:1527:4783^t^Sgear2^T^N1^Sitem:162548:5939:::::::120:577::23:3:4779:1512:4786^t^t^t^^ (from:) (Talar) (distri:) (RAID)", -- [696]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^STaydruid-Frostwolf^N2^N102^N3^N349.6875^N4^T^Sresponse^T^t^Sdiff^T^N1^N25^t^Sgear1^T^N1^Sitem:158314:5939:::::::120:102::23:4:4779:42:1517:4783^t^Sgear2^T^N1^Sitem:159458:5939:::::::120:102::16:3:5005:1527:4786^t^t^t^^ (from:) (Taydruid) (distri:) (RAID)", -- [697]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SGardine-Frostwolf^N2^N262^N3^N350.625^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:162544:5939:154127::::::120:262::16:4:5002:4802:1522:4786^t^Sgear2^T^N1^Sitem:162548:5939:154127::::::120:262::23:4:4779:4802:1512:4786^t^t^t^^ (from:) (Gardine) (distri:) (RAID)", -- [698]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SDewi-Frostwolf^N2^N102^N3^N346.875^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:158314:5939:::::::120:102::23:3:4779:1512:4786^t^Sgear2^T^N1^Sitem:159459:5939:::::::120:102::23:3:4779:1512:4786^t^t^t^^ (from:) (Dewi) (distri:) (RAID)", -- [699]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SDeosz-Frostwolf^N2^N71^N3^N345.125^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:159459:5939:::::::120:71::23:3:4779:1512:4786^t^Sgear2^T^N1^Sitem:159462:5939:::::::120:71::23:3:4779:1512:4786^t^t^t^^ (from:) (Deosz) (distri:) (RAID)", -- [700]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SCluze-Frostwolf^N2^N253^N3^N352.8125^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:160645::::::::120:253::5:3:4799:1492:4786^t^Sgear2^T^N1^Sitem:159462:5939:153708::::::120:253::23:4:4779:4802:1512:4786^t^t^t^^ (from:) (Cluze) (distri:) (RAID)", -- [701]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SKremo-Frostwolf^N2^N253^N3^N347.5^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:158362:5940:::::::120:253::23:3:4779:1512:4786^t^Sgear2^T^N1^Sitem:159462:5940:153708::::::120:253::23:4:4779:4802:1512:4786^t^t^t^^ (from:) (Kremo) (distri:) (RAID)", -- [702]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SBelyâ-Frostwolf^N2^N269^N3^N347.1875^N4^T^Sresponse^T^t^Sdiff^T^N1^N40^t^Sgear1^T^N1^Sitem:162548:5941:::::::120:269::23:3:4779:1512:4786^t^Sgear2^T^N1^Sitem:158160:5941:154128::::::120:269::27:4:4803:4802:1522:4785^t^t^t^^ (from:) (Belyâ) (distri:) (RAID)", -- [703]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SLaru-Frostwolf^N2^N65^N3^N344.5625^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:158318:5938:154126::::::120:65::23:4:4779:4802:1512:4786^t^Sgear2^T^N1^Sitem:158366:5938:::::::120:65::23:3:4779:1512:4786^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [704]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SElunià-Frostwolf^N2^N256^N3^N351.5625^N4^T^Sresponse^T^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:159461:5939:::::::120:256::16:3:5005:1527:4786^t^Sgear2^T^N1^Sitem:159460:5939:::::::120:256::23:3:4779:1527:4784^t^t^t^^ (from:) (Elunià) (distri:) (RAID)", -- [705]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SUguluugulu-Frostwolf^N2^N253^N3^N349.875^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:158366:5938:::::::120:253::23:4:4779:41:1512:4786^t^Sgear2^T^N1^Sitem:158318:5938:::::::120:253::23:3:4779:1517:4783^t^t^t^^ (from:) (Uguluugulu) (distri:) (RAID)", -- [706]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SFooneses-Frostwolf^N2^N64^N3^N350.625^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:160645::154127::::::120:64::5:4:4799:1808:1492:4786^t^Sgear2^T^N1^Sitem:158318:5939:154126::::::120:64::23:4:4779:4802:1512:4786^t^t^t^^ (from:) (Fooneses) (distri:) (RAID)", -- [707]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SMuhdiv-Frostwolf^N2^N264^N3^N349.875^N4^T^Sresponse^T^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:161359:5938:::::::120:264::3:3:4798:1477:4786^t^Sgear2^T^N1^Sitem:158318:5938:::::::120:264::16:3:5005:1527:4786^t^t^t^^ (from:) (Muhdiv) (distri:) (RAID)", -- [708]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SEowyndra-Frostwolf^N2^N261^N3^N347.9375^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:159463:5938:154126::::::120:261::23:4:4779:4802:1512:4786^t^Sgear2^T^N1^Sitem:159460:5938:::::::120:261::23:3:4779:1527:4784^t^t^t^^ (from:) (Eowyndra) (distri:) (RAID)", -- [709]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SVairasza-Frostwolf^N2^N65^N3^N346^N4^T^Sresponse^T^t^Sdiff^T^N1^N40^t^Sgear1^T^N1^Sitem:158160:5938:154126::::::120:65::27:4:4803:4802:1522:4785^t^Sgear2^T^N1^Sitem:158318:5938:::::::120:65::23:3:4779:1512:4786^t^t^t^^ (from:) (Vairasza) (distri:) (RAID)", -- [710]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SRoanar-Frostwolf^N2^N64^N3^N348.125^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:158362:5938:::::::120:64::23:3:4779:1512:4786^t^Sgear2^T^N1^Sitem:162548:5938:::::::120:64::16:3:5005:1527:4786^t^t^t^^ (from:) (Roanar) (distri:) (RAID)", -- [711]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SFallen-Frostwolf^N2^N64^N3^N350.9375^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:159458:5938:::::::120:64::23:3:4779:1512:4786^t^Sgear2^T^N1^Sitem:159462:5938:154126::::::120:64::23:4:4779:4802:1512:4786^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [712]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SGrogoll-Frostwolf^N2^N71^N3^N348.1875^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:158314:5939:::::::120:71::23:3:4779:1512:4786^t^Sgear2^T^N1^Sitem:158362:5939:154127::::::120:71::23:4:4779:4802:1527:4784^t^t^t^^ (from:) (Grogoll) (distri:) (RAID)", -- [713]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SPillock-Frostwolf^N2^N265^N3^N349.75^N4^T^Sresponse^T^t^Sdiff^T^N1^N15^t^Sgear1^T^N1^Sitem:163933:5943:154127::::::120:265::54:3:4802:1477:4783^t^Sgear2^T^N1^Sitem:158318:5943:::::::120:265::23:3:4779:1527:4784^t^t^t^^ (from:) (Pillock) (distri:) (RAID)", -- [714]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SMorthan-Frostwolf^N2^N581^N3^N349.0625^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:159459:5943:::::::120:581::23:3:4779:1512:4786^t^Sgear2^T^N1^Sitem:159458:5943:::::::120:581::23:3:4779:1512:4786^t^t^t^^ (from:) (Morthan) (distri:) (RAID)", -- [715]
-			"22:52:21 - Comm received:^1^SlootAck^T^N1^SNethiren-Frostwolf^N2^N65^N3^N347.0625^N4^T^Sresponse^T^t^Sdiff^T^N1^N30^t^Sgear1^T^N1^Sitem:162544:5938:153709::::::120:65::23:4:4779:4802:1512:4786^t^Sgear2^T^N1^Sitem:160645:5938:154126::::::120:65::5:4:4799:1808:1492:4786^t^t^t^^ (from:) (Nethiren) (distri:) (RAID)", -- [716]
-			"22:52:24 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160647::::::::120:71::5:3:4799:1492:4786:::|h[Ring~`of~`the~`Infinite~`Void]|h|r^t^^ (from:) (Grogoll) (distri:) (RAID)", -- [717]
-			"22:52:30 - Comm received:^1^Sresponse^T^N1^N1^N2^SNethiren-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Nethiren) (distri:) (RAID)", -- [718]
-			"22:52:33 - Event: (ENCOUNTER_LOOT_RECEIVED) (2136) (160640) (|cffa335ee|Hitem:160640::::::::120:65::5:3:4799:1492:4786:::|h[Warboots of Absolute Eradication]|h|r) (1) (Deosz) (WARRIOR)", -- [719]
-			"22:52:33 - Comm received:^1^Sresponse^T^N1^N1^N2^STaydruid-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Taydruid) (distri:) (RAID)", -- [720]
-			"22:52:33 - Comm received:^1^Soffline_timer^T^t^^ (from:) (Fallen) (distri:) (RAID)", -- [721]
-			"22:52:34 - Comm received:^1^Sresponse^T^N1^N1^N2^SLaìya-Frostwolf^N3^T^Sresponse^N1^t^t^^ (from:) (Laìya) (distri:) (RAID)", -- [722]
-			"22:52:35 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160640::::::::120:71::5:3:4799:1492:4786:::|h[Warboots~`of~`Absolute~`Eradication]|h|r^t^^ (from:) (Deosz) (distri:) (RAID)", -- [723]
-			"22:52:36 - Event: (ENCOUNTER_LOOT_RECEIVED) (2136) (160717) (|cffa335ee|Hitem:160717::::::::120:65::5:4:4799:1808:1492:4786:::|h[Replicated Chitin Cord]|h|r) (1) (Taydruid) (DRUID)", -- [724]
-			"22:52:38 - Event: (ENCOUNTER_LOOT_RECEIVED) (2136) (160687) (|cffa335ee|Hitem:160687::::::::120:65::5:3:4799:1492:4786:::|h[Containment Analysis Baton]|h|r) (1) (Laìya) (DRUID)", -- [725]
-			"22:52:39 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160717::::::::120:102::5:4:4799:1808:1492:4786:::|h[Replicated~`Chitin~`Cord]|h|r^t^^ (from:) (Taydruid) (distri:) (RAID)", -- [726]
-			"22:52:39 - Comm received:^1^Sresponse^T^N1^N1^N2^SUguluugulu-Frostwolf^N3^T^Snote^S22%^Sresponse^N1^t^t^^ (from:) (Uguluugulu) (distri:) (RAID)", -- [727]
-			"22:52:40 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160687::::::::120:105::5:3:4799:1492:4786:::|h[Containment~`Analysis~`Baton]|h|r^t^^ (from:) (Laìya) (distri:) (RAID)", -- [728]
-			"22:52:41 - Comm received:^1^Sresponse^T^N1^N1^N2^SFooneses-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Fooneses) (distri:) (RAID)", -- [729]
-			"22:52:43 - Comm received:^1^Sresponse^T^N1^N1^N2^SDewi-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Dewi) (distri:) (RAID)", -- [730]
-			"22:52:43 - Comm received:^1^Sresponse^T^N1^N1^N2^STalar-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Talar) (distri:) (RAID)", -- [731]
-			"22:52:45 - Comm received:^1^Sresponse^T^N1^N1^N2^SCluze-Frostwolf^N3^T^Sresponse^N2^t^t^^ (from:) (Cluze) (distri:) (RAID)", -- [732]
-			"22:52:46 - Comm received:^1^Sresponse^T^N1^N1^N2^SMuhdiv-Frostwolf^N3^T^Sresponse^N1^t^t^^ (from:) (Muhdiv) (distri:) (RAID)", -- [733]
-			"22:52:47 - Comm received:^1^Sresponse^T^N1^N1^N2^SGardine-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Gardine) (distri:) (RAID)", -- [734]
-			"22:52:48 - Comm received:^1^Sresponse^T^N1^N1^N2^SDeosz-Frostwolf^N3^T^Sresponse^N1^t^t^^ (from:) (Deosz) (distri:) (RAID)", -- [735]
-			"22:52:49 - Comm received:^1^Sresponse^T^N1^N1^N2^SVairasza-Frostwolf^N3^T^Sresponse^N1^t^t^^ (from:) (Vairasza) (distri:) (RAID)", -- [736]
-			"22:52:49 - Comm received:^1^Sresponse^T^N1^N1^N2^SEowyndra-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Eowyndra) (distri:) (RAID)", -- [737]
-			"22:52:49 - Comm received:^1^Sresponse^T^N1^N1^N2^SElunià-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Elunià) (distri:) (RAID)", -- [738]
-			"22:52:51 - Comm received:^1^Sresponse^T^N1^N1^N2^SFallen-Frostwolf^N3^T^Sresponse^N2^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [739]
-			"22:52:52 - Comm received:^1^Sresponse^T^N1^N1^N2^SKremo-Frostwolf^N3^T^Snote^S12%^Sresponse^N1^t^t^^ (from:) (Kremo) (distri:) (RAID)", -- [740]
-			"22:52:53 - Comm received:^1^Sresponse^T^N1^N1^N2^SSendhex-Frostwolf^N3^T^Snote^S5%^Sresponse^SPASS^t^t^^ (from:) (Sendhex) (distri:) (RAID)", -- [741]
-			"22:53:01 - Comm received:^1^Sresponse^T^N1^N1^N2^SPillock-Frostwolf^N3^T^Snote^b^Sresponse^N1^t^t^^ (from:) (Pillock) (distri:) (RAID)", -- [742]
-			"22:53:02 - Comm received:^1^Sresponse^T^N1^N1^N2^SBelyâ-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Belyâ) (distri:) (RAID)", -- [743]
-			"22:53:04 - Comm received:^1^Sresponse^T^N1^N1^N2^SRoanar-Frostwolf^N3^T^Sresponse^N2^t^t^^ (from:) (Roanar) (distri:) (RAID)", -- [744]
-			"22:53:09 - LootFrame:Response (1) (Response:) (Upgrade)", -- [745]
-			"22:53:09 - SendResponse (group) (1) (1) (nil) (false) (BiS Stats) (nil) (nil) (nil) (nil) (nil) (nil) (nil)", -- [746]
-			"22:53:09 - Trashing entry: (1) (|cffa335ee|Hitem:160647::::::::120:64::5:3:4799:1492:4786:::|h[Ring of the Infinite Void]|h|r)", -- [747]
-			"22:53:09 - NumRolled: (1) (#items:) (1)", -- [748]
-			"22:53:09 - Comm received:^1^Sresponse^T^N1^N1^N2^SLaru-Frostwolf^N3^T^Snote^SBiS~`Stats^Sresponse^N1^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [749]
-			"22:53:09 - Comm received:^1^Sresponse^T^N1^N1^N2^SMorthan-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Morthan) (distri:) (RAID)", -- [750]
-			"22:53:10 - Comm received:^1^Sresponse^T^N1^N1^N2^SGrogoll-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Grogoll) (distri:) (RAID)", -- [751]
-			"22:53:30 - Comm received:^1^Sresponse^T^N1^N1^N2^SSidayira-Frostwolf^N3^T^Sresponse^SPASS^t^t^^ (from:) (Sidayira) (distri:) (RAID)", -- [752]
-			"22:53:33 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [753]
-			"22:53:33 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [754]
-			"22:53:33 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [755]
-			"22:53:33 - false = (IsCouncil) (Laru-Frostwolf)", -- [756]
-			"22:53:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tentrisha) (distri:) (GUILD)", -- [757]
-			"22:54:22 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [758]
-			"22:54:22 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SRoanar-Frostwolf^T^Srole^SDAMAGER^SspecID^N345^Senchant_lvl^N95^Sclass^SMAGE^Senchanter^B^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N341.625^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.875^Senchant_lvl^N0^Sclass^SDRUID^Srank^SCasual~`Member^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.6875^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.9375^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SUguluugulu-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.125^Senchant_lvl^N71^Sclass^SHUNTER^Senchanter^B^Srank^SRaid~`Member^t^SElunià-Frostwolf^T^Srole^SHEALER^SspecID^N351.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^STrial^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N346.75^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSendhex-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.3125^Senchant_lvl^N109^Sclass^SWARLOCK^Senchanter^B^Srank^SRaid~`Member^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SMorthan-Frostwolf^T^Srole^STANK^SspecID^N349.0625^Senchant_lvl^N132^Sclass^SDEMONHUNTER^Senchanter^B^Srank^SOfficer^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^STaydruid-Frostwolf^T^Srole^SDAMAGER^SspecID^N348^Senchant_lvl^N82^Sclass^SDRUID^Senchanter^B^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.75^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N348.5^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SCluze-Frostwolf^T^Srole^SDAMAGER^SspecID^N350^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N345.5^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SSidayira-Frostwolf^T^Srole^SDAMAGER^SspecID^N344.875^Senchant_lvl^N87^Sclass^SROGUE^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [759]
-			"22:54:44 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [760]
-			"22:54:44 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SUpgrade^Ssort^N1^t^N2^T^Scolor^T^N1^N0^N2^N1^N3^N0.86^N4^N1^t^Stext^SMinor~`Upgrade^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0^N3^N0.7^N4^N1^t^Stext^SAzerite^Ssort^N3^t^N4^T^Scolor^T^N1^N0.7^N2^N0^N3^N0.02^N4^N1^t^Stext^SOffspec^Ssort^N4^t^t^SmultiVote^B^Sbuttons^T^N1^T^Stext^SUpgrade^t^N2^T^Stext^SMinor~`Upgrade^t^N3^T^Stext^SAzerite~`Check??^t^N4^T^Stext^SOffspec^t^t^SnumButtons^N4^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [761]
-			"22:54:44 - Comm received:^1^Scouncil^T^N1^T^N1^SEowyndra-Frostwolf^N2^SFallen-Frostwolf^N3^SMorthan-Frostwolf^N4^STentrisha-Frostwolf^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [762]
-			"22:54:44 - false = (IsCouncil) (Laru-Frostwolf)", -- [763]
-			"22:54:51 - Comm received:^1^Shistory^T^N1^SUguluugulu-Frostwolf^N2^T^SmapID^N1861^Sdate^S05/09/18^Sclass^SHUNTER^SgroupSize^N21^Sboss^SZek'voz^Stime^S22:54:46^SitemReplaced1^S|cffa335ee|Hitem:158366:5938:::::::120:64::23:4:4779:41:1512:4786:::|h[Charged~`Sandstone~`Band]|h|r^Sid^S1536177286-1^Snote^S22%^Sinstance^SUldir-Heroic^Sresponse^SUpgrade^SdifficultyID^N15^SlootWon^S|cffa335ee|Hitem:160647::::::::120:64::5:3:4799:1492:4786:::|h[Ring~`of~`the~`Infinite~`Void]|h|r^SisAwardReason^b^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^SresponseID^N1^SitemReplaced2^S|cffa335ee|Hitem:158318:5938:::::::120:64::23:3:4779:1517:4783:::|h[Murky~`Cerulean~`Signet]|h|r^Svotes^N0^t^t^^ (from:) (Fallen) (distri:) (RAID)", -- [764]
-			"22:54:51 - Comm received:^1^Sawarded^T^N1^N1^N2^SUguluugulu-Frostwolf^N3^SFooneses-Frostwolf^t^^ (from:) (Fallen) (distri:) (RAID)", -- [765]
-			"22:54:52 - Comm received:^1^Ssession_end^T^t^^ (from:) (Fallen) (distri:) (RAID)", -- [766]
-			"22:54:53 - Event: (GROUP_LEFT) (1) (Party-3703-00001A355C75)", -- [767]
-			"22:54:53 - GetML()", -- [768]
-			"22:54:59 - Event: (PARTY_LEADER_CHANGED)", -- [769]
-			"22:54:59 - GetML()", -- [770]
-			"22:54:59 - Resetting council as we have a new ML!", -- [771]
-			"22:54:59 - MasterLooter =  (Laru-Frostwolf)", -- [772]
-			"22:54:59 - GetCouncilInGroup (Laru-Frostwolf)", -- [773]
-			"22:54:59 - ML:NewML (Laru-Frostwolf)", -- [774]
-			"22:54:59 - UpdateMLdb", -- [775]
-			"22:54:59 - UpdateGroup (true)", -- [776]
-			"22:54:59 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [777]
-			"22:54:59 - GetCouncilInGroup (Laru-Frostwolf)", -- [778]
-			"22:55:00 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [779]
-			"22:55:00 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [780]
-			"22:55:00 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [781]
-			"22:55:00 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [782]
-			"22:55:00 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [783]
-			"22:55:00 - true = (IsCouncil) (Laru-Frostwolf)", -- [784]
-			"22:55:00 - GetLootDBStatistics()", -- [785]
-			"22:55:00 - GetGuildRankNum()", -- [786]
-			"22:55:00 - RCVotingFrame (enabled)", -- [787]
-			"22:55:00 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N344.5625^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [788]
-			"22:55:00 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (344.5625)", -- [789]
-			"22:55:03 - Event: (GROUP_LEFT) (1) (Party-3703-00001A3822CD)", -- [790]
-			"22:55:03 - GetML()", -- [791]
-			"22:55:03 - Stop handling loot", -- [792]
-			"22:55:03 - ML Disabled", -- [793]
-			"22:55:04 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [794]
-			"22:55:05 - Event: (PARTY_LEADER_CHANGED)", -- [795]
-			"22:55:05 - GetML()", -- [796]
-			"22:55:05 - Resetting council as we have a new ML!", -- [797]
-			"22:55:05 - MasterLooter =  (Laru-Frostwolf)", -- [798]
-			"22:55:05 - GetCouncilInGroup (Laru-Frostwolf)", -- [799]
-			"22:55:05 - ML:NewML (Laru-Frostwolf)", -- [800]
-			"22:55:05 - UpdateMLdb", -- [801]
-			"22:55:05 - UpdateGroup (true)", -- [802]
-			"22:55:05 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [803]
-			"22:55:05 - GetCouncilInGroup (Laru-Frostwolf)", -- [804]
-			"22:55:05 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [805]
-			"22:55:05 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [806]
-			"22:55:05 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [807]
-			"22:55:05 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [808]
-			"22:55:05 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [809]
-			"22:55:05 - true = (IsCouncil) (Laru-Frostwolf)", -- [810]
-			"22:55:05 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N344.5625^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [811]
-			"22:55:05 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (344.5625)", -- [812]
-			"22:55:09 - Event: (GROUP_LEFT) (1) (Party-3703-00001A3822F7)", -- [813]
-			"22:55:09 - GetML()", -- [814]
-			"22:55:09 - Stop handling loot", -- [815]
-			"22:55:09 - ML Disabled", -- [816]
-			"22:55:09 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [817]
-			"22:55:14 - Timer MLdb_check passed", -- [818]
-			"22:55:20 - Timer MLdb_check passed", -- [819]
-			"22:55:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [820]
-			"22:55:51 - GetML()", -- [821]
-			"22:55:52 - VotingFrame:Update() without lootTable!!", -- [822]
-			"22:55:58 - Event: (PARTY_LEADER_CHANGED)", -- [823]
-			"22:55:58 - GetML()", -- [824]
-			"22:55:58 - Resetting council as we have a new ML!", -- [825]
-			"22:55:58 - MasterLooter =  (Laru-Frostwolf)", -- [826]
-			"22:55:58 - GetCouncilInGroup (Laru-Frostwolf)", -- [827]
-			"22:55:58 - ML:NewML (Laru-Frostwolf)", -- [828]
-			"22:55:58 - UpdateMLdb", -- [829]
-			"22:55:58 - UpdateGroup (true)", -- [830]
-			"22:55:58 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [831]
-			"22:55:58 - GetCouncilInGroup (Laru-Frostwolf)", -- [832]
-			"22:55:58 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [833]
-			"22:55:58 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [834]
-			"22:55:58 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [835]
-			"22:55:58 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [836]
-			"22:55:58 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [837]
-			"22:55:58 - true = (IsCouncil) (Laru-Frostwolf)", -- [838]
-			"22:55:58 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N344.5625^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [839]
-			"22:55:58 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (344.5625)", -- [840]
-			"22:56:01 - VotingFrame:Update() without lootTable!!", -- [841]
-			"22:56:06 - VotingFrame:Update() without lootTable!!", -- [842]
-			"22:56:08 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [843]
-			"22:56:08 - true = (IsCouncil) (Laru-Frostwolf)", -- [844]
-			"22:56:08 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [845]
-			"22:56:10 - UpdateGroup (table: 000001E5F3CFEE40)", -- [846]
-			"22:56:10 - ML:AddCandidate (Eowyndra-Frostwolf) (ROGUE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [847]
-			"22:56:10 - ML:AddCandidate (Tentrisha-Frostwolf) (MONK) (TANK) (nil) (nil) (nil) (nil)", -- [848]
-			"22:56:10 - GetCouncilInGroup (Laru-Frostwolf)", -- [849]
-			"22:56:10 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [850]
-			"22:56:10 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [851]
-			"22:56:10 - Comm received:^1^SplayerInfo^T^N1^STentrisha-Frostwolf^N2^SMONK^N3^STANK^N4^SOfficer^N6^N0^N7^N347.1875^N8^N268^t^^ (from:) (Tentrisha) (distri:) (WHISPER)", -- [852]
-			"22:56:10 - ML:AddCandidate (Tentrisha-Frostwolf) (MONK) (TANK) (Officer) (nil) (0) (347.1875)", -- [853]
-			"22:56:10 - Comm received:^1^SplayerInfo^T^N1^SEowyndra-Frostwolf^N2^SROGUE^N3^SDAMAGER^N4^SGuild~`Master^N5^B^N6^N113^N7^N347.9375^N8^N261^t^^ (from:) (Eowyndra) (distri:) (WHISPER)", -- [854]
-			"22:56:10 - ML:AddCandidate (Eowyndra-Frostwolf) (ROGUE) (DAMAGER) (Guild Master) (true) (113) (347.9375)", -- [855]
-			"22:56:13 - Timer MLdb_check passed", -- [856]
-			"22:56:17 - VotingFrame:Update() without lootTable!!", -- [857]
-			"22:56:20 - UpdateGroup (table: 000001E5F3CFEE40)", -- [858]
-			"22:56:20 - ML:AddCandidate (Pillock-Frostwolf) (WARLOCK) (DAMAGER) (nil) (nil) (nil) (nil)", -- [859]
-			"22:56:20 - ML:AddCandidate (Talar-Frostwolf) (DEMONHUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [860]
-			"22:56:20 - GetCouncilInGroup (Laru-Frostwolf)", -- [861]
-			"22:56:20 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [862]
-			"22:56:20 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SPillock-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARLOCK^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [863]
-			"22:56:20 - Comm received:^1^SplayerInfo^T^N1^SPillock-Frostwolf^N2^SWARLOCK^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N349.75^N8^N265^t^^ (from:) (Pillock) (distri:) (WHISPER)", -- [864]
-			"22:56:20 - ML:AddCandidate (Pillock-Frostwolf) (WARLOCK) (DAMAGER) (Raid Member) (nil) (0) (349.75)", -- [865]
-			"22:56:20 - Comm received:^1^SplayerInfo^T^N1^STalar-Frostwolf^N2^SDEMONHUNTER^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N346.625^N8^N577^t^^ (from:) (Talar) (distri:) (WHISPER)", -- [866]
-			"22:56:20 - ML:AddCandidate (Talar-Frostwolf) (DEMONHUNTER) (DAMAGER) (Raid Member) (nil) (0) (346.625)", -- [867]
-			"22:56:21 - VotingFrame:Update() without lootTable!!", -- [868]
-			"22:56:30 - UpdateGroup (table: 000001E5F3CFEE40)", -- [869]
-			"22:56:30 - ML:AddCandidate (Fooneses-Frostwolf) (MAGE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [870]
-			"22:56:30 - GetCouncilInGroup (Laru-Frostwolf)", -- [871]
-			"22:56:30 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [872]
-			"22:56:30 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [873]
-			"22:56:30 - Comm received:^1^SplayerInfo^T^N1^SFooneses-Frostwolf^N2^SMAGE^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N350.625^N8^N64^t^^ (from:) (Fooneses) (distri:) (WHISPER)", -- [874]
-			"22:56:30 - ML:AddCandidate (Fooneses-Frostwolf) (MAGE) (DAMAGER) (Raid Member) (nil) (0) (350.625)", -- [875]
-			"22:56:31 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Pillock) (distri:) (WHISPER)", -- [876]
-			"22:56:31 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [877]
-			"22:56:31 - true = (IsCouncil) (Laru-Frostwolf)", -- [878]
-			"22:56:33 - VotingFrame:Update() without lootTable!!", -- [879]
-			"22:56:40 - UpdateGroup (table: 000001E5F3CFEE40)", -- [880]
-			"22:56:40 - ML:AddCandidate (Nethiren-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [881]
-			"22:56:40 - GetCouncilInGroup (Laru-Frostwolf)", -- [882]
-			"22:56:40 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [883]
-			"22:56:40 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [884]
-			"22:56:40 - Comm received:^1^SplayerInfo^T^N1^SNethiren-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SAlt^N6^N0^N7^N347.0625^N8^N65^t^^ (from:) (Nethiren) (distri:) (WHISPER)", -- [885]
-			"22:56:40 - ML:AddCandidate (Nethiren-Frostwolf) (PALADIN) (HEALER) (Alt) (nil) (0) (347.0625)", -- [886]
-			"22:56:47 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Nethiren) (distri:) (WHISPER)", -- [887]
-			"22:56:47 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [888]
-			"22:56:47 - true = (IsCouncil) (Laru-Frostwolf)", -- [889]
-			"22:56:56 - ML event (CHAT_MSG_WHISPER) (inv) (Muhdiv-Frostwolf) () () (Muhdiv) () (0) (0) () (0) (3556) (Player-3703-04D70603) (0) (false) (false) (false) (false)", -- [890]
-			"22:57:01 - VotingFrame:Update() without lootTable!!", -- [891]
-			"22:57:08 - VotingFrame:Update() without lootTable!!", -- [892]
-			"22:57:12 - VotingFrame:Update() without lootTable!!", -- [893]
-			"22:57:18 - VotingFrame:Update() without lootTable!!", -- [894]
-			"22:57:19 - VotingFrame:Update() without lootTable!!", -- [895]
-			"22:57:20 - VotingFrame:Update() without lootTable!!", -- [896]
-			"22:57:21 - UpdateGroup (table: 000001E5F3CFEE40)", -- [897]
-			"22:57:21 - ML:AddCandidate (Muhdiv-Frostwolf) (SHAMAN) (HEALER) (nil) (nil) (nil) (nil)", -- [898]
-			"22:57:21 - ML:AddCandidate (Shaydera-Frostwolf) (PRIEST) (DAMAGER) (nil) (nil) (nil) (nil)", -- [899]
-			"22:57:21 - ML:AddCandidate (Deosz-Frostwolf) (WARRIOR) (DAMAGER) (nil) (nil) (nil) (nil)", -- [900]
-			"22:57:21 - GetCouncilInGroup (Laru-Frostwolf)", -- [901]
-			"22:57:21 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [902]
-			"22:57:21 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^Sclass^SSHAMAN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [903]
-			"22:57:21 - Comm received:^1^SplayerInfo^T^N1^SShaydera-Frostwolf^N2^SPRIEST^N3^SDAMAGER^N4^SRaid~`Member^N5^B^N6^N66^N7^N350.3125^N8^N258^t^^ (from:) (Shaydera) (distri:) (WHISPER)", -- [904]
-			"22:57:21 - ML:AddCandidate (Shaydera-Frostwolf) (PRIEST) (DAMAGER) (Raid Member) (true) (66) (350.3125)", -- [905]
-			"22:57:21 - Comm received:^1^SplayerInfo^T^N1^SDeosz-Frostwolf^N2^SWARRIOR^N3^SDAMAGER^N4^STrial^N5^B^N6^N11^N7^N347^N8^N71^t^^ (from:) (Deosz) (distri:) (WHISPER)", -- [906]
-			"22:57:21 - ML:AddCandidate (Deosz-Frostwolf) (WARRIOR) (DAMAGER) (Trial) (true) (11) (347)", -- [907]
-			"22:57:21 - Comm received:^1^SplayerInfo^T^N1^SMuhdiv-Frostwolf^N2^SSHAMAN^N3^SHEALER^N4^SRaid~`Member^N5^B^N6^N104^N7^N349.875^N8^N264^t^^ (from:) (Muhdiv) (distri:) (WHISPER)", -- [908]
-			"22:57:21 - ML:AddCandidate (Muhdiv-Frostwolf) (SHAMAN) (HEALER) (Raid Member) (true) (104) (349.875)", -- [909]
-			"22:57:25 - VotingFrame:Update() without lootTable!!", -- [910]
-			"22:57:26 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Muhdiv) (distri:) (WHISPER)", -- [911]
-			"22:57:26 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [912]
-			"22:57:26 - true = (IsCouncil) (Laru-Frostwolf)", -- [913]
-			"22:57:30 - VotingFrame:Update() without lootTable!!", -- [914]
-			"22:57:36 - VotingFrame:Update() without lootTable!!", -- [915]
-			"22:57:37 - VotingFrame:Update() without lootTable!!", -- [916]
-			"22:57:42 - VotingFrame:Update() without lootTable!!", -- [917]
-			"22:57:46 - UpdateGroup (table: 000001E5F3CFEE40)", -- [918]
-			"22:57:46 - ML:AddCandidate (Laìya-Frostwolf) (DRUID) (HEALER) (nil) (nil) (nil) (nil)", -- [919]
-			"22:57:46 - ML:AddCandidate (Gardine-Frostwolf) (SHAMAN) (DAMAGER) (nil) (nil) (nil) (nil)", -- [920]
-			"22:57:46 - GetCouncilInGroup (Laru-Frostwolf)", -- [921]
-			"22:57:47 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [922]
-			"22:57:47 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^Sclass^SSHAMAN^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [923]
-			"22:57:47 - Comm received:^1^SplayerInfo^T^N1^SLaìya-Frostwolf^N2^SDRUID^N3^SHEALER^N4^STrial^N6^N0^N7^N350.1875^N8^N105^t^^ (from:) (Laìya) (distri:) (WHISPER)", -- [924]
-			"22:57:47 - ML:AddCandidate (Laìya-Frostwolf) (DRUID) (HEALER) (Trial) (nil) (0) (350.1875)", -- [925]
-			"22:57:47 - Comm received:^1^SplayerInfo^T^N1^SGardine-Frostwolf^N2^SSHAMAN^N3^SDAMAGER^N4^SOfficer~`Alt^N6^N0^N7^N350.625^N8^N262^t^^ (from:) (Gardine) (distri:) (WHISPER)", -- [926]
-			"22:57:47 - ML:AddCandidate (Gardine-Frostwolf) (SHAMAN) (DAMAGER) (Officer Alt) (nil) (0) (350.625)", -- [927]
-			"22:57:48 - VotingFrame:Update() without lootTable!!", -- [928]
-			"22:57:51 - VotingFrame:Update() without lootTable!!", -- [929]
-			"22:57:51 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Laìya) (distri:) (WHISPER)", -- [930]
-			"22:57:52 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [931]
-			"22:57:52 - true = (IsCouncil) (Laru-Frostwolf)", -- [932]
-			"22:57:56 - UpdateGroup (table: 000001E5F3CFEE40)", -- [933]
-			"22:57:56 - ML:AddCandidate (Saradoc-Frostwolf) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [934]
-			"22:57:56 - GetCouncilInGroup (Laru-Frostwolf)", -- [935]
-			"22:57:56 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [936]
-			"22:57:57 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^SDAMAGER^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [937]
-			"22:58:31 - VotingFrame:Update() without lootTable!!", -- [938]
-			"22:58:32 - VotingFrame:Update() without lootTable!!", -- [939]
-			"22:58:34 - ML event (CHAT_MSG_WHISPER) (hier) (Grogoll-Frostwolf) () () (Grogoll) () (0) (0) () (0) (3578) (Player-3703-04C84E24) (0) (false) (false) (false) (false)", -- [940]
-			"22:58:36 - UpdateGroup (table: 000001E5F3CFEE40)", -- [941]
-			"22:58:38 - VotingFrame:Update() without lootTable!!", -- [942]
-			"22:58:41 - VotingFrame:Update() without lootTable!!", -- [943]
-			"22:58:45 - VotingFrame:Update() without lootTable!!", -- [944]
-			"22:58:46 - UpdateGroup (table: 000001E5F3CFEE40)", -- [945]
-			"22:58:46 - ML:AddCandidate (Fallen-Frostwolf) (MAGE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [946]
-			"22:58:46 - ML:AddCandidate (Deosz-Frostwolf) (WARRIOR) (TANK) (Trial) (true) (11) (347)", -- [947]
-			"22:58:46 - GetCouncilInGroup (Laru-Frostwolf)", -- [948]
-			"22:58:46 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [949]
-			"22:58:46 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [950]
-			"22:58:46 - Comm received:^1^SplayerInfo^T^N1^SFallen-Frostwolf^N2^SMAGE^N3^SDAMAGER^N4^SOfficer^N5^B^N6^N135^N7^N350.9375^N8^N64^t^^ (from:) (Fallen) (distri:) (WHISPER)", -- [951]
-			"22:58:46 - ML:AddCandidate (Fallen-Frostwolf) (MAGE) (DAMAGER) (Officer) (true) (135) (350.9375)", -- [952]
-			"22:58:46 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Gardine) (distri:) (WHISPER)", -- [953]
-			"22:58:47 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [954]
-			"22:58:47 - true = (IsCouncil) (Laru-Frostwolf)", -- [955]
-			"22:58:49 - VotingFrame:Update() without lootTable!!", -- [956]
-			"22:58:56 - UpdateGroup (table: 000001E5F3CFEE40)", -- [957]
-			"22:58:59 - VotingFrame:Update() without lootTable!!", -- [958]
-			"22:59:02 - VotingFrame:Update() without lootTable!!", -- [959]
-			"22:59:06 - UpdateGroup (table: 000001E5F3CFEE40)", -- [960]
-			"22:59:06 - ML:AddCandidate (Grogoll-Frostwolf) (WARRIOR) (DAMAGER) (nil) (nil) (nil) (nil)", -- [961]
-			"22:59:06 - GetCouncilInGroup (Laru-Frostwolf)", -- [962]
-			"22:59:06 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [963]
-			"22:59:06 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [964]
-			"22:59:06 - Comm received:^1^SplayerInfo^T^N1^SGrogoll-Frostwolf^N2^SWARRIOR^N3^SDAMAGER^N4^SRaid~`Member^N5^B^N6^N76^N7^N350.0625^N8^N71^t^^ (from:) (Grogoll) (distri:) (WHISPER)", -- [965]
-			"22:59:06 - ML:AddCandidate (Grogoll-Frostwolf) (WARRIOR) (DAMAGER) (Raid Member) (true) (76) (350.0625)", -- [966]
-			"22:59:07 - VotingFrame:Update() without lootTable!!", -- [967]
-			"22:59:12 - VotingFrame:Update() without lootTable!!", -- [968]
-			"22:59:13 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Grogoll) (distri:) (WHISPER)", -- [969]
-			"22:59:14 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [970]
-			"22:59:14 - true = (IsCouncil) (Laru-Frostwolf)", -- [971]
-			"22:59:21 - VotingFrame:Update() without lootTable!!", -- [972]
-			"22:59:23 - VotingFrame:Update() without lootTable!!", -- [973]
-			"22:59:29 - VotingFrame:Update() without lootTable!!", -- [974]
-			"22:59:30 - UpdateGroup (table: 000001E5F3CFEE40)", -- [975]
-			"22:59:30 - ML:AddCandidate (Kremo-Frostwolf) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [976]
-			"22:59:30 - GetCouncilInGroup (Laru-Frostwolf)", -- [977]
-			"22:59:30 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [978]
-			"22:59:30 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.0625^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [979]
-			"22:59:30 - Comm received:^1^SplayerInfo^T^N1^SKremo-Frostwolf^N2^SHUNTER^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N347.5^N8^N253^t^^ (from:) (Kremo) (distri:) (WHISPER)", -- [980]
-			"22:59:30 - ML:AddCandidate (Kremo-Frostwolf) (HUNTER) (DAMAGER) (Raid Member) (nil) (0) (347.5)", -- [981]
-			"22:59:33 - VotingFrame:Update() without lootTable!!", -- [982]
-			"22:59:34 - VotingFrame:Update() without lootTable!!", -- [983]
-			"22:59:35 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Kremo) (distri:) (WHISPER)", -- [984]
-			"22:59:35 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [985]
-			"22:59:35 - true = (IsCouncil) (Laru-Frostwolf)", -- [986]
-			"22:59:38 - VotingFrame:Update() without lootTable!!", -- [987]
-			"22:59:40 - UpdateGroup (table: 000001E5F3CFEE40)", -- [988]
-			"22:59:40 - ML:AddCandidate (Vairasza-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [989]
-			"22:59:40 - GetCouncilInGroup (Laru-Frostwolf)", -- [990]
-			"22:59:40 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [991]
-			"22:59:40 - Comm received:^1^Scandidates^T^N1^T^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SMuhdiv-Frostwolf^T^Srole^SHEALER^SspecID^N349.875^Senchant_lvl^N104^Sclass^SSHAMAN^Senchanter^B^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.0625^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [992]
-			"22:59:40 - Comm received:^1^SplayerInfo^T^N1^SVairasza-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N5^B^N6^N76^N7^N346^N8^N65^t^^ (from:) (Vairasza) (distri:) (WHISPER)", -- [993]
-			"22:59:40 - ML:AddCandidate (Vairasza-Frostwolf) (PALADIN) (HEALER) (Raid Member) (true) (76) (346)", -- [994]
-			"22:59:41 - VotingFrame:Update() without lootTable!!", -- [995]
-			"22:59:48 - VotingFrame:Update() without lootTable!!", -- [996]
-			"22:59:49 - VotingFrame:Update() without lootTable!!", -- [997]
-			"22:59:50 - UpdateGroup (table: 000001E5F3CFEE40)", -- [998]
-			"22:59:50 - ML:RemoveCandidate (Muhdiv-Frostwolf)", -- [999]
-			"22:59:50 - GetCouncilInGroup (Laru-Frostwolf)", -- [1000]
-			"22:59:50 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1001]
-			"22:59:50 - Comm received:^1^Scandidates^T^N1^T^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.0625^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N346^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1002]
-			"22:59:57 - VotingFrame:Update() without lootTable!!", -- [1003]
-			"23:00:01 - VotingFrame:Update() without lootTable!!", -- [1004]
-			"23:00:04 - VotingFrame:Update() without lootTable!!", -- [1005]
-			"23:00:05 - VotingFrame:Update() without lootTable!!", -- [1006]
-			"23:00:11 - VotingFrame:Update() without lootTable!!", -- [1007]
-			"23:00:13 - VotingFrame:Update() without lootTable!!", -- [1008]
-			"23:00:16 - VotingFrame:Update() without lootTable!!", -- [1009]
-			"23:00:22 - VotingFrame:Update() without lootTable!!", -- [1010]
-			"23:00:24 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1011]
-			"23:00:24 - ML:AddCandidate (Talar-Frostwolf) (DEMONHUNTER) (TANK) (Raid Member) (nil) (0) (346.625)", -- [1012]
-			"23:00:24 - GetCouncilInGroup (Laru-Frostwolf)", -- [1013]
-			"23:00:24 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1014]
-			"23:00:24 - Comm received:^1^Scandidates^T^N1^T^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STalar-Frostwolf^T^Srole^STANK^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SGrogoll-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.0625^Senchant_lvl^N76^Sclass^SWARRIOR^Senchanter^B^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N346^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1015]
-			"23:00:27 - VotingFrame:Update() without lootTable!!", -- [1016]
-			"23:00:48 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1017]
-			"23:00:48 - ML:RemoveCandidate (Grogoll-Frostwolf)", -- [1018]
-			"23:00:48 - GetCouncilInGroup (Laru-Frostwolf)", -- [1019]
-			"23:00:48 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1020]
-			"23:00:48 - Comm received:^1^Scandidates^T^N1^T^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STalar-Frostwolf^T^Srole^STANK^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SLaìya-Frostwolf^T^Srole^SHEALER^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SDRUID^Srank^STrial^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N346^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1021]
-			"23:00:50 - VotingFrame:Update() without lootTable!!", -- [1022]
-			"23:00:58 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1023]
-			"23:00:58 - ML:RemoveCandidate (Laìya-Frostwolf)", -- [1024]
-			"23:00:58 - GetCouncilInGroup (Laru-Frostwolf)", -- [1025]
-			"23:00:58 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1026]
-			"23:00:58 - Comm received:^1^Scandidates^T^N1^T^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STalar-Frostwolf^T^Srole^STANK^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N346^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1027]
-			"23:01:09 - VotingFrame:Update() without lootTable!!", -- [1028]
-			"23:01:25 - VotingFrame:Update() without lootTable!!", -- [1029]
-			"23:01:28 - VotingFrame:Update() without lootTable!!", -- [1030]
-			"23:01:31 - VotingFrame:Update() without lootTable!!", -- [1031]
-			"23:01:33 - VotingFrame:Update() without lootTable!!", -- [1032]
-			"23:01:38 - VotingFrame:Update() without lootTable!!", -- [1033]
-			"23:01:40 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1034]
-			"23:01:49 - VotingFrame:Update() without lootTable!!", -- [1035]
-			"23:02:00 - VotingFrame:Update() without lootTable!!", -- [1036]
-			"23:02:04 - VotingFrame:Update() without lootTable!!", -- [1037]
-			"23:02:14 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1038]
-			"23:02:14 - ML:AddCandidate (Belyâ-Frostwolf) (MONK) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1039]
-			"23:02:14 - GetCouncilInGroup (Laru-Frostwolf)", -- [1040]
-			"23:02:14 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1041]
-			"23:02:14 - Comm received:^1^Scandidates^T^N1^T^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STalar-Frostwolf^T^Srole^STANK^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N346^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1042]
-			"23:02:14 - Comm received:^1^SplayerInfo^T^N1^SBelyâ-Frostwolf^N2^SMONK^N3^SDAMAGER^N4^SAlt^N6^N0^N7^N347.1875^N8^N269^t^^ (from:) (Belyâ) (distri:) (WHISPER)", -- [1043]
-			"23:02:14 - ML:AddCandidate (Belyâ-Frostwolf) (MONK) (DAMAGER) (Alt) (nil) (0) (347.1875)", -- [1044]
-			"23:02:19 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Belyâ) (distri:) (WHISPER)", -- [1045]
-			"23:02:19 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1046]
-			"23:02:19 - true = (IsCouncil) (Laru-Frostwolf)", -- [1047]
-			"23:02:35 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1048]
-			"23:02:35 - ML:AddCandidate (Belyâ-Frostwolf) (MONK) (TANK) (Alt) (nil) (0) (347.1875)", -- [1049]
-			"23:02:35 - GetCouncilInGroup (Laru-Frostwolf)", -- [1050]
-			"23:02:35 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1051]
-			"23:02:35 - Comm received:^1^Scandidates^T^N1^T^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STalar-Frostwolf^T^Srole^STANK^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SBelyâ-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N346^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1052]
-			"23:02:42 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Skyke) (distri:) (GUILD)", -- [1053]
-			"23:02:54 - VotingFrame:Update() without lootTable!!", -- [1054]
-			"23:02:56 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1055]
-			"23:02:57 - VotingFrame:Update() without lootTable!!", -- [1056]
-			"23:03:04 - VotingFrame:Update() without lootTable!!", -- [1057]
-			"23:03:06 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1058]
-			"23:03:07 - VotingFrame:Update() without lootTable!!", -- [1059]
-			"23:03:16 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1060]
-			"23:03:18 - VotingFrame:Update() without lootTable!!", -- [1061]
-			"23:03:26 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1062]
-			"23:03:36 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1063]
-			"23:03:36 - ML:AddCandidate (Belyâ-Frostwolf) (MONK) (DAMAGER) (Alt) (nil) (0) (347.1875)", -- [1064]
-			"23:03:36 - GetCouncilInGroup (Laru-Frostwolf)", -- [1065]
-			"23:03:36 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1066]
-			"23:03:36 - Comm received:^1^Scandidates^T^N1^T^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^STalar-Frostwolf^T^Srole^STANK^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N66^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SGardine-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SSHAMAN^Srank^SOfficer~`Alt^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.9375^Senchant_lvl^N135^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SBelyâ-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SAlt^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^STentrisha-Frostwolf^T^Srole^STANK^SspecID^N347.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.9375^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SFooneses-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Member^t^SPillock-Frostwolf^T^Srole^SDAMAGER^SspecID^N349.75^Senchant_lvl^N0^Sclass^SWARLOCK^Srank^SRaid~`Member^t^SVairasza-Frostwolf^T^Srole^SHEALER^SspecID^N346^Senchant_lvl^N76^Sclass^SPALADIN^Senchanter^B^Srank^SRaid~`Member^t^SNethiren-Frostwolf^T^Srole^SHEALER^SspecID^N347.0625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SAlt^t^SDeosz-Frostwolf^T^Srole^STANK^SspecID^N347^Senchant_lvl^N11^Sclass^SWARRIOR^Senchanter^B^Srank^STrial^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1067]
-			"23:03:37 - VotingFrame:Update() without lootTable!!", -- [1068]
-			"23:03:40 - VotingFrame:Update() without lootTable!!", -- [1069]
-			"23:03:43 - VotingFrame:Update() without lootTable!!", -- [1070]
-			"23:03:57 - VotingFrame:Update() without lootTable!!", -- [1071]
-			"23:04:00 - VotingFrame:Update() without lootTable!!", -- [1072]
-			"23:04:02 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1073]
-			"23:04:28 - VotingFrame:Update() without lootTable!!", -- [1074]
-			"23:04:37 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydekay) (distri:) (GUILD)", -- [1075]
-			"23:04:38 - VotingFrame:Update() without lootTable!!", -- [1076]
-			"23:04:41 - VotingFrame:Update() without lootTable!!", -- [1077]
-			"23:04:46 - VotingFrame:Update() without lootTable!!", -- [1078]
-			"23:04:47 - Event: (GROUP_LEFT) (1) (Party-3703-00001A382407)", -- [1079]
-			"23:04:47 - GetML()", -- [1080]
-			"23:04:47 - Stop handling loot", -- [1081]
-			"23:04:47 - ML Disabled", -- [1082]
-			"23:04:47 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1083]
-			"23:04:59 - Event: (PARTY_LEADER_CHANGED)", -- [1084]
-			"23:04:59 - GetML()", -- [1085]
-			"23:04:59 - Resetting council as we have a new ML!", -- [1086]
-			"23:04:59 - MasterLooter =  (Laru-Frostwolf)", -- [1087]
-			"23:04:59 - GetCouncilInGroup (Laru-Frostwolf)", -- [1088]
-			"23:04:59 - ML:NewML (Laru-Frostwolf)", -- [1089]
-			"23:04:59 - UpdateMLdb", -- [1090]
-			"23:04:59 - UpdateGroup (true)", -- [1091]
-			"23:04:59 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [1092]
-			"23:04:59 - GetCouncilInGroup (Laru-Frostwolf)", -- [1093]
-			"23:04:59 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1094]
-			"23:04:59 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1095]
-			"23:04:59 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1096]
-			"23:04:59 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1097]
-			"23:04:59 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1098]
-			"23:04:59 - true = (IsCouncil) (Laru-Frostwolf)", -- [1099]
-			"23:04:59 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N344.5625^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1100]
-			"23:04:59 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (344.5625)", -- [1101]
-			"23:05:00 - ML event (CHAT_MSG_WHISPER) (inv) (Kremo-Frostwolf) () () (Kremo) () (0) (0) () (0) (3660) (Player-3703-04E9E5C0) (0) (false) (false) (false) (false)", -- [1102]
-			"23:05:01 - VotingFrame:Update() without lootTable!!", -- [1103]
-			"23:05:02 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Talar) (distri:) (WHISPER)", -- [1104]
-			"23:05:02 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Talar) (distri:) (WHISPER)", -- [1105]
-			"23:05:02 - VotingFrame:Update() without lootTable!!", -- [1106]
-			"23:05:03 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1107]
-			"23:05:03 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1108]
-			"23:05:03 - true = (IsCouncil) (Laru-Frostwolf)", -- [1109]
-			"23:05:06 - VotingFrame:Update() without lootTable!!", -- [1110]
-			"23:05:08 - VotingFrame:Update() without lootTable!!", -- [1111]
-			"23:05:09 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1112]
-			"23:05:09 - true = (IsCouncil) (Laru-Frostwolf)", -- [1113]
-			"23:05:09 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1114]
-			"23:05:10 - UpdateGroup (table: 000001E5F3CFEE40)", -- [1115]
-			"23:05:10 - ML:AddCandidate (Eowyndra-Frostwolf) (ROGUE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1116]
-			"23:05:10 - ML:AddCandidate (Talar-Frostwolf) (DEMONHUNTER) (TANK) (nil) (nil) (nil) (nil)", -- [1117]
-			"23:05:10 - ML:AddCandidate (Saradoc-Frostwolf) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1118]
-			"23:05:10 - ML:AddCandidate (Kremo-Frostwolf) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1119]
-			"23:05:10 - GetCouncilInGroup (Laru-Frostwolf)", -- [1120]
-			"23:05:10 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1121]
-			"23:05:10 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1122]
-			"23:05:10 - Comm received:^1^SplayerInfo^T^N1^SEowyndra-Frostwolf^N2^SROGUE^N3^SDAMAGER^N4^SGuild~`Master^N5^B^N6^N113^N7^N347.9375^N8^N261^t^^ (from:) (Eowyndra) (distri:) (WHISPER)", -- [1123]
-			"23:05:10 - ML:AddCandidate (Eowyndra-Frostwolf) (ROGUE) (DAMAGER) (Guild Master) (true) (113) (347.9375)", -- [1124]
-			"23:05:10 - Comm received:^1^SplayerInfo^T^N1^STalar-Frostwolf^N2^SDEMONHUNTER^N3^STANK^N4^SRaid~`Member^N6^N0^N7^N346.625^N8^N577^t^^ (from:) (Talar) (distri:) (WHISPER)", -- [1125]
-			"23:05:10 - ML:AddCandidate (Talar-Frostwolf) (DEMONHUNTER) (TANK) (Raid Member) (nil) (0) (346.625)", -- [1126]
-			"23:05:10 - Comm received:^1^SplayerInfo^T^N1^SKremo-Frostwolf^N2^SHUNTER^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N347.5^N8^N253^t^^ (from:) (Kremo) (distri:) (WHISPER)", -- [1127]
-			"23:05:10 - ML:AddCandidate (Kremo-Frostwolf) (HUNTER) (DAMAGER) (Raid Member) (nil) (0) (347.5)", -- [1128]
-			"23:05:13 - Timer MLdb_check passed", -- [1129]
-			"23:05:32 - VotingFrame:Update() without lootTable!!", -- [1130]
-			"23:05:43 - VotingFrame:Update() without lootTable!!", -- [1131]
-			"23:05:59 - VotingFrame:Update() without lootTable!!", -- [1132]
-			"23:06:14 - VotingFrame:Update() without lootTable!!", -- [1133]
-			"23:06:29 - VotingFrame:Update() without lootTable!!", -- [1134]
-			"23:06:34 - VotingFrame:Update() without lootTable!!", -- [1135]
-			"23:06:35 - VotingFrame:Update() without lootTable!!", -- [1136]
-			"23:06:44 - VotingFrame:Update() without lootTable!!", -- [1137]
-			"23:06:52 - VotingFrame:Update() without lootTable!!", -- [1138]
-			"23:07:01 - VotingFrame:Update() without lootTable!!", -- [1139]
-			"23:07:06 - VotingFrame:Update() without lootTable!!", -- [1140]
-			"23:07:08 - VotingFrame:Update() without lootTable!!", -- [1141]
-			"23:07:22 - VotingFrame:Update() without lootTable!!", -- [1142]
-			"23:07:23 - VotingFrame:Update() without lootTable!!", -- [1143]
-			"23:07:27 - VotingFrame:Update() without lootTable!!", -- [1144]
-			"23:07:32 - VotingFrame:Update() without lootTable!!", -- [1145]
-			"23:07:40 - VotingFrame:Update() without lootTable!!", -- [1146]
-			"23:07:43 - VotingFrame:Update() without lootTable!!", -- [1147]
-			"23:07:46 - VotingFrame:Update() without lootTable!!", -- [1148]
-			"23:07:51 - VotingFrame:Update() without lootTable!!", -- [1149]
-			"23:07:53 - VotingFrame:Update() without lootTable!!", -- [1150]
-			"23:07:59 - VotingFrame:Update() without lootTable!!", -- [1151]
-			"23:08:05 - VotingFrame:Update() without lootTable!!", -- [1152]
-			"23:08:06 - VotingFrame:Update() without lootTable!!", -- [1153]
-			"23:08:06 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [1154]
-			"23:08:09 - VotingFrame:Update() without lootTable!!", -- [1155]
-			"23:08:21 - VotingFrame:Update() without lootTable!!", -- [1156]
-			"23:08:34 - VotingFrame:Update() without lootTable!!", -- [1157]
-			"23:08:39 - VotingFrame:Update() without lootTable!!", -- [1158]
-			"23:08:43 - ML event (PLAYER_REGEN_ENABLED)", -- [1159]
-			"23:08:58 - VotingFrame:Update() without lootTable!!", -- [1160]
-			"23:09:02 - VotingFrame:Update() without lootTable!!", -- [1161]
-			"23:09:06 - VotingFrame:Update() without lootTable!!", -- [1162]
-			"23:09:19 - VotingFrame:Update() without lootTable!!", -- [1163]
-			"23:09:46 - VotingFrame:Update() without lootTable!!", -- [1164]
-			"23:10:06 - VotingFrame:Update() without lootTable!!", -- [1165]
-			"23:10:18 - VotingFrame:Update() without lootTable!!", -- [1166]
-			"23:10:22 - VotingFrame:Update() without lootTable!!", -- [1167]
-			"23:10:25 - VotingFrame:Update() without lootTable!!", -- [1168]
-			"23:10:41 - Event: (RAID_INSTANCE_WELCOME) (Kings' Rest (Mythic)) (553762) (0) (0)", -- [1169]
-			"23:10:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1170]
-			"23:10:42 - GetML()", -- [1171]
-			"23:10:42 - VotingFrame:Update() without lootTable!!", -- [1172]
-			"23:10:45 - VotingFrame:Update() without lootTable!!", -- [1173]
-			"23:10:46 - VotingFrame:Update() without lootTable!!", -- [1174]
-			"23:10:56 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1175]
-			"23:10:56 - GetML()", -- [1176]
-			"23:10:58 - VotingFrame:Update() without lootTable!!", -- [1177]
-			"23:11:05 - VotingFrame:Update() without lootTable!!", -- [1178]
-			"23:11:10 - Event: (RAID_INSTANCE_WELCOME) (Kings' Rest (Mythic)) (553729) (0) (0)", -- [1179]
-			"23:11:11 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1180]
-			"23:11:11 - GetML()", -- [1181]
-			"23:11:12 - VotingFrame:Update() without lootTable!!", -- [1182]
-			"23:11:13 - VotingFrame:Update() without lootTable!!", -- [1183]
-			"23:11:16 - VotingFrame:Update() without lootTable!!", -- [1184]
-			"23:11:18 - VotingFrame:Update() without lootTable!!", -- [1185]
-			"23:11:20 - VotingFrame:Update() without lootTable!!", -- [1186]
-			"23:12:39 - VotingFrame:Update() without lootTable!!", -- [1187]
-			"23:13:06 - ML event (PLAYER_REGEN_ENABLED)", -- [1188]
-			"23:13:10 - VotingFrame:Update() without lootTable!!", -- [1189]
-			"23:13:15 - ML event (PLAYER_REGEN_ENABLED)", -- [1190]
-			"23:13:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Scari) (distri:) (GUILD)", -- [1191]
-			"23:13:45 - ML event (PLAYER_REGEN_ENABLED)", -- [1192]
-			"23:14:39 - ML event (PLAYER_REGEN_ENABLED)", -- [1193]
-			"23:15:39 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [1194]
-			"23:15:40 - ML event (PLAYER_REGEN_ENABLED)", -- [1195]
-			"23:16:39 - ML event (PLAYER_REGEN_ENABLED)", -- [1196]
-			"23:17:32 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [1197]
-			"23:17:47 - ML event (PLAYER_REGEN_ENABLED)", -- [1198]
-			"23:18:37 - ML event (PLAYER_REGEN_ENABLED)", -- [1199]
-			"23:18:51 - Event: (ENCOUNTER_START) (2139) (The Golden Serpent) (8) (5)", -- [1200]
-			"23:18:51 - UpdatePlayersData()", -- [1201]
-			"23:20:08 - Event: (ENCOUNTER_END) (2139) (The Golden Serpent) (8) (5) (1)", -- [1202]
-			"23:20:08 - ML event (PLAYER_REGEN_ENABLED)", -- [1203]
-			"23:21:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1204]
-			"23:21:37 - ML event (PLAYER_REGEN_ENABLED)", -- [1205]
-			"23:23:27 - ML event (PLAYER_REGEN_ENABLED)", -- [1206]
-			"23:24:34 - ML event (PLAYER_REGEN_ENABLED)", -- [1207]
-			"23:24:49 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [1208]
-			"23:25:00 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1209]
-			"23:25:20 - ML event (PLAYER_REGEN_ENABLED)", -- [1210]
-			"23:26:16 - ML event (PLAYER_REGEN_ENABLED)", -- [1211]
-			"23:26:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Muhdiee) (distri:) (GUILD)", -- [1212]
-			"23:27:28 - ML event (PLAYER_REGEN_ENABLED)", -- [1213]
-			"23:27:55 - ML event (PLAYER_REGEN_ENABLED)", -- [1214]
-			"23:28:38 - ML event (PLAYER_REGEN_ENABLED)", -- [1215]
-			"23:28:58 - Event: (ENCOUNTER_START) (2142) (Mchimba the Embalmer) (8) (5)", -- [1216]
-			"23:28:58 - UpdatePlayersData()", -- [1217]
-			"23:29:07 - Event: (PARTY_LEADER_CHANGED)", -- [1218]
-			"23:29:07 - GetML()", -- [1219]
-			"23:29:07 - Stop handling loot", -- [1220]
-			"23:29:07 - ML Disabled", -- [1221]
-			"23:29:07 - Resetting council as we have a new ML!", -- [1222]
-			"23:29:07 - MasterLooter =  (Talar-Frostwolf)", -- [1223]
-			"23:29:07 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1224]
-			"23:29:07 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1225]
-			"23:29:07 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1226]
-			"23:29:07 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^STANK^Sclass^SDEMONHUNTER^Srank^S^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SKremo-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1227]
-			"23:29:07 - Comm received:^1^Scouncil^T^N1^T^N1^STalar-Frostwolf^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1228]
-			"23:29:07 - false = (IsCouncil) (Laru-Frostwolf)", -- [1229]
-			"23:29:07 - Hide VotingFrame", -- [1230]
-			"23:29:07 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1231]
-			"23:29:17 - Comm received:^1^Scouncil^T^N1^T^N1^STalar-Frostwolf^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1232]
-			"23:29:17 - false = (IsCouncil) (Laru-Frostwolf)", -- [1233]
-			"23:29:17 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^STANK^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.125^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1234]
-			"23:29:22 - Timer MLdb_check passed", -- [1235]
-			"23:30:05 - Event: (ENCOUNTER_END) (2142) (Mchimba the Embalmer) (8) (5) (1)", -- [1236]
-			"23:37:26 - Event: (ENCOUNTER_START) (2140) (The Council of Tribes) (8) (5)", -- [1237]
-			"23:37:26 - UpdatePlayersData()", -- [1238]
-			"23:40:14 - Event: (ENCOUNTER_END) (2140) (The Council of Tribes) (8) (5) (1)", -- [1239]
-			"23:41:57 - Event: (ENCOUNTER_START) (2143) (King Dazar) (8) (5)", -- [1240]
-			"23:41:57 - UpdatePlayersData()", -- [1241]
-			"23:42:07 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1242]
-			"23:43:31 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1243]
-			"23:43:59 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [1244]
-			"23:44:05 - Event: (ENCOUNTER_END) (2143) (King Dazar) (8) (5) (1)", -- [1245]
-			"23:44:38 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Eowyndra) (ROGUE)", -- [1246]
-			"23:44:39 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Talar) (DEMONHUNTER)", -- [1247]
-			"23:44:39 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (159301) (|cffa335ee|Hitem:159301::::::::120:65::16:4:5005:4802:1527:4786:::|h[Primal Dinomancer's Belt]|h|r) (1) (Talar) (DEMONHUNTER)", -- [1248]
-			"23:44:40 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Kremo) (HUNTER)", -- [1249]
-			"23:44:40 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:260::::::|h[Hydrocore]|h|r^t^^ (from:) (Eowyndra) (distri:) (PARTY)", -- [1250]
-			"23:44:40 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (159371) (|cffa335ee|Hitem:159371::::::::120:65::16:3:5005:1527:4786:::|h[Boots of the Headlong Conqueror]|h|r) (1) (Kremo) (HUNTER)", -- [1251]
-			"23:44:41 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (158923) (|cffa335ee|Hitem:158923::::::::120:65:917504:::353:2:10:::|h[Mythic Keystone]|h|r) (1) (Kremo) (HUNTER)", -- [1252]
-			"23:44:41 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Saradoc) (HUNTER)", -- [1253]
-			"23:44:41 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:581::::::|h[Hydrocore]|h|r^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1254]
-			"23:44:41 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159301::::::::120:581::16:4:5005:4802:1527:4786:::|h[Primal~`Dinomancer's~`Belt]|h|r^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1255]
-			"23:44:41 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (158923) (|cffa335ee|Hitem:158923::::::::120:65:917504:::247:2:10:::|h[Mythic Keystone]|h|r) (1) (Saradoc) (HUNTER)", -- [1256]
-			"23:44:42 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:253::::::|h[Hydrocore]|h|r^t^^ (from:) (Kremo) (distri:) (PARTY)", -- [1257]
-			"23:44:43 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159371::::::::120:253::16:3:5005:1527:4786:::|h[Boots~`of~`the~`Headlong~`Conqueror]|h|r^t^^ (from:) (Kremo) (distri:) (PARTY)", -- [1258]
-			"23:44:44 - Event: (LOOT_OPENED) (true)", -- [1259]
-			"23:44:44 - GetUnitName: (King Dazar)", -- [1260]
-			"23:44:44 - UnitGUID: (Creature-0-3891-1762-11499-136160-00001046A7)", -- [1261]
-			"23:44:44 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [1262]
-			"23:44:44 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:160216::::::::120:65::16:5:5005:4802:42:1527:4786:::|h[Crackling Jade Kilij]|h|r) (nil)", -- [1263]
-			"23:44:44 - Adding to self.lootSlotInfo (3) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [1264]
-			"23:44:45 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [1265]
-			"23:44:45 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Laru) (PALADIN)", -- [1266]
-			"23:44:45 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:160216::::::::120:65::16:5:5005:4802:42:1527:4786:::|h[Crackling Jade Kilij]|h|r) (nil)", -- [1267]
-			"23:44:45 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (160216) (|cffa335ee|Hitem:160216::::::::120:65::16:5:5005:4802:42:1527:4786:::|h[Crackling Jade Kilij]|h|r) (1) (Laru) (PALADIN)", -- [1268]
-			"23:44:45 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [1269]
-			"23:44:45 - Event: (LOOT_CLOSED)", -- [1270]
-			"23:44:47 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1271]
-			"23:44:47 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:160216::::::::120:65::16:5:5005:4802:42:1527:4786:::|h[Crackling~`Jade~`Kilij]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1272]
-			"23:44:52 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Zappyluze) (distri:) (GUILD)", -- [1273]
-			"23:44:56 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1274]
-			"23:45:55 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1275]
-			"23:45:55 - GetML()", -- [1276]
-			"23:46:39 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydruid) (distri:) (GUILD)", -- [1277]
-			"23:46:42 - Event: (RAID_INSTANCE_WELCOME) (Kings' Rest (Mythic)) (551597) (0) (0)", -- [1278]
-			"23:46:43 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1279]
-			"23:46:43 - GetML()", -- [1280]
-			"23:47:36 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1281]
-			"23:47:36 - GetML()", -- [1282]
-			"23:47:56 - Event: (RAID_INSTANCE_WELCOME) (Kings' Rest (Mythic)) (551523) (0) (0)", -- [1283]
-			"23:47:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1284]
-			"23:47:57 - GetML()", -- [1285]
-			"23:49:13 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1286]
-			"23:49:42 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1287]
-			"23:49:44 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [1288]
-			"23:50:07 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1289]
-			"23:50:31 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1290]
-			"23:54:00 - Event: (ENCOUNTER_START) (2139) (The Golden Serpent) (8) (5)", -- [1291]
-			"23:54:00 - UpdatePlayersData()", -- [1292]
-			"23:55:03 - Event: (ENCOUNTER_END) (2139) (The Golden Serpent) (8) (5) (1)", -- [1293]
-			"23:56:07 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Cayren) (distri:) (GUILD)", -- [1294]
-			"00:03:05 - Event: (ENCOUNTER_START) (2142) (Mchimba the Embalmer) (8) (5)", -- [1295]
-			"00:03:05 - UpdatePlayersData()", -- [1296]
-			"00:03:27 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1297]
-			"00:04:01 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1298]
-			"00:04:27 - Event: (ENCOUNTER_END) (2142) (Mchimba the Embalmer) (8) (5) (1)", -- [1299]
-			"00:05:54 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1300]
-			"00:08:14 - Comm received:^1^SverTest^T^N1^S2.8.0^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [1301]
-			"00:08:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1302]
-			"00:10:58 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1303]
-			"00:12:03 - Event: (ENCOUNTER_START) (2140) (The Council of Tribes) (8) (5)", -- [1304]
-			"00:12:03 - UpdatePlayersData()", -- [1305]
-			"00:12:17 - Comm received:^1^SverTest^T^N1^S2.8.0^t^^ (from:) (Fallen) (distri:) (GUILD)", -- [1306]
-			"00:13:11 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1307]
-			"00:15:38 - Event: (ENCOUNTER_END) (2140) (The Council of Tribes) (8) (5) (1)", -- [1308]
-			"00:17:45 - Event: (ENCOUNTER_START) (2143) (King Dazar) (8) (5)", -- [1309]
-			"00:17:45 - UpdatePlayersData()", -- [1310]
-			"00:19:52 - Event: (ENCOUNTER_END) (2143) (King Dazar) (8) (5) (1)", -- [1311]
-			"00:19:59 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Talar) (DEMONHUNTER)", -- [1312]
-			"00:20:00 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (159304) (|cffa335ee|Hitem:159304::::::::120:65::16:4:5005:42:1527:4786:::|h[Goldfeather Boots]|h|r) (1) (Talar) (DEMONHUNTER)", -- [1313]
-			"00:20:02 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:581::::::|h[Hydrocore]|h|r^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1314]
-			"00:20:02 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:159304::::::::120:581::16:4:5005:42:1527:4786:::|h[Goldfeather~`Boots]|h|r^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1315]
-			"00:20:02 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Eowyndra) (ROGUE)", -- [1316]
-			"00:20:02 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (159136) (|cffa335ee|Hitem:159136::::::::120:65::16:3:5005:1527:4786:::|h[Jeweled Dagger of Subjugation]|h|r) (1) (Eowyndra) (ROGUE)", -- [1317]
-			"00:20:04 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:260::::::|h[Hydrocore]|h|r^t^^ (from:) (Eowyndra) (distri:) (PARTY)", -- [1318]
-			"00:20:04 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159136::::::::120:260::16:3:5005:1527:4786:::|h[Jeweled~`Dagger~`of~`Subjugation]|h|r^t^^ (from:) (Eowyndra) (distri:) (PARTY)", -- [1319]
-			"00:20:06 - Event: (LOOT_OPENED) (true)", -- [1320]
-			"00:20:06 - GetUnitName: (King Dazar)", -- [1321]
-			"00:20:06 - UnitGUID: (Creature-0-4244-1762-10381-136160-0000104F31)", -- [1322]
-			"00:20:06 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [1323]
-			"00:20:06 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [1324]
-			"00:20:06 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Kremo) (HUNTER)", -- [1325]
-			"00:20:06 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (159369) (|cffa335ee|Hitem:159369::::::::120:65::16:3:5005:1527:4786:::|h[Belt of the Consecrated Tomb]|h|r) (1) (Kremo) (HUNTER)", -- [1326]
-			"00:20:07 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [1327]
-			"00:20:07 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [1328]
-			"00:20:07 - Event: (LOOT_CLOSED)", -- [1329]
-			"00:20:07 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Laru) (PALADIN)", -- [1330]
-			"00:20:08 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:253::::::|h[Hydrocore]|h|r^t^^ (from:) (Kremo) (distri:) (PARTY)", -- [1331]
-			"00:20:08 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159369::::::::120:253::16:3:5005:1527:4786:::|h[Belt~`of~`the~`Consecrated~`Tomb]|h|r^t^^ (from:) (Kremo) (distri:) (PARTY)", -- [1332]
-			"00:20:10 - Comm received:^1^Snot_tradeable^T^N1^S|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1333]
-			"00:20:19 - Event: (ENCOUNTER_LOOT_RECEIVED) (2143) (162460) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (1) (Saradoc) (HUNTER)", -- [1334]
-			"00:21:09 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1335]
-			"00:21:09 - GetML()", -- [1336]
-			"00:21:29 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1337]
-			"00:21:29 - Comm received:^1^Scandidates^T^N1^T^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N346.625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.125^Senchant_lvl^N113^Sclass^SROGUE^Senchanter^B^Srank^SGuild~`Master^t^SKremo-Frostwolf^T^Srole^SDAMAGER^SspecID^N347.5^Senchant_lvl^N0^Sclass^SHUNTER^Srank^SRaid~`Member^t^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N344.5625^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSaradoc-Frostwolf^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Talar) (distri:) (PARTY)", -- [1338]
-			"00:21:31 - Comm received:^1^SverTest^T^N1^S2.8.0^t^^ (from:) (Liali) (distri:) (GUILD)", -- [1339]
-			"00:21:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1340]
-			"00:23:01 - Event: (GROUP_LEFT) (1) (Party-3703-00001A38328A)", -- [1341]
-			"00:23:01 - GetML()", -- [1342]
-			"00:23:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1343]
-			"00:24:31 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [1344]
-			"00:28:05 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [1345]
-			"00:28:17 - Event: (LOOT_OPENED) (true)", -- [1346]
-			"00:28:17 - GetUnitName: (Dreadcoil Aggressor)", -- [1347]
-			"00:28:17 - UnitGUID: (Creature-0-3892-1642-26329-135466-000010492A)", -- [1348]
-			"00:28:17 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1349]
-			"00:28:17 - OnLootSlotCleared() (1) (nil) (nil)", -- [1350]
-			"00:28:17 - Event: (LOOT_CLOSED)", -- [1351]
-			"00:29:02 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [1352]
-			"00:33:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Lardeck) (distri:) (GUILD)", -- [1353]
-			"09/06/18", -- [1354]
-			"11:54:36 - Logged In", -- [1355]
-			"11:54:36 - ML initialized!", -- [1356]
-			"11:54:36 - TradeUI enabled", -- [1357]
-			"11:54:45 - Laru-Frostwolf (2.8.3) (nil)", -- [1358]
-			"11:54:45 - ActivateSkin (new_blue)", -- [1359]
-			"11:54:46 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1360]
-			"11:54:46 - GetML()", -- [1361]
-			"11:54:46 - UpdatePlayersData()", -- [1362]
-			"11:54:47 - GetPlayersGuildRank()", -- [1363]
-			"11:54:47 - Found Guild Rank: Raid Member", -- [1364]
-			"11:54:47 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laru) (distri:) (GUILD)", -- [1365]
-			"11:58:39 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gardinia) (distri:) (GUILD)", -- [1366]
-			"11:59:07 - Event: (PARTY_LEADER_CHANGED)", -- [1367]
-			"11:59:07 - GetML()", -- [1368]
-			"11:59:07 - Resetting council as we have a new ML!", -- [1369]
-			"11:59:07 - MasterLooter =  (Laru-Frostwolf)", -- [1370]
-			"11:59:07 - GetCouncilInGroup (Laru-Frostwolf)", -- [1371]
-			"11:59:07 - ML:NewML (Laru-Frostwolf)", -- [1372]
-			"11:59:07 - UpdateMLdb", -- [1373]
-			"11:59:07 - UpdateGroup (true)", -- [1374]
-			"11:59:07 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1375]
-			"11:59:07 - GetCouncilInGroup (Laru-Frostwolf)", -- [1376]
-			"11:59:07 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1377]
-			"11:59:07 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1378]
-			"11:59:07 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1379]
-			"11:59:07 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1380]
-			"11:59:07 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1381]
-			"11:59:07 - true = (IsCouncil) (Laru-Frostwolf)", -- [1382]
-			"11:59:07 - GetLootDBStatistics()", -- [1383]
-			"11:59:07 - GetGuildRankNum()", -- [1384]
-			"11:59:07 - RCVotingFrame (enabled)", -- [1385]
-			"11:59:07 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (DAMAGER) (Raid Member) (nil) (0) (342.375)", -- [1386]
-			"11:59:07 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N342.375^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1387]
-			"11:59:17 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1388]
-			"11:59:17 - true = (IsCouncil) (Laru-Frostwolf)", -- [1389]
-			"11:59:17 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.375^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1390]
-			"11:59:17 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Voodoneses) (distri:) (GUILD)", -- [1391]
-			"11:59:18 - VotingFrame:Update() without lootTable!!", -- [1392]
-			"11:59:21 - VotingFrame:Update() without lootTable!!", -- [1393]
-			"11:59:22 - Timer MLdb_check passed", -- [1394]
-			"11:59:23 - VotingFrame:Update() without lootTable!!", -- [1395]
-			"11:59:27 - UpdateGroup (table: 000002332C288300)", -- [1396]
-			"11:59:27 - ML:AddCandidate (Boindell-Proudmoore) (DRUID) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1397]
-			"11:59:27 - ML:AddCandidate (Nurzgashu-Terrordar) (SHAMAN) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1398]
-			"11:59:27 - ML:AddCandidate (Komnena-Quel'Thalas) (PRIEST) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1399]
-			"11:59:27 - ML:AddCandidate (баннда-Ревущийфьорд) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1400]
-			"11:59:27 - GetCouncilInGroup (Laru-Frostwolf)", -- [1401]
-			"11:59:27 - Comm received:^1^Sxrealm^T^N1^SBoindell-Proudmoore^N2^SplayerInfoRequest^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1402]
-			"11:59:27 - Comm received:^1^Sxrealm^T^N1^SNurzgashu-Terrordar^N2^SplayerInfoRequest^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1403]
-			"11:59:27 - Comm received:^1^Sxrealm^T^N1^SKomnena-Quel'Thalas^N2^SplayerInfoRequest^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1404]
-			"11:59:27 - Comm received:^1^Sxrealm^T^N1^Sбаннда-Ревущийфьорд^N2^SplayerInfoRequest^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1405]
-			"11:59:27 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1406]
-			"11:59:27 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.375^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SKomnena-Quel'Thalas^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SBoindell-Proudmoore^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^Sбаннда-Ревущийфьорд^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SNurzgashu-Terrordar^T^Srole^SDAMAGER^Sclass^SSHAMAN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1407]
-			"11:59:28 - VotingFrame:Update() without lootTable!!", -- [1408]
-			"11:59:31 - VotingFrame:Update() without lootTable!!", -- [1409]
-			"11:59:32 - VotingFrame:Update() without lootTable!!", -- [1410]
-			"11:59:36 - VotingFrame:Update() without lootTable!!", -- [1411]
-			"12:00:01 - Event: (LOOT_OPENED) (true)", -- [1412]
-			"12:00:01 - GetUnitName: (Minor Azerite Infused Elemental)", -- [1413]
-			"12:00:01 - UnitGUID: (Creature-0-4241-1642-2293-136616-000210FA86)", -- [1414]
-			"12:00:01 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1415]
-			"12:00:01 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1416]
-			"12:00:01 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1417]
-			"12:00:01 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1418]
-			"12:00:01 - Event: (LOOT_CLOSED)", -- [1419]
-			"12:00:01 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx2.) () () () (Laru) () (0) (0) () (0) (26) (nil) (0) (false) (false) (false) (false)", -- [1420]
-			"12:00:01 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx3.) () () () (Laru) () (0) (0) () (0) (27) (nil) (0) (false) (false) (false) (false)", -- [1421]
-			"12:00:13 - VotingFrame:Update() without lootTable!!", -- [1422]
-			"12:00:19 - VotingFrame:Update() without lootTable!!", -- [1423]
-			"12:00:25 - ML event (CHAT_MSG_LOOT) (Nurzgashu-Terrordar receives loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx2.) () () () (Nurzgashu-Terrordar) () (0) (0) () (0) (36) (nil) (0) (false) (false) (false) (false)", -- [1424]
-			"12:00:25 - ML event (CHAT_MSG_LOOT) (Nurzgashu-Terrordar receives loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r.) () () () (Nurzgashu-Terrordar) () (0) (0) () (0) (37) (nil) (0) (false) (false) (false) (false)", -- [1425]
-			"12:00:30 - VotingFrame:Update() without lootTable!!", -- [1426]
-			"12:00:31 - VotingFrame:Update() without lootTable!!", -- [1427]
-			"12:00:35 - ML event (PLAYER_REGEN_ENABLED)", -- [1428]
-			"12:00:36 - ML event (CHAT_MSG_LOOT) (Komnena-Quel'Thalas receives loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx5.) () () () (Komnena-Quel'Thalas) () (0) (0) () (0) (38) (nil) (0) (false) (false) (false) (false)", -- [1429]
-			"12:00:36 - ML event (CHAT_MSG_LOOT) (Komnena-Quel'Thalas receives loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx2.) () () () (Komnena-Quel'Thalas) () (0) (0) () (0) (39) (nil) (0) (false) (false) (false) (false)", -- [1430]
-			"12:00:36 - Event: (LOOT_OPENED) (true)", -- [1431]
-			"12:00:36 - GetUnitName: (Minor Azerite Infused Elemental)", -- [1432]
-			"12:00:36 - UnitGUID: (Creature-0-4241-1642-2293-136616-000010FA9E)", -- [1433]
-			"12:00:36 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1434]
-			"12:00:36 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1435]
-			"12:00:37 - ML event (CHAT_MSG_LOOT) (Nurzgashu-Terrordar receives loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx5.) () () () (Nurzgashu-Terrordar) () (0) (0) () (0) (40) (nil) (0) (false) (false) (false) (false)", -- [1436]
-			"12:00:37 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1437]
-			"12:00:37 - ML event (CHAT_MSG_LOOT) (Nurzgashu-Terrordar receives loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx2.) () () () (Nurzgashu-Terrordar) () (0) (0) () (0) (41) (nil) (0) (false) (false) (false) (false)", -- [1438]
-			"12:00:37 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx2.) () () () (Laru) () (0) (0) () (0) (42) (nil) (0) (false) (false) (false) (false)", -- [1439]
-			"12:00:38 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1440]
-			"12:00:38 - Event: (LOOT_CLOSED)", -- [1441]
-			"12:00:38 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx5.) () () () (Laru) () (0) (0) () (0) (43) (nil) (0) (false) (false) (false) (false)", -- [1442]
-			"12:00:49 - Event: (LOOT_OPENED) (true)", -- [1443]
-			"12:00:49 - GetUnitName: (Minor Azerite Infused Elemental)", -- [1444]
-			"12:00:49 - UnitGUID: (Creature-0-4241-1642-2293-136616-000110FA7C)", -- [1445]
-			"12:00:49 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1446]
-			"12:00:49 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1447]
-			"12:00:49 - Event: (LOOT_CLOSED)", -- [1448]
-			"12:00:49 - VotingFrame:Update() without lootTable!!", -- [1449]
-			"12:00:49 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx2.) () () () (Laru) () (0) (0) () (0) (44) (nil) (0) (false) (false) (false) (false)", -- [1450]
-			"12:00:50 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r.) () () () (Laru) () (0) (0) () (0) (45) (nil) (0) (false) (false) (false) (false)", -- [1451]
-			"12:00:51 - ML event (CHAT_MSG_LOOT) (Nurzgashu-Terrordar receives loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx3.) () () () (Nurzgashu-Terrordar) () (0) (0) () (0) (46) (nil) (0) (false) (false) (false) (false)", -- [1452]
-			"12:00:51 - ML event (CHAT_MSG_LOOT) (Nurzgashu-Terrordar receives loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r.) () () () (Nurzgashu-Terrordar) () (0) (0) () (0) (47) (nil) (0) (false) (false) (false) (false)", -- [1453]
-			"12:00:51 - ML event (PLAYER_REGEN_ENABLED)", -- [1454]
-			"12:00:54 - ML event (CHAT_MSG_LOOT) (Nurzgashu-Terrordar receives loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r.) () () () (Nurzgashu-Terrordar) () (0) (0) () (0) (54) (nil) (0) (false) (false) (false) (false)", -- [1455]
-			"12:01:05 - VotingFrame:Update() without lootTable!!", -- [1456]
-			"12:01:10 - VotingFrame:Update() without lootTable!!", -- [1457]
-			"12:01:12 - VotingFrame:Update() without lootTable!!", -- [1458]
-			"12:01:13 - VotingFrame:Update() without lootTable!!", -- [1459]
-			"12:01:14 - VotingFrame:Update() without lootTable!!", -- [1460]
-			"12:01:17 - VotingFrame:Update() without lootTable!!", -- [1461]
-			"12:01:30 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [1462]
-			"12:01:31 - ML event (PLAYER_REGEN_ENABLED)", -- [1463]
-			"12:01:32 - Event: (LOOT_OPENED) (true)", -- [1464]
-			"12:01:32 - GetUnitName: (Infused Crag)", -- [1465]
-			"12:01:32 - UnitGUID: (Creature-0-4241-1642-2293-136613-000010FABA)", -- [1466]
-			"12:01:32 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1467]
-			"12:01:32 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1468]
-			"12:01:32 - Event: (LOOT_CLOSED)", -- [1469]
-			"12:01:32 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r.) () () () (Laru) () (0) (0) () (0) (57) (nil) (0) (false) (false) (false) (false)", -- [1470]
-			"12:01:33 - VotingFrame:Update() without lootTable!!", -- [1471]
-			"12:01:33 - ML event (CHAT_MSG_LOOT) (Nurzgashu-Terrordar receives loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r.) () () () (Nurzgashu-Terrordar) () (0) (0) () (0) (58) (nil) (0) (false) (false) (false) (false)", -- [1472]
-			"12:01:34 - VotingFrame:Update() without lootTable!!", -- [1473]
-			"12:01:39 - ML event (CHAT_MSG_LOOT) (Boindell-Proudmoore receives loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx5.) () () () (Boindell-Proudmoore) () (0) (0) () (0) (62) (nil) (0) (false) (false) (false) (false)", -- [1474]
-			"12:01:39 - ML event (CHAT_MSG_LOOT) (Boindell-Proudmoore receives loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx4.) () () () (Boindell-Proudmoore) () (0) (0) () (0) (63) (nil) (0) (false) (false) (false) (false)", -- [1475]
-			"12:01:42 - ML event (CHAT_MSG_LOOT) (Баннда-Ревущийфьорд receives loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx7.) () () () (Баннда-Ревущийфьорд) () (0) (0) () (0) (64) (nil) (0) (false) (false) (false) (false)", -- [1476]
-			"12:01:42 - ML event (CHAT_MSG_LOOT) (Баннда-Ревущийфьорд receives loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx2.) () () () (Баннда-Ревущийфьорд) () (0) (0) () (0) (65) (nil) (0) (false) (false) (false) (false)", -- [1477]
-			"12:01:46 - Event: (LOOT_OPENED) (true)", -- [1478]
-			"12:01:46 - GetUnitName: (Minor Azerite Infused Elemental)", -- [1479]
-			"12:01:46 - UnitGUID: (Creature-0-4241-1642-2293-136616-000190FAD8)", -- [1480]
-			"12:01:46 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1481]
-			"12:01:46 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1482]
-			"12:01:47 - Event: (LOOT_CLOSED)", -- [1483]
-			"12:01:47 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx4.) () () () (Laru) () (0) (0) () (0) (67) (nil) (0) (false) (false) (false) (false)", -- [1484]
-			"12:01:47 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r.) () () () (Laru) () (0) (0) () (0) (68) (nil) (0) (false) (false) (false) (false)", -- [1485]
-			"12:01:48 - UpdateGroup (table: 000002332C288300)", -- [1486]
-			"12:01:48 - ML:RemoveCandidate (Komnena-Quel'Thalas)", -- [1487]
-			"12:01:48 - ML:RemoveCandidate (Nurzgashu-Terrordar)", -- [1488]
-			"12:01:48 - GetCouncilInGroup (Laru-Frostwolf)", -- [1489]
-			"12:01:48 - ML event (PLAYER_REGEN_ENABLED)", -- [1490]
-			"12:01:48 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1491]
-			"12:01:48 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.375^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SBoindell-Proudmoore^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^Sбаннда-Ревущийфьорд^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1492]
-			"12:01:51 - ML event (CHAT_MSG_LOOT) (Баннда-Ревущийфьорд receives loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx2.) () () () (Баннда-Ревущийфьорд) () (0) (0) () (0) (78) (nil) (0) (false) (false) (false) (false)", -- [1493]
-			"12:01:51 - ML event (CHAT_MSG_LOOT) (Баннда-Ревущийфьорд receives loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r.) () () () (Баннда-Ревущийфьорд) () (0) (0) () (0) (79) (nil) (0) (false) (false) (false) (false)", -- [1494]
-			"12:01:58 - UpdateGroup (table: 000002332C288300)", -- [1495]
-			"12:01:58 - ML:RemoveCandidate (Boindell-Proudmoore)", -- [1496]
-			"12:01:58 - GetCouncilInGroup (Laru-Frostwolf)", -- [1497]
-			"12:01:58 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1498]
-			"12:01:58 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.375^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^Sбаннда-Ревущийфьорд^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1499]
-			"12:01:59 - Event: (LOOT_OPENED) (true)", -- [1500]
-			"12:01:59 - GetUnitName: (Infused Bedrock)", -- [1501]
-			"12:01:59 - UnitGUID: (Creature-0-4241-1642-2293-136614-000010FA6E)", -- [1502]
-			"12:01:59 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1503]
-			"12:01:59 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1504]
-			"12:01:59 - Adding to self.lootSlotInfo (3) (|cff9d9d9d|Hitem:158844::::::::120:70::::::|h[Shimmerdust]|h|r) (nil)", -- [1505]
-			"12:01:59 - Event: (LOOT_CLOSED)", -- [1506]
-			"12:01:59 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx6.) () () () (Laru) () (0) (0) () (0) (81) (nil) (0) (false) (false) (false) (false)", -- [1507]
-			"12:01:59 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx4.) () () () (Laru) () (0) (0) () (0) (82) (nil) (0) (false) (false) (false) (false)", -- [1508]
-			"12:01:59 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:158844::::::::120:70::::::|h[Shimmerdust]|h|r.) () () () (Laru) () (0) (0) () (0) (83) (nil) (0) (false) (false) (false) (false)", -- [1509]
-			"12:02:11 - Event: (GROUP_LEFT) (1) (Party-3703-00001A3A1CA4)", -- [1510]
-			"12:02:11 - GetML()", -- [1511]
-			"12:02:11 - Stop handling loot", -- [1512]
-			"12:02:11 - ML Disabled", -- [1513]
-			"12:02:11 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1514]
-			"12:03:11 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [1515]
-			"12:03:50 - Event: (PARTY_LEADER_CHANGED)", -- [1516]
-			"12:03:50 - GetML()", -- [1517]
-			"12:03:50 - Resetting council as we have a new ML!", -- [1518]
-			"12:03:50 - MasterLooter =  (Nurzgashu-Terrordar)", -- [1519]
-			"12:03:55 - VotingFrame:Update() without lootTable!!", -- [1520]
-			"12:04:00 - VotingFrame:Update() without lootTable!!", -- [1521]
-			"12:04:01 - VotingFrame:Update() without lootTable!!", -- [1522]
-			"12:04:04 - Event: (PARTY_LEADER_CHANGED)", -- [1523]
-			"12:04:04 - GetML()", -- [1524]
-			"12:04:04 - Resetting council as we have a new ML!", -- [1525]
-			"12:04:04 - MasterLooter =  (Laru-Frostwolf)", -- [1526]
-			"12:04:04 - GetCouncilInGroup (Laru-Frostwolf)", -- [1527]
-			"12:04:04 - ML:NewML (Laru-Frostwolf)", -- [1528]
-			"12:04:04 - UpdateMLdb", -- [1529]
-			"12:04:04 - UpdateGroup (true)", -- [1530]
-			"12:04:04 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1531]
-			"12:04:04 - ML:AddCandidate (Blubbux-Frostwolf) (MAGE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1532]
-			"12:04:04 - ML:AddCandidate (Laríx-Frostwolf) (PALADIN) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1533]
-			"12:04:04 - GetCouncilInGroup (Laru-Frostwolf)", -- [1534]
-			"12:04:04 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1535]
-			"12:04:04 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1536]
-			"12:04:04 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1537]
-			"12:04:04 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^Sclass^SPALADIN^Srank^S^t^SLaríx-Frostwolf^T^Srole^SDAMAGER^Sclass^SPALADIN^Srank^S^t^SBlubbux-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1538]
-			"12:04:04 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1539]
-			"12:04:04 - true = (IsCouncil) (Laru-Frostwolf)", -- [1540]
-			"12:04:04 - ML event (PLAYER_REGEN_ENABLED)", -- [1541]
-			"12:04:04 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (DAMAGER) (Raid Member) (nil) (0) (342.375)", -- [1542]
-			"12:04:04 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N342.375^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1543]
-			"12:04:05 - Timer MLdb_check passed", -- [1544]
-			"12:04:09 - VotingFrame:Update() without lootTable!!", -- [1545]
-			"12:04:12 - ML event (PLAYER_REGEN_ENABLED)", -- [1546]
-			"12:04:14 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1547]
-			"12:04:14 - true = (IsCouncil) (Laru-Frostwolf)", -- [1548]
-			"12:04:14 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.375^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SLaríx-Frostwolf^T^Srole^SDAMAGER^Sclass^SPALADIN^Srank^S^t^SBlubbux-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1549]
-			"12:04:14 - VotingFrame:Update() without lootTable!!", -- [1550]
-			"12:04:19 - Timer MLdb_check passed", -- [1551]
-			"12:04:19 - VotingFrame:Update() without lootTable!!", -- [1552]
-			"12:04:22 - ML event (CHAT_MSG_LOOT) (You receive item: |cff0070dd|Hitem:157934::::::::120:70::26:3:4803:1517:4785:::|h[Vambraces of Rezan's Bladeguard]|h|r.) () () () (Laru) () (0) (0) () (0) (117) (nil) (0) (false) (false) (false) (false)", -- [1553]
-			"12:04:22 - ML event (PLAYER_REGEN_ENABLED)", -- [1554]
-			"12:04:26 - ML event (PLAYER_REGEN_ENABLED)", -- [1555]
-			"12:04:26 - Event: (GROUP_LEFT) (1) (Party-531-0000180E1C3A)", -- [1556]
-			"12:04:26 - GetML()", -- [1557]
-			"12:04:26 - Stop handling loot", -- [1558]
-			"12:04:26 - ML Disabled", -- [1559]
-			"12:04:26 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1560]
-			"12:05:43 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Fluffypillow) (distri:) (GUILD)", -- [1561]
-			"12:10:55 - Event: (LOOT_OPENED) (true)", -- [1562]
-			"12:10:55 - GetUnitName: (Daggerjaw)", -- [1563]
-			"12:10:55 - UnitGUID: (Creature-0-4241-1642-2293-133190-000010FCF6)", -- [1564]
-			"12:10:55 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:26|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1565]
-			"12:10:55 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:158760::::::::120:70::::::|h[Fin Ray]|h|r) (nil)", -- [1566]
-			"12:10:55 - Adding to self.lootSlotInfo (3) (|cff9d9d9d|Hitem:155603::::::::120:70::::::|h[Flaky Fish Scales]|h|r) (nil)", -- [1567]
-			"12:10:56 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:26|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1568]
-			"12:10:56 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:158760::::::::120:70::::::|h[Fin Ray]|h|r) (nil)", -- [1569]
-			"12:10:56 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:155603::::::::120:70::::::|h[Flaky Fish Scales]|h|r) (nil)", -- [1570]
-			"12:10:56 - Event: (LOOT_CLOSED)", -- [1571]
-			"12:12:05 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gárdor) (distri:) (GUILD)", -- [1572]
-			"12:13:52 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [1573]
-			"12:15:09 - Event: (PARTY_LEADER_CHANGED)", -- [1574]
-			"12:15:09 - GetML()", -- [1575]
-			"12:15:09 - Resetting council as we have a new ML!", -- [1576]
-			"12:15:09 - MasterLooter =  (Kaminholz-Blackhand)", -- [1577]
-			"12:15:10 - VotingFrame:Update() without lootTable!!", -- [1578]
-			"12:15:13 - VotingFrame:Update() without lootTable!!", -- [1579]
-			"12:15:16 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Faramas) (distri:) (GUILD)", -- [1580]
-			"12:15:24 - Timer MLdb_check passed", -- [1581]
-			"12:15:24 - Comm received:^1^Sxrealm^T^N1^SKaminholz-Blackhand^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1582]
-			"12:15:24 - Comm received:^1^Sxrealm^T^N1^SKaminholz-Blackhand^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1583]
-			"12:15:56 - Event: (LOOT_OPENED) (true)", -- [1584]
-			"12:15:56 - GetUnitName: (Bramblewing)", -- [1585]
-			"12:15:56 - UnitGUID: (Creature-0-1631-1642-1076-131718-000010FDF9)", -- [1586]
-			"12:15:56 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:154899::::::::120:70::::::|h[Thick Paleo Steak]|h|r) (nil)", -- [1587]
-			"12:15:56 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:158745::::::::120:70::::::|h[Luminous Scale]|h|r) (nil)", -- [1588]
-			"12:15:56 - OnLootSlotCleared() (1) (|cffffffff|Hitem:154899::::::::120:70::::::|h[Thick Paleo Steak]|h|r) (nil)", -- [1589]
-			"12:15:56 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:158745::::::::120:70::::::|h[Luminous Scale]|h|r) (nil)", -- [1590]
-			"12:15:56 - Event: (LOOT_CLOSED)", -- [1591]
-			"12:15:56 - VotingFrame:Update() without lootTable!!", -- [1592]
-			"12:15:59 - VotingFrame:Update() without lootTable!!", -- [1593]
-			"12:16:07 - Event: (GROUP_LEFT) (1) (Party-3691-00001A3A2C74)", -- [1594]
-			"12:16:07 - GetML()", -- [1595]
-			"12:16:29 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [1596]
-			"12:17:38 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [1597]
-			"12:19:44 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Quovi) (distri:) (GUILD)", -- [1598]
-			"12:27:25 - VotingFrame:Update() without lootTable!!", -- [1599]
-			"12:27:54 - VotingFrame:Update() without lootTable!!", -- [1600]
-			"12:33:02 - Event: (PARTY_LEADER_CHANGED)", -- [1601]
-			"12:33:02 - GetML()", -- [1602]
-			"12:33:02 - Unknown ML", -- [1603]
-			"12:33:03 - GetML()", -- [1604]
-			"12:33:03 - Resetting council as we have a new ML!", -- [1605]
-			"12:33:03 - MasterLooter =  (грасис-Ревущийфьорд)", -- [1606]
-			"12:33:03 - VotingFrame:Update() without lootTable!!", -- [1607]
-			"12:33:06 - VotingFrame:Update() without lootTable!!", -- [1608]
-			"12:33:08 - VotingFrame:Update() without lootTable!!", -- [1609]
-			"12:33:09 - VotingFrame:Update() without lootTable!!", -- [1610]
-			"12:33:18 - Timer MLdb_check passed", -- [1611]
-			"12:33:18 - Comm received:^1^Sxrealm^T^N1^Sграсис-Ревущийфьорд^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1612]
-			"12:33:18 - Comm received:^1^Sxrealm^T^N1^Sграсис-Ревущийфьорд^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1613]
-			"12:33:21 - Comm received:^1^Sxrealm^T^N1^Sграсис-Ревущийфьорд^N2^SMLdb_request^t^^ (from:) (Apaireau-Illidan) (distri:) (PARTY)", -- [1614]
-			"12:33:21 - Comm received:^1^Sxrealm^T^N1^Sграсис-Ревущийфьорд^N2^Scouncil_request^t^^ (from:) (Apaireau-Illidan) (distri:) (PARTY)", -- [1615]
-			"12:33:34 - VotingFrame:Update() without lootTable!!", -- [1616]
-			"12:33:39 - Event: (LOOT_OPENED) (true)", -- [1617]
-			"12:33:39 - GetUnitName: (Sethrak Warden)", -- [1618]
-			"12:33:39 - UnitGUID: (Creature-0-4238-1642-5453-136546-0000110254)", -- [1619]
-			"12:33:39 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1620]
-			"12:33:39 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hitem:152577::::::::120:70::::::|h[Deep Sea Satin]|h|r) (nil)", -- [1621]
-			"12:33:39 - Adding to self.lootSlotInfo (3) (|cff9d9d9d|Hitem:155601::::::::120:70::::::|h[Pointy Leg Segment]|h|r) (nil)", -- [1622]
-			"12:33:39 - OnLootSlotCleared() (1) (nil) (nil)", -- [1623]
-			"12:33:39 - OnLootSlotCleared() (2) (|cff1eff00|Hitem:152577::::::::120:70::::::|h[Deep Sea Satin]|h|r) (nil)", -- [1624]
-			"12:33:40 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:155601::::::::120:70::::::|h[Pointy Leg Segment]|h|r) (nil)", -- [1625]
-			"12:33:40 - Event: (LOOT_CLOSED)", -- [1626]
-			"12:33:49 - VotingFrame:Update() without lootTable!!", -- [1627]
-			"12:33:56 - VotingFrame:Update() without lootTable!!", -- [1628]
-			"12:34:11 - Event: (GROUP_LEFT) (1) (Party-3656-000037DB9ECF)", -- [1629]
-			"12:34:11 - GetML()", -- [1630]
-			"12:34:28 - Event: (LOOT_OPENED) (true)", -- [1631]
-			"12:34:28 - GetUnitName: (Scorpox)", -- [1632]
-			"12:34:28 - UnitGUID: (Creature-0-4238-1642-5453-136336-0000110285)", -- [1633]
-			"12:34:28 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1634]
-			"12:34:28 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:155598::::::::120:70::::::|h[Severed Mandible]|h|r) (nil)", -- [1635]
-			"12:34:28 - OnLootSlotCleared() (1) (nil) (nil)", -- [1636]
-			"12:34:28 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:155598::::::::120:70::::::|h[Severed Mandible]|h|r) (nil)", -- [1637]
-			"12:34:28 - Event: (LOOT_CLOSED)", -- [1638]
-			"12:36:20 - VotingFrame:Update() without lootTable!!", -- [1639]
-			"12:39:03 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydekay) (distri:) (GUILD)", -- [1640]
-			"12:41:20 - Event: (LOOT_OPENED) (true)", -- [1641]
-			"12:41:20 - GetUnitName: (Zebast the Everliving)", -- [1642]
-			"12:41:20 - UnitGUID: (Creature-0-4243-1642-4942-141905-000011042B)", -- [1643]
-			"12:41:20 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:158771::::::::120:70::::::|h[Spirit Ichor]|h|r) (nil)", -- [1644]
-			"12:41:20 - Event: (LOOT_CLOSED)", -- [1645]
-			"12:41:56 - Event: (LOOT_OPENED) (true)", -- [1646]
-			"12:41:56 - GetUnitName: (7th Legion Marine)", -- [1647]
-			"12:41:56 - UnitGUID: (Creature-0-4243-1642-4942-139317-0000110430)", -- [1648]
-			"12:41:56 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1649]
-			"12:41:56 - OnLootSlotCleared() (1) (nil) (nil)", -- [1650]
-			"12:41:56 - Event: (LOOT_CLOSED)", -- [1651]
-			"12:42:14 - Event: (LOOT_OPENED) (true)", -- [1652]
-			"12:42:14 - GetUnitName: (7th Legion Rifleman)", -- [1653]
-			"12:42:14 - UnitGUID: (Creature-0-4243-1642-4942-139495-0000110474)", -- [1654]
-			"12:42:14 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1655]
-			"12:42:14 - Adding to self.lootSlotInfo (2) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [1656]
-			"12:42:14 - OnLootSlotCleared() (1) (nil) (nil)", -- [1657]
-			"12:42:14 - Event: (LOOT_CLOSED)", -- [1658]
-			"12:42:26 - Event: (LOOT_OPENED) (true)", -- [1659]
-			"12:42:26 - GetUnitName: (7th Legion Marine)", -- [1660]
-			"12:42:26 - UnitGUID: (Creature-0-4243-1642-4942-139317-0000910430)", -- [1661]
-			"12:42:26 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1662]
-			"12:42:26 - Event: (LOOT_CLOSED)", -- [1663]
-			"12:43:07 - Event: (LOOT_OPENED) (true)", -- [1664]
-			"12:43:07 - GetUnitName: (Houndmaster Leopold)", -- [1665]
-			"12:43:07 - UnitGUID: (Creature-0-4243-1642-4942-139554-000011048C)", -- [1666]
-			"12:43:07 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1667]
-			"12:43:08 - OnLootSlotCleared() (1) (nil) (nil)", -- [1668]
-			"12:43:08 - Event: (LOOT_CLOSED)", -- [1669]
-			"12:43:29 - Event: (LOOT_OPENED) (true)", -- [1670]
-			"12:43:29 - GetUnitName: (7th Legion Marine)", -- [1671]
-			"12:43:29 - UnitGUID: (Creature-0-4243-1642-4942-139317-0001110430)", -- [1672]
-			"12:43:29 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1673]
-			"12:43:29 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:163580::::::::120:70::::::|h[Delicate Cathedral of Light Replica]|h|r) (nil)", -- [1674]
-			"12:43:29 - Event: (LOOT_CLOSED)", -- [1675]
-			"12:44:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [1676]
-			"12:46:57 - Event: (PARTY_LEADER_CHANGED)", -- [1677]
-			"12:46:57 - GetML()", -- [1678]
-			"12:46:57 - Unknown ML", -- [1679]
-			"12:46:57 - GetML()", -- [1680]
-			"12:46:57 - Resetting council as we have a new ML!", -- [1681]
-			"12:46:57 - MasterLooter =  (милишка-СвежевательДуш)", -- [1682]
-			"12:46:58 - VotingFrame:Update() without lootTable!!", -- [1683]
-			"12:46:59 - VotingFrame:Update() without lootTable!!", -- [1684]
-			"12:47:08 - Event: (LOOT_OPENED) (true)", -- [1685]
-			"12:47:08 - GetUnitName: (Hexbone Raiser)", -- [1686]
-			"12:47:08 - UnitGUID: (Creature-0-4242-1642-2307-134816-0000910593)", -- [1687]
-			"12:47:08 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1688]
-			"12:47:09 - Event: (LOOT_CLOSED)", -- [1689]
-			"12:47:12 - Timer MLdb_check passed", -- [1690]
-			"12:47:12 - Comm received:^1^Sxrealm^T^N1^Sмилишка-СвежевательДуш^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1691]
-			"12:47:12 - Comm received:^1^Sxrealm^T^N1^Sмилишка-СвежевательДуш^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1692]
-			"12:47:19 - Event: (LOOT_OPENED) (true)", -- [1693]
-			"12:47:19 - GetUnitName: (Hexbone Raiser)", -- [1694]
-			"12:47:19 - UnitGUID: (Creature-0-4242-1642-2307-134816-0000110576)", -- [1695]
-			"12:47:19 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1696]
-			"12:47:19 - OnLootSlotCleared() (1) (nil) (nil)", -- [1697]
-			"12:47:19 - Event: (LOOT_CLOSED)", -- [1698]
-			"12:47:27 - VotingFrame:Update() without lootTable!!", -- [1699]
-			"12:47:31 - VotingFrame:Update() without lootTable!!", -- [1700]
-			"12:47:32 - Event: (LOOT_OPENED) (true)", -- [1701]
-			"12:47:32 - GetUnitName: (Hexbone Raiser)", -- [1702]
-			"12:47:32 - UnitGUID: (Creature-0-4242-1642-2307-134816-0001110576)", -- [1703]
-			"12:47:32 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1704]
-			"12:47:32 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:154793::::::::120:70::::::|h[Unraveling Cloth Amice]|h|r) (nil)", -- [1705]
-			"12:47:32 - Event: (LOOT_CLOSED)", -- [1706]
-			"12:47:44 - Event: (LOOT_OPENED) (true)", -- [1707]
-			"12:47:44 - GetUnitName: (Soiled Bograider)", -- [1708]
-			"12:47:44 - UnitGUID: (Creature-0-4242-1642-2307-134812-00011105C2)", -- [1709]
-			"12:47:44 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1710]
-			"12:47:44 - Event: (LOOT_CLOSED)", -- [1711]
-			"12:47:45 - VotingFrame:Update() without lootTable!!", -- [1712]
-			"12:47:49 - VotingFrame:Update() without lootTable!!", -- [1713]
-			"12:47:52 - VotingFrame:Update() without lootTable!!", -- [1714]
-			"12:47:57 - VotingFrame:Update() without lootTable!!", -- [1715]
-			"12:47:59 - Comm received:^1^Sxrealm^T^N1^Sмилишка-СвежевательДуш^N2^SMLdb_request^t^^ (from:) (Корвасс-Ревущийфьорд) (distri:) (PARTY)", -- [1716]
-			"12:47:59 - Comm received:^1^Sxrealm^T^N1^Sмилишка-СвежевательДуш^N2^Scouncil_request^t^^ (from:) (Корвасс-Ревущийфьорд) (distri:) (PARTY)", -- [1717]
-			"12:48:02 - Event: (LOOT_OPENED) (true)", -- [1718]
-			"12:48:02 - GetUnitName: (Vilebone Ravager)", -- [1719]
-			"12:48:02 - UnitGUID: (Creature-0-4242-1642-2307-134852-00001105BA)", -- [1720]
-			"12:48:02 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:158859::::::::120:70::::::|h[Jagged Fang]|h|r) (nil)", -- [1721]
-			"12:48:02 - Adding to self.lootSlotInfo (2) (nil) (nil)", -- [1722]
-			"12:48:03 - Event: (LOOT_CLOSED)", -- [1723]
-			"12:48:07 - Event: (LOOT_OPENED) (true)", -- [1724]
-			"12:48:07 - GetUnitName: (Soiled Bograider)", -- [1725]
-			"12:48:07 - UnitGUID: (Creature-0-4242-1642-2307-134812-00009105B3)", -- [1726]
-			"12:48:07 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1727]
-			"12:48:07 - Adding to self.lootSlotInfo (2) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [1728]
-			"12:48:07 - Adding to self.lootSlotInfo (3) (|cff1eff00|Hitem:159809::::::::120:70:::2:4796:1682:::|h[Rivermarsh Defender of the Quickblade]|h|r) (nil)", -- [1729]
-			"12:48:07 - OnLootSlotCleared() (1) (nil) (nil)", -- [1730]
-			"12:48:08 - OnLootSlotCleared() (2) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [1731]
-			"12:48:08 - OnLootSlotCleared() (3) (|cff1eff00|Hitem:159809::::::::120:70:::2:4796:1682:::|h[Rivermarsh Defender of the Quickblade]|h|r) (nil)", -- [1732]
-			"12:48:08 - Event: (LOOT_CLOSED)", -- [1733]
-			"12:48:21 - Event: (LOOT_OPENED) (true)", -- [1734]
-			"12:48:21 - GetUnitName: (Reconstructed Horror)", -- [1735]
-			"12:48:21 - UnitGUID: (Creature-0-4242-1642-2307-134841-00001105EC)", -- [1736]
-			"12:48:21 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:155608::::::::120:70::::::|h[Defiled Bone]|h|r) (nil)", -- [1737]
-			"12:48:21 - Adding to self.lootSlotInfo (2) (nil) (nil)", -- [1738]
-			"12:48:21 - Adding to self.lootSlotInfo (3) (|cff9d9d9d|Hitem:154795::::::::120:70::::::|h[Crumbling Chain Spaulders]|h|r) (nil)", -- [1739]
-			"12:48:22 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:155608::::::::120:70::::::|h[Defiled Bone]|h|r) (nil)", -- [1740]
-			"12:48:22 - OnLootSlotCleared() (2) (nil) (nil)", -- [1741]
-			"12:48:22 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:154795::::::::120:70::::::|h[Crumbling Chain Spaulders]|h|r) (nil)", -- [1742]
-			"12:48:22 - Event: (LOOT_CLOSED)", -- [1743]
-			"12:48:29 - Event: (GROUP_LEFT) (1) (Party-1604-00002D66A446)", -- [1744]
-			"12:48:29 - GetML()", -- [1745]
-			"12:49:50 - Event: (LOOT_OPENED) (true)", -- [1746]
-			"12:49:50 - GetUnitName: (Totem Maker Jash'ga)", -- [1747]
-			"12:49:50 - UnitGUID: (Creature-0-4242-1642-2307-126056-0000110627)", -- [1748]
-			"12:49:50 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1749]
-			"12:49:50 - Adding to self.lootSlotInfo (2) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [1750]
-			"12:49:51 - OnLootSlotCleared() (1) (nil) (nil)", -- [1751]
-			"12:49:51 - OnLootSlotCleared() (2) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [1752]
-			"12:49:51 - Event: (LOOT_CLOSED)", -- [1753]
-			"12:50:46 - Event: (PARTY_LEADER_CHANGED)", -- [1754]
-			"12:50:46 - GetML()", -- [1755]
-			"12:50:46 - Unknown ML", -- [1756]
-			"12:50:46 - GetML()", -- [1757]
-			"12:50:46 - Resetting council as we have a new ML!", -- [1758]
-			"12:50:46 - MasterLooter =  (Shikimori-Stormreaver)", -- [1759]
-			"12:50:47 - VotingFrame:Update() without lootTable!!", -- [1760]
-			"12:50:48 - VotingFrame:Update() without lootTable!!", -- [1761]
-			"12:50:49 - VotingFrame:Update() without lootTable!!", -- [1762]
-			"12:50:51 - VotingFrame:Update() without lootTable!!", -- [1763]
-			"12:50:56 - Event: (GROUP_LEFT) (1) (Party-581-00001D31F401)", -- [1764]
-			"12:50:56 - GetML()", -- [1765]
-			"12:51:01 - Timer MLdb_check passed", -- [1766]
-			"12:51:05 - Event: (PARTY_LEADER_CHANGED)", -- [1767]
-			"12:51:05 - GetML()", -- [1768]
-			"12:51:05 - Unknown ML", -- [1769]
-			"12:51:06 - GetML()", -- [1770]
-			"12:51:06 - Resetting council as we have a new ML!", -- [1771]
-			"12:51:06 - MasterLooter =  (Charôn-Sen'jin)", -- [1772]
-			"12:51:06 - VotingFrame:Update() without lootTable!!", -- [1773]
-			"12:51:07 - VotingFrame:Update() without lootTable!!", -- [1774]
-			"12:51:08 - VotingFrame:Update() without lootTable!!", -- [1775]
-			"12:51:09 - Comm received:^1^Sxrealm^T^N1^SCharôn-Sen'jin^N2^SMLdb_request^t^^ (from:) (Althein-C'Thun) (distri:) (RAID)", -- [1776]
-			"12:51:09 - Comm received:^1^Sxrealm^T^N1^SCharôn-Sen'jin^N2^Scouncil_request^t^^ (from:) (Althein-C'Thun) (distri:) (RAID)", -- [1777]
-			"12:51:11 - VotingFrame:Update() without lootTable!!", -- [1778]
-			"12:51:13 - VotingFrame:Update() without lootTable!!", -- [1779]
-			"12:51:14 - Event: (PARTY_LEADER_CHANGED)", -- [1780]
-			"12:51:14 - GetML()", -- [1781]
-			"12:51:14 - Unknown ML", -- [1782]
-			"12:51:15 - GetML()", -- [1783]
-			"12:51:15 - Unknown ML", -- [1784]
-			"12:51:15 - GetML()", -- [1785]
-			"12:51:15 - Unknown ML", -- [1786]
-			"12:51:15 - VotingFrame:Update() without lootTable!!", -- [1787]
-			"12:51:15 - Event: (GROUP_LEFT) (1) (Party-1400-0000180E3E2C)", -- [1788]
-			"12:51:15 - GetML()", -- [1789]
-			"12:51:16 - GetML()", -- [1790]
-			"12:51:21 - Event: (PARTY_LEADER_CHANGED)", -- [1791]
-			"12:51:21 - GetML()", -- [1792]
-			"12:51:21 - Resetting council as we have a new ML!", -- [1793]
-			"12:51:21 - MasterLooter =  (Shikimori-Stormreaver)", -- [1794]
-			"12:51:21 - Timer MLdb_check passed", -- [1795]
-			"12:51:21 - Comm received:^1^Sxrealm^T^N1^SShikimori-Stormreaver^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (RAID)", -- [1796]
-			"12:51:21 - Comm received:^1^Sxrealm^T^N1^SShikimori-Stormreaver^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (RAID)", -- [1797]
-			"12:51:22 - VotingFrame:Update() without lootTable!!", -- [1798]
-			"12:51:25 - VotingFrame:Update() without lootTable!!", -- [1799]
-			"12:51:30 - VotingFrame:Update() without lootTable!!", -- [1800]
-			"12:51:32 - VotingFrame:Update() without lootTable!!", -- [1801]
-			"12:51:36 - Timer MLdb_check passed", -- [1802]
-			"12:51:36 - Event: (GROUP_LEFT) (1) (Party-581-00001D31F401)", -- [1803]
-			"12:51:36 - GetML()", -- [1804]
-			"12:51:44 - Event: (PARTY_LEADER_CHANGED)", -- [1805]
-			"12:51:44 - GetML()", -- [1806]
-			"12:51:44 - Unknown ML", -- [1807]
-			"12:51:44 - GetML()", -- [1808]
-			"12:51:44 - Resetting council as we have a new ML!", -- [1809]
-			"12:51:44 - MasterLooter =  (Athana-DieAldor)", -- [1810]
-			"12:51:45 - VotingFrame:Update() without lootTable!!", -- [1811]
-			"12:51:46 - VotingFrame:Update() without lootTable!!", -- [1812]
-			"12:51:51 - Event: (PARTY_LEADER_CHANGED)", -- [1813]
-			"12:51:51 - GetML()", -- [1814]
-			"12:51:51 - Resetting council as we have a new ML!", -- [1815]
-			"12:51:51 - MasterLooter =  (Paddyc-Eredar)", -- [1816]
-			"12:51:55 - Event: (GROUP_LEFT) (1) (Party-1400-0000180E3E2C)", -- [1817]
-			"12:51:55 - GetML()", -- [1818]
-			"12:51:59 - Timer MLdb_check passed", -- [1819]
-			"12:52:02 - Event: (PARTY_LEADER_CHANGED)", -- [1820]
-			"12:52:02 - GetML()", -- [1821]
-			"12:52:02 - Resetting council as we have a new ML!", -- [1822]
-			"12:52:02 - MasterLooter =  (Denwaya-Thrall)", -- [1823]
-			"12:52:04 - VotingFrame:Update() without lootTable!!", -- [1824]
-			"12:52:06 - Timer MLdb_check passed", -- [1825]
-			"12:52:06 - VotingFrame:Update() without lootTable!!", -- [1826]
-			"12:52:06 - Comm received:^1^Sxrealm^T^N1^SDenwaya-Thrall^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1827]
-			"12:52:06 - Comm received:^1^Sxrealm^T^N1^SDenwaya-Thrall^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1828]
-			"12:52:09 - VotingFrame:Update() without lootTable!!", -- [1829]
-			"12:52:17 - Timer MLdb_check passed", -- [1830]
-			"12:52:18 - Comm received:^1^Sxrealm^T^N1^SDenwaya-Thrall^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1831]
-			"12:52:18 - Comm received:^1^Sxrealm^T^N1^SDenwaya-Thrall^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1832]
-			"12:52:25 - VotingFrame:Update() without lootTable!!", -- [1833]
-			"12:52:26 - VotingFrame:Update() without lootTable!!", -- [1834]
-			"12:52:27 - VotingFrame:Update() without lootTable!!", -- [1835]
-			"12:52:30 - VotingFrame:Update() without lootTable!!", -- [1836]
-			"12:52:31 - VotingFrame:Update() without lootTable!!", -- [1837]
-			"12:52:41 - Comm received:^1^Sxrealm^T^N1^SDenwaya-Thrall^N2^SMLdb_request^t^^ (from:) (Lildh-Eredar) (distri:) (PARTY)", -- [1838]
-			"12:52:41 - Comm received:^1^Sxrealm^T^N1^SDenwaya-Thrall^N2^Scouncil_request^t^^ (from:) (Lildh-Eredar) (distri:) (PARTY)", -- [1839]
-			"12:52:52 - VotingFrame:Update() without lootTable!!", -- [1840]
-			"12:52:55 - VotingFrame:Update() without lootTable!!", -- [1841]
-			"12:52:59 - VotingFrame:Update() without lootTable!!", -- [1842]
-			"12:53:05 - VotingFrame:Update() without lootTable!!", -- [1843]
-			"12:53:08 - VotingFrame:Update() without lootTable!!", -- [1844]
-			"12:53:20 - VotingFrame:Update() without lootTable!!", -- [1845]
-			"12:53:22 - VotingFrame:Update() without lootTable!!", -- [1846]
-			"12:53:26 - VotingFrame:Update() without lootTable!!", -- [1847]
-			"12:53:27 - VotingFrame:Update() without lootTable!!", -- [1848]
-			"12:53:33 - Event: (LOOT_OPENED) (true)", -- [1849]
-			"12:53:33 - GetUnitName: (Zandalari Leguaan)", -- [1850]
-			"12:53:33 - UnitGUID: (Creature-0-1463-1642-5944-129554-0003910240)", -- [1851]
-			"12:53:33 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:155609::::::::120:70::::::|h[Springy Eyeball]|h|r) (nil)", -- [1852]
-			"12:53:33 - Adding to self.lootSlotInfo (2) (|cffffffff|Hitem:154899::::::::120:70::::::|h[Thick Paleo Steak]|h|r) (nil)", -- [1853]
-			"12:53:33 - Adding to self.lootSlotInfo (3) (|cff9d9d9d|Hitem:155608::::::::120:70::::::|h[Defiled Bone]|h|r) (nil)", -- [1854]
-			"12:53:33 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:155609::::::::120:70::::::|h[Springy Eyeball]|h|r) (nil)", -- [1855]
-			"12:53:33 - OnLootSlotCleared() (2) (|cffffffff|Hitem:154899::::::::120:70::::::|h[Thick Paleo Steak]|h|r) (nil)", -- [1856]
-			"12:53:34 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:155608::::::::120:70::::::|h[Defiled Bone]|h|r) (nil)", -- [1857]
-			"12:53:34 - Event: (LOOT_CLOSED)", -- [1858]
-			"12:53:37 - VotingFrame:Update() without lootTable!!", -- [1859]
-			"12:53:37 - Event: (PARTY_LEADER_CHANGED)", -- [1860]
-			"12:53:37 - GetML()", -- [1861]
-			"12:53:37 - Resetting council as we have a new ML!", -- [1862]
-			"12:53:37 - MasterLooter =  (Laru-Frostwolf)", -- [1863]
-			"12:53:37 - GetCouncilInGroup (Laru-Frostwolf)", -- [1864]
-			"12:53:37 - ML:NewML (Laru-Frostwolf)", -- [1865]
-			"12:53:37 - UpdateMLdb", -- [1866]
-			"12:53:37 - UpdateGroup (true)", -- [1867]
-			"12:53:37 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1868]
-			"12:53:37 - ML:AddCandidate (Argoth-Rexxar) (DEMONHUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1869]
-			"12:53:37 - ML:AddCandidate (Lildh-Eredar) (DEMONHUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1870]
-			"12:53:37 - ML:AddCandidate (Gasira-DerRatvonDalaran) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1871]
-			"12:53:37 - ML:AddCandidate (Devilbane-Blackhand) (PALADIN) (TANK) (nil) (nil) (nil) (nil)", -- [1872]
-			"12:53:37 - ML:AddCandidate (Sheywarri-Eredar) (WARRIOR) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1873]
-			"12:53:37 - ML:AddCandidate (Dervolm-Blackhand) (DRUID) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1874]
-			"12:53:37 - ML:AddCandidate (Blizá-Blackhand) (DEMONHUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1875]
-			"12:53:37 - ML:AddCandidate (Fâdrén-Ysondre) (HUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1876]
-			"12:53:37 - ML:AddCandidate (Keról-Blackrock) (WARRIOR) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1877]
-			"12:53:37 - GetCouncilInGroup (Laru-Frostwolf)", -- [1878]
-			"12:53:37 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (RAID)", -- [1879]
-			"12:53:37 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1880]
-			"12:53:37 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1881]
-			"12:53:37 - Comm received:^1^Scandidates^T^N1^T^SDervolm-Blackhand^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SDevilbane-Blackhand^T^Srole^STANK^Sclass^SPALADIN^Srank^S^t^SArgoth-Rexxar^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SKeról-Blackrock^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SBlizá-Blackhand^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SFâdrén-Ysondre^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SGasira-DerRatvonDalaran^T^Srole^SDAMAGER^Sclass^SHUNTER^Srank^S^t^SSheywarri-Eredar^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SLaru-Frostwolf^T^Srole^SDAMAGER^Sclass^SPALADIN^Srank^S^t^SLildh-Eredar^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1882]
-			"12:53:37 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (RAID)", -- [1883]
-			"12:53:37 - true = (IsCouncil) (Laru-Frostwolf)", -- [1884]
-			"12:53:37 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (DAMAGER) (Raid Member) (nil) (0) (342.375)", -- [1885]
-			"12:53:37 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N342.375^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1886]
-			"12:53:37 - ML:AddCandidate (Lildh-Eredar) (DEMONHUNTER) (DAMAGER) (Offizier) (nil) (0) (344.4375)", -- [1887]
-			"12:53:37 - Comm received:^1^Sxrealm^T^N1^SLaru-Frostwolf^N2^SplayerInfo^N3^SLildh-Eredar^N4^SDEMONHUNTER^N5^SDAMAGER^N6^SOffizier^N8^N0^N9^N344.4375^N10^N581^t^^ (from:) (Lildh-Eredar) (distri:) (RAID)", -- [1888]
-			"12:53:37 - Comm received:^1^SplayerInfo^T^N1^SLildh-Eredar^N2^SDEMONHUNTER^N3^SDAMAGER^N4^SOffizier^N6^N0^N7^N344.4375^N8^N581^t^^ (from:) (Lildh-Eredar) (distri:) (WHISPER)", -- [1889]
-			"12:53:39 - VotingFrame:Update() without lootTable!!", -- [1890]
-			"12:53:39 - Player declined usage", -- [1891]
-			"12:53:40 - Event: (GROUP_LEFT) (1) (Party-604-00001D32029C)", -- [1892]
-			"12:53:40 - GetML()", -- [1893]
-			"12:53:40 - Stop handling loot", -- [1894]
-			"12:53:40 - ML Disabled", -- [1895]
-			"12:53:41 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1896]
-			"12:53:52 - Timer MLdb_check passed", -- [1897]
-			"12:54:54 - VotingFrame:Update() without lootTable!!", -- [1898]
-			"12:59:01 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1899]
-			"12:59:01 - GetML()", -- [1900]
-			"12:59:03 - VotingFrame:Update() without lootTable!!", -- [1901]
-			"13:00:30 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [1902]
-			"13:02:05 - Event: (LOOT_OPENED) (true)", -- [1903]
-			"13:02:05 - GetUnitName: (The Caterer)", -- [1904]
-			"13:02:05 - UnitGUID: (Creature-0-4240-1643-1543-139358-0000110903)", -- [1905]
-			"13:02:05 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1906]
-			"13:02:06 - Event: (LOOT_CLOSED)", -- [1907]
-			"13:02:35 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Muhdiee) (distri:) (GUILD)", -- [1908]
-			"13:05:59 - Event: (PARTY_LEADER_CHANGED)", -- [1909]
-			"13:05:59 - GetML()", -- [1910]
-			"13:05:59 - Unknown ML", -- [1911]
-			"13:05:59 - GetML()", -- [1912]
-			"13:05:59 - Resetting council as we have a new ML!", -- [1913]
-			"13:05:59 - MasterLooter =  (Fathergünni-Alleria)", -- [1914]
-			"13:06:00 - VotingFrame:Update() without lootTable!!", -- [1915]
-			"13:06:02 - VotingFrame:Update() without lootTable!!", -- [1916]
-			"13:06:07 - VotingFrame:Update() without lootTable!!", -- [1917]
-			"13:06:13 - VotingFrame:Update() without lootTable!!", -- [1918]
-			"13:06:14 - Timer MLdb_check passed", -- [1919]
-			"13:06:14 - Comm received:^1^Sxrealm^T^N1^SFathergünni-Alleria^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (RAID)", -- [1920]
-			"13:06:14 - Comm received:^1^Sxrealm^T^N1^SFathergünni-Alleria^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (RAID)", -- [1921]
-			"13:06:14 - VotingFrame:Update() without lootTable!!", -- [1922]
-			"13:06:20 - Event: (PARTY_LEADER_CHANGED)", -- [1923]
-			"13:06:20 - GetML()", -- [1924]
-			"13:06:20 - Resetting council as we have a new ML!", -- [1925]
-			"13:06:20 - MasterLooter =  (Lizana-Thrall)", -- [1926]
-			"13:06:26 - VotingFrame:Update() without lootTable!!", -- [1927]
-			"13:06:27 - VotingFrame:Update() without lootTable!!", -- [1928]
-			"13:06:29 - VotingFrame:Update() without lootTable!!", -- [1929]
-			"13:06:35 - Timer MLdb_check passed", -- [1930]
-			"13:06:35 - Comm received:^1^Sxrealm^T^N1^SLizana-Thrall^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (RAID)", -- [1931]
-			"13:06:35 - Comm received:^1^Sxrealm^T^N1^SLizana-Thrall^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (RAID)", -- [1932]
-			"13:06:35 - VotingFrame:Update() without lootTable!!", -- [1933]
-			"13:06:36 - VotingFrame:Update() without lootTable!!", -- [1934]
-			"13:06:59 - Event: (LOOT_OPENED) (true)", -- [1935]
-			"13:06:59 - GetUnitName: (Matron Morana)", -- [1936]
-			"13:06:59 - UnitGUID: (Creature-0-1463-1643-5677-137704-0000110A28)", -- [1937]
-			"13:06:59 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:158771::::::::120:70::::::|h[Spirit Ichor]|h|r) (nil)", -- [1938]
-			"13:06:59 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hcurrency:1553:31|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1939]
-			"13:06:59 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:158771::::::::120:70::::::|h[Spirit Ichor]|h|r) (nil)", -- [1940]
-			"13:06:59 - OnLootSlotCleared() (2) (|cff1eff00|Hcurrency:1553:31|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1941]
-			"13:06:59 - Event: (LOOT_CLOSED)", -- [1942]
-			"13:07:06 - VotingFrame:Update() without lootTable!!", -- [1943]
-			"13:07:08 - VotingFrame:Update() without lootTable!!", -- [1944]
-			"13:07:11 - VotingFrame:Update() without lootTable!!", -- [1945]
-			"13:07:17 - VotingFrame:Update() without lootTable!!", -- [1946]
-			"13:07:18 - VotingFrame:Update() without lootTable!!", -- [1947]
-			"13:07:19 - VotingFrame:Update() without lootTable!!", -- [1948]
-			"13:07:21 - VotingFrame:Update() without lootTable!!", -- [1949]
-			"13:07:23 - Event: (GROUP_LEFT) (1) (Party-3680-000037DBDC80)", -- [1950]
-			"13:07:23 - GetML()", -- [1951]
-			"13:07:57 - Event: (PARTY_LEADER_CHANGED)", -- [1952]
-			"13:07:57 - GetML()", -- [1953]
-			"13:07:57 - Resetting council as we have a new ML!", -- [1954]
-			"13:07:57 - MasterLooter =  (Moeey-Malfurion)", -- [1955]
-			"13:08:12 - VotingFrame:Update() without lootTable!!", -- [1956]
-			"13:08:12 - Timer MLdb_check passed", -- [1957]
-			"13:08:12 - Comm received:^1^Sxrealm^T^N1^SMoeey-Malfurion^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1958]
-			"13:08:12 - Comm received:^1^Sxrealm^T^N1^SMoeey-Malfurion^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1959]
-			"13:08:53 - Event: (LOOT_OPENED) (true)", -- [1960]
-			"13:08:53 - GetUnitName: (Blighted Monstrosity)", -- [1961]
-			"13:08:53 - UnitGUID: (Creature-0-1463-1643-5677-138667-00001106F6)", -- [1962]
-			"13:08:53 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:30|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1963]
-			"13:08:53 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hitem:159284::::::::120:70:::2:4796:1691:::|h[Corlain Cape of the Fireflash]|h|r) (nil)", -- [1964]
-			"13:08:53 - Adding to self.lootSlotInfo (3) (|cff9d9d9d|Hitem:155610::::::::120:70::::::|h[Stinging Nettle]|h|r) (nil)", -- [1965]
-			"13:08:53 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:30|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1966]
-			"13:08:54 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:155610::::::::120:70::::::|h[Stinging Nettle]|h|r) (nil)", -- [1967]
-			"13:08:54 - Event: (LOOT_CLOSED)", -- [1968]
-			"13:08:59 - Event: (GROUP_LEFT) (1) (Party-1098-000037DBDE59)", -- [1969]
-			"13:08:59 - GetML()", -- [1970]
-			"13:12:50 - Event: (LOOT_OPENED) (true)", -- [1971]
-			"13:12:50 - GetUnitName: (Overseer Forgeaxe)", -- [1972]
-			"13:12:50 - UnitGUID: (Creature-0-1463-1643-5677-138765-0000110B32)", -- [1973]
-			"13:12:50 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1974]
-			"13:12:50 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:163580::::::::120:70::::::|h[Delicate Cathedral of Light Replica]|h|r) (nil)", -- [1975]
-			"13:12:50 - Adding to self.lootSlotInfo (3) (|cff1eff00|Hitem:154865::::::::120:70:::2:4796:1682:::|h[Barrowknoll Chainmail of the Quickblade]|h|r) (nil)", -- [1976]
-			"13:12:51 - OnLootSlotCleared() (1) (nil) (nil)", -- [1977]
-			"13:12:51 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:163580::::::::120:70::::::|h[Delicate Cathedral of Light Replica]|h|r) (nil)", -- [1978]
-			"13:12:51 - Event: (LOOT_CLOSED)", -- [1979]
-			"13:14:35 - VotingFrame:Update() without lootTable!!", -- [1980]
-			"13:15:37 - VotingFrame:Update() without lootTable!!", -- [1981]
-			"13:15:37 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Muhdiee) (distri:) (GUILD)", -- [1982]
-			"13:15:42 - VotingFrame:Update() without lootTable!!", -- [1983]
-			"13:15:48 - VotingFrame:Update() without lootTable!!", -- [1984]
-			"13:16:34 - Event: (LOOT_OPENED) (true)", -- [1985]
-			"13:16:34 - GetUnitName: (Darkmaw Prowler)", -- [1986]
-			"13:16:34 - UnitGUID: (Creature-0-1463-1643-5677-125464-0000910C69)", -- [1987]
-			"13:16:34 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:155629::::::::120:70::::::|h[Shaggy Mane]|h|r) (nil)", -- [1988]
-			"13:16:34 - Event: (LOOT_CLOSED)", -- [1989]
-			"13:17:06 - Event: (LOOT_OPENED) (true)", -- [1990]
-			"13:17:06 - GetUnitName: (Darkmaw Prowler)", -- [1991]
-			"13:17:06 - UnitGUID: (Creature-0-1463-1643-5677-125464-0001910C7B)", -- [1992]
-			"13:17:06 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:155629::::::::120:70::::::|h[Shaggy Mane]|h|r) (nil)", -- [1993]
-			"13:17:06 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:158808::::::::120:70::::::|h[Thick Tendon]|h|r) (nil)", -- [1994]
-			"13:17:07 - Event: (LOOT_CLOSED)", -- [1995]
-			"13:17:36 - Event: (LOOT_OPENED) (true)", -- [1996]
-			"13:17:36 - GetUnitName: (Darkmaw Prowler)", -- [1997]
-			"13:17:36 - UnitGUID: (Creature-0-1463-1643-5677-125464-0000110CB0)", -- [1998]
-			"13:17:36 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:155629::::::::120:70::::::|h[Shaggy Mane]|h|r) (nil)", -- [1999]
-			"13:17:36 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:155593::::::::120:70::::::|h[Keeled Breastbone]|h|r) (nil)", -- [2000]
-			"13:17:36 - Event: (LOOT_CLOSED)", -- [2001]
-			"13:18:03 - Event: (LOOT_OPENED) (true)", -- [2002]
-			"13:18:03 - GetUnitName: (Watchful Raven)", -- [2003]
-			"13:18:03 - UnitGUID: (Creature-0-1463-1643-5677-125411-0001910C73)", -- [2004]
-			"13:18:03 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:158806::::::::120:70::::::|h[Hooked Talon]|h|r) (nil)", -- [2005]
-			"13:18:03 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:155593::::::::120:70::::::|h[Keeled Breastbone]|h|r) (nil)", -- [2006]
-			"13:18:03 - Adding to self.lootSlotInfo (3) (|cffffffff|Hitem:154897::::::::120:70::::::|h[Stringy Loins]|h|r) (nil)", -- [2007]
-			"13:18:04 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:158806::::::::120:70::::::|h[Hooked Talon]|h|r) (nil)", -- [2008]
-			"13:18:04 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:155593::::::::120:70::::::|h[Keeled Breastbone]|h|r) (nil)", -- [2009]
-			"13:18:04 - OnLootSlotCleared() (3) (|cffffffff|Hitem:154897::::::::120:70::::::|h[Stringy Loins]|h|r) (nil)", -- [2010]
-			"13:18:04 - Event: (LOOT_CLOSED)", -- [2011]
-			"13:18:38 - Event: (LOOT_OPENED) (true)", -- [2012]
-			"13:18:38 - GetUnitName: (Darkmaw Prowler)", -- [2013]
-			"13:18:38 - UnitGUID: (Creature-0-1463-1643-5677-125464-0001110CF5)", -- [2014]
-			"13:18:38 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:155629::::::::120:70::::::|h[Shaggy Mane]|h|r) (nil)", -- [2015]
-			"13:18:39 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:155629::::::::120:70::::::|h[Shaggy Mane]|h|r) (nil)", -- [2016]
-			"13:18:39 - Event: (LOOT_CLOSED)", -- [2017]
-			"13:18:47 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [2018]
-			"13:19:20 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [2019]
-			"13:19:39 - VotingFrame:Update() without lootTable!!", -- [2020]
-			"13:20:34 - Event: (LOOT_OPENED) (true)", -- [2021]
-			"13:20:34 - GetUnitName: (Lichenjaw Saurolisk)", -- [2022]
-			"13:20:34 - UnitGUID: (Creature-0-4253-1643-2927-123868-0000110806)", -- [2023]
-			"13:20:34 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:155609::::::::120:70::::::|h[Springy Eyeball]|h|r) (nil)", -- [2024]
-			"13:20:35 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:155609::::::::120:70::::::|h[Springy Eyeball]|h|r) (nil)", -- [2025]
-			"13:20:35 - Event: (LOOT_CLOSED)", -- [2026]
-			"13:21:09 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Uguluugulu) (distri:) (GUILD)", -- [2027]
-			"13:22:19 - Event: (LOOT_OPENED) (true)", -- [2028]
-			"13:22:19 - GetUnitName: (Squirgle of the Depths)", -- [2029]
-			"13:22:19 - UnitGUID: (Creature-0-4253-1643-2927-139135-0000110DA2)", -- [2030]
-			"13:22:19 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:158765::::::::120:70::::::|h[Hardshell Mollusk]|h|r) (nil)", -- [2031]
-			"13:22:19 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:158765::::::::120:70::::::|h[Hardshell Mollusk]|h|r) (nil)", -- [2032]
-			"13:22:19 - Event: (LOOT_CLOSED)", -- [2033]
-			"13:23:32 - VotingFrame:Update() without lootTable!!", -- [2034]
-			"13:23:34 - VotingFrame:Update() without lootTable!!", -- [2035]
-			"13:24:31 - VotingFrame:Update() without lootTable!!", -- [2036]
-			"13:29:00 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [2037]
-			"13:31:48 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Nethiren) (distri:) (GUILD)", -- [2038]
-			"13:32:17 - Event: (LOOT_OPENED) (true)", -- [2039]
-			"13:32:17 - GetUnitName: (Huntress Arnithal)", -- [2040]
-			"13:32:17 - UnitGUID: (Creature-0-3895-1643-2145-139518-0000110FAF)", -- [2041]
-			"13:32:17 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [2042]
-			"13:32:17 - Adding to self.lootSlotInfo (2) (|cffffffff|Hitem:154897::::::::120:70::::::|h[Stringy Loins]|h|r) (nil)", -- [2043]
-			"13:32:17 - Adding to self.lootSlotInfo (3) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [2044]
-			"13:32:17 - Adding to self.lootSlotInfo (4) (|cff9d9d9d|Hitem:158751::::::::120:70::::::|h[Matted Pelt]|h|r) (nil)", -- [2045]
-			"13:32:18 - OnLootSlotCleared() (1) (nil) (nil)", -- [2046]
-			"13:32:18 - OnLootSlotCleared() (2) (|cffffffff|Hitem:154897::::::::120:70::::::|h[Stringy Loins]|h|r) (nil)", -- [2047]
-			"13:32:18 - OnLootSlotCleared() (3) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [2048]
-			"13:32:18 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:158751::::::::120:70::::::|h[Matted Pelt]|h|r) (nil)", -- [2049]
-			"13:32:18 - Event: (LOOT_CLOSED)", -- [2050]
-			"13:32:25 - Event: (LOOT_OPENED) (true)", -- [2051]
-			"13:32:25 - GetUnitName: (Stormwind Operative)", -- [2052]
-			"13:32:25 - UnitGUID: (Creature-0-3895-1643-2145-139525-0000110F84)", -- [2053]
-			"13:32:25 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [2054]
-			"13:32:25 - Adding to self.lootSlotInfo (2) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [2055]
-			"13:32:25 - OnLootSlotCleared() (1) (nil) (nil)", -- [2056]
-			"13:32:26 - OnLootSlotCleared() (2) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [2057]
-			"13:32:26 - Event: (LOOT_CLOSED)", -- [2058]
-			"13:32:39 - Event: (LOOT_OPENED) (true)", -- [2059]
-			"13:32:39 - GetUnitName: (Stormwind Operative)", -- [2060]
-			"13:32:39 - UnitGUID: (Creature-0-3895-1643-2145-139525-0001110FC3)", -- [2061]
-			"13:32:39 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [2062]
-			"13:32:39 - OnLootSlotCleared() (1) (nil) (nil)", -- [2063]
-			"13:32:39 - Event: (LOOT_CLOSED)", -- [2064]
-			"13:32:58 - Event: (LOOT_OPENED) (true)", -- [2065]
-			"13:32:58 - GetUnitName: (Stormwind Operative)", -- [2066]
-			"13:32:58 - UnitGUID: (Creature-0-3895-1643-2145-139525-0000911051)", -- [2067]
-			"13:32:58 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [2068]
-			"13:32:58 - Event: (LOOT_OPENED) (true)", -- [2069]
-			"13:32:58 - GetUnitName: (Stormwind Operative)", -- [2070]
-			"13:32:58 - UnitGUID: (Creature-0-3895-1643-2145-139525-0000911051)", -- [2071]
-			"13:32:58 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [2072]
-			"13:32:59 - OnLootSlotCleared() (1) (nil) (nil)", -- [2073]
-			"13:32:59 - Event: (LOOT_CLOSED)", -- [2074]
-			"13:36:46 - Event: (PARTY_LEADER_CHANGED)", -- [2075]
-			"13:36:46 - GetML()", -- [2076]
-			"13:36:46 - Unknown ML", -- [2077]
-			"13:36:47 - GetML()", -- [2078]
-			"13:36:47 - Resetting council as we have a new ML!", -- [2079]
-			"13:36:47 - MasterLooter =  (мегабычок-ВечнаяПесня)", -- [2080]
-			"13:36:47 - VotingFrame:Update() without lootTable!!", -- [2081]
-			"13:36:50 - VotingFrame:Update() without lootTable!!", -- [2082]
-			"13:37:02 - Timer MLdb_check passed", -- [2083]
-			"13:37:02 - Comm received:^1^Sxrealm^T^N1^Sмегабычок-ВечнаяПесня^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (RAID)", -- [2084]
-			"13:37:02 - Comm received:^1^Sxrealm^T^N1^Sмегабычок-ВечнаяПесня^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (RAID)", -- [2085]
-			"13:37:05 - VotingFrame:Update() without lootTable!!", -- [2086]
-			"13:37:09 - VotingFrame:Update() without lootTable!!", -- [2087]
-			"13:37:12 - VotingFrame:Update() without lootTable!!", -- [2088]
-			"13:37:28 - VotingFrame:Update() without lootTable!!", -- [2089]
-			"13:37:31 - VotingFrame:Update() without lootTable!!", -- [2090]
-			"13:37:40 - VotingFrame:Update() without lootTable!!", -- [2091]
-			"13:37:52 - VotingFrame:Update() without lootTable!!", -- [2092]
-			"13:37:57 - VotingFrame:Update() without lootTable!!", -- [2093]
-			"13:38:01 - VotingFrame:Update() without lootTable!!", -- [2094]
-			"13:38:03 - VotingFrame:Update() without lootTable!!", -- [2095]
-			"13:38:05 - VotingFrame:Update() without lootTable!!", -- [2096]
-			"13:38:17 - VotingFrame:Update() without lootTable!!", -- [2097]
-			"13:38:18 - VotingFrame:Update() without lootTable!!", -- [2098]
-			"13:38:19 - VotingFrame:Update() without lootTable!!", -- [2099]
-			"13:38:20 - VotingFrame:Update() without lootTable!!", -- [2100]
-			"13:38:21 - VotingFrame:Update() without lootTable!!", -- [2101]
-			"13:38:22 - VotingFrame:Update() without lootTable!!", -- [2102]
-			"13:38:25 - VotingFrame:Update() without lootTable!!", -- [2103]
-			"13:38:27 - VotingFrame:Update() without lootTable!!", -- [2104]
-			"13:38:29 - VotingFrame:Update() without lootTable!!", -- [2105]
-			"13:38:32 - VotingFrame:Update() without lootTable!!", -- [2106]
-			"13:38:34 - Comm received:^1^Sxrealm^T^N1^Sмегабычок-ВечнаяПесня^N2^SMLdb_request^t^^ (from:) (Blindevínk-Draenor) (distri:) (RAID)", -- [2107]
-			"13:38:34 - Comm received:^1^Sxrealm^T^N1^Sмегабычок-ВечнаяПесня^N2^Scouncil_request^t^^ (from:) (Blindevínk-Draenor) (distri:) (RAID)", -- [2108]
-			"13:38:45 - VotingFrame:Update() without lootTable!!", -- [2109]
-			"13:38:48 - VotingFrame:Update() without lootTable!!", -- [2110]
-			"13:38:51 - VotingFrame:Update() without lootTable!!", -- [2111]
-			"13:38:52 - VotingFrame:Update() without lootTable!!", -- [2112]
-			"13:39:03 - Comm received:^1^Sxrealm^T^N1^Sмегабычок-ВечнаяПесня^N2^SMLdb_request^t^^ (from:) (Bûngabunga-Thrall) (distri:) (RAID)", -- [2113]
-			"13:39:03 - Comm received:^1^Sxrealm^T^N1^Sмегабычок-ВечнаяПесня^N2^Scouncil_request^t^^ (from:) (Bûngabunga-Thrall) (distri:) (RAID)", -- [2114]
-			"13:39:04 - VotingFrame:Update() without lootTable!!", -- [2115]
-			"13:39:06 - VotingFrame:Update() without lootTable!!", -- [2116]
-			"13:39:12 - VotingFrame:Update() without lootTable!!", -- [2117]
-			"13:39:14 - VotingFrame:Update() without lootTable!!", -- [2118]
-			"13:39:15 - VotingFrame:Update() without lootTable!!", -- [2119]
-			"13:39:23 - VotingFrame:Update() without lootTable!!", -- [2120]
-			"13:39:27 - VotingFrame:Update() without lootTable!!", -- [2121]
-			"13:39:28 - VotingFrame:Update() without lootTable!!", -- [2122]
-			"13:39:30 - VotingFrame:Update() without lootTable!!", -- [2123]
-			"13:39:33 - VotingFrame:Update() without lootTable!!", -- [2124]
-			"13:39:40 - VotingFrame:Update() without lootTable!!", -- [2125]
-			"13:39:42 - VotingFrame:Update() without lootTable!!", -- [2126]
-			"13:39:43 - VotingFrame:Update() without lootTable!!", -- [2127]
-			"13:39:44 - VotingFrame:Update() without lootTable!!", -- [2128]
-			"13:39:45 - VotingFrame:Update() without lootTable!!", -- [2129]
-			"13:39:46 - Event: (GROUP_LEFT) (1) (Party-1925-00002D66E5D0)", -- [2130]
-			"13:39:46 - GetML()", -- [2131]
-			"13:40:08 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2132]
-			"13:40:08 - GetML()", -- [2133]
-			"13:40:10 - VotingFrame:Update() without lootTable!!", -- [2134]
-			"13:59:57 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2135]
-			"13:59:57 - GetML()", -- [2136]
-			"13:59:59 - VotingFrame:Update() without lootTable!!", -- [2137]
-			"14:01:57 - Event: (PARTY_LEADER_CHANGED)", -- [2138]
-			"14:01:57 - GetML()", -- [2139]
-			"14:01:57 - Resetting council as we have a new ML!", -- [2140]
-			"14:01:57 - MasterLooter =  (Jinty-Blackrock)", -- [2141]
-			"14:01:58 - VotingFrame:Update() without lootTable!!", -- [2142]
-			"14:02:07 - Comm received:^1^Sxrealm^T^N1^SLaru-Frostwolf^N2^SplayerInfoRequest^t^^ (from:) (Jinty-Blackrock) (distri:) (PARTY)", -- [2143]
-			"14:02:07 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Jinty-Blackrock) (distri:) (WHISPER)", -- [2144]
-			"14:02:07 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Jinty-Blackrock) (distri:) (PARTY)", -- [2145]
-			"14:02:07 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^Sclass^SPALADIN^Srank^S^t^SJinty-Blackrock^T^Srole^SDAMAGER^SspecID^N340.4375^Senchant_lvl^N0^Sclass^SWARRIOR^Srank^STwink^t^t^t^^ (from:) (Jinty-Blackrock) (distri:) (PARTY)", -- [2146]
-			"14:02:07 - Comm received:^1^Sxrealm^T^N1^SJinty-Blackrock^N2^SplayerInfo^N3^SLaru-Frostwolf^N4^SPALADIN^N5^SDAMAGER^N6^SRaid~`Member^N8^N0^N9^N342.375^N10^N65^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2147]
-			"14:02:11 - Event: (LOOT_OPENED) (true)", -- [2148]
-			"14:02:11 - GetUnitName: (Drywhisker Digger)", -- [2149]
-			"14:02:11 - UnitGUID: (Creature-0-3895-0-3981-142045-00001116B8)", -- [2150]
-			"14:02:11 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [2151]
-			"14:02:11 - Event: (LOOT_CLOSED)", -- [2152]
-			"14:02:12 - Timer MLdb_check passed", -- [2153]
-			"14:02:12 - Comm received:^1^Sxrealm^T^N1^SJinty-Blackrock^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2154]
-			"14:02:12 - Comm received:^1^Scouncil^T^N1^T^N1^SJinty-Blackrock^t^t^^ (from:) (Jinty-Blackrock) (distri:) (PARTY)", -- [2155]
-			"14:02:12 - false = (IsCouncil) (Laru-Frostwolf)", -- [2156]
-			"14:02:12 - Hide VotingFrame", -- [2157]
-			"14:02:23 - Event: (LOOT_OPENED) (true)", -- [2158]
-			"14:02:23 - GetUnitName: (Drywhisker Surveyor)", -- [2159]
-			"14:02:23 - UnitGUID: (Creature-0-3895-0-3981-142047-000011170A)", -- [2160]
-			"14:02:23 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [2161]
-			"14:02:23 - Event: (LOOT_CLOSED)", -- [2162]
-			"14:02:31 - Event: (PARTY_LEADER_CHANGED)", -- [2163]
-			"14:02:31 - GetML()", -- [2164]
-			"14:02:31 - Resetting council as we have a new ML!", -- [2165]
-			"14:02:31 - MasterLooter =  (Laru-Frostwolf)", -- [2166]
-			"14:02:31 - GetCouncilInGroup (Laru-Frostwolf)", -- [2167]
-			"14:02:31 - ML:NewML (Laru-Frostwolf)", -- [2168]
-			"14:02:31 - UpdateMLdb", -- [2169]
-			"14:02:31 - UpdateGroup (true)", -- [2170]
-			"14:02:31 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (DAMAGER) (nil) (nil) (nil) (nil)", -- [2171]
-			"14:02:31 - GetCouncilInGroup (Laru-Frostwolf)", -- [2172]
-			"14:02:31 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2173]
-			"14:02:31 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2174]
-			"14:02:31 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2175]
-			"14:02:31 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2176]
-			"14:02:31 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2177]
-			"14:02:31 - true = (IsCouncil) (Laru-Frostwolf)", -- [2178]
-			"14:02:31 - GetLootDBStatistics()", -- [2179]
-			"14:02:31 - GetGuildRankNum()", -- [2180]
-			"14:02:31 - RCVotingFrame (enabled)", -- [2181]
-			"14:02:32 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (DAMAGER) (Raid Member) (nil) (0) (342.375)", -- [2182]
-			"14:02:32 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N342.375^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [2183]
-			"14:02:41 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2184]
-			"14:02:41 - true = (IsCouncil) (Laru-Frostwolf)", -- [2185]
-			"14:02:41 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^SspecID^N342.375^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2186]
-			"14:02:46 - Timer MLdb_check passed", -- [2187]
-			"14:03:33 - ML event (PLAYER_REGEN_ENABLED)", -- [2188]
-			"14:03:35 - Event: (LOOT_OPENED) (true)", -- [2189]
-			"14:03:35 - GetUnitName: (Overseer Krix)", -- [2190]
-			"14:03:35 - UnitGUID: (Creature-0-3895-0-3981-142423-0000111620)", -- [2191]
-			"14:03:35 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:23|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2192]
-			"14:03:36 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:23|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2193]
-			"14:03:36 - Event: (LOOT_CLOSED)", -- [2194]
-			"14:04:05 - ML event (PLAYER_REGEN_ENABLED)", -- [2195]
-			"14:05:11 - ML event (PLAYER_REGEN_ENABLED)", -- [2196]
-			"14:05:12 - Event: (LOOT_OPENED) (true)", -- [2197]
-			"14:05:12 - GetUnitName: (Ragebeak)", -- [2198]
-			"14:05:12 - UnitGUID: (Creature-0-3895-0-3981-142436-0000111774)", -- [2199]
-			"14:05:12 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:23|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2200]
-			"14:05:13 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:23|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2201]
-			"14:05:13 - Event: (LOOT_CLOSED)", -- [2202]
-			"14:06:57 - ML event (PLAYER_REGEN_ENABLED)", -- [2203]
-			"14:06:59 - Event: (LOOT_OPENED) (true)", -- [2204]
-			"14:06:59 - GetUnitName: (Branchlord Aldrus)", -- [2205]
-			"14:06:59 - UnitGUID: (Creature-0-3895-0-3981-142508-0000111763)", -- [2206]
-			"14:06:59 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:36|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2207]
-			"14:06:59 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:36|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2208]
-			"14:06:59 - Event: (LOOT_CLOSED)", -- [2209]
-			"14:07:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Voodoneses) (distri:) (GUILD)", -- [2210]
-			"14:08:18 - ML event (PLAYER_REGEN_ENABLED)", -- [2211]
-			"14:08:20 - Event: (LOOT_OPENED) (true)", -- [2212]
-			"14:08:20 - GetUnitName: (Burning Goliath)", -- [2213]
-			"14:08:20 - UnitGUID: (Creature-0-3895-0-3981-141615-00001115CC)", -- [2214]
-			"14:08:20 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:47|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2215]
-			"14:08:20 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hitem:163691::::::::120:70::::::|h[Burning Essence]|h|r) (nil)", -- [2216]
-			"14:08:20 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:163456::::::::120:70::5:3:5125:1532:4786:::|h[Honorbound Centurion's Greathelm]|h|r) (nil)", -- [2217]
-			"14:08:21 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:47|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2218]
-			"14:08:21 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:163691::::::::120:70::::::|h[Burning Essence]|h|r) (nil)", -- [2219]
-			"14:08:21 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff0070dd|Hitem:163691::::::::120:70::::::|h[Burning Essence]|h|r.) () () () (Laru) () (0) (0) () (0) (786) (nil) (0) (false) (false) (false) (false)", -- [2220]
-			"14:08:21 - Event: (ENCOUNTER_LOOT_RECEIVED) (0) (163691) (|cff0070dd|Hitem:163691::::::::120:70::::::|h[Burning Essence]|h|r) (1) (Laru) (PALADIN)", -- [2221]
-			"14:08:21 - OnLootSlotCleared() (3) (|cffa335ee|Hitem:163456::::::::120:70::5:3:5125:1532:4786:::|h[Honorbound Centurion's Greathelm]|h|r) (nil)", -- [2222]
-			"14:08:21 - Event: (LOOT_CLOSED)", -- [2223]
-			"14:08:21 - ML event (CHAT_MSG_LOOT) (You receive loot: |cffa335ee|Hitem:163456::::::::120:70::5:3:5125:1532:4786:::|h[Honorbound Centurion's Greathelm]|h|r.) () () () (Laru) () (0) (0) () (0) (787) (nil) (0) (false) (false) (false) (false)", -- [2224]
-			"14:08:21 - Event: (ENCOUNTER_LOOT_RECEIVED) (0) (163456) (|cffa335ee|Hitem:163456::::::::120:70::5:3:5125:1532:4786:::|h[Honorbound Centurion's Greathelm]|h|r) (1) (Laru) (PALADIN)", -- [2225]
-			"14:08:23 - Comm received:^1^Stradable^T^N1^S|cff0070dd|Hitem:163691::::::::120:70::::::|h[Burning~`Essence]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2226]
-			"14:08:23 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:163456::::::::120:70::5:3:5125:1532:4786:::|h[Honorbound~`Centurion's~`Greathelm]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2227]
-			"14:08:33 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Voodoneses) (distri:) (GUILD)", -- [2228]
-			"14:09:07 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [2229]
-			"14:10:42 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [2230]
-			"14:11:54 - ML event (PLAYER_REGEN_ENABLED)", -- [2231]
-			"14:11:55 - Event: (LOOT_OPENED) (true)", -- [2232]
-			"14:11:55 - GetUnitName: (Skullripper)", -- [2233]
-			"14:11:55 - UnitGUID: (Creature-0-3895-0-3981-142437-0000111906)", -- [2234]
-			"14:11:55 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:35|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2235]
-			"14:11:56 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:35|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2236]
-			"14:11:56 - Event: (LOOT_CLOSED)", -- [2237]
-			"14:11:59 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [2238]
-			"14:13:01 - Event: (LOOT_OPENED) (true)", -- [2239]
-			"14:13:01 - GetUnitName: (Nimar the Slayer)", -- [2240]
-			"14:13:01 - UnitGUID: (Creature-0-3895-0-3981-142692-0000111921)", -- [2241]
-			"14:13:01 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:40|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2242]
-			"14:13:01 - ML event (PLAYER_REGEN_ENABLED)", -- [2243]
-			"14:13:02 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:40|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2244]
-			"14:13:02 - Event: (LOOT_CLOSED)", -- [2245]
-			"14:13:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [2246]
-			"14:14:06 - ML event (PLAYER_REGEN_ENABLED)", -- [2247]
-			"14:14:07 - Event: (LOOT_OPENED) (true)", -- [2248]
-			"14:14:07 - GetUnitName: (Beastrider Kama)", -- [2249]
-			"14:14:07 - UnitGUID: (Creature-0-3895-0-3981-142709-00001119E1)", -- [2250]
-			"14:14:07 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:31|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2251]
-			"14:14:07 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:31|h[Tiny Azerite Splinter]|h|r) (1553)", -- [2252]
-			"14:14:07 - Event: (LOOT_CLOSED)", -- [2253]
-			"14:14:16 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Muhdiv) (distri:) (GUILD)", -- [2254]
-			"14:14:19 - Event: (GROUP_LEFT) (1) (Party-581-00001D325280)", -- [2255]
-			"14:14:19 - GetML()", -- [2256]
-			"14:14:19 - Stop handling loot", -- [2257]
-			"14:14:19 - ML Disabled", -- [2258]
-			"14:14:19 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [2259]
-			"14:15:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2260]
-			"14:15:20 - GetML()", -- [2261]
-			"14:15:21 - VotingFrame:Update() without lootTable!!", -- [2262]
-			"14:16:11 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [2263]
+			"19:34:33 - GetUnitName: (Pest Remover Mk. II)", -- [1]
+			"19:34:33 - UnitGUID: (Creature-0-3061-1643-23978-137649-000016A24C)", -- [2]
+			"19:34:33 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hcurrency:1553:41|h[Tiny Azerite Splinter]|h|r) (1553)", -- [3]
+			"19:34:33 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:157842::::::::120:70::::::|h[Rusty Gear]|h|r) (nil)", -- [4]
+			"19:34:33 - OnLootSlotCleared() (1) (|cff1eff00|Hcurrency:1553:41|h[Tiny Azerite Splinter]|h|r) (1553)", -- [5]
+			"19:34:33 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:157842::::::::120:70::::::|h[Rusty Gear]|h|r) (nil)", -- [6]
+			"19:34:33 - Event: (LOOT_CLOSED)", -- [7]
+			"19:36:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [8]
+			"19:36:18 - GetML()", -- [9]
+			"19:36:54 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [10]
+			"19:37:21 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Liadera) (distri:) (GUILD)", -- [11]
+			"19:45:38 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [12]
+			"19:55:12 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Grogoll) (distri:) (GUILD)", -- [13]
+			"19:56:17 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belya) (distri:) (GUILD)", -- [14]
+			"19:56:21 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Nethiren) (distri:) (GUILD)", -- [15]
+			"19:56:29 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Eowyndra) (distri:) (GUILD)", -- [16]
+			"20:01:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Vairasza) (distri:) (GUILD)", -- [17]
+			"20:08:57 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Talar) (distri:) (GUILD)", -- [18]
+			"09/10/18", -- [19]
+			"20:32:01 - Logged In", -- [20]
+			"20:32:01 - ML initialized!", -- [21]
+			"20:32:01 - TradeUI enabled", -- [22]
+			"20:32:09 - Laru-Frostwolf (2.8.3) (nil)", -- [23]
+			"20:32:09 - ActivateSkin (new_blue)", -- [24]
+			"20:32:10 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [25]
+			"20:32:10 - GetML()", -- [26]
+			"20:32:10 - UpdatePlayersData()", -- [27]
+			"20:32:11 - GetPlayersGuildRank()", -- [28]
+			"20:32:11 - Found Guild Rank: Raid Member", -- [29]
+			"20:32:11 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laru) (distri:) (GUILD)", -- [30]
+			"20:35:39 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [31]
+			"20:36:56 - Event: (PARTY_LEADER_CHANGED)", -- [32]
+			"20:36:56 - GetML()", -- [33]
+			"20:36:56 - Unknown ML", -- [34]
+			"20:36:57 - GetML()", -- [35]
+			"20:36:57 - Resetting council as we have a new ML!", -- [36]
+			"20:36:57 - MasterLooter =  (Sóriq-Eredar)", -- [37]
+			"20:37:12 - Timer MLdb_check passed", -- [38]
+			"20:37:12 - Comm received:^1^Sxrealm^T^N1^SSóriq-Eredar^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [39]
+			"20:37:12 - Comm received:^1^Sxrealm^T^N1^SSóriq-Eredar^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [40]
+			"20:37:29 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [41]
+			"20:37:29 - GetML()", -- [42]
+			"20:37:52 - Event: (RAID_INSTANCE_WELCOME) (Temple of Sethraliss (Mythic)) (130932) (0) (0)", -- [43]
+			"20:37:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [44]
+			"20:37:53 - GetML()", -- [45]
+			"20:38:50 - Event: (ENCOUNTER_START) (2124) (Adderis and Aspix) (23) (5)", -- [46]
+			"20:38:50 - UpdatePlayersData()", -- [47]
+			"20:40:37 - Event: (ENCOUNTER_END) (2124) (Adderis and Aspix) (23) (5) (1)", -- [48]
+			"20:41:06 - Event: (LOOT_OPENED) (true)", -- [49]
+			"20:41:06 - GetUnitName: (Aspix)", -- [50]
+			"20:41:06 - UnitGUID: (Vehicle-0-3111-1877-19753-133944-000016B957)", -- [51]
+			"20:41:06 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [52]
+			"20:41:06 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:159425::::::::120:65::23:3:4779:1517:4783:::|h[Shard-Tipped Vambraces]|h|r) (nil)", -- [53]
+			"20:41:06 - Adding to self.lootSlotInfo (3) (|cff1eff00|Hcurrency:1553:35|h[Tiny Azerite Splinter]|h|r) (1553)", -- [54]
+			"20:41:07 - OnLootSlotCleared() (1) (nil) (nil)", -- [55]
+			"20:41:07 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:159425::::::::120:65::23:3:4779:1517:4783:::|h[Shard-Tipped Vambraces]|h|r) (nil)", -- [56]
+			"20:41:07 - Event: (ENCOUNTER_LOOT_RECEIVED) (2124) (159425) (|cffa335ee|Hitem:159425::::::::120:65::23:3:4779:1517:4783:::|h[Shard-Tipped Vambraces]|h|r) (1) (Laru) (PALADIN)", -- [57]
+			"20:41:07 - OnLootSlotCleared() (3) (|cff1eff00|Hcurrency:1553:35|h[Tiny Azerite Splinter]|h|r) (1553)", -- [58]
+			"20:41:07 - Event: (LOOT_CLOSED)", -- [59]
+			"20:41:09 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:159425::::::::120:65::23:3:4779:1517:4783:::|h[Shard-Tipped~`Vambraces]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [60]
+			"20:43:24 - Event: (LOOT_OPENED) (true)", -- [61]
+			"20:43:24 - GetUnitName: (Sand-Crusted Striker)", -- [62]
+			"20:43:24 - UnitGUID: (Creature-0-3111-1877-19753-135846-000016B776)", -- [63]
+			"20:43:24 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:155618::::::::120:65::::::|h[Discarded Molting]|h|r) (nil)", -- [64]
+			"20:43:24 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:155618::::::::120:65::::::|h[Discarded Molting]|h|r) (nil)", -- [65]
+			"20:43:24 - Event: (LOOT_CLOSED)", -- [66]
+			"20:44:43 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Trollax) (distri:) (GUILD)", -- [67]
+			"20:46:37 - Event: (ENCOUNTER_START) (2125) (Merektha) (23) (5)", -- [68]
+			"20:46:37 - UpdatePlayersData()", -- [69]
+			"20:50:05 - Event: (ENCOUNTER_END) (2125) (Merektha) (23) (5) (0)", -- [70]
+			"20:52:32 - Event: (ENCOUNTER_START) (2125) (Merektha) (23) (5)", -- [71]
+			"20:52:32 - UpdatePlayersData()", -- [72]
+			"20:53:37 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [73]
+			"20:54:42 - Event: (ENCOUNTER_END) (2125) (Merektha) (23) (5) (1)", -- [74]
+			"20:54:43 - Event: (ENCOUNTER_LOOT_RECEIVED) (2125) (162544) (|cffa335ee|Hitem:162544::::::::120:65::23:3:4779:1512:4786:::|h[Jade Ophidian Band]|h|r) (1) (Sóriq-Eredar) (PALADIN)", -- [75]
+			"20:54:45 - Event: (LOOT_OPENED) (true)", -- [76]
+			"20:54:45 - GetUnitName: (Merektha)", -- [77]
+			"20:54:45 - UnitGUID: (Creature-0-3111-1877-19753-133384-000016BCEE)", -- [78]
+			"20:54:45 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [79]
+			"20:54:45 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hcurrency:1553:35|h[Tiny Azerite Splinter]|h|r) (1553)", -- [80]
+			"20:54:45 - Adding to self.lootSlotInfo (3) (|cff1eff00|Hitem:159596::::::::120:65:::2:4796:1678:::|h[Rivermarsh Machete of the Quickblade]|h|r) (nil)", -- [81]
+			"20:54:46 - OnLootSlotCleared() (1) (nil) (nil)", -- [82]
+			"20:54:46 - OnLootSlotCleared() (2) (|cff1eff00|Hcurrency:1553:35|h[Tiny Azerite Splinter]|h|r) (1553)", -- [83]
+			"20:54:46 - OnLootSlotCleared() (3) (|cff1eff00|Hitem:159596::::::::120:65:::2:4796:1678:::|h[Rivermarsh Machete of the Quickblade]|h|r) (nil)", -- [84]
+			"20:54:46 - Event: (LOOT_CLOSED)", -- [85]
+			"20:55:42 - Event: (LOOT_OPENED) (true)", -- [86]
+			"20:55:42 - GetUnitName: (Agitated Nimbus)", -- [87]
+			"20:55:42 - UnitGUID: (Creature-0-3111-1877-19753-136076-000016B776)", -- [88]
+			"20:55:42 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [89]
+			"20:55:42 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hitem:152577::::::::120:65::::::|h[Deep Sea Satin]|h|r) (nil)", -- [90]
+			"20:55:42 - Adding to self.lootSlotInfo (3) (|cff9d9d9d|Hitem:158874::::::::120:65::::::|h[Frothing Vapor]|h|r) (nil)", -- [91]
+			"20:55:43 - OnLootSlotCleared() (1) (nil) (nil)", -- [92]
+			"20:55:43 - Event: (LOOT_CLOSED)", -- [93]
+			"20:57:42 - Event: (ENCOUNTER_START) (2126) (Galvazzt) (23) (5)", -- [94]
+			"20:57:42 - UpdatePlayersData()", -- [95]
+			"20:58:37 - Event: (ENCOUNTER_END) (2126) (Galvazzt) (23) (5) (1)", -- [96]
+			"20:58:38 - Event: (LOOT_OPENED) (true)", -- [97]
+			"20:58:38 - GetUnitName: (Galvazzt)", -- [98]
+			"20:58:38 - UnitGUID: (Creature-0-3111-1877-19753-133389-000016BE9F)", -- [99]
+			"20:58:38 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [100]
+			"20:58:38 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hcurrency:1553:35|h[Tiny Azerite Splinter]|h|r) (1553)", -- [101]
+			"20:58:38 - OnLootSlotCleared() (1) (nil) (nil)", -- [102]
+			"20:58:38 - OnLootSlotCleared() (2) (|cff1eff00|Hcurrency:1553:35|h[Tiny Azerite Splinter]|h|r) (1553)", -- [103]
+			"20:58:38 - Event: (LOOT_CLOSED)", -- [104]
+			"20:58:40 - Event: (ENCOUNTER_LOOT_RECEIVED) (2126) (158366) (|cffa335ee|Hitem:158366::::::::120:65::23:4:4779:42:1517:4783:::|h[Charged Sandstone Band]|h|r) (1) (Maroubra-Blackmoore) (ROGUE)", -- [105]
+			"20:58:41 - Event: (ENCOUNTER_LOOT_RECEIVED) (2126) (158366) (|cffa335ee|Hitem:158366::::::::120:65::23:3:4779:1512:4786:::|h[Charged Sandstone Band]|h|r) (1) (Yoshimitshu-Sanguino) (WARRIOR)", -- [106]
+			"21:02:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [107]
+			"21:05:22 - Event: (ENCOUNTER_START) (2127) (Avatar of Sethraliss) (23) (5)", -- [108]
+			"21:05:22 - UpdatePlayersData()", -- [109]
+			"21:09:55 - Event: (ENCOUNTER_END) (2127) (Avatar of Sethraliss) (23) (5) (1)", -- [110]
+			"21:10:05 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (158923) (|cffa335ee|Hitem:158923::::::::120:65:917504:::249:2:10:::|h[Mythic Keystone]|h|r) (1) (Maroubra-Blackmoore) (ROGUE)", -- [111]
+			"21:10:08 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (159254) (|cffa335ee|Hitem:159254::::::::120:65::23:3:4819:1512:4786:::|h[Brood Cleanser's Amice]|h|r) (1) (Misoury-Eredar) (MAGE)", -- [112]
+			"21:10:12 - Event: (LOOT_OPENED) (true)", -- [113]
+			"21:10:12 - GetUnitName: (Avatar of Sethraliss)", -- [114]
+			"21:10:12 - UnitGUID: (Creature-0-3111-1877-19753-133392-000016B776)", -- [115]
+			"21:10:12 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [116]
+			"21:10:12 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [117]
+			"21:10:12 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:159439::::::::120:65::23:3:4819:1512:4786:::|h[C'thraxxi Binders Pauldrons]|h|r) (nil)", -- [118]
+			"21:10:12 - Adding to self.lootSlotInfo (4) (|cff1eff00|Hcurrency:1553:50|h[Small Azerite Fragment]|h|r) (1553)", -- [119]
+			"21:10:13 - OnLootSlotCleared() (1) (nil) (nil)", -- [120]
+			"21:10:13 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [121]
+			"21:10:13 - OnLootSlotCleared() (3) (|cffa335ee|Hitem:159439::::::::120:65::23:3:4819:1512:4786:::|h[C'thraxxi Binders Pauldrons]|h|r) (nil)", -- [122]
+			"21:10:13 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (159439) (|cffa335ee|Hitem:159439::::::::120:65::23:3:4819:1512:4786:::|h[C'thraxxi Binders Pauldrons]|h|r) (1) (Laru) (PALADIN)", -- [123]
+			"21:10:13 - OnLootSlotCleared() (4) (|cff1eff00|Hcurrency:1553:50|h[Small Azerite Fragment]|h|r) (1553)", -- [124]
+			"21:10:13 - Event: (LOOT_CLOSED)", -- [125]
+			"21:10:15 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:159439::::::::120:65::23:3:4819:1512:4786:::|h[C'thraxxi~`Binders~`Pauldrons]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [126]
+			"21:10:22 - Event: (ENCOUNTER_LOOT_RECEIVED) (2127) (158923) (|cffa335ee|Hitem:158923::::::::120:65:917504:::245:2:10:::|h[Mythic Keystone]|h|r) (1) (Yoshimitshu-Sanguino) (WARRIOR)", -- [127]
+			"21:10:33 - TradeUI: Traded item(s) to (Yoshimitshu-Sanguino)", -- [128]
+			"21:10:33 - Storage:RemoveItem (|cffa335ee|Hitem:159425::::::::120:65::23:3:4779:1517:4783:::|h[Shard-Tipped Vambraces]|h|r)", -- [129]
+			"21:10:33 - Error - Couldn't remove item", -- [130]
+			"21:10:44 - Event: (GROUP_LEFT) (1) (Party-3692-00001A666221)", -- [131]
+			"21:10:44 - GetML()", -- [132]
+			"21:10:52 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [133]
+			"21:10:52 - GetML()", -- [134]
+			"21:11:43 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [135]
+			"21:14:06 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tresdine) (distri:) (GUILD)", -- [136]
+			"21:15:09 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [137]
+			"21:15:52 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [138]
+			"21:16:41 - Event: (PARTY_LEADER_CHANGED)", -- [139]
+			"21:16:41 - GetML()", -- [140]
+			"21:16:41 - Resetting council as we have a new ML!", -- [141]
+			"21:16:41 - MasterLooter =  (Laru-Frostwolf)", -- [142]
+			"21:16:41 - GetCouncilInGroup (Laru-Frostwolf)", -- [143]
+			"21:16:41 - ML:NewML (Laru-Frostwolf)", -- [144]
+			"21:16:41 - UpdateMLdb", -- [145]
+			"21:16:41 - UpdateGroup (true)", -- [146]
+			"21:16:41 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [147]
+			"21:16:41 - GetCouncilInGroup (Laru-Frostwolf)", -- [148]
+			"21:16:42 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [149]
+			"21:16:42 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [150]
+			"21:16:42 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [151]
+			"21:16:42 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [152]
+			"21:16:42 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [153]
+			"21:16:42 - true = (IsCouncil) (Laru-Frostwolf)", -- [154]
+			"21:16:42 - GetLootDBStatistics()", -- [155]
+			"21:16:42 - GetGuildRankNum()", -- [156]
+			"21:16:42 - RCVotingFrame (enabled)", -- [157]
+			"21:16:42 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (353.75)", -- [158]
+			"21:16:42 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N353.75^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [159]
+			"21:16:42 - Event: (GROUP_LEFT) (1) (Party-3703-00001A68512D)", -- [160]
+			"21:16:42 - GetML()", -- [161]
+			"21:16:42 - Stop handling loot", -- [162]
+			"21:16:42 - ML Disabled", -- [163]
+			"21:16:42 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [164]
+			"21:16:56 - Timer MLdb_check passed", -- [165]
+			"21:16:58 - Event: (PARTY_LEADER_CHANGED)", -- [166]
+			"21:16:58 - GetML()", -- [167]
+			"21:16:58 - Resetting council as we have a new ML!", -- [168]
+			"21:16:58 - MasterLooter =  (Laru-Frostwolf)", -- [169]
+			"21:16:58 - GetCouncilInGroup (Laru-Frostwolf)", -- [170]
+			"21:16:58 - ML:NewML (Laru-Frostwolf)", -- [171]
+			"21:16:58 - UpdateMLdb", -- [172]
+			"21:16:58 - UpdateGroup (true)", -- [173]
+			"21:16:58 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [174]
+			"21:16:58 - GetCouncilInGroup (Laru-Frostwolf)", -- [175]
+			"21:16:58 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [176]
+			"21:16:58 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [177]
+			"21:16:58 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [178]
+			"21:16:58 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [179]
+			"21:16:58 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [180]
+			"21:16:58 - true = (IsCouncil) (Laru-Frostwolf)", -- [181]
+			"21:16:59 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (353.75)", -- [182]
+			"21:16:59 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N353.75^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [183]
+			"21:17:03 - Event: (GROUP_LEFT) (1) (Party-3703-00001A6851C7)", -- [184]
+			"21:17:03 - GetML()", -- [185]
+			"21:17:03 - Stop handling loot", -- [186]
+			"21:17:03 - ML Disabled", -- [187]
+			"21:17:03 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [188]
+			"21:17:13 - Timer MLdb_check passed", -- [189]
+			"21:17:32 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [190]
+			"21:17:37 - Event: (PARTY_LEADER_CHANGED)", -- [191]
+			"21:17:37 - GetML()", -- [192]
+			"21:17:37 - Resetting council as we have a new ML!", -- [193]
+			"21:17:37 - MasterLooter =  (Laru-Frostwolf)", -- [194]
+			"21:17:37 - GetCouncilInGroup (Laru-Frostwolf)", -- [195]
+			"21:17:37 - ML:NewML (Laru-Frostwolf)", -- [196]
+			"21:17:37 - UpdateMLdb", -- [197]
+			"21:17:37 - UpdateGroup (true)", -- [198]
+			"21:17:37 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [199]
+			"21:17:37 - GetCouncilInGroup (Laru-Frostwolf)", -- [200]
+			"21:17:37 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [201]
+			"21:17:37 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [202]
+			"21:17:37 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [203]
+			"21:17:37 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [204]
+			"21:17:37 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [205]
+			"21:17:37 - true = (IsCouncil) (Laru-Frostwolf)", -- [206]
+			"21:17:37 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (353.75)", -- [207]
+			"21:17:37 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N353.75^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [208]
+			"21:17:40 - VotingFrame:Update() without lootTable!!", -- [209]
+			"21:17:47 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [210]
+			"21:17:47 - true = (IsCouncil) (Laru-Frostwolf)", -- [211]
+			"21:17:47 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [212]
+			"21:17:49 - UpdateGroup (table: 0000023363E0B7F0)", -- [213]
+			"21:17:49 - ML:AddCandidate (Ashkandi-Frostwolf) (WARRIOR) (DAMAGER) (nil) (nil) (nil) (nil)", -- [214]
+			"21:17:49 - GetCouncilInGroup (Laru-Frostwolf)", -- [215]
+			"21:17:49 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [216]
+			"21:17:49 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [217]
+			"21:17:52 - Timer MLdb_check passed", -- [218]
+			"21:18:06 - ML event (CHAT_MSG_WHISPER) (Bin leider kein DD :() (Laìya-Frostwolf) () () (Laìya) () (0) (0) () (0) (1171) (Player-3703-064F796B) (0) (false) (false) (false) (false)", -- [219]
+			"21:18:07 - VotingFrame:Update() without lootTable!!", -- [220]
+			"21:18:16 - UpdateGroup (table: 0000023363E0B7F0)", -- [221]
+			"21:18:16 - ML:AddCandidate (Safeba-Frostwolf) (MONK) (TANK) (nil) (nil) (nil) (nil)", -- [222]
+			"21:18:16 - GetCouncilInGroup (Laru-Frostwolf)", -- [223]
+			"21:18:16 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [224]
+			"21:18:16 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [225]
+			"21:18:16 - ML:AddCandidate (Safeba-Frostwolf) (MONK) (TANK) (Officer Alt) (nil) (0) (345.8125)", -- [226]
+			"21:18:16 - Comm received:^1^SplayerInfo^T^N1^SSafeba-Frostwolf^N2^SMONK^N3^STANK^N4^SOfficer~`Alt^N6^N0^N7^N345.8125^N8^N269^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [227]
+			"21:18:20 - VotingFrame:Update() without lootTable!!", -- [228]
+			"21:18:21 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [229]
+			"21:18:21 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [230]
+			"21:18:21 - true = (IsCouncil) (Laru-Frostwolf)", -- [231]
+			"21:18:41 - VotingFrame:Update() without lootTable!!", -- [232]
+			"21:18:49 - VotingFrame:Update() without lootTable!!", -- [233]
+			"21:19:00 - UpdateGroup (table: 0000023363E0B7F0)", -- [234]
+			"21:19:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [235]
+			"21:19:53 - ML event (CHAT_MSG_WHISPER) (ich komm dann auch mim rogue mit) (Tresdine-Frostwolf) () () (Tresdine) () (0) (0) () (0) (1199) (Player-3703-059CCAEE) (0) (false) (false) (false) (false)", -- [236]
+			"21:19:55 - ML event (CHAT_MSG_WHISPER) (dann ists leichter) (Tresdine-Frostwolf) () () (Tresdine) () (0) (0) () (0) (1200) (Player-3703-059CCAEE) (0) (false) (false) (false) (false)", -- [237]
+			"21:20:04 - ML event (CHAT_MSG_WHISPER) (hat zwar schon aber egal) (Tresdine-Frostwolf) () () (Tresdine) () (0) (0) () (0) (1202) (Player-3703-059CCAEE) (0) (false) (false) (false) (false)", -- [238]
+			"21:21:48 - ML event (CHAT_MSG_WHISPER) (k) (Fallen-Frostwolf) () () (Fallen) () (0) (0) () (0) (1215) (Player-3703-04CCA086) (0) (false) (false) (false) (false)", -- [239]
+			"21:21:52 - ML event (CHAT_MSG_WHISPER) (jo klar) (Fallen-Frostwolf) () () (Fallen) () (0) (0) () (0) (1217) (Player-3703-04CCA086) (0) (false) (false) (false) (false)", -- [240]
+			"21:23:15 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [241]
+			"21:23:53 - VotingFrame:Update() without lootTable!!", -- [242]
+			"21:24:17 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Trollax) (distri:) (GUILD)", -- [243]
+			"21:29:09 - ML event (CHAT_MSG_WHISPER) (kann später screen uppen) (Talar-Frostwolf) () () (Talar) () (0) (0) () (0) (1257) (Player-3703-05A9D979) (0) (false) (false) (false) (false)", -- [244]
+			"21:29:19 - ML event (CHAT_MSG_WHISPER) (aso) (Talar-Frostwolf) () () (Talar) () (0) (0) () (0) (1265) (Player-3703-05A9D979) (0) (false) (false) (false) (false)", -- [245]
+			"21:29:21 - ML event (CHAT_MSG_WHISPER) (weißt wie lange eo noch ca. braucht) (Fallen-Frostwolf) () () (Fallen) () (0) (0) () (0) (1267) (Player-3703-04CCA086) (0) (false) (false) (false) (false)", -- [246]
+			"21:29:23 - ML event (CHAT_MSG_WHISPER) (sh ... i t) (Talar-Frostwolf) () () (Talar) () (0) (0) () (0) (1268) (Player-3703-05A9D979) (0) (false) (false) (false) (false)", -- [247]
+			"09/10/18", -- [248]
+			"21:31:11 - Logged In", -- [249]
+			"21:31:11 - ML initialized!", -- [250]
+			"21:31:11 - TradeUI enabled", -- [251]
+			"21:31:13 - Laru-Frostwolf (2.8.3) (nil)", -- [252]
+			"21:31:13 - ActivateSkin (new_blue)", -- [253]
+			"21:31:14 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [254]
+			"21:31:14 - GetML()", -- [255]
+			"21:31:14 - Resetting council as we have a new ML!", -- [256]
+			"21:31:14 - MasterLooter =  (Laru-Frostwolf)", -- [257]
+			"21:31:14 - GetCouncilInGroup (Laru-Frostwolf)", -- [258]
+			"21:31:14 - ML:NewML (Laru-Frostwolf)", -- [259]
+			"21:31:14 - UpdateMLdb", -- [260]
+			"21:31:14 - UpdateGroup (true)", -- [261]
+			"21:31:14 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [262]
+			"21:31:14 - ML:AddCandidate (Ashkandi-Frostwolf) (WARRIOR) (DAMAGER) (nil) (nil) (nil) (nil)", -- [263]
+			"21:31:14 - ML:AddCandidate (Safeba-Frostwolf) (MONK) (TANK) (nil) (nil) (nil) (nil)", -- [264]
+			"21:31:14 - GetCouncilInGroup (Laru-Frostwolf)", -- [265]
+			"21:31:14 - UpdatePlayersData()", -- [266]
+			"21:31:14 - GetPlayersGuildRank()", -- [267]
+			"21:31:14 - Found Guild Rank: Raid Member", -- [268]
+			"21:31:15 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laru) (distri:) (GUILD)", -- [269]
+			"21:31:15 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [270]
+			"21:31:15 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [271]
+			"21:31:15 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [272]
+			"21:31:15 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [273]
+			"21:31:15 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [274]
+			"21:31:15 - true = (IsCouncil) (Laru-Frostwolf)", -- [275]
+			"21:31:15 - GetLootDBStatistics()", -- [276]
+			"21:31:15 - GetGuildRankNum()", -- [277]
+			"21:31:15 - RCVotingFrame (enabled)", -- [278]
+			"21:31:15 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N353.75^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [279]
+			"21:31:15 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (353.75)", -- [280]
+			"21:31:18 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [281]
+			"21:31:18 - true = (IsCouncil) (Laru-Frostwolf)", -- [282]
+			"21:31:18 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [283]
+			"21:31:23 - Timer MLdb_check passed", -- [284]
+			"21:33:18 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [285]
+			"21:33:45 - ML event (CHAT_MSG_WHISPER) (ok) (Fallen-Frostwolf) () () (Fallen) () (0) (0) () (0) (1286) (Player-3703-04CCA086) (0) (false) (false) (false) (false)", -- [286]
+			"21:34:25 - VotingFrame:Update() without lootTable!!", -- [287]
+			"21:34:43 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pildk) (distri:) (GUILD)", -- [288]
+			"21:34:51 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Omegalul) (distri:) (GUILD)", -- [289]
+			"21:35:02 - VotingFrame:Update() without lootTable!!", -- [290]
+			"21:35:24 - VotingFrame:Update() without lootTable!!", -- [291]
+			"21:35:29 - VotingFrame:Update() without lootTable!!", -- [292]
+			"21:35:34 - VotingFrame:Update() without lootTable!!", -- [293]
+			"21:35:49 - VotingFrame:Update() without lootTable!!", -- [294]
+			"21:36:16 - VotingFrame:Update() without lootTable!!", -- [295]
+			"21:36:42 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [296]
+			"21:38:02 - VotingFrame:Update() without lootTable!!", -- [297]
+			"21:38:23 - VotingFrame:Update() without lootTable!!", -- [298]
+			"21:38:50 - VotingFrame:Update() without lootTable!!", -- [299]
+			"21:43:15 - VotingFrame:Update() without lootTable!!", -- [300]
+			"21:43:23 - UpdateGroup (table: 00000233518D6E20)", -- [301]
+			"21:43:23 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [302]
+			"21:43:36 - VotingFrame:Update() without lootTable!!", -- [303]
+			"21:43:43 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [304]
+			"21:43:43 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [305]
+			"21:43:43 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [306]
+			"21:43:43 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [307]
+			"21:43:43 - true = (IsCouncil) (Laru-Frostwolf)", -- [308]
+			"21:43:56 - VotingFrame:Update() without lootTable!!", -- [309]
+			"21:44:13 - VotingFrame:Update() without lootTable!!", -- [310]
+			"21:44:23 - VotingFrame:Update() without lootTable!!", -- [311]
+			"21:44:48 - UpdateGroup (table: 00000233518D6E20)", -- [312]
+			"21:44:57 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [313]
+			"21:45:00 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Permok) (distri:) (GUILD)", -- [314]
+			"21:47:13 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [315]
+			"21:48:29 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Omegalul) (distri:) (GUILD)", -- [316]
+			"21:49:02 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Permok) (distri:) (GUILD)", -- [317]
+			"09/10/18", -- [318]
+			"21:49:51 - Logged In", -- [319]
+			"21:49:51 - ML initialized!", -- [320]
+			"21:49:51 - TradeUI enabled", -- [321]
+			"21:49:57 - Laru-Frostwolf (2.8.3) (nil)", -- [322]
+			"21:49:57 - ActivateSkin (new_blue)", -- [323]
+			"21:49:59 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [324]
+			"21:49:59 - GetML()", -- [325]
+			"21:49:59 - UpdatePlayersData()", -- [326]
+			"21:49:59 - Event: (PARTY_LEADER_CHANGED)", -- [327]
+			"21:49:59 - GetML()", -- [328]
+			"21:49:59 - Unknown ML", -- [329]
+			"21:50:00 - GetPlayersGuildRank()", -- [330]
+			"21:50:00 - Found Guild Rank: Raid Member", -- [331]
+			"21:50:00 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laru) (distri:) (GUILD)", -- [332]
+			"21:50:00 - GetML()", -- [333]
+			"21:50:00 - Resetting council as we have a new ML!", -- [334]
+			"21:50:00 - MasterLooter =  (Laru-Frostwolf)", -- [335]
+			"21:50:00 - GetCouncilInGroup (Laru-Frostwolf)", -- [336]
+			"21:50:00 - ML:NewML (Laru-Frostwolf)", -- [337]
+			"21:50:00 - UpdateMLdb", -- [338]
+			"21:50:00 - UpdateGroup (true)", -- [339]
+			"21:50:00 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [340]
+			"21:50:00 - ML:AddCandidate (Ashkandi-Frostwolf) (WARRIOR) (DAMAGER) (nil) (nil) (nil) (nil)", -- [341]
+			"21:50:00 - ML:AddCandidate (Safeba-Frostwolf) (MONK) (TANK) (nil) (nil) (nil) (nil)", -- [342]
+			"21:50:00 - GetCouncilInGroup (Laru-Frostwolf)", -- [343]
+			"21:50:02 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [344]
+			"21:50:02 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [345]
+			"21:50:03 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N353.75^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [346]
+			"21:50:03 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (353.75)", -- [347]
+			"21:50:03 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [348]
+			"21:50:03 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [349]
+			"21:50:03 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [350]
+			"21:50:03 - true = (IsCouncil) (Laru-Frostwolf)", -- [351]
+			"21:50:03 - GetLootDBStatistics()", -- [352]
+			"21:50:03 - GetGuildRankNum()", -- [353]
+			"21:50:03 - RCVotingFrame (enabled)", -- [354]
+			"21:50:10 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [355]
+			"21:50:10 - true = (IsCouncil) (Laru-Frostwolf)", -- [356]
+			"21:50:10 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [357]
+			"21:50:15 - Timer MLdb_check passed", -- [358]
+			"21:51:44 - ML event (CHAT_MSG_WHISPER) (hat leider etwas gedauert) (Tresdine-Frostwolf) () () (Tresdine) () (0) (0) () (0) (8) (Player-3703-059CCAEE) (0) (false) (false) (false) (false)", -- [359]
+			"21:51:47 - ML event (CHAT_MSG_WHISPER) (bin aber rdy jetzt) (Tresdine-Frostwolf) () () (Tresdine) () (0) (0) () (0) (9) (Player-3703-059CCAEE) (0) (false) (false) (false) (false)", -- [360]
+			"21:51:51 - ML event (CHAT_MSG_WHISPER) (wenn du noch nen dd brauchst) (Tresdine-Frostwolf) () () (Tresdine) () (0) (0) () (0) (10) (Player-3703-059CCAEE) (0) (false) (false) (false) (false)", -- [361]
+			"21:52:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Permok) (distri:) (GUILD)", -- [362]
+			"21:53:11 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shoulin) (distri:) (GUILD)", -- [363]
+			"21:53:21 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Alyeeana) (distri:) (GUILD)", -- [364]
+			"21:54:18 - VotingFrame:Update() without lootTable!!", -- [365]
+			"21:54:23 - VotingFrame:Update() without lootTable!!", -- [366]
+			"21:54:27 - UpdateGroup (table: 0000021205E10500)", -- [367]
+			"21:54:27 - ML:AddCandidate (Tresdine-Frostwolf) (WARRIOR) (DAMAGER) (nil) (nil) (nil) (nil)", -- [368]
+			"21:54:27 - ML:AddCandidate (Fallen-Frostwolf) (MAGE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [369]
+			"21:54:27 - GetCouncilInGroup (Laru-Frostwolf)", -- [370]
+			"21:54:27 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [371]
+			"21:54:27 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^STresdine-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [372]
+			"21:54:28 - Comm received:^1^SplayerInfo^T^N1^STresdine-Frostwolf^N2^SWARRIOR^N3^SDAMAGER^N4^SOfficer~`Alt^N6^N0^N7^N343.6875^N8^N71^t^^ (from:) (Tresdine) (distri:) (WHISPER)", -- [373]
+			"21:54:28 - ML:AddCandidate (Tresdine-Frostwolf) (WARRIOR) (DAMAGER) (Officer Alt) (nil) (0) (343.6875)", -- [374]
+			"21:54:28 - Comm received:^1^SplayerInfo^T^N1^SFallen-Frostwolf^N2^SMAGE^N3^SDAMAGER^N4^SOfficer^N5^B^N6^N150^N7^N357.3125^N8^N64^t^^ (from:) (Fallen) (distri:) (WHISPER)", -- [375]
+			"21:54:28 - ML:AddCandidate (Fallen-Frostwolf) (MAGE) (DAMAGER) (Officer) (true) (150) (357.3125)", -- [376]
+			"21:54:32 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Tresdine) (distri:) (WHISPER)", -- [377]
+			"21:54:33 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [378]
+			"21:54:33 - true = (IsCouncil) (Laru-Frostwolf)", -- [379]
+			"21:54:50 - UpdateGroup (table: 0000021205E10500)", -- [380]
+			"21:54:50 - ML:RemoveCandidate (Tresdine-Frostwolf)", -- [381]
+			"21:54:50 - GetCouncilInGroup (Laru-Frostwolf)", -- [382]
+			"21:54:51 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [383]
+			"21:54:51 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N357.3125^Senchant_lvl^N150^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [384]
+			"21:54:58 - VotingFrame:Update() without lootTable!!", -- [385]
+			"21:55:00 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Eowyndra) (distri:) (GUILD)", -- [386]
+			"21:55:03 - VotingFrame:Update() without lootTable!!", -- [387]
+			"21:55:03 - ML event (PLAYER_REGEN_ENABLED)", -- [388]
+			"21:55:04 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [389]
+			"21:55:12 - UpdateGroup (table: 0000021205E10500)", -- [390]
+			"21:55:13 - VotingFrame:Update() without lootTable!!", -- [391]
+			"21:55:17 - VotingFrame:Update() without lootTable!!", -- [392]
+			"21:55:24 - VotingFrame:Update() without lootTable!!", -- [393]
+			"21:55:24 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [394]
+			"21:55:24 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [395]
+			"21:55:24 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [396]
+			"21:55:24 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [397]
+			"21:55:24 - true = (IsCouncil) (Laru-Frostwolf)", -- [398]
+			"21:55:35 - VotingFrame:Update() without lootTable!!", -- [399]
+			"21:55:42 - VotingFrame:Update() without lootTable!!", -- [400]
+			"21:55:47 - VotingFrame:Update() without lootTable!!", -- [401]
+			"21:56:03 - VotingFrame:Update() without lootTable!!", -- [402]
+			"21:56:10 - VotingFrame:Update() without lootTable!!", -- [403]
+			"21:56:11 - VotingFrame:Update() without lootTable!!", -- [404]
+			"21:56:12 - UpdateGroup (table: 0000021205E10500)", -- [405]
+			"21:56:12 - ML:AddCandidate (Eowyndra-Frostwolf) (ROGUE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [406]
+			"21:56:12 - GetCouncilInGroup (Laru-Frostwolf)", -- [407]
+			"21:56:12 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [408]
+			"21:56:12 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SEowyndra-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N357.3125^Senchant_lvl^N150^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [409]
+			"21:56:12 - Comm received:^1^SplayerInfo^T^N1^SEowyndra-Frostwolf^N2^SROGUE^N3^SDAMAGER^N4^SGuild~`Master^N5^B^N6^N145^N7^N355.25^N8^N260^t^^ (from:) (Eowyndra) (distri:) (WHISPER)", -- [410]
+			"21:56:12 - ML:AddCandidate (Eowyndra-Frostwolf) (ROGUE) (DAMAGER) (Guild Master) (true) (145) (355.25)", -- [411]
+			"21:56:16 - VotingFrame:Update() without lootTable!!", -- [412]
+			"21:56:17 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Eowyndra) (distri:) (WHISPER)", -- [413]
+			"21:56:17 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [414]
+			"21:56:17 - true = (IsCouncil) (Laru-Frostwolf)", -- [415]
+			"21:56:19 - VotingFrame:Update() without lootTable!!", -- [416]
+			"21:56:21 - VotingFrame:Update() without lootTable!!", -- [417]
+			"21:56:26 - VotingFrame:Update() without lootTable!!", -- [418]
+			"21:56:31 - VotingFrame:Update() without lootTable!!", -- [419]
+			"21:56:37 - VotingFrame:Update() without lootTable!!", -- [420]
+			"21:56:43 - VotingFrame:Update() without lootTable!!", -- [421]
+			"21:56:51 - VotingFrame:Update() without lootTable!!", -- [422]
+			"21:56:59 - VotingFrame:Update() without lootTable!!", -- [423]
+			"21:57:06 - VotingFrame:Update() without lootTable!!", -- [424]
+			"21:57:15 - VotingFrame:Update() without lootTable!!", -- [425]
+			"21:57:26 - VotingFrame:Update() without lootTable!!", -- [426]
+			"21:57:31 - VotingFrame:Update() without lootTable!!", -- [427]
+			"21:57:42 - VotingFrame:Update() without lootTable!!", -- [428]
+			"21:57:48 - VotingFrame:Update() without lootTable!!", -- [429]
+			"21:57:52 - VotingFrame:Update() without lootTable!!", -- [430]
+			"21:58:19 - VotingFrame:Update() without lootTable!!", -- [431]
+			"21:58:31 - VotingFrame:Update() without lootTable!!", -- [432]
+			"21:58:40 - VotingFrame:Update() without lootTable!!", -- [433]
+			"21:58:46 - VotingFrame:Update() without lootTable!!", -- [434]
+			"21:58:52 - VotingFrame:Update() without lootTable!!", -- [435]
+			"21:58:56 - VotingFrame:Update() without lootTable!!", -- [436]
+			"21:59:02 - VotingFrame:Update() without lootTable!!", -- [437]
+			"21:59:08 - VotingFrame:Update() without lootTable!!", -- [438]
+			"21:59:13 - VotingFrame:Update() without lootTable!!", -- [439]
+			"21:59:23 - VotingFrame:Update() without lootTable!!", -- [440]
+			"21:59:36 - UpdateGroup (table: 0000021205E10500)", -- [441]
+			"21:59:40 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Permok) (distri:) (GUILD)", -- [442]
+			"22:00:29 - VotingFrame:Update() without lootTable!!", -- [443]
+			"22:01:16 - Event: (RAID_INSTANCE_WELCOME) (The Underrot (Mythic)) (125923) (0) (0)", -- [444]
+			"22:01:17 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [445]
+			"22:01:17 - GetML()", -- [446]
+			"22:01:19 - VotingFrame:Update() without lootTable!!", -- [447]
+			"22:01:26 - VotingFrame:Update() without lootTable!!", -- [448]
+			"22:01:26 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [449]
+			"22:01:34 - UpdateGroup (table: 0000021205E10500)", -- [450]
+			"22:01:46 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [451]
+			"22:01:46 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [452]
+			"22:01:46 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [453]
+			"22:01:46 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [454]
+			"22:01:46 - true = (IsCouncil) (Laru-Frostwolf)", -- [455]
+			"22:01:58 - VotingFrame:Update() without lootTable!!", -- [456]
+			"22:02:08 - VotingFrame:Update() without lootTable!!", -- [457]
+			"22:02:33 - VotingFrame:Update() without lootTable!!", -- [458]
+			"22:02:36 - VotingFrame:Update() without lootTable!!", -- [459]
+			"22:02:38 - VotingFrame:Update() without lootTable!!", -- [460]
+			"22:03:52 - ML event (PLAYER_REGEN_ENABLED)", -- [461]
+			"22:04:33 - ML event (PLAYER_REGEN_ENABLED)", -- [462]
+			"22:05:15 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pilwar) (distri:) (GUILD)", -- [463]
+			"22:05:36 - ML event (PLAYER_REGEN_ENABLED)", -- [464]
+			"22:05:40 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Nethiren) (distri:) (GUILD)", -- [465]
+			"22:05:43 - ML event (CHAT_MSG_LOOT) (You receive item: |cffffffff|Hitem:113509::::::::120:65::::::|h[Conjured Mana Bun]|h|rx20.) () () () (Laru) () (0) (0) () (0) (117) (nil) (0) (false) (false) (false) (false)", -- [466]
+			"22:05:43 - ML event (CHAT_MSG_LOOT) (You receive item: |cffffffff|Hitem:113509::::::::120:65::::::|h[Conjured Mana Bun]|h|rx20.) () () () (Laru) () (0) (0) () (0) (118) (nil) (0) (false) (false) (false) (false)", -- [467]
+			"22:05:43 - ML event (CHAT_MSG_LOOT) (You receive item: |cffffffff|Hitem:113509::::::::120:65::::::|h[Conjured Mana Bun]|h|rx20.) () () () (Laru) () (0) (0) () (0) (119) (nil) (0) (false) (false) (false) (false)", -- [468]
+			"22:06:21 - ML event (PLAYER_REGEN_ENABLED)", -- [469]
+			"22:07:05 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Nethiren) (distri:) (GUILD)", -- [470]
+			"22:07:22 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [471]
+			"22:07:26 - ML event (PLAYER_REGEN_ENABLED)", -- [472]
+			"22:07:42 - Event: (ENCOUNTER_START) (2111) (Elder Leaxa) (8) (5)", -- [473]
+			"22:07:42 - UpdatePlayersData()", -- [474]
+			"22:08:20 - Event: (ENCOUNTER_END) (2111) (Elder Leaxa) (8) (5) (1)", -- [475]
+			"22:08:21 - ML event (PLAYER_REGEN_ENABLED)", -- [476]
+			"22:09:11 - ML event (PLAYER_REGEN_ENABLED)", -- [477]
+			"22:09:42 - ML event (PLAYER_REGEN_ENABLED)", -- [478]
+			"22:10:18 - ML event (PLAYER_REGEN_ENABLED)", -- [479]
+			"22:11:17 - ML event (PLAYER_REGEN_ENABLED)", -- [480]
+			"22:11:55 - ML event (PLAYER_REGEN_ENABLED)", -- [481]
+			"22:12:31 - VotingFrame:Update() without lootTable!!", -- [482]
+			"22:12:36 - ML event (PLAYER_REGEN_ENABLED)", -- [483]
+			"22:12:38 - VotingFrame:Update() without lootTable!!", -- [484]
+			"22:12:41 - VotingFrame:Update() without lootTable!!", -- [485]
+			"22:12:45 - VotingFrame:Update() without lootTable!!", -- [486]
+			"22:12:47 - VotingFrame:Update() without lootTable!!", -- [487]
+			"22:14:20 - ML event (PLAYER_REGEN_ENABLED)", -- [488]
+			"22:15:11 - ML event (PLAYER_REGEN_ENABLED)", -- [489]
+			"22:15:54 - ML event (PLAYER_REGEN_ENABLED)", -- [490]
+			"22:16:10 - Event: (ENCOUNTER_START) (2118) (Cragmaw the Infested) (8) (5)", -- [491]
+			"22:16:10 - UpdatePlayersData()", -- [492]
+			"22:17:46 - Event: (ENCOUNTER_END) (2118) (Cragmaw the Infested) (8) (5) (1)", -- [493]
+			"22:17:47 - ML event (PLAYER_REGEN_ENABLED)", -- [494]
+			"22:18:38 - ML event (PLAYER_REGEN_ENABLED)", -- [495]
+			"22:18:57 - ML event (PLAYER_REGEN_ENABLED)", -- [496]
+			"22:19:46 - ML event (PLAYER_REGEN_ENABLED)", -- [497]
+			"22:20:26 - ML event (PLAYER_REGEN_ENABLED)", -- [498]
+			"22:20:33 - Event: (ENCOUNTER_START) (2112) (Sporecaller Zancha) (8) (5)", -- [499]
+			"22:20:33 - UpdatePlayersData()", -- [500]
+			"22:20:47 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [501]
+			"22:21:50 - Event: (ENCOUNTER_END) (2112) (Sporecaller Zancha) (8) (5) (1)", -- [502]
+			"22:21:50 - ML event (PLAYER_REGEN_ENABLED)", -- [503]
+			"22:22:44 - ML event (PLAYER_REGEN_ENABLED)", -- [504]
+			"22:23:21 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [505]
+			"22:23:29 - ML event (PLAYER_REGEN_ENABLED)", -- [506]
+			"22:24:25 - ML event (PLAYER_REGEN_ENABLED)", -- [507]
+			"22:24:49 - Event: (ENCOUNTER_START) (2123) (Unbound Abomination) (8) (5)", -- [508]
+			"22:24:49 - UpdatePlayersData()", -- [509]
+			"22:26:29 - Event: (ENCOUNTER_END) (2123) (Unbound Abomination) (8) (5) (1)", -- [510]
+			"22:26:29 - ML event (PLAYER_REGEN_ENABLED)", -- [511]
+			"22:26:36 - ML event (PLAYER_REGEN_ENABLED)", -- [512]
+			"22:26:39 - ML event (CHAT_MSG_LOOT) (Safeba receives loot: |cffa335ee|Hitem:159463::::::::120:65::16:3:5008:1527:4786:::|h[Loop of Pulsing Veins]|h|r.) () () () (Safeba) () (0) (0) () (0) (259) (nil) (0) (false) (false) (false) (false)", -- [513]
+			"22:26:39 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (159463) (|cffa335ee|Hitem:159463::::::::120:65::16:3:5008:1527:4786:::|h[Loop of Pulsing Veins]|h|r) (1) (Safeba) (MONK)", -- [514]
+			"22:26:41 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:159463::::::::120:268::16:3:5008:1527:4786:::|h[Loop~`of~`Pulsing~`Veins]|h|r^t^^ (from:) (Safeba) (distri:) (PARTY)", -- [515]
+			"22:26:41 - ML event (CHAT_MSG_LOOT) (Eowyndra receives loot: |cffa335ee|Hitem:159463::::::::120:65::16:4:5008:40:1527:4786:::|h[Loop of Pulsing Veins]|h|r.) () () () (Eowyndra) () (0) (0) () (0) (260) (nil) (0) (false) (false) (false) (false)", -- [516]
+			"22:26:41 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (159463) (|cffa335ee|Hitem:159463::::::::120:65::16:4:5008:40:1527:4786:::|h[Loop of Pulsing Veins]|h|r) (1) (Eowyndra) (ROGUE)", -- [517]
+			"22:26:42 - ML event (CHAT_MSG_LOOT) (Ashkandi receives loot: |cffa335ee|Hitem:159433::::::::120:65::16:3:5008:1527:4786:::|h[Phosphorescent Armplates]|h|r.) () () () (Ashkandi) () (0) (0) () (0) (261) (nil) (0) (false) (false) (false) (false)", -- [518]
+			"22:26:42 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (159433) (|cffa335ee|Hitem:159433::::::::120:65::16:3:5008:1527:4786:::|h[Phosphorescent Armplates]|h|r) (1) (Ashkandi) (WARRIOR)", -- [519]
+			"22:26:43 - Event: (LOOT_OPENED) (true)", -- [520]
+			"22:26:43 - GetUnitName: (nil)", -- [521]
+			"22:26:43 - UnitGUID: (nil)", -- [522]
+			"22:26:43 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [523]
+			"22:26:43 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hcurrency:1553:260|h[Glowing Azerite Crystal]|h|r) (1553)", -- [524]
+			"22:26:43 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:159463::::::::120:260::16:4:5008:40:1527:4786:::|h[Loop~`of~`Pulsing~`Veins]|h|r^t^^ (from:) (Eowyndra) (distri:) (PARTY)", -- [525]
+			"22:26:43 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [526]
+			"22:26:43 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r.) () () () (Laru) () (0) (0) () (0) (262) (nil) (0) (false) (false) (false) (false)", -- [527]
+			"22:26:43 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1553:260|h[Glowing Azerite Crystal]|h|r) (1553)", -- [528]
+			"22:26:43 - Event: (LOOT_CLOSED)", -- [529]
+			"22:27:14 - ML event (CHAT_MSG_LOOT) (You receive item: |cffa335ee|Hitem:159463::::::::120:65::16:4:5008:40:1527:4786:::|h[Loop of Pulsing Veins]|h|r.) () () () (Laru) () (0) (0) () (0) (270) (nil) (0) (false) (false) (false) (false)", -- [530]
+			"22:27:14 - TradeUI: Traded item(s) to (Eowyndra-Frostwolf)", -- [531]
+			"22:27:20 - VotingFrame:Update() without lootTable!!", -- [532]
+			"22:27:23 - VotingFrame:Update() without lootTable!!", -- [533]
+			"22:27:28 - VotingFrame:Update() without lootTable!!", -- [534]
+			"22:27:34 - VotingFrame:Update() without lootTable!!", -- [535]
+			"22:27:35 - VotingFrame:Update() without lootTable!!", -- [536]
+			"22:27:47 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [537]
+			"22:27:47 - GetML()", -- [538]
+			"22:27:48 - VotingFrame:Update() without lootTable!!", -- [539]
+			"22:27:48 - VotingFrame:Update() without lootTable!!", -- [540]
+			"22:27:49 - VotingFrame:Update() without lootTable!!", -- [541]
+			"22:27:50 - VotingFrame:Update() without lootTable!!", -- [542]
+			"22:27:51 - VotingFrame:Update() without lootTable!!", -- [543]
+			"22:27:57 - VotingFrame:Update() without lootTable!!", -- [544]
+			"22:28:03 - VotingFrame:Update() without lootTable!!", -- [545]
+			"22:28:08 - VotingFrame:Update() without lootTable!!", -- [546]
+			"22:28:13 - VotingFrame:Update() without lootTable!!", -- [547]
+			"22:28:17 - VotingFrame:Update() without lootTable!!", -- [548]
+			"22:28:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [549]
+			"22:28:26 - GetML()", -- [550]
+			"22:28:28 - VotingFrame:Update() without lootTable!!", -- [551]
+			"22:28:29 - VotingFrame:Update() without lootTable!!", -- [552]
+			"22:28:40 - VotingFrame:Update() without lootTable!!", -- [553]
+			"22:28:43 - VotingFrame:Update() without lootTable!!", -- [554]
+			"22:28:59 - VotingFrame:Update() without lootTable!!", -- [555]
+			"22:29:09 - VotingFrame:Update() without lootTable!!", -- [556]
+			"22:29:19 - VotingFrame:Update() without lootTable!!", -- [557]
+			"22:29:35 - VotingFrame:Update() without lootTable!!", -- [558]
+			"22:29:38 - UpdateGroup (table: 0000021205E10500)", -- [559]
+			"22:29:38 - ML:AddCandidate (Talar-Frostwolf) (DEMONHUNTER) (DAMAGER) (nil) (nil) (nil) (nil)", -- [560]
+			"22:29:38 - ML:RemoveCandidate (Eowyndra-Frostwolf)", -- [561]
+			"22:29:38 - GetCouncilInGroup (Laru-Frostwolf)", -- [562]
+			"22:29:38 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [563]
+			"22:29:38 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^STalar-Frostwolf^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N357.3125^Senchant_lvl^N150^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^SAshkandi-Frostwolf^T^Srole^SDAMAGER^Sclass^SWARRIOR^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [564]
+			"22:29:39 - Comm received:^1^SplayerInfo^T^N1^STalar-Frostwolf^N2^SDEMONHUNTER^N3^SDAMAGER^N4^SRaid~`Member^N6^N0^N7^N356.5625^N8^N577^t^^ (from:) (Talar) (distri:) (WHISPER)", -- [565]
+			"22:29:39 - ML:AddCandidate (Talar-Frostwolf) (DEMONHUNTER) (DAMAGER) (Raid Member) (nil) (0) (356.5625)", -- [566]
+			"22:29:43 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [567]
+			"22:29:43 - GetML()", -- [568]
+			"22:29:44 - VotingFrame:Update() without lootTable!!", -- [569]
+			"22:29:44 - Event: (RAID_INSTANCE_WELCOME) (Tol Dagor (Mythic)) (124215) (0) (0)", -- [570]
+			"22:29:44 - VotingFrame:Update() without lootTable!!", -- [571]
+			"22:29:47 - VotingFrame:Update() without lootTable!!", -- [572]
+			"22:29:49 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Talar) (distri:) (WHISPER)", -- [573]
+			"22:29:49 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [574]
+			"22:29:49 - true = (IsCouncil) (Laru-Frostwolf)", -- [575]
+			"22:29:52 - VotingFrame:Update() without lootTable!!", -- [576]
+			"22:29:58 - VotingFrame:Update() without lootTable!!", -- [577]
+			"22:30:03 - VotingFrame:Update() without lootTable!!", -- [578]
+			"22:30:14 - VotingFrame:Update() without lootTable!!", -- [579]
+			"22:30:19 - VotingFrame:Update() without lootTable!!", -- [580]
+			"22:30:35 - VotingFrame:Update() without lootTable!!", -- [581]
+			"22:30:44 - VotingFrame:Update() without lootTable!!", -- [582]
+			"22:30:45 - VotingFrame:Update() without lootTable!!", -- [583]
+			"22:30:56 - VotingFrame:Update() without lootTable!!", -- [584]
+			"22:31:07 - VotingFrame:Update() without lootTable!!", -- [585]
+			"22:31:07 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tresdine) (distri:) (GUILD)", -- [586]
+			"22:31:21 - VotingFrame:Update() without lootTable!!", -- [587]
+			"22:31:22 - VotingFrame:Update() without lootTable!!", -- [588]
+			"22:31:51 - VotingFrame:Update() without lootTable!!", -- [589]
+			"22:31:53 - VotingFrame:Update() without lootTable!!", -- [590]
+			"22:32:07 - VotingFrame:Update() without lootTable!!", -- [591]
+			"22:32:13 - VotingFrame:Update() without lootTable!!", -- [592]
+			"22:32:17 - VotingFrame:Update() without lootTable!!", -- [593]
+			"22:32:23 - VotingFrame:Update() without lootTable!!", -- [594]
+			"22:32:28 - VotingFrame:Update() without lootTable!!", -- [595]
+			"22:32:39 - VotingFrame:Update() without lootTable!!", -- [596]
+			"22:32:44 - VotingFrame:Update() without lootTable!!", -- [597]
+			"22:32:50 - VotingFrame:Update() without lootTable!!", -- [598]
+			"22:33:03 - VotingFrame:Update() without lootTable!!", -- [599]
+			"22:33:22 - VotingFrame:Update() without lootTable!!", -- [600]
+			"22:33:37 - VotingFrame:Update() without lootTable!!", -- [601]
+			"22:33:40 - VotingFrame:Update() without lootTable!!", -- [602]
+			"22:33:47 - VotingFrame:Update() without lootTable!!", -- [603]
+			"22:33:51 - VotingFrame:Update() without lootTable!!", -- [604]
+			"22:34:20 - VotingFrame:Update() without lootTable!!", -- [605]
+			"22:35:56 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Ellenpage) (distri:) (GUILD)", -- [606]
+			"22:36:26 - ML event (PLAYER_REGEN_ENABLED)", -- [607]
+			"22:36:49 - Event: (ENCOUNTER_START) (2101) (The Sand Queen) (8) (5)", -- [608]
+			"22:36:49 - UpdatePlayersData()", -- [609]
+			"22:38:36 - Event: (ENCOUNTER_END) (2101) (The Sand Queen) (8) (5) (1)", -- [610]
+			"22:38:37 - ML event (PLAYER_REGEN_ENABLED)", -- [611]
+			"22:39:21 - ML event (PLAYER_REGEN_ENABLED)", -- [612]
+			"22:40:14 - ML event (PLAYER_REGEN_ENABLED)", -- [613]
+			"22:40:54 - ML event (PLAYER_REGEN_ENABLED)", -- [614]
+			"22:41:06 - ML event (PLAYER_REGEN_ENABLED)", -- [615]
+			"22:41:56 - ML event (PLAYER_REGEN_ENABLED)", -- [616]
+			"22:42:36 - ML event (PLAYER_REGEN_ENABLED)", -- [617]
+			"22:43:07 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tresdine) (distri:) (GUILD)", -- [618]
+			"22:43:22 - ML event (PLAYER_REGEN_ENABLED)", -- [619]
+			"22:44:22 - ML event (PLAYER_REGEN_ENABLED)", -- [620]
+			"22:44:52 - ML event (PLAYER_REGEN_ENABLED)", -- [621]
+			"22:45:33 - ML event (PLAYER_REGEN_ENABLED)", -- [622]
+			"22:45:49 - ML event (PLAYER_REGEN_ENABLED)", -- [623]
+			"22:46:39 - ML event (PLAYER_REGEN_ENABLED)", -- [624]
+			"22:47:37 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [625]
+			"22:48:19 - ML event (PLAYER_REGEN_ENABLED)", -- [626]
+			"22:48:34 - Event: (ENCOUNTER_START) (2102) (Jes Howlis) (8) (5)", -- [627]
+			"22:48:34 - UpdatePlayersData()", -- [628]
+			"22:49:46 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Eowyndra) (distri:) (GUILD)", -- [629]
+			"22:49:49 - Event: (ENCOUNTER_END) (2102) (Jes Howlis) (8) (5) (1)", -- [630]
+			"22:50:30 - ML event (PLAYER_REGEN_ENABLED)", -- [631]
+			"22:51:28 - ML event (PLAYER_REGEN_ENABLED)", -- [632]
+			"22:52:09 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [633]
+			"22:52:25 - ML event (PLAYER_REGEN_ENABLED)", -- [634]
+			"22:53:25 - ML event (PLAYER_REGEN_ENABLED)", -- [635]
+			"22:53:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Ellenpage) (distri:) (GUILD)", -- [636]
+			"22:54:02 - ML event (PLAYER_REGEN_ENABLED)", -- [637]
+			"22:54:38 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [638]
+			"22:54:56 - ML event (PLAYER_REGEN_ENABLED)", -- [639]
+			"22:55:21 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [640]
+			"22:56:58 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tresdine) (distri:) (GUILD)", -- [641]
+			"22:57:29 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shayman) (distri:) (GUILD)", -- [642]
+			"22:58:03 - ML event (PLAYER_REGEN_ENABLED)", -- [643]
+			"22:58:51 - ML event (PLAYER_REGEN_ENABLED)", -- [644]
+			"22:59:29 - ML event (PLAYER_REGEN_ENABLED)", -- [645]
+			"22:59:43 - Event: (ENCOUNTER_START) (2103) (Knight Captain Valyri) (8) (5)", -- [646]
+			"22:59:43 - UpdatePlayersData()", -- [647]
+			"23:01:15 - Event: (ENCOUNTER_END) (2103) (Knight Captain Valyri) (8) (5) (1)", -- [648]
+			"23:01:16 - ML event (PLAYER_REGEN_ENABLED)", -- [649]
+			"23:03:42 - ML event (PLAYER_REGEN_ENABLED)", -- [650]
+			"23:04:03 - Event: (ENCOUNTER_START) (2104) (Overseer Korgus) (8) (5)", -- [651]
+			"23:04:03 - UpdatePlayersData()", -- [652]
+			"23:05:40 - ML event (PLAYER_REGEN_ENABLED)", -- [653]
+			"23:06:05 - Event: (ENCOUNTER_END) (2104) (Overseer Korgus) (8) (5) (0)", -- [654]
+			"23:06:29 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Safeba) (distri:) (GUILD)", -- [655]
+			"23:06:29 - Comm received:^1^SplayerInfo^T^N1^SSafeba-Frostwolf^N2^SMONK^N3^STANK^N4^SOfficer~`Alt^N6^N0^N7^N350.1875^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [656]
+			"23:06:29 - ML:AddCandidate (Safeba-Frostwolf) (MONK) (TANK) (Officer Alt) (nil) (0) (350.1875)", -- [657]
+			"23:06:29 - Comm received:^1^Sreconnect^T^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [658]
+			"23:06:29 - Responded to reconnect from (Safeba)", -- [659]
+			"23:06:56 - Event: (ENCOUNTER_START) (2104) (Overseer Korgus) (8) (5)", -- [660]
+			"23:06:56 - UpdatePlayersData()", -- [661]
+			"23:08:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [662]
+			"23:09:24 - Event: (ENCOUNTER_END) (2104) (Overseer Korgus) (8) (5) (1)", -- [663]
+			"23:09:25 - ML event (PLAYER_REGEN_ENABLED)", -- [664]
+			"23:09:31 - ML event (CHAT_MSG_LOOT) (Talar receives loot: |cffa335ee|Hitem:159343::::::::120:65::16:3:5009:1527:4786:::|h[Spark Dampening Footpads]|h|r.) () () () (Talar) () (0) (0) () (0) (697) (nil) (0) (false) (false) (false) (false)", -- [665]
+			"23:09:31 - Event: (ENCOUNTER_LOOT_RECEIVED) (2104) (159343) (|cffa335ee|Hitem:159343::::::::120:65::16:3:5009:1527:4786:::|h[Spark Dampening Footpads]|h|r) (1) (Talar) (DEMONHUNTER)", -- [666]
+			"23:09:33 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:159343::::::::120:577::16:3:5009:1527:4786:::|h[Spark~`Dampening~`Footpads]|h|r^t^^ (from:) (Talar) (distri:) (PARTY)", -- [667]
+			"23:09:40 - Event: (LOOT_OPENED) (true)", -- [668]
+			"23:09:40 - GetUnitName: (nil)", -- [669]
+			"23:09:40 - UnitGUID: (nil)", -- [670]
+			"23:09:40 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [671]
+			"23:09:40 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hcurrency:1553:270|h[Glowing Azerite Crystal]|h|r) (1553)", -- [672]
+			"23:09:41 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [673]
+			"23:09:41 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r.) () () () (Laru) () (0) (0) () (0) (700) (nil) (0) (false) (false) (false) (false)", -- [674]
+			"23:09:41 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1553:270|h[Glowing Azerite Crystal]|h|r) (1553)", -- [675]
+			"23:09:41 - Event: (LOOT_CLOSED)", -- [676]
+			"23:09:46 - ML event (CHAT_MSG_LOOT) (Fallen receives loot: |cffa335ee|Hitem:159274::::::::120:65::16:3:5009:1527:4786:::|h[Knight Captain's Waistcord]|h|r.) () () () (Fallen) () (0) (0) () (0) (706) (nil) (0) (false) (false) (false) (false)", -- [677]
+			"23:09:46 - Event: (ENCOUNTER_LOOT_RECEIVED) (2104) (159274) (|cffa335ee|Hitem:159274::::::::120:65::16:3:5009:1527:4786:::|h[Knight Captain's Waistcord]|h|r) (1) (Fallen) (MAGE)", -- [678]
+			"23:09:48 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:159274::::::::120:64::16:3:5009:1527:4786:::|h[Knight~`Captain's~`Waistcord]|h|r^t^^ (from:) (Fallen) (distri:) (PARTY)", -- [679]
+			"23:10:23 - VotingFrame:Update() without lootTable!!", -- [680]
+			"23:10:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [681]
+			"23:10:31 - GetML()", -- [682]
+			"23:10:31 - VotingFrame:Update() without lootTable!!", -- [683]
+			"23:10:31 - VotingFrame:Update() without lootTable!!", -- [684]
+			"23:10:32 - VotingFrame:Update() without lootTable!!", -- [685]
+			"23:10:44 - VotingFrame:Update() without lootTable!!", -- [686]
+			"23:10:48 - VotingFrame:Update() without lootTable!!", -- [687]
+			"23:10:59 - VotingFrame:Update() without lootTable!!", -- [688]
+			"23:11:05 - VotingFrame:Update() without lootTable!!", -- [689]
+			"23:11:09 - VotingFrame:Update() without lootTable!!", -- [690]
+			"23:11:24 - VotingFrame:Update() without lootTable!!", -- [691]
+			"23:11:25 - VotingFrame:Update() without lootTable!!", -- [692]
+			"23:11:32 - VotingFrame:Update() without lootTable!!", -- [693]
+			"23:11:35 - VotingFrame:Update() without lootTable!!", -- [694]
+			"23:11:42 - VotingFrame:Update() without lootTable!!", -- [695]
+			"23:11:59 - VotingFrame:Update() without lootTable!!", -- [696]
+			"23:12:01 - VotingFrame:Update() without lootTable!!", -- [697]
+			"23:12:03 - VotingFrame:Update() without lootTable!!", -- [698]
+			"23:12:09 - VotingFrame:Update() without lootTable!!", -- [699]
+			"23:12:14 - VotingFrame:Update() without lootTable!!", -- [700]
+			"23:12:36 - VotingFrame:Update() without lootTable!!", -- [701]
+			"23:12:51 - VotingFrame:Update() without lootTable!!", -- [702]
+			"23:13:01 - VotingFrame:Update() without lootTable!!", -- [703]
+			"23:13:11 - VotingFrame:Update() without lootTable!!", -- [704]
+			"23:13:32 - VotingFrame:Update() without lootTable!!", -- [705]
+			"23:13:47 - VotingFrame:Update() without lootTable!!", -- [706]
+			"23:13:53 - VotingFrame:Update() without lootTable!!", -- [707]
+			"23:14:09 - VotingFrame:Update() without lootTable!!", -- [708]
+			"23:14:14 - VotingFrame:Update() without lootTable!!", -- [709]
+			"23:14:30 - VotingFrame:Update() without lootTable!!", -- [710]
+			"23:14:48 - Event: (RAID_INSTANCE_WELCOME) (Shrine of the Storm (Mythic)) (121511) (0) (0)", -- [711]
+			"23:14:49 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [712]
+			"23:14:49 - GetML()", -- [713]
+			"23:14:51 - VotingFrame:Update() without lootTable!!", -- [714]
+			"23:14:56 - VotingFrame:Update() without lootTable!!", -- [715]
+			"23:14:57 - VotingFrame:Update() without lootTable!!", -- [716]
+			"23:15:09 - VotingFrame:Update() without lootTable!!", -- [717]
+			"23:15:22 - VotingFrame:Update() without lootTable!!", -- [718]
+			"23:15:25 - VotingFrame:Update() without lootTable!!", -- [719]
+			"23:15:26 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Alyeeana) (distri:) (GUILD)", -- [720]
+			"23:15:28 - VotingFrame:Update() without lootTable!!", -- [721]
+			"23:15:38 - VotingFrame:Update() without lootTable!!", -- [722]
+			"23:16:47 - ML event (PLAYER_REGEN_ENABLED)", -- [723]
+			"23:16:53 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [724]
+			"23:17:28 - ML event (PLAYER_REGEN_ENABLED)", -- [725]
+			"23:17:53 - ML event (PLAYER_REGEN_ENABLED)", -- [726]
+			"23:18:38 - ML event (PLAYER_REGEN_ENABLED)", -- [727]
+			"23:19:02 - ML event (PLAYER_REGEN_ENABLED)", -- [728]
+			"23:19:17 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gârdor) (distri:) (GUILD)", -- [729]
+			"23:19:34 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sidayira) (distri:) (GUILD)", -- [730]
+			"23:20:46 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydruid) (distri:) (GUILD)", -- [731]
+			"23:20:46 - ML event (PLAYER_REGEN_ENABLED)", -- [732]
+			"23:21:30 - ML event (PLAYER_REGEN_ENABLED)", -- [733]
+			"23:23:06 - ML event (PLAYER_REGEN_ENABLED)", -- [734]
+			"23:23:38 - ML event (PLAYER_REGEN_ENABLED)", -- [735]
+			"23:24:00 - ML event (PLAYER_REGEN_ENABLED)", -- [736]
+			"23:26:26 - ML event (PLAYER_REGEN_ENABLED)", -- [737]
+			"23:27:01 - ML event (PLAYER_REGEN_ENABLED)", -- [738]
+			"23:27:20 - Event: (ENCOUNTER_START) (2130) (Aqu'sirr) (8) (5)", -- [739]
+			"23:27:20 - UpdatePlayersData()", -- [740]
+			"23:28:55 - Event: (ENCOUNTER_END) (2130) (Aqu'sirr) (8) (5) (1)", -- [741]
+			"23:28:56 - ML event (PLAYER_REGEN_ENABLED)", -- [742]
+			"23:30:11 - ML event (PLAYER_REGEN_ENABLED)", -- [743]
+			"23:31:05 - ML event (PLAYER_REGEN_ENABLED)", -- [744]
+			"23:31:44 - ML event (PLAYER_REGEN_ENABLED)", -- [745]
+			"23:33:25 - ML event (PLAYER_REGEN_ENABLED)", -- [746]
+			"23:34:04 - ML event (PLAYER_REGEN_ENABLED)", -- [747]
+			"23:35:10 - ML event (PLAYER_REGEN_ENABLED)", -- [748]
+			"23:36:36 - ML event (PLAYER_REGEN_ENABLED)", -- [749]
+			"23:37:52 - ML event (PLAYER_REGEN_ENABLED)", -- [750]
+			"23:39:28 - ML event (PLAYER_REGEN_ENABLED)", -- [751]
+			"23:39:49 - ML event (PLAYER_REGEN_ENABLED)", -- [752]
+			"23:40:00 - Event: (ENCOUNTER_START) (2131) (Tidesage Council) (8) (5)", -- [753]
+			"23:40:00 - UpdatePlayersData()", -- [754]
+			"23:40:46 - ML event (PLAYER_REGEN_ENABLED)", -- [755]
+			"23:40:55 - Event: (ENCOUNTER_END) (2131) (Tidesage Council) (8) (5) (0)", -- [756]
+			"23:40:59 - VotingFrame:Update() without lootTable!!", -- [757]
+			"23:41:12 - VotingFrame:Update() without lootTable!!", -- [758]
+			"23:41:14 - VotingFrame:Update() without lootTable!!", -- [759]
+			"23:42:14 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Eowyndra) (distri:) (GUILD)", -- [760]
+			"23:42:35 - VotingFrame:Update() without lootTable!!", -- [761]
+			"23:42:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [762]
+			"23:42:42 - GetML()", -- [763]
+			"23:42:43 - VotingFrame:Update() without lootTable!!", -- [764]
+			"23:42:47 - VotingFrame:Update() without lootTable!!", -- [765]
+			"23:43:00 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [766]
+			"23:43:00 - GetML()", -- [767]
+			"23:43:00 - VotingFrame:Update() without lootTable!!", -- [768]
+			"23:43:00 - VotingFrame:Update() without lootTable!!", -- [769]
+			"23:43:01 - VotingFrame:Update() without lootTable!!", -- [770]
+			"23:43:08 - VotingFrame:Update() without lootTable!!", -- [771]
+			"23:43:11 - VotingFrame:Update() without lootTable!!", -- [772]
+			"23:43:15 - VotingFrame:Update() without lootTable!!", -- [773]
+			"23:43:17 - VotingFrame:Update() without lootTable!!", -- [774]
+			"23:43:27 - VotingFrame:Update() without lootTable!!", -- [775]
+			"23:43:59 - VotingFrame:Update() without lootTable!!", -- [776]
+			"23:44:14 - VotingFrame:Update() without lootTable!!", -- [777]
+			"23:44:24 - VotingFrame:Update() without lootTable!!", -- [778]
+			"23:44:52 - VotingFrame:Update() without lootTable!!", -- [779]
+			"23:44:56 - VotingFrame:Update() without lootTable!!", -- [780]
+			"23:44:57 - VotingFrame:Update() without lootTable!!", -- [781]
+			"23:45:01 - VotingFrame:Update() without lootTable!!", -- [782]
+			"23:45:12 - VotingFrame:Update() without lootTable!!", -- [783]
+			"23:45:13 - VotingFrame:Update() without lootTable!!", -- [784]
+			"23:45:15 - VotingFrame:Update() without lootTable!!", -- [785]
+			"23:45:17 - VotingFrame:Update() without lootTable!!", -- [786]
+			"23:45:18 - UpdateGroup (table: 0000021205E10500)", -- [787]
+			"23:45:18 - ML:AddCandidate (Dewi-Frostwolf) (DRUID) (HEALER) (nil) (nil) (nil) (nil)", -- [788]
+			"23:45:18 - ML:RemoveCandidate (Ashkandi-Frostwolf)", -- [789]
+			"23:45:18 - GetCouncilInGroup (Laru-Frostwolf)", -- [790]
+			"23:45:18 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [791]
+			"23:45:18 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer~`Alt^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N356.5625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SHEALER^Sclass^SDRUID^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N357.3125^Senchant_lvl^N150^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [792]
+			"23:45:21 - VotingFrame:Update() without lootTable!!", -- [793]
+			"23:45:22 - VotingFrame:Update() without lootTable!!", -- [794]
+			"23:45:31 - VotingFrame:Update() without lootTable!!", -- [795]
+			"23:45:38 - VotingFrame:Update() without lootTable!!", -- [796]
+			"23:45:44 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tresdine) (distri:) (GUILD)", -- [797]
+			"23:45:53 - VotingFrame:Update() without lootTable!!", -- [798]
+			"23:46:03 - VotingFrame:Update() without lootTable!!", -- [799]
+			"23:46:03 - UpdateGroup (table: 0000021205E10500)", -- [800]
+			"23:46:03 - ML:AddCandidate (Dewi-Frostwolf) (DRUID) (DAMAGER) () (nil) (nil) (nil)", -- [801]
+			"23:46:03 - GetCouncilInGroup (Laru-Frostwolf)", -- [802]
+			"23:46:03 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [803]
+			"23:46:03 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer~`Alt^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N356.5625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SFallen-Frostwolf^T^Srole^SDAMAGER^SspecID^N357.3125^Senchant_lvl^N150^Sclass^SMAGE^Senchanter^B^Srank^SOfficer^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [804]
+			"23:46:06 - VotingFrame:Update() without lootTable!!", -- [805]
+			"23:46:09 - VotingFrame:Update() without lootTable!!", -- [806]
+			"23:46:11 - VotingFrame:Update() without lootTable!!", -- [807]
+			"23:46:13 - VotingFrame:Update() without lootTable!!", -- [808]
+			"23:46:19 - VotingFrame:Update() without lootTable!!", -- [809]
+			"23:46:27 - VotingFrame:Update() without lootTable!!", -- [810]
+			"23:46:38 - VotingFrame:Update() without lootTable!!", -- [811]
+			"23:46:52 - Event: (RAID_INSTANCE_WELCOME) (Atal'Dazar (Mythic)) (119587) (0) (0)", -- [812]
+			"23:46:53 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [813]
+			"23:46:53 - GetML()", -- [814]
+			"23:46:55 - VotingFrame:Update() without lootTable!!", -- [815]
+			"23:47:08 - VotingFrame:Update() without lootTable!!", -- [816]
+			"23:47:41 - VotingFrame:Update() without lootTable!!", -- [817]
+			"23:47:55 - VotingFrame:Update() without lootTable!!", -- [818]
+			"23:48:05 - VotingFrame:Update() without lootTable!!", -- [819]
+			"23:48:15 - VotingFrame:Update() without lootTable!!", -- [820]
+			"23:48:20 - VotingFrame:Update() without lootTable!!", -- [821]
+			"23:48:25 - VotingFrame:Update() without lootTable!!", -- [822]
+			"23:51:15 - ML event (PLAYER_REGEN_ENABLED)", -- [823]
+			"23:52:32 - ML event (PLAYER_REGEN_ENABLED)", -- [824]
+			"23:53:00 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belyâ) (distri:) (GUILD)", -- [825]
+			"23:53:50 - ML event (PLAYER_REGEN_ENABLED)", -- [826]
+			"23:54:13 - ML event (CHAT_MSG_LOOT) (You receive item: |cffffffff|Hitem:113509::::::::120:65::::::|h[Conjured Mana Bun]|h|rx6.) () () () (Laru) () (0) (0) () (0) (1021) (nil) (0) (false) (false) (false) (false)", -- [827]
+			"23:54:13 - ML event (CHAT_MSG_LOOT) (You receive item: |cffffffff|Hitem:113509::::::::120:65::::::|h[Conjured Mana Bun]|h|rx14.) () () () (Laru) () (0) (0) () (0) (1022) (nil) (0) (false) (false) (false) (false)", -- [828]
+			"23:54:17 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tentrisha) (distri:) (GUILD)", -- [829]
+			"23:55:04 - ML event (PLAYER_REGEN_ENABLED)", -- [830]
+			"23:55:29 - ML event (PLAYER_REGEN_ENABLED)", -- [831]
+			"23:56:47 - ML event (PLAYER_REGEN_ENABLED)", -- [832]
+			"23:56:52 - Event: (ENCOUNTER_START) (2084) (Priestess Alun'za) (8) (5)", -- [833]
+			"23:56:52 - UpdatePlayersData()", -- [834]
+			"23:57:59 - Event: (ENCOUNTER_END) (2084) (Priestess Alun'za) (8) (5) (1)", -- [835]
+			"23:58:02 - ML event (PLAYER_REGEN_ENABLED)", -- [836]
+			"23:58:59 - ML event (PLAYER_REGEN_ENABLED)", -- [837]
+			"23:59:30 - ML event (PLAYER_REGEN_ENABLED)", -- [838]
+			"23:59:44 - ML event (PLAYER_REGEN_ENABLED)", -- [839]
+			"00:00:24 - ML event (PLAYER_REGEN_ENABLED)", -- [840]
+			"00:00:53 - ML event (PLAYER_REGEN_ENABLED)", -- [841]
+			"00:01:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydruid) (distri:) (GUILD)", -- [842]
+			"00:02:04 - ML event (PLAYER_REGEN_ENABLED)", -- [843]
+			"00:02:39 - ML event (PLAYER_REGEN_ENABLED)", -- [844]
+			"00:03:36 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belya) (distri:) (GUILD)", -- [845]
+			"00:03:59 - ML event (PLAYER_REGEN_ENABLED)", -- [846]
+			"00:04:22 - Event: (ENCOUNTER_START) (2085) (Vol'kaal) (8) (5)", -- [847]
+			"00:04:22 - UpdatePlayersData()", -- [848]
+			"00:05:12 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [849]
+			"00:05:49 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shouria) (distri:) (GUILD)", -- [850]
+			"00:06:11 - Event: (ENCOUNTER_END) (2085) (Vol'kaal) (8) (5) (1)", -- [851]
+			"00:06:12 - ML event (PLAYER_REGEN_ENABLED)", -- [852]
+			"00:06:59 - Event: (ENCOUNTER_START) (2086) (Rezan) (8) (5)", -- [853]
+			"00:06:59 - UpdatePlayersData()", -- [854]
+			"00:08:03 - ML event (PLAYER_REGEN_ENABLED)", -- [855]
+			"00:08:37 - Event: (ENCOUNTER_END) (2086) (Rezan) (8) (5) (1)", -- [856]
+			"00:08:37 - ML event (PLAYER_REGEN_ENABLED)", -- [857]
+			"00:08:55 - ML event (PLAYER_REGEN_ENABLED)", -- [858]
+			"00:09:15 - ML event (PLAYER_REGEN_ENABLED)", -- [859]
+			"00:09:46 - ML event (PLAYER_REGEN_ENABLED)", -- [860]
+			"00:10:27 - Event: (ENCOUNTER_START) (2087) (Yazma) (8) (5)", -- [861]
+			"00:10:27 - UpdatePlayersData()", -- [862]
+			"00:11:39 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [863]
+			"00:12:18 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [864]
+			"00:12:25 - Event: (ENCOUNTER_END) (2087) (Yazma) (8) (5) (1)", -- [865]
+			"00:12:25 - ML event (PLAYER_REGEN_ENABLED)", -- [866]
+			"00:12:32 - ML event (CHAT_MSG_LOOT) (Dewi receives loot: |cffa335ee|Hitem:158375::::::::120:65::16:3:5009:1527:4786:::|h[Drape of the Loyal Vassal]|h|r.) () () () (Dewi) () (0) (0) () (0) (1123) (nil) (0) (false) (false) (false) (false)", -- [867]
+			"00:12:32 - Event: (ENCOUNTER_LOOT_RECEIVED) (2087) (158375) (|cffa335ee|Hitem:158375::::::::120:65::16:3:5009:1527:4786:::|h[Drape of the Loyal Vassal]|h|r) (1) (Dewi) (DRUID)", -- [868]
+			"00:12:32 - ML event (CHAT_MSG_LOOT) (Safeba receives loot: |cffa335ee|Hitem:158375::::::::120:65::16:3:5009:1527:4786:::|h[Drape of the Loyal Vassal]|h|r.) () () () (Safeba) () (0) (0) () (0) (1124) (nil) (0) (false) (false) (false) (false)", -- [869]
+			"00:12:32 - Event: (ENCOUNTER_LOOT_RECEIVED) (2087) (158375) (|cffa335ee|Hitem:158375::::::::120:65::16:3:5009:1527:4786:::|h[Drape of the Loyal Vassal]|h|r) (1) (Safeba) (MONK)", -- [870]
+			"00:12:35 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:158375::::::::120:268::16:3:5009:1527:4786:::|h[Drape~`of~`the~`Loyal~`Vassal]|h|r^t^^ (from:) (Safeba) (distri:) (PARTY)", -- [871]
+			"00:12:35 - ML event (CHAT_MSG_LOOT) (Talar receives loot: |cffa335ee|Hitem:160214::::::::120:65::16:3:5009:1532:4783:::|h[Venerated Raptorhide Bindings]|h|r.) () () () (Talar) () (0) (0) () (0) (1126) (nil) (0) (false) (false) (false) (false)", -- [872]
+			"00:12:35 - Event: (ENCOUNTER_LOOT_RECEIVED) (2087) (160214) (|cffa335ee|Hitem:160214::::::::120:65::16:3:5009:1532:4783:::|h[Venerated Raptorhide Bindings]|h|r) (1) (Talar) (DEMONHUNTER)", -- [873]
+			"00:12:36 - Event: (LOOT_OPENED) (true)", -- [874]
+			"00:12:36 - GetUnitName: (nil)", -- [875]
+			"00:12:36 - UnitGUID: (nil)", -- [876]
+			"00:12:36 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [877]
+			"00:12:36 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hcurrency:1553:270|h[Glowing Azerite Crystal]|h|r) (1553)", -- [878]
+			"00:12:36 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [879]
+			"00:12:36 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r.) () () () (Laru) () (0) (0) () (0) (1128) (nil) (0) (false) (false) (false) (false)", -- [880]
+			"00:12:36 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1553:270|h[Glowing Azerite Crystal]|h|r) (1553)", -- [881]
+			"00:12:36 - Event: (LOOT_CLOSED)", -- [882]
+			"00:12:37 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:160214::::::::120:577::16:3:5009:1532:4783:::|h[Venerated~`Raptorhide~`Bindings]|h|r^t^^ (from:) (Talar) (distri:) (PARTY)", -- [883]
+			"00:12:58 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [884]
+			"00:13:17 - VotingFrame:Update() without lootTable!!", -- [885]
+			"00:13:28 - VotingFrame:Update() without lootTable!!", -- [886]
+			"00:13:42 - VotingFrame:Update() without lootTable!!", -- [887]
+			"00:13:49 - VotingFrame:Update() without lootTable!!", -- [888]
+			"00:13:52 - VotingFrame:Update() without lootTable!!", -- [889]
+			"00:14:00 - VotingFrame:Update() without lootTable!!", -- [890]
+			"00:14:05 - ML event (CHAT_MSG_WHISPER) (hier...) (Reqt-Frostwolf) () () (Reqt) () (0) (0) () (0) (1143) (Player-3703-04ECBF67) (0) (false) (false) (false) (false)", -- [891]
+			"00:14:08 - VotingFrame:Update() without lootTable!!", -- [892]
+			"00:14:09 - VotingFrame:Update() without lootTable!!", -- [893]
+			"00:14:15 - VotingFrame:Update() without lootTable!!", -- [894]
+			"00:14:28 - VotingFrame:Update() without lootTable!!", -- [895]
+			"00:14:29 - VotingFrame:Update() without lootTable!!", -- [896]
+			"00:14:31 - VotingFrame:Update() without lootTable!!", -- [897]
+			"00:14:38 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [898]
+			"00:14:42 - VotingFrame:Update() without lootTable!!", -- [899]
+			"00:14:53 - VotingFrame:Update() without lootTable!!", -- [900]
+			"00:14:58 - VotingFrame:Update() without lootTable!!", -- [901]
+			"00:15:00 - UpdateGroup (table: 0000021205E10500)", -- [902]
+			"00:15:00 - ML:RemoveCandidate (Fallen-Frostwolf)", -- [903]
+			"00:15:00 - GetCouncilInGroup (Laru-Frostwolf)", -- [904]
+			"00:15:00 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [905]
+			"00:15:00 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer~`Alt^t^STalar-Frostwolf^T^Srole^SDAMAGER^SspecID^N356.5625^Senchant_lvl^N0^Sclass^SDEMONHUNTER^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [906]
+			"00:15:05 - VotingFrame:Update() without lootTable!!", -- [907]
+			"00:15:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Liali) (distri:) (GUILD)", -- [908]
+			"00:15:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [909]
+			"00:15:20 - GetML()", -- [910]
+			"00:15:22 - VotingFrame:Update() without lootTable!!", -- [911]
+			"00:15:22 - ML event (CHAT_MSG_WHISPER) (inv) (Liali-Frostwolf) () () (Liali) () (0) (0) () (0) (1156) (Player-3703-062BF89C) (0) (false) (false) (false) (false)", -- [912]
+			"00:15:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [913]
+			"00:15:30 - VotingFrame:Update() without lootTable!!", -- [914]
+			"00:15:35 - VotingFrame:Update() without lootTable!!", -- [915]
+			"00:15:36 - UpdateGroup (table: 0000021205E10500)", -- [916]
+			"00:15:36 - ML:AddCandidate (Liali-Frostwolf) (MONK) (DAMAGER) (nil) (nil) (nil) (nil)", -- [917]
+			"00:15:36 - ML:RemoveCandidate (Talar-Frostwolf)", -- [918]
+			"00:15:36 - GetCouncilInGroup (Laru-Frostwolf)", -- [919]
+			"00:15:36 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [920]
+			"00:15:36 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer~`Alt^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SLiali-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [921]
+			"00:15:36 - Comm received:^1^SplayerInfo^T^N1^SLiali-Frostwolf^N2^SMONK^N3^SDAMAGER^N4^SOfficer~`Alt^N6^N0^N7^N350.3125^N8^N269^t^^ (from:) (Liali) (distri:) (WHISPER)", -- [922]
+			"00:15:36 - ML:AddCandidate (Liali-Frostwolf) (MONK) (DAMAGER) (Officer Alt) (nil) (0) (350.3125)", -- [923]
+			"00:15:38 - VotingFrame:Update() without lootTable!!", -- [924]
+			"00:15:42 - VotingFrame:Update() without lootTable!!", -- [925]
+			"00:15:44 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Liali) (distri:) (WHISPER)", -- [926]
+			"00:15:44 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [927]
+			"00:15:44 - true = (IsCouncil) (Laru-Frostwolf)", -- [928]
+			"00:15:46 - UpdateGroup (table: 0000021205E10500)", -- [929]
+			"00:15:46 - ML:AddCandidate (Shaydera-Frostwolf) (PRIEST) (HEALER) (nil) (nil) (nil) (nil)", -- [930]
+			"00:15:46 - GetCouncilInGroup (Laru-Frostwolf)", -- [931]
+			"00:15:46 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [932]
+			"00:15:46 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer~`Alt^t^SShaydera-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SLiali-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer~`Alt^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [933]
+			"00:15:47 - Comm received:^1^SplayerInfo^T^N1^SShaydera-Frostwolf^N2^SPRIEST^N3^SHEALER^N4^SRaid~`Member^N5^B^N6^N70^N7^N355^N8^N256^t^^ (from:) (Shaydera) (distri:) (WHISPER)", -- [934]
+			"00:15:47 - ML:AddCandidate (Shaydera-Frostwolf) (PRIEST) (HEALER) (Raid Member) (true) (70) (355)", -- [935]
+			"00:15:47 - VotingFrame:Update() without lootTable!!", -- [936]
+			"00:15:56 - UpdateGroup (table: 0000021205E10500)", -- [937]
+			"00:15:56 - ML:AddCandidate (Shaydera-Frostwolf) (PRIEST) (DAMAGER) (Raid Member) (true) (70) (355)", -- [938]
+			"00:15:56 - GetCouncilInGroup (Laru-Frostwolf)", -- [939]
+			"00:15:56 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [940]
+			"00:15:56 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SSafeba-Frostwolf^T^Srole^STANK^SspecID^N350.1875^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer~`Alt^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^SspecID^N355^Senchant_lvl^N70^Sclass^SPRIEST^Senchanter^B^Srank^SRaid~`Member^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SLiali-Frostwolf^T^Srole^SDAMAGER^SspecID^N350.3125^Senchant_lvl^N0^Sclass^SMONK^Srank^SOfficer~`Alt^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [941]
+			"00:16:03 - VotingFrame:Update() without lootTable!!", -- [942]
+			"00:16:09 - VotingFrame:Update() without lootTable!!", -- [943]
+			"00:16:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Discappoint) (distri:) (GUILD)", -- [944]
+			"00:16:14 - VotingFrame:Update() without lootTable!!", -- [945]
+			"00:16:28 - VotingFrame:Update() without lootTable!!", -- [946]
+			"00:16:51 - VotingFrame:Update() without lootTable!!", -- [947]
+			"00:17:00 - VotingFrame:Update() without lootTable!!", -- [948]
+			"00:17:11 - VotingFrame:Update() without lootTable!!", -- [949]
+			"00:17:12 - VotingFrame:Update() without lootTable!!", -- [950]
+			"00:17:19 - VotingFrame:Update() without lootTable!!", -- [951]
+			"00:17:20 - VotingFrame:Update() without lootTable!!", -- [952]
+			"00:17:25 - VotingFrame:Update() without lootTable!!", -- [953]
+			"00:17:30 - VotingFrame:Update() without lootTable!!", -- [954]
+			"00:17:37 - VotingFrame:Update() without lootTable!!", -- [955]
+			"00:17:48 - VotingFrame:Update() without lootTable!!", -- [956]
+			"00:18:13 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gárdor) (distri:) (GUILD)", -- [957]
+			"00:18:14 - Event: (RAID_INSTANCE_WELCOME) (The Underrot (Mythic)) (117705) (0) (0)", -- [958]
+			"00:18:15 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [959]
+			"00:18:15 - GetML()", -- [960]
+			"00:18:17 - VotingFrame:Update() without lootTable!!", -- [961]
+			"00:18:24 - VotingFrame:Update() without lootTable!!", -- [962]
+			"00:18:42 - VotingFrame:Update() without lootTable!!", -- [963]
+			"00:18:48 - VotingFrame:Update() without lootTable!!", -- [964]
+			"00:18:51 - VotingFrame:Update() without lootTable!!", -- [965]
+			"00:18:53 - VotingFrame:Update() without lootTable!!", -- [966]
+			"00:18:56 - VotingFrame:Update() without lootTable!!", -- [967]
+			"00:19:14 - VotingFrame:Update() without lootTable!!", -- [968]
+			"00:19:15 - VotingFrame:Update() without lootTable!!", -- [969]
+			"00:19:16 - VotingFrame:Update() without lootTable!!", -- [970]
+			"00:19:28 - ML event (PLAYER_REGEN_ENABLED)", -- [971]
+			"00:19:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [972]
+			"00:19:32 - GetML()", -- [973]
+			"00:19:34 - VotingFrame:Update() without lootTable!!", -- [974]
+			"00:19:49 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [975]
+			"00:19:49 - GetML()", -- [976]
+			"00:19:49 - VotingFrame:Update() without lootTable!!", -- [977]
+			"00:19:51 - VotingFrame:Update() without lootTable!!", -- [978]
+			"00:19:53 - VotingFrame:Update() without lootTable!!", -- [979]
+			"00:19:54 - VotingFrame:Update() without lootTable!!", -- [980]
+			"00:19:55 - VotingFrame:Update() without lootTable!!", -- [981]
+			"00:19:58 - VotingFrame:Update() without lootTable!!", -- [982]
+			"00:20:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [983]
+			"00:20:06 - GetML()", -- [984]
+			"00:20:06 - VotingFrame:Update() without lootTable!!", -- [985]
+			"00:20:06 - VotingFrame:Update() without lootTable!!", -- [986]
+			"00:20:07 - VotingFrame:Update() without lootTable!!", -- [987]
+			"00:20:22 - Event: (RAID_INSTANCE_WELCOME) (The Underrot (Mythic)) (117577) (0) (0)", -- [988]
+			"00:20:23 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [989]
+			"00:20:23 - GetML()", -- [990]
+			"00:20:23 - VotingFrame:Update() without lootTable!!", -- [991]
+			"00:21:50 - ML event (PLAYER_REGEN_ENABLED)", -- [992]
+			"00:22:31 - ML event (PLAYER_REGEN_ENABLED)", -- [993]
+			"00:23:27 - ML event (PLAYER_REGEN_ENABLED)", -- [994]
+			"00:25:03 - ML event (PLAYER_REGEN_ENABLED)", -- [995]
+			"00:25:07 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Talardor) (distri:) (GUILD)", -- [996]
+			"00:25:30 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Vairasza) (distri:) (GUILD)", -- [997]
+			"00:25:51 - ML event (PLAYER_REGEN_ENABLED)", -- [998]
+			"00:26:58 - ML event (PLAYER_REGEN_ENABLED)", -- [999]
+			"00:27:14 - Event: (ENCOUNTER_START) (2111) (Elder Leaxa) (8) (5)", -- [1000]
+			"00:27:14 - UpdatePlayersData()", -- [1001]
+			"00:28:28 - ML event (PLAYER_REGEN_ENABLED)", -- [1002]
+			"00:28:40 - Event: (ENCOUNTER_END) (2111) (Elder Leaxa) (8) (5) (1)", -- [1003]
+			"00:28:42 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sendhex) (distri:) (GUILD)", -- [1004]
+			"00:29:42 - ML event (PLAYER_REGEN_ENABLED)", -- [1005]
+			"00:31:01 - ML event (PLAYER_REGEN_ENABLED)", -- [1006]
+			"00:32:26 - ML event (PLAYER_REGEN_ENABLED)", -- [1007]
+			"00:33:32 - ML event (PLAYER_REGEN_ENABLED)", -- [1008]
+			"09/11/18", -- [1009]
+			"00:33:53 - Logged In", -- [1010]
+			"00:33:53 - ML initialized!", -- [1011]
+			"00:33:53 - TradeUI enabled", -- [1012]
+			"00:34:01 - Laru-Frostwolf (2.8.3) (nil)", -- [1013]
+			"00:34:01 - ActivateSkin (new_blue)", -- [1014]
+			"00:34:03 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1015]
+			"00:34:03 - GetML()", -- [1016]
+			"00:34:03 - Resetting council as we have a new ML!", -- [1017]
+			"00:34:03 - MasterLooter =  (Laru-Frostwolf)", -- [1018]
+			"00:34:03 - GetCouncilInGroup (Laru-Frostwolf)", -- [1019]
+			"00:34:03 - ML:NewML (Laru-Frostwolf)", -- [1020]
+			"00:34:03 - UpdateMLdb", -- [1021]
+			"00:34:03 - UpdateGroup (true)", -- [1022]
+			"00:34:03 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [1023]
+			"00:34:03 - ML:AddCandidate (Dewi-Frostwolf) (DRUID) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1024]
+			"00:34:03 - ML:AddCandidate (Safeba-Frostwolf) (MONK) (TANK) (nil) (nil) (nil) (nil)", -- [1025]
+			"00:34:03 - ML:AddCandidate (Liali-Frostwolf) (MONK) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1026]
+			"00:34:03 - ML:AddCandidate (Shaydera-Frostwolf) (PRIEST) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1027]
+			"00:34:03 - GetCouncilInGroup (Laru-Frostwolf)", -- [1028]
+			"00:34:03 - UpdatePlayersData()", -- [1029]
+			"00:34:03 - GetPlayersGuildRank()", -- [1030]
+			"00:34:03 - Found Guild Rank: Raid Member", -- [1031]
+			"00:34:04 - Timer MLdb_check passed", -- [1032]
+			"00:34:04 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laru) (distri:) (GUILD)", -- [1033]
+			"00:34:04 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1034]
+			"00:34:04 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1035]
+			"00:34:04 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1036]
+			"00:34:04 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1037]
+			"00:34:04 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SLiali-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1038]
+			"00:34:04 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1039]
+			"00:34:04 - true = (IsCouncil) (Laru-Frostwolf)", -- [1040]
+			"00:34:04 - GetLootDBStatistics()", -- [1041]
+			"00:34:04 - GetGuildRankNum()", -- [1042]
+			"00:34:04 - RCVotingFrame (enabled)", -- [1043]
+			"00:34:04 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1044]
+			"00:34:04 - true = (IsCouncil) (Laru-Frostwolf)", -- [1045]
+			"00:34:04 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SShaydera-Frostwolf^T^Srole^SDAMAGER^Sclass^SPRIEST^Srank^S^t^SDewi-Frostwolf^T^Srole^SDAMAGER^Sclass^SDRUID^Srank^S^t^SLiali-Frostwolf^T^Srole^SDAMAGER^Sclass^SMONK^Srank^S^t^SSafeba-Frostwolf^T^Srole^STANK^Sclass^SMONK^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1046]
+			"00:34:04 - ML:AddCandidate (Shaydera-Frostwolf) (PRIEST) (DAMAGER) (Raid Member) (true) (70) (355)", -- [1047]
+			"00:34:04 - Comm received:^1^SplayerInfo^T^N1^SShaydera-Frostwolf^N2^SPRIEST^N3^SDAMAGER^N4^SRaid~`Member^N5^B^N6^N70^N7^N355^N8^N258^t^^ (from:) (Shaydera) (distri:) (WHISPER)", -- [1048]
+			"00:34:04 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (353.75)", -- [1049]
+			"00:34:04 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N353.75^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1050]
+			"00:34:04 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1051]
+			"00:34:04 - true = (IsCouncil) (Laru-Frostwolf)", -- [1052]
+			"00:34:04 - ML:AddCandidate (Liali-Frostwolf) (MONK) (DAMAGER) (Officer Alt) (nil) (0) (350.3125)", -- [1053]
+			"00:34:04 - Comm received:^1^SplayerInfo^T^N1^SLiali-Frostwolf^N2^SMONK^N3^SDAMAGER^N4^SOfficer~`Alt^N6^N0^N7^N350.3125^N8^N269^t^^ (from:) (Liali) (distri:) (WHISPER)", -- [1054]
+			"00:34:04 - ML:AddCandidate (Safeba-Frostwolf) (MONK) (TANK) (Officer Alt) (nil) (0) (350.8125)", -- [1055]
+			"00:34:04 - Comm received:^1^SplayerInfo^T^N1^SSafeba-Frostwolf^N2^SMONK^N3^STANK^N4^SOfficer~`Alt^N6^N0^N7^N350.8125^N8^N268^t^^ (from:) (Safeba) (distri:) (WHISPER)", -- [1056]
+			"00:35:11 - ML event (PLAYER_REGEN_ENABLED)", -- [1057]
+			"00:35:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Darelos) (distri:) (GUILD)", -- [1058]
+			"00:36:47 - ML event (PLAYER_REGEN_ENABLED)", -- [1059]
+			"00:37:16 - ML event (PLAYER_REGEN_ENABLED)", -- [1060]
+			"00:37:24 - ML event (PLAYER_REGEN_ENABLED)", -- [1061]
+			"00:38:08 - ML event (PLAYER_REGEN_ENABLED)", -- [1062]
+			"00:38:34 - ML event (PLAYER_REGEN_ENABLED)", -- [1063]
+			"00:38:42 - ML event (PLAYER_REGEN_ENABLED)", -- [1064]
+			"00:39:28 - ML event (PLAYER_REGEN_ENABLED)", -- [1065]
+			"00:39:29 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Trollax) (distri:) (GUILD)", -- [1066]
+			"00:39:48 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [1067]
+			"00:40:00 - ML event (PLAYER_REGEN_ENABLED)", -- [1068]
+			"00:40:38 - ML event (PLAYER_REGEN_ENABLED)", -- [1069]
+			"00:41:30 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Trollax) (distri:) (GUILD)", -- [1070]
+			"00:41:39 - ML event (PLAYER_REGEN_ENABLED)", -- [1071]
+			"00:42:35 - ML event (PLAYER_REGEN_ENABLED)", -- [1072]
+			"00:42:58 - ML event (PLAYER_REGEN_ENABLED)", -- [1073]
+			"00:43:06 - ML event (PLAYER_REGEN_ENABLED)", -- [1074]
+			"00:43:31 - ML event (PLAYER_REGEN_ENABLED)", -- [1075]
+			"00:43:43 - Event: (ENCOUNTER_START) (2118) (Cragmaw the Infested) (8) (5)", -- [1076]
+			"00:43:43 - UpdatePlayersData()", -- [1077]
+			"00:46:06 - Event: (ENCOUNTER_END) (2118) (Cragmaw the Infested) (8) (5) (1)", -- [1078]
+			"00:46:07 - ML event (PLAYER_REGEN_ENABLED)", -- [1079]
+			"00:47:25 - ML event (PLAYER_REGEN_ENABLED)", -- [1080]
+			"00:47:33 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [1081]
+			"00:47:36 - ML event (PLAYER_REGEN_ENABLED)", -- [1082]
+			"00:48:04 - ML event (PLAYER_REGEN_ENABLED)", -- [1083]
+			"00:49:45 - ML event (PLAYER_REGEN_ENABLED)", -- [1084]
+			"00:50:50 - ML event (PLAYER_REGEN_ENABLED)", -- [1085]
+			"00:51:10 - Event: (ENCOUNTER_START) (2112) (Sporecaller Zancha) (8) (5)", -- [1086]
+			"00:51:10 - UpdatePlayersData()", -- [1087]
+			"00:52:59 - Event: (ENCOUNTER_END) (2112) (Sporecaller Zancha) (8) (5) (1)", -- [1088]
+			"00:52:59 - ML event (PLAYER_REGEN_ENABLED)", -- [1089]
+			"00:53:35 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pildk) (distri:) (GUILD)", -- [1090]
+			"00:53:50 - ML event (PLAYER_REGEN_ENABLED)", -- [1091]
+			"00:53:59 - ML event (PLAYER_REGEN_ENABLED)", -- [1092]
+			"00:54:23 - ML event (PLAYER_REGEN_ENABLED)", -- [1093]
+			"00:55:01 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [1094]
+			"00:55:50 - ML event (PLAYER_REGEN_ENABLED)", -- [1095]
+			"00:55:52 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pildk) (distri:) (GUILD)", -- [1096]
+			"00:57:32 - ML event (PLAYER_REGEN_ENABLED)", -- [1097]
+			"00:57:59 - ML event (PLAYER_REGEN_ENABLED)", -- [1098]
+			"00:59:08 - ML event (PLAYER_REGEN_ENABLED)", -- [1099]
+			"00:59:34 - Event: (ENCOUNTER_START) (2123) (Unbound Abomination) (8) (5)", -- [1100]
+			"00:59:34 - UpdatePlayersData()", -- [1101]
+			"01:02:04 - Event: (ENCOUNTER_END) (2123) (Unbound Abomination) (8) (5) (1)", -- [1102]
+			"01:02:05 - ML event (PLAYER_REGEN_ENABLED)", -- [1103]
+			"01:02:17 - ML event (CHAT_MSG_LOOT) (Shaydera receives loot: |cffa335ee|Hitem:159270::::::::120:65::16:3:5010:1532:4783:::|h[Blood Warder's Moccasins]|h|r.) () () () (Shaydera) () (0) (0) () (0) (1439) (nil) (0) (false) (false) (false) (false)", -- [1104]
+			"01:02:17 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (159270) (|cffa335ee|Hitem:159270::::::::120:65::16:3:5010:1532:4783:::|h[Blood Warder's Moccasins]|h|r) (1) (Shaydera) (PRIEST)", -- [1105]
+			"01:02:19 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159270::::::::120:258::16:3:5010:1532:4783:::|h[Blood~`Warder's~`Moccasins]|h|r^t^^ (from:) (Shaydera) (distri:) (PARTY)", -- [1106]
+			"01:02:22 - Event: (LOOT_OPENED) (true)", -- [1107]
+			"01:02:22 - GetUnitName: (nil)", -- [1108]
+			"01:02:22 - UnitGUID: (nil)", -- [1109]
+			"01:02:22 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [1110]
+			"01:02:22 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:159410::::::::120:65::16:3:5010:1532:4783:::|h[Zancha's Venerated Greatbelt]|h|r) (nil)", -- [1111]
+			"01:02:22 - Adding to self.lootSlotInfo (3) (|cff0070dd|Hcurrency:1553:280|h[Glowing Azerite Crystal]|h|r) (1553)", -- [1112]
+			"01:02:22 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [1113]
+			"01:02:22 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r.) () () () (Laru) () (0) (0) () (0) (1443) (nil) (0) (false) (false) (false) (false)", -- [1114]
+			"01:02:22 - OnLootSlotCleared() (2) (|cffa335ee|Hitem:159410::::::::120:65::16:3:5010:1532:4783:::|h[Zancha's Venerated Greatbelt]|h|r) (nil)", -- [1115]
+			"01:02:22 - ML event (CHAT_MSG_LOOT) (You receive loot: |cffa335ee|Hitem:159410::::::::120:65::16:3:5010:1532:4783:::|h[Zancha's Venerated Greatbelt]|h|r.) () () () (Laru) () (0) (0) () (0) (1444) (nil) (0) (false) (false) (false) (false)", -- [1116]
+			"01:02:22 - Event: (ENCOUNTER_LOOT_RECEIVED) (2123) (159410) (|cffa335ee|Hitem:159410::::::::120:65::16:3:5010:1532:4783:::|h[Zancha's Venerated Greatbelt]|h|r) (1) (Laru) (PALADIN)", -- [1117]
+			"01:02:22 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1553:280|h[Glowing Azerite Crystal]|h|r) (1553)", -- [1118]
+			"01:02:22 - Event: (LOOT_CLOSED)", -- [1119]
+			"01:02:24 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159410::::::::120:65::16:3:5010:1532:4783:::|h[Zancha's~`Venerated~`Greatbelt]|h|r^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1120]
+			"01:02:52 - VotingFrame:Update() without lootTable!!", -- [1121]
+			"01:02:53 - VotingFrame:Update() without lootTable!!", -- [1122]
+			"01:02:59 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1123]
+			"01:02:59 - GetML()", -- [1124]
+			"01:03:00 - VotingFrame:Update() without lootTable!!", -- [1125]
+			"01:03:01 - VotingFrame:Update() without lootTable!!", -- [1126]
+			"01:03:03 - Event: (GROUP_LEFT) (1) (Party-3703-00001A6852DE)", -- [1127]
+			"01:03:03 - GetML()", -- [1128]
+			"01:03:03 - Stop handling loot", -- [1129]
+			"01:03:03 - ML Disabled", -- [1130]
+			"01:03:04 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1131]
+			"01:04:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Discappoint) (distri:) (GUILD)", -- [1132]
+			"01:09:17 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Gardine) (distri:) (GUILD)", -- [1133]
+			"01:10:04 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [1134]
+			"01:11:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belyâ) (distri:) (GUILD)", -- [1135]
+			"01:12:50 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tentrisha) (distri:) (GUILD)", -- [1136]
+			"09/11/18", -- [1137]
+			"19:51:26 - Logged In", -- [1138]
+			"19:51:26 - ML initialized!", -- [1139]
+			"19:51:26 - TradeUI enabled", -- [1140]
+			"19:51:36 - Laru-Frostwolf (2.8.3) (nil)", -- [1141]
+			"19:51:36 - ActivateSkin (new_blue)", -- [1142]
+			"19:51:37 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1143]
+			"19:51:37 - GetML()", -- [1144]
+			"19:51:37 - UpdatePlayersData()", -- [1145]
+			"19:51:39 - GetPlayersGuildRank()", -- [1146]
+			"19:51:39 - Found Guild Rank: Raid Member", -- [1147]
+			"19:51:39 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laru) (distri:) (GUILD)", -- [1148]
+			"19:52:13 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laìya) (distri:) (GUILD)", -- [1149]
+			"19:53:02 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [1150]
+			"19:53:49 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [1151]
+			"19:54:35 - Event: (PARTY_LEADER_CHANGED)", -- [1152]
+			"19:54:35 - GetML()", -- [1153]
+			"19:54:35 - Resetting council as we have a new ML!", -- [1154]
+			"19:54:35 - MasterLooter =  (Laru-Frostwolf)", -- [1155]
+			"19:54:35 - GetCouncilInGroup (Laru-Frostwolf)", -- [1156]
+			"19:54:35 - ML:NewML (Laru-Frostwolf)", -- [1157]
+			"19:54:35 - UpdateMLdb", -- [1158]
+			"19:54:35 - UpdateGroup (true)", -- [1159]
+			"19:54:35 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (nil) (nil) (nil) (nil)", -- [1160]
+			"19:54:35 - GetCouncilInGroup (Laru-Frostwolf)", -- [1161]
+			"19:54:35 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1162]
+			"19:54:35 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1163]
+			"19:54:35 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1164]
+			"19:54:35 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1165]
+			"19:54:35 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1166]
+			"19:54:35 - true = (IsCouncil) (Laru-Frostwolf)", -- [1167]
+			"19:54:35 - GetLootDBStatistics()", -- [1168]
+			"19:54:35 - GetGuildRankNum()", -- [1169]
+			"19:54:35 - RCVotingFrame (enabled)", -- [1170]
+			"19:54:35 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (HEALER) (Raid Member) (nil) (0) (353.75)", -- [1171]
+			"19:54:35 - Comm received:^1^SplayerInfo^T^N1^SLaru-Frostwolf^N2^SPALADIN^N3^SHEALER^N4^SRaid~`Member^N6^N0^N7^N353.75^N8^N65^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1172]
+			"19:54:39 - VotingFrame:Update() without lootTable!!", -- [1173]
+			"19:54:45 - Comm received:^1^Scouncil^T^N1^T^N1^SLaru-Frostwolf^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1174]
+			"19:54:45 - true = (IsCouncil) (Laru-Frostwolf)", -- [1175]
+			"19:54:45 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1176]
+			"19:54:48 - UpdateGroup (table: 00000178A700B950)", -- [1177]
+			"19:54:48 - ML:AddCandidate (Chuckx-Frostwolf) (MAGE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1178]
+			"19:54:48 - GetCouncilInGroup (Laru-Frostwolf)", -- [1179]
+			"19:54:48 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1180]
+			"19:54:48 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SChuckx-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1181]
+			"19:54:50 - Timer MLdb_check passed", -- [1182]
+			"19:55:13 - VotingFrame:Update() without lootTable!!", -- [1183]
+			"19:55:50 - VotingFrame:Update() without lootTable!!", -- [1184]
+			"19:56:32 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belya) (distri:) (GUILD)", -- [1185]
+			"19:56:58 - UpdateGroup (table: 00000178A700B950)", -- [1186]
+			"19:56:58 - ML:AddCandidate (Laru-Frostwolf) (PALADIN) (DAMAGER) (Raid Member) (nil) (0) (353.75)", -- [1187]
+			"19:56:58 - GetCouncilInGroup (Laru-Frostwolf)", -- [1188]
+			"19:56:58 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1189]
+			"19:56:58 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SDAMAGER^SspecID^N353.75^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SRaid~`Member^t^SChuckx-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^t^t^^ (from:) (Laru) (distri:) (PARTY)", -- [1190]
+			"19:57:40 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laìya) (distri:) (GUILD)", -- [1191]
+			"19:57:41 - VotingFrame:Update() without lootTable!!", -- [1192]
+			"19:58:20 - ML event (PLAYER_REGEN_ENABLED)", -- [1193]
+			"19:58:21 - Event: (LOOT_OPENED) (true)", -- [1194]
+			"19:58:21 - GetUnitName: (Kil'Tawan)", -- [1195]
+			"19:58:21 - UnitGUID: (Creature-0-4241-1642-27914-135508-000017FAA9)", -- [1196]
+			"19:58:21 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:154899::::::::120:70::::::|h[Thick Paleo Steak]|h|r) (nil)", -- [1197]
+			"19:58:21 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:158860::::::::120:70::::::|h[Grindstone Molar]|h|r) (nil)", -- [1198]
+			"19:58:21 - OnLootSlotCleared() (1) (|cffffffff|Hitem:154899::::::::120:70::::::|h[Thick Paleo Steak]|h|r) (nil)", -- [1199]
+			"19:58:21 - ML event (CHAT_MSG_LOOT) (You receive loot: |cffffffff|Hitem:154899::::::::120:70::::::|h[Thick Paleo Steak]|h|rx3.) () () () (Laru) () (0) (0) () (0) (56) (nil) (0) (false) (false) (false) (false)", -- [1200]
+			"19:58:21 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:158860::::::::120:70::::::|h[Grindstone Molar]|h|r) (nil)", -- [1201]
+			"19:58:21 - Event: (LOOT_CLOSED)", -- [1202]
+			"19:58:21 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:158860::::::::120:70::::::|h[Grindstone Molar]|h|r.) () () () (Laru) () (0) (0) () (0) (57) (nil) (0) (false) (false) (false) (false)", -- [1203]
+			"19:58:23 - VotingFrame:Update() without lootTable!!", -- [1204]
+			"19:58:50 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Talar) (distri:) (GUILD)", -- [1205]
+			"19:59:05 - VotingFrame:Update() without lootTable!!", -- [1206]
+			"19:59:53 - VotingFrame:Update() without lootTable!!", -- [1207]
+			"20:00:49 - VotingFrame:Update() without lootTable!!", -- [1208]
+			"20:01:38 - VotingFrame:Update() without lootTable!!", -- [1209]
+			"20:02:43 - ML event (CHAT_MSG_LOOT) (You receive item: |cff0070dd|Hitem:157934::::::::120:70::26:3:4803:1517:4785:::|h[Vambraces of Rezan's Bladeguard]|h|r.) () () () (Laru) () (0) (0) () (0) (81) (nil) (0) (false) (false) (false) (false)", -- [1210]
+			"20:02:44 - ML event (PLAYER_REGEN_ENABLED)", -- [1211]
+			"20:02:44 - Event: (LOOT_OPENED) (true)", -- [1212]
+			"20:02:44 - GetUnitName: (Kul'krazahn)", -- [1213]
+			"20:02:44 - UnitGUID: (Creature-0-4241-1642-27914-120899-00001802D5)", -- [1214]
+			"20:02:44 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1215]
+			"20:02:44 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hcurrency:1553:40|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1216]
+			"20:02:45 - OnLootSlotCleared() (1) (nil) (nil)", -- [1217]
+			"20:02:45 - OnLootSlotCleared() (2) (|cff1eff00|Hcurrency:1553:40|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1218]
+			"20:02:45 - Event: (LOOT_CLOSED)", -- [1219]
+			"20:03:07 - ML event (PLAYER_REGEN_ENABLED)", -- [1220]
+			"20:03:07 - Event: (LOOT_OPENED) (true)", -- [1221]
+			"20:03:07 - GetUnitName: (Disciple of Halazzi)", -- [1222]
+			"20:03:07 - UnitGUID: (Creature-0-4241-1642-27914-120951-00001802B6)", -- [1223]
+			"20:03:07 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1224]
+			"20:03:08 - OnLootSlotCleared() (1) (nil) (nil)", -- [1225]
+			"20:03:08 - Event: (LOOT_CLOSED)", -- [1226]
+			"20:03:36 - ML event (PLAYER_REGEN_ENABLED)", -- [1227]
+			"20:03:38 - Event: (LOOT_OPENED) (true)", -- [1228]
+			"20:03:38 - GetUnitName: (Disciple of Nalorakk)", -- [1229]
+			"20:03:38 - UnitGUID: (Creature-0-4241-1642-27914-120949-00001802B6)", -- [1230]
+			"20:03:38 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1231]
+			"20:03:38 - OnLootSlotCleared() (1) (nil) (nil)", -- [1232]
+			"20:03:38 - Event: (LOOT_CLOSED)", -- [1233]
+			"20:04:11 - ML event (PLAYER_REGEN_ENABLED)", -- [1234]
+			"20:04:12 - Event: (LOOT_OPENED) (true)", -- [1235]
+			"20:04:12 - GetUnitName: (Disciple of Nalorakk)", -- [1236]
+			"20:04:12 - UnitGUID: (Creature-0-4241-1642-27914-120949-00001802B6)", -- [1237]
+			"20:04:12 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1238]
+			"20:04:12 - Event: (LOOT_CLOSED)", -- [1239]
+			"20:05:03 - ML event (PLAYER_REGEN_ENABLED)", -- [1240]
+			"20:05:09 - VotingFrame:Update() without lootTable!!", -- [1241]
+			"20:05:10 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tentrisha) (distri:) (GUILD)", -- [1242]
+			"20:05:20 - Event: (LOOT_OPENED) (true)", -- [1243]
+			"20:05:20 - GetUnitName: (Disciple of Jan'alai)", -- [1244]
+			"20:05:20 - UnitGUID: (Creature-0-4241-1642-27914-120950-0000180374)", -- [1245]
+			"20:05:20 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1246]
+			"20:05:21 - OnLootSlotCleared() (1) (nil) (nil)", -- [1247]
+			"20:05:21 - Event: (LOOT_CLOSED)", -- [1248]
+			"20:05:54 - ML event (PLAYER_REGEN_ENABLED)", -- [1249]
+			"20:06:39 - VotingFrame:Update() without lootTable!!", -- [1250]
+			"20:07:28 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sing) (distri:) (GUILD)", -- [1251]
+			"20:07:47 - VotingFrame:Update() without lootTable!!", -- [1252]
+			"20:09:06 - VotingFrame:Update() without lootTable!!", -- [1253]
+			"20:10:05 - ML event (CHAT_MSG_LOOT) (You receive item: |cffffffff|Hitem:158324::::::::120:70::11::::|h[Talanji's Mojo]|h|r.) () () () (Laru) () (0) (0) () (0) (132) (nil) (0) (false) (false) (false) (false)", -- [1254]
+			"20:10:22 - ML event (PLAYER_REGEN_ENABLED)", -- [1255]
+			"20:10:22 - Event: (LOOT_OPENED) (true)", -- [1256]
+			"20:10:22 - GetUnitName: (Blood Troll Stalker)", -- [1257]
+			"20:10:22 - UnitGUID: (Creature-0-4253-1642-8639-134868-0001980453)", -- [1258]
+			"20:10:22 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1259]
+			"20:10:22 - OnLootSlotCleared() (1) (nil) (nil)", -- [1260]
+			"20:10:22 - Event: (LOOT_CLOSED)", -- [1261]
+			"20:10:30 - ML event (PLAYER_REGEN_ENABLED)", -- [1262]
+			"20:10:40 - ML event (PLAYER_REGEN_ENABLED)", -- [1263]
+			"20:10:41 - Event: (LOOT_OPENED) (true)", -- [1264]
+			"20:10:41 - GetUnitName: (Blood Troll Cleaver)", -- [1265]
+			"20:10:41 - UnitGUID: (Creature-0-4253-1642-8639-134869-00019804E5)", -- [1266]
+			"20:10:41 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1267]
+			"20:10:42 - OnLootSlotCleared() (1) (nil) (nil)", -- [1268]
+			"20:10:42 - Event: (LOOT_CLOSED)", -- [1269]
+			"20:10:47 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Ellenpage) (distri:) (GUILD)", -- [1270]
+			"20:10:53 - ML event (PLAYER_REGEN_ENABLED)", -- [1271]
+			"20:10:53 - Event: (LOOT_OPENED) (true)", -- [1272]
+			"20:10:53 - GetUnitName: (Blood Troll Stalker)", -- [1273]
+			"20:10:53 - UnitGUID: (Creature-0-4253-1642-8639-134868-00001804A4)", -- [1274]
+			"20:10:53 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1275]
+			"20:10:54 - OnLootSlotCleared() (1) (nil) (nil)", -- [1276]
+			"20:10:54 - Event: (LOOT_CLOSED)", -- [1277]
+			"20:11:09 - ML event (PLAYER_REGEN_ENABLED)", -- [1278]
+			"20:11:10 - Event: (LOOT_OPENED) (true)", -- [1279]
+			"20:11:10 - GetUnitName: (Blood Troll Cleaver)", -- [1280]
+			"20:11:10 - UnitGUID: (Creature-0-4253-1642-8639-134869-000198051B)", -- [1281]
+			"20:11:10 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1282]
+			"20:11:11 - OnLootSlotCleared() (1) (nil) (nil)", -- [1283]
+			"20:11:11 - Event: (LOOT_CLOSED)", -- [1284]
+			"20:11:21 - ML event (PLAYER_REGEN_ENABLED)", -- [1285]
+			"20:11:24 - Event: (LOOT_OPENED) (true)", -- [1286]
+			"20:11:24 - GetUnitName: (Blood Troll Stalker)", -- [1287]
+			"20:11:24 - UnitGUID: (Creature-0-4253-1642-8639-134868-00019803FD)", -- [1288]
+			"20:11:24 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1289]
+			"20:11:24 - OnLootSlotCleared() (1) (nil) (nil)", -- [1290]
+			"20:11:24 - Event: (LOOT_CLOSED)", -- [1291]
+			"20:11:45 - Event: (LOOT_OPENED) (true)", -- [1292]
+			"20:11:45 - GetUnitName: (Blood Troll Stalker)", -- [1293]
+			"20:11:45 - UnitGUID: (Creature-0-4253-1642-8639-134868-00001804E5)", -- [1294]
+			"20:11:45 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1295]
+			"20:11:45 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:160933::::::::120:70::::::|h[Splintered Longbow]|h|r) (nil)", -- [1296]
+			"20:11:45 - ML event (PLAYER_REGEN_ENABLED)", -- [1297]
+			"20:11:45 - OnLootSlotCleared() (1) (nil) (nil)", -- [1298]
+			"20:11:45 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:160933::::::::120:70::::::|h[Splintered Longbow]|h|r) (nil)", -- [1299]
+			"20:11:45 - Event: (LOOT_CLOSED)", -- [1300]
+			"20:11:45 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:160933::::::::120:70::::::|h[Splintered Longbow]|h|r.) () () () (Laru) () (0) (0) () (0) (156) (nil) (0) (false) (false) (false) (false)", -- [1301]
+			"20:12:07 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tresdine) (distri:) (GUILD)", -- [1302]
+			"20:12:15 - ML event (PLAYER_REGEN_ENABLED)", -- [1303]
+			"20:12:17 - Event: (LOOT_OPENED) (true)", -- [1304]
+			"20:12:17 - GetUnitName: (Blood Troll Cleaver)", -- [1305]
+			"20:12:17 - UnitGUID: (Creature-0-4253-1642-8639-134869-0000180426)", -- [1306]
+			"20:12:17 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1307]
+			"20:12:17 - OnLootSlotCleared() (1) (nil) (nil)", -- [1308]
+			"20:12:17 - Event: (LOOT_CLOSED)", -- [1309]
+			"20:12:44 - ML event (PLAYER_REGEN_ENABLED)", -- [1310]
+			"20:12:44 - Event: (LOOT_OPENED) (true)", -- [1311]
+			"20:12:44 - GetUnitName: (Blood Troll Cleaver)", -- [1312]
+			"20:12:44 - UnitGUID: (Creature-0-4253-1642-8639-134869-00019801CC)", -- [1313]
+			"20:12:44 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1314]
+			"20:12:44 - OnLootSlotCleared() (1) (nil) (nil)", -- [1315]
+			"20:12:44 - Event: (LOOT_CLOSED)", -- [1316]
+			"20:14:02 - VotingFrame:Update() without lootTable!!", -- [1317]
+			"20:14:03 - ML event (PLAYER_REGEN_ENABLED)", -- [1318]
+			"20:14:04 - Event: (LOOT_OPENED) (true)", -- [1319]
+			"20:14:04 - GetUnitName: (Minor Azerite Infused Elemental)", -- [1320]
+			"20:14:04 - UnitGUID: (Creature-0-4253-1642-8639-136616-000498054E)", -- [1321]
+			"20:14:04 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1322]
+			"20:14:04 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1323]
+			"20:14:04 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1324]
+			"20:14:04 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r.) () () () (Laru) () (0) (0) () (0) (177) (nil) (0) (false) (false) (false) (false)", -- [1325]
+			"20:14:04 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1326]
+			"20:14:04 - Event: (LOOT_CLOSED)", -- [1327]
+			"20:14:05 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx2.) () () () (Laru) () (0) (0) () (0) (178) (nil) (0) (false) (false) (false) (false)", -- [1328]
+			"20:15:24 - ML event (PLAYER_REGEN_ENABLED)", -- [1329]
+			"20:15:25 - Event: (LOOT_OPENED) (true)", -- [1330]
+			"20:15:25 - GetUnitName: (Infused Crag)", -- [1331]
+			"20:15:25 - UnitGUID: (Creature-0-4253-1642-8639-136613-00001805A0)", -- [1332]
+			"20:15:25 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1333]
+			"20:15:25 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1334]
+			"20:15:25 - Event: (LOOT_CLOSED)", -- [1335]
+			"20:15:25 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r.) () () () (Laru) () (0) (0) () (0) (187) (nil) (0) (false) (false) (false) (false)", -- [1336]
+			"20:15:47 - ML event (PLAYER_REGEN_ENABLED)", -- [1337]
+			"20:15:47 - Event: (LOOT_OPENED) (true)", -- [1338]
+			"20:15:47 - GetUnitName: (Azerite-Infused Elemental)", -- [1339]
+			"20:15:47 - UnitGUID: (Creature-0-4253-1642-8639-136615-0001180638)", -- [1340]
+			"20:15:47 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1341]
+			"20:15:47 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1342]
+			"20:15:48 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1343]
+			"20:15:48 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx2.) () () () (Laru) () (0) (0) () (0) (191) (nil) (0) (false) (false) (false) (false)", -- [1344]
+			"20:15:48 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1345]
+			"20:15:48 - Event: (LOOT_CLOSED)", -- [1346]
+			"20:15:48 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r.) () () () (Laru) () (0) (0) () (0) (192) (nil) (0) (false) (false) (false) (false)", -- [1347]
+			"20:16:22 - ML event (PLAYER_REGEN_ENABLED)", -- [1348]
+			"20:16:23 - Event: (LOOT_OPENED) (true)", -- [1349]
+			"20:16:23 - GetUnitName: (Azerite-Infused Elemental)", -- [1350]
+			"20:16:23 - UnitGUID: (Creature-0-4253-1642-8639-136615-000118043F)", -- [1351]
+			"20:16:23 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1352]
+			"20:16:23 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1353]
+			"20:16:23 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1354]
+			"20:16:23 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx2.) () () () (Laru) () (0) (0) () (0) (199) (nil) (0) (false) (false) (false) (false)", -- [1355]
+			"20:16:23 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1356]
+			"20:16:23 - Event: (LOOT_CLOSED)", -- [1357]
+			"20:16:23 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx2.) () () () (Laru) () (0) (0) () (0) (200) (nil) (0) (false) (false) (false) (false)", -- [1358]
+			"20:16:44 - ML event (PLAYER_REGEN_ENABLED)", -- [1359]
+			"20:16:46 - Event: (LOOT_OPENED) (true)", -- [1360]
+			"20:16:46 - GetUnitName: (Azerite-Infused Elemental)", -- [1361]
+			"20:16:46 - UnitGUID: (Creature-0-4253-1642-8639-136615-0000980671)", -- [1362]
+			"20:16:46 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1363]
+			"20:16:46 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1364]
+			"20:16:46 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1365]
+			"20:16:46 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|rx3.) () () () (Laru) () (0) (0) () (0) (219) (nil) (0) (false) (false) (false) (false)", -- [1366]
+			"20:16:47 - OnLootSlotCleared() (2) (|cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|r) (nil)", -- [1367]
+			"20:16:47 - Event: (LOOT_CLOSED)", -- [1368]
+			"20:16:47 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:159756::::::::120:70::::::|h[Depleted Azerite]|h|rx2.) () () () (Laru) () (0) (0) () (0) (220) (nil) (0) (false) (false) (false) (false)", -- [1369]
+			"20:17:32 - Event: (LOOT_OPENED) (true)", -- [1370]
+			"20:17:32 - GetUnitName: (Infused Bedrock)", -- [1371]
+			"20:17:32 - UnitGUID: (Creature-0-4253-1642-8639-136614-000018066A)", -- [1372]
+			"20:17:32 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1373]
+			"20:17:32 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:158210::::::::120:70::::::|h[Fearsome Claw]|h|r) (nil)", -- [1374]
+			"20:17:32 - ML event (PLAYER_REGEN_ENABLED)", -- [1375]
+			"20:17:33 - OnLootSlotCleared() (1) (|cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r) (nil)", -- [1376]
+			"20:17:33 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:157844::::::::120:70::::::|h[Iridescent Speck]|h|r.) () () () (Laru) () (0) (0) () (0) (221) (nil) (0) (false) (false) (false) (false)", -- [1377]
+			"20:17:33 - Event: (LOOT_CLOSED)", -- [1378]
+			"20:17:54 - VotingFrame:Update() without lootTable!!", -- [1379]
+			"20:18:26 - VotingFrame:Update() without lootTable!!", -- [1380]
+			"20:18:31 - ML event (PLAYER_REGEN_ENABLED)", -- [1381]
+			"20:19:26 - ML event (PLAYER_REGEN_ENABLED)", -- [1382]
+			"20:19:30 - ML event (PLAYER_REGEN_ENABLED)", -- [1383]
+			"20:19:31 - Event: (LOOT_OPENED) (true)", -- [1384]
+			"20:19:31 - GetUnitName: (Corpse Bringer Yal'kar)", -- [1385]
+			"20:19:31 - UnitGUID: (Creature-0-4253-1642-8639-126187-00001806F6)", -- [1386]
+			"20:19:31 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1387]
+			"20:19:31 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hcurrency:1553:37|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1388]
+			"20:19:31 - Adding to self.lootSlotInfo (3) (|cff9d9d9d|Hitem:155608::::::::120:70::::::|h[Defiled Bone]|h|r) (nil)", -- [1389]
+			"20:19:31 - Adding to self.lootSlotInfo (4) (|cff9d9d9d|Hitem:158859::::::::120:70::::::|h[Jagged Fang]|h|r) (nil)", -- [1390]
+			"20:19:31 - OnLootSlotCleared() (1) (nil) (nil)", -- [1391]
+			"20:19:31 - OnLootSlotCleared() (2) (|cff1eff00|Hcurrency:1553:37|h[Tiny Azerite Splinter]|h|r) (1553)", -- [1392]
+			"20:19:32 - OnLootSlotCleared() (3) (|cff9d9d9d|Hitem:155608::::::::120:70::::::|h[Defiled Bone]|h|r) (nil)", -- [1393]
+			"20:19:32 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:155608::::::::120:70::::::|h[Defiled Bone]|h|r.) () () () (Laru) () (0) (0) () (0) (243) (nil) (0) (false) (false) (false) (false)", -- [1394]
+			"20:19:32 - OnLootSlotCleared() (4) (|cff9d9d9d|Hitem:158859::::::::120:70::::::|h[Jagged Fang]|h|r) (nil)", -- [1395]
+			"20:19:32 - Event: (LOOT_CLOSED)", -- [1396]
+			"20:19:32 - ML event (CHAT_MSG_LOOT) (You receive loot: |cff9d9d9d|Hitem:158859::::::::120:70::::::|h[Jagged Fang]|h|rx2.) () () () (Laru) () (0) (0) () (0) (244) (nil) (0) (false) (false) (false) (false)", -- [1397]
+			"20:20:08 - VotingFrame:Update() without lootTable!!", -- [1398]
+			"20:20:09 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pildk) (distri:) (GUILD)", -- [1399]
+			"20:20:31 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shayman) (distri:) (GUILD)", -- [1400]
+			"20:21:13 - VotingFrame:Update() without lootTable!!", -- [1401]
+			"20:21:33 - VotingFrame:Update() without lootTable!!", -- [1402]
+			"20:21:48 - ML event (PLAYER_REGEN_ENABLED)", -- [1403]
+			"20:21:54 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [1404]
+			"20:22:58 - ML event (PLAYER_REGEN_ENABLED)", -- [1405]
+			"20:22:59 - Event: (LOOT_OPENED) (true)", -- [1406]
+			"20:22:59 - GetUnitName: (Natha'vor Cannibal)", -- [1407]
+			"20:22:59 - UnitGUID: (Creature-0-4253-1642-8639-124688-00009806E4)", -- [1408]
+			"20:22:59 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1409]
+			"20:22:59 - Event: (LOOT_CLOSED)", -- [1410]
+			"20:23:22 - ML event (PLAYER_REGEN_ENABLED)", -- [1411]
+			"20:23:23 - Event: (LOOT_OPENED) (true)", -- [1412]
+			"20:23:23 - GetUnitName: (Root-Hexxer Ib'aka)", -- [1413]
+			"20:23:23 - UnitGUID: (Creature-0-4253-1642-8639-131596-00001807F4)", -- [1414]
+			"20:23:23 - Adding to self.lootSlotInfo (1) (nil) (nil)", -- [1415]
+			"20:23:23 - Adding to self.lootSlotInfo (2) (|cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|r) (nil)", -- [1416]
+			"20:23:24 - Event: (LOOT_CLOSED)", -- [1417]
+			"20:23:24 - ML event (CHAT_MSG_LOOT) (You receive loot: |cffffffff|Hitem:152576::::::::120:70::::::|h[Tidespray Linen]|h|rx2.) () () () (Laru) () (0) (0) () (0) (277) (nil) (0) (false) (false) (false) (false)", -- [1418]
+			"20:23:27 - ML event (CHAT_MSG_LOOT) (You receive item: |cff0070dd|Hitem:157895::::::::120:70::25:3:4803:1512:4785:::|h[Bone-Fetished Stompers]|h|r.) () () () (Laru) () (0) (0) () (0) (281) (nil) (0) (false) (false) (false) (false)", -- [1419]
+			"20:24:26 - VotingFrame:Update() without lootTable!!", -- [1420]
+			"20:24:43 - ML event (CHAT_MSG_LOOT) (You receive item: |cffa335ee|Hitem:157900::::::::120:70::28:2:1532:5140:::|h[Bone-Fetished Shoulderplates]|h|r.) () () () (Laru) () (0) (0) () (0) (291) (nil) (0) (false) (false) (false) (false)", -- [1421]
+			"20:25:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1422]
+			"20:25:21 - GetML()", -- [1423]
+			"20:25:23 - VotingFrame:Update() without lootTable!!", -- [1424]
+			"20:25:29 - Event: (GROUP_LEFT) (1) (Party-3703-00001A6F5BB4)", -- [1425]
+			"20:25:29 - GetML()", -- [1426]
+			"20:25:29 - Stop handling loot", -- [1427]
+			"20:25:29 - ML Disabled", -- [1428]
+			"20:25:29 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Laru) (distri:) (WHISPER)", -- [1429]
+			"09/11/18", -- [1430]
+			"20:25:42 - Logged In", -- [1431]
+			"20:25:42 - ML initialized!", -- [1432]
+			"20:25:42 - TradeUI enabled", -- [1433]
+			"20:25:51 - Taobaibai-Frostwolf (2.8.3) (nil)", -- [1434]
+			"20:25:51 - ActivateSkin (new_blue)", -- [1435]
+			"20:25:52 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1436]
+			"20:25:52 - GetML()", -- [1437]
+			"20:25:52 - UpdatePlayersData()", -- [1438]
+			"20:25:52 - GetPlayersGuildRank()", -- [1439]
+			"20:25:52 - Found Guild Rank: Alt", -- [1440]
+			"20:25:52 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taobaibai) (distri:) (GUILD)", -- [1441]
+			"20:25:58 - Event: (PARTY_LEADER_CHANGED)", -- [1442]
+			"20:25:58 - GetML()", -- [1443]
+			"20:25:58 - Resetting council as we have a new ML!", -- [1444]
+			"20:25:58 - MasterLooter =  (Taobaibai-Frostwolf)", -- [1445]
+			"20:25:58 - GetCouncilInGroup (Taobaibai-Frostwolf)", -- [1446]
+			"20:25:58 - ML:NewML (Taobaibai-Frostwolf)", -- [1447]
+			"20:25:58 - UpdateMLdb", -- [1448]
+			"20:25:58 - UpdateGroup (true)", -- [1449]
+			"20:25:58 - ML:AddCandidate (Taobaibai-Frostwolf) (PRIEST) (HEALER) (nil) (nil) (nil) (nil)", -- [1450]
+			"20:25:58 - GetCouncilInGroup (Taobaibai-Frostwolf)", -- [1451]
+			"20:25:59 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1452]
+			"20:25:59 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1453]
+			"20:25:59 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1454]
+			"20:25:59 - Comm received:^1^Scandidates^T^N1^T^STaobaibai-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1455]
+			"20:25:59 - Comm received:^1^Scouncil^T^N1^T^N1^STaobaibai-Frostwolf^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1456]
+			"20:25:59 - true = (IsCouncil) (Taobaibai-Frostwolf)", -- [1457]
+			"20:25:59 - GetLootDBStatistics()", -- [1458]
+			"20:25:59 - GetGuildRankNum()", -- [1459]
+			"20:25:59 - RCVotingFrame (enabled)", -- [1460]
+			"20:25:59 - Comm received:^1^SplayerInfo^T^N1^STaobaibai-Frostwolf^N2^SPRIEST^N3^SHEALER^N4^SAlt^N6^N0^N7^N343.5625^N8^N257^t^^ (from:) (Taobaibai) (distri:) (WHISPER)", -- [1461]
+			"20:25:59 - ML:AddCandidate (Taobaibai-Frostwolf) (PRIEST) (HEALER) (Alt) (nil) (0) (343.5625)", -- [1462]
+			"20:26:01 - VotingFrame:Update() without lootTable!!", -- [1463]
+			"20:26:08 - Comm received:^1^Scouncil^T^N1^T^N1^STaobaibai-Frostwolf^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1464]
+			"20:26:08 - true = (IsCouncil) (Taobaibai-Frostwolf)", -- [1465]
+			"20:26:08 - Comm received:^1^Scandidates^T^N1^T^STaobaibai-Frostwolf^T^Srole^SHEALER^SspecID^N343.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^SAlt^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1466]
+			"20:26:09 - UpdateGroup (table: 00000178E4FD5170)", -- [1467]
+			"20:26:09 - ML:AddCandidate (Chuckx-Frostwolf) (MAGE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1468]
+			"20:26:09 - GetCouncilInGroup (Taobaibai-Frostwolf)", -- [1469]
+			"20:26:10 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1470]
+			"20:26:10 - Comm received:^1^Scandidates^T^N1^T^SChuckx-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^STaobaibai-Frostwolf^T^Srole^SHEALER^SspecID^N343.5625^Senchant_lvl^N0^Sclass^SPRIEST^Srank^SAlt^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1471]
+			"20:26:13 - Timer MLdb_check passed", -- [1472]
+			"20:26:51 - VotingFrame:Update() without lootTable!!", -- [1473]
+			"20:27:28 - VotingFrame:Update() without lootTable!!", -- [1474]
+			"20:27:39 - VotingFrame:Update() without lootTable!!", -- [1475]
+			"20:27:49 - VotingFrame:Update() without lootTable!!", -- [1476]
+			"20:28:00 - VotingFrame:Update() without lootTable!!", -- [1477]
+			"20:28:06 - VotingFrame:Update() without lootTable!!", -- [1478]
+			"20:28:12 - VotingFrame:Update() without lootTable!!", -- [1479]
+			"20:28:17 - VotingFrame:Update() without lootTable!!", -- [1480]
+			"20:28:27 - VotingFrame:Update() without lootTable!!", -- [1481]
+			"20:28:43 - VotingFrame:Update() without lootTable!!", -- [1482]
+			"20:28:59 - VotingFrame:Update() without lootTable!!", -- [1483]
+			"20:29:05 - VotingFrame:Update() without lootTable!!", -- [1484]
+			"20:30:14 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [1485]
+			"20:31:12 - VotingFrame:Update() without lootTable!!", -- [1486]
+			"20:31:17 - VotingFrame:Update() without lootTable!!", -- [1487]
+			"20:31:49 - VotingFrame:Update() without lootTable!!", -- [1488]
+			"20:31:54 - VotingFrame:Update() without lootTable!!", -- [1489]
+			"20:34:26 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Permok) (distri:) (GUILD)", -- [1490]
+			"20:34:44 - Event: (GROUP_LEFT) (1) (Party-3703-00001A6FC004)", -- [1491]
+			"20:34:44 - GetML()", -- [1492]
+			"20:34:44 - Stop handling loot", -- [1493]
+			"20:34:44 - ML Disabled", -- [1494]
+			"20:34:44 - Event: (PARTY_LEADER_CHANGED)", -- [1495]
+			"20:34:44 - GetML()", -- [1496]
+			"20:34:44 - Unknown ML", -- [1497]
+			"20:34:44 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Taobaibai) (distri:) (WHISPER)", -- [1498]
+			"20:34:44 - GetML()", -- [1499]
+			"20:34:44 - Resetting council as we have a new ML!", -- [1500]
+			"20:34:44 - MasterLooter =  (Dóctiz-Kazzak)", -- [1501]
+			"20:34:45 - VotingFrame:Update() without lootTable!!", -- [1502]
+			"20:34:54 - Comm received:^1^Sxrealm^T^N1^STaobaibai-Frostwolf^N2^SplayerInfoRequest^t^^ (from:) (Dóctiz-Kazzak) (distri:) (PARTY)", -- [1503]
+			"20:34:54 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Dóctiz-Kazzak) (distri:) (WHISPER)", -- [1504]
+			"20:34:54 - Comm received:^1^Sxrealm^T^N1^SChuckx-Frostwolf^N2^SplayerInfoRequest^t^^ (from:) (Dóctiz-Kazzak) (distri:) (PARTY)", -- [1505]
+			"20:34:54 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Dóctiz-Kazzak) (distri:) (PARTY)", -- [1506]
+			"20:34:54 - Comm received:^1^Scandidates^T^N1^T^SChuckx-Frostwolf^T^Srole^SDAMAGER^Sclass^SMAGE^Srank^S^t^SDóctiz-Kazzak^T^Srole^STANK^SspecID^N342.1875^Senchant_lvl^N0^Sclass^SDEATHKNIGHT^Srank^SAlt^t^SSpongebób-Kazzak^T^Srole^SDAMAGER^Sclass^SDEMONHUNTER^Srank^S^t^SSlidkatten-Kazzak^T^Srole^SDAMAGER^SspecID^N345.3125^Senchant_lvl^N0^Sclass^SWARRIOR^Srank^SSocial^t^STaobaibai-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^t^t^^ (from:) (Dóctiz-Kazzak) (distri:) (PARTY)", -- [1507]
+			"20:34:54 - Comm received:^1^Sxrealm^T^N1^SDóctiz-Kazzak^N2^SplayerInfo^N3^STaobaibai-Frostwolf^N4^SPRIEST^N5^SHEALER^N6^SAlt^N8^N0^N9^N343.5625^N10^N257^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1508]
+			"20:34:57 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Wuttibär) (distri:) (GUILD)", -- [1509]
+			"20:34:59 - Timer MLdb_check passed", -- [1510]
+			"20:35:00 - Comm received:^1^Sxrealm^T^N1^SDóctiz-Kazzak^N2^Scouncil_request^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1511]
+			"20:35:00 - Comm received:^1^Scouncil^T^N1^T^N1^SDóctiz-Kazzak^t^t^^ (from:) (Dóctiz-Kazzak) (distri:) (PARTY)", -- [1512]
+			"20:35:00 - false = (IsCouncil) (Taobaibai-Frostwolf)", -- [1513]
+			"20:35:00 - Hide VotingFrame", -- [1514]
+			"20:36:27 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1515]
+			"20:36:27 - GetML()", -- [1516]
+			"20:38:07 - Event: (RAID_INSTANCE_WELCOME) (Shrine of the Storm (Mythic)) (44516) (0) (0)", -- [1517]
+			"20:38:08 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1518]
+			"20:38:08 - GetML()", -- [1519]
+			"20:40:08 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Wuttibär) (distri:) (GUILD)", -- [1520]
+			"20:40:40 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Discappoint) (distri:) (GUILD)", -- [1521]
+			"20:41:59 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Wuttibär) (distri:) (GUILD)", -- [1522]
+			"20:42:50 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [1523]
+			"20:46:27 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Permok) (distri:) (GUILD)", -- [1524]
+			"20:47:29 - Event: (ENCOUNTER_START) (2130) (Aqu'sirr) (8) (5)", -- [1525]
+			"20:47:29 - UpdatePlayersData()", -- [1526]
+			"20:48:45 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Wuttibär) (distri:) (GUILD)", -- [1527]
+			"20:49:05 - Event: (ENCOUNTER_END) (2130) (Aqu'sirr) (8) (5) (1)", -- [1528]
+			"20:49:19 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Shaydera) (distri:) (GUILD)", -- [1529]
+			"20:49:54 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Permok) (distri:) (GUILD)", -- [1530]
+			"20:51:07 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Grogoll) (distri:) (GUILD)", -- [1531]
+			"20:51:29 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Fooneses) (distri:) (GUILD)", -- [1532]
+			"20:52:16 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Permok) (distri:) (GUILD)", -- [1533]
+			"20:55:49 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Roanar) (distri:) (GUILD)", -- [1534]
+			"20:58:48 - Event: (ENCOUNTER_START) (2131) (Tidesage Council) (8) (5)", -- [1535]
+			"20:58:48 - UpdatePlayersData()", -- [1536]
+			"21:00:18 - Event: (ENCOUNTER_END) (2131) (Tidesage Council) (8) (5) (1)", -- [1537]
+			"21:15:39 - Event: (ENCOUNTER_START) (2132) (Lord Stormsong) (8) (5)", -- [1538]
+			"21:15:39 - UpdatePlayersData()", -- [1539]
+			"21:17:31 - Event: (ENCOUNTER_END) (2132) (Lord Stormsong) (8) (5) (1)", -- [1540]
+			"21:20:03 - Event: (ENCOUNTER_START) (2133) (Vol'zith the Whisperer) (8) (5)", -- [1541]
+			"21:20:03 - UpdatePlayersData()", -- [1542]
+			"21:22:52 - Event: (ENCOUNTER_END) (2133) (Vol'zith the Whisperer) (8) (5) (1)", -- [1543]
+			"21:23:16 - Event: (LOOT_OPENED) (true)", -- [1544]
+			"21:23:16 - GetUnitName: (Chuckx)", -- [1545]
+			"21:23:16 - UnitGUID: (Player-3703-04BDA699)", -- [1546]
+			"21:23:16 - Adding to self.lootSlotInfo (1) (|cffa335ee|Hitem:158923::::::::120:256:1966080:::353:4:10:8:::|h[Mythic Keystone]|h|r) (nil)", -- [1547]
+			"21:23:16 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hitem:162460::::::::120:256::::::|h[Hydrocore]|h|r) (nil)", -- [1548]
+			"21:23:16 - Adding to self.lootSlotInfo (3) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [1549]
+			"21:23:17 - OnLootSlotCleared() (1) (|cffa335ee|Hitem:158923::::::::120:256:1966080:::353:4:10:8:::|h[Mythic Keystone]|h|r) (nil)", -- [1550]
+			"21:23:17 - Event: (ENCOUNTER_LOOT_RECEIVED) (2133) (158923) (|cffa335ee|Hitem:158923::::::::120:256:1966080:::353:4:10:8:::|h[Mythic Keystone]|h|r) (1) (Taobaibai) (PRIEST)", -- [1551]
+			"21:23:17 - OnLootSlotCleared() (2) (|cff0070dd|Hitem:162460::::::::120:256::::::|h[Hydrocore]|h|r) (nil)", -- [1552]
+			"21:23:17 - OnLootSlotCleared() (3) (|cff0070dd|Hcurrency:1553:230|h[Glowing Azerite Crystal]|h|r) (1553)", -- [1553]
+			"21:23:17 - Event: (LOOT_CLOSED)", -- [1554]
+			"21:23:19 - Error - UpdateAndSendRecentTradableItem (|cffa335ee|Hitem:158923::::::::120:256:1966080:::353:4:10:8:::|h[Mythic Keystone]|h|r) (not found in bags)", -- [1555]
+			"21:23:20 - Event: (ENCOUNTER_LOOT_RECEIVED) (2133) (158923) (|cffa335ee|Hitem:158923::::::::120:256:1966080:::251:4:10:8:::|h[Mythic Keystone]|h|r) (1) (Chuckx) (MAGE)", -- [1556]
+			"21:23:21 - Event: (ENCOUNTER_LOOT_RECEIVED) (2133) (159311) (|cffa335ee|Hitem:159311::::::::120:256::16:3:5005:1527:4786:::|h[Blessing Bearer's Waders]|h|r) (1) (Chuckx) (MAGE)", -- [1557]
+			"21:23:25 - Event: (ENCOUNTER_LOOT_RECEIVED) (2133) (159420) (|cffa335ee|Hitem:159420::::::::120:256::16:3:5005:1527:4786:::|h[Stormsurger's Sabatons]|h|r) (1) (Dóctiz-Kazzak) (DEATHKNIGHT)", -- [1558]
+			"21:23:27 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Trollax) (distri:) (GUILD)", -- [1559]
+			"21:23:27 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159420::::::::120:250::16:3:5005:1527:4786:::|h[Stormsurger's~`Sabatons]|h|r^t^^ (from:) (Dóctiz-Kazzak) (distri:) (PARTY)", -- [1560]
+			"21:23:49 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1561]
+			"21:23:49 - GetML()", -- [1562]
+			"21:23:52 - Event: (GROUP_LEFT) (1) (Party-1305-00003F97E68C)", -- [1563]
+			"21:23:52 - GetML()", -- [1564]
+			"21:25:08 - Event: (PARTY_LEADER_CHANGED)", -- [1565]
+			"21:25:08 - GetML()", -- [1566]
+			"21:25:08 - Resetting council as we have a new ML!", -- [1567]
+			"21:25:08 - MasterLooter =  (Taobaibai-Frostwolf)", -- [1568]
+			"21:25:08 - GetCouncilInGroup (Taobaibai-Frostwolf)", -- [1569]
+			"21:25:08 - ML:NewML (Taobaibai-Frostwolf)", -- [1570]
+			"21:25:08 - UpdateMLdb", -- [1571]
+			"21:25:08 - UpdateGroup (true)", -- [1572]
+			"21:25:08 - ML:AddCandidate (Taobaibai-Frostwolf) (PRIEST) (HEALER) (nil) (nil) (nil) (nil)", -- [1573]
+			"21:25:08 - GetCouncilInGroup (Taobaibai-Frostwolf)", -- [1574]
+			"21:25:08 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1575]
+			"21:25:08 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1576]
+			"21:25:08 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1577]
+			"21:25:08 - Comm received:^1^Scandidates^T^N1^T^STaobaibai-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1578]
+			"21:25:08 - Comm received:^1^Scouncil^T^N1^T^N1^STaobaibai-Frostwolf^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1579]
+			"21:25:08 - true = (IsCouncil) (Taobaibai-Frostwolf)", -- [1580]
+			"21:25:08 - GetLootDBStatistics()", -- [1581]
+			"21:25:08 - GetGuildRankNum()", -- [1582]
+			"21:25:08 - RCVotingFrame (enabled)", -- [1583]
+			"21:25:08 - Comm received:^1^SplayerInfo^T^N1^STaobaibai-Frostwolf^N2^SPRIEST^N3^SHEALER^N4^SAlt^N6^N0^N7^N343.875^N8^N256^t^^ (from:) (Taobaibai) (distri:) (WHISPER)", -- [1584]
+			"21:25:08 - ML:AddCandidate (Taobaibai-Frostwolf) (PRIEST) (HEALER) (Alt) (nil) (0) (343.875)", -- [1585]
+			"21:25:10 - VotingFrame:Update() without lootTable!!", -- [1586]
+			"21:25:18 - Comm received:^1^Scouncil^T^N1^T^N1^STaobaibai-Frostwolf^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1587]
+			"21:25:18 - true = (IsCouncil) (Taobaibai-Frostwolf)", -- [1588]
+			"21:25:18 - Comm received:^1^Scandidates^T^N1^T^STaobaibai-Frostwolf^T^Srole^SHEALER^SspecID^N343.875^Senchant_lvl^N0^Sclass^SPRIEST^Srank^SAlt^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1589]
+			"21:25:19 - UpdateGroup (table: 00000178D8893DE0)", -- [1590]
+			"21:25:19 - ML:AddCandidate (Trabal-Frostwolf) (ROGUE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [1591]
+			"21:25:19 - GetCouncilInGroup (Taobaibai-Frostwolf)", -- [1592]
+			"21:25:19 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1593]
+			"21:25:19 - Comm received:^1^Scandidates^T^N1^T^STrabal-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^STaobaibai-Frostwolf^T^Srole^SHEALER^SspecID^N343.875^Senchant_lvl^N0^Sclass^SPRIEST^Srank^SAlt^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [1594]
+			"21:25:23 - Timer MLdb_check passed", -- [1595]
+			"21:25:30 - VotingFrame:Update() without lootTable!!", -- [1596]
+			"21:25:46 - VotingFrame:Update() without lootTable!!", -- [1597]
+			"21:26:02 - VotingFrame:Update() without lootTable!!", -- [1598]
+			"21:26:12 - VotingFrame:Update() without lootTable!!", -- [1599]
+			"21:26:18 - VotingFrame:Update() without lootTable!!", -- [1600]
+			"21:26:39 - VotingFrame:Update() without lootTable!!", -- [1601]
+			"21:26:51 - VotingFrame:Update() without lootTable!!", -- [1602]
+			"21:27:09 - VotingFrame:Update() without lootTable!!", -- [1603]
+			"21:29:12 - VotingFrame:Update() without lootTable!!", -- [1604]
+			"21:29:16 - Event: (PARTY_LEADER_CHANGED)", -- [1605]
+			"21:29:16 - GetML()", -- [1606]
+			"21:29:16 - Stop handling loot", -- [1607]
+			"21:29:16 - ML Disabled", -- [1608]
+			"21:29:16 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Taobaibai) (distri:) (INSTANCE_CHAT)", -- [1609]
+			"21:29:23 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1610]
+			"21:29:23 - GetML()", -- [1611]
+			"21:29:24 - VotingFrame:Update() without lootTable!!", -- [1612]
+			"21:29:24 - VotingFrame:Update() without lootTable!!", -- [1613]
+			"21:29:30 - VotingFrame:Update() without lootTable!!", -- [1614]
+			"21:29:35 - VotingFrame:Update() without lootTable!!", -- [1615]
+			"21:29:38 - VotingFrame:Update() without lootTable!!", -- [1616]
+			"21:30:30 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Kremo) (distri:) (GUILD)", -- [1617]
+			"21:30:33 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [1618]
+			"21:31:04 - VotingFrame:Update() without lootTable!!", -- [1619]
+			"21:31:05 - VotingFrame:Update() without lootTable!!", -- [1620]
+			"21:31:06 - VotingFrame:Update() without lootTable!!", -- [1621]
+			"21:31:09 - VotingFrame:Update() without lootTable!!", -- [1622]
+			"21:31:11 - VotingFrame:Update() without lootTable!!", -- [1623]
+			"21:31:16 - VotingFrame:Update() without lootTable!!", -- [1624]
+			"21:31:19 - VotingFrame:Update() without lootTable!!", -- [1625]
+			"21:31:40 - VotingFrame:Update() without lootTable!!", -- [1626]
+			"21:32:28 - VotingFrame:Update() without lootTable!!", -- [1627]
+			"21:32:31 - VotingFrame:Update() without lootTable!!", -- [1628]
+			"21:32:33 - VotingFrame:Update() without lootTable!!", -- [1629]
+			"21:32:34 - VotingFrame:Update() without lootTable!!", -- [1630]
+			"21:32:35 - VotingFrame:Update() without lootTable!!", -- [1631]
+			"21:32:36 - VotingFrame:Update() without lootTable!!", -- [1632]
+			"21:32:37 - VotingFrame:Update() without lootTable!!", -- [1633]
+			"21:32:38 - VotingFrame:Update() without lootTable!!", -- [1634]
+			"21:32:39 - VotingFrame:Update() without lootTable!!", -- [1635]
+			"21:32:40 - VotingFrame:Update() without lootTable!!", -- [1636]
+			"21:32:41 - VotingFrame:Update() without lootTable!!", -- [1637]
+			"21:32:44 - VotingFrame:Update() without lootTable!!", -- [1638]
+			"21:32:49 - VotingFrame:Update() without lootTable!!", -- [1639]
+			"21:32:58 - VotingFrame:Update() without lootTable!!", -- [1640]
+			"21:33:06 - VotingFrame:Update() without lootTable!!", -- [1641]
+			"21:33:07 - VotingFrame:Update() without lootTable!!", -- [1642]
+			"21:33:14 - VotingFrame:Update() without lootTable!!", -- [1643]
+			"21:33:47 - VotingFrame:Update() without lootTable!!", -- [1644]
+			"21:33:48 - VotingFrame:Update() without lootTable!!", -- [1645]
+			"21:33:49 - VotingFrame:Update() without lootTable!!", -- [1646]
+			"21:33:50 - VotingFrame:Update() without lootTable!!", -- [1647]
+			"21:33:51 - VotingFrame:Update() without lootTable!!", -- [1648]
+			"21:33:58 - VotingFrame:Update() without lootTable!!", -- [1649]
+			"21:34:00 - VotingFrame:Update() without lootTable!!", -- [1650]
+			"21:34:06 - VotingFrame:Update() without lootTable!!", -- [1651]
+			"21:34:10 - VotingFrame:Update() without lootTable!!", -- [1652]
+			"21:34:41 - VotingFrame:Update() without lootTable!!", -- [1653]
+			"21:34:44 - VotingFrame:Update() without lootTable!!", -- [1654]
+			"21:34:52 - VotingFrame:Update() without lootTable!!", -- [1655]
+			"21:34:59 - VotingFrame:Update() without lootTable!!", -- [1656]
+			"21:35:11 - VotingFrame:Update() without lootTable!!", -- [1657]
+			"21:35:12 - VotingFrame:Update() without lootTable!!", -- [1658]
+			"21:35:13 - VotingFrame:Update() without lootTable!!", -- [1659]
+			"21:35:14 - Event: (LOOT_OPENED) (true)", -- [1660]
+			"21:35:14 - GetUnitName: (Graul)", -- [1661]
+			"21:35:14 - UnitGUID: (Creature-0-4244-1876-23176-129107-0000181894)", -- [1662]
+			"21:35:14 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:156514::::::::120:256::9::::|h[Sturdy Axe]|h|r) (nil)", -- [1663]
+			"21:35:15 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156514::::::::120:256::9::::|h[Sturdy Axe]|h|r) (nil)", -- [1664]
+			"21:35:15 - Event: (LOOT_CLOSED)", -- [1665]
+			"21:35:24 - VotingFrame:Update() without lootTable!!", -- [1666]
+			"21:35:25 - Event: (LOOT_OPENED) (true)", -- [1667]
+			"21:35:25 - GetUnitName: (Graul)", -- [1668]
+			"21:35:25 - UnitGUID: (Creature-0-4244-1876-23176-129107-0000181894)", -- [1669]
+			"21:35:25 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:156531::::::::120:256::::::|h[Freshly-Chopped Wood]|h|r) (nil)", -- [1670]
+			"21:35:26 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156531::::::::120:256::::::|h[Freshly-Chopped Wood]|h|r) (nil)", -- [1671]
+			"21:35:26 - Event: (LOOT_CLOSED)", -- [1672]
+			"21:35:31 - VotingFrame:Update() without lootTable!!", -- [1673]
+			"21:35:32 - Event: (LOOT_OPENED) (true)", -- [1674]
+			"21:35:32 - GetUnitName: (Alliance Footman)", -- [1675]
+			"21:35:32 - UnitGUID: (Creature-0-4244-1876-23176-126291-0004981772)", -- [1676]
+			"21:35:32 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:156531::::::::120:256::::::|h[Freshly-Chopped Wood]|h|r) (nil)", -- [1677]
+			"21:35:32 - OnLootSlotCleared() (1) (|cffffffff|Hitem:156531::::::::120:256::::::|h[Freshly-Chopped Wood]|h|r) (nil)", -- [1678]
+			"21:35:32 - Event: (LOOT_CLOSED)", -- [1679]
+			"21:35:34 - VotingFrame:Update() without lootTable!!", -- [1680]
+			"21:35:36 - VotingFrame:Update() without lootTable!!", -- [1681]
+			"21:35:50 - VotingFrame:Update() without lootTable!!", -- [1682]
+			"21:35:51 - VotingFrame:Update() without lootTable!!", -- [1683]
+			"21:35:58 - VotingFrame:Update() without lootTable!!", -- [1684]
+			"21:35:58 - Event: (LOOT_OPENED) (true)", -- [1685]
+			"21:35:58 - GetUnitName: (Angry Treant)", -- [1686]
+			"21:35:58 - UnitGUID: (Creature-0-4244-1876-23176-132299-00001818AD)", -- [1687]
+			"21:35:58 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:12|h[Wood]|h|r) (1540)", -- [1688]
+			"21:35:59 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1540:12|h[Wood]|h|r) (1540)", -- [1689]
+			"21:35:59 - Event: (LOOT_CLOSED)", -- [1690]
+			"21:36:00 - VotingFrame:Update() without lootTable!!", -- [1691]
+			"21:36:01 - VotingFrame:Update() without lootTable!!", -- [1692]
+			"21:36:02 - VotingFrame:Update() without lootTable!!", -- [1693]
+			"21:36:16 - VotingFrame:Update() without lootTable!!", -- [1694]
+			"21:36:17 - VotingFrame:Update() without lootTable!!", -- [1695]
+			"21:36:21 - VotingFrame:Update() without lootTable!!", -- [1696]
+			"21:36:22 - VotingFrame:Update() without lootTable!!", -- [1697]
+			"21:36:23 - VotingFrame:Update() without lootTable!!", -- [1698]
+			"21:36:24 - VotingFrame:Update() without lootTable!!", -- [1699]
+			"21:36:25 - VotingFrame:Update() without lootTable!!", -- [1700]
+			"21:36:26 - VotingFrame:Update() without lootTable!!", -- [1701]
+			"21:36:27 - VotingFrame:Update() without lootTable!!", -- [1702]
+			"21:36:28 - VotingFrame:Update() without lootTable!!", -- [1703]
+			"21:36:29 - VotingFrame:Update() without lootTable!!", -- [1704]
+			"21:36:30 - VotingFrame:Update() without lootTable!!", -- [1705]
+			"21:36:34 - VotingFrame:Update() without lootTable!!", -- [1706]
+			"21:36:38 - VotingFrame:Update() without lootTable!!", -- [1707]
+			"21:36:40 - VotingFrame:Update() without lootTable!!", -- [1708]
+			"21:36:41 - VotingFrame:Update() without lootTable!!", -- [1709]
+			"21:36:44 - VotingFrame:Update() without lootTable!!", -- [1710]
+			"21:36:49 - VotingFrame:Update() without lootTable!!", -- [1711]
+			"21:36:50 - VotingFrame:Update() without lootTable!!", -- [1712]
+			"21:36:51 - VotingFrame:Update() without lootTable!!", -- [1713]
+			"21:36:52 - VotingFrame:Update() without lootTable!!", -- [1714]
+			"21:36:55 - VotingFrame:Update() without lootTable!!", -- [1715]
+			"21:36:58 - VotingFrame:Update() without lootTable!!", -- [1716]
+			"21:37:06 - VotingFrame:Update() without lootTable!!", -- [1717]
+			"21:37:12 - VotingFrame:Update() without lootTable!!", -- [1718]
+			"21:37:13 - Event: (LOOT_OPENED) (true)", -- [1719]
+			"21:37:13 - GetUnitName: (nil)", -- [1720]
+			"21:37:13 - UnitGUID: (nil)", -- [1721]
+			"21:37:13 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:4|h[Wood]|h|r) (1540)", -- [1722]
+			"21:37:13 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1540:4|h[Wood]|h|r) (1540)", -- [1723]
+			"21:37:13 - Event: (LOOT_CLOSED)", -- [1724]
+			"21:37:17 - VotingFrame:Update() without lootTable!!", -- [1725]
+			"21:37:22 - VotingFrame:Update() without lootTable!!", -- [1726]
+			"21:37:23 - VotingFrame:Update() without lootTable!!", -- [1727]
+			"21:37:30 - VotingFrame:Update() without lootTable!!", -- [1728]
+			"21:37:35 - VotingFrame:Update() without lootTable!!", -- [1729]
+			"21:37:36 - VotingFrame:Update() without lootTable!!", -- [1730]
+			"21:37:37 - VotingFrame:Update() without lootTable!!", -- [1731]
+			"21:37:38 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [1732]
+			"21:37:41 - VotingFrame:Update() without lootTable!!", -- [1733]
+			"21:37:42 - VotingFrame:Update() without lootTable!!", -- [1734]
+			"21:37:43 - VotingFrame:Update() without lootTable!!", -- [1735]
+			"21:37:44 - VotingFrame:Update() without lootTable!!", -- [1736]
+			"21:37:46 - Event: (LOOT_OPENED) (true)", -- [1737]
+			"21:37:46 - GetUnitName: (nil)", -- [1738]
+			"21:37:46 - UnitGUID: (nil)", -- [1739]
+			"21:37:46 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:4|h[Wood]|h|r) (1540)", -- [1740]
+			"21:37:46 - Event: (LOOT_CLOSED)", -- [1741]
+			"21:37:47 - VotingFrame:Update() without lootTable!!", -- [1742]
+			"21:37:49 - VotingFrame:Update() without lootTable!!", -- [1743]
+			"21:37:50 - VotingFrame:Update() without lootTable!!", -- [1744]
+			"21:37:51 - VotingFrame:Update() without lootTable!!", -- [1745]
+			"21:37:52 - Event: (LOOT_OPENED) (true)", -- [1746]
+			"21:37:52 - GetUnitName: (nil)", -- [1747]
+			"21:37:52 - UnitGUID: (nil)", -- [1748]
+			"21:37:52 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:5|h[Wood]|h|r) (1540)", -- [1749]
+			"21:37:52 - VotingFrame:Update() without lootTable!!", -- [1750]
+			"21:37:52 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1540:5|h[Wood]|h|r) (1540)", -- [1751]
+			"21:37:52 - Event: (LOOT_CLOSED)", -- [1752]
+			"21:37:54 - VotingFrame:Update() without lootTable!!", -- [1753]
+			"21:37:57 - VotingFrame:Update() without lootTable!!", -- [1754]
+			"21:37:58 - VotingFrame:Update() without lootTable!!", -- [1755]
+			"21:38:02 - VotingFrame:Update() without lootTable!!", -- [1756]
+			"21:38:05 - Event: (LOOT_CLOSED)", -- [1757]
+			"21:38:07 - Event: (LOOT_CLOSED)", -- [1758]
+			"21:38:08 - VotingFrame:Update() without lootTable!!", -- [1759]
+			"21:38:09 - VotingFrame:Update() without lootTable!!", -- [1760]
+			"21:38:16 - VotingFrame:Update() without lootTable!!", -- [1761]
+			"21:38:17 - VotingFrame:Update() without lootTable!!", -- [1762]
+			"21:38:19 - VotingFrame:Update() without lootTable!!", -- [1763]
+			"21:38:26 - VotingFrame:Update() without lootTable!!", -- [1764]
+			"21:38:30 - VotingFrame:Update() without lootTable!!", -- [1765]
+			"21:38:31 - Event: (LOOT_OPENED) (true)", -- [1766]
+			"21:38:31 - GetUnitName: (nil)", -- [1767]
+			"21:38:31 - UnitGUID: (nil)", -- [1768]
+			"21:38:31 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:3|h[Wood]|h|r) (1540)", -- [1769]
+			"21:38:32 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1540:3|h[Wood]|h|r) (1540)", -- [1770]
+			"21:38:32 - Event: (LOOT_CLOSED)", -- [1771]
+			"21:38:33 - Event: (LOOT_CLOSED)", -- [1772]
+			"21:38:35 - VotingFrame:Update() without lootTable!!", -- [1773]
+			"21:38:36 - VotingFrame:Update() without lootTable!!", -- [1774]
+			"21:38:37 - VotingFrame:Update() without lootTable!!", -- [1775]
+			"21:38:38 - VotingFrame:Update() without lootTable!!", -- [1776]
+			"21:38:44 - Event: (LOOT_OPENED) (true)", -- [1777]
+			"21:38:44 - GetUnitName: (nil)", -- [1778]
+			"21:38:44 - UnitGUID: (nil)", -- [1779]
+			"21:38:44 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:5|h[Wood]|h|r) (1540)", -- [1780]
+			"21:38:44 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1540:5|h[Wood]|h|r) (1540)", -- [1781]
+			"21:38:44 - Event: (LOOT_CLOSED)", -- [1782]
+			"21:38:51 - VotingFrame:Update() without lootTable!!", -- [1783]
+			"21:38:52 - VotingFrame:Update() without lootTable!!", -- [1784]
+			"21:38:53 - VotingFrame:Update() without lootTable!!", -- [1785]
+			"21:38:57 - VotingFrame:Update() without lootTable!!", -- [1786]
+			"21:38:58 - VotingFrame:Update() without lootTable!!", -- [1787]
+			"21:39:06 - VotingFrame:Update() without lootTable!!", -- [1788]
+			"21:39:07 - VotingFrame:Update() without lootTable!!", -- [1789]
+			"21:39:11 - Event: (LOOT_OPENED) (true)", -- [1790]
+			"21:39:11 - GetUnitName: (nil)", -- [1791]
+			"21:39:11 - UnitGUID: (nil)", -- [1792]
+			"21:39:11 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:4|h[Wood]|h|r) (1540)", -- [1793]
+			"21:39:11 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1540:4|h[Wood]|h|r) (1540)", -- [1794]
+			"21:39:11 - Event: (LOOT_CLOSED)", -- [1795]
+			"21:39:13 - VotingFrame:Update() without lootTable!!", -- [1796]
+			"21:39:17 - VotingFrame:Update() without lootTable!!", -- [1797]
+			"21:39:27 - Event: (LOOT_OPENED) (true)", -- [1798]
+			"21:39:27 - GetUnitName: (nil)", -- [1799]
+			"21:39:27 - UnitGUID: (nil)", -- [1800]
+			"21:39:27 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:3|h[Wood]|h|r) (1540)", -- [1801]
+			"21:39:28 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1540:3|h[Wood]|h|r) (1540)", -- [1802]
+			"21:39:28 - Event: (LOOT_CLOSED)", -- [1803]
+			"21:39:31 - VotingFrame:Update() without lootTable!!", -- [1804]
+			"21:39:37 - VotingFrame:Update() without lootTable!!", -- [1805]
+			"21:39:38 - VotingFrame:Update() without lootTable!!", -- [1806]
+			"21:39:39 - VotingFrame:Update() without lootTable!!", -- [1807]
+			"21:39:43 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Discappoint) (distri:) (GUILD)", -- [1808]
+			"21:39:43 - VotingFrame:Update() without lootTable!!", -- [1809]
+			"21:39:44 - VotingFrame:Update() without lootTable!!", -- [1810]
+			"21:39:45 - VotingFrame:Update() without lootTable!!", -- [1811]
+			"21:39:46 - VotingFrame:Update() without lootTable!!", -- [1812]
+			"21:39:50 - VotingFrame:Update() without lootTable!!", -- [1813]
+			"21:39:52 - VotingFrame:Update() without lootTable!!", -- [1814]
+			"21:39:55 - VotingFrame:Update() without lootTable!!", -- [1815]
+			"21:39:57 - VotingFrame:Update() without lootTable!!", -- [1816]
+			"21:40:01 - VotingFrame:Update() without lootTable!!", -- [1817]
+			"21:40:06 - VotingFrame:Update() without lootTable!!", -- [1818]
+			"21:40:09 - VotingFrame:Update() without lootTable!!", -- [1819]
+			"21:40:11 - VotingFrame:Update() without lootTable!!", -- [1820]
+			"21:40:12 - VotingFrame:Update() without lootTable!!", -- [1821]
+			"21:40:13 - VotingFrame:Update() without lootTable!!", -- [1822]
+			"21:40:17 - VotingFrame:Update() without lootTable!!", -- [1823]
+			"21:40:21 - VotingFrame:Update() without lootTable!!", -- [1824]
+			"21:40:28 - VotingFrame:Update() without lootTable!!", -- [1825]
+			"21:40:33 - VotingFrame:Update() without lootTable!!", -- [1826]
+			"21:40:36 - VotingFrame:Update() without lootTable!!", -- [1827]
+			"21:40:37 - VotingFrame:Update() without lootTable!!", -- [1828]
+			"21:40:38 - VotingFrame:Update() without lootTable!!", -- [1829]
+			"21:40:39 - VotingFrame:Update() without lootTable!!", -- [1830]
+			"21:40:40 - VotingFrame:Update() without lootTable!!", -- [1831]
+			"21:40:43 - VotingFrame:Update() without lootTable!!", -- [1832]
+			"21:40:46 - VotingFrame:Update() without lootTable!!", -- [1833]
+			"21:40:50 - VotingFrame:Update() without lootTable!!", -- [1834]
+			"21:40:51 - VotingFrame:Update() without lootTable!!", -- [1835]
+			"21:40:52 - VotingFrame:Update() without lootTable!!", -- [1836]
+			"21:40:53 - VotingFrame:Update() without lootTable!!", -- [1837]
+			"21:40:57 - VotingFrame:Update() without lootTable!!", -- [1838]
+			"21:41:05 - VotingFrame:Update() without lootTable!!", -- [1839]
+			"21:41:06 - VotingFrame:Update() without lootTable!!", -- [1840]
+			"21:41:07 - VotingFrame:Update() without lootTable!!", -- [1841]
+			"21:41:08 - VotingFrame:Update() without lootTable!!", -- [1842]
+			"21:41:09 - VotingFrame:Update() without lootTable!!", -- [1843]
+			"21:41:10 - VotingFrame:Update() without lootTable!!", -- [1844]
+			"21:41:11 - VotingFrame:Update() without lootTable!!", -- [1845]
+			"21:41:15 - VotingFrame:Update() without lootTable!!", -- [1846]
+			"21:41:19 - VotingFrame:Update() without lootTable!!", -- [1847]
+			"21:41:25 - VotingFrame:Update() without lootTable!!", -- [1848]
+			"21:41:30 - VotingFrame:Update() without lootTable!!", -- [1849]
+			"21:41:31 - VotingFrame:Update() without lootTable!!", -- [1850]
+			"21:41:32 - VotingFrame:Update() without lootTable!!", -- [1851]
+			"21:41:33 - VotingFrame:Update() without lootTable!!", -- [1852]
+			"21:41:36 - VotingFrame:Update() without lootTable!!", -- [1853]
+			"21:41:37 - VotingFrame:Update() without lootTable!!", -- [1854]
+			"21:41:40 - VotingFrame:Update() without lootTable!!", -- [1855]
+			"21:41:45 - VotingFrame:Update() without lootTable!!", -- [1856]
+			"21:41:48 - VotingFrame:Update() without lootTable!!", -- [1857]
+			"21:41:51 - VotingFrame:Update() without lootTable!!", -- [1858]
+			"21:41:54 - VotingFrame:Update() without lootTable!!", -- [1859]
+			"21:41:57 - VotingFrame:Update() without lootTable!!", -- [1860]
+			"21:42:01 - VotingFrame:Update() without lootTable!!", -- [1861]
+			"21:42:02 - Event: (LOOT_OPENED) (true)", -- [1862]
+			"21:42:02 - GetUnitName: (nil)", -- [1863]
+			"21:42:02 - UnitGUID: (nil)", -- [1864]
+			"21:42:02 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1541:42|h[Iron]|h|r) (1541)", -- [1865]
+			"21:42:03 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1541:42|h[Iron]|h|r) (1541)", -- [1866]
+			"21:42:03 - Event: (LOOT_CLOSED)", -- [1867]
+			"21:42:11 - VotingFrame:Update() without lootTable!!", -- [1868]
+			"21:42:12 - VotingFrame:Update() without lootTable!!", -- [1869]
+			"21:42:13 - VotingFrame:Update() without lootTable!!", -- [1870]
+			"21:42:19 - VotingFrame:Update() without lootTable!!", -- [1871]
+			"21:42:22 - VotingFrame:Update() without lootTable!!", -- [1872]
+			"21:42:23 - VotingFrame:Update() without lootTable!!", -- [1873]
+			"21:42:26 - VotingFrame:Update() without lootTable!!", -- [1874]
+			"21:42:28 - VotingFrame:Update() without lootTable!!", -- [1875]
+			"21:42:33 - VotingFrame:Update() without lootTable!!", -- [1876]
+			"21:42:33 - Event: (LOOT_OPENED) (true)", -- [1877]
+			"21:42:33 - GetUnitName: (Horde Axe Thrower)", -- [1878]
+			"21:42:33 - UnitGUID: (Creature-0-4244-1876-23176-144468-0000181A2A)", -- [1879]
+			"21:42:33 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1541:45|h[Iron]|h|r) (1541)", -- [1880]
+			"21:42:33 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1541:45|h[Iron]|h|r) (1541)", -- [1881]
+			"21:42:33 - Event: (LOOT_CLOSED)", -- [1882]
+			"21:42:37 - VotingFrame:Update() without lootTable!!", -- [1883]
+			"21:42:38 - VotingFrame:Update() without lootTable!!", -- [1884]
+			"21:42:45 - VotingFrame:Update() without lootTable!!", -- [1885]
+			"21:42:49 - VotingFrame:Update() without lootTable!!", -- [1886]
+			"21:42:51 - VotingFrame:Update() without lootTable!!", -- [1887]
+			"21:42:54 - VotingFrame:Update() without lootTable!!", -- [1888]
+			"21:42:55 - VotingFrame:Update() without lootTable!!", -- [1889]
+			"21:43:00 - VotingFrame:Update() without lootTable!!", -- [1890]
+			"21:43:02 - VotingFrame:Update() without lootTable!!", -- [1891]
+			"21:43:06 - VotingFrame:Update() without lootTable!!", -- [1892]
+			"21:43:15 - VotingFrame:Update() without lootTable!!", -- [1893]
+			"21:43:17 - VotingFrame:Update() without lootTable!!", -- [1894]
+			"21:43:19 - Event: (LOOT_OPENED) (true)", -- [1895]
+			"21:43:19 - GetUnitName: (Drywhisker Surveyor)", -- [1896]
+			"21:43:19 - UnitGUID: (Creature-0-4244-1876-23176-127049-0000181A47)", -- [1897]
+			"21:43:19 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1541:5|h[Iron]|h|r) (1541)", -- [1898]
+			"21:43:20 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1541:5|h[Iron]|h|r) (1541)", -- [1899]
+			"21:43:20 - Event: (LOOT_CLOSED)", -- [1900]
+			"21:43:29 - Event: (LOOT_OPENED) (true)", -- [1901]
+			"21:43:29 - GetUnitName: (Drywhisker Surveyor)", -- [1902]
+			"21:43:29 - UnitGUID: (Creature-0-4244-1876-23176-127049-0000181AD1)", -- [1903]
+			"21:43:29 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1541:6|h[Iron]|h|r) (1541)", -- [1904]
+			"21:43:29 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1541:6|h[Iron]|h|r) (1541)", -- [1905]
+			"21:43:29 - Event: (LOOT_CLOSED)", -- [1906]
+			"21:43:34 - Event: (LOOT_OPENED) (true)", -- [1907]
+			"21:43:34 - GetUnitName: (nil)", -- [1908]
+			"21:43:34 - UnitGUID: (nil)", -- [1909]
+			"21:43:34 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1541:40|h[Iron]|h|r) (1541)", -- [1910]
+			"21:43:34 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1541:40|h[Iron]|h|r) (1541)", -- [1911]
+			"21:43:34 - Event: (LOOT_CLOSED)", -- [1912]
+			"21:43:38 - VotingFrame:Update() without lootTable!!", -- [1913]
+			"21:43:42 - VotingFrame:Update() without lootTable!!", -- [1914]
+			"21:43:51 - VotingFrame:Update() without lootTable!!", -- [1915]
+			"21:43:52 - VotingFrame:Update() without lootTable!!", -- [1916]
+			"21:44:02 - VotingFrame:Update() without lootTable!!", -- [1917]
+			"21:44:05 - VotingFrame:Update() without lootTable!!", -- [1918]
+			"21:44:08 - Event: (LOOT_OPENED) (true)", -- [1919]
+			"21:44:08 - GetUnitName: (nil)", -- [1920]
+			"21:44:08 - UnitGUID: (nil)", -- [1921]
+			"21:44:08 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1541:37|h[Iron]|h|r) (1541)", -- [1922]
+			"21:44:08 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1541:37|h[Iron]|h|r) (1541)", -- [1923]
+			"21:44:08 - Event: (LOOT_CLOSED)", -- [1924]
+			"21:44:10 - VotingFrame:Update() without lootTable!!", -- [1925]
+			"21:44:16 - VotingFrame:Update() without lootTable!!", -- [1926]
+			"21:44:19 - VotingFrame:Update() without lootTable!!", -- [1927]
+			"21:44:22 - VotingFrame:Update() without lootTable!!", -- [1928]
+			"21:44:23 - VotingFrame:Update() without lootTable!!", -- [1929]
+			"21:44:27 - VotingFrame:Update() without lootTable!!", -- [1930]
+			"21:44:28 - VotingFrame:Update() without lootTable!!", -- [1931]
+			"21:44:29 - VotingFrame:Update() without lootTable!!", -- [1932]
+			"21:44:31 - VotingFrame:Update() without lootTable!!", -- [1933]
+			"21:44:35 - VotingFrame:Update() without lootTable!!", -- [1934]
+			"21:44:36 - VotingFrame:Update() without lootTable!!", -- [1935]
+			"21:44:37 - VotingFrame:Update() without lootTable!!", -- [1936]
+			"21:44:38 - VotingFrame:Update() without lootTable!!", -- [1937]
+			"21:44:40 - VotingFrame:Update() without lootTable!!", -- [1938]
+			"21:44:41 - VotingFrame:Update() without lootTable!!", -- [1939]
+			"21:44:51 - VotingFrame:Update() without lootTable!!", -- [1940]
+			"21:44:54 - VotingFrame:Update() without lootTable!!", -- [1941]
+			"21:44:55 - VotingFrame:Update() without lootTable!!", -- [1942]
+			"21:44:56 - VotingFrame:Update() without lootTable!!", -- [1943]
+			"21:44:59 - VotingFrame:Update() without lootTable!!", -- [1944]
+			"21:45:10 - VotingFrame:Update() without lootTable!!", -- [1945]
+			"21:45:14 - VotingFrame:Update() without lootTable!!", -- [1946]
+			"21:45:18 - VotingFrame:Update() without lootTable!!", -- [1947]
+			"21:45:19 - VotingFrame:Update() without lootTable!!", -- [1948]
+			"21:45:20 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydekay) (distri:) (GUILD)", -- [1949]
+			"21:45:22 - VotingFrame:Update() without lootTable!!", -- [1950]
+			"21:45:23 - VotingFrame:Update() without lootTable!!", -- [1951]
+			"21:45:24 - VotingFrame:Update() without lootTable!!", -- [1952]
+			"21:45:25 - VotingFrame:Update() without lootTable!!", -- [1953]
+			"21:45:26 - VotingFrame:Update() without lootTable!!", -- [1954]
+			"21:45:27 - VotingFrame:Update() without lootTable!!", -- [1955]
+			"21:45:32 - VotingFrame:Update() without lootTable!!", -- [1956]
+			"21:45:37 - VotingFrame:Update() without lootTable!!", -- [1957]
+			"21:45:47 - VotingFrame:Update() without lootTable!!", -- [1958]
+			"21:45:48 - VotingFrame:Update() without lootTable!!", -- [1959]
+			"21:45:49 - VotingFrame:Update() without lootTable!!", -- [1960]
+			"21:45:50 - VotingFrame:Update() without lootTable!!", -- [1961]
+			"21:45:51 - VotingFrame:Update() without lootTable!!", -- [1962]
+			"21:45:52 - VotingFrame:Update() without lootTable!!", -- [1963]
+			"21:45:53 - VotingFrame:Update() without lootTable!!", -- [1964]
+			"21:45:54 - VotingFrame:Update() without lootTable!!", -- [1965]
+			"21:45:56 - VotingFrame:Update() without lootTable!!", -- [1966]
+			"21:45:57 - VotingFrame:Update() without lootTable!!", -- [1967]
+			"21:45:58 - VotingFrame:Update() without lootTable!!", -- [1968]
+			"21:46:00 - VotingFrame:Update() without lootTable!!", -- [1969]
+			"21:46:04 - VotingFrame:Update() without lootTable!!", -- [1970]
+			"21:46:05 - VotingFrame:Update() without lootTable!!", -- [1971]
+			"21:46:08 - VotingFrame:Update() without lootTable!!", -- [1972]
+			"21:46:10 - VotingFrame:Update() without lootTable!!", -- [1973]
+			"21:46:16 - VotingFrame:Update() without lootTable!!", -- [1974]
+			"21:46:21 - VotingFrame:Update() without lootTable!!", -- [1975]
+			"21:46:29 - VotingFrame:Update() without lootTable!!", -- [1976]
+			"21:46:38 - VotingFrame:Update() without lootTable!!", -- [1977]
+			"21:46:39 - VotingFrame:Update() without lootTable!!", -- [1978]
+			"21:46:54 - VotingFrame:Update() without lootTable!!", -- [1979]
+			"21:46:59 - VotingFrame:Update() without lootTable!!", -- [1980]
+			"21:47:03 - VotingFrame:Update() without lootTable!!", -- [1981]
+			"21:47:09 - VotingFrame:Update() without lootTable!!", -- [1982]
+			"21:47:20 - VotingFrame:Update() without lootTable!!", -- [1983]
+			"21:47:29 - VotingFrame:Update() without lootTable!!", -- [1984]
+			"21:47:30 - VotingFrame:Update() without lootTable!!", -- [1985]
+			"21:47:33 - VotingFrame:Update() without lootTable!!", -- [1986]
+			"21:47:34 - VotingFrame:Update() without lootTable!!", -- [1987]
+			"21:47:36 - VotingFrame:Update() without lootTable!!", -- [1988]
+			"21:48:02 - VotingFrame:Update() without lootTable!!", -- [1989]
+			"21:48:19 - VotingFrame:Update() without lootTable!!", -- [1990]
+			"21:48:20 - VotingFrame:Update() without lootTable!!", -- [1991]
+			"21:48:21 - VotingFrame:Update() without lootTable!!", -- [1992]
+			"21:48:22 - VotingFrame:Update() without lootTable!!", -- [1993]
+			"21:48:23 - VotingFrame:Update() without lootTable!!", -- [1994]
+			"21:48:28 - VotingFrame:Update() without lootTable!!", -- [1995]
+			"21:48:40 - VotingFrame:Update() without lootTable!!", -- [1996]
+			"21:48:59 - VotingFrame:Update() without lootTable!!", -- [1997]
+			"21:49:00 - VotingFrame:Update() without lootTable!!", -- [1998]
+			"21:49:02 - VotingFrame:Update() without lootTable!!", -- [1999]
+			"21:49:03 - VotingFrame:Update() without lootTable!!", -- [2000]
+			"21:49:04 - VotingFrame:Update() without lootTable!!", -- [2001]
+			"21:49:05 - VotingFrame:Update() without lootTable!!", -- [2002]
+			"21:49:07 - VotingFrame:Update() without lootTable!!", -- [2003]
+			"21:49:11 - VotingFrame:Update() without lootTable!!", -- [2004]
+			"21:49:13 - VotingFrame:Update() without lootTable!!", -- [2005]
+			"21:49:14 - VotingFrame:Update() without lootTable!!", -- [2006]
+			"21:49:17 - VotingFrame:Update() without lootTable!!", -- [2007]
+			"21:49:19 - VotingFrame:Update() without lootTable!!", -- [2008]
+			"21:49:20 - VotingFrame:Update() without lootTable!!", -- [2009]
+			"21:49:21 - VotingFrame:Update() without lootTable!!", -- [2010]
+			"21:49:24 - VotingFrame:Update() without lootTable!!", -- [2011]
+			"21:49:26 - VotingFrame:Update() without lootTable!!", -- [2012]
+			"21:49:27 - VotingFrame:Update() without lootTable!!", -- [2013]
+			"21:49:43 - VotingFrame:Update() without lootTable!!", -- [2014]
+			"21:49:46 - VotingFrame:Update() without lootTable!!", -- [2015]
+			"21:49:49 - Event: (LOOT_OPENED) (true)", -- [2016]
+			"21:49:49 - GetUnitName: (nil)", -- [2017]
+			"21:49:49 - UnitGUID: (nil)", -- [2018]
+			"21:49:49 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1541:44|h[Iron]|h|r) (1541)", -- [2019]
+			"21:49:49 - VotingFrame:Update() without lootTable!!", -- [2020]
+			"21:49:49 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1541:44|h[Iron]|h|r) (1541)", -- [2021]
+			"21:49:49 - Event: (LOOT_CLOSED)", -- [2022]
+			"21:49:50 - VotingFrame:Update() without lootTable!!", -- [2023]
+			"21:50:22 - VotingFrame:Update() without lootTable!!", -- [2024]
+			"21:50:28 - VotingFrame:Update() without lootTable!!", -- [2025]
+			"21:50:29 - VotingFrame:Update() without lootTable!!", -- [2026]
+			"21:50:37 - VotingFrame:Update() without lootTable!!", -- [2027]
+			"21:50:38 - VotingFrame:Update() without lootTable!!", -- [2028]
+			"21:50:55 - VotingFrame:Update() without lootTable!!", -- [2029]
+			"21:51:04 - VotingFrame:Update() without lootTable!!", -- [2030]
+			"21:51:17 - VotingFrame:Update() without lootTable!!", -- [2031]
+			"21:51:32 - VotingFrame:Update() without lootTable!!", -- [2032]
+			"21:51:35 - VotingFrame:Update() without lootTable!!", -- [2033]
+			"21:51:36 - VotingFrame:Update() without lootTable!!", -- [2034]
+			"21:51:37 - VotingFrame:Update() without lootTable!!", -- [2035]
+			"21:51:38 - VotingFrame:Update() without lootTable!!", -- [2036]
+			"21:51:41 - VotingFrame:Update() without lootTable!!", -- [2037]
+			"21:51:43 - VotingFrame:Update() without lootTable!!", -- [2038]
+			"21:51:44 - VotingFrame:Update() without lootTable!!", -- [2039]
+			"21:51:45 - VotingFrame:Update() without lootTable!!", -- [2040]
+			"21:51:46 - VotingFrame:Update() without lootTable!!", -- [2041]
+			"21:51:47 - VotingFrame:Update() without lootTable!!", -- [2042]
+			"21:51:50 - VotingFrame:Update() without lootTable!!", -- [2043]
+			"21:52:00 - VotingFrame:Update() without lootTable!!", -- [2044]
+			"21:52:04 - VotingFrame:Update() without lootTable!!", -- [2045]
+			"21:52:20 - VotingFrame:Update() without lootTable!!", -- [2046]
+			"21:52:31 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydruid) (distri:) (GUILD)", -- [2047]
+			"21:52:33 - VotingFrame:Update() without lootTable!!", -- [2048]
+			"21:52:37 - VotingFrame:Update() without lootTable!!", -- [2049]
+			"21:52:49 - VotingFrame:Update() without lootTable!!", -- [2050]
+			"21:52:50 - VotingFrame:Update() without lootTable!!", -- [2051]
+			"21:52:54 - VotingFrame:Update() without lootTable!!", -- [2052]
+			"21:52:56 - VotingFrame:Update() without lootTable!!", -- [2053]
+			"21:53:02 - VotingFrame:Update() without lootTable!!", -- [2054]
+			"21:53:14 - VotingFrame:Update() without lootTable!!", -- [2055]
+			"21:53:17 - VotingFrame:Update() without lootTable!!", -- [2056]
+			"21:53:30 - VotingFrame:Update() without lootTable!!", -- [2057]
+			"21:53:37 - Event: (LOOT_OPENED) (true)", -- [2058]
+			"21:53:37 - GetUnitName: (nil)", -- [2059]
+			"21:53:37 - UnitGUID: (nil)", -- [2060]
+			"21:53:37 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:5|h[Wood]|h|r) (1540)", -- [2061]
+			"21:53:38 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1540:5|h[Wood]|h|r) (1540)", -- [2062]
+			"21:53:38 - Event: (LOOT_CLOSED)", -- [2063]
+			"21:53:40 - Event: (LOOT_OPENED) (true)", -- [2064]
+			"21:53:40 - GetUnitName: (nil)", -- [2065]
+			"21:53:40 - UnitGUID: (nil)", -- [2066]
+			"21:53:40 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:3|h[Wood]|h|r) (1540)", -- [2067]
+			"21:53:40 - OnLootSlotCleared() (1) (|cffffffff|Hcurrency:1540:3|h[Wood]|h|r) (1540)", -- [2068]
+			"21:53:40 - Event: (LOOT_CLOSED)", -- [2069]
+			"21:53:47 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydekay) (distri:) (GUILD)", -- [2070]
+			"21:53:57 - VotingFrame:Update() without lootTable!!", -- [2071]
+			"21:54:08 - Event: (LOOT_OPENED) (true)", -- [2072]
+			"21:54:08 - GetUnitName: (Angry Treant)", -- [2073]
+			"21:54:08 - UnitGUID: (Creature-0-4244-1876-23176-132299-0000181D4E)", -- [2074]
+			"21:54:08 - Adding to self.lootSlotInfo (1) (|cffffffff|Hcurrency:1540:14|h[Wood]|h|r) (1540)", -- [2075]
+			"21:54:09 - Event: (LOOT_CLOSED)", -- [2076]
+			"21:54:42 - VotingFrame:Update() without lootTable!!", -- [2077]
+			"21:54:43 - VotingFrame:Update() without lootTable!!", -- [2078]
+			"21:54:44 - VotingFrame:Update() without lootTable!!", -- [2079]
+			"21:55:03 - VotingFrame:Update() without lootTable!!", -- [2080]
+			"21:55:04 - VotingFrame:Update() without lootTable!!", -- [2081]
+			"21:55:05 - VotingFrame:Update() without lootTable!!", -- [2082]
+			"21:55:06 - VotingFrame:Update() without lootTable!!", -- [2083]
+			"21:55:09 - VotingFrame:Update() without lootTable!!", -- [2084]
+			"21:55:14 - VotingFrame:Update() without lootTable!!", -- [2085]
+			"21:55:18 - VotingFrame:Update() without lootTable!!", -- [2086]
+			"21:55:19 - VotingFrame:Update() without lootTable!!", -- [2087]
+			"21:55:20 - VotingFrame:Update() without lootTable!!", -- [2088]
+			"21:55:23 - VotingFrame:Update() without lootTable!!", -- [2089]
+			"21:55:27 - VotingFrame:Update() without lootTable!!", -- [2090]
+			"21:55:28 - VotingFrame:Update() without lootTable!!", -- [2091]
+			"21:55:34 - VotingFrame:Update() without lootTable!!", -- [2092]
+			"21:55:35 - VotingFrame:Update() without lootTable!!", -- [2093]
+			"21:55:36 - VotingFrame:Update() without lootTable!!", -- [2094]
+			"21:55:37 - VotingFrame:Update() without lootTable!!", -- [2095]
+			"21:55:38 - VotingFrame:Update() without lootTable!!", -- [2096]
+			"21:55:39 - VotingFrame:Update() without lootTable!!", -- [2097]
+			"21:55:40 - VotingFrame:Update() without lootTable!!", -- [2098]
+			"21:55:41 - VotingFrame:Update() without lootTable!!", -- [2099]
+			"21:55:56 - VotingFrame:Update() without lootTable!!", -- [2100]
+			"21:56:00 - VotingFrame:Update() without lootTable!!", -- [2101]
+			"21:56:03 - VotingFrame:Update() without lootTable!!", -- [2102]
+			"21:56:06 - VotingFrame:Update() without lootTable!!", -- [2103]
+			"21:56:11 - VotingFrame:Update() without lootTable!!", -- [2104]
+			"21:56:12 - VotingFrame:Update() without lootTable!!", -- [2105]
+			"21:56:22 - VotingFrame:Update() without lootTable!!", -- [2106]
+			"21:56:27 - VotingFrame:Update() without lootTable!!", -- [2107]
+			"21:56:30 - VotingFrame:Update() without lootTable!!", -- [2108]
+			"21:56:31 - VotingFrame:Update() without lootTable!!", -- [2109]
+			"21:56:34 - VotingFrame:Update() without lootTable!!", -- [2110]
+			"21:56:39 - VotingFrame:Update() without lootTable!!", -- [2111]
+			"21:56:40 - VotingFrame:Update() without lootTable!!", -- [2112]
+			"21:56:41 - VotingFrame:Update() without lootTable!!", -- [2113]
+			"21:56:48 - VotingFrame:Update() without lootTable!!", -- [2114]
+			"21:56:50 - VotingFrame:Update() without lootTable!!", -- [2115]
+			"21:56:51 - VotingFrame:Update() without lootTable!!", -- [2116]
+			"21:56:52 - VotingFrame:Update() without lootTable!!", -- [2117]
+			"21:56:53 - VotingFrame:Update() without lootTable!!", -- [2118]
+			"21:56:56 - VotingFrame:Update() without lootTable!!", -- [2119]
+			"21:57:04 - VotingFrame:Update() without lootTable!!", -- [2120]
+			"21:57:05 - VotingFrame:Update() without lootTable!!", -- [2121]
+			"21:57:06 - VotingFrame:Update() without lootTable!!", -- [2122]
+			"21:57:07 - VotingFrame:Update() without lootTable!!", -- [2123]
+			"21:57:08 - VotingFrame:Update() without lootTable!!", -- [2124]
+			"21:57:10 - VotingFrame:Update() without lootTable!!", -- [2125]
+			"21:57:11 - VotingFrame:Update() without lootTable!!", -- [2126]
+			"21:57:12 - VotingFrame:Update() without lootTable!!", -- [2127]
+			"21:57:13 - VotingFrame:Update() without lootTable!!", -- [2128]
+			"21:58:33 - VotingFrame:Update() without lootTable!!", -- [2129]
+			"21:58:38 - VotingFrame:Update() without lootTable!!", -- [2130]
+			"21:58:43 - VotingFrame:Update() without lootTable!!", -- [2131]
+			"21:58:44 - VotingFrame:Update() without lootTable!!", -- [2132]
+			"21:58:45 - VotingFrame:Update() without lootTable!!", -- [2133]
+			"21:58:47 - VotingFrame:Update() without lootTable!!", -- [2134]
+			"21:59:00 - VotingFrame:Update() without lootTable!!", -- [2135]
+			"21:59:01 - VotingFrame:Update() without lootTable!!", -- [2136]
+			"21:59:08 - VotingFrame:Update() without lootTable!!", -- [2137]
+			"21:59:28 - VotingFrame:Update() without lootTable!!", -- [2138]
+			"21:59:36 - VotingFrame:Update() without lootTable!!", -- [2139]
+			"21:59:40 - VotingFrame:Update() without lootTable!!", -- [2140]
+			"21:59:49 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Cluze) (distri:) (GUILD)", -- [2141]
+			"21:59:54 - VotingFrame:Update() without lootTable!!", -- [2142]
+			"21:59:55 - VotingFrame:Update() without lootTable!!", -- [2143]
+			"22:00:00 - VotingFrame:Update() without lootTable!!", -- [2144]
+			"22:00:03 - VotingFrame:Update() without lootTable!!", -- [2145]
+			"22:00:06 - VotingFrame:Update() without lootTable!!", -- [2146]
+			"22:00:07 - VotingFrame:Update() without lootTable!!", -- [2147]
+			"22:00:35 - Event: (PARTY_LEADER_CHANGED)", -- [2148]
+			"22:00:35 - GetML()", -- [2149]
+			"22:00:36 - Event: (GROUP_LEFT) (2) (Party-1461-0000382B60BF)", -- [2150]
+			"22:00:36 - GetML()", -- [2151]
+			"22:00:36 - Resetting council as we have a new ML!", -- [2152]
+			"22:00:36 - MasterLooter =  (Taobaibai-Frostwolf)", -- [2153]
+			"22:00:36 - GetCouncilInGroup (Taobaibai-Frostwolf)", -- [2154]
+			"22:00:36 - ML:NewML (Taobaibai-Frostwolf)", -- [2155]
+			"22:00:36 - UpdateMLdb", -- [2156]
+			"22:00:36 - UpdateGroup (true)", -- [2157]
+			"22:00:36 - ML:AddCandidate (Taobaibai-Frostwolf) (PRIEST) (HEALER) (nil) (nil) (nil) (nil)", -- [2158]
+			"22:00:36 - ML:AddCandidate (Trabal-Frostwolf) (ROGUE) (DAMAGER) (nil) (nil) (nil) (nil)", -- [2159]
+			"22:00:36 - GetCouncilInGroup (Taobaibai-Frostwolf)", -- [2160]
+			"22:00:37 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [2161]
+			"22:00:37 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [2162]
+			"22:00:37 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [2163]
+			"22:00:37 - Comm received:^1^Scandidates^T^N1^T^STrabal-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^STaobaibai-Frostwolf^T^Srole^SHEALER^Sclass^SPRIEST^Srank^S^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [2164]
+			"22:00:37 - Comm received:^1^Scouncil^T^N1^T^N1^STaobaibai-Frostwolf^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [2165]
+			"22:00:37 - true = (IsCouncil) (Taobaibai-Frostwolf)", -- [2166]
+			"22:00:37 - ML:AddCandidate (Taobaibai-Frostwolf) (PRIEST) (HEALER) (Alt) (nil) (0) (343.875)", -- [2167]
+			"22:00:37 - Comm received:^1^SplayerInfo^T^N1^STaobaibai-Frostwolf^N2^SPRIEST^N3^SHEALER^N4^SAlt^N6^N0^N7^N343.875^N8^N256^t^^ (from:) (Taobaibai) (distri:) (WHISPER)", -- [2168]
+			"22:00:44 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2169]
+			"22:00:44 - GetML()", -- [2170]
+			"22:00:44 - VotingFrame:Update() without lootTable!!", -- [2171]
+			"22:00:45 - VotingFrame:Update() without lootTable!!", -- [2172]
+			"22:00:46 - UpdateGroup (table: 00000178F0ABFE50)", -- [2173]
+			"22:00:47 - Comm received:^1^Scouncil^T^N1^T^N1^STaobaibai-Frostwolf^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [2174]
+			"22:00:47 - true = (IsCouncil) (Taobaibai-Frostwolf)", -- [2175]
+			"22:00:48 - Comm received:^1^Scandidates^T^N1^T^STrabal-Frostwolf^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^STaobaibai-Frostwolf^T^Srole^SHEALER^SspecID^N343.875^Senchant_lvl^N0^Sclass^SPRIEST^Srank^SAlt^t^t^t^^ (from:) (Taobaibai) (distri:) (PARTY)", -- [2176]
+			"22:00:51 - Timer MLdb_check passed", -- [2177]
+			"22:01:02 - ML event (CHAT_MSG_LOOT) (You receive item: |cffa335ee|Hitem:163357::::::::120:256::6:3:5126:1562:4786:::|h[Honorbound Artificer's Cloak]|h|r.) () () () (Taobaibai) () (0) (0) () (0) (1022) (nil) (0) (false) (false) (false) (false)", -- [2178]
+			"22:01:39 - VotingFrame:Update() without lootTable!!", -- [2179]
+			"22:01:56 - Event: (GROUP_LEFT) (1) (Party-3703-00001A707E29)", -- [2180]
+			"22:01:56 - GetML()", -- [2181]
+			"22:01:56 - Stop handling loot", -- [2182]
+			"22:01:56 - ML Disabled", -- [2183]
+			"22:01:57 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Taobaibai) (distri:) (WHISPER)", -- [2184]
+			"09/11/18", -- [2185]
+			"22:02:25 - Logged In", -- [2186]
+			"22:02:25 - ML initialized!", -- [2187]
+			"22:02:25 - TradeUI enabled", -- [2188]
+			"22:02:32 - Laru-Frostwolf (2.8.3) (nil)", -- [2189]
+			"22:02:32 - ActivateSkin (new_blue)", -- [2190]
+			"22:02:34 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [2191]
+			"22:02:34 - GetML()", -- [2192]
+			"22:02:34 - UpdatePlayersData()", -- [2193]
+			"22:02:34 - GetPlayersGuildRank()", -- [2194]
+			"22:02:34 - Found Guild Rank: Raid Member", -- [2195]
+			"22:02:34 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laru) (distri:) (GUILD)", -- [2196]
+			"22:05:53 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Taydruid) (distri:) (GUILD)", -- [2197]
+			"22:12:27 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Wuttibär) (distri:) (GUILD)", -- [2198]
+			"22:13:15 - Event: (PARTY_LEADER_CHANGED)", -- [2199]
+			"22:13:15 - GetML()", -- [2200]
+			"22:13:15 - Unknown ML", -- [2201]
+			"22:13:15 - GetML()", -- [2202]
+			"22:13:15 - Resetting council as we have a new ML!", -- [2203]
+			"22:13:15 - MasterLooter =  (Ixi-Draenor)", -- [2204]
+			"22:13:25 - Comm received:^1^Sxrealm^T^N1^SLaru-Frostwolf^N2^SplayerInfoRequest^t^^ (from:) (Ixi-Draenor) (distri:) (PARTY)", -- [2205]
+			"22:13:25 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Ixi-Draenor) (distri:) (WHISPER)", -- [2206]
+			"22:13:25 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Ixi-Draenor) (distri:) (PARTY)", -- [2207]
+			"22:13:25 - Comm received:^1^Scandidates^T^N1^T^SLaru-Frostwolf^T^Srole^SHEALER^Sclass^SPALADIN^Srank^S^t^SLichface-Draenor^T^Srole^STANK^Sclass^SDEATHKNIGHT^Srank^S^t^SHeems-Draenor^T^Srole^SDAMAGER^SspecID^N351.75^Senchant_lvl^N0^Sclass^SWARRIOR^Srank^SSocial^t^SSackcrack-Draenor^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SIxi-Draenor^T^Srole^SDAMAGER^SspecID^N352.0625^Senchant_lvl^N0^Sclass^SMAGE^Srank^SRaid~`Trial^t^t^t^^ (from:) (Ixi-Draenor) (distri:) (PARTY)", -- [2208]
+			"22:13:25 - Comm received:^1^Sxrealm^T^N1^SIxi-Draenor^N2^SplayerInfo^N3^SLaru-Frostwolf^N4^SPALADIN^N5^SHEALER^N6^SRaid~`Member^N8^N0^N9^N353.75^N10^N70^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2209]
+			"22:13:30 - Timer MLdb_check passed", -- [2210]
+			"22:13:31 - Comm received:^1^Sxrealm^T^N1^SIxi-Draenor^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2211]
+			"22:13:31 - Comm received:^1^Scouncil^T^N1^T^N1^SIxi-Draenor^t^t^^ (from:) (Ixi-Draenor) (distri:) (PARTY)", -- [2212]
+			"22:13:31 - false = (IsCouncil) (Laru-Frostwolf)", -- [2213]
+			"22:13:50 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2214]
+			"22:13:50 - GetML()", -- [2215]
+			"22:14:05 - Event: (RAID_INSTANCE_WELCOME) (Waycrest Manor (Mythic)) (38754) (0) (0)", -- [2216]
+			"22:14:06 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2217]
+			"22:14:06 - GetML()", -- [2218]
+			"22:15:41 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2219]
+			"22:15:41 - GetML()", -- [2220]
+			"22:15:45 - Event: (RAID_INSTANCE_WELCOME) (Waycrest Manor (Mythic)) (38654) (0) (0)", -- [2221]
+			"22:15:46 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2222]
+			"22:15:46 - GetML()", -- [2223]
+			"22:16:50 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Mindzero) (distri:) (GUILD)", -- [2224]
+			"22:19:52 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Alyeeana) (distri:) (GUILD)", -- [2225]
+			"22:25:26 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Nethiren) (distri:) (GUILD)", -- [2226]
+			"22:26:32 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Trollax) (distri:) (GUILD)", -- [2227]
+			"22:26:57 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Tentrisha) (distri:) (GUILD)", -- [2228]
+			"22:27:32 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Morthan) (distri:) (GUILD)", -- [2229]
+			"22:27:53 - Event: (ENCOUNTER_START) (2115) (Raal the Gluttonous) (8) (5)", -- [2230]
+			"22:27:53 - UpdatePlayersData()", -- [2231]
+			"22:28:27 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Míckdagger) (distri:) (GUILD)", -- [2232]
+			"22:29:23 - Event: (ENCOUNTER_END) (2115) (Raal the Gluttonous) (8) (5) (1)", -- [2233]
+			"22:32:26 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Belyu) (distri:) (GUILD)", -- [2234]
+			"22:36:13 - Event: (ENCOUNTER_START) (2114) (Soulbound Goliath) (8) (5)", -- [2235]
+			"22:36:13 - UpdatePlayersData()", -- [2236]
+			"22:37:06 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [2237]
+			"22:37:58 - Event: (ENCOUNTER_END) (2114) (Soulbound Goliath) (8) (5) (1)", -- [2238]
+			"22:42:56 - Event: (ENCOUNTER_START) (2113) (Heartsbane Triad) (8) (5)", -- [2239]
+			"22:42:56 - UpdatePlayersData()", -- [2240]
+			"22:44:24 - Event: (ENCOUNTER_END) (2113) (Heartsbane Triad) (8) (5) (0)", -- [2241]
+			"22:45:40 - Event: (ENCOUNTER_START) (2113) (Heartsbane Triad) (8) (5)", -- [2242]
+			"22:45:40 - UpdatePlayersData()", -- [2243]
+			"22:47:43 - Event: (ENCOUNTER_END) (2113) (Heartsbane Triad) (8) (5) (1)", -- [2244]
+			"22:47:48 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Vairasza) (distri:) (GUILD)", -- [2245]
+			"22:50:23 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Deosz) (distri:) (GUILD)", -- [2246]
+			"09/11/18", -- [2247]
+			"22:52:21 - Logged In", -- [2248]
+			"22:52:21 - ML initialized!", -- [2249]
+			"22:52:21 - TradeUI enabled", -- [2250]
+			"22:52:22 - Laru-Frostwolf (2.8.3) (nil)", -- [2251]
+			"22:52:22 - ActivateSkin (new_blue)", -- [2252]
+			"22:52:24 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [2253]
+			"22:52:24 - GetML()", -- [2254]
+			"22:52:24 - Resetting council as we have a new ML!", -- [2255]
+			"22:52:24 - MasterLooter =  (Ixi-Draenor)", -- [2256]
+			"22:52:24 - Player relog...", -- [2257]
+			"22:52:24 - UpdatePlayersData()", -- [2258]
+			"22:52:24 - GetPlayersGuildRank()", -- [2259]
+			"22:52:24 - Found Guild Rank: Raid Member", -- [2260]
+			"22:52:24 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Laru) (distri:) (GUILD)", -- [2261]
+			"22:52:32 - Timer MLdb_check passed", -- [2262]
+			"22:52:33 - Comm received:^1^Sxrealm^T^N1^SIxi-Draenor^N2^SMLdb_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2263]
+			"22:52:33 - Comm received:^1^Sxrealm^T^N1^SIxi-Draenor^N2^Scouncil_request^t^^ (from:) (Laru) (distri:) (PARTY)", -- [2264]
+			"22:52:33 - Comm received:^1^SMLdb^T^N1^T^StierButtonsEnabled^B^SmultiVote^B^SnumButtons^N3^SallowNotes^B^Stimeout^N60^SselfVote^B^SrelicNumButtons^N2^StierNumButtons^N4^Sresponses^T^Stier^T^t^t^StierButtons^T^t^Sbuttons^T^t^t^t^^ (from:) (Ixi-Draenor) (distri:) (PARTY)", -- [2265]
+			"22:52:33 - Comm received:^1^Scouncil^T^N1^T^N1^SIxi-Draenor^t^t^^ (from:) (Ixi-Draenor) (distri:) (PARTY)", -- [2266]
+			"22:52:33 - false = (IsCouncil) (Laru-Frostwolf)", -- [2267]
+			"22:56:47 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Pillock) (distri:) (GUILD)", -- [2268]
+			"22:57:57 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Cayren) (distri:) (GUILD)", -- [2269]
+			"22:59:23 - Event: (ENCOUNTER_START) (2116) (Lord and Lady Waycrest) (8) (5)", -- [2270]
+			"22:59:23 - UpdatePlayersData()", -- [2271]
+			"23:01:04 - Event: (ENCOUNTER_END) (2116) (Lord and Lady Waycrest) (8) (5) (1)", -- [2272]
+			"23:04:50 - Event: (ENCOUNTER_START) (2117) (Gorak Tul) (8) (5)", -- [2273]
+			"23:04:50 - UpdatePlayersData()", -- [2274]
+			"23:04:50 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Redthirteen) (distri:) (GUILD)", -- [2275]
+			"23:06:09 - Event: (ENCOUNTER_END) (2117) (Gorak Tul) (8) (5) (1)", -- [2276]
+			"23:06:13 - Event: (ENCOUNTER_LOOT_RECEIVED) (2117) (162548) (|cffa335ee|Hitem:162548::::::::120:65::16:4:5007:41:1527:4786:::|h[Thornwoven Band]|h|r) (1) (Ixi-Draenor) (MAGE)", -- [2277]
+			"23:06:15 - Comm received:^1^Stradable^T^N1^S|cffa335ee|Hitem:162548::::::::120:64::16:4:5007:41:1527:4786:::|h[Thornwoven~`Band]|h|r^t^^ (from:) (Ixi-Draenor) (distri:) (PARTY)", -- [2278]
+			"23:06:16 - Event: (LOOT_OPENED) (true)", -- [2279]
+			"23:06:16 - GetUnitName: (nil)", -- [2280]
+			"23:06:16 - UnitGUID: (nil)", -- [2281]
+			"23:06:16 - Adding to self.lootSlotInfo (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [2282]
+			"23:06:16 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hcurrency:1553:250|h[Glowing Azerite Crystal]|h|r) (1553)", -- [2283]
+			"23:06:17 - OnLootSlotCleared() (1) (|cff0070dd|Hitem:162460::::::::120:65::::::|h[Hydrocore]|h|r) (nil)", -- [2284]
+			"23:06:17 - OnLootSlotCleared() (2) (|cff0070dd|Hcurrency:1553:250|h[Glowing Azerite Crystal]|h|r) (1553)", -- [2285]
+			"23:06:17 - Event: (LOOT_CLOSED)", -- [2286]
+			"23:06:18 - Event: (ENCOUNTER_LOOT_RECEIVED) (2117) (159449) (|cffa335ee|Hitem:159449::::::::120:65::16:3:5007:1527:4786:::|h[Soulwarped Vambraces]|h|r) (1) (Heems-Draenor) (WARRIOR)", -- [2287]
+			"23:06:21 - Comm received:^1^Snot_tradeable^T^N1^S|cffa335ee|Hitem:159449::::::::120:71::16:3:5007:1527:4786:::|h[Soulwarped~`Vambraces]|h|r^t^^ (from:) (Heems-Draenor) (distri:) (PARTY)", -- [2288]
+			"23:06:37 - Event: (GROUP_LEFT) (1) (Party-1403-00001836B328)", -- [2289]
+			"23:06:37 - GetML()", -- [2290]
+			"23:06:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2291]
+			"23:06:51 - GetML()", -- [2292]
+			"23:08:27 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Sing) (distri:) (GUILD)", -- [2293]
+			"23:12:40 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Elunià) (distri:) (GUILD)", -- [2294]
+			"23:13:23 - Comm received:^1^SverTest^T^N1^S2.8.3^t^^ (from:) (Scâbies) (distri:) (GUILD)", -- [2295]
 		},
 		["version"] = "2.8.3",
 		["locale"] = "enUS",
 		["verTestCandidates"] = {
 			["Laru-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Muhdiv-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Talar-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Voodoneses-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Dewi-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Fallen-Frostwolf"] = "2.8.0-nil: - Laru-Frostwolf",
-			["Gârdor-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Shaydera-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Taydekay-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Gardine-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Belyâ-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Trollax-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Alyeeana-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Sing-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Fallen-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Vairasza-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Cayren-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Tresdine-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Belyu-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Mindzero-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Redthirteen-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Elunià-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Míckdagger-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
 			["Morthan-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Safeba-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Eowyndra-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Grrdie-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Talar-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Tentrisha-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Shaydera-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
 			["Fooneses-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Pillock-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
-			["Taydruid-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Deosz-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
+			["Cluze-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
 			["Nethiren-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
 			["Uguluugulu-Frostwolf"] = "2.8.3-nil: - Laru-Frostwolf",
 		},
@@ -2315,9 +2349,15 @@ RCLootCouncilDB = {
 			},
 			["autoPassBoE"] = false,
 			["UI"] = {
+				["tradeui"] = {
+					["y"] = -126.000015943704,
+					["x"] = -494.000031792035,
+					["point"] = "TOP",
+					["scale"] = 1.10000002384186,
+				},
 				["lootframe"] = {
-					["y"] = -94.6211456346791,
-					["x"] = -431.139419190222,
+					["y"] = -94.6209442186591,
+					["x"] = -432.139248313455,
 					["point"] = "TOPRIGHT",
 					["scale"] = 1.10000002384186,
 				},
@@ -2351,14 +2391,9 @@ RCLootCouncilLootDB = {
 			["Shouria-Frostwolf"] = {
 				{
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
 					["date"] = "27/09/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "DEATHKNIGHT",
 					["difficultyID"] = 16,
 					["groupSize"] = 20,
@@ -2368,14 +2403,24 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["lootWon"] = "|cffa335ee|Hitem:147069::::::::110:63::6:3:3563:1527:3337:::|h[Shoulderplates of Crackling Flame]|h|r",
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["itemReplaced1"] = "|cffff8000|Hitem:144281:5883:::::::110:250:::2:3459:3570:::|h[Skullflower's Haemostasis]|h|r",
 				}, -- [1]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147062::::::::110:250::6:3:3563:1537:3337:::|h[Groundshatter Gauntlets]|h|r",
-					["date"] = "27/09/17",
-					["groupSize"] = 20,
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["groupSize"] = 20,
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 					["class"] = "DEATHKNIGHT",
 					["boss"] = "Sisters of the Moon",
 					["response"] = "Transmog",
@@ -2385,19 +2430,19 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["votes"] = 0,
 					["responseID"] = 3,
+					["date"] = "27/09/17",
+					["mapID"] = 1676,
+				}, -- [2]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147062::::::::110:250::6:3:3563:1537:3337:::|h[Groundshatter Gauntlets]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["groupSize"] = 20,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1676,
-				}, -- [2]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147062::::::::110:250::6:3:3563:1537:3337:::|h[Groundshatter Gauntlets]|h|r",
-					["date"] = "27/09/17",
-					["groupSize"] = 20,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "DEATHKNIGHT",
 					["boss"] = "Sisters of the Moon",
 					["response"] = "Transmog",
@@ -2407,19 +2452,19 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["votes"] = 0,
 					["responseID"] = 3,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
+					["date"] = "27/09/17",
 					["mapID"] = 1676,
 				}, -- [3]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147124::::::::110:250::6:3:3563:1512:3528:::|h[Gravewarden Visage]|h|r",
 					["mapID"] = 1676,
-					["date"] = "04/10/17",
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -2430,12 +2475,7 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = 2,
 					["response"] = "Offspec/Greed",
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
+					["date"] = "04/10/17",
 				}, -- [4]
 				{
 					["tierToken"] = "ShoulderSlot",
@@ -2533,16 +2573,11 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [8]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151327::::::::110:250::35:4:3418:40:1592:3337:::|h[Girdle of the Shadowguard]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["groupSize"] = 15,
@@ -2552,20 +2587,20 @@ RCLootCouncilLootDB = {
 					["boss"] = "Felhounds of Sargeras",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151327::::::::110:250::35:4:3418:40:1592:3337:::|h[Girdle of the Shadowguard]|h|r",
-				}, -- [9]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Mainspec/Need",
+					["relicRoll"] = false,
+				}, -- [9]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:142198::130246::::::110:250::35:4:3536:1808:1547:3337:::|h[Inordinately Wondrous Wristguards]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["groupSize"] = 26,
@@ -2575,20 +2610,20 @@ RCLootCouncilLootDB = {
 					["boss"] = "Varimathras",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:142198::130246::::::110:250::35:4:3536:1808:1547:3337:::|h[Inordinately Wondrous Wristguards]|h|r",
-				}, -- [10]
-				{
-					["relicRoll"] = true,
-					["mapID"] = 1712,
 					["color"] = {
-						0.701960784313726, -- [1]
-						0.694117647058824, -- [2]
-						0.0274509803921569, -- [3]
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 25,
+					["relicRoll"] = false,
+				}, -- [10]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:151294::::::::110:250::16:3:3418:1582:3337:::|h[Coalesced Void]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["response"] = "Upgrade",
@@ -2598,20 +2633,20 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152054::::::::110:64::3:3:3610:1472:3528:::|h[Unwavering Soul Essence]|h|r",
 					["boss"] = "The Defense of Eonar",
 					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151294::::::::110:250::16:3:3418:1582:3337:::|h[Coalesced Void]|h|r",
-				}, -- [11]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
+						0.701960784313726, -- [1]
+						0.694117647058824, -- [2]
+						0.0274509803921569, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 21,
+					["relicRoll"] = true,
+				}, -- [11]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147125::::::::110:250::6:3:3563:1517:3336:::|h[Gravewarden Legplates]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 21,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["response"] = "Offspec/Greed",
@@ -2621,8 +2656,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152016::::::::110:64::3:3:3610:1477:3336:::|h[Cosmos-Culling Legplates]|h|r",
 					["boss"] = "Argus the Unmaker",
 					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147125::::::::110:250::6:3:3563:1517:3336:::|h[Gravewarden Legplates]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [12]
 				{
 					["mapID"] = 1676,
@@ -2900,13 +2940,8 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffff8000|Hitem:144303::::::::110:254:::3:3529:3459:3570:::|h[MKII Gyroscopic Stabilizer]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["date"] = "11/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -2917,7 +2952,12 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [1]
 				{
 					["mapID"] = 1530,
@@ -2970,16 +3010,11 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [3]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
+					["itemReplaced1"] = "|cffff8000|Hitem:144303::::::::110:254:::3:3529:3459:3570:::|h[MKII Gyroscopic Stabilizer]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["groupSize"] = 22,
@@ -2989,8 +3024,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "Garothi Worldbreaker",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffff8000|Hitem:144303::::::::110:254:::3:3529:3459:3570:::|h[MKII Gyroscopic Stabilizer]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [4]
 				{
 					["mapID"] = 1712,
@@ -3321,13 +3361,13 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:151189::::::::110:252::5:3:3562:1507:3336:::|h[Tears of the Maiden]|h|r",
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "27/09/17",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -3338,7 +3378,7 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151189::::::::110:63::6:3:3563:1512:3528:::|h[Tears of the Maiden]|h|r",
 					["responseID"] = 1,
 					["groupSize"] = 20,
-					["date"] = "27/09/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [1]
 				{
 					["mapID"] = 1676,
@@ -3391,13 +3431,8 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147059::::::::110:252::5:3:3562:1497:3528:::|h[Iron Ballast Sabatons]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["date"] = "11/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -3408,7 +3443,12 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [4]
 				{
 					["mapID"] = 1676,
@@ -3436,14 +3476,9 @@ RCLootCouncilLootDB = {
 				}, -- [5]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147123::::::::110:252::6:3:3563:1512:3528:::|h[Gravewarden Handguards]|h|r",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
 					["date"] = "12/10/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -3453,19 +3488,19 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["boss"] = "Fallen Avatar",
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["mapID"] = 1676,
-				}, -- [6]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147125::::::::110:250::5:3:3562:1512:3337:::|h[Gravewarden Legplates]|h|r",
-					["mapID"] = 1676,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["mapID"] = 1676,
+				}, -- [6]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147125::::::::110:250::5:3:3562:1512:3337:::|h[Gravewarden Legplates]|h|r",
+					["mapID"] = 1676,
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["date"] = "26/10/17",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -3476,7 +3511,12 @@ RCLootCouncilLootDB = {
 					["boss"] = "Kil'jaeden",
 					["responseID"] = 1,
 					["groupSize"] = 20,
-					["date"] = "26/10/17",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [7]
 				{
 					["mapID"] = 1676,
@@ -3552,16 +3592,11 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [10]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147059::::::::110:252::6:3:3563:1522:3336:::|h[Iron Ballast Sabatons]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["groupSize"] = 22,
@@ -3571,20 +3606,20 @@ RCLootCouncilLootDB = {
 					["boss"] = "Garothi Worldbreaker",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147059::::::::110:252::6:3:3563:1522:3336:::|h[Iron Ballast Sabatons]|h|r",
-				}, -- [11]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Mainspec/Need",
+					["relicRoll"] = false,
+				}, -- [11]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147429::::::::110:252::6:3:3563:1522:3336:::|h[Girdle of the Crumbling Sanctum]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "DEATHKNIGHT",
 					["isAwardReason"] = false,
 					["groupSize"] = 17,
@@ -3594,8 +3629,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "Felhounds of Sargeras",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147429::::::::110:252::6:3:3563:1522:3336:::|h[Girdle of the Crumbling Sanctum]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [12]
 				{
 					["mapID"] = 1712,
@@ -3672,16 +3712,16 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [15]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152021::::::::110:250::5:3:3611:1492:3336:::|h[Flamelicked Girdle]|h|r",
 					["relicRoll"] = false,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
+					["mapID"] = 1712,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Mainspec/Need",
+					["date"] = "07/12/17",
 					["class"] = "DEATHKNIGHT",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -3691,8 +3731,8 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "07/12/17",
-					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152021::::::::110:250::5:3:3611:1492:3336:::|h[Flamelicked Girdle]|h|r",
 				}, -- [16]
 				{
 					["mapID"] = 1712,
@@ -3746,7 +3786,7 @@ RCLootCouncilLootDB = {
 			["Fallen-Frostwolf"] = {
 				{
 					["mapID"] = 1530,
-					["boss"] = "Unknown",
+					["isAwardReason"] = false,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
@@ -3754,10 +3794,10 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["class"] = "MAGE",
-					["isAwardReason"] = false,
+					["votes"] = 0,
 					["response"] = "Autopass",
 					["lootWon"] = "|cffa335ee|Hitem:140825::::::::110:63::6:3:3518:1502:3528:::|h[Felfire Pitch]|h|r",
-					["votes"] = 0,
+					["boss"] = "Unknown",
 					["time"] = "20:38:54",
 					["difficultyID"] = 16,
 					["instance"] = "The Nighthold-Mythic",
@@ -3778,24 +3818,24 @@ RCLootCouncilLootDB = {
 					["response"] = "Autopass",
 					["groupSize"] = 20,
 					["lootWon"] = "|cffa335ee|Hitem:147108::::::::110:63::6:3:3563:1512:3528:::|h[Brand of Relentless Agony]|h|r",
-					["difficultyID"] = 16,
+					["isAwardReason"] = false,
 					["time"] = "20:08:35",
 					["date"] = "27/09/17",
 					["boss"] = "Goroth",
 					["responseID"] = "AUTOPASS",
+					["difficultyID"] = 16,
 					["votes"] = 0,
-					["isAwardReason"] = false,
 				}, -- [2]
 				{
 					["mapID"] = 1676,
 					["itemReplaced1"] = "|cffa335ee|Hitem:146986::151584::::::110:63::6:4:3563:1808:1517:3336:::|h[Emberscatter Treads]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "27/09/17",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["response"] = "Pass",
@@ -3806,13 +3846,18 @@ RCLootCouncilLootDB = {
 					["boss"] = "Goroth",
 					["responseID"] = "PASS",
 					["difficultyID"] = 16,
-					["date"] = "27/09/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [3]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:146992::::::::110:63::6:3:3563:1517:3336:::|h[Legwraps of Fused Loathing]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Autopass",
 					["date"] = "03/10/17",
+					["response"] = "Autopass",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -3822,19 +3867,19 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:147066::::::::110:63::6:3:3563:1522:3528:::|h[Greaves of Impure Midnight]|h|r",
 					["difficultyID"] = 16,
 					["responseID"] = "AUTOPASS",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["mapID"] = 1676,
+				}, -- [4]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147079::::::::110:63::5:3:3562:1527:3337:::|h[Torn Fabric of Reality]|h|r",
+					["date"] = "03/10/17",
+					["response"] = "Pass",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1676,
-				}, -- [4]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147079::::::::110:63::5:3:3562:1527:3337:::|h[Torn Fabric of Reality]|h|r",
-					["instance"] = "The Nighthold-Mythic",
-					["response"] = "Pass",
-					["date"] = "03/10/17",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -3844,19 +3889,19 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:140810::::::::110:63::6:3:3518:1512:3336:::|h[Farsight Spiritjewel]|h|r",
 					["difficultyID"] = 16,
 					["responseID"] = "PASS",
+					["instance"] = "The Nighthold-Mythic",
+					["mapID"] = 1530,
+				}, -- [5]
+				{
+					["itemReplaced1"] = "|cffff8000|Hitem:132454::::::::110:63:::2:3459:3570:::|h[Koralon's Burning Touch]|h|r",
+					["date"] = "03/10/17",
+					["response"] = "Autopass",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1530,
-				}, -- [5]
-				{
-					["itemReplaced1"] = "|cffff8000|Hitem:132454::::::::110:63:::2:3459:3570:::|h[Koralon's Burning Touch]|h|r",
-					["instance"] = "The Nighthold-Mythic",
-					["response"] = "Autopass",
-					["date"] = "03/10/17",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -3866,19 +3911,19 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:140890::::::::110:63::6:3:3518:1502:3528:::|h[Belt of Celestial Alignment]|h|r",
 					["difficultyID"] = 16,
 					["responseID"] = "AUTOPASS",
+					["instance"] = "The Nighthold-Mythic",
+					["mapID"] = 1530,
+				}, -- [6]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:63::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
+					["date"] = "03/10/17",
+					["response"] = "Autopass",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1530,
-				}, -- [6]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:63::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
-					["instance"] = "The Nighthold-Mythic",
-					["response"] = "Autopass",
-					["date"] = "03/10/17",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -3888,19 +3933,19 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:140913::::::::110:63::6:3:3519:1507:3528:::|h[Breastplate of the Remembered King]|h|r",
 					["difficultyID"] = 16,
 					["responseID"] = "AUTOPASS",
+					["instance"] = "The Nighthold-Mythic",
+					["mapID"] = 1530,
+				}, -- [7]
+				{
+					["itemReplaced1"] = "|cffff8000|Hitem:132454::::::::110:63:::2:3459:3570:::|h[Koralon's Burning Touch]|h|r",
+					["date"] = "03/10/17",
+					["response"] = "Pass",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["mapID"] = 1530,
-				}, -- [7]
-				{
-					["itemReplaced1"] = "|cffff8000|Hitem:132454::::::::110:63:::2:3459:3570:::|h[Koralon's Burning Touch]|h|r",
-					["instance"] = "The Nighthold-Mythic",
-					["response"] = "Pass",
-					["date"] = "03/10/17",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -3910,24 +3955,14 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:140887::::::::110:63::6:3:3518:1502:3528:::|h[Man'ari Skullbuckled Cinch]|h|r",
 					["difficultyID"] = 16,
 					["responseID"] = "PASS",
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
+					["instance"] = "The Nighthold-Mythic",
 					["mapID"] = 1530,
 				}, -- [8]
 				{
 					["mapID"] = 1676,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
 					["date"] = "04/10/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["difficultyID"] = 16,
 					["response"] = "Autopass",
@@ -3937,14 +3972,24 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["time"] = "20:07:19",
 					["responseID"] = "AUTOPASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 					["itemReplaced1"] = "|cffa335ee|Hitem:137360:5883:::::::110:63::16:3:3536:1587:3337:::|h[Shoulderpads of Crashing Waves]|h|r",
 				}, -- [9]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147145:5436:::::::110:63::5:3:3562:1517:3337:::|h[Drape of the Arcane Tempest]|h|r",
 					["mapID"] = 1676,
-					["date"] = "04/10/17",
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -3955,18 +4000,18 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = "PASS",
 					["response"] = "Pass",
+					["date"] = "04/10/17",
+				}, -- [10]
+				{
+					["itemReplaced1"] = "|cffff8000|Hitem:132406::::::::110:63:::2:3459:3570:::|h[Marquee Bindings of the Sun King]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-				}, -- [10]
-				{
-					["itemReplaced1"] = "|cffff8000|Hitem:132406::::::::110:63:::2:3459:3570:::|h[Marquee Bindings of the Sun King]|h|r",
-					["mapID"] = 1676,
-					["date"] = "04/10/17",
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -3977,18 +4022,18 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = "AUTOPASS",
 					["response"] = "Autopass",
+					["date"] = "04/10/17",
+				}, -- [11]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:63::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-				}, -- [11]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:63::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
-					["mapID"] = 1676,
-					["date"] = "04/10/17",
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -3999,18 +4044,18 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = "PASS",
 					["response"] = "Pass",
+					["date"] = "04/10/17",
+				}, -- [12]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:137360:5883:::::::110:63::16:3:3536:1587:3337:::|h[Shoulderpads of Crashing Waves]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-				}, -- [12]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:137360:5883:::::::110:63::16:3:3536:1587:3337:::|h[Shoulderpads of Crashing Waves]|h|r",
-					["mapID"] = 1676,
-					["date"] = "04/10/17",
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -4021,34 +4066,29 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = "AUTOPASS",
 					["response"] = "Autopass",
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
+					["date"] = "04/10/17",
 				}, -- [13]
 				{
 					["itemReplaced1"] = "|cffff8000|Hitem:132406::::::::110:63:::2:3459:3570:::|h[Marquee Bindings of the Sun King]|h|r",
 					["mapID"] = 1676,
+					["date"] = "04/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "MAGE",
+					["isAwardReason"] = false,
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["boss"] = "Fallen Avatar",
+					["lootWon"] = "|cffa335ee|Hitem:147042::::::::110:63::6:3:3563:1517:3336:::|h[Bracers of Rippling Darkness]|h|r",
+					["response"] = "Autopass",
+					["time"] = "22:28:43",
+					["responseID"] = "AUTOPASS",
+					["difficultyID"] = 16,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["date"] = "04/10/17",
-					["class"] = "MAGE",
-					["isAwardReason"] = false,
-					["groupSize"] = 20,
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:147042::::::::110:63::6:3:3563:1517:3336:::|h[Bracers of Rippling Darkness]|h|r",
-					["response"] = "Autopass",
-					["time"] = "22:28:43",
-					["responseID"] = "AUTOPASS",
-					["boss"] = "Fallen Avatar",
-					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [14]
 				{
 					["date"] = "05/10/17",
@@ -4075,14 +4115,14 @@ RCLootCouncilLootDB = {
 				}, -- [15]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:63::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
-					["instance"] = "The Nighthold-Mythic",
-					["groupSize"] = 20,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["groupSize"] = 20,
+					["date"] = "05/10/17",
 					["class"] = "MAGE",
 					["boss"] = "Gul'dan",
 					["response"] = "Autopass",
@@ -4092,19 +4132,19 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:140913::::::::110:63::6:3:3519:1507:3528:::|h[Breastplate of the Remembered King]|h|r",
 					["votes"] = 0,
 					["responseID"] = "AUTOPASS",
-					["date"] = "05/10/17",
+					["instance"] = "The Nighthold-Mythic",
 					["mapID"] = 1530,
 				}, -- [16]
 				{
 					["itemReplaced1"] = "|cffff8000|Hitem:132454::::::::110:63:::2:3459:3570:::|h[Koralon's Burning Touch]|h|r",
-					["instance"] = "The Nighthold-Mythic",
-					["groupSize"] = 20,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["groupSize"] = 20,
+					["date"] = "05/10/17",
 					["class"] = "MAGE",
 					["boss"] = "Krosus",
 					["response"] = "Pass",
@@ -4114,7 +4154,7 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:140887::::::::110:63::6:3:3518:1502:3528:::|h[Man'ari Skullbuckled Cinch]|h|r",
 					["votes"] = 0,
 					["responseID"] = "PASS",
-					["date"] = "05/10/17",
+					["instance"] = "The Nighthold-Mythic",
 					["mapID"] = 1530,
 				}, -- [17]
 				{
@@ -4142,14 +4182,14 @@ RCLootCouncilLootDB = {
 				}, -- [18]
 				{
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["groupSize"] = 20,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["groupSize"] = 20,
+					["date"] = "11/10/17",
 					["class"] = "MAGE",
 					["difficultyID"] = 16,
 					["response"] = "Pass",
@@ -4159,19 +4199,14 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["time"] = "20:10:25",
 					["responseID"] = "PASS",
-					["date"] = "11/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["itemReplaced1"] = "|cffa335ee|Hitem:146992::::::::110:63::6:3:3563:1517:3336:::|h[Legwraps of Fused Loathing]|h|r",
 				}, -- [19]
 				{
 					["itemReplaced1"] = "|cffff8000|Hitem:132454::::::::110:63:::2:3459:3570:::|h[Koralon's Burning Touch]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
 					["date"] = "11/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -4182,7 +4217,12 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = "AUTOPASS",
 					["response"] = "Autopass",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 				}, -- [20]
 				{
 					["mapID"] = 1676,
@@ -4192,7 +4232,7 @@ RCLootCouncilLootDB = {
 					["groupSize"] = 20,
 					["response"] = "Pass",
 					["isAwardReason"] = false,
-					["votes"] = 0,
+					["difficultyID"] = 16,
 					["time"] = "21:48:40",
 					["lootWon"] = "|cffa335ee|Hitem:147094::::::::110:63::6:3:3563:1517:3336:::|h[Virus of Lethargy]|h|r",
 					["color"] = {
@@ -4202,19 +4242,14 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["responseID"] = "PASS",
+					["votes"] = 0,
 					["boss"] = "Maiden of Vigilance",
-					["difficultyID"] = 16,
 				}, -- [21]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:146992::::::::110:63::6:3:3563:1517:3336:::|h[Legwraps of Fused Loathing]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["date"] = "26/10/17",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["response"] = "Autopass",
@@ -4225,17 +4260,22 @@ RCLootCouncilLootDB = {
 					["boss"] = "Kil'jaeden",
 					["responseID"] = "AUTOPASS",
 					["groupSize"] = 20,
-					["date"] = "26/10/17",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 				}, -- [22]
 				{
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "26/10/17",
 					["class"] = "MAGE",
 					["response"] = "Candidate is selecting response, please wait",
 					["groupSize"] = 20,
@@ -4246,17 +4286,17 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "WAIT",
 					["difficultyID"] = 16,
-					["date"] = "26/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [23]
 				{
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "26/10/17",
 					["class"] = "MAGE",
 					["response"] = "Candidate is selecting response, please wait",
 					["groupSize"] = 20,
@@ -4267,18 +4307,13 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "WAIT",
 					["difficultyID"] = 16,
-					["date"] = "26/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [24]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:137360:5883:::::::110:63::16:3:3536:1587:3337:::|h[Shoulderpads of Crashing Waves]|h|r",
 					["mapID"] = 1530,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
 					["instance"] = "The Nighthold-Mythic",
+					["date"] = "26/10/17",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["response"] = "Pass",
@@ -4289,7 +4324,12 @@ RCLootCouncilLootDB = {
 					["boss"] = "Grand Magistrix Elisande",
 					["responseID"] = "PASS",
 					["groupSize"] = 20,
-					["date"] = "26/10/17",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 				}, -- [25]
 				{
 					["mapID"] = 1530,
@@ -4316,13 +4356,8 @@ RCLootCouncilLootDB = {
 				}, -- [26]
 				{
 					["mapID"] = 1676,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["date"] = "08/11/17",
 					["class"] = "MAGE",
 					["response"] = "Autopass",
 					["groupSize"] = 20,
@@ -4333,7 +4368,12 @@ RCLootCouncilLootDB = {
 					["boss"] = "Goroth",
 					["responseID"] = "AUTOPASS",
 					["difficultyID"] = 16,
-					["date"] = "08/11/17",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 				}, -- [27]
 				{
 					["mapID"] = 1676,
@@ -4384,16 +4424,11 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [29]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:137360:5883:::::::110:63::16:3:3536:1587:3337:::|h[Shoulderpads of Crashing Waves]|h|r",
 					["date"] = "08/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["difficultyID"] = 16,
 					["response"] = "Pass",
@@ -4403,19 +4438,19 @@ RCLootCouncilLootDB = {
 					["time"] = "21:03:05",
 					["isAwardReason"] = false,
 					["responseID"] = "PASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137360:5883:::::::110:63::16:3:3536:1587:3337:::|h[Shoulderpads of Crashing Waves]|h|r",
-				}, -- [30]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:146986::151583::::::110:63::6:4:3563:1808:1517:3336:::|h[Emberscatter Treads]|h|r",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Autopass",
+					["relicRoll"] = false,
+				}, -- [30]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:146986::151583::::::110:63::6:4:3563:1808:1517:3336:::|h[Emberscatter Treads]|h|r",
 					["date"] = "08/11/17",
+					["response"] = "Autopass",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["boss"] = "Maiden of Vigilance",
 					["groupSize"] = 20,
@@ -4425,7 +4460,12 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["time"] = "21:59:33",
 					["responseID"] = "AUTOPASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 					["mapID"] = 1676,
 				}, -- [31]
 				{
@@ -4503,8 +4543,13 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:138321:5883:::::::110:64::6:3:3518:1507:3336:::|h[Mantle of Everburning Knowledge]|h|r",
 					["mapID"] = 1676,
-					["date"] = "15/11/17",
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["response"] = "Autopass",
@@ -4515,18 +4560,18 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "AUTOPASS",
 					["groupSize"] = 20,
+					["date"] = "15/11/17",
+				}, -- [35]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-				}, -- [35]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
-					["mapID"] = 1676,
-					["date"] = "15/11/17",
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["response"] = "Autopass",
@@ -4537,19 +4582,19 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "AUTOPASS",
 					["groupSize"] = 20,
+					["date"] = "15/11/17",
+				}, -- [36]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:138315::::::::110:64::6:3:3518:1502:3528:::|h[Leggings of Everburning Knowledge]|h|r",
+					["relicRoll"] = false,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Pass",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-				}, -- [36]
-				{
-					["mapID"] = 1676,
-					["itemReplaced1"] = "|cffa335ee|Hitem:138315::::::::110:64::6:3:3518:1502:3528:::|h[Leggings of Everburning Knowledge]|h|r",
-					["date"] = "15/11/17",
-					["response"] = "Pass",
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -4559,25 +4604,20 @@ RCLootCouncilLootDB = {
 					["boss"] = "Goroth",
 					["votes"] = 0,
 					["responseID"] = "PASS",
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["relicRoll"] = false,
+					["date"] = "15/11/17",
+					["mapID"] = 1676,
 				}, -- [37]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:138315::::::::110:64::6:3:3518:1502:3528:::|h[Leggings of Everburning Knowledge]|h|r",
 					["relicRoll"] = false,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Pass",
+					["mapID"] = 1676,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Pass",
+					["date"] = "22/11/17",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -4587,19 +4627,19 @@ RCLootCouncilLootDB = {
 					["boss"] = "Goroth",
 					["votes"] = 0,
 					["responseID"] = "PASS",
-					["date"] = "22/11/17",
-					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:138315::::::::110:64::6:3:3518:1502:3528:::|h[Leggings of Everburning Knowledge]|h|r",
 				}, -- [38]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:138315::::::::110:64::6:3:3518:1502:3528:::|h[Leggings of Everburning Knowledge]|h|r",
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "22/11/17",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["response"] = "Autopass",
@@ -4610,17 +4650,17 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "AUTOPASS",
 					["groupSize"] = 20,
-					["date"] = "22/11/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [39]
 				{
 					["mapID"] = 1676,
-					["date"] = "22/11/17",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["difficultyID"] = 16,
 					["response"] = "Autopass",
@@ -4631,7 +4671,7 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "AUTOPASS",
 					["groupSize"] = 20,
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["date"] = "22/11/17",
 				}, -- [40]
 				{
 					["mapID"] = 1676,
@@ -4660,13 +4700,13 @@ RCLootCouncilLootDB = {
 				{
 					["mapID"] = 1676,
 					["relicRoll"] = true,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "22/11/17",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["response"] = "Pass",
@@ -4677,19 +4717,14 @@ RCLootCouncilLootDB = {
 					["boss"] = "Kil'jaeden",
 					["responseID"] = "PASS",
 					["groupSize"] = 20,
-					["date"] = "22/11/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [42]
 				{
-					["relicRoll"] = true,
 					["mapID"] = 1676,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:152344::::::::110:64::3:3:3614:1482:3336:::|h[Meto's Orb of Entropy]|h|r",
 					["date"] = "23/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["difficultyID"] = 16,
 					["response"] = "Pass",
@@ -4699,20 +4734,20 @@ RCLootCouncilLootDB = {
 					["time"] = "20:29:50",
 					["isAwardReason"] = false,
 					["responseID"] = "PASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152344::::::::110:64::3:3:3614:1482:3336:::|h[Meto's Orb of Entropy]|h|r",
-				}, -- [43]
-				{
-					["relicRoll"] = true,
-					["mapID"] = 1676,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 20,
+					["relicRoll"] = true,
+				}, -- [43]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:152344::::::::110:64::3:3:3614:1482:3336:::|h[Meto's Orb of Entropy]|h|r",
 					["date"] = "23/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["difficultyID"] = 16,
 					["response"] = "Pass",
@@ -4722,20 +4757,20 @@ RCLootCouncilLootDB = {
 					["time"] = "20:29:53",
 					["isAwardReason"] = false,
 					["responseID"] = "PASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152344::::::::110:64::3:3:3614:1482:3336:::|h[Meto's Orb of Entropy]|h|r",
-				}, -- [44]
-				{
-					["tierToken"] = "BackSlot",
-					["mapID"] = 1676,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 20,
+					["relicRoll"] = true,
+				}, -- [44]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147145:5436:::::::110:64::5:3:3562:1517:3337:::|h[Drape of the Arcane Tempest]|h|r",
 					["date"] = "23/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["response"] = "Autopass",
@@ -4745,8 +4780,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "The Desolate Host",
 					["difficultyID"] = 16,
 					["responseID"] = "AUTOPASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147145:5436:::::::110:64::5:3:3562:1517:3337:::|h[Drape of the Arcane Tempest]|h|r",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["tierToken"] = "BackSlot",
 				}, -- [45]
 				{
 					["mapID"] = 1530,
@@ -4775,14 +4815,9 @@ RCLootCouncilLootDB = {
 				}, -- [46]
 				{
 					["itemReplaced1"] = "|cffff8000|Hitem:138140::::::::110:64:::2:3459:3570:::|h[Magtheridon's Banished Bracers]|h|r",
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Autopass",
 					["date"] = "23/11/17",
+					["response"] = "Autopass",
+					["instance"] = "The Nighthold-Mythic",
 					["class"] = "MAGE",
 					["boss"] = "Grand Magistrix Elisande",
 					["groupSize"] = 20,
@@ -4792,19 +4827,19 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["time"] = "21:00:52",
 					["responseID"] = "AUTOPASS",
-					["instance"] = "The Nighthold-Mythic",
-					["mapID"] = 1530,
-				}, -- [47]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Autopass",
+					["mapID"] = 1530,
+				}, -- [47]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["date"] = "23/11/17",
+					["response"] = "Autopass",
+					["instance"] = "The Nighthold-Mythic",
 					["class"] = "MAGE",
 					["boss"] = "Gul'dan",
 					["groupSize"] = 20,
@@ -4814,20 +4849,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["time"] = "21:11:16",
 					["responseID"] = "AUTOPASS",
-					["instance"] = "The Nighthold-Mythic",
-					["mapID"] = 1530,
-				}, -- [48]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Pass",
+					["mapID"] = 1530,
+				}, -- [48]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:138315::::::::110:64::6:3:3518:1502:3528:::|h[Leggings of Everburning Knowledge]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Pass",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["groupSize"] = 11,
@@ -4837,20 +4872,20 @@ RCLootCouncilLootDB = {
 					["boss"] = "Antoran High Command",
 					["votes"] = 0,
 					["responseID"] = "PASS",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:138315::::::::110:64::6:3:3518:1502:3528:::|h[Leggings of Everburning Knowledge]|h|r",
-				}, -- [49]
-				{
-					["tierToken"] = "BackSlot",
-					["mapID"] = 1712,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Autopass",
+					["relicRoll"] = false,
+				}, -- [49]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147145:5436:::::::110:64::5:3:3562:1517:3337:::|h[Drape of the Arcane Tempest]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Autopass",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
 					["difficultyID"] = 15,
 					["groupSize"] = 19,
@@ -4860,19 +4895,19 @@ RCLootCouncilLootDB = {
 					["time"] = "20:40:11",
 					["votes"] = 0,
 					["responseID"] = "AUTOPASS",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147145:5436:::::::110:64::5:3:3562:1517:3337:::|h[Drape of the Arcane Tempest]|h|r",
-				}, -- [50]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147147::151585::::::110:64::6:4:3563:1808:1512:3528:::|h[Crown of the Arcane Tempest]|h|r",
-					["mapID"] = 1712,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["tierToken"] = "BackSlot",
+				}, -- [50]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147147::151585::::::110:64::6:4:3563:1808:1512:3528:::|h[Crown of the Arcane Tempest]|h|r",
+					["mapID"] = 1712,
 					["date"] = "29/11/17",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["response"] = "Autopass",
@@ -4883,17 +4918,17 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "AUTOPASS",
 					["groupSize"] = 23,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 				}, -- [51]
 				{
 					["mapID"] = 1712,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["date"] = "29/11/17",
 					["class"] = "MAGE",
 					["difficultyID"] = 15,
 					["response"] = "Candidate is selecting response, please wait",
@@ -4904,18 +4939,18 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "WAIT",
 					["groupSize"] = 22,
-					["date"] = "29/11/17",
-				}, -- [52]
-				{
-					["tierToken"] = "ChestSlot",
-					["mapID"] = 1712,
 					["color"] = {
 						1, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+				}, -- [52]
+				{
+					["tierToken"] = "ChestSlot",
+					["mapID"] = 1712,
 					["date"] = "29/11/17",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["response"] = "Candidate is selecting response, please wait",
@@ -4926,19 +4961,19 @@ RCLootCouncilLootDB = {
 					["boss"] = "The Defense of Eonar",
 					["responseID"] = "WAIT",
 					["groupSize"] = 22,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-				}, -- [53]
-				{
-					["tierToken"] = "ChestSlot",
-					["mapID"] = 1712,
 					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Autopass",
+				}, -- [53]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Autopass",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MAGE",
 					["difficultyID"] = 15,
 					["groupSize"] = 20,
@@ -4948,8 +4983,13 @@ RCLootCouncilLootDB = {
 					["time"] = "21:02:54",
 					["votes"] = 0,
 					["responseID"] = "AUTOPASS",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["tierToken"] = "ChestSlot",
 				}, -- [54]
 				{
 					["mapID"] = 1712,
@@ -4978,13 +5018,8 @@ RCLootCouncilLootDB = {
 				}, -- [55]
 				{
 					["mapID"] = 1712,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
 					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["date"] = "30/11/17",
 					["class"] = "MAGE",
 					["groupSize"] = 10,
 					["response"] = "Autopass",
@@ -4995,18 +5030,18 @@ RCLootCouncilLootDB = {
 					["boss"] = "Argus the Unmaker",
 					["responseID"] = "AUTOPASS",
 					["votes"] = 0,
-					["date"] = "30/11/17",
-				}, -- [56]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 25,
+				}, -- [56]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "MAGE",
 					["boss"] = "Garothi Worldbreaker",
 					["response"] = "Autopass",
@@ -5016,7 +5051,12 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 14,
 					["lootWon"] = "|cffa335ee|Hitem:152017::::::::110:64::3:3:3610:1477:3336:::|h[Soul-Tempered Chestplate]|h|r",
 					["responseID"] = "AUTOPASS",
-					["instance"] = "Antorus, the Burning Throne-Normal",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 					["mapID"] = 1712,
 				}, -- [57]
 				{
@@ -5045,14 +5085,9 @@ RCLootCouncilLootDB = {
 				}, -- [58]
 				{
 					["itemReplaced1"] = "|cffff8000|Hitem:138140::::::::110:64:::2:1811:3630:::|h[Magtheridon's Banished Bracers]|h|r",
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 24,
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "MAGE",
 					["boss"] = "Varimathras",
 					["response"] = "Autopass",
@@ -5062,20 +5097,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 14,
 					["lootWon"] = "|cffa335ee|Hitem:152281::::::::110:64::3:3:3610:1472:3528:::|h[Varimathras' Shattered Manacles]|h|r",
 					["responseID"] = "AUTOPASS",
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["mapID"] = 1712,
-				}, -- [59]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 24,
+					["mapID"] = 1712,
+				}, -- [59]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:152139::::::::110:64::5:3:3611:1487:3528:::|h[Runebound Leggings]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["response"] = "Pass",
@@ -5085,20 +5120,20 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151946::::::::110:64::3:3:3610:1472:3528:::|h[Fervent Twilight Legwraps]|h|r",
 					["boss"] = "The Coven of Shivarra",
 					["responseID"] = "PASS",
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152139::::::::110:64::5:3:3611:1487:3528:::|h[Runebound Leggings]|h|r",
-				}, -- [60]
-				{
-					["relicRoll"] = true,
-					["mapID"] = 1712,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 25,
+					["relicRoll"] = false,
+				}, -- [60]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:152024::::::::110:64::5:3:3611:1487:3528:::|h[Fallen Magi's Seerstone]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["response"] = "Pass",
@@ -5108,19 +5143,19 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152026::::::::110:64::3:3:3610:1472:3528:::|h[Prototype Titan-Disc]|h|r",
 					["boss"] = "Aggramar",
 					["responseID"] = "PASS",
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152024::::::::110:64::5:3:3611:1487:3528:::|h[Fallen Magi's Seerstone]|h|r",
-				}, -- [61]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 14,
+					["relicRoll"] = true,
+				}, -- [61]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 14,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "MAGE",
 					["boss"] = "Argus the Unmaker",
 					["response"] = "Autopass",
@@ -5130,19 +5165,19 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 14,
 					["lootWon"] = "|cffa335ee|Hitem:151982::::::::110:64::3:3:3610:1472:3528:::|h[Vest of Waning Life]|h|r",
 					["responseID"] = "AUTOPASS",
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["mapID"] = 1712,
-				}, -- [62]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 13,
+					["mapID"] = 1712,
+				}, -- [62]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 13,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "MAGE",
 					["boss"] = "Argus the Unmaker",
 					["response"] = "Autopass",
@@ -5152,20 +5187,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 14,
 					["lootWon"] = "|cffa335ee|Hitem:151982::::::::110:64::3:3:3610:1472:3528:::|h[Vest of Waning Life]|h|r",
 					["responseID"] = "AUTOPASS",
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["mapID"] = 1712,
-				}, -- [63]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Pass",
+					["mapID"] = 1712,
+				}, -- [63]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147145:5436:::::::110:64::5:3:3562:1517:3337:::|h[Drape of the Arcane Tempest]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Pass",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -5175,20 +5210,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = "PASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147145:5436:::::::110:64::5:3:3562:1517:3337:::|h[Drape of the Arcane Tempest]|h|r",
-				}, -- [64]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Pass",
+					["relicRoll"] = false,
+				}, -- [64]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147147::151585::::::110:64::6:4:3563:1808:1512:3528:::|h[Crown of the Arcane Tempest]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Pass",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -5198,20 +5233,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = "PASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147147::151585::::::110:64::6:4:3563:1808:1512:3528:::|h[Crown of the Arcane Tempest]|h|r",
-				}, -- [65]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
 						0.7, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Pass",
+					["relicRoll"] = false,
+				}, -- [65]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Pass",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -5221,8 +5256,13 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = "PASS",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147149::::::::110:64::6:3:3563:1517:3336:::|h[Robes of the Arcane Tempest]|h|r",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [66]
 				{
 					["mapID"] = 1676,
@@ -5252,13 +5292,8 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:152139::::::::110:64::5:3:3611:1487:3528:::|h[Runebound Leggings]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
 					["date"] = "03/12/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["response"] = "Autopass",
@@ -5269,7 +5304,12 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "AUTOPASS",
 					["groupSize"] = 20,
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 				}, -- [68]
 				{
 					["mapID"] = 1712,
@@ -6664,8 +6704,13 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147041::::::::110:268::6:3:3563:1512:3528:::|h[Sinew-Stitched Wristguards]|h|r",
 					["mapID"] = 1676,
-					["date"] = "04/10/17",
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "MONK",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -6676,12 +6721,7 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = 2,
 					["response"] = "Offspec/Greed",
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
+					["date"] = "04/10/17",
 				}, -- [4]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:136975::::::::110:268::16:3:3418:1572:3336:::|h[Hunger of the Pack]|h|r",
@@ -6709,13 +6749,8 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:151014::::::::110:268::30:3:3397:3189:3337:::|h[Fulminating Arcstone]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["date"] = "11/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MONK",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -6726,7 +6761,12 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [6]
 				{
 					["mapID"] = 1676,
@@ -6777,13 +6817,8 @@ RCLootCouncilLootDB = {
 				{
 					["tierToken"] = "HeadSlot",
 					["mapID"] = 1530,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["instance"] = "The Nighthold-Mythic",
+					["date"] = "26/10/17",
 					["class"] = "MONK",
 					["isAwardReason"] = false,
 					["response"] = "Candidate is selecting response, please wait",
@@ -6794,7 +6829,12 @@ RCLootCouncilLootDB = {
 					["boss"] = "Grand Magistrix Elisande",
 					["responseID"] = "WAIT",
 					["groupSize"] = 20,
-					["date"] = "26/10/17",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [9]
 				{
 					["mapID"] = 1676,
@@ -6822,16 +6862,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [10]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Transmog",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147155::::::::110:268::6:3:3563:1512:3528:::|h[Xuen's Legguards]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Transmog",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MONK",
 					["isAwardReason"] = false,
 					["groupSize"] = 22,
@@ -6841,8 +6876,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "Garothi Worldbreaker",
 					["votes"] = 0,
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147155::::::::110:268::6:3:3563:1512:3528:::|h[Xuen's Legguards]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [11]
 				{
 					["mapID"] = 1712,
@@ -7259,16 +7299,16 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [2]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:140850::151583::::::110:258::6:5:3518:1808:41:1512:3336:::|h[Bracers of Harnessed Flame]|h|r",
 					["relicRoll"] = false,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Mainspec/Need",
+					["mapID"] = 1676,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Mainspec/Need",
+					["date"] = "22/11/17",
 					["class"] = "PRIEST",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -7278,8 +7318,8 @@ RCLootCouncilLootDB = {
 					["boss"] = "Fallen Avatar",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["date"] = "22/11/17",
-					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:140850::151583::::::110:258::6:5:3518:1808:41:1512:3336:::|h[Bracers of Harnessed Flame]|h|r",
 				}, -- [3]
 				{
 					["mapID"] = 1676,
@@ -7306,16 +7346,11 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [4]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147165::151583::::::110:258::6:5:3563:1808:42:1512:3528:::|h[Hood of Blind Absolution]|h|r",
 					["date"] = "23/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "PRIEST",
 					["difficultyID"] = 16,
 					["response"] = "Transmog",
@@ -7325,20 +7360,20 @@ RCLootCouncilLootDB = {
 					["time"] = "20:15:18",
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147165::151583::::::110:258::6:5:3563:1808:42:1512:3528:::|h[Hood of Blind Absolution]|h|r",
-				}, -- [5]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
-						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Transmog",
+					["relicRoll"] = false,
+				}, -- [5]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147166::::::::110:258::6:3:3563:1522:3336:::|h[Leggings of Blind Absolution]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Transmog",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PRIEST",
 					["isAwardReason"] = false,
 					["groupSize"] = 10,
@@ -7348,8 +7383,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "The Coven of Shivarra",
 					["votes"] = 0,
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147166::::::::110:258::6:3:3563:1522:3336:::|h[Leggings of Blind Absolution]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [6]
 				{
 					["mapID"] = 1712,
@@ -7376,16 +7416,11 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [7]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 25,
+					["itemReplaced1"] = "|cffa335ee|Hitem:146987::::::::110:258::6:3:3563:1517:3336:::|h[Slippers of Enduring Vigilance]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PRIEST",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -7395,8 +7430,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151940::::::::110:64::5:3:3611:1487:3528:::|h[Sandals of the Reborn Colossus]|h|r",
 					["boss"] = "Aggramar",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146987::::::::110:258::6:3:3563:1517:3336:::|h[Slippers of Enduring Vigilance]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [8]
 				{
 					["mapID"] = 1712,
@@ -7579,13 +7619,8 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:151588::130248::::::110:105::13:5:1701:3408:3609:601:3608:::|h[Empyriumkrone der Tiefen des Hitzeschocks]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["date"] = "26/10/17",
 					["class"] = "DRUID",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -7596,7 +7631,12 @@ RCLootCouncilLootDB = {
 					["boss"] = "Kil'jaeden",
 					["responseID"] = 1,
 					["groupSize"] = 20,
-					["date"] = "26/10/17",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [1]
 				{
 					["mapID"] = 1676,
@@ -7673,16 +7713,11 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [1]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Offspec/Greed",
+					["itemReplaced1"] = "|cffa335ee|Hitem:146992::::::::110:265::3:3:3561:1502:3337:::|h[Beinwickel der verschmolzenen Abscheu]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Offspec/Greed",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
 					["isAwardReason"] = false,
 					["groupSize"] = 10,
@@ -7692,20 +7727,20 @@ RCLootCouncilLootDB = {
 					["boss"] = "Antoran High Command",
 					["votes"] = 0,
 					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146992::::::::110:265::3:3:3561:1502:3337:::|h[Beinwickel der verschmolzenen Abscheu]|h|r",
-				}, -- [2]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
-						0, -- [1]
-						1, -- [2]
+						1, -- [1]
+						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 25,
+					["relicRoll"] = false,
+				}, -- [2]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:137319::::::::110:265::35:3:3418:1587:3337:::|h[Paranoiasprinter]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -7715,8 +7750,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151940::::::::110:64::5:3:3611:1487:3528:::|h[Sandals of the Reborn Colossus]|h|r",
 					["boss"] = "Aggramar",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137319::::::::110:265::35:3:3418:1587:3337:::|h[Paranoiasprinter]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [3]
 				{
 					["mapID"] = 1712,
@@ -7745,14 +7785,9 @@ RCLootCouncilLootDB = {
 				}, -- [4]
 				{
 					["mapID"] = 1712,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.0823529411764706, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 24,
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "WARLOCK",
 					["difficultyID"] = 14,
 					["response"] = "offspec",
@@ -7762,7 +7797,12 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["time"] = "22:38:52",
 					["responseID"] = 4,
-					["instance"] = "Antorus, the Burning Throne-Normal",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.0823529411764706, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["relicRoll"] = true,
 				}, -- [5]
 				{
@@ -7790,11 +7830,16 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [6]
 				{
-					["mapID"] = 1712,
 					["tierToken"] = "LegsSlot",
-					["date"] = "10/12/17",
-					["groupSize"] = 20,
+					["tokenRoll"] = true,
 					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["groupSize"] = 20,
+					["color"] = {
+						0.0431372549019608, -- [1]
+						0.701960784313726, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "WARLOCK",
 					["boss"] = "Imonar the Soulhunter",
 					["response"] = "Upgrade",
@@ -7804,13 +7849,8 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 					["difficultyID"] = 16,
 					["responseID"] = 5,
-					["color"] = {
-						0.0431372549019608, -- [1]
-						0.701960784313726, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["tokenRoll"] = true,
+					["date"] = "10/12/17",
+					["mapID"] = 1712,
 				}, -- [7]
 				{
 					["mapID"] = 1712,
@@ -8145,6 +8185,30 @@ RCLootCouncilLootDB = {
 					["date"] = "18/03/18",
 					["instance"] = "Antorus, the Burning Throne-Mythic",
 				}, -- [21]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "WARLOCK",
+					["groupSize"] = 30,
+					["votes"] = 1,
+					["time"] = "21:19:58",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159252::::::::120:64::23:3:4819:1512:4786:::|h[Grasping Crown of the Deep]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["id"] = "1536517198-19",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160719::::::::120:64::3:3:4822:1477:4786:::|h[Visage of the Ascended Prophet]|h|r",
+					["note"] = "15% + top traits (wie pillock ebend sagte)",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "Mythrax",
+				}, -- [22]
 			},
 			["Tentreesha-Frostwolf"] = {
 				{
@@ -8294,13 +8358,8 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:138347:5929:130220::::::110:253::6:4:3518:1808:1502:3528:::|h[Eagletalon Spaulders]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["date"] = "11/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -8311,19 +8370,24 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = 2,
 					["response"] = "Offspec/Greed",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [3]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:142178::::::::110:253::35:3:3536:1547:3337:::|h[Ruffian's Poisoned Blade]|h|r",
 					["relicRoll"] = true,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Crucible",
+					["mapID"] = 1676,
 					["color"] = {
 						0, -- [1]
 						0.682352941176471, -- [2]
 						0.701960784313726, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Crucible",
+					["date"] = "22/11/17",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -8333,8 +8397,8 @@ RCLootCouncilLootDB = {
 					["boss"] = "Fallen Avatar",
 					["votes"] = 0,
 					["responseID"] = 3,
-					["date"] = "22/11/17",
-					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:142178::::::::110:253::35:3:3536:1547:3337:::|h[Ruffian's Poisoned Blade]|h|r",
 				}, -- [4]
 				{
 					["mapID"] = 1712,
@@ -8689,6 +8753,79 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 				}, -- [18]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "HUNTER",
+					["groupSize"] = 29,
+					["votes"] = 0,
+					["time"] = "20:53:35",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159294::::::::120:64::23:3:4779:1517:4783:::|h[Raal's Bib]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["id"] = "1536515615-13",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160644::::::::120:64::3:3:4798:1487:4783:::|h[Plasma-Spattered Greatcloak]|h|r",
+					["note"] = "10 ilvl hab den 655 bekommen",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "Vectis",
+				}, -- [19]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "HUNTER",
+					["groupSize"] = 29,
+					["boss"] = "Zek'voz",
+					["time"] = "21:04:10",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159460:5938:::::::120:64::23:3:4779:1522:4783:::|h[Overseer's Lost Seal]|h|r",
+					["id"] = "1536516250-16",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160647::::::::120:64::3:3:4798:1477:4786:::|h[Ring of the Infinite Void]|h|r",
+					["note"] = "6%",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:159462:5938:153708::::::120:64::23:4:4779:4802:1512:4786:::|h[Footbomb Championship Ring]|h|r",
+					["votes"] = 0,
+				}, -- [20]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "HUNTER",
+					["groupSize"] = 30,
+					["votes"] = 0,
+					["time"] = "21:27:59",
+					["itemReplaced1"] = "|cffa335ee|Hitem:155892:5932:::::::120:64::23:3:4779:1517:4783:::|h[Bite-Resistant Chain Gloves]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["id"] = "1536517679-20",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160721::::::::120:64::3:3:4798:1477:4786:::|h[Oblivion Crushers]|h|r",
+					["note"] = "9%",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "Mythrax",
+				}, -- [21]
 			},
 			["Sneakk-Frostwolf"] = {
 				{
@@ -8717,14 +8854,9 @@ RCLootCouncilLootDB = {
 				}, -- [1]
 				{
 					["mapID"] = 1676,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.0823529411764706, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "offspec",
 					["date"] = "08/11/17",
+					["response"] = "offspec",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "ROGUE",
 					["difficultyID"] = 16,
 					["groupSize"] = 20,
@@ -8734,7 +8866,12 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["lootWon"] = "|cffa335ee|Hitem:147100::::::::110:63::6:3:3563:1512:3528:::|h[Calcified Barnacle]|h|r",
 					["responseID"] = 4,
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.0823529411764706, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["relicRoll"] = true,
 				}, -- [2]
 				{
@@ -8763,11 +8900,16 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [3]
 				{
-					["mapID"] = 1676,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147039::::::::110:261::6:3:3563:1512:3528:::|h[Cinch of Sizzling Flesh]|h|r",
-					["date"] = "09/11/17",
-					["response"] = "Mainspec/Need",
+					["relicRoll"] = false,
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Mainspec/Need",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "ROGUE",
 					["boss"] = "Kil'jaeden",
 					["groupSize"] = 20,
@@ -8777,25 +8919,15 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 					["difficultyID"] = 16,
 					["responseID"] = 1,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["relicRoll"] = false,
+					["date"] = "09/11/17",
+					["mapID"] = 1676,
 				}, -- [4]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 25,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134491:5890:::::::110:261::35:3:3536:1582:3337:::|h[Understone Gorget]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "ROGUE",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -8805,8 +8937,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151965::::::::110:64::3:4:3610:40:1472:3528:::|h[Vulcanarcore Pendant]|h|r",
 					["boss"] = "Portal Keeper Hasabel",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:134491:5890:::::::110:261::35:3:3536:1582:3337:::|h[Understone Gorget]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [5]
 				{
 					["mapID"] = 1676,
@@ -9057,9 +9194,14 @@ RCLootCouncilLootDB = {
 				}, -- [3]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:146998::::::::110:64::6:3:3563:1532:3337:::|h[Braided Torture Lash]|h|r",
-					["instance"] = "The Nighthold-Mythic",
-					["response"] = "Transmog",
 					["date"] = "03/10/17",
+					["response"] = "Transmog",
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 					["class"] = "MAGE",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -9069,12 +9211,7 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:140887::::::::110:63::6:3:3518:1502:3528:::|h[Man'ari Skullbuckled Cinch]|h|r",
 					["difficultyID"] = 16,
 					["responseID"] = 3,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
+					["instance"] = "The Nighthold-Mythic",
 					["mapID"] = 1530,
 				}, -- [4]
 				{
@@ -9102,16 +9239,11 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [5]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147147::::::::110:64::6:3:3563:1522:3336:::|h[Crown of the Arcane Tempest]|h|r",
 					["date"] = "08/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MAGE",
 					["difficultyID"] = 16,
 					["response"] = "Transmog",
@@ -9121,8 +9253,13 @@ RCLootCouncilLootDB = {
 					["time"] = "22:31:53",
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147147::::::::110:64::6:3:3563:1522:3336:::|h[Crown of the Arcane Tempest]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [6]
 				{
 					["mapID"] = 1676,
@@ -9174,16 +9311,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [8]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 24,
+					["itemReplaced1"] = "|cffa335ee|Hitem:138321:5888:::::::110:64::6:3:3518:1527:3337:::|h[Mantle of Everburning Knowledge]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -9193,8 +9325,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151949::::::::110:64::3:3:3610:1472:3528:::|h[Soul-Siphon Mantle]|h|r",
 					["boss"] = "Felhounds of Sargeras",
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:138321:5888:::::::110:64::6:3:3518:1527:3337:::|h[Mantle of Everburning Knowledge]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [9]
 				{
 					["mapID"] = 1712,
@@ -9222,16 +9359,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [10]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 25,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147147::::::::110:64::6:3:3563:1522:3336:::|h[Crown of the Arcane Tempest]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -9241,20 +9373,20 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151944::::::::110:64::3:3:3610:1492:3337:::|h[Soulhunter's Cowl]|h|r",
 					["boss"] = "Imonar the Soulhunter",
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147147::::::::110:64::6:3:3563:1522:3336:::|h[Crown of the Arcane Tempest]|h|r",
-				}, -- [11]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
 						0.701960784313726, -- [1]
 						0, -- [2]
 						0.631372549019608, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 24,
+					["relicRoll"] = false,
+				}, -- [11]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:146998::::::::110:64::6:3:3563:1532:3337:::|h[Braided Torture Lash]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "MAGE",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -9264,8 +9396,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151942::::::::110:64::3:3:3610:1472:3528:::|h[Cord of Surging Hysteria]|h|r",
 					["boss"] = "Varimathras",
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146998::::::::110:64::6:3:3563:1532:3337:::|h[Braided Torture Lash]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [12]
 				{
 					["mapID"] = 1712,
@@ -9481,6 +9618,30 @@ RCLootCouncilLootDB = {
 					},
 					["date"] = "28/03/18",
 				}, -- [21]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "MAGE",
+					["groupSize"] = 11,
+					["votes"] = 0,
+					["time"] = "20:11:51",
+					["itemReplaced1"] = "|cffa335ee|Hitem:158346::::::::120:64::23:3:4779:1517:4783:::|h[Sailcloth Waistband]|h|r",
+					["instance"] = "Uldir-Heroic",
+					["response"] = "Upgrade",
+					["id"] = "1536513111-0",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:160727::::::::120:64::5:3:4799:1492:4786:::|h[Cord of Septic Envelopment]|h|r",
+					["note"] = "21% 25ilvl",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "G'huun",
+				}, -- [22]
 			},
 			["Pillock-Frostwolf"] = {
 				{
@@ -9770,16 +9931,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [12]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152356::::::::110:265::3:3:3614:1477:3336:::|h[Fel-Absorbant Wristbands]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARLOCK",
 					["isAwardReason"] = false,
 					["groupSize"] = 25,
@@ -9789,8 +9945,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "Varimathras",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152356::::::::110:265::3:3:3614:1477:3336:::|h[Fel-Absorbant Wristbands]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [13]
 				{
 					["mapID"] = 1712,
@@ -10166,6 +10327,31 @@ RCLootCouncilLootDB = {
 					},
 					["note"] = "guter trait, muss aber ok rollen",
 				}, -- [28]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "WARLOCK",
+					["groupSize"] = 29,
+					["boss"] = "Zek'voz",
+					["time"] = "21:05:29",
+					["itemReplaced1"] = "|cffa335ee|Hitem:163933:5943:154127::::::120:64::54:3:4802:1477:4783:::|h[Aguas' Band of Augury]|h|r",
+					["id"] = "1536516329-18",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160647::::::::120:64::3:4:4798:1808:1477:4786:::|h[Ring of the Infinite Void]|h|r",
+					["note"] = "bessere stat verteilung mastery>crit",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:158318:5943:::::::120:64::23:3:4779:1527:4784:::|h[Murky Cerulean Signet]|h|r",
+					["votes"] = 0,
+				}, -- [29]
 			},
 			["Taydruid-Frostwolf"] = {
 				{
@@ -10194,16 +10380,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [1]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1530,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134287::::::::110:102::16:4:3418:43:1612:3337:::|h[Swordsinger's Belt]|h|r",
 					["date"] = "23/11/17",
+					["groupSize"] = 20,
+					["instance"] = "The Nighthold-Mythic",
 					["class"] = "DRUID",
 					["difficultyID"] = 16,
 					["response"] = "Transmog",
@@ -10213,8 +10394,13 @@ RCLootCouncilLootDB = {
 					["time"] = "21:10:49",
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "The Nighthold-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:134287::::::::110:102::16:4:3418:43:1612:3337:::|h[Swordsinger's Belt]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [2]
 				{
 					["mapID"] = 1712,
@@ -10241,16 +10427,11 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [3]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Transmog",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147135::::::::110:102::5:3:3562:1532:3337:::|h[Stormheart Gloves]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Transmog",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "DRUID",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -10260,8 +10441,13 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147135::::::::110:102::5:3:3562:1532:3337:::|h[Stormheart Gloves]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [4]
 				{
 					["mapID"] = 1712,
@@ -10552,6 +10738,54 @@ RCLootCouncilLootDB = {
 					["date"] = "07/03/18",
 					["id"] = "1520446387-2",
 				}, -- [16]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "DRUID",
+					["groupSize"] = 28,
+					["votes"] = 0,
+					["time"] = "20:43:20",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159294::::::::120:64::23:3:4779:1512:4786:::|h[Raal's Bib]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["id"] = "1536515000-9",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160643::::::::120:64::3:4:4798:1808:1477:4786:::|h[Fetid Horror's Tanglecloak]|h|r",
+					["note"] = "22% st",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "Fetid Devourer",
+				}, -- [17]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "DRUID",
+					["groupSize"] = 30,
+					["boss"] = "Mythrax",
+					["time"] = "21:28:40",
+					["itemReplaced1"] = "|cffa335ee|Hitem:158154::::::::120:64::28:3:4803:1537:4783:::|h[Emblem of Zandalar]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160656::::::::120:64::3:3:4798:1477:4786:::|h[Twitching Tentacle of Xalzaix]|h|r",
+					["id"] = "1536517720-21",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:159615::::::::120:64::23:3:4779:1512:4786:::|h[Ignition Mage's Fuse]|h|r",
+					["votes"] = 0,
+				}, -- [18]
 			},
 			["Uguluugulu-Frostwolf"] = {
 				{
@@ -10581,13 +10815,8 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147115::::::::110:253::6:3:3563:1517:3336:::|h[Entfaltende Neuerschaffung]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["date"] = "27/09/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -10598,7 +10827,12 @@ RCLootCouncilLootDB = {
 					["time"] = "21:31:12",
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [2]
 				{
 					["instance"] = "Tomb of Sargeras-Mythic",
@@ -10650,13 +10884,8 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:142176::::::::110:253::35:3:3418:1562:3337:::|h[Überspringende statische Aufladung]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["date"] = "26/10/17",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -10667,19 +10896,19 @@ RCLootCouncilLootDB = {
 					["boss"] = "Kil'jaeden",
 					["responseID"] = 1,
 					["groupSize"] = 20,
-					["date"] = "26/10/17",
-				}, -- [5]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 20,
+				}, -- [5]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:138340::::::::110:253::6:4:3518:42:1517:3337:::|h[Adlerkrallenstulpen]|h|r",
 					["date"] = "23/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["difficultyID"] = 16,
 					["response"] = "Mainspec/Need",
@@ -10689,20 +10918,20 @@ RCLootCouncilLootDB = {
 					["time"] = "20:44:29",
 					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:138340::::::::110:253::6:4:3518:42:1517:3337:::|h[Adlerkrallenstulpen]|h|r",
-				}, -- [6]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 20,
+					["relicRoll"] = false,
+				}, -- [6]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:138340::::::::110:253::6:4:3518:42:1517:3337:::|h[Adlerkrallenstulpen]|h|r",
 					["date"] = "23/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["difficultyID"] = 16,
 					["response"] = "Mainspec/Need",
@@ -10712,8 +10941,13 @@ RCLootCouncilLootDB = {
 					["time"] = "20:44:42",
 					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:138340::::::::110:253::6:4:3518:42:1517:3337:::|h[Adlerkrallenstulpen]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [7]
 				{
 					["mapID"] = 1712,
@@ -10740,16 +10974,11 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 				}, -- [8]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 24,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147142::::::::110:253::6:4:3563:41:1512:3528:::|h[Helm des Wildpirschers]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -10759,20 +10988,20 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152000::::::::110:64::3:3:3610:1477:3336:::|h[Shadowfused Chain Coif]|h|r",
 					["boss"] = "Felhounds of Sargeras",
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147142::::::::110:253::6:4:3563:41:1512:3528:::|h[Helm des Wildpirschers]|h|r",
-				}, -- [9]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
 						0.701960784313726, -- [1]
 						0, -- [2]
 						0.631372549019608, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 24,
+					["relicRoll"] = false,
+				}, -- [9]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147144:5929:::::::110:253::5:3:3562:1517:3337:::|h[Schiftung des Wildpirschers]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -10782,8 +11011,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152004::::::::110:64::3:3:3610:1472:3528:::|h[Pauldrons of the Soulburner]|h|r",
 					["boss"] = "Felhounds of Sargeras",
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147144:5929:::::::110:253::5:3:3562:1517:3337:::|h[Schiftung des Wildpirschers]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [10]
 				{
 					["mapID"] = 1712,
@@ -10811,16 +11045,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [11]
 				{
-					["relicRoll"] = true,
 					["mapID"] = 1676,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.694117647058824, -- [2]
-						0.0274509803921569, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Upgrade",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147115::::::::110:253::6:3:3563:1517:3336:::|h[Entfaltende Neuerschaffung]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Upgrade",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -10830,20 +11059,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147115::::::::110:253::6:3:3563:1517:3336:::|h[Entfaltende Neuerschaffung]|h|r",
-				}, -- [12]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
 						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
+						0.694117647058824, -- [2]
+						0.0274509803921569, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Transmog",
+					["relicRoll"] = true,
+				}, -- [12]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147046::::::::110:253::6:4:3563:43:1522:3528:::|h[Treter des Sternenpirschers]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Transmog",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -10853,20 +11082,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147046::::::::110:253::6:4:3563:43:1522:3528:::|h[Treter des Sternenpirschers]|h|r",
-				}, -- [13]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
 						0.701960784313726, -- [1]
 						0, -- [2]
 						0.631372549019608, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Transmog",
+					["relicRoll"] = false,
+				}, -- [13]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147046::::::::110:253::6:4:3563:43:1522:3528:::|h[Treter des Sternenpirschers]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Transmog",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -10876,8 +11105,13 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147046::::::::110:253::6:4:3563:43:1522:3528:::|h[Treter des Sternenpirschers]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [14]
 				{
 					["mapID"] = 1712,
@@ -11051,18 +11285,37 @@ RCLootCouncilLootDB = {
 					["itemReplaced2"] = "|cffa335ee|Hitem:158318:5938:::::::120:64::23:3:4779:1517:4783:::|h[Murky Cerulean Signet]|h|r",
 					["votes"] = 0,
 				}, -- [21]
-			},
-			["Grogoll-Frostwolf"] = {
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147071::::::::110:71::6:3:3563:1517:3336:::|h[Shiversleet Waistguard]|h|r",
-					["mapID"] = 1676,
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "HUNTER",
+					["groupSize"] = 28,
+					["votes"] = 0,
+					["time"] = "20:43:14",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159293::::::::120:64::23:3:4779:1512:4786:::|h[Turncoat's Cape]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["id"] = "1536514994-8",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160643::::::::120:64::3:4:4798:42:1477:4786:::|h[Fetid Horror's Tanglecloak]|h|r",
+					["note"] = "19%",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "Fetid Devourer",
+				}, -- [22]
+			},
+			["Grogoll-Frostwolf"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147071::::::::110:71::6:3:3563:1517:3336:::|h[Shiversleet Waistguard]|h|r",
+					["mapID"] = 1676,
 					["date"] = "27/09/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -11073,7 +11326,12 @@ RCLootCouncilLootDB = {
 					["time"] = "20:26:56",
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [1]
 				{
 					["mapID"] = 1676,
@@ -11119,9 +11377,14 @@ RCLootCouncilLootDB = {
 				}, -- [3]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147191::::::::110:71::6:3:3563:1512:3528:::|h[Titanic Onslaught Greaves]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Mainspec/Need",
 					["date"] = "03/10/17",
+					["response"] = "Mainspec/Need",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -11131,23 +11394,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:147066::::::::110:63::6:3:3563:1522:3528:::|h[Greaves of Impure Midnight]|h|r",
 					["difficultyID"] = 16,
 					["responseID"] = 1,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["mapID"] = 1676,
 				}, -- [4]
 				{
 					["mapID"] = 1530,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["date"] = "03/10/17",
+					["instance"] = "The Nighthold-Mythic",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -11158,7 +11411,12 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:137575::::::::110:63::6::::|h[Fiendish Hellfire Core]|h|r",
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["instance"] = "The Nighthold-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [5]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:140806::::::::110:71::6:3:3518:1507:3336:::|h[Convergence of Fates]|h|r",
@@ -11185,14 +11443,14 @@ RCLootCouncilLootDB = {
 				}, -- [6]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147191::::::::110:71::6:3:3563:1512:3528:::|h[Titanic Onslaught Greaves]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["groupSize"] = 20,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["groupSize"] = 20,
+					["date"] = "05/10/17",
 					["class"] = "WARRIOR",
 					["boss"] = "Kil'jaeden",
 					["response"] = "Mainspec/Need",
@@ -11202,7 +11460,7 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:147066::::::::110:63::6:3:3563:1527:3336:::|h[Greaves of Impure Midnight]|h|r",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["date"] = "05/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["mapID"] = 1676,
 				}, -- [7]
 				{
@@ -11230,16 +11488,11 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [8]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147192:5883:151584::::::110:71::6:4:3563:1808:1522:3336:::|h[Titanic Onslaught Pauldrons]|h|r",
 					["date"] = "08/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["difficultyID"] = 16,
 					["response"] = "Offspec/Greed",
@@ -11249,20 +11502,20 @@ RCLootCouncilLootDB = {
 					["time"] = "20:08:03",
 					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147192:5883:151584::::::110:71::6:4:3563:1808:1522:3336:::|h[Titanic Onslaught Pauldrons]|h|r",
-				}, -- [9]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 20,
+					["relicRoll"] = false,
+				}, -- [9]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147188:5434:::::::110:71::6:3:3563:1512:3528:::|h[Titanic Onslaught Cloak]|h|r",
 					["date"] = "08/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["difficultyID"] = 16,
 					["response"] = "Offspec/Greed",
@@ -11272,8 +11525,13 @@ RCLootCouncilLootDB = {
 					["time"] = "20:08:11",
 					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147188:5434:::::::110:71::6:3:3563:1512:3528:::|h[Titanic Onslaught Cloak]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [10]
 				{
 					["mapID"] = 1676,
@@ -11301,16 +11559,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [11]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147192:5883:151584::::::110:71::6:4:3563:1808:1522:3336:::|h[Titanic Onslaught Pauldrons]|h|r",
 					["date"] = "08/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["difficultyID"] = 16,
 					["response"] = "Transmog",
@@ -11320,20 +11573,20 @@ RCLootCouncilLootDB = {
 					["time"] = "21:14:23",
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147192:5883:151584::::::110:71::6:4:3563:1808:1522:3336:::|h[Titanic Onslaught Pauldrons]|h|r",
-				}, -- [12]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 20,
+					["relicRoll"] = false,
+				}, -- [12]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147192:5883:151584::::::110:71::6:4:3563:1808:1522:3336:::|h[Titanic Onslaught Pauldrons]|h|r",
 					["date"] = "08/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["difficultyID"] = 16,
 					["response"] = "Transmog",
@@ -11343,19 +11596,19 @@ RCLootCouncilLootDB = {
 					["time"] = "21:14:36",
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147192:5883:151584::::::110:71::6:4:3563:1808:1522:3336:::|h[Titanic Onslaught Pauldrons]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [13]
 				{
 					["mapID"] = 1530,
-					["color"] = {
-						0, -- [1]
-						0.682352941176471, -- [2]
-						0.701960784313726, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Crucible",
 					["date"] = "23/11/17",
+					["response"] = "Crucible",
+					["instance"] = "The Nighthold-Mythic",
 					["class"] = "WARRIOR",
 					["difficultyID"] = 16,
 					["groupSize"] = 20,
@@ -11365,7 +11618,12 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["lootWon"] = "|cffa335ee|Hitem:140837::::::::110:64::6:3:3518:1517:3337:::|h[Exothermic Core]|h|r",
 					["responseID"] = 3,
-					["instance"] = "The Nighthold-Mythic",
+					["color"] = {
+						0, -- [1]
+						0.682352941176471, -- [2]
+						0.701960784313726, -- [3]
+						1, -- [4]
+					},
 					["relicRoll"] = true,
 				}, -- [14]
 				{
@@ -11421,13 +11679,8 @@ RCLootCouncilLootDB = {
 				{
 					["mapID"] = 1712,
 					["relicRoll"] = true,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.694117647058824, -- [2]
-						0.0274509803921569, -- [3]
-						1, -- [4]
-					},
 					["date"] = "29/11/17",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["response"] = "Upgrade",
@@ -11438,7 +11691,12 @@ RCLootCouncilLootDB = {
 					["boss"] = "Varimathras",
 					["responseID"] = 2,
 					["groupSize"] = 26,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.694117647058824, -- [2]
+						0.0274509803921569, -- [3]
+						1, -- [4]
+					},
 				}, -- [17]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147020:5429:::::::110:71::6:3:3563:1512:3528:::|h[Scaled Band of Servitude]|h|r",
@@ -11464,16 +11722,11 @@ RCLootCouncilLootDB = {
 					["instance"] = "Antorus, the Burning Throne-Heroic",
 				}, -- [18]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 24,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147071::::::::110:71::6:3:3563:1532:3337:::|h[Shiversleet Waistguard]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "WARRIOR",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -11483,8 +11736,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152021::::::::110:64::3:3:3610:1477:3336:::|h[Flamelicked Girdle]|h|r",
 					["boss"] = "Felhounds of Sargeras",
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147071::::::::110:71::6:3:3563:1532:3337:::|h[Shiversleet Waistguard]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [19]
 				{
 					["mapID"] = 1712,
@@ -11511,16 +11769,11 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [20]
 				{
-					["relicRoll"] = true,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						0.701960784313726, -- [2]
-						0.109803921568627, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 25,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147100::::::::110:71::6:3:3563:1522:3336:::|h[Calcified Barnacle]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "WARRIOR",
 					["isAwardReason"] = false,
 					["response"] = "Bis",
@@ -11530,20 +11783,20 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152293::::::::110:64::3:3:3610:1482:3336:::|h[Fasces of the Endless Legions]|h|r",
 					["boss"] = "Antoran High Command",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147100::::::::110:71::6:3:3563:1522:3336:::|h[Calcified Barnacle]|h|r",
-				}, -- [21]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
 						0, -- [1]
-						1, -- [2]
-						0, -- [3]
+						0.701960784313726, -- [2]
+						0.109803921568627, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 25,
+					["relicRoll"] = true,
+				}, -- [21]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134230::::::::110:71::16:3:3536:1587:3337:::|h[Coralplate Wristguard]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "WARRIOR",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -11553,19 +11806,19 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152023::::::::110:64::3:3:3610:1472:3528:::|h[Vambraces of Life's Assurance]|h|r",
 					["boss"] = "The Defense of Eonar",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:134230::::::::110:71::16:3:3536:1587:3337:::|h[Coralplate Wristguard]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [22]
 				{
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						0.682352941176471, -- [2]
-						0.701960784313726, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 25,
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "WARRIOR",
 					["difficultyID"] = 14,
 					["response"] = "Crucible",
@@ -11575,20 +11828,20 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["time"] = "22:15:42",
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Normal",
+					["color"] = {
+						0, -- [1]
+						0.682352941176471, -- [2]
+						0.701960784313726, -- [3]
+						1, -- [4]
+					},
 					["relicRoll"] = true,
 				}, -- [23]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 24,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147191::::::::110:71::6:3:3563:1512:3528:::|h[Titanic Onslaught Greaves]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "WARRIOR",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -11598,20 +11851,20 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152015::::::::110:64::3:3:3610:1477:3336:::|h[Greaves of Mercurial Alliegance]|h|r",
 					["boss"] = "Varimathras",
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147191::::::::110:71::6:3:3563:1512:3528:::|h[Titanic Onslaught Greaves]|h|r",
-				}, -- [24]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
 						0.701960784313726, -- [1]
 						0, -- [2]
 						0.631372549019608, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 24,
+					["relicRoll"] = false,
+				}, -- [24]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147059::::::::110:71::6:3:3563:1522:3336:::|h[Iron Ballast Sabatons]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "WARRIOR",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -11621,8 +11874,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152010::::::::110:64::3:3:3610:1477:3336:::|h[Burning Coven Sabatons]|h|r",
 					["boss"] = "The Coven of Shivarra",
 					["responseID"] = 3,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147059::::::::110:71::6:3:3563:1522:3336:::|h[Iron Ballast Sabatons]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [25]
 				{
 					["mapID"] = 1712,
@@ -11677,13 +11935,8 @@ RCLootCouncilLootDB = {
 				{
 					["mapID"] = 1676,
 					["relicRoll"] = true,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.0823529411764706, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["date"] = "03/12/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["response"] = "offspec",
@@ -11694,14 +11947,24 @@ RCLootCouncilLootDB = {
 					["boss"] = "Demonic Inquisition",
 					["responseID"] = 4,
 					["groupSize"] = 20,
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.0823529411764706, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [28]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152010::151583::::::110:72::5:4:3611:1808:1487:3528:::|h[Burning Coven Sabatons]|h|r",
-					["date"] = "07/12/17",
-					["groupSize"] = 20,
+					["relicRoll"] = false,
 					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["groupSize"] = 20,
+					["color"] = {
+						0.701960784313726, -- [1]
+						0, -- [2]
+						0.631372549019608, -- [3]
+						1, -- [4]
+					},
 					["class"] = "WARRIOR",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -11711,25 +11974,20 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152011::::::::110:64::6:3:3612:1502:3528:::|h[Eredar Warcouncil Sabatons]|h|r",
 					["boss"] = "Antoran High Command",
 					["responseID"] = 3,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0, -- [2]
-						0.631372549019608, -- [3]
-						1, -- [4]
-					},
-					["relicRoll"] = false,
+					["date"] = "07/12/17",
+					["mapID"] = 1712,
 				}, -- [29]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152181::::::::110:72::3:3:3610:1472:3528:::|h[Juggernaut Helm]|h|r",
 					["relicRoll"] = false,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
+					["mapID"] = 1712,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Mainspec/Need",
+					["date"] = "07/12/17",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -11739,20 +11997,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["date"] = "07/12/17",
-					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152181::::::::110:72::3:3:3610:1472:3528:::|h[Juggernaut Helm]|h|r",
 				}, -- [30]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152060::::::::110:72::5:3:3611:1492:3336:::|h[Neuroshock Electrode]|h|r",
 					["relicRoll"] = true,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Upgrade",
+					["mapID"] = 1712,
 					["color"] = {
 						0.701960784313726, -- [1]
 						0.694117647058824, -- [2]
 						0.0274509803921569, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Upgrade",
+					["date"] = "07/12/17",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -11762,20 +12020,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "07/12/17",
-					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152060::::::::110:72::5:3:3611:1492:3336:::|h[Neuroshock Electrode]|h|r",
 				}, -- [31]
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152060::::::::110:72::5:3:3611:1492:3336:::|h[Neuroshock Electrode]|h|r",
 					["relicRoll"] = true,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Upgrade",
+					["mapID"] = 1712,
 					["color"] = {
 						0.701960784313726, -- [1]
 						0.694117647058824, -- [2]
 						0.0274509803921569, -- [3]
 						1, -- [4]
 					},
+					["response"] = "Upgrade",
+					["date"] = "07/12/17",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -11785,20 +12043,15 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["date"] = "07/12/17",
-					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152060::::::::110:72::5:3:3611:1492:3336:::|h[Neuroshock Electrode]|h|r",
 				}, -- [32]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152183::::::::110:71::3:3:3610:1477:3336:::|h[Juggernaut Pauldrons]|h|r",
 					["date"] = "10/12/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
 					["class"] = "WARRIOR",
 					["difficultyID"] = 16,
 					["groupSize"] = 20,
@@ -11808,8 +12061,13 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["boss"] = "Imonar the Soulhunter",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152183::::::::110:71::3:3:3610:1477:3336:::|h[Juggernaut Pauldrons]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [33]
 				{
 					["mapID"] = 1712,
@@ -12567,9 +12825,14 @@ RCLootCouncilLootDB = {
 				}, -- [2]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:133805::::::::110:264::35:3:3536:1582:3337:::|h[Kette des Donnerrufers]|h|r",
-					["date"] = "27/09/17",
-					["groupSize"] = 20,
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["groupSize"] = 20,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "SHAMAN",
 					["boss"] = "Sisters of the Moon",
 					["response"] = "Mainspec/Need",
@@ -12579,12 +12842,7 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["votes"] = 0,
 					["responseID"] = 1,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
+					["date"] = "27/09/17",
 					["mapID"] = 1676,
 				}, -- [3]
 				{
@@ -12614,13 +12872,13 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147094::::::::110:264::6:3:3563:1512:3528:::|h[Virus der Lethargie]|h|r",
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0, -- [1]
 						0.7, -- [2]
 						0.7, -- [3]
 						1, -- [4]
 					},
+					["date"] = "27/09/17",
 					["class"] = "SHAMAN",
 					["isAwardReason"] = false,
 					["response"] = "Transmog",
@@ -12631,13 +12889,18 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:147094::::::::110:63::6:3:3563:1512:3528:::|h[Virus of Lethargy]|h|r",
 					["responseID"] = 3,
 					["groupSize"] = 20,
-					["date"] = "27/09/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [5]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147094::::::::110:264::6:3:3563:1512:3528:::|h[Virus der Lethargie]|h|r",
 					["mapID"] = 1676,
-					["date"] = "04/10/17",
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "SHAMAN",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -12648,12 +12911,7 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
+					["date"] = "04/10/17",
 				}, -- [6]
 				{
 					["date"] = "05/10/17",
@@ -12679,16 +12937,11 @@ RCLootCouncilLootDB = {
 					["itemReplaced1"] = "|cffa335ee|Hitem:147007::::::::110:264::5:3:3562:1517:3336:::|h[Des Betrügers großer Plan]|h|r",
 				}, -- [7]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147180:5888:::::::110:264::5:3:3562:1502:3336:::|h[Schulterstücke des Himmelsbrechers]|h|r",
 					["date"] = "08/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "SHAMAN",
 					["difficultyID"] = 16,
 					["response"] = "Offspec/Greed",
@@ -12698,8 +12951,13 @@ RCLootCouncilLootDB = {
 					["time"] = "21:03:23",
 					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147180:5888:::::::110:264::5:3:3562:1502:3336:::|h[Schulterstücke des Himmelsbrechers]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [8]
 				{
 					["mapID"] = 1676,
@@ -12727,16 +12985,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [9]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147046::151580::::::110:264::6:4:3563:1808:1522:3528:::|h[Treter des Sternenpirschers]|h|r",
 					["date"] = "23/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "SHAMAN",
 					["difficultyID"] = 16,
 					["response"] = "Transmog",
@@ -12746,8 +12999,13 @@ RCLootCouncilLootDB = {
 					["time"] = "20:04:09",
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147046::151580::::::110:264::6:4:3563:1808:1522:3528:::|h[Treter des Sternenpirschers]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [10]
 				{
 					["mapID"] = 1676,
@@ -12775,16 +13033,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [11]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147180:5888:::::::110:264::6:3:3563:1512:3528:::|h[Schulterstücke des Himmelsbrechers]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "SHAMAN",
 					["isAwardReason"] = false,
 					["groupSize"] = 16,
@@ -12794,8 +13047,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "Felhounds of Sargeras",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147180:5888:::::::110:264::6:3:3563:1512:3528:::|h[Schulterstücke des Himmelsbrechers]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [12]
 				{
 					["mapID"] = 1712,
@@ -13226,6 +13484,29 @@ RCLootCouncilLootDB = {
 					["itemReplaced2"] = "|cffa335ee|Hitem:152289::::::::110:64::6:3:3612:1502:3528:::|h[Highfather's Machination]|h|r",
 					["isAwardReason"] = false,
 				}, -- [30]
+				{
+					["instance"] = "Uldir-Normal",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159368::::::::120:64::23:3:4819:1512:4786:::|h[Spaulders of Prime Emperor]|h|r",
+					["id"] = "1536514477-3",
+					["groupSize"] = 29,
+					["date"] = "09/09/18",
+					["class"] = "SHAMAN",
+					["difficultyID"] = 14,
+					["response"] = "Candidate is selecting response, please wait",
+					["isAwardReason"] = false,
+					["boss"] = "MOTHER",
+					["time"] = "20:34:37",
+					["lootWon"] = "|cffa335ee|Hitem:160632::::::::120:64::3:3:4822:1477:4786:::|h[Flame-Sterilized Spaulders]|h|r",
+					["votes"] = 0,
+					["responseID"] = "WAIT",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["mapID"] = 1861,
+				}, -- [31]
 			},
 			["Elyraya-Frostwolf"] = {
 				{
@@ -13252,6 +13533,503 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 					["votes"] = 0,
 				}, -- [1]
+			},
+			["Roanar-Frostwolf"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:144463::::::::110:63::16:3:3418:1582:3337:::|h[Shard of Kaldorei Stained Glass]|h|r",
+					["date"] = "03/10/17",
+					["response"] = "Mainspec/Need",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["votes"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["boss"] = "Kil'jaeden",
+					["time"] = "22:09:09",
+					["lootWon"] = "|cffa335ee|Hitem:147079::::::::110:63::6:3:3563:1522:3528:::|h[Torn Fabric of Reality]|h|r",
+					["difficultyID"] = 16,
+					["responseID"] = 1,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["mapID"] = 1676,
+				}, -- [1]
+				{
+					["mapID"] = 1530,
+					["boss"] = "Gul'dan",
+					["instance"] = "The Nighthold-Mythic",
+					["class"] = "MAGE",
+					["votes"] = 0,
+					["response"] = "Mainspec/Need",
+					["difficultyID"] = 16,
+					["isAwardReason"] = false,
+					["time"] = "21:32:06",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["lootWon"] = "|cffa335ee|Hitem:137575::::::::110:63::6::::|h[Fiendish Hellfire Core]|h|r",
+					["responseID"] = 1,
+					["groupSize"] = 20,
+					["date"] = "05/10/17",
+				}, -- [2]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147017::::::::110:63::5:3:3562:1497:3528:::|h[Tarnished Sentinel Medallion]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 20,
+					["date"] = "11/10/17",
+					["class"] = "MAGE",
+					["isAwardReason"] = false,
+					["response"] = "Mainspec/Need",
+					["time"] = "20:39:10",
+					["boss"] = "Mistress Sassz'ine",
+					["lootWon"] = "|cffa335ee|Hitem:147016::::::::110:63::6:3:3563:1512:3528:::|h[Terror From Below]|h|r",
+					["difficultyID"] = 16,
+					["votes"] = 0,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:152781::151584::::::110:63::43:4:1808:3573:1512:3336:::|h[Unblemished Sigil of Argus]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+				}, -- [3]
+				{
+					["mapID"] = 1530,
+					["date"] = "26/10/17",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["boss"] = "Grand Magistrix Elisande",
+					["time"] = "22:55:00",
+					["itemReplaced1"] = "|cffa335ee|Hitem:146990::::::::110:63::6:4:3563:41:1522:3336:::|h[Hundred-Fathom Veil]|h|r",
+					["instance"] = "The Nighthold-Mythic",
+					["response"] = "Reroll",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:143568::::::::110:63::6:1:569:::|h[Helm of the Foreseen Vanquisher]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["tokenRoll"] = true,
+					["responseID"] = 2,
+					["tierToken"] = "HeadSlot",
+					["votes"] = 0,
+				}, -- [4]
+				{
+					["mapID"] = 1676,
+					["date"] = "08/11/17",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["boss"] = "Sisters of the Moon",
+					["time"] = "21:03:19",
+					["relicRoll"] = true,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Bis",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147089::::::::110:63::6:3:3563:1512:3528:::|h[Ferocity of the Devout]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147088::::::::110:63::5:3:3562:1517:3337:::|h[Smoldering Thumbscrews]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.701960784313726, -- [2]
+						0.109803921568627, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147091::::::::110:63::6:3:3563:1517:3336:::|h[Cleansing Ignition Catalyst]|h|r",
+					["votes"] = 0,
+				}, -- [5]
+				{
+					["mapID"] = 1676,
+					["date"] = "08/11/17",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["boss"] = "Maiden of Vigilance",
+					["time"] = "22:02:35",
+					["relicRoll"] = true,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147090::::::::110:63::6:3:3563:1527:3337:::|h[Stabilized Extinction Protocol]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147088::::::::110:63::5:3:3562:1517:3337:::|h[Smoldering Thumbscrews]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.694117647058824, -- [2]
+						0.0274509803921569, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147091::::::::110:63::6:3:3563:1517:3336:::|h[Cleansing Ignition Catalyst]|h|r",
+					["votes"] = 0,
+				}, -- [6]
+				{
+					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["date"] = "08/11/17",
+					["class"] = "MAGE",
+					["response"] = "Candidate is selecting response, please wait",
+					["groupSize"] = 20,
+					["lootWon"] = "|cffa335ee|Hitem:147090::::::::110:63::6:3:3563:1527:3337:::|h[Stabilized Extinction Protocol]|h|r",
+					["votes"] = 0,
+					["time"] = "22:04:20",
+					["isAwardReason"] = false,
+					["boss"] = "Maiden of Vigilance",
+					["responseID"] = "WAIT",
+					["difficultyID"] = 16,
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [7]
+				{
+					["mapID"] = 1676,
+					["date"] = "03/12/17",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["boss"] = "Sisters of the Moon",
+					["time"] = "19:45:47",
+					["relicRoll"] = true,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Crucible",
+					["votes"] = 0,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147089::::::::110:64::6:3:3563:1517:3336:::|h[Ferocity of the Devout]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147089::::::::110:63::6:3:3563:1532:3337:::|h[Ferocity of the Devout]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.682352941176471, -- [2]
+						0.701960784313726, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 3,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147090::::::::110:63::6:3:3563:1527:3337:::|h[Stabilized Extinction Protocol]|h|r",
+					["isAwardReason"] = false,
+				}, -- [8]
+				{
+					["mapID"] = 1712,
+					["date"] = "13/12/17",
+					["class"] = "MAGE",
+					["groupSize"] = 15,
+					["isAwardReason"] = false,
+					["time"] = "19:19:22",
+					["relicRoll"] = true,
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["response"] = "offspec",
+					["votes"] = 0,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:152025::::::::110:64::3:3:3610:1472:3528:::|h[Thu'rayan Lash]|h|r",
+					["boss"] = "Varimathras",
+					["itemReplaced1"] = "|cffa335ee|Hitem:142305::::::::110:64::35:3:3536:1572:3337:::|h[Suffused Manapearl]|h|r",
+					["responseID"] = 4,
+					["id"] = "1513185562-6",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.0823529411764706, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [9]
+				{
+					["mapID"] = 1712,
+					["date"] = "13/12/17",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "20:33:42",
+					["itemReplaced1"] = "|cffa335ee|Hitem:146990::::::::110:64::6:4:3563:41:1522:3336:::|h[Hundred-Fathom Veil]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Mainspec/Need",
+					["boss"] = "Garothi Worldbreaker",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:151943::::::::110:64::6:3:3612:1507:3336:::|h[Crown of Relentless Annihilation]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["note"] = "nur upgrade solang ich kein 4er hab",
+					["id"] = "1513190022-7",
+				}, -- [10]
+				{
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["groupSize"] = 20,
+					["id"] = "1513794499-35",
+					["class"] = "MAGE",
+					["votes"] = 0,
+					["response"] = "Candidate is selecting response, please wait",
+					["difficultyID"] = 16,
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151943::::::::110:64::6:3:3612:1507:3336:::|h[Crown of Relentless Annihilation]|h|r",
+					["time"] = "20:28:19",
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = "WAIT",
+					["date"] = "20/12/17",
+					["itemReplaced1"] = "|cffa335ee|Hitem:146991::::::::110:64::6:3:3563:1527:3337:::|h[Blackened Mask of Disgrace]|h|r",
+				}, -- [11]
+				{
+					["mapID"] = 1712,
+					["date"] = "20/12/17",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["boss"] = "Portal Keeper Hasabel",
+					["time"] = "21:34:01",
+					["relicRoll"] = true,
+					["id"] = "1513798441-48",
+					["isAwardReason"] = false,
+					["response"] = "Bis",
+					["color"] = {
+						0, -- [1]
+						0.701960784313726, -- [2]
+						0.109803921568627, -- [3]
+						1, -- [4]
+					},
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152035::::::::110:64::6:3:3612:1507:3336:::|h[Blazing Dreadsteed Horseshoe]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147089::::::::110:64::6:3:3563:1532:3337:::|h[Ferocity of the Devout]|h|r",
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:152036::::::::110:64::6:3:3612:1502:3528:::|h[Hellfire Ignition Switch]|h|r",
+					["votes"] = 0,
+				}, -- [12]
+				{
+					["mapID"] = 1712,
+					["date"] = "03/01/18",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["boss"] = "Portal Keeper Hasabel",
+					["time"] = "21:06:48",
+					["itemReplaced1"] = "|cffa335ee|Hitem:142173:5427:::::::110:64::35:3:3536:1577:3337:::|h[Ring of Collapsing Futures]|h|r",
+					["id"] = "1515006408-40",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152063::::::::110:64::6:3:3612:1502:3528:::|h[Seal of the Portalmaster]|h|r",
+					["note"] = "ca 5% upgrade für bracer/belt legos",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147195:5429:151584::::::110:64::5:4:3562:1808:1522:3337:::|h[Seal of the Second Duumvirate]|h|r",
+					["votes"] = 0,
+				}, -- [13]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:151947::::::::110:261::6:3:3612:1502:3528:::|h[Vestments of Enflamed Blight]|h|r",
+					["mapID"] = 1712,
+					["date"] = "10/01/18",
+					["response"] = "Upgrade",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "MAGE",
+					["boss"] = "Felhounds of Sargeras",
+					["groupSize"] = 20,
+					["time"] = "20:17:12",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:261::6:3:3612:1507:3336:::|h[Vestments of Enflamed Blight]|h|r",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["responseID"] = 1,
+					["id"] = "1515608232-6",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+				}, -- [14]
+				{
+					["mapID"] = 1712,
+					["date"] = "10/01/18",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "22:03:35",
+					["itemReplaced1"] = "|cffa335ee|Hitem:134433::::::::110:64::16:3:3536:1597:3336:::|h[Cord of the Sea-Caller]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Mainspec/Need",
+					["boss"] = "Varimathras",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:151942::::::::110:64::6:3:3612:1507:3336:::|h[Cord of Surging Hysteria]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["note"] = "15% für shard/bracer set",
+					["id"] = "1515614615-22",
+				}, -- [15]
+				{
+					["mapID"] = 1712,
+					["date"] = "10/01/18",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "22:20:53",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152141:5929:151580::::::110:64::5:4:3611:1808:1487:3528:::|h[Runebound Mantle]|h|r",
+					["id"] = "1515615653-26",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0.843137254901961, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Upgrade",
+					["boss"] = "The Coven of Shivarra",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152530::::::::110:64::6:1:569:::|h[Shoulders of the Antoran Vanquisher]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["tierToken"] = "ShoulderSlot",
+					["tokenRoll"] = true,
+				}, -- [16]
+				{
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:134497:5439:151583::::::110:64::35:4:3536:1808:1612:3337:::|h[Stormcharged Choker]|h|r",
+					["id"] = "1520535471-3",
+					["groupSize"] = 20,
+					["date"] = "08/03/18",
+					["class"] = "MAGE",
+					["difficultyID"] = 16,
+					["response"] = "Mainspec/Need",
+					["isAwardReason"] = false,
+					["boss"] = "Argus the Unmaker",
+					["time"] = "20:57:51",
+					["lootWon"] = "|cffa335ee|Hitem:152283::::::::110:64::6:3:3612:1502:3528:::|h[Chain of the Unmaker]|h|r",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["mapID"] = 1712,
+				}, -- [17]
+				{
+					["mapID"] = 1712,
+					["date"] = "18/03/18",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "22:59:26",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151947::::::::110:64::6:3:3612:1507:3336:::|h[Vestments of Enflamed Blight]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Mainspec/Need",
+					["boss"] = "Argus the Unmaker",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152679::::::::110:64::6:3:3612:1517:3337:::|h[Gambeson of Sargeras' Corruption]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["note"] = "holy shit^^",
+					["id"] = "1521406766-12",
+				}, -- [18]
+				{
+					["mapID"] = 1712,
+					["date"] = "21/03/18",
+					["class"] = "MAGE",
+					["groupSize"] = 20,
+					["boss"] = "Argus the Unmaker",
+					["time"] = "22:21:31",
+					["relicRoll"] = true,
+					["id"] = "1521663691-10",
+					["isAwardReason"] = false,
+					["response"] = "Crucible",
+					["color"] = {
+						0, -- [1]
+						0.682352941176471, -- [2]
+						0.701960784313726, -- [3]
+						1, -- [4]
+					},
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:155849::::::::110:64::6:3:3612:1512:3528:::|h[Flickering Ember of Rage]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152035::::::::110:64::6:3:3612:1507:3336:::|h[Blazing Dreadsteed Horseshoe]|h|r",
+					["responseID"] = 3,
+					["itemReplaced2"] = "|cffa335ee|Hitem:155849::::::::110:64::6:3:3612:1512:3528:::|h[Flickering Ember of Rage]|h|r",
+					["votes"] = 0,
+				}, -- [19]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:151939::151580::::::110:64::5:4:3611:1808:1492:3336:::|h[Whisperstep Runners]|h|r",
+					["mapID"] = 1712,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Mainspec/Need",
+					["id"] = "1522264301-12",
+					["class"] = "MAGE",
+					["difficultyID"] = 16,
+					["groupSize"] = 20,
+					["time"] = "22:11:41",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151939::::::::110:64::6:3:3612:1512:3336:::|h[Whisperstep Runners]|h|r",
+					["votes"] = 0,
+					["boss"] = "Imonar the Soulhunter",
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["date"] = "28/03/18",
+				}, -- [20]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "MAGE",
+					["groupSize"] = 23,
+					["boss"] = "G'huun",
+					["time"] = "21:36:43",
+					["itemReplaced1"] = "|cffa335ee|Hitem:163958:5949:::::::120:64::54:2:1472:4786:::|h[Freezie's Bubble Popper]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Minor Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160690::::::::120:64::3:3:4798:1477:4786:::|h[Heptavium, Staff of Torturous Knowledge]|h|r",
+					["id"] = "1536518203-24",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0.86, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:159669::154126::::::120:64::16:4:5007:4802:1532:4783:::|h[Solena's Watchful Collection]|h|r",
+					["votes"] = 0,
+				}, -- [21]
 			},
 			["Jayde-Frostwolf"] = {
 				{
@@ -13516,16 +14294,11 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [11]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
+					["itemReplaced1"] = "|cffa335ee|Hitem:146998::::::::110:256::6:3:3563:1512:3528:::|h[Braided Torture Lash]|h|r",
 					["date"] = "08/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "PRIEST",
 					["difficultyID"] = 16,
 					["response"] = "Mainspec/Need",
@@ -13535,8 +14308,13 @@ RCLootCouncilLootDB = {
 					["time"] = "20:16:11",
 					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146998::::::::110:256::6:3:3563:1512:3528:::|h[Braided Torture Lash]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [12]
 				{
 					["mapID"] = 1676,
@@ -13688,11 +14466,16 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [18]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:147166::::::::110:256::6:3:3563:1512:3528:::|h[Leggings of Blind Absolution]|h|r",
-					["date"] = "07/12/17",
-					["groupSize"] = 20,
+					["relicRoll"] = false,
 					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["groupSize"] = 20,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "PRIEST",
 					["isAwardReason"] = false,
 					["response"] = "Offspec/Greed",
@@ -13702,13 +14485,8 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152424::::::::110:64::6:3:3612:1502:3528:::|h[Legwraps of the Seasoned Exterminator]|h|r",
 					["boss"] = "Antoran High Command",
 					["responseID"] = 2,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["relicRoll"] = false,
+					["date"] = "07/12/17",
+					["mapID"] = 1712,
 				}, -- [19]
 				{
 					["mapID"] = 1712,
@@ -14075,16 +14853,11 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [7]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Offspec/Greed",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147425::::::::110:577::6:3:3563:1517:3336:::|h[Cord of Pilfered Rosaries]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Offspec/Greed",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "DEMONHUNTER",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -14094,8 +14867,13 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147425::::::::110:577::6:3:3563:1517:3336:::|h[Cord of Pilfered Rosaries]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [8]
 				{
 					["mapID"] = 1676,
@@ -14321,19 +15099,86 @@ RCLootCouncilLootDB = {
 					["tierToken"] = "BackSlot",
 					["tokenRoll"] = true,
 				}, -- [17]
-			},
-			["Gárdor-Frostwolf"] = {
 				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "DEMONHUNTER",
+					["groupSize"] = 29,
+					["votes"] = 0,
+					["time"] = "20:25:38",
+					["itemReplaced1"] = "|cffa335ee|Hitem:161353:5934:::::::120:64::3:3:4798:1477:4786:::|h[Shadow-Wreathed Gloves]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Minor Upgrade",
+					["id"] = "1536513938-0",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160618::::::::120:64::3:3:4798:1477:4786:::|h[Gloves of Descending Madness]|h|r",
+					["note"] = "3%",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0.86, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["isAwardReason"] = false,
+					["boss"] = "MOTHER",
+				}, -- [18]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "DEMONHUNTER",
+					["groupSize"] = 28,
+					["votes"] = 0,
+					["time"] = "20:42:20",
+					["itemReplaced1"] = "|cffa335ee|Hitem:155860::::::::120:64::23:3:4819:1512:4786:::|h[Spymaster's Wrap]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["id"] = "1536514940-5",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160619::::::::120:64::3:3:4822:1477:4786:::|h[Jerkin of the Aberrant Chimera]|h|r",
+					["note"] = "15%",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Mainspec/Need",
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "Fetid Devourer",
+				}, -- [19]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "DEMONHUNTER",
+					["groupSize"] = 26,
+					["votes"] = 0,
+					["time"] = "21:36:26",
+					["itemReplaced1"] = "|cffa335ee|Hitem:155860::::::::120:64::23:3:4819:1512:4786:::|h[Spymaster's Wrap]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["id"] = "1536518186-22",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160728::::::::120:64::3:3:4822:1477:4786:::|h[Tunic of the Sanguine Deity]|h|r",
+					["note"] = "15%",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "G'huun",
+				}, -- [20]
+			},
+			["Gárdor-Frostwolf"] = {
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134518:5929:::::::110:73::35:3:3418:1587:3337:::|h[Frozen Pendulum Shoulderguards]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -14343,19 +15188,19 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:134518:5929:::::::110:73::35:3:3418:1587:3337:::|h[Frozen Pendulum Shoulderguards]|h|r",
-				}, -- [1]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:146984:5434:::::::110:73::5:4:3562:41:1507:3336:::|h[Cloak of Stifling Brimstone]|h|r",
-					["mapID"] = 1676,
 					["color"] = {
-						1, -- [1]
+						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["relicRoll"] = false,
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:146984:5434:::::::110:73::5:4:3562:41:1507:3336:::|h[Cloak of Stifling Brimstone]|h|r",
+					["mapID"] = 1676,
 					["date"] = "03/12/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["response"] = "Candidate is selecting response, please wait",
@@ -14366,19 +15211,19 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["responseID"] = "WAIT",
 					["groupSize"] = 20,
-					["instance"] = "Tomb of Sargeras-Mythic",
-				}, -- [2]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1676,
 					["color"] = {
-						0, -- [1]
+						1, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Mainspec/Need",
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:134518:5929:::::::110:73::35:3:3418:1587:3337:::|h[Frozen Pendulum Shoulderguards]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -14388,20 +15233,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:134518:5929:::::::110:73::35:3:3418:1587:3337:::|h[Frozen Pendulum Shoulderguards]|h|r",
-				}, -- [3]
-				{
-					["relicRoll"] = true,
-					["mapID"] = 1676,
 					["color"] = {
 						0, -- [1]
-						0.682352941176471, -- [2]
-						0.701960784313726, -- [3]
+						1, -- [2]
+						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Crucible",
+					["relicRoll"] = false,
+				}, -- [3]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:137350::::::::110:73::35:3:3536:1582:3337:::|h[Monstrous Gluttony]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Crucible",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -14411,8 +15256,13 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137350::::::::110:73::35:3:3536:1582:3337:::|h[Monstrous Gluttony]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.682352941176471, -- [2]
+						0.701960784313726, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = true,
 				}, -- [4]
 				{
 					["mapID"] = 1676,
@@ -14442,13 +15292,8 @@ RCLootCouncilLootDB = {
 				{
 					["mapID"] = 1676,
 					["relicRoll"] = true,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.0823529411764706, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["date"] = "03/12/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "WARRIOR",
 					["votes"] = 0,
 					["response"] = "offspec",
@@ -14459,935 +15304,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "Mistress Sassz'ine",
 					["responseID"] = 4,
 					["groupSize"] = 20,
-					["instance"] = "Tomb of Sargeras-Mythic",
-				}, -- [6]
-			},
-			["Lardeck-Frostwolf"] = {
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147009::::::::110:103::6:3:3563:1522:3336:::|h[Infernal Cinders]|h|r",
-					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
-					["date"] = "04/10/17",
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["time"] = "20:39:28",
-					["boss"] = "Mistress Sassz'ine",
-					["lootWon"] = "|cffa335ee|Hitem:147011::::::::110:63::6:3:3563:1512:3528:::|h[Vial of Ceaseless Toxins]|h|r",
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:147015::::::::110:103::5:3:3562:1497:3528:::|h[Engine of Eradication]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-				}, -- [1]
-				{
-					["mapID"] = 1676,
-					["date"] = "04/10/17",
-					["class"] = "DRUID",
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:40:02",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147137::::::::110:103::5:3:3562:1497:3528:::|h[Stormheart Legguards]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Upgrade",
-					["tierToken"] = "LegsSlot",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147325::::::::110:63::6:1:569:::|h[Leggings of the Foregone Vanquisher]|h|r",
-					["color"] = {
-						0.1, -- [1]
-						1, -- [2]
-						0.5, -- [3]
-						1, -- [4]
-					},
-					["boss"] = "Mistress Sassz'ine",
-					["responseID"] = 1,
-					["tokenRoll"] = true,
-					["votes"] = 0,
-				}, -- [2]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:152364::::::::110:103::3:3:3614:1472:3528:::|h[Cinch of Detestable Guile]|h|r",
-					["mapID"] = 1676,
-					["date"] = "04/10/17",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["boss"] = "The Desolate Host",
-					["time"] = "21:20:21",
-					["lootWon"] = "|cffa335ee|Hitem:147040::::::::110:63::6:3:3563:1517:3336:::|h[Etched Bone Waistband]|h|r",
-					["difficultyID"] = 16,
-					["responseID"] = 1,
-					["response"] = "Mainspec/Need",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [3]
-				{
-					["mapID"] = 1530,
-					["difficultyID"] = 16,
-					["instance"] = "The Nighthold-Mythic",
-					["class"] = "DRUID",
-					["boss"] = "Grand Magistrix Elisande",
-					["response"] = "Offspec/Greed",
-					["votes"] = 0,
-					["isAwardReason"] = false,
-					["time"] = "21:21:31",
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["lootWon"] = "|cffa335ee|Hitem:140837::::::::110:63::6:3:3518:1502:3528:::|h[Exothermic Core]|h|r",
-					["responseID"] = 2,
-					["groupSize"] = 20,
-					["date"] = "05/10/17",
-				}, -- [4]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147194:5430:151585::::::110:103::5:4:3562:1808:1502:3336:::|h[Band of Rescinded Truths]|h|r",
-					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
-					["date"] = "11/10/17",
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["time"] = "20:52:12",
-					["boss"] = "Sisters of the Moon",
-					["lootWon"] = "|cffa335ee|Hitem:147021::::::::110:63::6:3:3563:1517:3336:::|h[Yathae's Thumb Ring]|h|r",
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffff8000|Hitem:137040:5430:130247::::::110:103:::2:3459:3570:::|h[Chatoyant Signet]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-				}, -- [5]
-				{
-					["mapID"] = 1676,
-					["date"] = "11/10/17",
-					["class"] = "DRUID",
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "21:09:58",
-					["itemReplaced1"] = "|cffa335ee|Hitem:142215:5435:::::::110:103::35:3:3418:1567:3337:::|h[Wine-Stained Mantle]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Upgrade",
-					["tierToken"] = "BackSlot",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147331::::::::110:63::6:1:569:::|h[Cloak of the Foregone Vanquisher]|h|r",
-					["color"] = {
-						0.1, -- [1]
-						1, -- [2]
-						0.5, -- [3]
-						1, -- [4]
-					},
-					["boss"] = "The Desolate Host",
-					["responseID"] = 1,
-					["tokenRoll"] = true,
-					["votes"] = 0,
-				}, -- [6]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147030::::::::110:103::5:3:3562:1502:3336:::|h[Felscape Pathfinders]|h|r",
-					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["color"] = {
-						1, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DRUID",
-					["boss"] = "Fallen Avatar",
-					["response"] = "Candidate didn't respond on time",
-					["votes"] = 0,
-					["isAwardReason"] = false,
-					["time"] = "22:19:36",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147030::::::::110:63::6:3:3563:1517:3336:::|h[Felscape Pathfinders]|h|r",
-					["responseID"] = "TIMEOUT",
-					["groupSize"] = 20,
-					["date"] = "25/10/17",
-				}, -- [7]
-			},
-			["Roanar-Frostwolf"] = {
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:144463::::::::110:63::16:3:3418:1582:3337:::|h[Shard of Kaldorei Stained Glass]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Mainspec/Need",
-					["date"] = "03/10/17",
-					["class"] = "MAGE",
-					["votes"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["boss"] = "Kil'jaeden",
-					["time"] = "22:09:09",
-					["lootWon"] = "|cffa335ee|Hitem:147079::::::::110:63::6:3:3563:1522:3528:::|h[Torn Fabric of Reality]|h|r",
-					["difficultyID"] = 16,
-					["responseID"] = 1,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1676,
-				}, -- [1]
-				{
-					["mapID"] = 1530,
-					["difficultyID"] = 16,
-					["instance"] = "The Nighthold-Mythic",
-					["class"] = "MAGE",
-					["boss"] = "Gul'dan",
-					["response"] = "Mainspec/Need",
-					["votes"] = 0,
-					["isAwardReason"] = false,
-					["time"] = "21:32:06",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["lootWon"] = "|cffa335ee|Hitem:137575::::::::110:63::6::::|h[Fiendish Hellfire Core]|h|r",
-					["responseID"] = 1,
-					["groupSize"] = 20,
-					["date"] = "05/10/17",
-				}, -- [2]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147017::::::::110:63::5:3:3562:1497:3528:::|h[Tarnished Sentinel Medallion]|h|r",
-					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
-					["date"] = "11/10/17",
-					["class"] = "MAGE",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["time"] = "20:39:10",
-					["boss"] = "Mistress Sassz'ine",
-					["lootWon"] = "|cffa335ee|Hitem:147016::::::::110:63::6:3:3563:1512:3528:::|h[Terror From Below]|h|r",
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:152781::151584::::::110:63::43:4:1808:3573:1512:3336:::|h[Unblemished Sigil of Argus]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-				}, -- [3]
-				{
-					["mapID"] = 1530,
-					["date"] = "26/10/17",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["boss"] = "Grand Magistrix Elisande",
-					["time"] = "22:55:00",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146990::::::::110:63::6:4:3563:41:1522:3336:::|h[Hundred-Fathom Veil]|h|r",
-					["instance"] = "The Nighthold-Mythic",
-					["response"] = "Reroll",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:143568::::::::110:63::6:1:569:::|h[Helm of the Foreseen Vanquisher]|h|r",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						0.5, -- [3]
-						1, -- [4]
-					},
-					["tokenRoll"] = true,
-					["responseID"] = 2,
-					["tierToken"] = "HeadSlot",
-					["votes"] = 0,
-				}, -- [4]
-				{
-					["mapID"] = 1676,
-					["date"] = "08/11/17",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["boss"] = "Sisters of the Moon",
-					["time"] = "21:03:19",
-					["relicRoll"] = true,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Bis",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147089::::::::110:63::6:3:3563:1512:3528:::|h[Ferocity of the Devout]|h|r",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147088::::::::110:63::5:3:3562:1517:3337:::|h[Smoldering Thumbscrews]|h|r",
-					["color"] = {
-						0, -- [1]
-						0.701960784313726, -- [2]
-						0.109803921568627, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:147091::::::::110:63::6:3:3563:1517:3336:::|h[Cleansing Ignition Catalyst]|h|r",
-					["votes"] = 0,
-				}, -- [5]
-				{
-					["mapID"] = 1676,
-					["date"] = "08/11/17",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["boss"] = "Maiden of Vigilance",
-					["time"] = "22:02:35",
-					["relicRoll"] = true,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Upgrade",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147090::::::::110:63::6:3:3563:1527:3337:::|h[Stabilized Extinction Protocol]|h|r",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147088::::::::110:63::5:3:3562:1517:3337:::|h[Smoldering Thumbscrews]|h|r",
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.694117647058824, -- [2]
-						0.0274509803921569, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 2,
-					["itemReplaced2"] = "|cffa335ee|Hitem:147091::::::::110:63::6:3:3563:1517:3336:::|h[Cleansing Ignition Catalyst]|h|r",
-					["votes"] = 0,
-				}, -- [6]
-				{
-					["mapID"] = 1676,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "MAGE",
-					["response"] = "Candidate is selecting response, please wait",
-					["groupSize"] = 20,
-					["lootWon"] = "|cffa335ee|Hitem:147090::::::::110:63::6:3:3563:1527:3337:::|h[Stabilized Extinction Protocol]|h|r",
-					["votes"] = 0,
-					["time"] = "22:04:20",
-					["isAwardReason"] = false,
-					["boss"] = "Maiden of Vigilance",
-					["responseID"] = "WAIT",
-					["difficultyID"] = 16,
-					["date"] = "08/11/17",
-				}, -- [7]
-				{
-					["mapID"] = 1676,
-					["date"] = "03/12/17",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["boss"] = "Sisters of the Moon",
-					["time"] = "19:45:47",
-					["relicRoll"] = true,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Crucible",
-					["votes"] = 0,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147089::::::::110:64::6:3:3563:1517:3336:::|h[Ferocity of the Devout]|h|r",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147089::::::::110:63::6:3:3563:1532:3337:::|h[Ferocity of the Devout]|h|r",
-					["color"] = {
-						0, -- [1]
-						0.682352941176471, -- [2]
-						0.701960784313726, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 3,
-					["itemReplaced2"] = "|cffa335ee|Hitem:147090::::::::110:63::6:3:3563:1527:3337:::|h[Stabilized Extinction Protocol]|h|r",
-					["isAwardReason"] = false,
-				}, -- [8]
-				{
-					["mapID"] = 1712,
-					["date"] = "13/12/17",
-					["class"] = "MAGE",
-					["groupSize"] = 15,
-					["isAwardReason"] = false,
-					["time"] = "19:19:22",
-					["relicRoll"] = true,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["response"] = "offspec",
-					["votes"] = 0,
-					["difficultyID"] = 14,
-					["lootWon"] = "|cffa335ee|Hitem:152025::::::::110:64::3:3:3610:1472:3528:::|h[Thu'rayan Lash]|h|r",
-					["boss"] = "Varimathras",
-					["itemReplaced1"] = "|cffa335ee|Hitem:142305::::::::110:64::35:3:3536:1572:3337:::|h[Suffused Manapearl]|h|r",
-					["responseID"] = 4,
-					["id"] = "1513185562-6",
 					["color"] = {
 						0.701960784313726, -- [1]
 						0.0823529411764706, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-				}, -- [9]
-				{
-					["mapID"] = 1712,
-					["date"] = "13/12/17",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "20:33:42",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146990::::::::110:64::6:4:3563:41:1522:3336:::|h[Hundred-Fathom Veil]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
-					["boss"] = "Garothi Worldbreaker",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151943::::::::110:64::6:3:3612:1507:3336:::|h[Crown of Relentless Annihilation]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["note"] = "nur upgrade solang ich kein 4er hab",
-					["id"] = "1513190022-7",
-				}, -- [10]
-				{
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["groupSize"] = 20,
-					["id"] = "1513794499-35",
-					["class"] = "MAGE",
-					["votes"] = 0,
-					["response"] = "Candidate is selecting response, please wait",
-					["difficultyID"] = 16,
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151943::::::::110:64::6:3:3612:1507:3336:::|h[Crown of Relentless Annihilation]|h|r",
-					["time"] = "20:28:19",
-					["boss"] = "Garothi Worldbreaker",
-					["responseID"] = "WAIT",
-					["date"] = "20/12/17",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146991::::::::110:64::6:3:3563:1527:3337:::|h[Blackened Mask of Disgrace]|h|r",
-				}, -- [11]
-				{
-					["mapID"] = 1712,
-					["date"] = "20/12/17",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "21:34:01",
-					["relicRoll"] = true,
-					["id"] = "1513798441-48",
-					["isAwardReason"] = false,
-					["response"] = "Bis",
-					["color"] = {
-						0, -- [1]
-						0.701960784313726, -- [2]
-						0.109803921568627, -- [3]
-						1, -- [4]
-					},
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152035::::::::110:64::6:3:3612:1507:3336:::|h[Blazing Dreadsteed Horseshoe]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147089::::::::110:64::6:3:3563:1532:3337:::|h[Ferocity of the Devout]|h|r",
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:152036::::::::110:64::6:3:3612:1502:3528:::|h[Hellfire Ignition Switch]|h|r",
-					["votes"] = 0,
-				}, -- [12]
-				{
-					["mapID"] = 1712,
-					["date"] = "03/01/18",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "21:06:48",
-					["itemReplaced1"] = "|cffa335ee|Hitem:142173:5427:::::::110:64::35:3:3536:1577:3337:::|h[Ring of Collapsing Futures]|h|r",
-					["id"] = "1515006408-40",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152063::::::::110:64::6:3:3612:1502:3528:::|h[Seal of the Portalmaster]|h|r",
-					["note"] = "ca 5% upgrade für bracer/belt legos",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:147195:5429:151584::::::110:64::5:4:3562:1808:1522:3337:::|h[Seal of the Second Duumvirate]|h|r",
-					["votes"] = 0,
-				}, -- [13]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:151947::::::::110:261::6:3:3612:1502:3528:::|h[Vestments of Enflamed Blight]|h|r",
-					["mapID"] = 1712,
-					["date"] = "10/01/18",
-					["response"] = "Upgrade",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "MAGE",
-					["boss"] = "Felhounds of Sargeras",
-					["groupSize"] = 20,
-					["time"] = "20:17:12",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:261::6:3:3612:1507:3336:::|h[Vestments of Enflamed Blight]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["responseID"] = 1,
-					["id"] = "1515608232-6",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-				}, -- [14]
-				{
-					["mapID"] = 1712,
-					["date"] = "10/01/18",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "22:03:35",
-					["itemReplaced1"] = "|cffa335ee|Hitem:134433::::::::110:64::16:3:3536:1597:3336:::|h[Cord of the Sea-Caller]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
-					["boss"] = "Varimathras",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151942::::::::110:64::6:3:3612:1507:3336:::|h[Cord of Surging Hysteria]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["note"] = "15% für shard/bracer set",
-					["id"] = "1515614615-22",
-				}, -- [15]
-				{
-					["mapID"] = 1712,
-					["date"] = "10/01/18",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "22:20:53",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152141:5929:151580::::::110:64::5:4:3611:1808:1487:3528:::|h[Runebound Mantle]|h|r",
-					["id"] = "1515615653-26",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0.843137254901961, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Upgrade",
-					["boss"] = "The Coven of Shivarra",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152530::::::::110:64::6:1:569:::|h[Shoulders of the Antoran Vanquisher]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["tierToken"] = "ShoulderSlot",
-					["tokenRoll"] = true,
-				}, -- [16]
-				{
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:134497:5439:151583::::::110:64::35:4:3536:1808:1612:3337:::|h[Stormcharged Choker]|h|r",
-					["id"] = "1520535471-3",
-					["groupSize"] = 20,
-					["date"] = "08/03/18",
-					["class"] = "MAGE",
-					["difficultyID"] = 16,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "Argus the Unmaker",
-					["time"] = "20:57:51",
-					["lootWon"] = "|cffa335ee|Hitem:152283::::::::110:64::6:3:3612:1502:3528:::|h[Chain of the Unmaker]|h|r",
-					["votes"] = 0,
-					["responseID"] = 1,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-				}, -- [17]
-				{
-					["mapID"] = 1712,
-					["date"] = "18/03/18",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "22:59:26",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151947::::::::110:64::6:3:3612:1507:3336:::|h[Vestments of Enflamed Blight]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
-					["boss"] = "Argus the Unmaker",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152679::::::::110:64::6:3:3612:1517:3337:::|h[Gambeson of Sargeras' Corruption]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["note"] = "holy shit^^",
-					["id"] = "1521406766-12",
-				}, -- [18]
-				{
-					["mapID"] = 1712,
-					["date"] = "21/03/18",
-					["class"] = "MAGE",
-					["groupSize"] = 20,
-					["boss"] = "Argus the Unmaker",
-					["time"] = "22:21:31",
-					["relicRoll"] = true,
-					["id"] = "1521663691-10",
-					["isAwardReason"] = false,
-					["response"] = "Crucible",
-					["color"] = {
-						0, -- [1]
-						0.682352941176471, -- [2]
-						0.701960784313726, -- [3]
-						1, -- [4]
-					},
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:155849::::::::110:64::6:3:3612:1512:3528:::|h[Flickering Ember of Rage]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152035::::::::110:64::6:3:3612:1507:3336:::|h[Blazing Dreadsteed Horseshoe]|h|r",
-					["responseID"] = 3,
-					["itemReplaced2"] = "|cffa335ee|Hitem:155849::::::::110:64::6:3:3612:1512:3528:::|h[Flickering Ember of Rage]|h|r",
-					["votes"] = 0,
-				}, -- [19]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:151939::151580::::::110:64::5:4:3611:1808:1492:3336:::|h[Whisperstep Runners]|h|r",
-					["mapID"] = 1712,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
-					["id"] = "1522264301-12",
-					["class"] = "MAGE",
-					["difficultyID"] = 16,
-					["groupSize"] = 20,
-					["time"] = "22:11:41",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:151939::::::::110:64::6:3:3612:1512:3336:::|h[Whisperstep Runners]|h|r",
-					["votes"] = 0,
-					["boss"] = "Imonar the Soulhunter",
-					["responseID"] = 1,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["date"] = "28/03/18",
-				}, -- [20]
-			},
-			["Dewi-Frostwolf"] = {
-				{
-					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["date"] = "04/10/17",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "DRUID",
-					["boss"] = "Fallen Avatar",
-					["groupSize"] = 20,
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["time"] = "22:28:27",
-					["isAwardReason"] = false,
-					["lootWon"] = "|cffa335ee|Hitem:147107::::::::110:63::6:3:3563:1532:3337:::|h[Valorous Spark of Hope]|h|r",
-					["responseID"] = 1,
-					["response"] = "Mainspec/Need",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147105::::::::110:102::6:3:3563:1512:3528:::|h[Mondkralles Feder]|h|r",
-				}, -- [1]
-				{
-					["mapID"] = 1676,
-					["date"] = "08/11/17",
-					["class"] = "DRUID",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "20:15:34",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147136::::::::110:102::5:3:3562:1502:3336:::|h[Kopfputz des Sturmherzens]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["tokenRoll"] = true,
-					["response"] = "Upgrade",
-					["tierToken"] = "HeadSlot",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147322::::::::110:63::6:1:569:::|h[Helm of the Foregone Vanquisher]|h|r",
-					["relicRoll"] = false,
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["boss"] = "Demonic Inquisition",
-					["color"] = {
-						0.1, -- [1]
-						1, -- [2]
-						0.5, -- [3]
-						1, -- [4]
-					},
-				}, -- [2]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 15,
-					["date"] = "30/11/17",
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["difficultyID"] = 15,
-					["votes"] = 0,
-					["time"] = "21:27:53",
-					["lootWon"] = "|cffa335ee|Hitem:151986::::::::110:64::5:3:3611:1487:3528:::|h[Death-Enveloping Cincture]|h|r",
-					["boss"] = "Argus the Unmaker",
-					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147040::::::::110:102::6:3:3563:1512:3528:::|h[Geätzter Knochengürtelbund]|h|r",
-				}, -- [3]
-				{
-					["mapID"] = 1712,
-					["date"] = "20/12/17",
-					["class"] = "DRUID",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "22:56:43",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147134:5436:::::::110:64::6:3:3563:1517:3336:::|h[Stormheart Drape]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
-					["id"] = "1513803403-57",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151938::::::::110:64::6:3:3612:1502:3528:::|h[Drape of the Spirited Hunt]|h|r",
-					["note"] = "offset ae unter umstzänden",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["isAwardReason"] = false,
-					["boss"] = "Imonar the Soulhunter",
-				}, -- [4]
-				{
-					["mapID"] = 1712,
-					["date"] = "03/01/18",
-					["class"] = "DRUID",
-					["groupSize"] = 21,
-					["votes"] = 0,
-					["time"] = "18:08:09",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147137::::::::110:64::6:3:3563:1517:3336:::|h[Stormheart Legguards]|h|r",
-					["id"] = "1514995689-11",
-					["tokenRoll"] = true,
-					["response"] = "Reroll",
-					["tierToken"] = "LegsSlot",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152527::::::::110:64::5:1:570:::|h[Leggings of the Antoran Vanquisher]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["isAwardReason"] = false,
-					["responseID"] = 3,
-					["boss"] = "Imonar the Soulhunter",
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [5]
-				{
-					["mapID"] = 1712,
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.694117647058824, -- [2]
-						0.0274509803921569, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DRUID",
-					["groupSize"] = 12,
-					["boss"] = "Argus the Unmaker",
-					["time"] = "19:04:41",
-					["relicRoll"] = true,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Upgrade",
-					["id"] = "1514999081-29",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:155846::::::::110:64::5:3:3611:1507:3336:::|h[Miniaturized Cosmic Beacon]|h|r",
-					["note"] = "bestes +10 ilvl",
-					["date"] = "03/01/18",
-					["responseID"] = 2,
-					["votes"] = 0,
-					["isAwardReason"] = false,
 				}, -- [6]
-				{
-					["mapID"] = 1712,
-					["date"] = "03/01/18",
-					["class"] = "DRUID",
-					["groupSize"] = 20,
-					["boss"] = "Imonar the Soulhunter",
-					["time"] = "21:37:47",
-					["relicRoll"] = true,
-					["id"] = "1515008267-49",
-					["note"] = "9 ilvl  dritt bestes single",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Upgrade",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152024::::::::110:64::6:3:3612:1507:3336:::|h[Fallen Magi's Seerstone]|h|r",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152024::::::::110:64::3:3:3610:1477:3336:::|h[Fallen Magi's Seerstone]|h|r",
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.694117647058824, -- [2]
-						0.0274509803921569, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 2,
-					["itemReplaced2"] = "|cffa335ee|Hitem:155846::::::::110:64::5:3:3611:1507:3336:::|h[Miniaturized Cosmic Beacon]|h|r",
-					["votes"] = 0,
-				}, -- [7]
-			},
-			["Máriká-Frostwolf"] = {
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147104::::::::110:102::6:3:3563:1517:3336:::|h[Ikone der abnormalen Animation]|h|r",
-					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["response"] = "Mainspec/Need",
-					["boss"] = "The Desolate Host",
-					["votes"] = 0,
-					["time"] = "22:06:37",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147106::::::::110:63::6:3:3563:1522:3336:::|h[Glowing Prayer Candle]|h|r",
-					["responseID"] = 1,
-					["groupSize"] = 20,
-					["date"] = "27/09/17",
-				}, -- [1]
-				{
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147079::::::::110:102::5:3:3562:1507:3528:::|h[Zerrissenes Gewebe der Realität]|h|r",
-					["date"] = "03/10/17",
-					["response"] = "Mainspec/Need",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DRUID",
-					["votes"] = 0,
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["boss"] = "Kil'jaeden",
-					["time"] = "22:08:58",
-					["lootWon"] = "|cffa335ee|Hitem:147079::::::::110:63::6:3:3563:1522:3528:::|h[Torn Fabric of Reality]|h|r",
-					["difficultyID"] = 16,
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:147077::::::::110:102::6:3:3563:1512:3528:::|h[Unfehlbares Wahrheitsserum]|h|r",
-					["mapID"] = 1676,
-				}, -- [2]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147079::::::::110:102::5:3:3562:1507:3528:::|h[Zerrissenes Gewebe der Realität]|h|r",
-					["mapID"] = 1676,
-					["color"] = {
-						1, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
-					["date"] = "04/10/17",
-					["class"] = "DRUID",
-					["isAwardReason"] = false,
-					["response"] = "Candidate didn't respond on time",
-					["time"] = "20:51:33",
-					["boss"] = "Sisters of the Moon",
-					["lootWon"] = "|cffa335ee|Hitem:147078::::::::110:63::6:3:3563:1512:3528:::|h[Mote of Astral Suffusion]|h|r",
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["responseID"] = "TIMEOUT",
-					["itemReplaced2"] = "|cffa335ee|Hitem:147079::::::::110:102::6:3:3563:1522:3528:::|h[Zerrissenes Gewebe der Realität]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-				}, -- [3]
-				{
-					["mapID"] = 1712,
-					["date"] = "27/02/18",
-					["class"] = "DRUID",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "21:05:16",
-					["itemReplaced1"] = "|cffff8000|Hitem:144295:5929:::::::110:64:::3:3529:1811:3630:::|h[Lady and the Child]|h|r",
-					["id"] = "1519758316-3",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["note"] = "setteil noch garnicht",
-					["response"] = "Upgrade",
-					["tokenRoll"] = true,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152530::::::::110:64::6:1:569:::|h[Shoulders of the Antoran Vanquisher]|h|r",
-					["tierToken"] = "ShoulderSlot",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["boss"] = "The Coven of Shivarra",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0.843137254901961, -- [3]
-						1, -- [4]
-					},
-				}, -- [4]
-				{
-					["mapID"] = 1712,
-					["date"] = "28/02/18",
-					["class"] = "DRUID",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "20:28:34",
-					["itemReplaced1"] = "|cffff8000|Hitem:151800:5436:::::::110:64:::2:3459:3630:::|h[Radiant Moonlight]|h|r",
-					["id"] = "1519842514-2",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0.843137254901961, -- [3]
-						1, -- [4]
-					},
-					["boss"] = "Antoran High Command",
-					["response"] = "Upgrade",
-					["tokenRoll"] = true,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152517::::::::110:64::6:1:569:::|h[Cloak of the Antoran Vanquisher]|h|r",
-					["isAwardReason"] = false,
-					["tierToken"] = "BackSlot",
-					["responseID"] = 1,
-					["note"] = "945er hero",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-				}, -- [5]
 			},
 			["Laru-Frostwolf"] = {
 				{
@@ -15440,13 +15363,13 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:142189::::::::110:65::35:3:3418:1552:3337:::|h[Perfectly Preserved Apple]|h|r",
 					["mapID"] = 1676,
-					["instance"] = "Tomb of Sargeras-Mythic",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "25/10/17",
 					["class"] = "PALADIN",
 					["boss"] = "Fallen Avatar",
 					["response"] = "Mainspec/Need",
@@ -15457,18 +15380,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:147107::::::::110:63::6:3:3563:1512:3528:::|h[Valorous Spark of Hope]|h|r",
 					["responseID"] = 1,
 					["groupSize"] = 20,
-					["date"] = "25/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [3]
 				{
 					["mapID"] = 1676,
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["response"] = "offspec",
 					["date"] = "08/11/17",
+					["response"] = "offspec",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "PALADIN",
 					["difficultyID"] = 16,
 					["groupSize"] = 20,
@@ -15478,7 +15396,12 @@ RCLootCouncilLootDB = {
 					["isAwardReason"] = false,
 					["lootWon"] = "|cffa335ee|Hitem:147088::::::::110:63::6:3:3563:1512:3528:::|h[Smoldering Thumbscrews]|h|r",
 					["responseID"] = 4,
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
 					["relicRoll"] = true,
 				}, -- [4]
 				{
@@ -15555,16 +15478,11 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 				}, -- [7]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
+					["itemReplaced1"] = "|cffa335ee|Hitem:142170:5436:::::::110:65::16:3:3418:1532:3528:::|h[Drape of Shame]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PALADIN",
 					["isAwardReason"] = false,
 					["groupSize"] = 22,
@@ -15574,8 +15492,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "Garothi Worldbreaker",
 					["votes"] = 0,
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:142170:5436:::::::110:65::16:3:3418:1532:3528:::|h[Drape of Shame]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [8]
 				{
 					["mapID"] = 1712,
@@ -16020,54 +15943,214 @@ RCLootCouncilLootDB = {
 					["tierToken"] = "ShoulderSlot",
 					["tokenRoll"] = true,
 				}, -- [26]
-			},
-			["Jaman-Frostwolf"] = {
 				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "PALADIN",
+					["groupSize"] = 29,
+					["votes"] = 0,
+					["time"] = "20:33:40",
+					["itemReplaced1"] = "|cffa335ee|Hitem:163875::::::::120:64::28:4:5125:42:1532:4786:::|h[Honorbound Protectorate]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["id"] = "1536514420-2",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160695::::::::120:64::3:3:4798:1477:4786:::|h[Uldir Subject Manifest]|h|r",
+					["note"] = false,
 					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
+						0, -- [1]
+						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 25,
-					["date"] = "30/11/17",
-					["class"] = "SHAMAN",
+					["responseID"] = 1,
 					["isAwardReason"] = false,
-					["response"] = "Offspec/Greed",
+					["boss"] = "MOTHER",
+				}, -- [27]
+				{
+					["instance"] = "Uldir-Normal",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159428::::::::120:64::16:3:5005:1527:4786:::|h[Ballast Sinkers]|h|r",
+					["id"] = "1536518190-23",
+					["groupSize"] = 26,
+					["date"] = "09/09/18",
+					["class"] = "PALADIN",
 					["difficultyID"] = 14,
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["boss"] = "G'huun",
+					["time"] = "21:36:30",
+					["lootWon"] = "|cffa335ee|Hitem:160733::::::::120:64::3:3:4798:1477:4786:::|h[Hematocyst Stompers]|h|r",
 					["votes"] = 0,
-					["time"] = "21:42:41",
-					["lootWon"] = "|cffa335ee|Hitem:152002::::::::110:64::3:3:3610:1477:3336:::|h[Battalion-Shattering Leggings]|h|r",
-					["boss"] = "Garothi Worldbreaker",
-					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147179::::::::110:262::5:3:3562:1507:3336:::|h[Legguards of the Skybreaker]|h|r",
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["mapID"] = 1861,
+				}, -- [28]
+			},
+			["Lardeck-Frostwolf"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147009::::::::110:103::6:3:3563:1522:3336:::|h[Infernal Cinders]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 20,
+					["date"] = "04/10/17",
+					["class"] = "DRUID",
+					["isAwardReason"] = false,
+					["response"] = "Mainspec/Need",
+					["time"] = "20:39:28",
+					["boss"] = "Mistress Sassz'ine",
+					["lootWon"] = "|cffa335ee|Hitem:147011::::::::110:63::6:3:3563:1512:3528:::|h[Vial of Ceaseless Toxins]|h|r",
+					["difficultyID"] = 16,
+					["votes"] = 0,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147015::::::::110:103::5:3:3562:1497:3528:::|h[Engine of Eradication]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [1]
 				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
+					["mapID"] = 1676,
+					["date"] = "04/10/17",
+					["class"] = "DRUID",
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:40:02",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147137::::::::110:103::5:3:3562:1497:3528:::|h[Stormheart Legguards]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Upgrade",
+					["tierToken"] = "LegsSlot",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147325::::::::110:63::6:1:569:::|h[Leggings of the Foregone Vanquisher]|h|r",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["boss"] = "Mistress Sassz'ine",
+					["responseID"] = 1,
+					["tokenRoll"] = true,
+					["votes"] = 0,
+				}, -- [2]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:152364::::::::110:103::3:3:3614:1472:3528:::|h[Cinch of Detestable Guile]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["isAwardReason"] = false,
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["boss"] = "The Desolate Host",
+					["time"] = "21:20:21",
+					["lootWon"] = "|cffa335ee|Hitem:147040::::::::110:63::6:3:3563:1517:3336:::|h[Etched Bone Waistband]|h|r",
+					["difficultyID"] = 16,
+					["responseID"] = 1,
+					["response"] = "Mainspec/Need",
+					["date"] = "04/10/17",
+				}, -- [3]
+				{
+					["mapID"] = 1530,
+					["boss"] = "Grand Magistrix Elisande",
+					["instance"] = "The Nighthold-Mythic",
+					["class"] = "DRUID",
+					["votes"] = 0,
+					["response"] = "Offspec/Greed",
+					["difficultyID"] = 16,
+					["isAwardReason"] = false,
+					["time"] = "21:21:31",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 25,
-					["date"] = "30/11/17",
-					["class"] = "SHAMAN",
-					["isAwardReason"] = false,
-					["response"] = "Offspec/Greed",
-					["difficultyID"] = 14,
-					["votes"] = 0,
-					["time"] = "22:32:08",
-					["lootWon"] = "|cffa335ee|Hitem:152280::::::::110:64::3:3:3610:1472:3528:::|h[Scalding Shatterguards]|h|r",
-					["boss"] = "Kin'garoth",
+					["lootWon"] = "|cffa335ee|Hitem:140837::::::::110:63::6:3:3518:1502:3528:::|h[Exothermic Core]|h|r",
 					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137305::151580::::::110:262::35:4:3418:1808:1587:3337:::|h[Blighted Grasp Bracers]|h|r",
-				}, -- [2]
+					["groupSize"] = 20,
+					["date"] = "05/10/17",
+				}, -- [4]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147194:5430:151585::::::110:103::5:4:3562:1808:1502:3336:::|h[Band of Rescinded Truths]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 20,
+					["date"] = "11/10/17",
+					["class"] = "DRUID",
+					["isAwardReason"] = false,
+					["response"] = "Mainspec/Need",
+					["time"] = "20:52:12",
+					["boss"] = "Sisters of the Moon",
+					["lootWon"] = "|cffa335ee|Hitem:147021::::::::110:63::6:3:3563:1517:3336:::|h[Yathae's Thumb Ring]|h|r",
+					["difficultyID"] = 16,
+					["votes"] = 0,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffff8000|Hitem:137040:5430:130247::::::110:103:::2:3459:3570:::|h[Chatoyant Signet]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+				}, -- [5]
+				{
+					["mapID"] = 1676,
+					["date"] = "11/10/17",
+					["class"] = "DRUID",
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:09:58",
+					["itemReplaced1"] = "|cffa335ee|Hitem:142215:5435:::::::110:103::35:3:3418:1567:3337:::|h[Wine-Stained Mantle]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Upgrade",
+					["tierToken"] = "BackSlot",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147331::::::::110:63::6:1:569:::|h[Cloak of the Foregone Vanquisher]|h|r",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["boss"] = "The Desolate Host",
+					["responseID"] = 1,
+					["tokenRoll"] = true,
+					["votes"] = 0,
+				}, -- [6]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147030::::::::110:103::5:3:3562:1502:3336:::|h[Felscape Pathfinders]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["date"] = "25/10/17",
+					["class"] = "DRUID",
+					["boss"] = "Fallen Avatar",
+					["response"] = "Candidate didn't respond on time",
+					["votes"] = 0,
+					["isAwardReason"] = false,
+					["time"] = "22:19:36",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147030::::::::110:63::6:3:3563:1517:3336:::|h[Felscape Pathfinders]|h|r",
+					["responseID"] = "TIMEOUT",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
+				}, -- [7]
 			},
 			["Vairasza-Frostwolf"] = {
 				{
@@ -16163,16 +16246,11 @@ RCLootCouncilLootDB = {
 					["instance"] = "Tomb of Sargeras-Mythic",
 				}, -- [4]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147159::::::::110:65::6:3:3563:1517:3336:::|h[Radiant Lightbringer Gauntlets]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 15,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "PALADIN",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -16182,8 +16260,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152686::::::::110:64::5:4:3611:40:1492:3336:::|h[Nascent Deathbringer's Clutches]|h|r",
 					["boss"] = "Argus the Unmaker",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147159::::::::110:65::6:3:3563:1517:3336:::|h[Radiant Lightbringer Gauntlets]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [5]
 				{
 					["instance"] = "Antorus, the Burning Throne-Mythic",
@@ -16330,282 +16413,139 @@ RCLootCouncilLootDB = {
 					["id"] = "1521663695-11",
 					["mapID"] = 1712,
 				}, -- [11]
-			},
-			["Locura-Frostwolf"] = {
 				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147000::::::::110:258::5:3:3562:1497:3528:::|h[Ravenous Devotee's Bracelets]|h|r",
-					["mapID"] = 1676,
+					["instance"] = "Uldir-Normal",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159292::::::::120:64::23:4:4779:41:1512:4786:::|h[Sporecaller's Shroud]|h|r",
+					["id"] = "1536515496-11",
+					["groupSize"] = 29,
+					["date"] = "09/09/18",
+					["class"] = "PALADIN",
+					["difficultyID"] = 14,
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["boss"] = "Vectis",
+					["time"] = "20:51:36",
+					["lootWon"] = "|cffa335ee|Hitem:160644::::::::120:64::3:3:4798:1477:4786:::|h[Plasma-Spattered Greatcloak]|h|r",
+					["votes"] = 0,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["date"] = "27/09/17",
-					["class"] = "PRIEST",
+					["mapID"] = 1861,
+				}, -- [12]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "PALADIN",
+					["groupSize"] = 29,
+					["boss"] = "Zek'voz",
+					["time"] = "21:04:05",
+					["itemReplaced1"] = "|cff0070dd|Hitem:158160:5938:154126::::::120:64::27:4:4803:4802:1522:4785:::|h[Smuggler's Cove Ring]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
 					["isAwardReason"] = false,
-					["groupSize"] = 20,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160647::::::::120:64::3:3:4798:1477:4786:::|h[Ring of the Infinite Void]|h|r",
+					["id"] = "1536516245-15",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:158318:5938:::::::120:64::23:3:4779:1512:4786:::|h[Murky Cerulean Signet]|h|r",
 					["votes"] = 0,
-					["boss"] = "Harjatan",
-					["lootWon"] = "|cffa335ee|Hitem:147000::::::::110:63::6:3:3563:1517:3336:::|h[Ravenous Devotee's Bracelets]|h|r",
+				}, -- [13]
+			},
+			["Dewi-Frostwolf"] = {
+				{
+					["mapID"] = 1676,
+					["date"] = "04/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["boss"] = "Fallen Avatar",
+					["groupSize"] = 20,
 					["difficultyID"] = 16,
-					["time"] = "20:27:24",
+					["votes"] = 0,
+					["time"] = "22:28:27",
+					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:147107::::::::110:63::6:3:3563:1532:3337:::|h[Valorous Spark of Hope]|h|r",
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147105::::::::110:102::6:3:3563:1512:3528:::|h[Mondkralles Feder]|h|r",
 				}, -- [1]
 				{
 					["mapID"] = 1676,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PRIEST",
+					["date"] = "08/11/17",
+					["class"] = "DRUID",
 					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "21:32:33",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146992::::::::110:258::6:3:3563:1517:3336:::|h[Legwraps of Fused Loathing]|h|r",
+					["votes"] = 0,
+					["time"] = "20:15:34",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147136::::::::110:102::5:3:3562:1502:3336:::|h[Kopfputz des Sturmherzens]|h|r",
 					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Upgrade to existing tier/random upgrade",
 					["tokenRoll"] = true,
+					["response"] = "Upgrade",
+					["tierToken"] = "HeadSlot",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147326::::::::110:63::6:1:569:::|h[Leggings of the Foregone Conqueror]|h|r",
-					["tierToken"] = "LegsSlot",
-					["date"] = "27/09/17",
-					["responseID"] = 3,
-					["votes"] = 0,
-					["boss"] = "Mistress Sassz'ine",
-				}, -- [2]
-				{
+					["lootWon"] = "|cffa335ee|Hitem:147322::::::::110:63::6:1:569:::|h[Helm of the Foregone Vanquisher]|h|r",
 					["relicRoll"] = false,
-					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
-					["date"] = "23/11/17",
-					["class"] = "PRIEST",
-					["difficultyID"] = 16,
-					["response"] = "Mainspec/Need",
-					["votes"] = 0,
-					["boss"] = "Sisters of the Moon",
-					["lootWon"] = "|cffa335ee|Hitem:146997::::::::110:64::6:3:3563:1517:3336:::|h[Shoulderpads of Whispering Twilight]|h|r",
-					["time"] = "20:29:12",
 					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147168:5929:::::::110:258::6:3:3563:1517:3336:::|h[Mantle of Blind Absolution]|h|r",
-				}, -- [3]
-				{
-					["mapID"] = 1712,
-					["date"] = "29/11/17",
-					["class"] = "PRIEST",
-					["groupSize"] = 17,
-					["boss"] = "Felhounds of Sargeras",
-					["time"] = "20:19:54",
-					["relicRoll"] = true,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Upgrade",
-					["votes"] = 0,
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152056::::::::110:64::5:3:3611:1487:3528:::|h[Corrupting Dewclaw]|h|r",
-					["itemReplaced1"] = "|cffa335ee|Hitem:142191::::::::110:258::35:3:3536:1547:3337:::|h[Dirge of the Hunted]|h|r",
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.694117647058824, -- [2]
-						0.0274509803921569, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 2,
-					["itemReplaced2"] = "|cffa335ee|Hitem:137347::::::::110:258::35:3:3418:1587:3337:::|h[Fragment of Loathing]|h|r",
-					["isAwardReason"] = false,
-				}, -- [4]
-				{
-					["mapID"] = 1712,
-					["date"] = "29/11/17",
-					["class"] = "PRIEST",
-					["groupSize"] = 23,
-					["boss"] = "Felhounds of Sargeras",
-					["time"] = "20:20:54",
-					["relicRoll"] = true,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Upgrade",
-					["votes"] = 0,
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152056::::::::110:64::5:3:3611:1487:3528:::|h[Corrupting Dewclaw]|h|r",
-					["itemReplaced1"] = "|cffa335ee|Hitem:142191::::::::110:258::35:3:3536:1547:3337:::|h[Dirge of the Hunted]|h|r",
-					["color"] = {
-						0.701960784313726, -- [1]
-						0.694117647058824, -- [2]
-						0.0274509803921569, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 2,
-					["itemReplaced2"] = "|cffa335ee|Hitem:137347::::::::110:258::35:3:3418:1587:3337:::|h[Fragment of Loathing]|h|r",
-					["isAwardReason"] = false,
-				}, -- [5]
-				{
-					["mapID"] = 1712,
-					["date"] = "29/11/17",
-					["class"] = "PRIEST",
-					["groupSize"] = 10,
-					["votes"] = 0,
-					["time"] = "20:38:45",
-					["itemReplaced1"] = "|cffa335ee|Hitem:137531:5436:151580::::::110:258::35:4:3536:1808:1582:3337:::|h[Cloak of Enthralling Darkness]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["boss"] = "Demonic Inquisition",
 					["color"] = {
 						0.1, -- [1]
 						1, -- [2]
 						0.5, -- [3]
 						1, -- [4]
 					},
-					["response"] = "1. Set",
-					["boss"] = "Antoran High Command",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152516::::::::110:64::5:1:570:::|h[Cloak of the Antoran Conqueror]|h|r",
-					["relicRoll"] = false,
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["tierToken"] = "BackSlot",
-					["tokenRoll"] = true,
-				}, -- [6]
+				}, -- [2]
 				{
 					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147040::::::::110:102::6:3:3563:1512:3528:::|h[Geätzter Knochengürtelbund]|h|r",
 					["date"] = "30/11/17",
-					["class"] = "PRIEST",
-					["groupSize"] = 24,
-					["votes"] = 0,
-					["time"] = "20:46:04",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147165::::::::110:258::6:4:3563:43:1517:3336:::|h[Hood of Blind Absolution]|h|r",
+					["groupSize"] = 15,
 					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["tokenRoll"] = true,
-					["response"] = "4. set",
-					["tierToken"] = "HeadSlot",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152525::::::::110:64::5:1:570:::|h[Helm of the Antoran Conqueror]|h|r",
-					["relicRoll"] = false,
-					["isAwardReason"] = false,
-					["responseID"] = 4,
-					["boss"] = "Aggramar",
-					["color"] = {
-						0.501960784313726, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [7]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 10,
-					["date"] = "30/11/17",
-					["class"] = "PRIEST",
+					["class"] = "DRUID",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
 					["difficultyID"] = 15,
 					["votes"] = 0,
-					["time"] = "21:32:17",
-					["lootWon"] = "|cffa335ee|Hitem:152283::::::::110:64::5:3:3611:1507:3337:::|h[Chain of the Unmaker]|h|r",
+					["time"] = "21:27:53",
+					["lootWon"] = "|cffa335ee|Hitem:151986::::::::110:64::5:3:3611:1487:3528:::|h[Death-Enveloping Cincture]|h|r",
 					["boss"] = "Argus the Unmaker",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:140898:5437:::::::110:258::6:3:3445:1517:3337:::|h[Radiant String of Scorpid Eyes]|h|r",
-				}, -- [8]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 25,
-					["date"] = "30/11/17",
-					["class"] = "PRIEST",
-					["isAwardReason"] = false,
-					["response"] = "Pass",
-					["difficultyID"] = 14,
-					["votes"] = 0,
-					["time"] = "22:16:01",
-					["lootWon"] = "|cffa335ee|Hitem:151945::::::::110:64::3:3:3610:1482:3336:::|h[Lady Dacidion's Silk Slippers]|h|r",
-					["boss"] = "Portal Keeper Hasabel",
-					["responseID"] = "PASS",
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146987::::::::110:258::6:3:3563:1512:3528:::|h[Slippers of Enduring Vigilance]|h|r",
-				}, -- [9]
-				{
-					["mapID"] = 1676,
-					["date"] = "03/12/17",
-					["class"] = "PRIEST",
-					["groupSize"] = 20,
-					["boss"] = "Sisters of the Moon",
-					["time"] = "19:44:28",
-					["relicRoll"] = false,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Offspec/Greed",
-					["votes"] = 0,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147005::::::::110:64::6:3:3563:1512:3528:::|h[Chalice of Moonlight]|h|r",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151955::::::::110:258::5:3:3611:1487:3528:::|h[Acrid Catalyst Injector]|h|r",
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
+						0, -- [1]
+						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = 2,
-					["itemReplaced2"] = "|cffa335ee|Hitem:147016::151583::::::110:258::6:4:3563:1808:1512:3528:::|h[Terror From Below]|h|r",
-					["isAwardReason"] = false,
-				}, -- [10]
-				{
-					["relicRoll"] = true,
-					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						0.701960784313726, -- [2]
-						0.109803921568627, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Bis",
-					["date"] = "03/12/17",
-					["class"] = "PRIEST",
-					["votes"] = 0,
-					["groupSize"] = 20,
-					["time"] = "21:34:06",
-					["boss"] = "Kil'jaeden",
-					["lootWon"] = "|cffa335ee|Hitem:147082::::::::110:64::6:3:3563:1532:3336:::|h[Man'ari Blood Pact]|h|r",
-					["difficultyID"] = 16,
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147081::::::::110:258::6:3:3563:1522:3336:::|h[Pungent Chum]|h|r",
-				}, -- [11]
+					["relicRoll"] = false,
+				}, -- [3]
 				{
 					["mapID"] = 1712,
-					["date"] = "13/12/17",
-					["class"] = "PRIEST",
+					["date"] = "20/12/17",
+					["class"] = "DRUID",
 					["groupSize"] = 20,
 					["votes"] = 0,
-					["time"] = "21:19:01",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147167::::::::110:64::6:3:3563:1522:3336:::|h[Robes of Blind Absolution]|h|r",
+					["time"] = "22:56:43",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147134:5436:::::::110:64::6:3:3563:1517:3336:::|h[Stormheart Drape]|h|r",
 					["instance"] = "Antorus, the Burning Throne-Mythic",
 					["response"] = "Mainspec/Need",
-					["boss"] = "Felhounds of Sargeras",
+					["id"] = "1513803403-57",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:64::6:4:3612:43:1512:3336:::|h[Vestments of Enflamed Blight]|h|r",
-					["isAwardReason"] = false,
+					["lootWon"] = "|cffa335ee|Hitem:151938::::::::110:64::6:3:3612:1502:3528:::|h[Drape of the Spirited Hunt]|h|r",
+					["note"] = "offset ae unter umstzänden",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
@@ -16613,253 +16553,577 @@ RCLootCouncilLootDB = {
 						1, -- [4]
 					},
 					["responseID"] = 1,
-					["note"] = "siehe andere Chest; 28% Upgrade",
-					["id"] = "1513192741-11",
-				}, -- [12]
-				{
-					["mapID"] = 1712,
-					["date"] = "13/12/17",
-					["class"] = "PRIEST",
-					["groupSize"] = 20,
-					["boss"] = "The Defense of Eonar",
-					["time"] = "22:56:52",
-					["relicRoll"] = true,
-					["id"] = "1513198612-21",
-					["votes"] = 0,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Bis",
 					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152054::::::::110:62::6:3:3612:1507:3336:::|h[Unwavering Soul Essence]|h|r",
-					["color"] = {
-						0, -- [1]
-						0.701960784313726, -- [2]
-						0.109803921568627, -- [3]
-						1, -- [4]
-					},
-					["itemReplaced1"] = "|cffa335ee|Hitem:155852::::::::110:62::5:3:3611:1507:3336:::|h[Volatile Soul Fragment]|h|r",
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:152056::::::::110:62::5:3:3611:1487:3528:::|h[Corrupting Dewclaw]|h|r",
-					["note"] = "+6ilvl; bis trait;T1 alt: sehr schlecht;T2:mittel;T3:2.bestes",
-				}, -- [13]
+					["boss"] = "Imonar the Soulhunter",
+				}, -- [4]
 				{
 					["mapID"] = 1712,
 					["date"] = "03/01/18",
-					["class"] = "PRIEST",
-					["groupSize"] = 20,
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:09:35",
-					["itemReplaced1"] = "|cffa335ee|Hitem:154177::::::::110:64::3:2:3985:3990:::|h[Norgannon's Prowess]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Offspec/Greed",
+					["class"] = "DRUID",
+					["groupSize"] = 21,
+					["votes"] = 0,
+					["time"] = "18:08:09",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147137::::::::110:64::6:3:3563:1517:3336:::|h[Stormheart Legguards]|h|r",
+					["id"] = "1514995689-11",
+					["tokenRoll"] = true,
+					["response"] = "Reroll",
+					["tierToken"] = "LegsSlot",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152527::::::::110:64::5:1:570:::|h[Leggings of the Antoran Vanquisher]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151956::::::::110:64::6:3:3612:1502:3528:::|h[Garothi Feedback Conduit]|h|r",
-					["id"] = "1515002975-34",
+					["responseID"] = 3,
+					["boss"] = "Imonar the Soulhunter",
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
-						0, -- [3]
+						1, -- [3]
+						1, -- [4]
+					},
+				}, -- [5]
+				{
+					["mapID"] = 1712,
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.694117647058824, -- [2]
+						0.0274509803921569, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["groupSize"] = 12,
+					["boss"] = "Argus the Unmaker",
+					["time"] = "19:04:41",
+					["relicRoll"] = true,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Upgrade",
+					["id"] = "1514999081-29",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:155846::::::::110:64::5:3:3611:1507:3336:::|h[Miniaturized Cosmic Beacon]|h|r",
+					["note"] = "bestes +10 ilvl",
+					["date"] = "03/01/18",
+					["responseID"] = 2,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [6]
+				{
+					["mapID"] = 1712,
+					["date"] = "03/01/18",
+					["class"] = "DRUID",
+					["groupSize"] = 20,
+					["boss"] = "Imonar the Soulhunter",
+					["time"] = "21:37:47",
+					["relicRoll"] = true,
+					["id"] = "1515008267-49",
+					["note"] = "9 ilvl  dritt bestes single",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152024::::::::110:64::6:3:3612:1507:3336:::|h[Fallen Magi's Seerstone]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152024::::::::110:64::3:3:3610:1477:3336:::|h[Fallen Magi's Seerstone]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.694117647058824, -- [2]
+						0.0274509803921569, -- [3]
 						1, -- [4]
 					},
 					["responseID"] = 2,
-					["itemReplaced2"] = "|cffa335ee|Hitem:151955::::::::110:64::5:3:3611:1487:3528:::|h[Acrid Catalyst Injector]|h|r",
+					["itemReplaced2"] = "|cffa335ee|Hitem:155846::::::::110:64::5:3:3611:1507:3336:::|h[Miniaturized Cosmic Beacon]|h|r",
 					["votes"] = 0,
-				}, -- [14]
+				}, -- [7]
 				{
-					["mapID"] = 1712,
-					["date"] = "10/01/18",
-					["class"] = "PRIEST",
-					["groupSize"] = 20,
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "DRUID",
+					["groupSize"] = 29,
 					["votes"] = 0,
-					["time"] = "20:17:18",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151950::::::::110:261::5:3:3611:1487:3528:::|h[Fallen Avenger's Amice]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Upgrade",
-					["boss"] = "Felhounds of Sargeras",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151949::::::::110:261::6:3:3612:1507:3336:::|h[Soul-Siphon Mantle]|h|r",
+					["time"] = "21:02:55",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159336::::::::120:64::23:3:4779:1522:4783:::|h[Mercenary Miner's Boots]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Minor Upgrade",
+					["id"] = "1536516175-14",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160624::::::::120:64::3:3:4798:1477:4786:::|h[Quarantine Protocol Treads]|h|r",
+					["note"] = "4%",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0.86, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
 					["isAwardReason"] = false,
+					["boss"] = "Zek'voz",
+				}, -- [8]
+			},
+			["Máriká-Frostwolf"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147104::::::::110:102::6:3:3563:1517:3336:::|h[Ikone der abnormalen Animation]|h|r",
+					["mapID"] = 1676,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["date"] = "27/09/17",
+					["class"] = "DRUID",
+					["isAwardReason"] = false,
+					["response"] = "Mainspec/Need",
+					["boss"] = "The Desolate Host",
+					["votes"] = 0,
+					["time"] = "22:06:37",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147106::::::::110:63::6:3:3563:1522:3336:::|h[Glowing Prayer Candle]|h|r",
 					["responseID"] = 1,
-					["note"] = "10% nicht bis",
-					["id"] = "1515608238-7",
-				}, -- [15]
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
+				}, -- [1]
+				{
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147079::::::::110:102::5:3:3562:1507:3528:::|h[Zerrissenes Gewebe der Realität]|h|r",
+					["date"] = "03/10/17",
+					["response"] = "Mainspec/Need",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["votes"] = 0,
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["boss"] = "Kil'jaeden",
+					["time"] = "22:08:58",
+					["lootWon"] = "|cffa335ee|Hitem:147079::::::::110:63::6:3:3563:1522:3528:::|h[Torn Fabric of Reality]|h|r",
+					["difficultyID"] = 16,
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147077::::::::110:102::6:3:3563:1512:3528:::|h[Unfehlbares Wahrheitsserum]|h|r",
+					["mapID"] = 1676,
+				}, -- [2]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147079::::::::110:102::5:3:3562:1507:3528:::|h[Zerrissenes Gewebe der Realität]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 20,
+					["date"] = "04/10/17",
+					["class"] = "DRUID",
+					["isAwardReason"] = false,
+					["response"] = "Candidate didn't respond on time",
+					["time"] = "20:51:33",
+					["boss"] = "Sisters of the Moon",
+					["lootWon"] = "|cffa335ee|Hitem:147078::::::::110:63::6:3:3563:1512:3528:::|h[Mote of Astral Suffusion]|h|r",
+					["difficultyID"] = 16,
+					["votes"] = 0,
+					["responseID"] = "TIMEOUT",
+					["itemReplaced2"] = "|cffa335ee|Hitem:147079::::::::110:102::6:3:3563:1522:3528:::|h[Zerrissenes Gewebe der Realität]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+				}, -- [3]
 				{
 					["mapID"] = 1712,
-					["date"] = "10/01/18",
-					["class"] = "PRIEST",
+					["date"] = "27/02/18",
+					["class"] = "DRUID",
 					["groupSize"] = 20,
 					["votes"] = 0,
-					["time"] = "21:24:42",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152157::::::::110:64::5:3:3611:1487:3528:::|h[Gilded Seraph's Leggings]|h|r",
-					["id"] = "1515612282-14",
+					["time"] = "21:05:16",
+					["itemReplaced1"] = "|cffff8000|Hitem:144295:5929:::::::110:64:::3:3529:1811:3630:::|h[Lady and the Child]|h|r",
+					["id"] = "1519758316-3",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["note"] = "setteil noch garnicht",
+					["response"] = "Upgrade",
+					["tokenRoll"] = true,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152530::::::::110:64::6:1:569:::|h[Shoulders of the Antoran Vanquisher]|h|r",
+					["tierToken"] = "ShoulderSlot",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "The Coven of Shivarra",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0.843137254901961, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Upgrade",
-					["boss"] = "Imonar the Soulhunter",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152528::::::::110:64::6:1:569:::|h[Leggings of the Antoran Conqueror]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["tierToken"] = "LegsSlot",
-					["tokenRoll"] = true,
-				}, -- [16]
+				}, -- [4]
 				{
 					["mapID"] = 1712,
-					["date"] = "10/01/18",
-					["class"] = "PRIEST",
+					["date"] = "28/02/18",
+					["class"] = "DRUID",
 					["groupSize"] = 20,
 					["votes"] = 0,
-					["time"] = "21:40:23",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152155::::::::110:64::5:3:3611:1502:3337:::|h[Gilded Seraph's Handwraps]|h|r",
-					["id"] = "1515613223-18",
+					["time"] = "20:28:34",
+					["itemReplaced1"] = "|cffff8000|Hitem:151800:5436:::::::110:64:::2:3459:3630:::|h[Radiant Moonlight]|h|r",
+					["id"] = "1519842514-2",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0.843137254901961, -- [3]
+						1, -- [4]
+					},
+					["boss"] = "Antoran High Command",
+					["response"] = "Upgrade",
+					["tokenRoll"] = true,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152517::::::::110:64::6:1:569:::|h[Cloak of the Antoran Vanquisher]|h|r",
+					["isAwardReason"] = false,
+					["tierToken"] = "BackSlot",
+					["responseID"] = 1,
+					["note"] = "945er hero",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+				}, -- [5]
+			},
+			["Ypzo-Frostwolf"] = {
+				{
+					["mapID"] = 1676,
 					["color"] = {
 						1, -- [1]
 						0.5, -- [2]
 						1, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Reroll",
-					["boss"] = "Kin'garoth",
+					["class"] = "SHAMAN",
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "22:05:45",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147176:5436:::::::110:264::5:3:3562:1497:3528:::|h[Drape of the Skybreaker]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Upgrade to existing tier/random upgrade",
+					["date"] = "27/09/17",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152522::::::::110:64::6:1:569:::|h[Gauntlets of the Antoran Conqueror]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["lootWon"] = "|cffa335ee|Hitem:147333::::::::110:63::6:1:569:::|h[Cloak of the Foregone Protector]|h|r",
+					["votes"] = 0,
+					["tokenRoll"] = true,
+					["responseID"] = 3,
+					["tierToken"] = "BackSlot",
+					["boss"] = "The Desolate Host",
+				}, -- [1]
+			},
+			["Jaman-Frostwolf"] = {
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147179::::::::110:262::5:3:3562:1507:3336:::|h[Legguards of the Skybreaker]|h|r",
+					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["response"] = "Offspec/Greed",
+					["difficultyID"] = 14,
+					["votes"] = 0,
+					["time"] = "21:42:41",
+					["lootWon"] = "|cffa335ee|Hitem:152002::::::::110:64::3:3:3610:1477:3336:::|h[Battalion-Shattering Leggings]|h|r",
+					["boss"] = "Garothi Worldbreaker",
+					["responseID"] = 2,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:137305::151580::::::110:262::35:4:3418:1808:1587:3337:::|h[Blighted Grasp Bracers]|h|r",
+					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["response"] = "Offspec/Greed",
+					["difficultyID"] = 14,
+					["votes"] = 0,
+					["time"] = "22:32:08",
+					["lootWon"] = "|cffa335ee|Hitem:152280::::::::110:64::3:3:3610:1472:3528:::|h[Scalding Shatterguards]|h|r",
+					["boss"] = "Kin'garoth",
+					["responseID"] = 2,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
+				}, -- [2]
+			},
+			["Elunià-Frostwolf"] = {
+				{
+					["instance"] = "Uldir-Normal",
+					["itemReplaced1"] = "|cffa335ee|Hitem:158004::::::::120:64::27:3:4803:1537:4784:::|h[Bloodbough Cord]|h|r",
+					["id"] = "1536515500-12",
+					["groupSize"] = 29,
+					["date"] = "09/09/18",
+					["class"] = "PRIEST",
+					["difficultyID"] = 14,
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["boss"] = "Vectis",
+					["time"] = "20:51:40",
+					["lootWon"] = "|cffa335ee|Hitem:160734::::::::120:64::3:3:4798:1477:4786:::|h[Cord of Animated Contagion]|h|r",
+					["votes"] = 0,
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["mapID"] = 1861,
+				}, -- [1]
+			},
+			["Sidayira-Frostwolf"] = {
+				{
+					["mapID"] = 1712,
+					["date"] = "03/01/18",
+					["class"] = "ROGUE",
+					["groupSize"] = 19,
+					["votes"] = 0,
+					["time"] = "17:42:19",
+					["itemReplaced1"] = "|cffff8000|Hitem:137021:5435:::::::110:64:::3:3529:1811:3630:::|h[The Dreadlord's Deceit]|h|r",
+					["id"] = "1514994139-3",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["note"] = "titanforge",
+					["response"] = "Reroll",
+					["tokenRoll"] = true,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152517::::::::110:64::5:1:570:::|h[Cloak of the Antoran Vanquisher]|h|r",
+					["tierToken"] = "BackSlot",
 					["isAwardReason"] = false,
 					["responseID"] = 3,
-					["tierToken"] = "HandsSlot",
+					["boss"] = "Antoran High Command",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["mapID"] = 1712,
+					["date"] = "03/01/18",
+					["class"] = "ROGUE",
+					["groupSize"] = 19,
+					["votes"] = 0,
+					["time"] = "17:42:28",
+					["itemReplaced1"] = "|cffff8000|Hitem:137021:5435:::::::110:64:::3:3529:1811:3630:::|h[The Dreadlord's Deceit]|h|r",
+					["id"] = "1514994148-4",
+					["response"] = "Candidate is selecting response, please wait",
+					["tierToken"] = "BackSlot",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152517::::::::110:64::5:1:570:::|h[Cloak of the Antoran Vanquisher]|h|r",
+					["isAwardReason"] = false,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["responseID"] = "WAIT",
+					["boss"] = "Antoran High Command",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["mapID"] = 1712,
+					["date"] = "03/01/18",
+					["class"] = "ROGUE",
+					["groupSize"] = 21,
+					["votes"] = 0,
+					["time"] = "18:50:37",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147172::::::::110:64::6:3:3563:1522:3336:::|h[Fanged Slayer's Helm]|h|r",
+					["id"] = "1514998237-24",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["note"] = "3. t teil",
+					["response"] = "Upgrade",
 					["tokenRoll"] = true,
-				}, -- [17]
-				{
-					["mapID"] = 1712,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152524::::::::110:64::5:1:570:::|h[Helm of the Antoran Vanquisher]|h|r",
+					["tierToken"] = "HeadSlot",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "Aggramar",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
-						0, -- [3]
+						0.843137254901961, -- [3]
 						1, -- [4]
 					},
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["date"] = "26/01/18",
-					["class"] = "PRIEST",
+				}, -- [3]
+				{
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147169::::::::110:64::5:3:3562:1517:3337:::|h[Fanged Slayer's Chestguard]|h|r",
+					["id"] = "1514999033-28",
+					["groupSize"] = 16,
+					["date"] = "03/01/18",
+					["class"] = "ROGUE",
+					["difficultyID"] = 15,
+					["response"] = "Candidate is selecting response, please wait",
+					["isAwardReason"] = false,
 					["boss"] = "Argus the Unmaker",
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
+					["time"] = "19:03:53",
+					["lootWon"] = "|cffa335ee|Hitem:151982::::::::110:64::5:3:3611:1487:3528:::|h[Vest of Waning Life]|h|r",
 					["votes"] = 0,
-					["time"] = "22:06:33",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152789::::::::110:64::6::::|h[Shackled Ur'zul]|h|r",
-					["responseID"] = 1,
-					["response"] = "Mainspec/Need",
-					["id"] = "1516997193-0",
-				}, -- [18]
-				{
+					["responseID"] = "WAIT",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["mapID"] = 1712,
-					["date"] = "31/01/18",
-					["class"] = "PRIEST",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "20:17:05",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151947::::::::110:64::6:4:3612:43:1512:3336:::|h[Vestments of Enflamed Blight]|h|r",
+				}, -- [4]
+				{
 					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
-					["boss"] = "Felhounds of Sargeras",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151990::::::::110:64::5:5:3611:1808:40:1487:3528:::|h[Portal Keeper's Cincture]|h|r",
+					["id"] = "1515006420-42",
+					["groupSize"] = 20,
+					["date"] = "03/01/18",
+					["class"] = "ROGUE",
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:64::6:3:3612:1527:3337:::|h[Vestments of Enflamed Blight]|h|r",
+					["response"] = "Mainspec/Need",
 					["isAwardReason"] = false,
+					["boss"] = "Portal Keeper Hasabel",
+					["time"] = "21:07:00",
+					["lootWon"] = "|cffa335ee|Hitem:151990::::::::110:64::6:4:3612:43:1502:3528:::|h[Portal Keeper's Cincture]|h|r",
+					["votes"] = 0,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["mapID"] = 1712,
+				}, -- [5]
+				{
+					["mapID"] = 1712,
+					["date"] = "03/01/18",
+					["class"] = "ROGUE",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "21:27:14",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147169::::::::110:64::5:3:3562:1517:3337:::|h[Fanged Slayer's Chestguard]|h|r",
+					["id"] = "1515007634-47",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["note"] = "4.",
+					["response"] = "Upgrade",
+					["tokenRoll"] = true,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152518::::::::110:64::6:1:569:::|h[Chest of the Antoran Vanquisher]|h|r",
+					["tierToken"] = "ChestSlot",
+					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["note"] = "11%",
-					["id"] = "1517422625-7",
-				}, -- [19]
+					["boss"] = "The Defense of Eonar",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0.843137254901961, -- [3]
+						1, -- [4]
+					},
+				}, -- [6]
+				{
+					["mapID"] = 1712,
+					["date"] = "11/01/18",
+					["class"] = "ROGUE",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "21:54:49",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147172::::::::110:64::6:3:3563:1522:3336:::|h[Fanged Slayer's Helm]|h|r",
+					["id"] = "1515700489-2",
+					["response"] = "Candidate is selecting response, please wait",
+					["tierToken"] = "HeadSlot",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152524::::::::110:64::6:1:569:::|h[Helm of the Antoran Vanquisher]|h|r",
+					["isAwardReason"] = false,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["responseID"] = "WAIT",
+					["boss"] = "Aggramar",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [7]
 				{
 					["mapID"] = 1530,
 					["date"] = "08/02/18",
-					["class"] = "PRIEST",
+					["class"] = "ROGUE",
 					["groupSize"] = 20,
 					["votes"] = 0,
-					["time"] = "21:34:07",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152157::::::::110:64::6:3:3612:1502:3528:::|h[Gilded Seraph's Leggings]|h|r",
-					["id"] = "1518118447-11",
-					["tokenRoll"] = true,
-					["response"] = "Reroll",
-					["tierToken"] = "LegsSlot",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:143564::::::::110:64::6:1:569:::|h[Leggings of the Foreseen Conqueror]|h|r",
+					["time"] = "21:34:04",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152282::::::::110:64::6:3:3612:1527:3337:::|h[Caustic Titanspite Legguards]|h|r",
+					["id"] = "1518118444-10",
 					["instance"] = "The Nighthold-Mythic",
+					["note"] = "transmog",
+					["response"] = "Upgrade",
+					["tokenRoll"] = true,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:143569::::::::110:64::6:1:569:::|h[Leggings of the Foreseen Vanquisher]|h|r",
+					["tierToken"] = "LegsSlot",
 					["isAwardReason"] = false,
-					["responseID"] = 3,
+					["responseID"] = 1,
 					["boss"] = "Gul'dan",
 					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						1, -- [3]
+						0, -- [1]
+						1, -- [2]
+						0.843137254901961, -- [3]
 						1, -- [4]
 					},
-				}, -- [20]
+				}, -- [8]
 				{
 					["mapID"] = 1712,
-					["date"] = "07/03/18",
-					["class"] = "PRIEST",
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:13:43",
-					["relicRoll"] = true,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["votes"] = 0,
-					["response"] = "Bis",
-					["boss"] = "Garothi Worldbreaker",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152028::::::::110:64::6:3:3612:1502:3528:::|h[Spurting Reaver Heart]|h|r",
-					["id"] = "1520446423-3",
-					["itemReplaced1"] = "|cffa335ee|Hitem:155847::::::::110:64::5:3:3611:1507:3336:::|h[Cruor of the Avenger]|h|r",
-					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						0.701960784313726, -- [2]
 						0.109803921568627, -- [3]
 						1, -- [4]
 					},
-					["note"] = "-1 ilvl aber bis Trait;Alt: T1-6. T2-3. T3-2.",
-				}, -- [21]
-				{
-					["mapID"] = 1712,
-					["date"] = "28/03/18",
-					["class"] = "PRIEST",
+					["class"] = "ROGUE",
 					["groupSize"] = 20,
-					["boss"] = "Garothi Worldbreaker",
-					["time"] = "20:07:14",
-					["itemReplaced1"] = "|cffa335ee|Hitem:154177::::::::110:64::3:2:3984:3997:::|h[Norgannon's Prowess]|h|r",
+					["boss"] = "Argus the Unmaker",
+					["time"] = "22:58:57",
+					["relicRoll"] = true,
 					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Offspec/Greed",
-					["votes"] = 0,
+					["response"] = "Bis",
+					["isAwardReason"] = false,
 					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:151956::::::::110:64::6:3:3612:1507:3336:::|h[Garothi Feedback Conduit]|h|r",
-					["id"] = "1522256834-3",
+					["lootWon"] = "|cffa335ee|Hitem:155848::::::::110:64::6:3:3612:1512:3528:::|h[Condensed Blight Orb]|h|r",
+					["votes"] = 0,
+					["date"] = "18/03/18",
+					["responseID"] = 1,
+					["note"] = "bis trait. in der waffe 3. bester trait für sub",
+					["id"] = "1521406737-9",
+				}, -- [9]
+				{
+					["mapID"] = 1861,
+					["date"] = "06/09/18",
+					["class"] = "ROGUE",
+					["groupSize"] = 27,
+					["votes"] = 0,
+					["time"] = "21:29:36",
+					["itemReplaced1"] = "|cffa335ee|Hitem:155888::::::::120:64::23:3:4819:1512:4786:::|h[Irontide Captain's Hat]|h|r",
+					["instance"] = "Uldir-Heroic",
+					["response"] = "Upgrade",
+					["id"] = "1536258576-0",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:163596::::::::120:64::5:3:4823:1492:4786:::|h[Cowl of Dark Portents]|h|r",
+					["note"] = "gute traits",
 					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
+						0, -- [1]
+						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = 2,
-					["itemReplaced2"] = "|cffa335ee|Hitem:151962::::::::110:64::6:3:3612:1502:3528:::|h[Prototype Personnel Decimator]|h|r",
+					["responseID"] = 1,
 					["isAwardReason"] = false,
-				}, -- [22]
+					["boss"] = "G'huun",
+				}, -- [10]
 			},
 			["Eowyndra-Frostwolf"] = {
 				{
@@ -17231,24 +17495,184 @@ RCLootCouncilLootDB = {
 					["note"] = "hab 945 aber mit sockel ka",
 					["instance"] = "Antorus, the Burning Throne-Mythic",
 				}, -- [15]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "ROGUE",
+					["groupSize"] = 29,
+					["votes"] = 0,
+					["time"] = "20:46:45",
+					["itemReplaced1"] = "|cffa335ee|Hitem:163283::::::::120:64::6:3:5126:1562:4786:::|h[Honorbound Outrider's Tunic]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["id"] = "1536515205-10",
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160619::::::::120:64::3:3:4822:1477:4786:::|h[Jerkin of the Aberrant Chimera]|h|r",
+					["note"] = "immernoch für assa ",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "Fetid Devourer",
+				}, -- [16]
 			},
-			["Sidayira-Frostwolf"] = {
+			["Bêlya-Frostwolf"] = {
+				{
+					["mapID"] = 1676,
+					["date"] = "04/10/17",
+					["class"] = "SHAMAN",
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:39:24",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147179::::::::110:263::5:3:3562:1502:3336:::|h[Legguards of the Skybreaker]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Upgrade",
+					["tierToken"] = "LegsSlot",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147327::::::::110:63::6:1:569:::|h[Leggings of the Foregone Protector]|h|r",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["boss"] = "Mistress Sassz'ine",
+					["responseID"] = 1,
+					["tokenRoll"] = true,
+					["votes"] = 0,
+				}, -- [1]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:137550::::::::110:263::35:3:3536:1582:3337:::|h[Moonglaive Dervish]|h|r",
+					["mapID"] = 1676,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						1, -- [1]
+						0, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["boss"] = "Maiden of Vigilance",
+					["time"] = "21:56:52",
+					["lootWon"] = "|cffa335ee|Hitem:147115::::::::110:63::6:3:3563:1522:3336:::|h[Unfurling Origination]|h|r",
+					["difficultyID"] = 16,
+					["responseID"] = "TIMEOUT",
+					["response"] = "Candidate didn't respond on time",
+					["date"] = "04/10/17",
+				}, -- [2]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:146984:5435:::::::110:263::5:4:3562:42:1502:3336:::|h[Cloak of Stifling Brimstone]|h|r",
+					["mapID"] = 1676,
+					["date"] = "11/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["boss"] = "Goroth",
+					["time"] = "20:11:03",
+					["lootWon"] = "|cffa335ee|Hitem:146984::::::::110:63::6:3:3563:1512:3528:::|h[Cloak of Stifling Brimstone]|h|r",
+					["difficultyID"] = 16,
+					["responseID"] = 1,
+					["response"] = "Mainspec/Need",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [3]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147045::::::::110:263::6:3:3563:1512:3528:::|h[Insulated Finpads]|h|r",
+					["mapID"] = 1676,
+					["date"] = "11/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["boss"] = "Harjatan",
+					["time"] = "20:25:09",
+					["lootWon"] = "|cffa335ee|Hitem:147045::::::::110:63::6:3:3563:1527:3337:::|h[Insulated Finpads]|h|r",
+					["difficultyID"] = 16,
+					["responseID"] = 1,
+					["response"] = "Mainspec/Need",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [4]
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:146067::::::::110:263::43:4:3573:604:1572:3528:::|h[Ferocious Combatant's Accolade of Conquest]|h|r",
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["groupSize"] = 20,
+					["date"] = "11/10/17",
+					["class"] = "SHAMAN",
+					["isAwardReason"] = false,
+					["response"] = "Offspec/Greed",
+					["time"] = "20:50:15",
+					["boss"] = "Sisters of the Moon",
+					["lootWon"] = "|cffa335ee|Hitem:147005::::::::110:63::6:3:3563:1512:3528:::|h[Chalice of Moonlight]|h|r",
+					["difficultyID"] = 16,
+					["votes"] = 0,
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147010::::::::110:263::5:4:3562:40:1512:3337:::|h[Cradle of Anguish]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+				}, -- [5]
+				{
+					["mapID"] = 1676,
+					["date"] = "11/10/17",
+					["class"] = "SHAMAN",
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:48:05",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147175::::::::110:263::5:3:3562:1497:3528:::|h[Harness of the Skybreaker]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Upgrade",
+					["tokenRoll"] = true,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147318::::::::110:63::6:1:569:::|h[Chest of the Foregone Protector]|h|r",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["boss"] = "Maiden of Vigilance",
+					["responseID"] = 1,
+					["tierToken"] = "ChestSlot",
+					["votes"] = 0,
+				}, -- [6]
 				{
 					["mapID"] = 1712,
-					["date"] = "03/01/18",
-					["class"] = "ROGUE",
-					["groupSize"] = 19,
+					["date"] = "07/12/17",
+					["class"] = "SHAMAN",
+					["groupSize"] = 20,
 					["votes"] = 0,
-					["time"] = "17:42:19",
-					["itemReplaced1"] = "|cffff8000|Hitem:137021:5435:::::::110:64:::3:3529:1811:3630:::|h[The Dreadlord's Deceit]|h|r",
-					["id"] = "1514994139-3",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["note"] = "titanforge",
-					["response"] = "Reroll",
+					["time"] = "21:14:14",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152167:5435:::::::110:263::5:4:3611:40:1487:3528:::|h[Drape of Venerated Spirits]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
 					["tokenRoll"] = true,
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152517::::::::110:64::5:1:570:::|h[Cloak of the Antoran Vanquisher]|h|r",
+					["response"] = "3. Set",
 					["tierToken"] = "BackSlot",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152515::::::::110:64::6:1:569:::|h[Cloak of the Antoran Protector]|h|r",
+					["relicRoll"] = false,
 					["isAwardReason"] = false,
 					["responseID"] = 3,
 					["boss"] = "Antoran High Command",
@@ -17258,304 +17682,107 @@ RCLootCouncilLootDB = {
 						1, -- [3]
 						1, -- [4]
 					},
-				}, -- [1]
-				{
-					["mapID"] = 1712,
-					["date"] = "03/01/18",
-					["class"] = "ROGUE",
-					["groupSize"] = 19,
-					["votes"] = 0,
-					["time"] = "17:42:28",
-					["itemReplaced1"] = "|cffff8000|Hitem:137021:5435:::::::110:64:::3:3529:1811:3630:::|h[The Dreadlord's Deceit]|h|r",
-					["id"] = "1514994148-4",
-					["response"] = "Candidate is selecting response, please wait",
-					["tierToken"] = "BackSlot",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152517::::::::110:64::5:1:570:::|h[Cloak of the Antoran Vanquisher]|h|r",
-					["isAwardReason"] = false,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["responseID"] = "WAIT",
-					["boss"] = "Antoran High Command",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [2]
-				{
-					["mapID"] = 1712,
-					["date"] = "03/01/18",
-					["class"] = "ROGUE",
-					["groupSize"] = 21,
-					["votes"] = 0,
-					["time"] = "18:50:37",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147172::::::::110:64::6:3:3563:1522:3336:::|h[Fanged Slayer's Helm]|h|r",
-					["id"] = "1514998237-24",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["note"] = "3. t teil",
-					["response"] = "Upgrade",
-					["tokenRoll"] = true,
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152524::::::::110:64::5:1:570:::|h[Helm of the Antoran Vanquisher]|h|r",
-					["tierToken"] = "HeadSlot",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["boss"] = "Aggramar",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0.843137254901961, -- [3]
-						1, -- [4]
-					},
-				}, -- [3]
-				{
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147169::::::::110:64::5:3:3562:1517:3337:::|h[Fanged Slayer's Chestguard]|h|r",
-					["id"] = "1514999033-28",
-					["groupSize"] = 16,
-					["date"] = "03/01/18",
-					["class"] = "ROGUE",
-					["difficultyID"] = 15,
-					["response"] = "Candidate is selecting response, please wait",
-					["isAwardReason"] = false,
-					["boss"] = "Argus the Unmaker",
-					["time"] = "19:03:53",
-					["lootWon"] = "|cffa335ee|Hitem:151982::::::::110:64::5:3:3611:1487:3528:::|h[Vest of Waning Life]|h|r",
-					["votes"] = 0,
-					["responseID"] = "WAIT",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-				}, -- [4]
-				{
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151990::::::::110:64::5:5:3611:1808:40:1487:3528:::|h[Portal Keeper's Cincture]|h|r",
-					["id"] = "1515006420-42",
-					["groupSize"] = 20,
-					["date"] = "03/01/18",
-					["class"] = "ROGUE",
-					["difficultyID"] = 16,
-					["response"] = "Mainspec/Need",
-					["isAwardReason"] = false,
-					["boss"] = "Portal Keeper Hasabel",
-					["time"] = "21:07:00",
-					["lootWon"] = "|cffa335ee|Hitem:151990::::::::110:64::6:4:3612:43:1502:3528:::|h[Portal Keeper's Cincture]|h|r",
-					["votes"] = 0,
-					["responseID"] = 1,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-				}, -- [5]
-				{
-					["mapID"] = 1712,
-					["date"] = "03/01/18",
-					["class"] = "ROGUE",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "21:27:14",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147169::::::::110:64::5:3:3562:1517:3337:::|h[Fanged Slayer's Chestguard]|h|r",
-					["id"] = "1515007634-47",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["note"] = "4.",
-					["response"] = "Upgrade",
-					["tokenRoll"] = true,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152518::::::::110:64::6:1:569:::|h[Chest of the Antoran Vanquisher]|h|r",
-					["tierToken"] = "ChestSlot",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["boss"] = "The Defense of Eonar",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0.843137254901961, -- [3]
-						1, -- [4]
-					},
-				}, -- [6]
-				{
-					["mapID"] = 1712,
-					["date"] = "11/01/18",
-					["class"] = "ROGUE",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "21:54:49",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147172::::::::110:64::6:3:3563:1522:3336:::|h[Fanged Slayer's Helm]|h|r",
-					["id"] = "1515700489-2",
-					["response"] = "Candidate is selecting response, please wait",
-					["tierToken"] = "HeadSlot",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152524::::::::110:64::6:1:569:::|h[Helm of the Antoran Vanquisher]|h|r",
-					["isAwardReason"] = false,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["responseID"] = "WAIT",
-					["boss"] = "Aggramar",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 				}, -- [7]
 				{
-					["mapID"] = 1530,
-					["date"] = "08/02/18",
-					["class"] = "ROGUE",
+					["mapID"] = 1712,
+					["date"] = "20/12/17",
+					["class"] = "SHAMAN",
 					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "21:34:04",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152282::::::::110:64::6:3:3612:1527:3337:::|h[Caustic Titanspite Legguards]|h|r",
-					["id"] = "1518118444-10",
-					["instance"] = "The Nighthold-Mythic",
-					["note"] = "transmog",
-					["response"] = "Upgrade",
-					["tokenRoll"] = true,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:143569::::::::110:64::6:1:569:::|h[Leggings of the Foreseen Vanquisher]|h|r",
-					["tierToken"] = "LegsSlot",
 					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["boss"] = "Gul'dan",
+					["time"] = "20:28:42",
+					["relicRoll"] = true,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Crucible",
 					["color"] = {
 						0, -- [1]
-						1, -- [2]
-						0.843137254901961, -- [3]
+						0.682352941176471, -- [2]
+						0.701960784313726, -- [3]
 						1, -- [4]
 					},
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152036::::::::110:64::6:3:3612:1502:3528:::|h[Hellfire Ignition Switch]|h|r",
+					["id"] = "1513794522-38",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147088::::::::110:64::6:3:3563:1527:3337:::|h[Smoldering Thumbscrews]|h|r",
+					["responseID"] = 3,
+					["boss"] = "Garothi Worldbreaker",
+					["votes"] = 0,
 				}, -- [8]
 				{
 					["mapID"] = 1712,
+					["date"] = "20/12/17",
+					["class"] = "SHAMAN",
+					["groupSize"] = 20,
+					["boss"] = "The Defense of Eonar",
+					["time"] = "22:08:08",
+					["relicRoll"] = true,
+					["id"] = "1513800488-52",
+					["note"] = "+4 wplvl BisTrait",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Bis",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152061::::::::110:62::6:3:3612:1502:3528:::|h[Droplets of the Cleansing Storm]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147115::::::::110:62::6:3:3563:1517:3336:::|h[Unfurling Origination]|h|r",
 					["color"] = {
 						0, -- [1]
 						0.701960784313726, -- [2]
 						0.109803921568627, -- [3]
 						1, -- [4]
 					},
-					["class"] = "ROGUE",
-					["groupSize"] = 20,
-					["boss"] = "Argus the Unmaker",
-					["time"] = "22:58:57",
-					["relicRoll"] = true,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Bis",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:155848::::::::110:64::6:3:3612:1512:3528:::|h[Condensed Blight Orb]|h|r",
-					["votes"] = 0,
-					["date"] = "18/03/18",
 					["responseID"] = 1,
-					["note"] = "bis trait. in der waffe 3. bester trait für sub",
-					["id"] = "1521406737-9",
+					["itemReplaced2"] = "|cffa335ee|Hitem:147113::::::::110:62::6:3:3563:1512:3528:::|h[Flawless Hurricane Pearl]|h|r",
+					["votes"] = 0,
 				}, -- [9]
-			},
-			["Profit-Frostwolf"] = {
 				{
 					["mapID"] = 1712,
 					["date"] = "03/01/18",
-					["class"] = "PALADIN",
-					["groupSize"] = 21,
+					["class"] = "SHAMAN",
+					["groupSize"] = 20,
 					["votes"] = 0,
-					["time"] = "18:01:26",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152148::151580::::::110:64::5:5:3611:1808:42:1487:3528:::|h[Light's Vanguard Breastplate]|h|r",
-					["id"] = "1514995286-7",
+					["time"] = "21:38:36",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152170::::::::110:64::5:3:3611:1487:3528:::|h[Leggings of Venerated Spirits]|h|r",
+					["id"] = "1515008316-51",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["note"] = "945(an) > 960",
+					["response"] = "Upgrade",
 					["tokenRoll"] = true,
-					["response"] = "Reroll",
-					["tierToken"] = "ChestSlot",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152519::::::::110:64::5:1:570:::|h[Chest of the Antoran Conqueror]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152529::::::::110:64::6:1:569:::|h[Leggings of the Antoran Protector]|h|r",
+					["tierToken"] = "LegsSlot",
 					["isAwardReason"] = false,
-					["responseID"] = 3,
-					["boss"] = "The Defense of Eonar",
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [1]
-			},
-			["Belyâ-Frostwolf"] = {
-				{
-					["mapID"] = 1712,
-					["date"] = "03/01/18",
-					["class"] = "MONK",
-					["groupSize"] = 21,
-					["votes"] = 0,
-					["time"] = "18:50:48",
-					["itemReplaced1"] = "|cffa335ee|Hitem:151987::::::::110:64::4:3:3613:1457:3528:::|h[Breach-Blocker Legguards]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["response"] = "Mainspec/Need",
-					["id"] = "1514998248-26",
-					["difficultyID"] = 15,
-					["lootWon"] = "|cffa335ee|Hitem:152282::::::::110:64::5:4:3611:42:1487:3528:::|h[Caustic Titanspite Legguards]|h|r",
-					["note"] = "wenns keiner will REEEEE",
+					["responseID"] = 1,
+					["boss"] = "Imonar the Soulhunter",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
-						0, -- [3]
+						0.843137254901961, -- [3]
 						1, -- [4]
 					},
-					["responseID"] = 1,
-					["isAwardReason"] = false,
+				}, -- [10]
+				{
+					["mapID"] = 1712,
+					["date"] = "14/02/18",
+					["class"] = "SHAMAN",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "22:58:43",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152684::::::::110:64::6:3:3612:1502:3528:::|h[Greatboots of the Searing Tempest]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Mainspec/Need",
 					["boss"] = "Aggramar",
-				}, -- [1]
-			},
-			["Morthan-Frostwolf"] = {
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:151313::151580::::::110:64::35:4:3536:1808:1612:3337:::|h[Vest of the Void's Embrace]|h|r",
-					["mapID"] = 1712,
-					["date"] = "10/01/18",
-					["response"] = "Mainspec/Need",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152684::::::::110:64::6:4:3612:1808:1507:3336:::|h[Greatboots of the Searing Tempest]|h|r",
+					["isAwardReason"] = false,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "DEMONHUNTER",
-					["boss"] = "Varimathras",
-					["groupSize"] = 20,
-					["time"] = "22:03:27",
-					["votes"] = 0,
-					["lootWon"] = "|cffa335ee|Hitem:151979::::::::110:64::6:3:3612:1512:3336:::|h[Vest of Unfathomable Anguish]|h|r",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
 					["responseID"] = 1,
-					["id"] = "1515614607-21",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-				}, -- [1]
-				{
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["itemReplaced1"] = "|cffff8000|Hitem:151799::::::::110:64:::2:3459:3630:::|h[Oblivion's Embrace]|h|r",
-					["id"] = "1517431878-29",
-					["groupSize"] = 20,
-					["date"] = "31/01/18",
-					["class"] = "DEMONHUNTER",
-					["difficultyID"] = 16,
-					["response"] = "Autopass",
-					["isAwardReason"] = false,
-					["boss"] = "The Coven of Shivarra",
-					["time"] = "22:51:18",
-					["lootWon"] = "|cffa335ee|Hitem:152015::::::::110:64::6:3:3612:1502:3528:::|h[Greaves of Mercurial Allegiance]|h|r",
-					["votes"] = 0,
-					["responseID"] = "AUTOPASS",
-					["color"] = {
-						0.7, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["mapID"] = 1712,
-				}, -- [2]
+					["note"] = "+10%",
+					["id"] = "1518641923-37",
+				}, -- [11]
 			},
 			["Greenthumbs-Frostwolf"] = {
 				{
@@ -17608,18 +17835,139 @@ RCLootCouncilLootDB = {
 					["tokenRoll"] = true,
 				}, -- [2]
 			},
-			["Tentrisha-Frostwolf"] = {
+			["Belyâ-Frostwolf"] = {
 				{
-					["relicRoll"] = true,
-					["mapID"] = 1676,
+					["mapID"] = 1712,
+					["date"] = "03/01/18",
+					["class"] = "MONK",
+					["groupSize"] = 21,
+					["votes"] = 0,
+					["time"] = "18:50:48",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151987::::::::110:64::4:3:3613:1457:3528:::|h[Breach-Blocker Legguards]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Mainspec/Need",
+					["id"] = "1514998248-26",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152282::::::::110:64::5:4:3611:42:1487:3528:::|h[Caustic Titanspite Legguards]|h|r",
+					["note"] = "wenns keiner will REEEEE",
 					["color"] = {
-						0.701960784313726, -- [1]
-						0.694117647058824, -- [2]
-						0.0274509803921569, -- [3]
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
 						1, -- [4]
 					},
+					["responseID"] = 1,
+					["isAwardReason"] = false,
+					["boss"] = "Aggramar",
+				}, -- [1]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "MONK",
+					["groupSize"] = 29,
+					["boss"] = "MOTHER",
+					["time"] = "20:33:34",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159635:5965:::::::120:64::16:3:5005:1527:4786:::|h[Bloody Tideturner]|h|r",
+					["id"] = "1536514414-1",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160682::::::::120:64::3:3:4798:1477:4786:::|h[Mother's Twin Gaze]|h|r",
+					["note"] = "340 an, 13% upgrade",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:159648:5962:::::::120:64::23:4:4779:42:1512:4786:::|h[Bainbridge's Blackjack]|h|r",
+					["votes"] = 0,
+				}, -- [2]
+			},
+			["Morthan-Frostwolf"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:151313::151580::::::110:64::35:4:3536:1808:1612:3337:::|h[Vest of the Void's Embrace]|h|r",
+					["mapID"] = 1712,
+					["date"] = "10/01/18",
+					["response"] = "Mainspec/Need",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEMONHUNTER",
+					["boss"] = "Varimathras",
 					["groupSize"] = 20,
+					["time"] = "22:03:27",
+					["votes"] = 0,
+					["lootWon"] = "|cffa335ee|Hitem:151979::::::::110:64::6:3:3612:1512:3336:::|h[Vest of Unfathomable Anguish]|h|r",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["responseID"] = 1,
+					["id"] = "1515614607-21",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+				}, -- [1]
+				{
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["itemReplaced1"] = "|cffff8000|Hitem:151799::::::::110:64:::2:3459:3630:::|h[Oblivion's Embrace]|h|r",
+					["id"] = "1517431878-29",
+					["groupSize"] = 20,
+					["date"] = "31/01/18",
+					["class"] = "DEMONHUNTER",
+					["difficultyID"] = 16,
+					["response"] = "Autopass",
+					["isAwardReason"] = false,
+					["boss"] = "The Coven of Shivarra",
+					["time"] = "22:51:18",
+					["lootWon"] = "|cffa335ee|Hitem:152015::::::::110:64::6:3:3612:1502:3528:::|h[Greaves of Mercurial Allegiance]|h|r",
+					["votes"] = 0,
+					["responseID"] = "AUTOPASS",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["mapID"] = 1712,
+				}, -- [2]
+			},
+			["Profit-Frostwolf"] = {
+				{
+					["mapID"] = 1712,
+					["date"] = "03/01/18",
+					["class"] = "PALADIN",
+					["groupSize"] = 21,
+					["votes"] = 0,
+					["time"] = "18:01:26",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152148::151580::::::110:64::5:5:3611:1808:42:1487:3528:::|h[Light's Vanguard Breastplate]|h|r",
+					["id"] = "1514995286-7",
+					["tokenRoll"] = true,
+					["response"] = "Reroll",
+					["tierToken"] = "ChestSlot",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152519::::::::110:64::5:1:570:::|h[Chest of the Antoran Conqueror]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["isAwardReason"] = false,
+					["responseID"] = 3,
+					["boss"] = "The Defense of Eonar",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+			},
+			["Tentrisha-Frostwolf"] = {
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147105::::::::110:270::5:3:3562:1507:3336:::|h[Moontalon's Feather]|h|r",
 					["date"] = "08/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "MONK",
 					["difficultyID"] = 16,
 					["response"] = "Upgrade",
@@ -17629,8 +17977,13 @@ RCLootCouncilLootDB = {
 					["time"] = "21:03:13",
 					["isAwardReason"] = false,
 					["responseID"] = 2,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147105::::::::110:270::5:3:3562:1507:3336:::|h[Moontalon's Feather]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.694117647058824, -- [2]
+						0.0274509803921569, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = true,
 				}, -- [1]
 				{
 					["mapID"] = 1676,
@@ -17708,8 +18061,13 @@ RCLootCouncilLootDB = {
 				}, -- [4]
 				{
 					["mapID"] = 1530,
-					["instance"] = "The Nighthold-Mythic",
 					["date"] = "23/11/17",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "MONK",
 					["response"] = "Candidate is selecting response, please wait",
 					["groupSize"] = 20,
@@ -17720,24 +18078,14 @@ RCLootCouncilLootDB = {
 					["votes"] = 0,
 					["responseID"] = "WAIT",
 					["difficultyID"] = 16,
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
+					["instance"] = "The Nighthold-Mythic",
 				}, -- [5]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Offspec/Greed",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147151::::::::110:270::5:3:3562:1507:3336:::|h[Xuen's Tunic]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Offspec/Greed",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MONK",
 					["isAwardReason"] = false,
 					["groupSize"] = 25,
@@ -17747,20 +18095,20 @@ RCLootCouncilLootDB = {
 					["boss"] = "Varimathras",
 					["votes"] = 0,
 					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147151::::::::110:270::5:3:3562:1507:3336:::|h[Xuen's Tunic]|h|r",
-				}, -- [6]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
-						0, -- [1]
-						1, -- [2]
+						1, -- [1]
+						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 19,
+					["relicRoll"] = false,
+				}, -- [6]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:146984:5433:::::::110:270::6:3:3563:1522:3336:::|h[Cloak of Stifling Brimstone]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 19,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "MONK",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -17770,8 +18118,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152062::::::::110:64::5:3:3611:1487:3528:::|h[Greatcloak of the Dark Pantheon]|h|r",
 					["boss"] = "Aggramar",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:146984:5433:::::::110:270::6:3:3563:1522:3336:::|h[Cloak of Stifling Brimstone]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [7]
 				{
 					["mapID"] = 1712,
@@ -17799,11 +18152,16 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [8]
 				{
-					["mapID"] = 1712,
 					["itemReplaced1"] = "|cffa335ee|Hitem:152144::::::::110:270::3:3:3610:1472:3528:::|h[Grips of Chi'Ji]|h|r",
-					["date"] = "07/12/17",
-					["groupSize"] = 20,
+					["relicRoll"] = false,
 					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["groupSize"] = 20,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "MONK",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -17813,13 +18171,8 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152086::::::::110:64::6:3:3612:1502:3528:::|h[Grips of Hungering Shadows]|h|r",
 					["boss"] = "Portal Keeper Hasabel",
 					["responseID"] = 1,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["relicRoll"] = false,
+					["date"] = "07/12/17",
+					["mapID"] = 1712,
 				}, -- [9]
 				{
 					["mapID"] = 1712,
@@ -18118,283 +18471,37 @@ RCLootCouncilLootDB = {
 					["tierToken"] = "ShoulderSlot",
 					["tokenRoll"] = true,
 				}, -- [21]
-			},
-			["Bêlya-Frostwolf"] = {
 				{
-					["mapID"] = 1676,
-					["date"] = "04/10/17",
-					["class"] = "SHAMAN",
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:39:24",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147179::::::::110:263::5:3:3562:1502:3336:::|h[Legguards of the Skybreaker]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["instance"] = "Uldir-Normal",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159129:5965:::::::120:64::23:3:4779:1522:4783:::|h[Flamecaster Botefeux]|h|r",
+					["id"] = "1536514953-6",
+					["groupSize"] = 28,
+					["date"] = "09/09/18",
+					["class"] = "MONK",
+					["difficultyID"] = 14,
 					["response"] = "Upgrade",
-					["tierToken"] = "LegsSlot",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147327::::::::110:63::6:1:569:::|h[Leggings of the Foregone Protector]|h|r",
-					["color"] = {
-						0.1, -- [1]
-						1, -- [2]
-						0.5, -- [3]
-						1, -- [4]
-					},
-					["boss"] = "Mistress Sassz'ine",
-					["responseID"] = 1,
-					["tokenRoll"] = true,
-					["votes"] = 0,
-				}, -- [1]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:137550::::::::110:263::35:3:3536:1582:3337:::|h[Moonglaive Dervish]|h|r",
-					["mapID"] = 1676,
-					["date"] = "04/10/17",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["class"] = "SHAMAN",
 					["isAwardReason"] = false,
-					["groupSize"] = 20,
+					["boss"] = "Fetid Devourer",
+					["time"] = "20:42:33",
+					["lootWon"] = "|cffa335ee|Hitem:160695::::::::120:64::3:3:4798:1477:4786:::|h[Uldir Subject Manifest]|h|r",
 					["votes"] = 0,
-					["boss"] = "Maiden of Vigilance",
-					["time"] = "21:56:52",
-					["lootWon"] = "|cffa335ee|Hitem:147115::::::::110:63::6:3:3563:1522:3336:::|h[Unfurling Origination]|h|r",
-					["difficultyID"] = 16,
-					["responseID"] = "TIMEOUT",
-					["response"] = "Candidate didn't respond on time",
-					["color"] = {
-						1, -- [1]
-						0, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [2]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:146984:5435:::::::110:263::5:4:3562:42:1502:3336:::|h[Cloak of Stifling Brimstone]|h|r",
-					["mapID"] = 1676,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["date"] = "11/10/17",
-					["class"] = "SHAMAN",
-					["isAwardReason"] = false,
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["boss"] = "Goroth",
-					["time"] = "20:11:03",
-					["lootWon"] = "|cffa335ee|Hitem:146984::::::::110:63::6:3:3563:1512:3528:::|h[Cloak of Stifling Brimstone]|h|r",
-					["difficultyID"] = 16,
-					["responseID"] = 1,
-					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
-				}, -- [3]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:147045::::::::110:263::6:3:3563:1512:3528:::|h[Insulated Finpads]|h|r",
-					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["date"] = "11/10/17",
-					["class"] = "SHAMAN",
-					["isAwardReason"] = false,
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["boss"] = "Harjatan",
-					["time"] = "20:25:09",
-					["lootWon"] = "|cffa335ee|Hitem:147045::::::::110:63::6:3:3563:1527:3337:::|h[Insulated Finpads]|h|r",
-					["difficultyID"] = 16,
-					["responseID"] = 1,
-					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
-				}, -- [4]
-				{
-					["itemReplaced1"] = "|cffa335ee|Hitem:146067::::::::110:263::43:4:3573:604:1572:3528:::|h[Ferocious Combatant's Accolade of Conquest]|h|r",
-					["mapID"] = 1676,
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 20,
-					["date"] = "11/10/17",
-					["class"] = "SHAMAN",
-					["isAwardReason"] = false,
-					["response"] = "Offspec/Greed",
-					["time"] = "20:50:15",
-					["boss"] = "Sisters of the Moon",
-					["lootWon"] = "|cffa335ee|Hitem:147005::::::::110:63::6:3:3563:1512:3528:::|h[Chalice of Moonlight]|h|r",
-					["difficultyID"] = 16,
-					["votes"] = 0,
-					["responseID"] = 2,
-					["itemReplaced2"] = "|cffa335ee|Hitem:147010::::::::110:263::5:4:3562:40:1512:3337:::|h[Cradle of Anguish]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-				}, -- [5]
-				{
-					["mapID"] = 1676,
-					["date"] = "11/10/17",
-					["class"] = "SHAMAN",
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "21:48:05",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147175::::::::110:263::5:3:3562:1497:3528:::|h[Harness of the Skybreaker]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Upgrade",
-					["tokenRoll"] = true,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147318::::::::110:63::6:1:569:::|h[Chest of the Foregone Protector]|h|r",
-					["color"] = {
-						0.1, -- [1]
-						1, -- [2]
-						0.5, -- [3]
-						1, -- [4]
-					},
-					["boss"] = "Maiden of Vigilance",
-					["responseID"] = 1,
-					["tierToken"] = "ChestSlot",
-					["votes"] = 0,
-				}, -- [6]
-				{
-					["mapID"] = 1712,
-					["date"] = "07/12/17",
-					["class"] = "SHAMAN",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "21:14:14",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152167:5435:::::::110:263::5:4:3611:40:1487:3528:::|h[Drape of Venerated Spirits]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["tokenRoll"] = true,
-					["response"] = "3. Set",
-					["tierToken"] = "BackSlot",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152515::::::::110:64::6:1:569:::|h[Cloak of the Antoran Protector]|h|r",
-					["relicRoll"] = false,
-					["isAwardReason"] = false,
-					["responseID"] = 3,
-					["boss"] = "Antoran High Command",
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [7]
-				{
-					["mapID"] = 1712,
-					["date"] = "20/12/17",
-					["class"] = "SHAMAN",
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "20:28:42",
-					["relicRoll"] = true,
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Crucible",
-					["color"] = {
-						0, -- [1]
-						0.682352941176471, -- [2]
-						0.701960784313726, -- [3]
-						1, -- [4]
-					},
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152036::::::::110:64::6:3:3612:1502:3528:::|h[Hellfire Ignition Switch]|h|r",
-					["id"] = "1513794522-38",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147088::::::::110:64::6:3:3563:1527:3337:::|h[Smoldering Thumbscrews]|h|r",
-					["responseID"] = 3,
-					["boss"] = "Garothi Worldbreaker",
-					["votes"] = 0,
-				}, -- [8]
-				{
-					["mapID"] = 1712,
-					["date"] = "20/12/17",
-					["class"] = "SHAMAN",
-					["groupSize"] = 20,
-					["boss"] = "The Defense of Eonar",
-					["time"] = "22:08:08",
-					["relicRoll"] = true,
-					["id"] = "1513800488-52",
-					["note"] = "+4 wplvl BisTrait",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Bis",
-					["isAwardReason"] = false,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152061::::::::110:62::6:3:3612:1502:3528:::|h[Droplets of the Cleansing Storm]|h|r",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147115::::::::110:62::6:3:3563:1517:3336:::|h[Unfurling Origination]|h|r",
-					["color"] = {
-						0, -- [1]
-						0.701960784313726, -- [2]
-						0.109803921568627, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:147113::::::::110:62::6:3:3563:1512:3528:::|h[Flawless Hurricane Pearl]|h|r",
-					["votes"] = 0,
-				}, -- [9]
-				{
-					["mapID"] = 1712,
-					["date"] = "03/01/18",
-					["class"] = "SHAMAN",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "21:38:36",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152170::::::::110:64::5:3:3611:1487:3528:::|h[Leggings of Venerated Spirits]|h|r",
-					["id"] = "1515008316-51",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["note"] = "945(an) > 960",
-					["response"] = "Upgrade",
-					["tokenRoll"] = true,
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152529::::::::110:64::6:1:569:::|h[Leggings of the Antoran Protector]|h|r",
-					["tierToken"] = "LegsSlot",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["boss"] = "Imonar the Soulhunter",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0.843137254901961, -- [3]
-						1, -- [4]
-					},
-				}, -- [10]
-				{
-					["mapID"] = 1712,
-					["date"] = "14/02/18",
-					["class"] = "SHAMAN",
-					["groupSize"] = 20,
-					["votes"] = 0,
-					["time"] = "22:58:43",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152684::::::::110:64::6:3:3612:1502:3528:::|h[Greatboots of the Searing Tempest]|h|r",
-					["instance"] = "Antorus, the Burning Throne-Mythic",
-					["response"] = "Mainspec/Need",
-					["boss"] = "Aggramar",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:152684::::::::110:64::6:4:3612:1808:1507:3336:::|h[Greatboots of the Searing Tempest]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["note"] = "+10%",
-					["id"] = "1518641923-37",
-				}, -- [11]
+					["mapID"] = 1861,
+				}, -- [22]
 			},
 			["Emowyndra-Frostwolf"] = {
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1712,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["groupSize"] = 25,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147174::::::::110:261::3:4:3561:43:1482:3528:::|h[Fanged Slayer's Shoulderpads]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "ROGUE",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -18404,20 +18511,20 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151988::::::::110:64::3:3:3610:1482:3336:::|h[Shoulderpads of the Demonic Blitz]|h|r",
 					["boss"] = "Garothi Worldbreaker",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147174::::::::110:261::3:4:3561:43:1482:3528:::|h[Fanged Slayer's Shoulderpads]|h|r",
-				}, -- [1]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
+						0, -- [1]
+						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 25,
+					["relicRoll"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147172::::::::110:261::3:3:3561:1482:3528:::|h[Fanged Slayer's Helm]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "ROGUE",
 					["isAwardReason"] = false,
 					["response"] = "Offspec/Greed",
@@ -18427,20 +18534,20 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152681::::::::110:64::3:3:3610:1472:3528:::|h[Headdress of Living Brambles]|h|r",
 					["boss"] = "The Defense of Eonar",
 					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147172::::::::110:261::3:3:3561:1482:3528:::|h[Fanged Slayer's Helm]|h|r",
-				}, -- [2]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
-						0, -- [1]
-						1, -- [2]
+						1, -- [1]
+						0.5, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 24,
+					["relicRoll"] = false,
+				}, -- [2]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147039::::::::110:261::3:3:3561:1497:3337:::|h[Cinch of Sizzling Flesh]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 24,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "ROGUE",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -18450,9 +18557,544 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:151991::::::::110:64::3:3:3610:1472:3528:::|h[Belt of Fractured Sanity]|h|r",
 					["boss"] = "Varimathras",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147039::::::::110:261::3:3:3561:1497:3337:::|h[Cinch of Sizzling Flesh]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [3]
+			},
+			["Locura-Frostwolf"] = {
+				{
+					["itemReplaced1"] = "|cffa335ee|Hitem:147000::::::::110:258::5:3:3562:1497:3528:::|h[Ravenous Devotee's Bracelets]|h|r",
+					["mapID"] = 1676,
+					["date"] = "27/09/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "PRIEST",
+					["isAwardReason"] = false,
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["boss"] = "Harjatan",
+					["lootWon"] = "|cffa335ee|Hitem:147000::::::::110:63::6:3:3563:1517:3336:::|h[Ravenous Devotee's Bracelets]|h|r",
+					["difficultyID"] = 16,
+					["time"] = "20:27:24",
+					["responseID"] = 1,
+					["response"] = "Mainspec/Need",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["mapID"] = 1676,
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "21:32:33",
+					["itemReplaced1"] = "|cffa335ee|Hitem:146992::::::::110:258::6:3:3563:1517:3336:::|h[Legwraps of Fused Loathing]|h|r",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Upgrade to existing tier/random upgrade",
+					["tokenRoll"] = true,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147326::::::::110:63::6:1:569:::|h[Leggings of the Foregone Conqueror]|h|r",
+					["tierToken"] = "LegsSlot",
+					["date"] = "27/09/17",
+					["responseID"] = 3,
+					["votes"] = 0,
+					["boss"] = "Mistress Sassz'ine",
+				}, -- [2]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147168:5929:::::::110:258::6:3:3563:1517:3336:::|h[Mantle of Blind Absolution]|h|r",
+					["date"] = "23/11/17",
+					["groupSize"] = 20,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "PRIEST",
+					["difficultyID"] = 16,
+					["response"] = "Mainspec/Need",
+					["votes"] = 0,
+					["boss"] = "Sisters of the Moon",
+					["lootWon"] = "|cffa335ee|Hitem:146997::::::::110:64::6:3:3563:1517:3336:::|h[Shoulderpads of Whispering Twilight]|h|r",
+					["time"] = "20:29:12",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
+				}, -- [3]
+				{
+					["mapID"] = 1712,
+					["date"] = "29/11/17",
+					["class"] = "PRIEST",
+					["groupSize"] = 17,
+					["boss"] = "Felhounds of Sargeras",
+					["time"] = "20:19:54",
+					["relicRoll"] = true,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Upgrade",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152056::::::::110:64::5:3:3611:1487:3528:::|h[Corrupting Dewclaw]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:142191::::::::110:258::35:3:3536:1547:3337:::|h[Dirge of the Hunted]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.694117647058824, -- [2]
+						0.0274509803921569, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:137347::::::::110:258::35:3:3418:1587:3337:::|h[Fragment of Loathing]|h|r",
+					["isAwardReason"] = false,
+				}, -- [4]
+				{
+					["mapID"] = 1712,
+					["date"] = "29/11/17",
+					["class"] = "PRIEST",
+					["groupSize"] = 23,
+					["boss"] = "Felhounds of Sargeras",
+					["time"] = "20:20:54",
+					["relicRoll"] = true,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["response"] = "Upgrade",
+					["votes"] = 0,
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152056::::::::110:64::5:3:3611:1487:3528:::|h[Corrupting Dewclaw]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:142191::::::::110:258::35:3:3536:1547:3337:::|h[Dirge of the Hunted]|h|r",
+					["color"] = {
+						0.701960784313726, -- [1]
+						0.694117647058824, -- [2]
+						0.0274509803921569, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:137347::::::::110:258::35:3:3418:1587:3337:::|h[Fragment of Loathing]|h|r",
+					["isAwardReason"] = false,
+				}, -- [5]
+				{
+					["mapID"] = 1712,
+					["date"] = "29/11/17",
+					["class"] = "PRIEST",
+					["groupSize"] = 10,
+					["votes"] = 0,
+					["time"] = "20:38:45",
+					["itemReplaced1"] = "|cffa335ee|Hitem:137531:5436:151580::::::110:258::35:4:3536:1808:1582:3337:::|h[Cloak of Enthralling Darkness]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["color"] = {
+						0.1, -- [1]
+						1, -- [2]
+						0.5, -- [3]
+						1, -- [4]
+					},
+					["response"] = "1. Set",
+					["boss"] = "Antoran High Command",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152516::::::::110:64::5:1:570:::|h[Cloak of the Antoran Conqueror]|h|r",
+					["relicRoll"] = false,
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["tierToken"] = "BackSlot",
+					["tokenRoll"] = true,
+				}, -- [6]
+				{
+					["mapID"] = 1712,
+					["date"] = "30/11/17",
+					["class"] = "PRIEST",
+					["groupSize"] = 24,
+					["votes"] = 0,
+					["time"] = "20:46:04",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147165::::::::110:258::6:4:3563:43:1517:3336:::|h[Hood of Blind Absolution]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["tokenRoll"] = true,
+					["response"] = "4. set",
+					["tierToken"] = "HeadSlot",
+					["difficultyID"] = 15,
+					["lootWon"] = "|cffa335ee|Hitem:152525::::::::110:64::5:1:570:::|h[Helm of the Antoran Conqueror]|h|r",
+					["relicRoll"] = false,
+					["isAwardReason"] = false,
+					["responseID"] = 4,
+					["boss"] = "Aggramar",
+					["color"] = {
+						0.501960784313726, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+				}, -- [7]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:140898:5437:::::::110:258::6:3:3445:1517:3337:::|h[Radiant String of Scorpid Eyes]|h|r",
+					["date"] = "30/11/17",
+					["groupSize"] = 10,
+					["instance"] = "Antorus, the Burning Throne-Heroic",
+					["class"] = "PRIEST",
+					["isAwardReason"] = false,
+					["response"] = "Mainspec/Need",
+					["difficultyID"] = 15,
+					["votes"] = 0,
+					["time"] = "21:32:17",
+					["lootWon"] = "|cffa335ee|Hitem:152283::::::::110:64::5:3:3611:1507:3337:::|h[Chain of the Unmaker]|h|r",
+					["boss"] = "Argus the Unmaker",
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
+				}, -- [8]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:146987::::::::110:258::6:3:3563:1512:3528:::|h[Slippers of Enduring Vigilance]|h|r",
+					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
+					["class"] = "PRIEST",
+					["isAwardReason"] = false,
+					["response"] = "Pass",
+					["difficultyID"] = 14,
+					["votes"] = 0,
+					["time"] = "22:16:01",
+					["lootWon"] = "|cffa335ee|Hitem:151945::::::::110:64::3:3:3610:1482:3336:::|h[Lady Dacidion's Silk Slippers]|h|r",
+					["boss"] = "Portal Keeper Hasabel",
+					["responseID"] = "PASS",
+					["color"] = {
+						0.7, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
+				}, -- [9]
+				{
+					["mapID"] = 1676,
+					["date"] = "03/12/17",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["boss"] = "Sisters of the Moon",
+					["time"] = "19:44:28",
+					["relicRoll"] = false,
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["response"] = "Offspec/Greed",
+					["votes"] = 0,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:147005::::::::110:64::6:3:3563:1512:3528:::|h[Chalice of Moonlight]|h|r",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151955::::::::110:258::5:3:3611:1487:3528:::|h[Acrid Catalyst Injector]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:147016::151583::::::110:258::6:4:3563:1808:1512:3528:::|h[Terror From Below]|h|r",
+					["isAwardReason"] = false,
+				}, -- [10]
+				{
+					["mapID"] = 1676,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147081::::::::110:258::6:3:3563:1522:3336:::|h[Pungent Chum]|h|r",
+					["date"] = "03/12/17",
+					["response"] = "Bis",
+					["instance"] = "Tomb of Sargeras-Mythic",
+					["class"] = "PRIEST",
+					["votes"] = 0,
+					["groupSize"] = 20,
+					["time"] = "21:34:06",
+					["boss"] = "Kil'jaeden",
+					["lootWon"] = "|cffa335ee|Hitem:147082::::::::110:64::6:3:3563:1532:3336:::|h[Man'ari Blood Pact]|h|r",
+					["difficultyID"] = 16,
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						0.701960784313726, -- [2]
+						0.109803921568627, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = true,
+				}, -- [11]
+				{
+					["mapID"] = 1712,
+					["date"] = "13/12/17",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "21:19:01",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147167::::::::110:64::6:3:3563:1522:3336:::|h[Robes of Blind Absolution]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Mainspec/Need",
+					["boss"] = "Felhounds of Sargeras",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:64::6:4:3612:43:1512:3336:::|h[Vestments of Enflamed Blight]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["note"] = "siehe andere Chest; 28% Upgrade",
+					["id"] = "1513192741-11",
+				}, -- [12]
+				{
+					["mapID"] = 1712,
+					["date"] = "13/12/17",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["boss"] = "The Defense of Eonar",
+					["time"] = "22:56:52",
+					["relicRoll"] = true,
+					["id"] = "1513198612-21",
+					["votes"] = 0,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Bis",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152054::::::::110:62::6:3:3612:1507:3336:::|h[Unwavering Soul Essence]|h|r",
+					["color"] = {
+						0, -- [1]
+						0.701960784313726, -- [2]
+						0.109803921568627, -- [3]
+						1, -- [4]
+					},
+					["itemReplaced1"] = "|cffa335ee|Hitem:155852::::::::110:62::5:3:3611:1507:3336:::|h[Volatile Soul Fragment]|h|r",
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:152056::::::::110:62::5:3:3611:1487:3528:::|h[Corrupting Dewclaw]|h|r",
+					["note"] = "+6ilvl; bis trait;T1 alt: sehr schlecht;T2:mittel;T3:2.bestes",
+				}, -- [13]
+				{
+					["mapID"] = 1712,
+					["date"] = "03/01/18",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["boss"] = "Garothi Worldbreaker",
+					["time"] = "20:09:35",
+					["itemReplaced1"] = "|cffa335ee|Hitem:154177::::::::110:64::3:2:3985:3990:::|h[Norgannon's Prowess]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Offspec/Greed",
+					["isAwardReason"] = false,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:151956::::::::110:64::6:3:3612:1502:3528:::|h[Garothi Feedback Conduit]|h|r",
+					["id"] = "1515002975-34",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:151955::::::::110:64::5:3:3611:1487:3528:::|h[Acrid Catalyst Injector]|h|r",
+					["votes"] = 0,
+				}, -- [14]
+				{
+					["mapID"] = 1712,
+					["date"] = "10/01/18",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "20:17:18",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151950::::::::110:261::5:3:3611:1487:3528:::|h[Fallen Avenger's Amice]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Upgrade",
+					["boss"] = "Felhounds of Sargeras",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:151949::::::::110:261::6:3:3612:1507:3336:::|h[Soul-Siphon Mantle]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["note"] = "10% nicht bis",
+					["id"] = "1515608238-7",
+				}, -- [15]
+				{
+					["mapID"] = 1712,
+					["date"] = "10/01/18",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "21:24:42",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152157::::::::110:64::5:3:3611:1487:3528:::|h[Gilded Seraph's Leggings]|h|r",
+					["id"] = "1515612282-14",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0.843137254901961, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Upgrade",
+					["boss"] = "Imonar the Soulhunter",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152528::::::::110:64::6:1:569:::|h[Leggings of the Antoran Conqueror]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["tierToken"] = "LegsSlot",
+					["tokenRoll"] = true,
+				}, -- [16]
+				{
+					["mapID"] = 1712,
+					["date"] = "10/01/18",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "21:40:23",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152155::::::::110:64::5:3:3611:1502:3337:::|h[Gilded Seraph's Handwraps]|h|r",
+					["id"] = "1515613223-18",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["response"] = "Reroll",
+					["boss"] = "Kin'garoth",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152522::::::::110:64::6:1:569:::|h[Gauntlets of the Antoran Conqueror]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["isAwardReason"] = false,
+					["responseID"] = 3,
+					["tierToken"] = "HandsSlot",
+					["tokenRoll"] = true,
+				}, -- [17]
+				{
+					["mapID"] = 1712,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["date"] = "26/01/18",
+					["class"] = "PRIEST",
+					["boss"] = "Argus the Unmaker",
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["votes"] = 0,
+					["time"] = "22:06:33",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152789::::::::110:64::6::::|h[Shackled Ur'zul]|h|r",
+					["responseID"] = 1,
+					["response"] = "Mainspec/Need",
+					["id"] = "1516997193-0",
+				}, -- [18]
+				{
+					["mapID"] = 1712,
+					["date"] = "31/01/18",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "20:17:05",
+					["itemReplaced1"] = "|cffa335ee|Hitem:151947::::::::110:64::6:4:3612:43:1512:3336:::|h[Vestments of Enflamed Blight]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Mainspec/Need",
+					["boss"] = "Felhounds of Sargeras",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:151947::::::::110:64::6:3:3612:1527:3337:::|h[Vestments of Enflamed Blight]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["note"] = "11%",
+					["id"] = "1517422625-7",
+				}, -- [19]
+				{
+					["mapID"] = 1530,
+					["date"] = "08/02/18",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["votes"] = 0,
+					["time"] = "21:34:07",
+					["itemReplaced1"] = "|cffa335ee|Hitem:152157::::::::110:64::6:3:3612:1502:3528:::|h[Gilded Seraph's Leggings]|h|r",
+					["id"] = "1518118447-11",
+					["tokenRoll"] = true,
+					["response"] = "Reroll",
+					["tierToken"] = "LegsSlot",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:143564::::::::110:64::6:1:569:::|h[Leggings of the Foreseen Conqueror]|h|r",
+					["instance"] = "The Nighthold-Mythic",
+					["isAwardReason"] = false,
+					["responseID"] = 3,
+					["boss"] = "Gul'dan",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+				}, -- [20]
+				{
+					["mapID"] = 1712,
+					["date"] = "07/03/18",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["isAwardReason"] = false,
+					["time"] = "20:13:43",
+					["relicRoll"] = true,
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["votes"] = 0,
+					["response"] = "Bis",
+					["boss"] = "Garothi Worldbreaker",
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:152028::::::::110:64::6:3:3612:1502:3528:::|h[Spurting Reaver Heart]|h|r",
+					["id"] = "1520446423-3",
+					["itemReplaced1"] = "|cffa335ee|Hitem:155847::::::::110:64::5:3:3611:1507:3336:::|h[Cruor of the Avenger]|h|r",
+					["responseID"] = 1,
+					["color"] = {
+						0, -- [1]
+						0.701960784313726, -- [2]
+						0.109803921568627, -- [3]
+						1, -- [4]
+					},
+					["note"] = "-1 ilvl aber bis Trait;Alt: T1-6. T2-3. T3-2.",
+				}, -- [21]
+				{
+					["mapID"] = 1712,
+					["date"] = "28/03/18",
+					["class"] = "PRIEST",
+					["groupSize"] = 20,
+					["boss"] = "Garothi Worldbreaker",
+					["time"] = "20:07:14",
+					["itemReplaced1"] = "|cffa335ee|Hitem:154177::::::::110:64::3:2:3984:3997:::|h[Norgannon's Prowess]|h|r",
+					["instance"] = "Antorus, the Burning Throne-Mythic",
+					["response"] = "Offspec/Greed",
+					["votes"] = 0,
+					["difficultyID"] = 16,
+					["lootWon"] = "|cffa335ee|Hitem:151956::::::::110:64::6:3:3612:1507:3336:::|h[Garothi Feedback Conduit]|h|r",
+					["id"] = "1522256834-3",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:151962::::::::110:64::6:3:3612:1502:3528:::|h[Prototype Personnel Decimator]|h|r",
+					["isAwardReason"] = false,
+				}, -- [22]
 			},
 			["Zahari-Frostwolf"] = {
 				{
@@ -18529,8 +19171,13 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147057::::::::110:254::6:3:3563:1517:3336:::|h[Pain-Singed Armguards]|h|r",
 					["mapID"] = 1676,
-					["date"] = "04/10/17",
 					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -18541,12 +19188,7 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
+					["date"] = "04/10/17",
 				}, -- [3]
 				{
 					["mapID"] = 1676,
@@ -18647,13 +19289,8 @@ RCLootCouncilLootDB = {
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147112::::::::110:254::6:3:3563:1527:3337:::|h[Felsoul Vortex]|h|r",
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
 					["date"] = "11/10/17",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -18664,7 +19301,12 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["responseID"] = 1,
 					["response"] = "Mainspec/Need",
-					["instance"] = "Tomb of Sargeras-Mythic",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
 				}, -- [8]
 				{
 					["mapID"] = 1676,
@@ -18692,14 +19334,9 @@ RCLootCouncilLootDB = {
 				}, -- [9]
 				{
 					["itemReplaced1"] = "|cffa335ee|Hitem:147052::::::::110:254::6:4:3563:41:1512:3528:::|h[Legguards of Siphoned Power]|h|r",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
 					["date"] = "12/10/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["groupSize"] = 20,
@@ -18709,20 +19346,20 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["boss"] = "Fallen Avatar",
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["mapID"] = 1676,
-				}, -- [10]
-				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
 					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
+						0, -- [1]
+						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "Offspec/Greed",
+					["mapID"] = 1676,
+				}, -- [10]
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:147143::::::::110:254::6:3:3563:1512:3528:::|h[Wildstalker Leggings]|h|r",
 					["date"] = "29/11/17",
+					["response"] = "Offspec/Greed",
+					["instance"] = "Antorus, the Burning Throne-Heroic",
 					["class"] = "HUNTER",
 					["isAwardReason"] = false,
 					["groupSize"] = 22,
@@ -18732,8 +19369,13 @@ RCLootCouncilLootDB = {
 					["boss"] = "Garothi Worldbreaker",
 					["votes"] = 0,
 					["responseID"] = 2,
-					["instance"] = "Antorus, the Burning Throne-Heroic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147143::::::::110:254::6:3:3563:1512:3528:::|h[Wildstalker Leggings]|h|r",
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [11]
 				{
 					["mapID"] = 1712,
@@ -18761,16 +19403,11 @@ RCLootCouncilLootDB = {
 					},
 				}, -- [12]
 				{
-					["relicRoll"] = false,
 					["mapID"] = 1676,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "Mainspec/Need",
+					["itemReplaced1"] = "|cffa335ee|Hitem:147014:5890:151584::::::110:254::5:4:3562:1808:1502:3336:::|h[Locket of Splintered Souls]|h|r",
 					["date"] = "03/12/17",
+					["response"] = "Mainspec/Need",
+					["instance"] = "Tomb of Sargeras-Mythic",
 					["class"] = "HUNTER",
 					["votes"] = 0,
 					["groupSize"] = 20,
@@ -18780,8 +19417,13 @@ RCLootCouncilLootDB = {
 					["difficultyID"] = 16,
 					["isAwardReason"] = false,
 					["responseID"] = 1,
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147014:5890:151584::::::110:254::5:4:3562:1808:1502:3336:::|h[Locket of Splintered Souls]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [13]
 				{
 					["mapID"] = 1712,
@@ -19148,44 +19790,85 @@ RCLootCouncilLootDB = {
 					["id"] = "1520446359-0",
 				}, -- [28]
 			},
-			["Ypzo-Frostwolf"] = {
+			["Deosz-Frostwolf"] = {
 				{
-					["mapID"] = 1676,
+					["instance"] = "Uldir-Normal",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159426::::::::120:64::23:3:4779:1512:4786:::|h[Belt of the Unrelenting Gale]|h|r",
+					["id"] = "1536514518-4",
+					["groupSize"] = 29,
+					["date"] = "09/09/18",
+					["class"] = "WARRIOR",
+					["difficultyID"] = 14,
+					["response"] = "Candidate is selecting response, please wait",
+					["isAwardReason"] = false,
+					["boss"] = "MOTHER",
+					["time"] = "20:35:18",
+					["lootWon"] = "|cffa335ee|Hitem:160638::::::::120:64::3:3:4798:1477:4786:::|h[Decontaminator's Greatbelt]|h|r",
+					["votes"] = 0,
+					["responseID"] = "WAIT",
 					["color"] = {
 						1, -- [1]
-						0.5, -- [2]
-						1, -- [3]
+						1, -- [2]
+						0, -- [3]
 						1, -- [4]
 					},
-					["class"] = "SHAMAN",
-					["groupSize"] = 20,
-					["isAwardReason"] = false,
-					["time"] = "22:05:45",
-					["itemReplaced1"] = "|cffa335ee|Hitem:147176:5436:::::::110:264::5:3:3562:1497:3528:::|h[Drape of the Skybreaker]|h|r",
-					["instance"] = "Tomb of Sargeras-Mythic",
-					["response"] = "Upgrade to existing tier/random upgrade",
-					["date"] = "27/09/17",
-					["difficultyID"] = 16,
-					["lootWon"] = "|cffa335ee|Hitem:147333::::::::110:63::6:1:569:::|h[Cloak of the Foregone Protector]|h|r",
-					["votes"] = 0,
-					["tokenRoll"] = true,
-					["responseID"] = 3,
-					["tierToken"] = "BackSlot",
-					["boss"] = "The Desolate Host",
+					["mapID"] = 1861,
 				}, -- [1]
-			},
-			["Dankdok-TarrenMill"] = {
 				{
-					["relicRoll"] = false,
-					["mapID"] = 1712,
+					["instance"] = "Uldir-Normal",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159288::154127::::::120:64::16:4:5005:4802:1527:4786:::|h[Cloak of the Restless Tribes]|h|r",
+					["id"] = "1536514991-7",
+					["groupSize"] = 28,
+					["date"] = "09/09/18",
+					["class"] = "WARRIOR",
+					["difficultyID"] = 14,
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["boss"] = "Fetid Devourer",
+					["time"] = "20:43:11",
+					["lootWon"] = "|cffa335ee|Hitem:160643::::::::120:64::3:3:4798:1477:4786:::|h[Fetid Horror's Tanglecloak]|h|r",
+					["votes"] = 0,
+					["responseID"] = 1,
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["groupSize"] = 25,
+					["mapID"] = 1861,
+				}, -- [2]
+				{
+					["mapID"] = 1861,
+					["date"] = "09/09/18",
+					["class"] = "WARRIOR",
+					["groupSize"] = 29,
+					["boss"] = "Zek'voz",
+					["time"] = "21:04:24",
+					["itemReplaced1"] = "|cffa335ee|Hitem:159459:5939:::::::120:64::23:3:4779:1512:4786:::|h[Ritual Binder's Ring]|h|r",
+					["instance"] = "Uldir-Normal",
+					["response"] = "Minor Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 14,
+					["lootWon"] = "|cffa335ee|Hitem:160647::::::::120:64::3:3:4798:1477:4786:::|h[Ring of the Infinite Void]|h|r",
+					["id"] = "1536516264-17",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0.86, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 2,
+					["itemReplaced2"] = "|cffa335ee|Hitem:159462:5939:::::::120:64::23:3:4779:1512:4786:::|h[Footbomb Championship Ring]|h|r",
+					["votes"] = 0,
+				}, -- [3]
+			},
+			["Dankdok-TarrenMill"] = {
+				{
+					["mapID"] = 1712,
+					["itemReplaced1"] = "|cffa335ee|Hitem:152766::::::::110:263:::4:1692:3629:1472:3528:::|h[Oronaar Disciple's Boots of the Fireflash]|h|r",
 					["date"] = "30/11/17",
+					["groupSize"] = 25,
+					["instance"] = "Antorus, the Burning Throne-Normal",
 					["class"] = "SHAMAN",
 					["isAwardReason"] = false,
 					["response"] = "Mainspec/Need",
@@ -19195,8 +19878,13 @@ RCLootCouncilLootDB = {
 					["lootWon"] = "|cffa335ee|Hitem:152684::::::::110:64::3:3:3610:1472:3528:::|h[Greatboots of the Searing Tempest]|h|r",
 					["boss"] = "Aggramar",
 					["responseID"] = 1,
-					["instance"] = "Antorus, the Burning Throne-Normal",
-					["itemReplaced1"] = "|cffa335ee|Hitem:152766::::::::110:263:::4:1692:3629:1472:3528:::|h[Oronaar Disciple's Boots of the Fireflash]|h|r",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["relicRoll"] = false,
 				}, -- [1]
 				{
 					["mapID"] = 1712,

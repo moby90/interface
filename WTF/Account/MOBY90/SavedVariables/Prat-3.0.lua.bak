@@ -483,11 +483,11 @@ Prat3DB = {
 			["modules"] = {
 				["Sounds"] = 2,
 				["ChatTabs"] = 3,
-				["Alias"] = 2,
+				["AltNames"] = 2,
 				["OriginalButtons"] = 2,
 				["PopupMessage"] = 2,
+				["Alias"] = 2,
 				["ChatLog"] = 2,
-				["AltNames"] = 2,
 				["KeyBindings"] = 2,
 			},
 		},

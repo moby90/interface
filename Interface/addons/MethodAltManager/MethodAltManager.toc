@@ -1,8 +1,8 @@
-## Interface: 80000
+## Interface: 70300
 ## Title: Method Alt Manager
 ## Author: Qoning
 ## Version: v1
-## Notes: Concise information about your alts and weekly stuff.
+## Notes: This is a note
 ## SavedVariables: MethodAltManagerDB
 
 MethodAltManager.lua

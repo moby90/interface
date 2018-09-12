@@ -308,3 +308,4 @@ flyPlateBuffs: disabled
 StealPurgeDispel: disabled
 bdCore: disabled
 bdNameplates: disabled
+WhatDidIDispel2: enabled

@@ -7,12 +7,12 @@ CliqueDB3 = {
 		},
 		["Taobaibai - Frostwolf"] = {
 			["spec1_profileKey"] = "Taobaibai - Frostwolf",
-			["spec3_profileKey"] = "Taobaibai - Frostwolf",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Taobaibai - Frostwolf",
-			["specswap"] = false,
 			["alerthidden"] = true,
+			["spec3_profileKey"] = "Taobaibai - Frostwolf",
+			["spec2_profileKey"] = "Taobaibai - Frostwolf",
 		},
 		["Solarius - Frostwolf"] = {
 			["alerthidden"] = true,
@@ -20,11 +20,11 @@ CliqueDB3 = {
 		["Laru - Frostwolf"] = {
 			["spec1_profileKey"] = "Laru - Frostwolf",
 			["fastooc"] = false,
-			["spec3_profileKey"] = "Laru - Frostwolf",
-			["downclick"] = false,
-			["spec2_profileKey"] = "Laru - Frostwolf",
 			["specswap"] = false,
+			["downclick"] = false,
 			["alerthidden"] = true,
+			["spec3_profileKey"] = "Laru - Frostwolf",
+			["spec2_profileKey"] = "Laru - Frostwolf",
 		},
 	},
 	["profileKeys"] = {
@@ -318,24 +318,6 @@ CliqueDB3 = {
 		["Taobaibai - Frostwolf"] = {
 			["bindings"] = {
 				{
-					["spell"] = "Power Word: Shield",
-					["key"] = "BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135940,
-					["type"] = "spell",
-				}, -- [1]
-				{
-					["spell"] = "Shadow Mend",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136202,
-					["type"] = "spell",
-				}, -- [2]
-				{
 					["spell"] = "Power Word: Radiance",
 					["key"] = "C",
 					["sets"] = {
@@ -343,7 +325,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 1386546,
 					["type"] = "spell",
-				}, -- [3]
+				}, -- [1]
+				{
+					["spell"] = "Prayer of Mending",
+					["key"] = "BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135944,
+					["type"] = "spell",
+				}, -- [2]
 				{
 					["spell"] = "Pain Suppression",
 					["key"] = "NUMPAD5",
@@ -352,7 +343,25 @@ CliqueDB3 = {
 					},
 					["icon"] = 135936,
 					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Shadow Mend",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136202,
+					["type"] = "spell",
 				}, -- [4]
+				{
+					["spell"] = "Power Word: Shield",
+					["key"] = "BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135940,
+					["type"] = "spell",
+				}, -- [5]
 			},
 		},
 		["Blaustrumpf - Frostwolf"] = {
@@ -393,12 +402,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [2]
 				{
-					["spell"] = "Blessing of Protection",
-					["key"] = "SHIFT-E",
+					["spell"] = "Blessing of Freedom",
+					["key"] = "SHIFT-F",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135964,
+					["icon"] = 135968,
 					["type"] = "spell",
 				}, -- [3]
 				{
@@ -420,21 +429,21 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [5]
 				{
-					["spell"] = "Blessing of Freedom",
-					["key"] = "SHIFT-F",
+					["spell"] = "Blessing of Protection",
+					["key"] = "SHIFT-E",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135968,
+					["icon"] = 135964,
 					["type"] = "spell",
 				}, -- [6]
 				{
-					["spell"] = "Bestow Faith",
-					["key"] = "E",
+					["spell"] = "Cleanse",
+					["key"] = "G",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 236249,
+					["icon"] = 135949,
 					["type"] = "spell",
 				}, -- [7]
 				{
@@ -465,12 +474,12 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [10]
 				{
-					["spell"] = "Cleanse",
-					["key"] = "G",
+					["spell"] = "Bestow Faith",
+					["key"] = "E",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135949,
+					["icon"] = 236249,
 					["type"] = "spell",
 				}, -- [11]
 				{
